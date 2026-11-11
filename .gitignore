@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv*/
+.python-cad/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.swp
+
+# Archivos voluminosos o redistribución pendiente de revisión.
+*.zip
+*.deb
+*.msh
+investigacion-aeronautica/fuentes/**/*.pdf
