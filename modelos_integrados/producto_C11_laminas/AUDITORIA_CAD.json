@@ -1,0 +1,26 @@
+{
+  "scope": "Reapertura, reimportacion y centros; no equivalencia global ni mecanismo",
+  "states": [
+    {
+      "state": "cerrado",
+      "native_count": 9,
+      "step_count": 9,
+      "invalid_native": [],
+      "invalid_step": []
+    },
+    {
+      "state": "elevado_60",
+      "native_count": 9,
+      "step_count": 9,
+      "invalid_native": [],
+      "invalid_step": []
+    }
+  ],
+  "center_errors_mm": {
+    "lamina_0": 8.760159180054893e-14,
+    "lamina_1": 1.0634429903501374e-13,
+    "lamina_2": 6.51223174224333e-14,
+    "lamina_3": 7.140866117879973e-14,
+    "rotor": 0.0
+  }
+}

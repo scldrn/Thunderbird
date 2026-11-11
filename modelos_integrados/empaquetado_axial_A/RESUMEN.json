@@ -1,0 +1,623 @@
+{
+  "source_shape_script_sha256": "fa291b01b573380a1540527673ebf766791fdc9c564c04dcd5439127c817ffa2",
+  "source_stack_report_sha256": "184ce7421fe41e47068d3c2db8b3792460d9dccbc1a587c5ab69cad8bff1381a",
+  "search": {
+    "half_pitch_mm": [
+      65,
+      76,
+      86,
+      96
+    ],
+    "fore_aft_grid_mm": 25,
+    "minimum_abs_station_x_mm": 100,
+    "maximum_abs_station_x_mm": 350,
+    "geometry": "Same styling hull; four-bank mechanical sweeps, shafts, rotor disc and motor surrogate. Positive-y tested; negative-y requires separate final checks."
+  },
+  "all_station_pairs_controlled": [
+    {
+      "half_pitch_mm": 65.0,
+      "fore": -350,
+      "aft": 275,
+      "span": 625,
+      "imbalance": 0.12,
+      "axial_outer_diameter_limit_mm": 42.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 38.0,
+      "capacity_sufficient_coarse_N": 21.504860078578947,
+      "control_case": "b65_coarse_0",
+      "positions_m": [
+        [
+          -0.35,
+          -0.065,
+          0.007
+        ],
+        [
+          -0.35,
+          0.065,
+          0.007
+        ],
+        [
+          0.275,
+          -0.065,
+          0.007
+        ],
+        [
+          0.275,
+          0.065,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "fore": -325,
+      "aft": 275,
+      "span": 600,
+      "imbalance": 0.08333333333333333,
+      "axial_outer_diameter_limit_mm": 42.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 38.0,
+      "capacity_sufficient_coarse_N": 21.13076700047466,
+      "control_case": "b65_coarse_1",
+      "positions_m": [
+        [
+          -0.325,
+          -0.065,
+          0.007
+        ],
+        [
+          -0.325,
+          0.065,
+          0.007
+        ],
+        [
+          0.275,
+          -0.065,
+          0.007
+        ],
+        [
+          0.275,
+          0.065,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "fore": -300,
+      "aft": 275,
+      "span": 575,
+      "imbalance": 0.043478260869565216,
+      "axial_outer_diameter_limit_mm": 42.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 38.0,
+      "capacity_sufficient_coarse_N": 21.130767000360155,
+      "control_case": "b65_coarse_2",
+      "positions_m": [
+        [
+          -0.3,
+          -0.065,
+          0.007
+        ],
+        [
+          -0.3,
+          0.065,
+          0.007
+        ],
+        [
+          0.275,
+          -0.065,
+          0.007
+        ],
+        [
+          0.275,
+          0.065,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "fore": -275,
+      "aft": 275,
+      "span": 550,
+      "imbalance": 0.0,
+      "axial_outer_diameter_limit_mm": 42.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 38.0,
+      "capacity_sufficient_coarse_N": 21.13076700046085,
+      "control_case": "b65_coarse_3",
+      "positions_m": [
+        [
+          -0.275,
+          -0.065,
+          0.007
+        ],
+        [
+          -0.275,
+          0.065,
+          0.007
+        ],
+        [
+          0.275,
+          -0.065,
+          0.007
+        ],
+        [
+          0.275,
+          0.065,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "fore": -300,
+      "aft": 200,
+      "span": 500,
+      "imbalance": 0.2,
+      "axial_outer_diameter_limit_mm": 64.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 60.0,
+      "capacity_sufficient_coarse_N": 23.163878176751545,
+      "control_case": "b76_coarse_0",
+      "positions_m": [
+        [
+          -0.3,
+          -0.076,
+          0.007
+        ],
+        [
+          -0.3,
+          0.076,
+          0.007
+        ],
+        [
+          0.2,
+          -0.076,
+          0.007
+        ],
+        [
+          0.2,
+          0.076,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "fore": -275,
+      "aft": 200,
+      "span": 475,
+      "imbalance": 0.15789473684210525,
+      "axial_outer_diameter_limit_mm": 64.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 60.0,
+      "capacity_sufficient_coarse_N": 22.41631384228199,
+      "control_case": "b76_coarse_1",
+      "positions_m": [
+        [
+          -0.275,
+          -0.076,
+          0.007
+        ],
+        [
+          -0.275,
+          0.076,
+          0.007
+        ],
+        [
+          0.2,
+          -0.076,
+          0.007
+        ],
+        [
+          0.2,
+          0.076,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "fore": -250,
+      "aft": 200,
+      "span": 450,
+      "imbalance": 0.1111111111111111,
+      "axial_outer_diameter_limit_mm": 64.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 60.0,
+      "capacity_sufficient_coarse_N": 21.584741574075125,
+      "control_case": "b76_coarse_2",
+      "positions_m": [
+        [
+          -0.25,
+          -0.076,
+          0.007
+        ],
+        [
+          -0.25,
+          0.076,
+          0.007
+        ],
+        [
+          0.2,
+          -0.076,
+          0.007
+        ],
+        [
+          0.2,
+          0.076,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "fore": -225,
+      "aft": 200,
+      "span": 425,
+      "imbalance": 0.058823529411764705,
+      "axial_outer_diameter_limit_mm": 64.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 60.0,
+      "capacity_sufficient_coarse_N": 20.748723385146782,
+      "control_case": "b76_coarse_3",
+      "positions_m": [
+        [
+          -0.225,
+          -0.076,
+          0.007
+        ],
+        [
+          -0.225,
+          0.076,
+          0.007
+        ],
+        [
+          0.2,
+          -0.076,
+          0.007
+        ],
+        [
+          0.2,
+          0.076,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "fore": -200,
+      "aft": 200,
+      "span": 400,
+      "imbalance": 0.0,
+      "axial_outer_diameter_limit_mm": 64.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 60.0,
+      "capacity_sufficient_coarse_N": 20.73371070126182,
+      "control_case": "b76_coarse_4",
+      "positions_m": [
+        [
+          -0.2,
+          -0.076,
+          0.007
+        ],
+        [
+          -0.2,
+          0.076,
+          0.007
+        ],
+        [
+          0.2,
+          -0.076,
+          0.007
+        ],
+        [
+          0.2,
+          0.076,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "fore": -225,
+      "aft": 100,
+      "span": 325,
+      "imbalance": 0.38461538461538464,
+      "axial_outer_diameter_limit_mm": 84.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 80.0,
+      "capacity_sufficient_coarse_N": 27.114138254649035,
+      "control_case": "b86_coarse_0",
+      "positions_m": [
+        [
+          -0.225,
+          -0.086,
+          0.007
+        ],
+        [
+          -0.225,
+          0.086,
+          0.007
+        ],
+        [
+          0.1,
+          -0.086,
+          0.007
+        ],
+        [
+          0.1,
+          0.086,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "fore": -200,
+      "aft": 100,
+      "span": 300,
+      "imbalance": 0.3333333333333333,
+      "axial_outer_diameter_limit_mm": 84.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 80.0,
+      "capacity_sufficient_coarse_N": 26.25299986647925,
+      "control_case": "b86_coarse_1",
+      "positions_m": [
+        [
+          -0.2,
+          -0.086,
+          0.007
+        ],
+        [
+          -0.2,
+          0.086,
+          0.007
+        ],
+        [
+          0.1,
+          -0.086,
+          0.007
+        ],
+        [
+          0.1,
+          0.086,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "fore": -175,
+      "aft": 100,
+      "span": 275,
+      "imbalance": 0.2727272727272727,
+      "axial_outer_diameter_limit_mm": 84.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 80.0,
+      "capacity_sufficient_coarse_N": 25.235800581326615,
+      "control_case": "b86_coarse_2",
+      "positions_m": [
+        [
+          -0.175,
+          -0.086,
+          0.007
+        ],
+        [
+          -0.175,
+          0.086,
+          0.007
+        ],
+        [
+          0.1,
+          -0.086,
+          0.007
+        ],
+        [
+          0.1,
+          0.086,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "fore": -150,
+      "aft": 100,
+      "span": 250,
+      "imbalance": 0.2,
+      "axial_outer_diameter_limit_mm": 84.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 80.0,
+      "capacity_sufficient_coarse_N": 24.012419105812388,
+      "control_case": "b86_coarse_3",
+      "positions_m": [
+        [
+          -0.15,
+          -0.086,
+          0.007
+        ],
+        [
+          -0.15,
+          0.086,
+          0.007
+        ],
+        [
+          0.1,
+          -0.086,
+          0.007
+        ],
+        [
+          0.1,
+          0.086,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "fore": -125,
+      "aft": 100,
+      "span": 225,
+      "imbalance": 0.1111111111111111,
+      "axial_outer_diameter_limit_mm": 84.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 80.0,
+      "capacity_sufficient_coarse_N": 22.51347531872681,
+      "control_case": "b86_coarse_4",
+      "positions_m": [
+        [
+          -0.125,
+          -0.086,
+          0.007
+        ],
+        [
+          -0.125,
+          0.086,
+          0.007
+        ],
+        [
+          0.1,
+          -0.086,
+          0.007
+        ],
+        [
+          0.1,
+          0.086,
+          0.007
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "fore": -100,
+      "aft": 100,
+      "span": 200,
+      "imbalance": 0.0,
+      "axial_outer_diameter_limit_mm": 84.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 80.0,
+      "capacity_sufficient_coarse_N": 20.718194862093444,
+      "control_case": "b86_coarse_5",
+      "positions_m": [
+        [
+          -0.1,
+          -0.086,
+          0.007
+        ],
+        [
+          -0.1,
+          0.086,
+          0.007
+        ],
+        [
+          0.1,
+          -0.086,
+          0.007
+        ],
+        [
+          0.1,
+          0.086,
+          0.007
+        ]
+      ]
+    }
+  ],
+  "selected_finite_search_candidates": [
+    {
+      "half_pitch_mm": 65.0,
+      "fore": -300,
+      "aft": 275,
+      "span": 575,
+      "imbalance": 0.043478260869565216,
+      "axial_outer_diameter_limit_mm": 42.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 38.0,
+      "capacity_sufficient_coarse_N": 21.130767000360155,
+      "control_case": "b65_coarse_2",
+      "positions_m": [
+        [
+          -0.3,
+          -0.065,
+          0.007
+        ],
+        [
+          -0.3,
+          0.065,
+          0.007
+        ],
+        [
+          0.275,
+          -0.065,
+          0.007
+        ],
+        [
+          0.275,
+          0.065,
+          0.007
+        ]
+      ],
+      "capacity_sufficient_refined_N": 20.77800507954455,
+      "refined_control_case": "b65_refined"
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "fore": -200,
+      "aft": 200,
+      "span": 400,
+      "imbalance": 0.0,
+      "axial_outer_diameter_limit_mm": 64.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 60.0,
+      "capacity_sufficient_coarse_N": 20.73371070126182,
+      "control_case": "b76_coarse_4",
+      "positions_m": [
+        [
+          -0.2,
+          -0.076,
+          0.007
+        ],
+        [
+          -0.2,
+          0.076,
+          0.007
+        ],
+        [
+          0.2,
+          -0.076,
+          0.007
+        ],
+        [
+          0.2,
+          0.076,
+          0.007
+        ]
+      ],
+      "capacity_sufficient_refined_N": 20.432006426881777,
+      "refined_control_case": "b76_refined"
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "fore": -100,
+      "aft": 100,
+      "span": 200,
+      "imbalance": 0.0,
+      "axial_outer_diameter_limit_mm": 84.0,
+      "axial_diameter_with_2mm_radial_margin_mm": 80.0,
+      "capacity_sufficient_coarse_N": 20.718194862093444,
+      "control_case": "b86_coarse_5",
+      "positions_m": [
+        [
+          -0.1,
+          -0.086,
+          0.007
+        ],
+        [
+          -0.1,
+          0.086,
+          0.007
+        ],
+        [
+          0.1,
+          -0.086,
+          0.007
+        ],
+        [
+          0.1,
+          0.086,
+          0.007
+        ]
+      ],
+      "capacity_sufficient_refined_N": 20.25615853186497,
+      "refined_control_case": "b86_refined"
+    }
+  ],
+  "baseline_same_stack_capacity_N": 20.778005079541952,
+  "scope": "Finite geometry grid with a geometric Pareto prefilter, then ideal control screening. No global optimum; omitted dominated geometric pairs can have different control costs. No installed rotor, support/servo, axial mass-flow, pressure or external aerodynamic validation.",
+  "selected_by_user": false
+}

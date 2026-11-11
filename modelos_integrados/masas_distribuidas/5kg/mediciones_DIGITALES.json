@@ -1,0 +1,161 @@
+{
+  "target_mass_kg": 5,
+  "units": "m, kg, s; STEP mm",
+  "L_m": 1.197883627396524,
+  "D_m": 0.19964727123275403,
+  "rotor_diameter_m": 0.4572,
+  "rotor_centers_m": [
+    [
+      -0.299470906849131,
+      -0.2823438786681406,
+      -0.2823438786681406
+    ],
+    [
+      -0.299470906849131,
+      -0.2823438786681406,
+      0.2823438786681406
+    ],
+    [
+      -0.299470906849131,
+      0.2823438786681406,
+      -0.2823438786681406
+    ],
+    [
+      -0.299470906849131,
+      0.2823438786681406,
+      0.2823438786681406
+    ],
+    [
+      0.299470906849131,
+      -0.2823438786681406,
+      -0.2823438786681406
+    ],
+    [
+      0.299470906849131,
+      -0.2823438786681406,
+      0.2823438786681406
+    ],
+    [
+      0.299470906849131,
+      0.2823438786681406,
+      -0.2823438786681406
+    ],
+    [
+      0.299470906849131,
+      0.2823438786681406,
+      0.2823438786681406
+    ]
+  ],
+  "rotor_axes": [
+    [
+      -0.5974109849957083,
+      0.6241850911906793,
+      0.5034809697910546
+    ],
+    [
+      0.5974109849957083,
+      -0.6241850911906793,
+      0.5034809697910546
+    ],
+    [
+      0.5974109849957083,
+      0.6241850911906793,
+      -0.5034809697910546
+    ],
+    [
+      -0.5974109849957083,
+      -0.6241850911906793,
+      -0.5034809697910546
+    ],
+    [
+      -0.5974109849957083,
+      -0.6241850911906793,
+      -0.5034809697910546
+    ],
+    [
+      0.5974109849957083,
+      0.6241850911906793,
+      -0.5034809697910546
+    ],
+    [
+      0.5974109849957083,
+      -0.6241850911906793,
+      0.5034809697910546
+    ],
+    [
+      -0.5974109849957083,
+      0.6241850911906793,
+      0.5034809697910546
+    ]
+  ],
+  "wing_oneplane_m2": 0.10937412094388463,
+  "tail_oneplane_m2": 0.06261042248570065,
+  "assumptions": [
+    "Densidad global 200 kg/m3 solo fija volumen exterior",
+    "Rotores 10kg: escalado geom\u00e9trico, sin motor seleccionado",
+    "Masas estimadas, ninguna pesada",
+    "Configuraci\u00f3n desplegada; sin mecanismo de retracci\u00f3n resuelto"
+  ],
+  "geometric_mass_kg": 4.858221255563451,
+  "allowances_kg": {
+    "avionica_cableado": 0.2,
+    "instalacion_reactor": 0.15,
+    "integracion_bateria": 0.04,
+    "reserva": 0.25
+  },
+  "total_budget_kg": 5.49822125556345,
+  "missing_mass_items": [
+    "buje paso variable",
+    "mecanismos plegado",
+    "deposito",
+    "toma y tobera",
+    "refuerzos de aberturas"
+  ],
+  "CG_geometric_components_only_m": [
+    0.05173209694390086,
+    4.2848360782010926e-18,
+    -0.002087183655620488
+  ],
+  "inertia_geometric_components_only_kgm2": [
+    [
+      0.24263122602733514,
+      -6.295684176540316e-18,
+      8.276353607889364e-05
+    ],
+    [
+      -6.295684176540316e-18,
+      0.4996063475379552,
+      3.9023263116124235e-19
+    ],
+    [
+      8.276353607889364e-05,
+      3.9023263116124235e-19,
+      0.4960031762573996
+    ]
+  ],
+  "bounds_deployed_m": [
+    1.5940982759290259,
+    0.9293775949571002,
+    0.9657532163765522
+  ],
+  "intersection_count": 8,
+  "internal_containment": [
+    {
+      "componente": "envolvente_reactor",
+      "volumen_fuera_fuselaje_m3": 0.0
+    },
+    {
+      "componente": "bateria_1",
+      "volumen_fuera_fuselaje_m3": 0.0
+    },
+    {
+      "componente": "bateria_2",
+      "volumen_fuera_fuselaje_m3": 0.0
+    },
+    {
+      "componente": "combustible_sin_deposito",
+      "volumen_fuera_fuselaje_m3": 0.0
+    }
+  ],
+  "mass_model_note": "Assumed two uniform rectangular blades, spin averaged; motor uniform cylinder; servo and ESC point masses at motor center. No hub or motor spinning inertia."
+}

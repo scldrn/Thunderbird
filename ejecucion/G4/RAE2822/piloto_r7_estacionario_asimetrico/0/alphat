@@ -1,0 +1,4 @@
+FoamFile { version 2.0; format ascii; class volScalarField; object alphat; }
+dimensions [1 -1 -1 0 0 0 0]; internalField uniform 1.91482193578891e-05;
+boundaryField { "(farfield|outlet)" { type calculated; value uniform 1.91482193578891e-05; }
+ airfoil { type compressible::alphatWallFunction; Prt 0.85; value uniform 0; } frontAndBack { type empty; } }

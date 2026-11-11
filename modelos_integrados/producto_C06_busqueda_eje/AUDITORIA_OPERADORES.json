@@ -1,0 +1,5 @@
+{
+  "scope": "geometrias analiticas sinteticas para bounding box, booleanos y transformacion; no valida C03",
+  "checks": 7,
+  "passed": true
+}

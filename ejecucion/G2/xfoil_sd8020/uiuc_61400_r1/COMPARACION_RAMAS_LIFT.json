@@ -1,0 +1,111 @@
+{
+  "scope": "Same-angle interpolation between separate UIUC lift/drag runs and exploratory XFOIL; not matched uncertainty or acceptance",
+  "lift_Re": 60600,
+  "drag_run_Re": 61400,
+  "relative_Re_difference": -0.013029315960912053,
+  "source_revision_note": "UIUC webpage reports Vols1-2 updates in 1998; local source files were not byte-compared online during this run",
+  "no_alpha_extrapolation": true,
+  "lift_branches_kept_separate": true,
+  "individual_runs_not_assumed_identical": true,
+  "physical_fan_acceptance": false,
+  "interpolation_test_pass": true,
+  "cl_RMSE_vs_lift_ascending": 0.0992566646359879,
+  "cl_RMSE_vs_lift_descending": 0.09243938482036572,
+  "source_sha256": {
+    "fuentes/uiuc/SD8020.LFT": "a3f2f1a146c89fd4edbb585ddbe75e19673c6e524b8e66c5e7101c4ba4c684cf",
+    "ejecucion/G2/xfoil_sd8020/uiuc_61400_r1/RESULTADOS.json": "258e88198c7c17097288a2a50fc31f679e3d2ab64824c53c4e8f5bbae8a5485f",
+    "ejecucion/G2/xfoil_sd8020/comparar_ramas_UIUC.py": "6e4ef690c366898a7c67070279fff85e287027b6ef651ded88d57810e4012a7e"
+  },
+  "points": [
+    {
+      "alpha_deg": -6.45,
+      "lift_ascending_Re60600": -0.6655714285714286,
+      "lift_descending_Re60600": -0.6675370370370372,
+      "drag_run_lift_Re61400": -0.609,
+      "xfoil_lift_Re61400": -0.7085,
+      "xfoil_minus_lift_ascending": -0.04292857142857143,
+      "xfoil_minus_lift_descending": -0.04096296296296287
+    },
+    {
+      "alpha_deg": -4.94,
+      "lift_ascending_Re60600": -0.5544358974358975,
+      "lift_descending_Re60600": -0.5448863636363637,
+      "drag_run_lift_Re61400": -0.49,
+      "xfoil_lift_Re61400": -0.5851,
+      "xfoil_minus_lift_ascending": -0.030664102564102458,
+      "xfoil_minus_lift_descending": -0.040213636363636285
+    },
+    {
+      "alpha_deg": -3.36,
+      "lift_ascending_Re60600": -0.40599999999999997,
+      "lift_descending_Re60600": -0.399875,
+      "drag_run_lift_Re61400": -0.34,
+      "xfoil_lift_Re61400": -0.4612,
+      "xfoil_minus_lift_ascending": -0.05520000000000003,
+      "xfoil_minus_lift_descending": -0.06132500000000002
+    },
+    {
+      "alpha_deg": -1.81,
+      "lift_ascending_Re60600": -0.18800000000000003,
+      "lift_descending_Re60600": -0.19954166666666667,
+      "drag_run_lift_Re61400": -0.094,
+      "xfoil_lift_Re61400": -0.1478,
+      "xfoil_minus_lift_ascending": 0.04020000000000004,
+      "xfoil_minus_lift_descending": 0.051741666666666686
+    },
+    {
+      "alpha_deg": -0.29,
+      "lift_ascending_Re60600": -0.04714754098360656,
+      "lift_descending_Re60600": -0.03820338983050847,
+      "drag_run_lift_Re61400": 0.03,
+      "xfoil_lift_Re61400": 0.0022,
+      "xfoil_minus_lift_ascending": 0.04934754098360656,
+      "xfoil_minus_lift_descending": 0.04040338983050847
+    },
+    {
+      "alpha_deg": 1.17,
+      "lift_ascending_Re60600": 0.02987804878048779,
+      "lift_descending_Re60600": 0.010818181818181824,
+      "drag_run_lift_Re61400": 0.105,
+      "xfoil_lift_Re61400": 0.0138,
+      "xfoil_minus_lift_ascending": -0.01607804878048779,
+      "xfoil_minus_lift_descending": 0.0029818181818181758
+    },
+    {
+      "alpha_deg": 2.72,
+      "lift_ascending_Re60600": 0.2553207547169811,
+      "lift_descending_Re60600": 0.2548064516129032,
+      "drag_run_lift_Re61400": 0.36,
+      "xfoil_lift_Re61400": 0.4003,
+      "xfoil_minus_lift_ascending": 0.14497924528301886,
+      "xfoil_minus_lift_descending": 0.14549354838709677
+    },
+    {
+      "alpha_deg": 4.38,
+      "lift_ascending_Re60600": 0.3925769230769231,
+      "lift_descending_Re60600": 0.41118604651162793,
+      "drag_run_lift_Re61400": 0.508,
+      "xfoil_lift_Re61400": 0.5412,
+      "xfoil_minus_lift_ascending": 0.1486230769230769,
+      "xfoil_minus_lift_descending": 0.13001395348837208
+    },
+    {
+      "alpha_deg": 5.89,
+      "lift_ascending_Re60600": 0.5188245614035087,
+      "lift_descending_Re60600": 0.5320333333333334,
+      "drag_run_lift_Re61400": 0.632,
+      "xfoil_lift_Re61400": 0.6621,
+      "xfoil_minus_lift_ascending": 0.14327543859649128,
+      "xfoil_minus_lift_descending": 0.13006666666666666
+    },
+    {
+      "alpha_deg": 7.4,
+      "lift_ascending_Re60600": 0.6264000000000001,
+      "lift_descending_Re60600": 0.6455454545454546,
+      "drag_run_lift_Re61400": 0.743,
+      "xfoil_lift_Re61400": 0.7837,
+      "xfoil_minus_lift_ascending": 0.15729999999999988,
+      "xfoil_minus_lift_descending": 0.1381545454545453
+    }
+  ]
+}

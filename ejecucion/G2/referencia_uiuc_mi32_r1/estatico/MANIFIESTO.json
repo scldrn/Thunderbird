@@ -1,0 +1,13 @@
+{
+  "alcance": "Referencia de hélice abierta; no valida C02",
+  "origen_paquete": "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas",
+  "registro_revision": "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040808Z_57ad9241/qa_uiuc_estatico/EJECUCION.json",
+  "archivos_sha256": {
+    "README.md": "14eb062bd72de7f4c703fe5bcd693f3d29547735324e241aa4bef066e7de551a",
+    "analizar.py": "57866c96267e1cc0a49179003b8f80299147372fbc584130a77cc5b9818c8557",
+    "datos/mi_3.2x2.2_geom.txt": "a709e55616905f8e626f4d83fa05d97f2e316e684afa418de972c38301ec3b61",
+    "datos/mi_3.2x2.2_static_0519rd.txt": "bfba6a17672b48b81d3fb1268c6d2156dda8070d1fb08d6a265241a82fa3a184",
+    "puntos.csv": "802a8a23004127364df68733776cd5c84497ee77cc798700fe0ee5c1ca1df791",
+    "test_analizar.py": "38bd783f3c0d5f8ac78a52394d750e94bbb90e3e1180653cada2c745dca6145f"
+  }
+}

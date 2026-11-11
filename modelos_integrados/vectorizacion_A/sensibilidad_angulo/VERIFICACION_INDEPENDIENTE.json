@@ -1,0 +1,56 @@
+{
+  "cases_checked": 6,
+  "vertices_checked": 9216,
+  "checks": [
+    {
+      "name": "base_2kg_cono_35deg",
+      "vertices": 1536,
+      "max_direct_wrench_error": 4.527461072711958e-09,
+      "minimum_outer_facet_distance": 1.0000000000009996,
+      "cap_force_N": 8.028609473857024
+    },
+    {
+      "name": "base_2kg_cono_40deg",
+      "vertices": 1536,
+      "max_direct_wrench_error": 3.391527059193322e-09,
+      "minimum_outer_facet_distance": 1.0000000000009996,
+      "cap_force_N": 8.028609473847565
+    },
+    {
+      "name": "base_5kg_cono_35deg",
+      "vertices": 1536,
+      "max_direct_wrench_error": 1.9639031734186574e-08,
+      "minimum_outer_facet_distance": 1.0000000000009996,
+      "cap_force_N": 20.577665420985888
+    },
+    {
+      "name": "base_5kg_cono_40deg",
+      "vertices": 1536,
+      "max_direct_wrench_error": 2.2142131683722255e-08,
+      "minimum_outer_facet_distance": 1.0000000000009996,
+      "cap_force_N": 20.577665420971
+    },
+    {
+      "name": "base_10kg_cono_35deg",
+      "vertices": 1536,
+      "max_direct_wrench_error": 5.3714188652520534e-08,
+      "minimum_outer_facet_distance": 1.0000000000009996,
+      "cap_force_N": 42.155027197703475
+    },
+    {
+      "name": "base_10kg_cono_40deg",
+      "vertices": 1536,
+      "max_direct_wrench_error": 4.9353246822647634e-08,
+      "minimum_outer_facet_distance": 1.0000000000009996,
+      "cap_force_N": 42.15502719777029
+    }
+  ],
+  "tangent_force_over_mg": [
+    0.4330127018922193,
+    0.0,
+    0.75
+  ],
+  "tangent_ball_distance_g": 0.49999999999999994,
+  "tangent_angle_deg": 29.999999999999996,
+  "interpretation": "Numerical allocations and convex coverage verified under ideal positive-cone assumptions; no installed validation."
+}

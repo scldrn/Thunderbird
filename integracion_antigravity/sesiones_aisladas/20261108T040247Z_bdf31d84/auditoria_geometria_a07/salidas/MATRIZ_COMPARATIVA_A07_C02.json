@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "titulo": "Matriz Comparativa Canónica: CAD Conceptual A07 vs Candidata C02",
+    "fecha": "2026-11-07",
+    "directorio_origen": "entradas/investigacion-aeronautica",
+    "alcance": "Auditoría estricta por lectura de archivos de configuración, código y documentación histórica"
+  },
+  "clasificacion_epistemica": {
+    "medido": "Intersección booleana CAD, dimensión explícita de código/archivo o recuento directo de entidades",
+    "supuesto": "Hipótesis de cálculo, objetivo de diseño o parámetro cinemático impuesto sin mecanismo físico",
+    "calculo": "Propagación analítica, estimación por fórmulas o simulación ideal sobre supuestos",
+    "desconocido": "Parámetro nulo (null), no calificado, no asignado o componente aún no sintetizado"
+  },
+  "parametros": [
+    {
+      "parametro": "Identificador de Configuración",
+      "valor_A07": "A07_RESEARCH_BASE_2026-11-03_r1 (A07_BASE.json)",
+      "valor_C02": "C02_COMPACTA_x160_5kg_2026-11-03_r2",
+      "estado_comparacion": "Diferente (C02 es rama candidata separada de empaquetado; A07 es la línea base canónica)",
+      "categoria_epistemica": "Medido / Definido",
+      "unidades": "N/A",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:3; PLAN-MAESTRO.md:4",
+      "fuente_C02": "C02_CANDIDATA.json:52-55; DECISION-ARQUITECTURA.md:115-117"
+    },
+    {
+      "parametro": "Arquitectura General",
+      "valor_A07": "A_internal_fans (Ventiladores internos fijos dentro del fuselaje)",
+      "valor_C02": "A_internal_fans (Ventiladores internos fijos dentro del fuselaje)",
+      "estado_comparacion": "Idéntico (Ambos conservan la arquitectura A aprobada por el usuario)",
+      "categoria_epistemica": "Definido / Aprobado",
+      "unidades": "N/A",
+      "fuente_A07": "LEEME.md:3; DECISION-ARQUITECTURA.md:9; PLAN-MAESTRO.md:23",
+      "fuente_C02": "C02_CANDIDATA.json:2; DECISION-ARQUITECTURA.md:117"
+    },
+    {
+      "parametro": "Sistema de Coordenadas CAD",
+      "valor_A07": "x longitudinal (nariz en x negativo, cola en x positivo), y lateral, z vertical (+z arriba)",
+      "valor_C02": "x longitudinal (nariz en x negativo, cola en x positivo), y lateral, z vertical (+z arriba)",
+      "estado_comparacion": "Idéntico (Mismo marco de coordenadas CAD con factor de conversión a SI 0.001 m/mm)",
+      "categoria_epistemica": "Definido",
+      "unidades": "mm (CAD) / m (SI)",
+      "fuente_A07": "crear_A07.py:15; DECISION-ARQUITECTURA.md:3",
+      "fuente_C02": "C02_CANDIDATA.json:11-17"
+    },
+    {
+      "parametro": "Marco de Cuerpo de Vuelo (Flight Body Frame)",
+      "valor_A07": "FLU (Forward-Left-Up): x hacia nariz, y hacia izquierda, z arriba. Matriz diag(-1, -1, 1)",
+      "valor_C02": "FLU (Forward-Left-Up): x hacia nariz, y hacia izquierda, z arriba. Matriz diag(-1, -1, 1)",
+      "estado_comparacion": "Idéntico",
+      "categoria_epistemica": "Definido",
+      "unidades": "N/A",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:3",
+      "fuente_C02": "C02_CANDIDATA.json:18-41"
+    },
+    {
+      "parametro": "Atmósfera Operativa de Referencia",
+      "valor_A07": "ISA nivel del mar: rho=1.225 kg/m3, p=101325 Pa, T=288.15 K, mu=1.7894e-5 Pa.s, g=9.80665 m/s2, gamma=1.4",
+      "valor_C02": "ISA nivel del mar: rho=1.225 kg/m3, p=101325 Pa, T=288.15 K, mu=1.7894e-5 Pa.s, g=9.80665 m/s2, gamma=1.4",
+      "estado_comparacion": "Idéntico (Referencia estándar para cálculos comparativos, no toda la envolvente)",
+      "categoria_epistemica": "Supuesto",
+      "unidades": "SI (kg/m3, Pa, K, Pa.s, m/s2)",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:3",
+      "fuente_C02": "C02_CANDIDATA.json:42-51"
+    },
+    {
+      "parametro": "Longitud Total del Fuselaje (Envolvente de Referencia 5 kg)",
+      "valor_A07": "1340 mm (1.340 m), desde x = -680 mm hasta x = +660 mm",
+      "valor_C02": "Hereda la envolvente exterior A07 (1340 mm / 1.340 m)",
+      "estado_comparacion": "Idéntico",
+      "categoria_epistemica": "Medido CAD",
+      "unidades": "mm / m",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:37; crear_A07.py:15",
+      "fuente_C02": "C02_CANDIDATA.json:54, 81"
+    },
+    {
+      "parametro": "Área Transversal Máxima de la Envolvente",
+      "valor_A07": "48591.70 mm2 (485.92 cm2 = 0.04859 m2) en estación x = -140 mm",
+      "valor_C02": "Idéntica a envolvente exterior de referencia A07",
+      "estado_comparacion": "Idéntico",
+      "categoria_epistemica": "Cálculo geométrico exacto de polígono CAD",
+      "unidades": "mm2 / cm2 / m2",
+      "fuente_A07": "crear_A07.py:15-18; salidas/AREAS_TRANSVERSALES_A07.json",
+      "fuente_C02": "C02_CANDIDATA.json:54"
+    },
+    {
+      "parametro": "Volumen Bruto del Loft Exterior",
+      "valor_A07": "40.09 litros (0.04009 m3) en CAD continuo; 38.88 L por integración trapezoidal lineal",
+      "valor_C02": "Hereda la envolvente de 40.09 litros brutos previa a aberturas y conductos",
+      "estado_comparacion": "Idéntico",
+      "categoria_epistemica": "Medido CAD / Cálculo",
+      "unidades": "litros / m3",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:37",
+      "fuente_C02": "C02_CANDIDATA.json:54"
+    },
+    {
+      "parametro": "Topología de Secciones Transversales",
+      "valor_A07": "Polígonos facetados de 10 vértices, aplanados (W/H=1.12 a 1.81), con curvatura Z asimétrica (Zcg=+0.55 a +9.79 mm)",
+      "valor_C02": "Misma geometría exterior de referencia",
+      "estado_comparacion": "Idéntico (Ambos carecen por completo de simetría circular de revolución)",
+      "categoria_epistemica": "Medido / Cálculo CAD",
+      "unidades": "mm",
+      "fuente_A07": "crear_A07.py:18; PLAN-MAESTRO.md:35, 145",
+      "fuente_C02": "PLAN-MAESTRO.md:35; C02_CANDIDATA.json:54"
+    },
+    {
+      "parametro": "Número y Posición de Estaciones de Rotores",
+      "valor_A07": "4 rotores en camisas consolidadas (A06/A03 tenían x=±200 mm, y=±76 mm; variante axial x=±100 mm, y=±86 mm)",
+      "valor_C02": "4 rotores compactos en x = ±160 mm (±0.16 m), y = ±76 mm (±0.076 m)",
+      "estado_comparacion": "Diferente (C02 fija la estación longitudinal compacta en x = ±160 mm frente a ±200 mm de A03 o ±100 mm de la variante)",
+      "categoria_epistemica": "Medido CAD / Definido",
+      "unidades": "mm / m",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:47, 90; crear_A07.py:8-10",
+      "fuente_C02": "C02_CANDIDATA.json:86-104; DECISION-ARQUITECTURA.md:117"
+    },
+    {
+      "parametro": "Diámetro de Taladro de Conducto (Bore Diameter)",
+      "valor_A07": "84 mm (radio 42 mm en sólidos de conducto)",
+      "valor_C02": "84 mm (radio nominal 0.042 m; taladro 0.084 m)",
+      "estado_comparacion": "Idéntico (Mismo diámetro interno nominal del conducto)",
+      "categoria_epistemica": "Medido CAD",
+      "unidades": "mm / m",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:21",
+      "fuente_C02": "C02_CANDIDATA.json:110"
+    },
+    {
+      "parametro": "Diámetro de Rotor y Margen Radial",
+      "valor_A07": "Rotor nominal representativo D82 mm; margen radial ~0.988 mm respecto al taladro de 42 mm",
+      "valor_C02": "Rotor nominal D82 mm (radio BEM 0.041 m), radio envolvente rotación 0.0415 m (D83 mm); margen radial 0.5 a 1.0 mm",
+      "estado_comparacion": "Consistente (Ambos usan rotor nominal de 82 mm, holgura de ~1 mm)",
+      "categoria_epistemica": "Medido CAD / Supuesto",
+      "unidades": "mm / m",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:21, 117",
+      "fuente_C02": "C02_CANDIDATA.json:111-112; DECISION-ARQUITECTURA.md:117"
+    },
+    {
+      "parametro": "Motor de Rotor y Alojamiento",
+      "valor_A07": "Motor no dimensionado ni integrado en cubo; rotor puramente representativo",
+      "valor_C02": "Motor reservado dentro del cubo del rotor (in-hub motor reservation)",
+      "estado_comparacion": "Diferente (C02 incorpora reserva espacial explícita para motor en buje)",
+      "categoria_epistemica": "Medido CAD en C02 / Desconocido componente comercial calificado",
+      "unidades": "N/A",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:11; LEEME.md:22",
+      "fuente_C02": "DECISION-ARQUITECTURA.md:117; C02_CANDIDATA.json:124"
+    },
+    {
+      "parametro": "Sentido de Giro de Rotores",
+      "valor_A07": "No especificado en crear_A07.py ni en LEEME.md",
+      "valor_C02": "Definido explícitamente: [CCW, CW, CW, CCW] visto desde +Z",
+      "estado_comparacion": "Diferente / Definido en C02",
+      "categoria_epistemica": "Definido",
+      "unidades": "N/A",
+      "fuente_A07": "crear_A07.py; LEEME.md",
+      "fuente_C02": "C02_CANDIDATA.json:113-117"
+    },
+    {
+      "parametro": "Número de Registros de Piezas en Ensamblaje STEP",
+      "valor_A07": "208 piezas válidas reimportadas por escala (cerrado, elevado, abierto)",
+      "valor_C02": "316 registros nominales de piezas en manifiesto/STEP",
+      "estado_comparacion": "Diferente (C02 contiene 108 piezas adicionales por mayor detalle interno y mecanismos)",
+      "categoria_epistemica": "Medido CAD",
+      "unidades": "piezas",
+      "fuente_A07": "crear_A07.py:67; LEEME.md:19; PLAN-MAESTRO.md:53",
+      "fuente_C02": "C02_CANDIDATA.json:80; DECISION-ARQUITECTURA.md:117"
+    },
+    {
+      "parametro": "Cinemática Conceptual de Compuertas (5 kg)",
+      "valor_A07": "1. Traslación Z de 10 mm (+Z superior, -Z inferior). 2. Rotación de 110° exterior sobre eje longitudinal desplazado",
+      "valor_C02": "Misma cinemática conceptual: elevación 10 mm, giro 110°, evaluada en 61 nodos discretos",
+      "estado_comparacion": "Idéntico (Ambos comparten la trayectoria cinemática de estudio discretizado)",
+      "categoria_epistemica": "Supuesto cinemático",
+      "unidades": "mm / grados",
+      "fuente_A07": "LEEME.md:13-16; crear_A07.py:27-39",
+      "fuente_C02": "C02_CANDIDATA.json:125; DECISION-ARQUITECTURA.md:118"
+    },
+    {
+      "parametro": "Evaluación de Intersecciones de Compuertas",
+      "valor_A07": "61 etapas, 8 compuertas, 488 parejas probadas contra casco, carenados y otras tapas; solape máximo 0 mm3",
+      "valor_C02": "61 posiciones discretas, 808 parejas evaluadas en tapas; 314 parejas de interfaz con solape nominal cero",
+      "estado_comparacion": "Diferente volumen de comprobación (C02 verifica 808 parejas vs 488 de A07 debido a más componentes)",
+      "categoria_epistemica": "Medido CAD (Intersección booleana)",
+      "unidades": "parejas / mm3",
+      "fuente_A07": "crear_A07.py:37-53; LEEME.md:19; DECISION-ARQUITECTURA.md:103",
+      "fuente_C02": "DECISION-ARQUITECTURA.md:118-119; C02_CANDIDATA.json:125"
+    },
+    {
+      "parametro": "Recorte de Extremos de Camisas/Conductos",
+      "valor_A07": "Recorte booleano con loft interior desplazado 2 mm (elimina solapes de 584-691 mm3 superiores y 592-668 mm3 inferiores de A06)",
+      "valor_C02": "Incorpora la holgura y valida 314 parejas de interfaces sin colisión",
+      "estado_comparacion": "Consistente",
+      "categoria_epistemica": "Medido CAD",
+      "unidades": "mm / mm3",
+      "fuente_A07": "LEEME.md:6, 10; crear_A07.py:11-25; DECISION-ARQUITECTURA.md:103",
+      "fuente_C02": "DECISION-ARQUITECTURA.md:118"
+    },
+    {
+      "parametro": "Mecanismo Real de Compuertas (Bisagras, Guías, Actuadores, Sellos)",
+      "valor_A07": "No resuelto ni sintetizado; ejes de construcción abstractos; sin herrajes, actuadores o sellos",
+      "valor_C02": "No aprobado; trayectoria continua y mecanismos reales de guía/cierre pendientes de sintetizar",
+      "estado_comparacion": "Idéntico (Ambos carecen de mecanismo físico fabricable dimensionado)",
+      "categoria_epistemica": "Desconocido / Pendiente",
+      "unidades": "N/A",
+      "fuente_A07": "LEEME.md:22; PLAN-MAESTRO.md:32, 54",
+      "fuente_C02": "DECISION-ARQUITECTURA.md:119; C02_CANDIDATA.json:125"
+    },
+    {
+      "parametro": "Cinemática de Actuadores de Álabes (Vanes)",
+      "valor_A07": "Mecanismo de doble banco en A03/A06; rango no formalizado en manifest de A07",
+      "valor_C02": "Rango mecánico: [-45°, 45°]; radio de biela: 0.006 m (6 mm); cono de chorro: null; tiempo servo: null",
+      "estado_comparacion": "Detallado en C02, pero con cono efectivo y dinámica no determinados",
+      "categoria_epistemica": "Definido (mecánica) / Desconocido (efectivo)",
+      "unidades": "grados / m / s",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:31, 89",
+      "fuente_C02": "C02_CANDIDATA.json:126-134"
+    },
+    {
+      "parametro": "Masa Real del Vehículo Completo",
+      "valor_A07": "No determinada; cierre de masa pendiente; 2/5/10 kg son masas objetivo de escala geométrica",
+      "valor_C02": "Explícitamente nula en archivo: actual_mass_kg: null (mass_targets_are_actual_masses: false)",
+      "estado_comparacion": "Idéntico (En ninguno existe masa física real cerrada; son objetivos hipotéticos)",
+      "categoria_epistemica": "Desconocido (No infiere masa nula o no nula)",
+      "unidades": "kg",
+      "fuente_A07": "LEEME.md:24; PLAN-MAESTRO.md:129-131; DECISION-ARQUITECTURA.md:3",
+      "fuente_C02": "C02_CANDIDATA.json:62, 121; DECISION-ARQUITECTURA.md:119"
+    },
+    {
+      "parametro": "Centro de Gravedad Real (CG) e Inercia Real",
+      "valor_A07": "No medidos ni calculados con componentes reales; CG dependiente de escenarios de material",
+      "valor_C02": "Explícitamente nulos: actual_CG_m: null, actual_inertia_kgm2: null",
+      "estado_comparacion": "Idéntico (Desconocidos en ambos modelos)",
+      "categoria_epistemica": "Desconocido",
+      "unidades": "m / kg.m2",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:55; PLAN-MAESTRO.md:131",
+      "fuente_C02": "C02_CANDIDATA.json:122-123"
+    },
+    {
+      "parametro": "Propulsor Axial de Avance y Ruta Central",
+      "valor_A07": "Tubo central vacío; opciones de paso 38/60/80 mm; sin motor o toma instalada seleccionada",
+      "valor_C02": "Reserva central condicionada por estaciones x=±160 mm; sin propulsor axial calificado o diseñado",
+      "estado_comparacion": "Idéntico (Canal vacío; motor y toma pendientes de diseño)",
+      "categoria_epistemica": "Desconocido / Reserva geométrica vacía",
+      "unidades": "mm",
+      "fuente_A07": "DECISION-ARQUITECTURA.md:41, 47-51; PLAN-MAESTRO.md:30, 135",
+      "fuente_C02": "DECISION-ARQUITECTURA.md:119; C02_CANDIDATA.json:54"
+    },
+    {
+      "parametro": "Variantes de Escala de Masa (2 kg y 10 kg)",
+      "valor_A07": "Generadas por semejanza geométrica con factor (m/5)^(1/3) en desplazamientos y volumen",
+      "valor_C02": "Marcadas como pendientes de configuración propia (pending_own_configuration)",
+      "estado_comparacion": "Diferente filosofía (A07 exportó STEPs reescalados; C02 exige rediseño propio)",
+      "categoria_epistemica": "Cálculo de escala geométrica (A07) / Pendiente (C02)",
+      "unidades": "kg",
+      "fuente_A07": "crear_A07.py:55-68; LEEME.md:16, 19",
+      "fuente_C02": "C02_CANDIDATA.json:57-67; DECISION-ARQUITECTURA.md:119"
+    },
+    {
+      "parametro": "Estado de los Solvers CFD Históricos",
+      "valor_A07": "Pausados (docker pause); no reanudados en A07",
+      "valor_C02": "Pausados (docker pause); no reanudados en C02; predictive_flight_plant_accepted: false",
+      "estado_comparacion": "Idéntico (Estrictamente pausados; prohibida su ejecución o reanudación)",
+      "categoria_epistemica": "Estado de proceso verificado",
+      "unidades": "N/A",
+      "fuente_A07": "LEEME.md:24; DECISION-ARQUITECTURA.md:3, 93, 103; PLAN-MAESTRO.md:218",
+      "fuente_C02": "DECISION-ARQUITECTURA.md:119; C02_CANDIDATA.json:141"
+    }
+  ]
+}

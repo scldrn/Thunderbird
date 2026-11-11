@@ -1,0 +1,130 @@
+{
+  "profile": "SD8020 NOT NACA0012",
+  "data_Re": [
+    61400.0,
+    101500.0,
+    203300.0,
+    304800.0
+  ],
+  "rows": [
+    {
+      "target": 29.68422678,
+      "rpm": 5500,
+      "chord_mm": 30.0,
+      "solution": true,
+      "collective_deg": 11.807678705462791,
+      "shaft_W": 346.51851748462326,
+      "electric_W_assumed85pct": 407.6688440995568,
+      "span_outside_fraction": 0.053333333333333344,
+      "absolute_torque_integral_outside_fraction": 0.0031301104646249914,
+      "Re_min": 50523.11272092243,
+      "Re_max": 271118.0334613503,
+      "status": "endpoint_clamping_sensitivity_not_validated_full_rotor"
+    },
+    {
+      "target": 29.68422678,
+      "rpm": 5500,
+      "chord_mm": 35.0,
+      "solution": true,
+      "collective_deg": 10.765733601639099,
+      "shaft_W": 338.44901443665003,
+      "electric_W_assumed85pct": 398.17531110194125,
+      "span_outside_fraction": 0.08999999999999997,
+      "absolute_torque_integral_outside_fraction": 0.14248520369626103,
+      "Re_min": 58943.631507742844,
+      "Re_max": 316304.3723715754,
+      "status": "endpoint_clamping_sensitivity_not_validated_full_rotor"
+    },
+    {
+      "target": 29.68422678,
+      "rpm": 6000,
+      "chord_mm": 30.0,
+      "solution": true,
+      "collective_deg": 10.191339837899191,
+      "shaft_W": 346.47590716267547,
+      "electric_W_assumed85pct": 407.61871430903,
+      "span_outside_fraction": 0.033333333333333326,
+      "absolute_torque_integral_outside_fraction": 0.002168093581633376,
+      "Re_min": 54576.164318336574,
+      "Re_max": 295664.98151439975,
+      "status": "endpoint_clamping_sensitivity_not_validated_full_rotor"
+    },
+    {
+      "target": 29.68422678,
+      "rpm": 6000,
+      "chord_mm": 35.0,
+      "solution": true,
+      "collective_deg": 9.379185824697602,
+      "shaft_W": 344.81265349824423,
+      "electric_W_assumed85pct": 405.66194529205205,
+      "span_outside_fraction": 0.18999999999999995,
+      "absolute_torque_integral_outside_fraction": 0.39819555461001327,
+      "Re_min": 63672.191704726014,
+      "Re_max": 344942.4784334664,
+      "status": "endpoint_clamping_sensitivity_not_validated_full_rotor"
+    },
+    {
+      "target": 38.9412701,
+      "rpm": 5500,
+      "chord_mm": 30.0,
+      "solution": true,
+      "collective_deg": 21.936093402987986,
+      "shaft_W": 518.3550639604803,
+      "electric_W_assumed85pct": 609.8294870123298,
+      "span_outside_fraction": 0.91,
+      "absolute_torque_integral_outside_fraction": 0.9910466014634719,
+      "Re_min": 51475.78864693113,
+      "Re_max": 271297.1801655195,
+      "status": "endpoint_clamping_sensitivity_not_validated_full_rotor"
+    },
+    {
+      "target": 38.9412701,
+      "rpm": 5500,
+      "chord_mm": 35.0,
+      "solution": true,
+      "collective_deg": 13.606004766206125,
+      "shaft_W": 507.8993602833422,
+      "electric_W_assumed85pct": 597.5286591568732,
+      "span_outside_fraction": 0.15666666666666662,
+      "absolute_torque_integral_outside_fraction": 0.32846197352228523,
+      "Re_min": 60055.08675475299,
+      "Re_max": 316513.3768597728,
+      "status": "endpoint_clamping_sensitivity_not_validated_full_rotor"
+    },
+    {
+      "target": 38.9412701,
+      "rpm": 6000,
+      "chord_mm": 30.0,
+      "solution": true,
+      "collective_deg": 12.859148498940346,
+      "shaft_W": 519.0969720973926,
+      "electric_W_assumed85pct": 610.7023201145796,
+      "span_outside_fraction": 0.050000000000000044,
+      "absolute_torque_integral_outside_fraction": 0.06876776660896053,
+      "Re_min": 55459.26080930546,
+      "Re_max": 295829.2635824299,
+      "status": "endpoint_clamping_sensitivity_not_validated_full_rotor"
+    },
+    {
+      "target": 38.9412701,
+      "rpm": 6000,
+      "chord_mm": 35.0,
+      "solution": true,
+      "collective_deg": 11.660924293677642,
+      "shaft_W": 503.07052085261716,
+      "electric_W_assumed85pct": 591.8476715913143,
+      "span_outside_fraction": 0.18666666666666665,
+      "absolute_torque_integral_outside_fraction": 0.3947339928684441,
+      "Re_min": 64702.470944189714,
+      "Re_max": 345134.14084616833,
+      "status": "endpoint_clamping_sensitivity_not_validated_full_rotor"
+    }
+  ],
+  "missing": [
+    "Mach corrections",
+    "Cm measured",
+    "full radial coverage",
+    "tip loss",
+    "motor voltage map"
+  ]
+}

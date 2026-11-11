@@ -1,0 +1,28 @@
+{
+  "source_geometry_and_uniform_fields": "piloto_r4_hibrido_resuelto",
+  "degenerate_r5_preserved": true,
+  "package_change_not_single_parameter_test": true,
+  "official_tutorial_sha256": {
+    "system/fvSchemes": "f066a2b90a67cc356ac1a1343ee8878d55ceef7d5436347612c6141c356aa651",
+    "system/fvSolution": "689f55002194184096c25d757d49ce9fd5d3b7738d226cce8e198cc2dcbbed67",
+    "system/forceCoeffsCompressible": "528c9842ad6f6cef63a3f7563b37305b68f192e7f4a74f9130ddbd692e3f4cbc",
+    "system/extrudeMeshDict": "be58a0b28d59763c7ad924398eb76f206815bdad41b0907961ba69c474f6da23",
+    "system/residuals": "3c552c7b55d6845ddef25ee70907fd607c4ae7f0ec2d032022ed98718bd9aa5a",
+    "system/fvConstraints": "312e7b875dc5260485b1eb24e7af681114c98a277b64945bfc7fadb4169cdeb9",
+    "system/blockMeshDict": "ccae2acaaba62306ef32923a30edd879071059194826413a23b5cfd6e05623c2",
+    "system/functions": "3a00a65ae37a5bd6ebeb3b495def5632043bf7b32cd938202ee1a23a6b5d6c8c",
+    "system/controlDict": "ad442407d38f36491f182d7d88a47c668455b3e6dc57904c9580bc09a63ca02e"
+  },
+  "changes": [
+    "LTS_to_steadyState",
+    "conservative pressure/default Gauss gradient",
+    "density and pressure field relaxation",
+    "freestream BC on downstream plane",
+    "one outer corrector",
+    "corrected nonorthogonal diffusion"
+  ],
+  "physical_validation_accepted": false,
+  "historical_solvers_resumed": false,
+  "pressure_smoother": "GaussSeidel",
+  "startup_failure_preserved": "piloto_r6_estacionario: DIC is symmetric-only and failed on the transonic asymmetric matrix before completing any iteration"
+}

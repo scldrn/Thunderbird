@@ -1,0 +1,176 @@
+{
+  "scope": "Conditional 5 kg C02, all-electric hypothetical sensitivity; no motor, battery, drag or mass closure",
+  "cases": 144,
+  "tests_pass": true,
+  "physical_acceptance": false,
+  "source_partial_mass_not_lower_bound": true,
+  "no_C01_rotor_mass_added_to_C02_BOM": true,
+  "BEM_hover_and_maneuver_are_exploratory_unvalidated": true,
+  "maneuver_is_0p5g_lateral_at_fixed_attitude_3s_assumed": true,
+  "forward_force_scaling": "D(v)=Dfinal*(v/V)^2, straight constant acceleration, no thrust lag",
+  "propulsion_modes_are_sequential": true,
+  "kinetic_energy_not_double_counted": true,
+  "no_regenerative_recovery": true,
+  "unknown_hardware_kg_not_zero_or_added": true,
+  "remaining_positive_not_proof_of_feasibility": true,
+  "limitations": [
+    "C01 rotor hover powers do not validate C02 installed loads or reversed flow.",
+    "Battery usable specific energy and peak power are simultaneous assumptions, not an identified pack.",
+    "Drag values are sensitivity inputs, not predicted C02 drag; no lift, trimming or transition losses.",
+    "No motor/ESC/actuators/cooling/fast-propulsion unit/sensors/wiring masses included.",
+    "No peak time derating, voltage/current, thermal or structural margins.",
+    "Battery provides hover and axial propulsion; hybrid/turbine architectures not screened by these rows.",
+    "Mass budget uses partial nominal geometric volumes, not a certified or lower-bound mass."
+  ],
+  "conditional_power_only_drag_thresholds": [
+    {
+      "mass_hypothesis": "ligera_1200",
+      "speed_kmh": 600.0,
+      "acceleration_s": 10.0,
+      "maximum_endpoint_drag_N_for_power_only": -37.045983938198944,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": true
+    },
+    {
+      "mass_hypothesis": "ligera_1200",
+      "speed_kmh": 600.0,
+      "acceleration_s": 30.0,
+      "maximum_endpoint_drag_N_for_power_only": 18.509571617356606,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": false
+    },
+    {
+      "mass_hypothesis": "ligera_1200",
+      "speed_kmh": 600.0,
+      "acceleration_s": 60.0,
+      "maximum_endpoint_drag_N_for_power_only": 32.39846050624549,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": false
+    },
+    {
+      "mass_hypothesis": "ligera_1200",
+      "speed_kmh": 600.0,
+      "acceleration_s": null,
+      "maximum_endpoint_drag_N_for_power_only": 46.287349395134385,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": false
+    },
+    {
+      "mass_hypothesis": "ligera_1200",
+      "speed_kmh": 1000.0,
+      "acceleration_s": 10.0,
+      "maximum_endpoint_drag_N_for_power_only": -111.11647925180827,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": true
+    },
+    {
+      "mass_hypothesis": "ligera_1200",
+      "speed_kmh": 1000.0,
+      "acceleration_s": 30.0,
+      "maximum_endpoint_drag_N_for_power_only": -18.52388665921567,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": true
+    },
+    {
+      "mass_hypothesis": "ligera_1200",
+      "speed_kmh": 1000.0,
+      "acceleration_s": 60.0,
+      "maximum_endpoint_drag_N_for_power_only": 4.624261488932479,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": false
+    },
+    {
+      "mass_hypothesis": "ligera_1200",
+      "speed_kmh": 1000.0,
+      "acceleration_s": null,
+      "maximum_endpoint_drag_N_for_power_only": 27.772409637080628,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": false
+    },
+    {
+      "mass_hypothesis": "mixta_1600",
+      "speed_kmh": 600.0,
+      "acceleration_s": 10.0,
+      "maximum_endpoint_drag_N_for_power_only": -52.54711786068181,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": true
+    },
+    {
+      "mass_hypothesis": "mixta_1600",
+      "speed_kmh": 600.0,
+      "acceleration_s": 30.0,
+      "maximum_endpoint_drag_N_for_power_only": 3.008437694873743,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": false
+    },
+    {
+      "mass_hypothesis": "mixta_1600",
+      "speed_kmh": 600.0,
+      "acceleration_s": 60.0,
+      "maximum_endpoint_drag_N_for_power_only": 16.89732658376263,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": false
+    },
+    {
+      "mass_hypothesis": "mixta_1600",
+      "speed_kmh": 600.0,
+      "acceleration_s": null,
+      "maximum_endpoint_drag_N_for_power_only": 30.78621547265152,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": false
+    },
+    {
+      "mass_hypothesis": "mixta_1600",
+      "speed_kmh": 1000.0,
+      "acceleration_s": 10.0,
+      "maximum_endpoint_drag_N_for_power_only": -120.41715960529798,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": true
+    },
+    {
+      "mass_hypothesis": "mixta_1600",
+      "speed_kmh": 1000.0,
+      "acceleration_s": 30.0,
+      "maximum_endpoint_drag_N_for_power_only": -27.824567012705387,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": true
+    },
+    {
+      "mass_hypothesis": "mixta_1600",
+      "speed_kmh": 1000.0,
+      "acceleration_s": 60.0,
+      "maximum_endpoint_drag_N_for_power_only": -4.676418864557237,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": true
+    },
+    {
+      "mass_hypothesis": "mixta_1600",
+      "speed_kmh": 1000.0,
+      "acceleration_s": null,
+      "maximum_endpoint_drag_N_for_power_only": 18.471729283590914,
+      "all_remaining_mass_assigned_to_battery": true,
+      "unaccounted_hardware_mass_kg_assumed_for_this_bound": 0.0,
+      "negative_means_even_zero_drag_fails_this_power_hypothesis": false
+    }
+  ],
+  "source_hashes": {
+    "G3/C02/integracion_x160/MASA_INERCIA_PARCIAL.json": "4b8df67e7161d2eed06bb21e97973f966a9ee34648a9f73661e915cf41be18f6",
+    "G2/modulo_preliminar/OPERACION_CONDICIONAL.csv": "b7bc512627fe64cfd5d06d6bbacdc630244ba6d8054c85e8287e0c0a675f5c78",
+    "G1/decision_integrada_c02/calcular.py": "4feb2b1c6e040884461192bd06902cb9529257cea3a6d59aa2fb13390f492969"
+  }
+}

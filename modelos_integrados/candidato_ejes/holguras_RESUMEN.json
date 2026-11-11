@@ -1,0 +1,28 @@
+[
+  {
+    "target_mass_kg": 5,
+    "closest_pair": {
+      "a": "modulo_2",
+      "b": "barrido_rotor_2",
+      "distance_m": 0.042999999999924314
+    },
+    "minimum_rotor_pair": {
+      "a": "barrido_rotor_1",
+      "b": "barrido_rotor_2",
+      "distance_m": 0.16362229829585062
+    }
+  },
+  {
+    "target_mass_kg": 10,
+    "closest_pair": {
+      "a": "modulo_4",
+      "b": "barrido_rotor_4",
+      "distance_m": 0.054176605145439455
+    },
+    "minimum_rotor_pair": {
+      "a": "barrido_rotor_1",
+      "b": "barrido_rotor_2",
+      "distance_m": 0.20615117785516418
+    }
+  }
+]

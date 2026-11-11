@@ -1,0 +1,37 @@
+axial_reserve_outer_mm,skin_thickness_assumed_mm,extra_mass_per_station_assumed_kg,balancing_mode,remaining_equipment_x_m,pitch_inertia_kgm2,sampled_feasible,reason,quintic_30deg_minimum_sampled_duration_s
+38.0,0.3,0.05,remaining_equipment_at_x0,0.0,0.26810829879808384,True,,0.47205758253763713
+38.0,0.3,0.05,x_CG_balanced,-0.14500392426391762,0.35295706359961215,True,,0.391755087694944
+38.0,0.3,0.15,remaining_equipment_at_x0,0.0,0.3005624687533392,True,,0.4977465735831844
+38.0,0.3,0.15,x_CG_balanced,-0.16865776599002613,0.3928645115639426,True,,0.4136971597553671
+38.0,0.3,0.3,remaining_equipment_at_x0,0.0,0.3492190936862222,True,,0.5332355752348908
+38.0,0.3,0.3,x_CG_balanced,-0.22576368302991384,0.46028656161691317,True,,0.4484229935204465
+38.0,0.8,0.05,remaining_equipment_at_x0,0.0,0.33820906177472443,True,,0.5298799933888564
+38.0,0.8,0.05,x_CG_balanced,-0.19201906256965837,0.43994308108290237,True,,0.43812383511729586
+38.0,0.8,0.15,remaining_equipment_at_x0,0.0,0.3706510154093979,True,,0.5524216066322568
+38.0,0.8,0.15,x_CG_balanced,-0.23754599793066072,0.48772821172231473,True,,0.46173884004524934
+38.0,0.8,0.3,remaining_equipment_at_x0,0.0,0.41928931586140794,True,,0.583952157913851
+38.0,0.8,0.3,x_CG_balanced,-0.37571615989033136,0.5842042056315313,False,Balancing requires the residual mass center outside the assumed x zone.,
+60.0,0.3,0.05,remaining_equipment_at_x0,0.0,0.22683315821551372,True,,0.6882164755658231
+60.0,0.3,0.05,x_CG_balanced,-0.15099203363473918,0.31732279868500446,True,,0.44415750346950594
+60.0,0.3,0.15,remaining_equipment_at_x0,0.0,0.2414008834354892,True,,0.7132677149262429
+60.0,0.3,0.15,x_CG_balanced,-0.17834108123707818,0.3426617569196218,True,,0.46217021485542087
+60.0,0.3,0.3,remaining_equipment_at_x0,0.0,0.2632465912654525,True,,0.7500960905673023
+60.0,0.3,0.3,x_CG_balanced,-0.24487095654736893,0.39070979544211437,True,,0.494508068002561
+60.0,0.8,0.05,remaining_equipment_at_x0,0.0,0.29694697485954547,True,,0.7863572976062505
+60.0,0.8,0.05,x_CG_balanced,-0.20083182472391728,0.4059053914166534,True,,0.5035755501550341
+60.0,0.8,0.15,remaining_equipment_at_x0,0.0,0.31150897084036283,True,,0.8091361347316207
+60.0,0.8,0.15,x_CG_balanced,-0.252830196717556,0.4407779272983082,True,,0.5254698299539974
+60.0,0.8,0.3,remaining_equipment_at_x0,0.0,0.33334608481158884,True,,0.8429036697607809
+60.0,0.8,0.3,x_CG_balanced,-0.41337284051423917,0.5253229232204802,False,Balancing requires the residual mass center outside the assumed x zone.,
+80.0,0.3,0.05,remaining_equipment_at_x0,0.0,0.19691816447510482,False,Rest/inflection node cannot support the prescribed attitude and moment reserves.,
+80.0,0.3,0.05,x_CG_balanced,-0.15266224117193403,0.2889143770905307,True,,0.7147089309164176
+80.0,0.3,0.15,remaining_equipment_at_x0,0.0,0.1994855534873581,False,Rest/inflection node cannot support the prescribed attitude and moment reserves.,
+80.0,0.3,0.15,x_CG_balanced,-0.1804477483623033,0.3025007891745513,True,,0.7341814204436439
+80.0,0.3,0.3,remaining_equipment_at_x0,0.0,0.203330757005738,False,Rest/inflection node cannot support the prescribed attitude and moment reserves.,
+80.0,0.3,0.3,x_CG_balanced,-0.2482120174777859,0.3332195724951299,True,,0.7751457446799752
+80.0,0.8,0.05,remaining_equipment_at_x0,0.0,0.26703491066179924,False,Rest/inflection node cannot support the prescribed attitude and moment reserves.,
+80.0,0.8,0.05,x_CG_balanced,-0.2033492130222034,0.3779602932642055,True,,0.8233426923877534
+80.0,0.8,0.15,remaining_equipment_at_x0,0.0,0.26959657043489427,False,Rest/inflection node cannot support the prescribed attitude and moment reserves.,
+80.0,0.8,0.15,x_CG_balanced,-0.25636467658595974,0.40137457512947916,True,,0.8518419097424262
+80.0,0.8,0.3,remaining_equipment_at_x0,0.0,0.2734331800945369,False,Rest/inflection node cannot support the prescribed attitude and moment reserves.,
+80.0,0.8,0.3,x_CG_balanced,-0.42100647512232203,0.4699698980903191,False,Balancing requires the residual mass center outside the assumed x zone.,

@@ -1,0 +1,30 @@
+{
+  "updated_UTC": "2026-11-04T00:00:23.713508+00:00",
+  "scope": "Evidence gates for exploratory SU2 benchmark, not whole-vehicle qualification",
+  "binary_native_verified": true,
+  "coarse_NASA_geometry_conditions_verified": true,
+  "coarse_complete_state_change_measured": true,
+  "surface_force_reconstruction_verified": true,
+  "Roe_characteristic_reconstruction_analytic_checks_passed": true,
+  "full_native_assembled_momentum_identity_verified": false,
+  "refined_first_wall_yPlus_max": 0.9762411379693521,
+  "wall_resolution_sensitivity_complete": false,
+  "grid_independence_complete": false,
+  "model_transition_sensitivity_complete": false,
+  "experimental_comparison": {
+    "all_points": 103,
+    "coarse_RMS": 0.1221011428345661,
+    "fine_first_branch_RMS": 0.1231895831292972,
+    "points_removed": 0,
+    "physical_validation_accepted": false
+  },
+  "active_refined_continuation": null,
+  "T21_closed": false,
+  "vehicle_performance_accepted": false,
+  "latest_refined_terminal": "su2_nasa_fina_r3_sonda",
+  "latest_refined_all_state_change_k_relative_L2": 0.0008880639973970585,
+  "latest_refined_CD": 0.01259345921,
+  "latest_refined_Cp_RMS": 0.12314062853496796,
+  "physical_validation_accepted": false,
+  "native_SU2_solver_currently_active": false
+}

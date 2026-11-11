@@ -1,0 +1,1581 @@
+{
+  "STEP_sha256": "c587381e42e5eba78454f9bc263a9db51b75114875ab281eaa4fbb33666b439e",
+  "parts": 316,
+  "new_module_records": 232,
+  "neutral_pairs_tested": 314,
+  "intersections": [],
+  "records": [
+    {
+      "a": "modulo_C02_0_acoplamiento_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_acoplamiento_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_acoplamiento_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_acoplamiento_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_inferior_X_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_inferior_X_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_inferior_X_2",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_inferior_Y_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_inferior_Y_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_inferior_Y_2",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_superior_X_0",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_superior_X_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_superior_X_2",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_superior_Y_0",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_superior_Y_0",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_superior_Y_1",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_superior_Y_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_superior_Y_2",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_alabe_integral_superior_Y_2",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_barra_sincrona_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_barra_sincrona_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_barra_sincrona_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_barra_sincrona_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "aro_C02_0_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "aro_C02_0_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "compuerta_C02_0_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "compuerta_C02_0_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "junta_C02_0_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "junta_C02_0_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_camisa_cuna_y_soportes",
+      "b": "lame_laterale_-1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_X_0_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_X_0_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_X_1_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_X_1_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_X_2_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_X_2_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_Y_0_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_Y_0_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_Y_1_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_Y_1_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_Y_2_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_inferior_Y_2_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_X_0_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_X_0_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_X_1_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_X_1_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_X_2_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_X_2_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_Y_0_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_Y_0_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_Y_1_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_Y_1_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_Y_2_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_casquillo_superior_Y_2_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_eje_rotor_interfaz_pendiente",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_eje_rotor_interfaz_pendiente",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_apoyo_motor_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_apoyo_motor_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_eje_salida_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_eje_salida_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_eje_salida_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_eje_salida_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_motor_anular",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_motor_anular",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_reserva_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_rotor_copa",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_0_rotor_copa",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_acoplamiento_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_acoplamiento_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_acoplamiento_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_acoplamiento_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_inferior_X_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_inferior_X_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_inferior_X_2",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_inferior_Y_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_inferior_Y_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_inferior_Y_2",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_superior_X_0",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_superior_X_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_superior_X_2",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_superior_Y_0",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_superior_Y_0",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_superior_Y_1",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_superior_Y_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_superior_Y_2",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_alabe_integral_superior_Y_2",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_barra_sincrona_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_barra_sincrona_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_barra_sincrona_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_barra_sincrona_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "aro_C02_1_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "aro_C02_1_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "compuerta_C02_1_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "compuerta_C02_1_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "junta_C02_1_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "junta_C02_1_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_camisa_cuna_y_soportes",
+      "b": "lame_laterale_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_X_0_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_X_0_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_X_1_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_X_1_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_X_2_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_X_2_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_Y_0_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_Y_0_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_Y_1_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_Y_1_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_Y_2_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_inferior_Y_2_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_X_0_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_X_0_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_X_1_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_X_1_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_X_2_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_X_2_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_Y_0_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_Y_0_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_Y_1_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_Y_1_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_Y_2_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_casquillo_superior_Y_2_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_eje_rotor_interfaz_pendiente",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_eje_rotor_interfaz_pendiente",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_apoyo_motor_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_apoyo_motor_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_eje_salida_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_eje_salida_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_eje_salida_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_eje_salida_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_motor_anular",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_motor_anular",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_reserva_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_rotor_copa",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_1_rotor_copa",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_acoplamiento_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_acoplamiento_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_acoplamiento_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_acoplamiento_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_X_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_X_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_X_2",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_0",
+      "b": "aro_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_0",
+      "b": "compuerta_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_0",
+      "b": "junta_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_1",
+      "b": "aro_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_1",
+      "b": "compuerta_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_1",
+      "b": "junta_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_2",
+      "b": "aro_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_2",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_2",
+      "b": "compuerta_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_inferior_Y_2",
+      "b": "junta_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_X_0",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_X_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_X_2",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_Y_0",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_Y_0",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_Y_1",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_Y_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_Y_1",
+      "b": "lame_laterale_-1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_Y_2",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_alabe_integral_superior_Y_2",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_barra_sincrona_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_barra_sincrona_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_barra_sincrona_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_barra_sincrona_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "aro_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "aro_C02_2_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "compuerta_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "compuerta_C02_2_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "junta_C02_2_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "junta_C02_2_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_camisa_cuna_y_soportes",
+      "b": "lame_laterale_-1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_X_0_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_X_0_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_X_1_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_X_1_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_X_2_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_X_2_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_Y_0_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_Y_0_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_Y_1_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_Y_1_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_Y_2_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_inferior_Y_2_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_X_0_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_X_0_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_X_1_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_X_1_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_X_2_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_X_2_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_Y_0_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_Y_0_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_Y_1_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_Y_1_-1",
+      "b": "lame_laterale_-1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_Y_1_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_Y_2_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_casquillo_superior_Y_2_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_eje_rotor_interfaz_pendiente",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_eje_rotor_interfaz_pendiente",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_apoyo_motor_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_apoyo_motor_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_eje_salida_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_eje_salida_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_eje_salida_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_eje_salida_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_motor_anular",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_motor_anular",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_reserva_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_rotor_copa",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_2_rotor_copa",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_acoplamiento_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_acoplamiento_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_acoplamiento_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_acoplamiento_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_X_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_X_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_X_2",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_0",
+      "b": "aro_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_0",
+      "b": "compuerta_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_0",
+      "b": "junta_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_1",
+      "b": "aro_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_1",
+      "b": "compuerta_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_1",
+      "b": "junta_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_2",
+      "b": "aro_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_2",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_2",
+      "b": "compuerta_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_inferior_Y_2",
+      "b": "junta_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_X_0",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_X_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_X_2",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_Y_0",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_Y_0",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_Y_1",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_Y_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_Y_1",
+      "b": "lame_laterale_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_Y_2",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_alabe_integral_superior_Y_2",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_barra_sincrona_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_barra_sincrona_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_barra_sincrona_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_barra_sincrona_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "aro_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "aro_C02_3_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "canal_axial_60_exterior_56_interior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "compuerta_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "compuerta_C02_3_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "junta_C02_3_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "junta_C02_3_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_camisa_cuna_y_soportes",
+      "b": "lame_laterale_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_X_0_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_X_0_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_X_1_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_X_1_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_X_2_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_X_2_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_Y_0_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_Y_0_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_Y_1_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_Y_1_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_Y_2_-1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_inferior_Y_2_1",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_X_0_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_X_0_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_X_1_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_X_1_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_X_2_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_X_2_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_Y_0_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_Y_0_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_Y_1_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_Y_1_-1",
+      "b": "lame_laterale_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_Y_1_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_Y_2_-1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_casquillo_superior_Y_2_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_eje_rotor_interfaz_pendiente",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_eje_rotor_interfaz_pendiente",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_apoyo_motor_0",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_apoyo_motor_1",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_eje_salida_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_eje_salida_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_eje_salida_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_eje_salida_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_motor_anular",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_motor_anular",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_servo_inferior_X",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_servo_inferior_Y",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_servo_superior_X",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_reserva_servo_superior_Y",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_rotor_copa",
+      "b": "carroceria_C02_inferior",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "modulo_C02_3_rotor_copa",
+      "b": "carroceria_C02_superior",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "all_original_legacy_joints_reviewed": false,
+  "scope": "New modules vs non-module records, and cross-module pairs; within-module neutral checks reported separately"
+}

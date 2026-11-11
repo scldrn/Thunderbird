@@ -1,0 +1,18 @@
+{
+  "descripcion": "Corrección de afirmaciones no sustentadas en entregable UIUC",
+  "tareas": [
+    {
+      "id": "reporte_uiuc_sin_excesos",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/test_analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/puntos.csv",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/INFORME.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/README.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt"
+      ],
+      "instruccion": "Escribe NUEVOS README.md e INFORME.md breves, no más de 600 palabras cada uno, para el paquete estático UIUC; no reescribas código ni datos. Conserva solo afirmaciones sustentadas por las tablas y fórmulas provistas. El informe anterior comete errores al aseverar flutter, rotura inminente, separación profunda y pérdida de sensibilidad del sensor fuera del intervalo: retira todo eso; el motivo para no extrapolar es únicamente falta de datos fuera del dominio proporcionado. El extremo medido es 19923.333 rpm, CT=.125828, CP=.059879; con D=.08128m y rho=1.225 supuesta se calculan T~.74177N y potencia de eje ~9.527W. No llames directamente medida la potencia dimensional calculada ni la potencia eléctrica, no valides C02. Cita https://m-selig.web.engr.illinois.edu/props/volume-2/propDB-volume-2.html y https://m-selig.ae.illinois.edu/pubs/DetersSelig-2008-AIAA-2008-6246-MicroProps.pdf (figura 38 geometría), sin atribuir afirmaciones de estos documentos que no has leído. Los comandos deben funcionar una vez puestos README y reporte junto a los códigos y datos. No intentes acceder a red y no uses interpolación ni backticks dentro de un comando shell."
+    }
+  ]
+}

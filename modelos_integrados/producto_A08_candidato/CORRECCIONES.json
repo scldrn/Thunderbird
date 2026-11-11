@@ -1,0 +1,145 @@
+{
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_A07/5kg/A07_cerrado.step",
+  "source_sha256": "49cc51974b5ae56dc10c77dc07da25c9025f9906ce34954303e322e02d62f3e2",
+  "output_sha256": "d846a80d696989fdae30cf8a1d36048722a136bf47406fba6e268ddb1dd78c2c",
+  "changes": [
+    {
+      "part": "panel_sensor_nariz",
+      "method": "subtract duplicate styling insert",
+      "other": "sculpture_capot_-1"
+    },
+    {
+      "part": "panel_sensor_nariz",
+      "method": "subtract duplicate styling insert",
+      "other": "sculpture_capot_1"
+    },
+    {
+      "part": "cubierta_lateral_-1",
+      "method": "subtract duplicate styling insert",
+      "other": "epaule_arriere_-1"
+    },
+    {
+      "part": "cubierta_lateral_1",
+      "method": "subtract duplicate styling insert",
+      "other": "epaule_arriere_1"
+    },
+    {
+      "part": "sculpture_capot_-1",
+      "method": "nominal counterbore envelope",
+      "other": "vis_encastree_0",
+      "diameter_mm_ASSUMED": 4.6
+    },
+    {
+      "part": "sculpture_capot_1",
+      "method": "nominal counterbore envelope",
+      "other": "vis_encastree_1",
+      "diameter_mm_ASSUMED": 4.6
+    },
+    {
+      "part": "cuaderna_0",
+      "method": "nominal counterbore envelope",
+      "other": "vis_encastree_2",
+      "diameter_mm_ASSUMED": 4.6
+    },
+    {
+      "part": "cuaderna_0",
+      "method": "nominal counterbore envelope",
+      "other": "vis_encastree_3",
+      "diameter_mm_ASSUMED": 4.6
+    },
+    {
+      "part": "carenado_raiz_0",
+      "method": "recompute nominal root contact subtraction",
+      "other": "carroceria_superior"
+    }
+  ],
+  "subset_checks": [
+    {
+      "name": "carenado_raiz_0",
+      "removed_nominal_volume_mm3": 0.04331522729626158,
+      "outside_original_mm3": 0.0
+    },
+    {
+      "name": "cuaderna_0",
+      "removed_nominal_volume_mm3": 23.2672282586027,
+      "outside_original_mm3": 0.0
+    },
+    {
+      "name": "cubierta_lateral_-1",
+      "removed_nominal_volume_mm3": 4746.81803726051,
+      "outside_original_mm3": 0.0
+    },
+    {
+      "name": "cubierta_lateral_1",
+      "removed_nominal_volume_mm3": 4746.818036403284,
+      "outside_original_mm3": 0.0
+    },
+    {
+      "name": "panel_sensor_nariz",
+      "removed_nominal_volume_mm3": 68.54224629858936,
+      "outside_original_mm3": 0.0
+    },
+    {
+      "name": "sculpture_capot_-1",
+      "removed_nominal_volume_mm3": 16.569293706800636,
+      "outside_original_mm3": 0.0
+    },
+    {
+      "name": "sculpture_capot_1",
+      "removed_nominal_volume_mm3": 16.56928065410193,
+      "outside_original_mm3": 0.0
+    }
+  ],
+  "corrected_pair_checks_after_STEP_reimport": [
+    {
+      "a": "panel_sensor_nariz",
+      "b": "sculpture_capot_-1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "panel_sensor_nariz",
+      "b": "sculpture_capot_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "cubierta_lateral_-1",
+      "b": "epaule_arriere_-1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "cubierta_lateral_1",
+      "b": "epaule_arriere_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "sculpture_capot_-1",
+      "b": "vis_encastree_0",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "sculpture_capot_1",
+      "b": "vis_encastree_1",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "cuaderna_0",
+      "b": "vis_encastree_2",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "cuaderna_0",
+      "b": "vis_encastree_3",
+      "overlap_mm3": 0.0
+    },
+    {
+      "a": "carenado_raiz_0",
+      "b": "carroceria_superior",
+      "overlap_mm3": 0.0
+    }
+  ],
+  "parts": 208,
+  "geometric_candidate_only": true,
+  "manufacturing_clearances_approved": false,
+  "unaddressed": "48 shaft/vane, 12 support attachment and 4 shaft/actuator-reserve overlaps remain engineering interface decisions, not automatically approved.",
+  "canonical_configuration_changed": false
+}

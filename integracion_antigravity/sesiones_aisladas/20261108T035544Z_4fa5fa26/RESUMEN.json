@@ -1,0 +1,18 @@
+{
+  "inicio_utc": "2026-11-08T03:55:44.734446+00:00",
+  "estado": "completado",
+  "tareas": [
+    "auditar_supervisor",
+    "resumen_lotes",
+    "trazabilidad_fuentes"
+  ],
+  "trabajadores": 3,
+  "workspace_temporal": "/private/tmp/aero_20261108T035544Z_4fa5fa26_5y6d4b5e",
+  "fin_utc": "2026-11-08T04:03:51.941966+00:00",
+  "recolectadas": 3,
+  "requieren_revision": [
+    "resumen_lotes",
+    "trazabilidad_fuentes",
+    "auditar_supervisor"
+  ]
+}

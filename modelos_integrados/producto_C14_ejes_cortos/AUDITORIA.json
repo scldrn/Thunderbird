@@ -1,0 +1,15 @@
+{
+  "states": [
+    {
+      "state": "cerrado",
+      "object_count": 13,
+      "step_sha256": "98b6ed4615ff07a2e18a2e3d7bea6a7e75274a1315fcf73823d0e9b73d7b8284"
+    },
+    {
+      "state": "abierto",
+      "object_count": 13,
+      "step_sha256": "a6469c2a08df9326de3e5d66058c3831bb61fa58b9ccf198496e6ff95531ccb1"
+    }
+  ],
+  "scope": "STEP object validity only"
+}

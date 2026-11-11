@@ -1,0 +1,21 @@
+FoamFile { version 2.0; format ascii; class dictionary; object controlDict; }
+application foamRun; solver fluid;
+startFrom startTime; startTime 0; stopAt endTime; endTime 500; deltaT 1;
+writeControl timeStep; writeInterval 20; writeFormat ascii; writePrecision 12;
+purgeWrite 0; runTimeModifiable true;
+functions {
+force_airfoil { type forces; libs ("libforces.so"); patches (airfoil);
+ rho rho; CofR (0.0762 0 0); writeControl timeStep; writeInterval 1; log false; }
+max_velocity { type volFieldValue; libs ("libfieldFunctionObjects.so"); cellZone all;
+ operation maxMag; fields (U); writeFields false; writeControl timeStep; writeInterval 1; log true; }
+min_scalars { type volFieldValue; libs ("libfieldFunctionObjects.so"); cellZone all;
+ operation min; fields (p T rho k omega); writeFields false; writeControl timeStep; writeInterval 1; log true; }
+max_scalars { type volFieldValue; libs ("libfieldFunctionObjects.so"); cellZone all;
+ operation max; fields (p T rho k omega); writeFields false; writeControl timeStep; writeInterval 1; log false; }
+wall_resolution { type yPlus; libs ("libfieldFunctionObjects.so");
+ writeControl timeStep; writeInterval 20; log false; }
+mass_farfield { type surfaceFieldValue; libs ("libfieldFunctionObjects.so");
+ patch farfield; operation sum; fields (phi); writeFields false; writeControl timeStep; writeInterval 1; log false; }
+mass_outlet { type surfaceFieldValue; libs ("libfieldFunctionObjects.so");
+ patch outlet; operation sum; fields (phi); writeFields false; writeControl timeStep; writeInterval 1; log false; }
+}

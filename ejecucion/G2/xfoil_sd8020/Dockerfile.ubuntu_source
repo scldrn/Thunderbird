@@ -1,0 +1,11 @@
+FROM codex-aero-xfoil-fuentes-6.996:latest
+
+# Retrieve Ubuntu's signed 6.99 source, separate from the operational images.
+RUN printf 'deb-src [signed-by=/usr/share/keyrings/ubuntu-archive-keyring.gpg] http://ports.ubuntu.com/ubuntu-ports noble universe\n' > /etc/apt/sources.list.d/xfoil-source.list \
+    && apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends dpkg-dev \
+    && mkdir -p /opt/xfoil-ubuntu-source \
+    && cd /opt/xfoil-ubuntu-source \
+    && apt-get source xfoil=6.99.dfsg+1-3 \
+    && sha256sum ./*.dsc ./*.tar.* > SOURCE_SHA256SUMS \
+    && rm -rf /var/lib/apt/lists/*

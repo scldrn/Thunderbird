@@ -1,0 +1,1 @@
+Prueba de escritura y ejecución de Python completada con éxito verificando la aserción 2+2=4 y la salida PRUEBA_ESCRITURA_Y_PYTHON_OK.

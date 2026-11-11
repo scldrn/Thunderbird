@@ -1,0 +1,15 @@
+{
+  "pairs_tested": 580,
+  "possible_pairs": 21528,
+  "nominal_overlaps": 73,
+  "by_classification": {
+    "unintended_styling_duplicate": 4,
+    "root_contact_small_overlap": 1,
+    "shaft_vane_material_overlap": 48,
+    "support_attachment_overlap": 12,
+    "fastener_seat_interference": 4,
+    "shaft_enters_actuator_packaging": 4
+  },
+  "closed_assembly_collision_free": false,
+  "scope": "Nominal intersections classified, not joint/structure/tolerance approval. No assertion that all 73 are design defects."
+}

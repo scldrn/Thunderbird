@@ -1,0 +1,11 @@
+FROM codex-aero-xfoil-6.99-noble:latest
+
+# Diagnostic toolchain and original source remain in a separate image.
+RUN apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends gfortran gdb curl ca-certificates libx11-dev \
+    && rm -rf /var/lib/apt/lists/*
+RUN mkdir -p /opt/xfoil-source \
+    && curl -fL --retry 2 https://web.mit.edu/drela/Public/web/xfoil/xfoil6.996.tgz -o /opt/xfoil-source/xfoil6.996.tgz \
+    && sha256sum /opt/xfoil-source/xfoil6.996.tgz > /opt/xfoil-source/SHA256SUMS \
+    && echo "0feb71b58070d8514d830fcb0b609a10a11399d362493d7b9bbfb7343dff3f23  /opt/xfoil-source/xfoil6.996.tgz" | sha256sum -c - \
+    && tar -xzf /opt/xfoil-source/xfoil6.996.tgz -C /opt/xfoil-source

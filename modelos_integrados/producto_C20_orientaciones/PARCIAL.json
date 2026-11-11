@@ -1,0 +1,818 @@
+{
+  "scope": "straight synchronization rods, local C15 assembly, C17-passing stem orientations; sampled poses only",
+  "source_sha256": "2860f583542939c5fc87af4b292f46c19737448f2885dcabfe0931354ded3fee",
+  "options_sha256": "520f92e6682e6684fa0b01557d6f2053248e2917608dc68c2a2a6531e1cb6f2c",
+  "code_sha256": "693b9ea9fb11563c4aab57fa1926c56c0f1d0952d5b6c235f65cd5c09a1489f0",
+  "cases": [
+    {
+      "bearing": 0,
+      "edge": 0,
+      "phi_from": 135,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 0,
+        "volume_mm3": 0.9067154045986077
+      },
+      "error": null,
+      "passes": false,
+      "checks": 1
+    },
+    {
+      "bearing": 0,
+      "edge": 0,
+      "phi_from": 135,
+      "phi_to": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 0,
+        "volume_mm3": 0.8456289472853507
+      },
+      "error": null,
+      "passes": false,
+      "checks": 1
+    },
+    {
+      "bearing": 0,
+      "edge": 0,
+      "phi_from": 135,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 0,
+        "volume_mm3": 0.7917016448588913
+      },
+      "error": null,
+      "passes": false,
+      "checks": 1
+    },
+    {
+      "bearing": 0,
+      "edge": 0,
+      "phi_from": 180,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 0,
+        "volume_mm3": 0.9720629724151032
+      },
+      "error": null,
+      "passes": false,
+      "checks": 1
+    },
+    {
+      "bearing": 0,
+      "edge": 0,
+      "phi_from": 180,
+      "phi_to": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 0,
+        "volume_mm3": 0.9066586783747307
+      },
+      "error": null,
+      "passes": false,
+      "checks": 1
+    },
+    {
+      "bearing": 0,
+      "edge": 0,
+      "phi_from": 180,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.8118045622580967
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 0,
+      "edge": 0,
+      "phi_from": 315,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 0.899863667809743
+      },
+      "error": null,
+      "passes": false,
+      "checks": 5
+    },
+    {
+      "bearing": 0,
+      "edge": 0,
+      "phi_from": 315,
+      "phi_to": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 0.10569691186511801
+      },
+      "error": null,
+      "passes": false,
+      "checks": 5
+    },
+    {
+      "bearing": 0,
+      "edge": 0,
+      "phi_from": 315,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.9068942196813459
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "phi_from": 135,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.9071129885353719
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "phi_from": 135,
+      "phi_to": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.8458159881818601
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "phi_from": 135,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.7919448219501356
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "phi_from": 180,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.9727053545464314
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "phi_from": 180,
+      "phi_to": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.9070560710714182
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "phi_from": 180,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.8120214042256707
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "phi_from": 315,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 0.8667644429775706
+      },
+      "error": null,
+      "passes": false,
+      "checks": 6
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "phi_from": 315,
+      "phi_to": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 0.0975985561327796
+      },
+      "error": null,
+      "passes": false,
+      "checks": 6
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "phi_from": 315,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.9072896315107342
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "phi_from": 135,
+      "phi_to": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.8047802512755374
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "phi_from": 135,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.7974853341346579
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "phi_from": 135,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.7944669974006572
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "phi_from": 180,
+      "phi_to": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.4458438469539162
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "phi_from": 180,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.3310158558790868
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "phi_from": 180,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 3,
+        "volume_mm3": 0.8840618775497208
+      },
+      "error": null,
+      "passes": false,
+      "checks": 4
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "phi_from": 315,
+      "phi_to": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 3,
+        "volume_mm3": 1.290150454119153
+      },
+      "error": null,
+      "passes": false,
+      "checks": 8
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "phi_from": 315,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 3,
+        "volume_mm3": 1.1850179776653893
+      },
+      "error": null,
+      "passes": false,
+      "checks": 8
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "phi_from": 315,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 3,
+        "volume_mm3": 0.9893675300162058
+      },
+      "error": null,
+      "passes": false,
+      "checks": 4
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "phi_from": 0,
+      "phi_to": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.9066620961546226
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "phi_from": 0,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 1.531460838509431
+      },
+      "error": null,
+      "passes": false,
+      "checks": 5
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "phi_from": 0,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.8456590474813198
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "phi_from": 135,
+      "phi_to": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 0,
+        "volume_mm3": 0.8115833719895272
+      },
+      "error": null,
+      "passes": false,
+      "checks": 1
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "phi_from": 135,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 0,
+        "volume_mm3": 0.906506425573895
+      },
+      "error": null,
+      "passes": false,
+      "checks": 1
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "phi_from": 135,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 0,
+        "volume_mm3": 0.7917490336176647
+      },
+      "error": null,
+      "passes": false,
+      "checks": 1
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "phi_from": 315,
+      "phi_to": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.9719497543837645
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "phi_from": 315,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 0.4820824318438937
+      },
+      "error": null,
+      "passes": false,
+      "checks": 5
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "phi_from": 315,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.906625125232754
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "phi_from": 0,
+      "phi_to": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.9069264818941136
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "phi_from": 0,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 1.4927802702278083
+      },
+      "error": null,
+      "passes": false,
+      "checks": 6
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "phi_from": 0,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.8457217471606229
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "phi_from": 135,
+      "phi_to": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.8116839368071993
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "phi_from": 135,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.9067708483826071
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "phi_from": 135,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 1,
+        "volume_mm3": 0.7918770186600764
+      },
+      "error": null,
+      "passes": false,
+      "checks": 2
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "phi_from": 315,
+      "phi_to": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.972446968126979
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "phi_from": 315,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 0.43733429322509726
+      },
+      "error": null,
+      "passes": false,
+      "checks": 6
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "phi_from": 315,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.9068892656812912
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "phi_from": 0,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 2,
+        "volume_mm3": 0.5678373424741483
+      },
+      "error": null,
+      "passes": false,
+      "checks": 7
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "phi_from": 0,
+      "phi_to": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 3,
+        "volume_mm3": 0.8259394164566961
+      },
+      "error": null,
+      "passes": false,
+      "checks": 4
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "phi_from": 0,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 3,
+        "volume_mm3": 0.8715071684943658
+      },
+      "error": null,
+      "passes": false,
+      "checks": 4
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "phi_from": 135,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.7972786759820504
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "phi_from": 135,
+      "phi_to": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.8096874237187511
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "phi_from": 135,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 2,
+        "volume_mm3": 0.7944274802564047
+      },
+      "error": null,
+      "passes": false,
+      "checks": 3
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "phi_from": 315,
+      "phi_to": 135,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 3,
+        "volume_mm3": 1.1850241858754695
+      },
+      "error": null,
+      "passes": false,
+      "checks": 8
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "phi_from": 315,
+      "phi_to": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 3,
+        "volume_mm3": 0.9411186363242057
+      },
+      "error": null,
+      "passes": false,
+      "checks": 4
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "phi_from": 315,
+      "phi_to": 315,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 3,
+        "volume_mm3": 0.9893691578093115
+      },
+      "error": null,
+      "passes": false,
+      "checks": 4
+    }
+  ]
+}

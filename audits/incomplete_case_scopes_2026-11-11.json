@@ -1,0 +1,24 @@
+{
+  "status": "incomplete_excluded_from_active_execution",
+  "scope": "Case or study directories with unavailable source files discarded at user direction; historical reports retained",
+  "missing_files_by_scope": {
+    "ejecucion/G2/flujo_C02_conducto/balance_actuador_r5b_1680_1700": 6,
+    "ejecucion/G2/flujo_C02_conducto/balance_neutro_fino_r5_580_600": 1,
+    "ejecucion/G2/flujo_C02_conducto/balance_neutro_fino_r6_780_800": 6,
+    "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12": 6,
+    "ejecucion/G2/flujo_C02_conducto/balance_r8_snapshot_780_800": 3,
+    "ejecucion/G2/flujo_C02_conducto/benchmark_fuente_codificada": 2,
+    "ejecucion/G2/flujo_C02_conducto/neutro_fino_r1_mpi4": 5,
+    "ejecucion/G2/flujo_C02_conducto/neutro_fino_r2_mpi4_200": 7,
+    "ejecucion/G2/flujo_C02_conducto/neutro_fino_r3_mpi4_300": 1,
+    "ejecucion/G2/flujo_C02_conducto/neutro_fino_r4_mpi4_400": 2,
+    "ejecucion/G2/flujo_C02_conducto/neutro_r6_presion_estricta": 14,
+    "ejecucion/G2/flujo_C02_conducto/neutro_r7_gradp_Gauss": 2,
+    "ejecucion/G2/flujo_C02_conducto/neutro_r8_relajacion": 2,
+    "ejecucion/G2/flujo_C02_conducto/neutro_r9_mpi4": 1,
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r9_fina_f1n_2026-11-04": 2,
+    "modelos_integrados/aerodinamica_A": 3,
+    "modelos_integrados/empaquetado_axial_A": 27,
+    "modelos_integrados/producto_A05": 4
+  }
+}

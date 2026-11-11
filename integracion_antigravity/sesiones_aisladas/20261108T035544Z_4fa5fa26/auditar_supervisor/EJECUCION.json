@@ -1,0 +1,29 @@
+{
+  "tarea": "auditar_supervisor",
+  "inicio_utc": "2026-11-08T03:55:44.734821+00:00",
+  "workspace_temporal": "/private/tmp/aero_20261108T035544Z_4fa5fa26_5y6d4b5e/auditar_supervisor",
+  "entradas_sha256": {
+    "investigacion-aeronautica/integracion_antigravity/orquestar.py": "fc623975c06078532bbc4ad8151e052c3dbad863fbb754a4c11a3e3bd60eb815",
+    "investigacion-aeronautica/integracion_antigravity/orquestar_aislado.py": "d86b9590e183df031c08e3ccd4d997034a44f97dacce490bffdbc36bf44beaad",
+    "investigacion-aeronautica/integracion_antigravity/verificar_aislado.py": "2228464fa63187d9ea87e2c703b2868f2d272ce36f4bd398384c5a5d73d7325d"
+  },
+  "instruccion_sha256": "601ae52a8b5102828c72ce232aeffc8904aaea37594d3b47d884d7d45c90e4eb",
+  "errores_locales": [
+    "[Errno 1] Operation not permitted"
+  ],
+  "entradas_modificadas": [],
+  "fin_utc": "2026-11-08T04:03:51.936023+00:00",
+  "duracion_real_s": 487.206,
+  "exito_tecnico": false,
+  "requiere_revision": true,
+  "entregables_sha256": {
+    "demo_isolation.py": "a9317f49fe76b6e86bc77e4f651b227b0edf0de7affb86e3a1f34559c4887a11",
+    "demo_cancellation.py": "868fd92b2634af7e3e138dbc57efcaf742ed0b1e43604606daa91e7dbc718a3a",
+    "demo_false_positive.py": "c119c427d793a9a025ee7c977be199c998fc95fef6d9fd1fe76109b3711b898e",
+    "demo_events.py": "0284c30ee7cad68c63b524cfc8990f37e280fb333ed8bbfbe87d69fc1fc56196",
+    "demo_pipe_hang.py": "a0b5ab75582a11eecc9f6e73b277fe823a8e38365d53d35540b34b2ae11a4469",
+    "demo_denials.py": "9e2cd1ad198824a520e609fa9ffe832fb2902fce2386595c8827e7b155acac15",
+    "parche/orquestar.py": "fc623975c06078532bbc4ad8151e052c3dbad863fbb754a4c11a3e3bd60eb815",
+    "parche/orquestar_aislado.py": "d86b9590e183df031c08e3ccd4d997034a44f97dacce490bffdbc36bf44beaad"
+  }
+}

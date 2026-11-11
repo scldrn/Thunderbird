@@ -1,0 +1,312 @@
+{
+  "parameters": {
+    "factor": 1.0,
+    "R_in": 42.0,
+    "R_out": 44.0,
+    "rotor_R": 41.0,
+    "rotor_swept_R": 41.5,
+    "cup_half_height": 7.79,
+    "cavity_R": 11.4,
+    "cavity_top": 5.8,
+    "motor_R": 10.9,
+    "motor_bottom": -10.8,
+    "motor_top": 5.3,
+    "support_bottom": -10.8,
+    "support_top": -9.5,
+    "shaft_R": 2.0,
+    "vane_shaft_R": 1.2,
+    "row_z": {
+      "inferior_X": -21.0,
+      "inferior_Y": -39.0,
+      "superior_X": 19.0,
+      "superior_Y": 37.0
+    },
+    "nominal_motor_reserve_not_hardware": true,
+    "root_fillet_material_tolerances_and_RPM_approved": false
+  },
+  "station_CAD_mm": [
+    -200.0,
+    -76.0
+  ],
+  "angles_deg": {},
+  "parts": 54,
+  "source_A07_sha256": "49cc51974b5ae56dc10c77dc07da25c9025f9906ce34954303e322e02d62f3e2",
+  "source_rotor_sha256": "25595624c9d54f0c221e63be35af5e1781f4055b40944117301e3c5c37ebb465",
+  "STEP_sha256": "fc40621dcab4413f8f9550c4f1b70a8e6fb13e8a7bc12fa182af011deda22397",
+  "physical_motor_and_servos_selected": false,
+  "structural_and_aerodynamic_performance_validated": false,
+  "source_configuration_changed": false,
+  "scope": "Packaging and geometric linkage candidate; reserved devices are not zero-mass physical components",
+  "records": [
+    {
+      "name": "rotor_copa_CCW",
+      "volume_mm3": 4827.89403354707,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "reserva_motor_anular",
+      "volume_mm3": 4985.129488198743,
+      "role": "hardware_reserve"
+    },
+    {
+      "name": "eje_rotor_interfaz_pendiente",
+      "volume_mm3": 221.0424591065778,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "reserva_apoyo_motor_0",
+      "volume_mm3": 202.93903144026672,
+      "role": "hardware_reserve"
+    },
+    {
+      "name": "reserva_apoyo_motor_1",
+      "volume_mm3": 202.93903144026675,
+      "role": "hardware_reserve"
+    },
+    {
+      "name": "casquillo_inferior_X_0_-1",
+      "volume_mm3": 15.810065029190644,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_X_0_1",
+      "volume_mm3": 15.81006502919064,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_X_1_-1",
+      "volume_mm3": 15.810065029190646,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_X_1_1",
+      "volume_mm3": 15.810065029190643,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_X_2_-1",
+      "volume_mm3": 15.810065029190644,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_X_2_1",
+      "volume_mm3": 15.81006502919064,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "reserva_servo_inferior_X",
+      "volume_mm3": 1920.0,
+      "role": "hardware_reserve"
+    },
+    {
+      "name": "casquillo_inferior_Y_0_-1",
+      "volume_mm3": 15.810065029190586,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_Y_0_1",
+      "volume_mm3": 15.810065029190586,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_Y_1_-1",
+      "volume_mm3": 15.810065029190584,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_Y_1_1",
+      "volume_mm3": 15.810065029190584,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_Y_2_-1",
+      "volume_mm3": 15.810065029190586,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_inferior_Y_2_1",
+      "volume_mm3": 15.810065029190586,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "reserva_servo_inferior_Y",
+      "volume_mm3": 1920.0,
+      "role": "hardware_reserve"
+    },
+    {
+      "name": "casquillo_superior_X_0_-1",
+      "volume_mm3": 15.81006502919064,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_X_0_1",
+      "volume_mm3": 15.81006502919064,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_X_1_-1",
+      "volume_mm3": 15.810065029190643,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_X_1_1",
+      "volume_mm3": 15.810065029190643,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_X_2_-1",
+      "volume_mm3": 15.81006502919064,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_X_2_1",
+      "volume_mm3": 15.81006502919064,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "reserva_servo_superior_X",
+      "volume_mm3": 1920.0,
+      "role": "hardware_reserve"
+    },
+    {
+      "name": "casquillo_superior_Y_0_-1",
+      "volume_mm3": 15.810065029190604,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_Y_0_1",
+      "volume_mm3": 15.810065029190586,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_Y_1_-1",
+      "volume_mm3": 15.810065029190605,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_Y_1_1",
+      "volume_mm3": 15.810065029190584,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_Y_2_-1",
+      "volume_mm3": 15.810065029190604,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "casquillo_superior_Y_2_1",
+      "volume_mm3": 15.810065029190586,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "reserva_servo_superior_Y",
+      "volume_mm3": 1920.0,
+      "role": "hardware_reserve"
+    },
+    {
+      "name": "camisa_cuna_y_soportes",
+      "volume_mm3": 90769.2924645532,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_inferior_X_0",
+      "volume_mm3": 1535.5978345750514,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_inferior_X_1",
+      "volume_mm3": 2089.554416363181,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_inferior_X_2",
+      "volume_mm3": 1535.5978345750514,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_inferior_Y_0",
+      "volume_mm3": 1535.5978345751253,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_inferior_Y_1",
+      "volume_mm3": 2089.5544163606914,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_inferior_Y_2",
+      "volume_mm3": 1535.5978345751253,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_superior_X_0",
+      "volume_mm3": 1535.5978345750477,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_superior_X_1",
+      "volume_mm3": 2089.554416363178,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_superior_X_2",
+      "volume_mm3": 1535.5978345750477,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_superior_Y_0",
+      "volume_mm3": 1535.5978345751223,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_superior_Y_1",
+      "volume_mm3": 2089.554416360688,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "alabe_integral_superior_Y_2",
+      "volume_mm3": 1535.5978345751223,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "barra_sincrona_inferior_X",
+      "volume_mm3": 207.35362986794973,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "acoplamiento_servo_inferior_X",
+      "volume_mm3": 71.97388769374214,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "barra_sincrona_inferior_Y",
+      "volume_mm3": 207.35362986794965,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "acoplamiento_servo_inferior_Y",
+      "volume_mm3": 71.97388769374226,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "barra_sincrona_superior_X",
+      "volume_mm3": 207.3536298679497,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "acoplamiento_servo_superior_X",
+      "volume_mm3": 71.97388769374214,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "barra_sincrona_superior_Y",
+      "volume_mm3": 207.35362986794965,
+      "role": "geometric_component_unqualified"
+    },
+    {
+      "name": "acoplamiento_servo_superior_Y",
+      "volume_mm3": 71.97388769374224,
+      "role": "geometric_component_unqualified"
+    }
+  ]
+}

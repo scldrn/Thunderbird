@@ -1,0 +1,318 @@
+{
+  "scope": "Two order-preserving alpha branches in UIUC lift-only data; not cause identification or rotor validation",
+  "method": "Linear interpolation within overlapping angle range, separately for increasing and decreasing recorded angles",
+  "analytic_interpolation_tests_pass": true,
+  "extrapolation_used": false,
+  "loops_do_not_establish_hysteresis_mechanism": true,
+  "drag_or_shaft_power_not_supplied": true,
+  "source_sha256": "a3f2f1a146c89fd4edbb585ddbe75e19673c6e524b8e66c5e7101c4ba4c684cf",
+  "script_sha256": "99f73d7b3602ba1dd0c943219f7ea496066a46667c5514fdb014d927487aa50a",
+  "blocks": [
+    {
+      "reynolds": 30500.0,
+      "samples": 97,
+      "increasing_samples": 49,
+      "decreasing_samples": 49,
+      "common_alpha_deg": [
+        -6.57,
+        17.7
+      ]
+    },
+    {
+      "reynolds": 39100.0,
+      "samples": 97,
+      "increasing_samples": 49,
+      "decreasing_samples": 49,
+      "common_alpha_deg": [
+        -6.62,
+        17.73
+      ]
+    },
+    {
+      "reynolds": 52400.0,
+      "samples": 97,
+      "increasing_samples": 49,
+      "decreasing_samples": 49,
+      "common_alpha_deg": [
+        -6.51,
+        17.73
+      ]
+    },
+    {
+      "reynolds": 60600.0,
+      "samples": 97,
+      "increasing_samples": 49,
+      "decreasing_samples": 49,
+      "common_alpha_deg": [
+        -6.68,
+        17.7
+      ]
+    },
+    {
+      "reynolds": 81100.0,
+      "samples": 97,
+      "increasing_samples": 49,
+      "decreasing_samples": 49,
+      "common_alpha_deg": [
+        -6.53,
+        17.64
+      ]
+    },
+    {
+      "reynolds": 101800.0,
+      "samples": 97,
+      "increasing_samples": 49,
+      "decreasing_samples": 49,
+      "common_alpha_deg": [
+        -6.56,
+        17.7
+      ]
+    },
+    {
+      "reynolds": 204200.0,
+      "samples": 33,
+      "increasing_samples": 17,
+      "decreasing_samples": 17,
+      "common_alpha_deg": [
+        -6.54,
+        17.84
+      ]
+    },
+    {
+      "reynolds": 305600.0,
+      "samples": 33,
+      "increasing_samples": 17,
+      "decreasing_samples": 17,
+      "common_alpha_deg": [
+        -6.7,
+        17.78
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "reynolds": 30500.0,
+      "alpha_deg": 0.0,
+      "cl_increasing": -0.01579365079365079,
+      "cl_decreasing": 0.03921212121212121,
+      "cl_increasing_minus_decreasing": -0.055005772005772
+    },
+    {
+      "reynolds": 30500.0,
+      "alpha_deg": 5.0,
+      "cl_increasing": 0.48274193548387095,
+      "cl_decreasing": 0.5563225806451613,
+      "cl_increasing_minus_decreasing": -0.07358064516129031
+    },
+    {
+      "reynolds": 30500.0,
+      "alpha_deg": 10.0,
+      "cl_increasing": 0.7300588235294118,
+      "cl_decreasing": 0.7494489795918368,
+      "cl_increasing_minus_decreasing": -0.019390156062425
+    },
+    {
+      "reynolds": 30500.0,
+      "alpha_deg": 15.0,
+      "cl_increasing": 0.7193064516129032,
+      "cl_decreasing": 0.7236666666666667,
+      "cl_increasing_minus_decreasing": -0.004360215053763494
+    },
+    {
+      "reynolds": 39100.0,
+      "alpha_deg": 0.0,
+      "cl_increasing": 0.013,
+      "cl_decreasing": 0.013866666666666668,
+      "cl_increasing_minus_decreasing": -0.0008666666666666684
+    },
+    {
+      "reynolds": 39100.0,
+      "alpha_deg": 5.0,
+      "cl_increasing": 0.5058367346938776,
+      "cl_decreasing": 0.509,
+      "cl_increasing_minus_decreasing": -0.0031632653061224314
+    },
+    {
+      "reynolds": 39100.0,
+      "alpha_deg": 10.0,
+      "cl_increasing": 0.7901914893617021,
+      "cl_decreasing": 0.7878035714285715,
+      "cl_increasing_minus_decreasing": 0.0023879179331306455
+    },
+    {
+      "reynolds": 39100.0,
+      "alpha_deg": 15.0,
+      "cl_increasing": 0.7772830188679245,
+      "cl_decreasing": 0.8422307692307692,
+      "cl_increasing_minus_decreasing": -0.06494775036284473
+    },
+    {
+      "reynolds": 52400.0,
+      "alpha_deg": 0.0,
+      "cl_increasing": 0.01360655737704918,
+      "cl_decreasing": 0.08842857142857143,
+      "cl_increasing_minus_decreasing": -0.07482201405152225
+    },
+    {
+      "reynolds": 52400.0,
+      "alpha_deg": 5.0,
+      "cl_increasing": 0.49873770491803276,
+      "cl_decreasing": 0.5476153846153846,
+      "cl_increasing_minus_decreasing": -0.04887767969735185
+    },
+    {
+      "reynolds": 52400.0,
+      "alpha_deg": 10.0,
+      "cl_increasing": 0.7884074074074074,
+      "cl_decreasing": 0.8505714285714285,
+      "cl_increasing_minus_decreasing": -0.06216402116402109
+    },
+    {
+      "reynolds": 52400.0,
+      "alpha_deg": 15.0,
+      "cl_increasing": 0.8353387096774193,
+      "cl_decreasing": 0.8362553191489362,
+      "cl_increasing_minus_decreasing": -0.0009166094715169493
+    },
+    {
+      "reynolds": 60600.0,
+      "alpha_deg": 0.0,
+      "cl_increasing": -0.03763934426229508,
+      "cl_decreasing": -0.02886440677966102,
+      "cl_increasing_minus_decreasing": -0.008774937482634061
+    },
+    {
+      "reynolds": 60600.0,
+      "alpha_deg": 5.0,
+      "cl_increasing": 0.4437931034482759,
+      "cl_decreasing": 0.4620181818181818,
+      "cl_increasing_minus_decreasing": -0.01822507836990589
+    },
+    {
+      "reynolds": 60600.0,
+      "alpha_deg": 10.0,
+      "cl_increasing": 0.75268,
+      "cl_decreasing": 0.7695892857142858,
+      "cl_increasing_minus_decreasing": -0.016909285714285738
+    },
+    {
+      "reynolds": 60600.0,
+      "alpha_deg": 15.0,
+      "cl_increasing": 0.8134000000000001,
+      "cl_decreasing": 0.7934444444444445,
+      "cl_increasing_minus_decreasing": 0.019955555555555615
+    },
+    {
+      "reynolds": 81100.0,
+      "alpha_deg": 0.0,
+      "cl_increasing": -0.00039999999999999996,
+      "cl_decreasing": -0.010838709677419353,
+      "cl_increasing_minus_decreasing": 0.010438709677419354
+    },
+    {
+      "reynolds": 81100.0,
+      "alpha_deg": 5.0,
+      "cl_increasing": 0.4753571428571428,
+      "cl_decreasing": 0.47445454545454546,
+      "cl_increasing_minus_decreasing": 0.0009025974025973493
+    },
+    {
+      "reynolds": 81100.0,
+      "alpha_deg": 10.0,
+      "cl_increasing": 0.7957368421052632,
+      "cl_decreasing": 0.7873859649122807,
+      "cl_increasing_minus_decreasing": 0.008350877192982442
+    },
+    {
+      "reynolds": 81100.0,
+      "alpha_deg": 15.0,
+      "cl_increasing": 0.79,
+      "cl_decreasing": 0.8072678571428571,
+      "cl_increasing_minus_decreasing": -0.017267857142857057
+    },
+    {
+      "reynolds": 101800.0,
+      "alpha_deg": 0.0,
+      "cl_increasing": 0.032901639344262296,
+      "cl_decreasing": 0.00834920634920635,
+      "cl_increasing_minus_decreasing": 0.024552432995055946
+    },
+    {
+      "reynolds": 101800.0,
+      "alpha_deg": 5.0,
+      "cl_increasing": 0.5034000000000001,
+      "cl_decreasing": 0.4888688524590164,
+      "cl_increasing_minus_decreasing": 0.014531147540983669
+    },
+    {
+      "reynolds": 101800.0,
+      "alpha_deg": 10.0,
+      "cl_increasing": 0.8146829268292684,
+      "cl_decreasing": 0.8075593220338982,
+      "cl_increasing_minus_decreasing": 0.007123604795370109
+    },
+    {
+      "reynolds": 101800.0,
+      "alpha_deg": 15.0,
+      "cl_increasing": 0.8033225806451613,
+      "cl_decreasing": 0.7684,
+      "cl_increasing_minus_decreasing": 0.034922580645161294
+    },
+    {
+      "reynolds": 204200.0,
+      "alpha_deg": 0.0,
+      "cl_increasing": 0.006699999999999999,
+      "cl_decreasing": -0.002333333333333331,
+      "cl_increasing_minus_decreasing": 0.00903333333333333
+    },
+    {
+      "reynolds": 204200.0,
+      "alpha_deg": 5.0,
+      "cl_increasing": 0.5001351351351351,
+      "cl_decreasing": 0.4967625,
+      "cl_increasing_minus_decreasing": 0.0033726351351350825
+    },
+    {
+      "reynolds": 204200.0,
+      "alpha_deg": 10.0,
+      "cl_increasing": 0.8500866141732283,
+      "cl_decreasing": 0.8482580645161291,
+      "cl_increasing_minus_decreasing": 0.001828549657099221
+    },
+    {
+      "reynolds": 204200.0,
+      "alpha_deg": 15.0,
+      "cl_increasing": 0.7605874125874126,
+      "cl_decreasing": 0.75705,
+      "cl_increasing_minus_decreasing": 0.0035374125874125806
+    },
+    {
+      "reynolds": 305600.0,
+      "alpha_deg": 0.0,
+      "cl_increasing": -0.004027397260273971,
+      "cl_decreasing": -0.006278481012658231,
+      "cl_increasing_minus_decreasing": 0.00225108375238426
+    },
+    {
+      "reynolds": 305600.0,
+      "alpha_deg": 5.0,
+      "cl_increasing": 0.5019333333333333,
+      "cl_decreasing": 0.49515384615384617,
+      "cl_increasing_minus_decreasing": 0.006779487179487176
+    },
+    {
+      "reynolds": 305600.0,
+      "alpha_deg": 10.0,
+      "cl_increasing": 0.8713478260869565,
+      "cl_decreasing": 0.8636315789473684,
+      "cl_increasing_minus_decreasing": 0.007716247139588073
+    },
+    {
+      "reynolds": 305600.0,
+      "alpha_deg": 15.0,
+      "cl_increasing": 0.7817222222222222,
+      "cl_decreasing": 0.7686595744680851,
+      "cl_increasing_minus_decreasing": 0.013062647754137124
+    }
+  ]
+}

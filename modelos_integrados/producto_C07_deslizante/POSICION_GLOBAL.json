@@ -1,0 +1,75 @@
+{
+  "scope": "Posicion abierta final 5kg: ocho tapas vs 308 registros restantes y parejas mutuas; cajas optimas ensanchadas .05mm y comun BRep; sin trayectorias, tolerancias reales ni validacion de funcionamiento",
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C07_deslizante/5kg/C07_5kg_deslizante_abierto.FCStd",
+  "screened_pairs": 2492,
+  "boolean_pairs": 20,
+  "collisions": [],
+  "errors": [],
+  "per_door": [
+    {
+      "door": "compuerta_C02_0_superior",
+      "screened": 315,
+      "boolean": 3,
+      "collisions": 0,
+      "errors": 0,
+      "seconds": 3.2817067089490592
+    },
+    {
+      "door": "compuerta_C02_0_inferior",
+      "screened": 314,
+      "boolean": 2,
+      "collisions": 0,
+      "errors": 0,
+      "seconds": 2.6008812501095235
+    },
+    {
+      "door": "compuerta_C02_1_superior",
+      "screened": 313,
+      "boolean": 3,
+      "collisions": 0,
+      "errors": 0,
+      "seconds": 2.9545335000148043
+    },
+    {
+      "door": "compuerta_C02_1_inferior",
+      "screened": 312,
+      "boolean": 2,
+      "collisions": 0,
+      "errors": 0,
+      "seconds": 1.5222496659262106
+    },
+    {
+      "door": "compuerta_C02_2_superior",
+      "screened": 311,
+      "boolean": 3,
+      "collisions": 0,
+      "errors": 0,
+      "seconds": 2.623706249985844
+    },
+    {
+      "door": "compuerta_C02_2_inferior",
+      "screened": 310,
+      "boolean": 2,
+      "collisions": 0,
+      "errors": 0,
+      "seconds": 1.9138005420099944
+    },
+    {
+      "door": "compuerta_C02_3_superior",
+      "screened": 309,
+      "boolean": 3,
+      "collisions": 0,
+      "errors": 0,
+      "seconds": 2.57803979201708
+    },
+    {
+      "door": "compuerta_C02_3_inferior",
+      "screened": 308,
+      "boolean": 2,
+      "collisions": 0,
+      "errors": 0,
+      "seconds": 1.9068349580047652
+    }
+  ],
+  "passed_screen": true
+}

@@ -1,0 +1,15 @@
+{
+  "version": "8.6.0",
+  "URL": "https://github.com/su2code/SU2/releases/download/v8.6.0/SU2_v8.6.0_macos64.zip",
+  "sha256": "8f3c0abb25de7d11107920935a258475746500808f22949b6c234d1f27833e8a",
+  "published_GitHub_digest_verified": true,
+  "installed_under_workspace": true,
+  "extraction_paths_checked": true,
+  "executed": false,
+  "execution_attempted": true,
+  "execution_attempt_exit_code": 127,
+  "binary_architecture": "x86_64",
+  "host_architecture": "arm64",
+  "usable_on_this_host": false,
+  "native_replacement": "Native v8.6.0 source build recorded in COMPILACION_NATIVA.json; no Rosetta or global configuration changes"
+}

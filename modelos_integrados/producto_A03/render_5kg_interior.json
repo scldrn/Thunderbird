@@ -1,0 +1,14 @@
+{
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_A03/5kg/A03_corte.step",
+  "source_sha256": "d1bc8f9d2988356e207bc174d0c5d64fc775d62dc32a93b5ece17f4639eef5a5",
+  "renderer": "Mitsuba3 scalar CPU path tracing from actual STEP",
+  "resolution": [
+    1800,
+    1125
+  ],
+  "samples_per_pixel": 64,
+  "view": "interior",
+  "no_AI_image_generator": true,
+  "requested_samples_per_pixel": 32,
+  "sampler_rounding_verified_from_log": true
+}

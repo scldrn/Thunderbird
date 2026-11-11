@@ -1,0 +1,108 @@
+{
+  "snapshot": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/snapshots_exterior_1",
+  "start_s": 5.06151186587e-06,
+  "end_s": 3.02387054915e-05,
+  "recorded_timesteps": 54,
+  "rho_kg_m3": 1.225,
+  "parsing": {
+    "force_all_boundary": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "force_all_solids": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "force_walls": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "volume_velocity": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "momentum_flux_inlet": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "momentum_flux_farfield": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "flow_inlet": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "flow_farfield": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    }
+  },
+  "results": {
+    "right_endpoint": {
+      "accumulation_N": [
+        0.7117826623558644,
+        0.034374122438689286,
+        -6.4620014851209175
+      ],
+      "convective_outward_N": [
+        0.00014434823110807442,
+        2.4546761439085143e-06,
+        10.909165276491574
+      ],
+      "opposite_fluid_boundary_traction_N": [
+        -0.7119377405773439,
+        -0.03438202066960033,
+        -4.447420625603609
+      ],
+      "residual_N": [
+        -1.0729990371438625e-05,
+        -5.4435547671358164e-06,
+        -0.00025683423295230767
+      ],
+      "residual_norm_N": 0.0002571159042106774,
+      "normalization_scale_N": 10.909165277446846,
+      "normalized_residual": 2.3568797215147902e-05
+    },
+    "trapezoidal": {
+      "accumulation_N": [
+        0.7117826623558644,
+        0.034374122438689286,
+        -6.4620014851209175
+      ],
+      "convective_outward_N": [
+        0.0001442245539881271,
+        2.4248074758599267e-06,
+        10.909169570268851
+      ],
+      "opposite_fluid_boundary_traction_N": [
+        -0.7093026955977095,
+        -0.03269090312849865,
+        -4.4418614413944555
+      ],
+      "residual_N": [
+        0.002624191312142976,
+        0.0016856441176664946,
+        0.005306643753478113
+      ],
+      "residual_norm_N": 0.006155342724859324,
+      "normalization_scale_N": 10.90916957122248,
+      "normalized_residual": 0.0005642356812471435
+    }
+  },
+  "max_relative_volume_flux_imbalance": 5.865797440746463e-10,
+  "quadrature_mean_net_difference_N": [
+    0.002634921302514859,
+    0.0016910876724336374,
+    0.005563477986434862
+  ],
+  "physical_loads_accepted": false,
+  "exact_assembled_discrete_residual": false,
+  "limitations": [
+    "initial viscous transient and high local speed",
+    "not full installed vehicle or rotor",
+    "same-grid startup only; no mesh/domain refinement",
+    "RANS reconstructed traction versus solver operators",
+    "right-endpoint rule follows Euler timing but is not an assembled equation residual"
+  ]
+}

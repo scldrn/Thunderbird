@@ -1,0 +1,8 @@
+{
+  "scope": "reapertura, reimportacion y reproduccion de colision; no equivalencia geometrica global",
+  "native_count": 8,
+  "step_count": 8,
+  "invalid_native": [],
+  "invalid_step": [],
+  "overlap_mm3": 11.668083416972658
+}

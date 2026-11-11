@@ -1,0 +1,21 @@
+{
+  "descripcion": "Análisis independientes en modo lectura para el objetivo reactivado; cada instrucción limita los archivos de entrada.",
+  "tareas": [
+    {
+      "id": "estado_cfd",
+      "instruccion": "Lee solo investigacion-aeronautica/ejecucion/G2/flujo_C02_conducto/INFORME-FINA-800.md y investigacion-aeronautica/ejecucion/G2/flujo_C02_conducto/INFORME-R9-TERMINADO.md. Compara los resultados, sus geometrías y criterios de convergencia; identifica qué puede y no puede concluirse y propone el siguiente contraste de bajo costo. Cita rutas y cifras. No leas otros documentos ni lances o reanudes solvers."
+    },
+    {
+      "id": "masa_energia",
+      "instruccion": "Lee solo investigacion-aeronautica/ejecucion/G1/decision_integrada_c02/INFORME.md e investigacion-aeronautica/ejecucion/G3/C02/INFORME-C02.md. Audita la contabilidad de masa y energía, los riesgos de doble cuenta y las afirmaciones condicionadas; propone la comprobación de mayor impacto con citas de archivo y cifras. No concluyas que la masa objetivo esté cerrada. No leas otros archivos."
+    },
+    {
+      "id": "propulsion_interna",
+      "instruccion": "Lee solo investigacion-aeronautica/ejecucion/G2/INFORME-LEY-LOCAL-C02.md e investigacion-aeronautica/ejecucion/G2/INFORME-COBERTURA-POLAR-C02.md. Revisa cobertura de polar, extrapolaciones, sensibilidad y límites del mapa de propulsión; propone una siguiente prueba independiente que no dependa de aceptar los resultados rechazados. Cita los archivos y cifras. No leas otros archivos."
+    },
+    {
+      "id": "control_vuelo",
+      "instruccion": "Lee solo investigacion-aeronautica/simulacion_vuelo_A/INFORME.md e investigacion-aeronautica/ejecucion/G6/autoridad_C02/calcular_autoridad.py. Revisa matemáticamente el problema de asignación de fuerzas y sus supuestos; identifica defectos concretos si los hay, invariantes analíticos independientes y límites del 6DOF. Cita archivo y función o línea. No ejecutes código ni leas otros archivos."
+    }
+  ]
+}

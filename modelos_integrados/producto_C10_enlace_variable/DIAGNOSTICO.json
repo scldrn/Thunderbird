@@ -1,0 +1,99 @@
+{
+  "scope": "caso rechazado ilustrativo; no mecanismo funcional",
+  "case": {
+    "rail_y_mm": -25,
+    "rail_z_mm": 75,
+    "target_mm": [
+      -156.24068621853033,
+      -94.21764137820084,
+      86.72122678853295
+    ],
+    "poses": [
+      {
+        "lift_mm": 0,
+        "dx_mm": 0,
+        "length_mm": 72.30363771169306,
+        "contact_mm3": 9.819835075698377,
+        "collision": null,
+        "errors": []
+      },
+      {
+        "lift_mm": 10,
+        "dx_mm": 0,
+        "length_mm": 74.64314152944964,
+        "contact_mm3": 9.317481588286261,
+        "collision": null,
+        "errors": []
+      },
+      {
+        "lift_mm": 20,
+        "dx_mm": 0,
+        "length_mm": 78.2328705155349,
+        "contact_mm3": 8.80315770664813,
+        "collision": null,
+        "errors": []
+      },
+      {
+        "lift_mm": 30,
+        "dx_mm": 0,
+        "length_mm": 82.90658244425461,
+        "contact_mm3": 8.29184328226807,
+        "collision": null,
+        "errors": []
+      },
+      {
+        "lift_mm": 30,
+        "dx_mm": -25,
+        "length_mm": 85.56380432780382,
+        "contact_mm3": 8.412744113321013,
+        "collision": null,
+        "errors": []
+      },
+      {
+        "lift_mm": 30,
+        "dx_mm": -50,
+        "length_mm": 95.11253247904925,
+        "contact_mm3": 8.964444409976041,
+        "collision": null,
+        "errors": []
+      },
+      {
+        "lift_mm": 30,
+        "dx_mm": -75,
+        "length_mm": 109.73568589649634,
+        "contact_mm3": 9.497803059616228,
+        "collision": null,
+        "errors": []
+      },
+      {
+        "lift_mm": 30,
+        "dx_mm": -100,
+        "length_mm": 127.67423095652914,
+        "contact_mm3": 9.903079131102697,
+        "collision": {
+          "name": "carroceria_C02_superior004",
+          "volume_mm3": 11.66808341697268,
+          "distance_mm": 2.0097183471152322e-14
+        },
+        "errors": []
+      }
+    ],
+    "sampled_ok": false
+  },
+  "pose": {
+    "lift_mm": 30,
+    "dx_mm": -100,
+    "length_mm": 127.67423095652914,
+    "contact_mm3": 9.903079131102697,
+    "collision": {
+      "name": "carroceria_C02_superior004",
+      "volume_mm3": 11.66808341697268,
+      "distance_mm": 2.0097183471152322e-14
+    },
+    "errors": []
+  },
+  "reproduced_volume_mm3": 11.66808341697268,
+  "native": "C10_diagnostico.FCStd",
+  "step": "C10_diagnostico.step",
+  "objects": 8
+}

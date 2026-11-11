@@ -1,0 +1,36 @@
+{
+  "stage": "saved_fields_snapshot",
+  "observed_UTC": "2026-11-03T23:46:00.854857+00:00",
+  "source_case": "neutro_r8_relajacion",
+  "container": "codex-aero-c02-conducto-neutro-r8",
+  "source_completed_counter_observed": 825.0,
+  "saved_counters": [
+    780,
+    800
+  ],
+  "source_solver_process_observed": [
+    "18317               01:24:35            sleep infinity",
+    "18402               01:24:35            /bin/bash -c source /opt/openfoam13/etc/bashrc && foamRun > log.foamRun 2>&1",
+    "18590               01:24:35            foamRun"
+  ],
+  "source_was_live_at_capture": true,
+  "does_not_prove_future_liveness": true,
+  "no_solver_restart_or_pause": true,
+  "physical_loads_accepted": false,
+  "saved_fields_sha256": {
+    "780/U": "5258950eed79a9cdabeedcab0d0b839e2470d794703c20cde9548eaaf2999d86",
+    "780/yPlus": "5aee05709322590d09335011c2ae0b78fc0fd30034c06cf2702a6c17c92fa6f5",
+    "780/omega": "2a60fd8d4438f30c51fa4e0eb898bb11ba1dd2fbdfd69a4d69a7b8d2ad1f06e1",
+    "780/phi": "5f5bac5543f9fe78045bab4ce805bb30a8056ccaa3eca4316e9a90bb137e6fe7",
+    "780/k": "e12229c673e2a25cd2ede63a710c9fd5080dc0b0a981bc21a90b4834663d3359",
+    "780/nut": "5bdb2ec577f117f35e2d49a7f83fa18cf9b236655600ba7eb11eff4d96c2e358",
+    "780/p": "520d1c7cb2e1e8d24707658d83cd6a2abc056b141bfd13196019ba1a5e488237",
+    "800/U": "42797ec043602c8d97a03ed93f4a24cb948be20174528b29ac80b27f78ac736e",
+    "800/yPlus": "339bb4356bce86396e3e87c0256ac91b2bfdaf79fd153cf13181ecde5d96580f",
+    "800/omega": "0705f07f6b9c35c91a4ea47d0d395c7ca07a68a3a837f2a919140f7da0f2d292",
+    "800/phi": "53fc0cc0a3162823e240ed54138e206b3c228d7c4747ab247aeaa6e01e6f6d1c",
+    "800/k": "2811da359f8c4221c654c73e345a9fbbcfcbe5c50fe6f4427b50c4a3e1c949a6",
+    "800/nut": "e965c04b9251198a3face578eeedbe41331a6a51f7b3c0c48a8f305cf7cdfcfc",
+    "800/p": "00db164362672674043b103cc1aead52805a8039cd44570c0d61ef8974f986e9"
+  }
+}

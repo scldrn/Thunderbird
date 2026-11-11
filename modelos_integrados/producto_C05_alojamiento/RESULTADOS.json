@@ -1,0 +1,2459 @@
+{
+  "revision": "C05_recorte_exploratorio",
+  "source_C03": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C03/5kg/C03_5kg_cerrado.FCStd",
+  "source_C03_sha256": "fe15cb8d9613e4c06e1e5d336ecae4153fac9e8a50ec3f065b7b65b7b6fa9e8d",
+  "mechanism_C04": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C04_estudio_bisagra_v2/C04_cerrado.FCStd",
+  "mechanism_C04_sha256": "7c9afc4f2761d2a788c4d0628cf5498c434f299849ecc673b2ccbb9715a6023f",
+  "axis_mm": [
+    -160.0,
+    -124.0,
+    67.9767683408146
+  ],
+  "lift_mm": 10,
+  "angle_deg": 110,
+  "box_clearance_mm": 0.5,
+  "scope": "Una compuerta; cajas conservadoras para las piezas propuestas, sin mecanismo real ni validacion de estructura",
+  "motion_envelopes": [
+    {
+      "nombre": "guia_fija",
+      "movimiento": "fijo",
+      "caja_mm": [
+        -187.0,
+        -183.0,
+        -142.0,
+        -138.0,
+        48.5,
+        82.5
+      ]
+    },
+    {
+      "nombre": "guia_fija001",
+      "movimiento": "fijo",
+      "caja_mm": [
+        -137.0,
+        -133.0,
+        -142.0,
+        -138.0,
+        48.5,
+        82.5
+      ]
+    },
+    {
+      "nombre": "patin_movil",
+      "movimiento": "traslacion",
+      "caja_mm": [
+        -188.7,
+        -181.3,
+        -143.7,
+        -136.3,
+        64.0,
+        82.0
+      ]
+    },
+    {
+      "nombre": "puente_reserva",
+      "movimiento": "traslacion",
+      "caja_mm": [
+        -188.0,
+        -182.0,
+        -140.5,
+        -123.5,
+        65.4767683408146,
+        80.4767683408146
+      ]
+    },
+    {
+      "nombre": "cojinete_reserva",
+      "movimiento": "traslacion",
+      "caja_mm": [
+        -188.0,
+        -182.0,
+        -127.5,
+        -120.5,
+        64.4767683408146,
+        81.4767683408146
+      ]
+    },
+    {
+      "nombre": "patin_movil001",
+      "movimiento": "traslacion",
+      "caja_mm": [
+        -138.7,
+        -131.3,
+        -143.7,
+        -136.3,
+        64.0,
+        82.0
+      ]
+    },
+    {
+      "nombre": "puente_reserva001",
+      "movimiento": "traslacion",
+      "caja_mm": [
+        -138.0,
+        -132.0,
+        -140.5,
+        -123.5,
+        65.4767683408146,
+        80.4767683408146
+      ]
+    },
+    {
+      "nombre": "cojinete_reserva001",
+      "movimiento": "traslacion",
+      "caja_mm": [
+        -138.0,
+        -132.0,
+        -127.5,
+        -120.5,
+        64.4767683408146,
+        81.4767683408146
+      ]
+    },
+    {
+      "nombre": "pasador",
+      "movimiento": "traslacion",
+      "caja_mm": [
+        -188.5,
+        -131.5,
+        -125.5,
+        -122.5,
+        66.4767683408146,
+        79.4767683408146
+      ]
+    },
+    {
+      "nombre": "brazo_tapa_reserva",
+      "movimiento": "giro",
+      "caja_mm": [
+        -180.0,
+        -175.0,
+        -140.14489706683185,
+        -113.771616885571,
+        66.36885331529174,
+        94.78139883563577
+      ]
+    },
+    {
+      "nombre": "brazo_tapa_reserva001",
+      "movimiento": "giro",
+      "caja_mm": [
+        -148.0,
+        -143.0,
+        -140.14489706683185,
+        -113.771616885571,
+        66.36885331529174,
+        94.78139883563577
+      ]
+    }
+  ],
+  "original_body": {
+    "volume_mm3": 331625.36443029786,
+    "solids": 4,
+    "area_mm2": 682848.9251945678
+  },
+  "revised_body": {
+    "volume_mm3": 331268.14226919884,
+    "solids": 6,
+    "area_mm2": 682283.2133591928
+  },
+  "removed": {
+    "volume_mm3": 357.1433885647162,
+    "solids": 1
+  },
+  "cutout_against_obstacles": {
+    "carroceria_original": {
+      "distancia_mm": 0.0,
+      "interseccion_mm3": 357.1433885647163,
+      "interseccion_valida": true
+    },
+    "camisa_C03": {
+      "distancia_mm": 0.0,
+      "interseccion_mm3": 157.9945039956935,
+      "interseccion_valida": true
+    },
+    "rotor_C03": {
+      "distancia_mm": 56.55239862351661,
+      "interseccion_mm3": 0.0,
+      "interseccion_valida": true
+    },
+    "aro_C03": {
+      "distancia_mm": 0.0,
+      "interseccion_mm3": 21.62098796105238,
+      "interseccion_valida": true
+    },
+    "junta_C03": {
+      "distancia_mm": 0.0,
+      "interseccion_mm3": 2.5691203375493377,
+      "interseccion_valida": true
+    },
+    "compuerta_cerrada": {
+      "distancia_mm": 0.0,
+      "interseccion_mm3": 57.36920003932634,
+      "interseccion_valida": true
+    }
+  },
+  "samples": [
+    {
+      "fase": "elevacion",
+      "lift_mm": 0.0,
+      "angulo_deg": 0.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 8.329365899182513,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.509533545207532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 70.95778803637563,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.011791141216879,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 67.74973463631935,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.311529493745269,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 66.67900316099957,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 6.203914999881134,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.50953354520752,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 70.44008183216859,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.011791141216879,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 68.23546457482425,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.311529493745269,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 67.1535060847435,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 3.0000000000000004,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 66.63439901864552,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 1.5333304950488718,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 68.80822603184984,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5001825135333644,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 0.09071428407393321,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 67.63377757722661,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "elevacion",
+      "lift_mm": 2.0,
+      "angulo_deg": 0.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 9.182601324691039,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.50953353849259,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 72.76159281622749,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.011791141216879,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 69.67888751439231,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.311529493745269,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 68.61203011688313,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 7.05166555358169,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.509533545207532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 72.25677027752181,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.49999999999982947,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.011791141216879,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 70.15204173534342,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.49999999999991473,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.311529493745269,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 69.07446893246144,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.4999999999999716,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 3.0,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 68.62384137219786,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5019899539456314,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 2.6075943164736723,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 70.7371133316347,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 1.1848190869400195,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 69.59296428212659,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "elevacion",
+      "lift_mm": 4.0,
+      "angulo_deg": 0.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 10.035824540317575,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.50953353849259,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 74.57539365083176,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.8699680633703003,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.011791134387572,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 71.61192042356844,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.311529493745269,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 70.54863195738943,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 7.8994102432313875,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.509533545207532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 74.0828925613768,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.49999999999982947,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.011791141216879,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 72.0730722771988,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.49999999999982947,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.311529493745269,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 70.99955215963517,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 3.0006688018721026,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 70.61386640938345,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.7764184137013374,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 3.6828364517434333,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 72.66963424455922,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5229426520708264,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 2.2793297162827653,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 71.55433564443327,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "elevacion",
+      "lift_mm": 6.0,
+      "angulo_deg": 0.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 10.9563668251261,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.50953353849259,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.39847920552525,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.617011778687051,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.01179113438757,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 73.54852776903502,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.338271936884973,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 72.48853383556661,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 8.866929764405366,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.509533545207532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 75.91776849576436,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.011791141216879,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 73.99821932398457,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.311529493745269,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 72.92845044189181,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 3.489240011798336,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 72.60442731477977,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.58985155431819,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 4.759011770369735,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 74.60552372286833,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.8887579205875416,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 3.3742276839384666,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 73.5177216684622,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "elevacion",
+      "lift_mm": 8.0,
+      "angulo_deg": 0.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 11.893750835596286,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.50953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 78.2302009246144,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 2.8230449185001407,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.057408884904193,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 75.48843474687033,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.619798694517559,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.684633624323687,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 74.43148797515627,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 9.85172649290294,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.509533545207532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.76077893225319,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.179868360848204,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.011791141216879,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 75.92717769685595,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 0.5,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.339895567681585,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 74.8608802268781,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.4485940254072989,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 4.639862866806421,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 74.59548214405947,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.0492999497803206,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 5.836078094338671,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.3888736216909,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.8824233131466939,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 4.4694956650381075,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 75.48296944151848,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "elevacion",
+      "lift_mm": 10.0,
+      "angulo_deg": 0.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 12.732510335659876,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.59056986465043,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 80.06996661739223,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.568143048418952,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.462099247552045,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.4313936188827,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.3516590984453587,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.399880283220532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.37727046450999,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 10.679192429309008,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.511350622307777,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 79.61135939131583,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 2.4996896751164726,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.069607019745622,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.85966604228012,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.283217283051386,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.685140071660343,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.79658063396552,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.1802023541982436,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.102831320663429,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.58699320819069,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.694887463022328,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.951171563832041,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 78.15148178006555,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.38644480820651,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 5.570423112392215,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.44994105503183,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "giro",
+      "lift_mm": 10.0,
+      "angulo_deg": 22.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 12.732510335659876,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.59056986465043,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 80.06996661739223,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.568143048418952,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.462099247552045,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.4313936188827,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.3516590984453587,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.399880283220532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.37727046450999,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 10.679192429309008,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.511350622307777,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 79.61135939131583,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 2.4996896751164726,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.069607019745622,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.85966604228012,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.283217283051386,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.685140071660343,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.79658063396552,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.1802023541982436,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.102831320663429,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.58699320819069,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 5.1796216406107005,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.195268581043245,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 78.63572697299173,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.766790583603026,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 5.785822977645523,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 78.07590206516372,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "giro",
+      "lift_mm": 10.0,
+      "angulo_deg": 44.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 12.732510335659876,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.59056986465043,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 80.06996661739223,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.568143048418952,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.462099247552045,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.4313936188827,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.3516590984453587,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.399880283220532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.37727046450999,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 10.679192429309008,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.511350622307777,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 79.61135939131583,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 2.4996896751164726,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.069607019745622,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.85966604228012,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.283217283051386,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.685140071660343,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.79658063396552,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.1802023541982436,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.102831320663429,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.58699320819069,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 5.722846512595604,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.722687332993459,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 79.26463491169696,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.2737657938978195,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.3130965493812665,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 78.3604755520668,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "giro",
+      "lift_mm": 10.0,
+      "angulo_deg": 66.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 12.732510335659876,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.59056986465043,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 80.06996661739223,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.568143048418952,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.462099247552045,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.4313936188827,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.3516590984453587,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.399880283220532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.37727046450999,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 10.679192429309008,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.511350622307777,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 79.61135939131583,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 2.4996896751164726,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.069607019745622,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.85966604228012,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.283217283051386,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.685140071660343,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.79658063396552,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.1802023541982436,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.102831320663429,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.58699320819069,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 5.913481462933052,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 8.361178806343924,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 78.79507365292129,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.541499936816795,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.01523983777084,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.77528340565215,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "giro",
+      "lift_mm": 10.0,
+      "angulo_deg": 88.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 12.732510335659876,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.59056986465043,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 80.06996661739223,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.568143048418952,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.462099247552045,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.4313936188827,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.3516590984453587,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.399880283220532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.37727046450999,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 10.679192429309008,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.511350622307777,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 79.61135939131583,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 2.4996896751164726,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.069607019745622,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.85966604228012,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.283217283051386,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.685140071660343,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.79658063396552,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.1802023541982436,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.102831320663429,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.58699320819069,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 5.3798946607602325,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 8.540098343015657,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 78.24464067962387,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.107397581922115,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.325601690839371,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.19813026015677,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    },
+    {
+      "fase": "giro",
+      "lift_mm": 10.0,
+      "angulo_deg": 110.0,
+      "partes": [
+        {
+          "nombre": "guia_fija",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.2538742044990645,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953353849258,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 58.35616260541298,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "guia_fija001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.173358097769717,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 23.20953354520753,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 57.690685942944725,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 12.732510335659876,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.59056986465043,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 80.06996661739223,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.568143048418952,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.462099247552045,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.4313936188827,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.3516590984453587,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 7.399880283220532,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.37727046450999,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "patin_movil001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 10.679192429309008,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 21.511350622307777,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 79.61135939131583,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "puente_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 2.4996896751164726,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 9.069607019745622,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.85966604228012,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "cojinete_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 1.283217283051386,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.685140071660343,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.79658063396552,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "pasador",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.1802023541982436,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.102831320663429,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.58699320819069,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 4.8729557429130255,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 8.124641659431855,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 77.88097593913047,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        },
+        {
+          "nombre": "brazo_tapa_reserva001",
+          "vs_carroceria_recortada": {
+            "distancia_mm": 3.609325173202369,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_camisa": {
+            "distancia_mm": 6.908820810992859,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          },
+          "vs_rotor": {
+            "distancia_mm": 76.82307568100515,
+            "interseccion_mm3": 0.0,
+            "interseccion_valida": true
+          }
+        }
+      ]
+    }
+  ],
+  "artifacts": {
+    "native": "C05_alojamiento_estudio.FCStd",
+    "native_sha256": "116804c436e60f2a6c58410909a23a86a02c70dadbfa45189772463d4ae6ff56",
+    "step": "C05_alojamiento_estudio.step",
+    "step_sha256": "3cfdab744b42a9dfcd3e2f9055a85cbbdd8b0a9d4524abb5763a56fa58cd569b"
+  }
+}

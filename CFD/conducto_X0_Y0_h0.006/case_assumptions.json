@@ -1,0 +1,24 @@
+{
+  "version": "OpenFOAM Foundation13",
+  "rho_kgm3": 1.225,
+  "nu_m2s": 1.46e-05,
+  "inlet_U_ms": [
+    0,
+    0,
+    -40
+  ],
+  "inlet_turbulence_I": 0.05,
+  "k_m2s2": 6,
+  "omega_s1": 894.4271909999,
+  "model": "steady incompressible RANS kOmegaSST",
+  "end_iterations": 300,
+  "status": "Prototype case, not converged/validated by preparation",
+  "limits": [
+    "No fan pressure/rotation coupling",
+    "No exterior domain or installed fuselage",
+    "No thermal/compressible or transonic model",
+    "No prism layers; yPlus and grid sensitivity must be checked",
+    "Flat square-edge vanes; transition/separation sensitive",
+    "Inlet turbulence and operating speed assumed"
+  ]
+}

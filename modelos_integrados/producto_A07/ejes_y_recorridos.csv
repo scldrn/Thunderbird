@@ -1,0 +1,9 @@
+compuerta,x_eje_mm,y_eje_mm,z_eje_cerrado_mm,elevacion_mm,sentido_Z,sentido_giro,giro_grados
+compuerta_0_superior_enrasada,-200,-124,65.46206952822472,10,1,1,110
+compuerta_0_inferior_enrasada,-200,-124,-51.813414341235344,10,-1,-1,110
+compuerta_1_superior_enrasada,-200,124,65.46206952822584,10,1,-1,110
+compuerta_1_inferior_enrasada,-200,124,-51.81341434127446,10,-1,1,110
+compuerta_2_superior_enrasada,200,-124,45.5103550762197,10,1,1,110
+compuerta_2_inferior_enrasada,200,-124,-34.38218584062672,10,-1,-1,110
+compuerta_3_superior_enrasada,200,124,45.51035507660301,10,1,-1,110
+compuerta_3_inferior_enrasada,200,124,-34.382185838729896,10,-1,1,110

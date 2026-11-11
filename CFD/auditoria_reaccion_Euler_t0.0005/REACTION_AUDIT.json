@@ -1,0 +1,140 @@
+{
+  "snapshot_time_s": 0.0005,
+  "physical_loads_accepted": false,
+  "loads": {
+    "all_solid": {
+      "force_N": [
+        -2.0894405355,
+        0.295197086,
+        -8.2767981
+      ],
+      "moment_origin_Nm": [
+        0.0249409237,
+        0.0927057244,
+        0.0009307143153
+      ]
+    },
+    "vaneX0": {
+      "force_N": [
+        0.007885006,
+        -1.8242248041,
+        -1.5048601719999999
+      ],
+      "moment_origin_Nm": [
+        0.0146620947,
+        0.00117258918,
+        -0.00204547486
+      ]
+    },
+    "vaneX1": {
+      "force_N": [
+        -0.005299701,
+        -2.2353571238999996,
+        -1.847870688
+      ],
+      "moment_origin_Nm": [
+        -0.0226592667,
+        1.660290000000001e-06,
+        -0.000763489583
+      ]
+    },
+    "vaneX2": {
+      "force_N": [
+        -0.004214646,
+        -1.2789270937,
+        -1.047430875
+      ],
+      "moment_origin_Nm": [
+        -0.036035040080000004,
+        0.00041336473,
+        -0.00066570243
+      ]
+    },
+    "vaneY0": {
+      "force_N": [
+        -0.540876142,
+        -0.0093217688,
+        -0.596442423
+      ],
+      "moment_origin_Nm": [
+        -0.00015793152867,
+        0.0068903343,
+        1.7473103999999998e-05
+      ]
+    },
+    "vaneY1": {
+      "force_N": [
+        -2.350581078,
+        0.0035777216999999997,
+        -1.86492439
+      ],
+      "moment_origin_Nm": [
+        -0.0037514929000000002,
+        0.08876171890000001,
+        0.00466706373
+      ]
+    },
+    "vaneY2": {
+      "force_N": [
+        -1.575248462,
+        -0.0125278891,
+        -1.19910775
+      ],
+      "moment_origin_Nm": [
+        -0.0010539985,
+        0.08670662177,
+        -0.000379971
+      ]
+    },
+    "vanes": {
+      "force_N": [
+        -4.468335550999999,
+        -5.356781526,
+        -8.0606358
+      ],
+      "moment_origin_Nm": [
+        -0.0489956391,
+        0.1839463235,
+        0.0008298993700000001
+      ]
+    },
+    "walls": {
+      "force_N": [
+        2.378894015,
+        5.65197851,
+        -0.21616284
+      ],
+      "moment_origin_Nm": [
+        0.0739365628,
+        -0.09124056906,
+        0.00010081495000000001
+      ]
+    }
+  },
+  "partition_checks": [
+    {
+      "quantity": "force_N",
+      "individual_sum_error_max": 5.680999999313485e-07,
+      "wall_plus_vanes_error_max": 1.0004999988488805e-06,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "quantity": "moment_origin_Nm",
+      "individual_sum_error_max": 3.4330000009408224e-08,
+      "wall_plus_vanes_error_max": 3.0040000015274515e-08,
+      "absolute_tolerance": 5e-08
+    }
+  ],
+  "six_reference_point_transforms_verified": true,
+  "lateral_magnitude_vanes_N": 6.97575307143432,
+  "lateral_magnitude_all_solids_N": 2.110190292597665,
+  "lateral_magnitude_ratio": 0.30250358219227763,
+  "interpretation": "Underdeveloped isolated channel snapshot: wall reactions materially change local vane sums. Not an installed thrust measurement.",
+  "implementation": "OpenFOAM Foundation13 forcesBase.C: pressure rho(p)*Sf*(p-pRef); moments about common origin; rhoInf=1.225 kg/m3.",
+  "scope_limits": [
+    "no rotor or exterior forces",
+    "no temporal/mesh independence",
+    "no closed control-volume momentum check",
+    "no actual actuator response"
+  ]
+}

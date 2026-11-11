@@ -1,0 +1,704 @@
+{
+  "cases": [
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "direction": -1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.3785161607184851,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 0,
+          "volume_mm3": 0.022993689279938796
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 0,
+          "volume_mm3": 1.00468670846337
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 0,
+          "volume_mm3": 6.276097672766447
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "direction": -1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.3785161607184851,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 0,
+          "volume_mm3": 0.022993689279938796
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 0,
+          "volume_mm3": 1.00468670846337
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 0,
+          "volume_mm3": 12.576220727785365
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "direction": 1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.378517130052925,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 0,
+          "volume_mm3": 0.21536000628072555
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 0,
+          "volume_mm3": 4.9358022234718755
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "direction": 1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.378517130052925,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 0,
+          "volume_mm3": 0.21536000628072555
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 0,
+          "volume_mm3": 8.8481859072738
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "direction": -1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.3785161607184851,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 0,
+          "volume_mm3": 0.22696760915247083
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 0,
+          "volume_mm3": 5.003874362620401
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "direction": -1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.3785161607184851,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 0,
+          "volume_mm3": 0.22696760915247083
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 0,
+          "volume_mm3": 9.012845386485141
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "direction": 1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.378517130052925,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 0,
+          "volume_mm3": 0.02140914164776147
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 0,
+          "volume_mm3": 0.9884175481608466
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 0,
+          "volume_mm3": 6.278267243430974
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "direction": 1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.378517130052925,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 0,
+          "volume_mm3": 0.02140914164776147
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 0,
+          "volume_mm3": 0.9884175481608466
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 0,
+          "volume_mm3": 12.768675262313186
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "direction": -1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.37851616071854977,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 1,
+          "volume_mm3": 0.025343399741036797
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 1.0304363026176113
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 6.277970220792134
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "direction": -1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.37851616071854977,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 1,
+          "volume_mm3": 0.025343399741036797
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 1.0304363026176113
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 12.602322367186996
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "direction": 1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.3785171300531581,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 0.2055940806315008
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 4.883275889911445
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "direction": 1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.3785171300531581,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 0.2055940806315008
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 8.737670657220708
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "direction": -1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.37851616071854977,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 0.2169171410943856
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 4.951668020572942
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "direction": -1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.37851616071854977,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 0.2169171410943856
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 8.902759252055105
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "direction": 1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.3785171300531581,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 1,
+          "volume_mm3": 0.023611993605374543
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 1.0133946898907178
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 6.280045353378377
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "direction": 1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.3785171300531581,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 1,
+          "volume_mm3": 0.023611993605374543
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 1.0133946898907178
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 12.815134039110397
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "direction": -1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.3785161607291605,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 2,
+          "volume_mm3": 0.02782337453924649
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 1.056447306726641
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 6.278759686309948
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "direction": -1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.3785161607291605,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 2,
+          "volume_mm3": 0.02782337453924649
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 1.056447306726641
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 12.924029233704932
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "direction": 1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.37851713004314275,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 0.19612677260317316
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 4.818861514649651
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "direction": 1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.37851713004314275,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 0.19612677260317316
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 5.203442118507636
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "direction": -1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.3785161607291605,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 0.20716478489803983
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 4.899546799775741
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "direction": -1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.3785161607291605,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 0.20716478489803983
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 8.793009441372357
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "direction": 1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.37851713004314275,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 2,
+          "volume_mm3": 0.025938101711217087
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 1.0386374211235394
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 6.305219436487533
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "direction": 1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.37851713004314275,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 2,
+          "volume_mm3": 0.025938101711217087
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 1.0386374211234974
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 7.5265363423877565
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "direction": -1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.37851616073352673,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 60,
+          "leaf": 3,
+          "volume_mm3": 0.06476395610083005
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "direction": -1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.37851616073352673,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 60,
+          "leaf": 3,
+          "volume_mm3": 0.06476395610083005
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "direction": 1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.37851713003768944,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [],
+      "errors": [],
+      "passes_sampled_local": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "direction": 1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.37851713003768944,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [],
+      "errors": [],
+      "passes_sampled_local": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "direction": -1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.37851616073352673,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [],
+      "errors": [],
+      "passes_sampled_local": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "direction": -1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.37851616073352673,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [],
+      "errors": [],
+      "passes_sampled_local": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "direction": 1,
+      "length_mm": 5.0,
+      "bearing_overlap_mm3": 0.37851713003768944,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 60,
+          "leaf": 3,
+          "volume_mm3": 0.06125523949686382
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "direction": 1,
+      "length_mm": 10.0,
+      "bearing_overlap_mm3": 0.37851713003768944,
+      "sweep_collisions": [],
+      "leaf_rotation_collisions": [
+        {
+          "angle_deg": 60,
+          "leaf": 3,
+          "volume_mm3": 0.06125523949686382
+        }
+      ],
+      "errors": [],
+      "passes_sampled_local": false
+    }
+  ]
+}

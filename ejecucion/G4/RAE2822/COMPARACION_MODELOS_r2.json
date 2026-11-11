@@ -1,0 +1,103 @@
+{
+  "scope": "Matched-condition model sensitivity; not model selection by experimental fit, not accepted uncertainty or vehicle performance",
+  "SST_case": "su2_nasa_fina_r3_sonda",
+  "SA_case": "su2_nasa_sa_r2_sonda",
+  "native_binary_identical": true,
+  "mesh_identical_sha256": "d6247af7602ecf7eb76067985b948e62bb38cfa869d542c81c925401995c34e9",
+  "mean_freestream_transport_and_reference_values_identical": true,
+  "matched_freestream_eddy_to_laminar_ratio": 1.0000000000000004,
+  "configuration_differences": {
+    "KIND_TURB_MODEL": [
+      "SST",
+      "SA"
+    ],
+    "SA_OPTIONS": [
+      null,
+      "NONE"
+    ],
+    "FREESTREAM_NU_FACTOR": [
+      null,
+      "4.6228382691074437"
+    ],
+    "SCREEN_OUTPUT": [
+      "(INNER_ITER, RMS_DENSITY, RMS_TKE, RMS_DISSIPATION, LIFT, DRAG, AVG_CFL)",
+      "(INNER_ITER, RMS_DENSITY, RMS_NU_TILDE, LIFT, DRAG, AVG_CFL)"
+    ]
+  },
+  "coefficients": {
+    "last_CL": {
+      "SST": 0.6788079117,
+      "SA_noft2": 0.7114241026,
+      "difference": 0.03261619090000001,
+      "relative_to_SST": 0.048049220313764955
+    },
+    "last_CD": {
+      "SST": 0.01259345921,
+      "SA_noft2": 0.01327139164,
+      "difference": 0.00067793243,
+      "relative_to_SST": 0.05383210591270102
+    }
+  },
+  "Cp_error_RMS_all103": {
+    "SST": 0.12314062853496796,
+    "SA_noft2": 0.10828190830062163
+  },
+  "Cp_model_difference_same103positions": {
+    "RMS": 0.038883014258119256,
+    "max_abs": 0.35586244469358985
+  },
+  "upper_midchord_pressure_rise_indicator": {
+    "SST": {
+      "definition": "Midpoint of largest positive wall Cp slope on upper surface inside fixed0.2..0.8chord window; not exact shock position",
+      "x_over_c": 0.5122984749999999,
+      "bracket_x_over_c": [
+        0.509168,
+        0.51542895
+      ],
+      "delta_Cp": 0.1230132855054783,
+      "slope_dCp_dxi": 19.647702905386158
+    },
+    "SA_noft2": {
+      "definition": "Midpoint of largest positive wall Cp slope on upper surface inside fixed0.2..0.8chord window; not exact shock position",
+      "x_over_c": 0.53104945,
+      "bracket_x_over_c": [
+        0.5279296,
+        0.5341693
+      ],
+      "delta_Cp": 0.1364307157634541,
+      "slope_dCp_dxi": 21.864947956384924
+    }
+  },
+  "yPlus_ranges": {
+    "SST": [
+      0.11763258108724826,
+      0.9762496652123273
+    ],
+    "SA_noft2": [
+      0.12158475409865971,
+      0.9884850214975799
+    ]
+  },
+  "limits": [
+    "Mean pressure preserved when removing SST rho*k from SA restart energy; models do not share transported turbulence variables.",
+    "Single-mesh model comparison; model spread is not a confidence interval or total physical error.",
+    "SA requires its own late full-state/force probe before settled model differences can be claimed.",
+    "No identity to legacy WIND SA variant or experimental transition; all103 pressure taps retained."
+  ],
+  "experimental_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "source_sha256": {
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/ENTRADAS.json": "2ba51d701c725ac744f290b62aac5de633515f0bff2422718f9554e37b5c83e6",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/AUDITORIA_SU2.json": "cf401fd31417de4b661f1c2339008c296a9fea73962d08902710888779a2ab44",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/TRACCION_RECONSTRUIDA.json": "84c59414abb84d9ff567f9547cf6a1794d7eb7f7e120b2466699de0d91594849",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/EJECUCION.json": "c9a7910eac36b8520b7c7d38443d6a937d25a72a56cf968def09f1a30ebdf5d4",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/case.cfg": "942f68f90d9512f7bde056a433014a923e4940423060febd12b675e05651b675",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/Cp_CONTRASTE_PROVISIONAL.csv": "91e15ec1f3547c8e92d4f6c2b674060007d44e7d73091a1c6de0ba02ddfe4bb0",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_sa_r2_sonda/ENTRADAS.json": "2ac79964f04a56a82655d7e4520aa6659221089b855ea6a81a263639c59f6911",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_sa_r2_sonda/AUDITORIA_SU2.json": "a952e32f74c89c9c3bd13d1cb9664f0c1fdab6261ad361faa4b1d7539a1b5b77",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_sa_r2_sonda/TRACCION_RECONSTRUIDA.json": "d8b6260128d2158115235e5b836eff9701c758304114e1c93a98b19c6c33ee84",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_sa_r2_sonda/EJECUCION.json": "add8d2650790e36a3f52b2cf0e01e76e13244f75850e8de2dee4b268218bd47e",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_sa_r2_sonda/case.cfg": "7e0943b05782599cc00306c443a17b9e8f43cbdfd81a3dbf212537fd9966ec30",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_sa_r2_sonda/Cp_CONTRASTE_PROVISIONAL.csv": "d96222edcd24314fc814e401628249df92ccce41fbeaf3849fb18c56600ef95c"
+  }
+}

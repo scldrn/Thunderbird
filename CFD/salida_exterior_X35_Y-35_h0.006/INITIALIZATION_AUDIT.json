@@ -1,0 +1,19 @@
+{
+  "stage": "potential_initialization_verified",
+  "finite_internal_velocity": true,
+  "cell_count": 1263510,
+  "max_initial_internal_speed_m_s": 226.92929499233895,
+  "reported_volume_average_absolute_divergence_s1": 5.016106304e-07,
+  "normalized_integrated_absolute_divergence": 5.198063606048105e-07,
+  "interpolated_velocity_error": 9.158849295e-13,
+  "potential_flow_is_not_developed_viscous_flow": true,
+  "physical_loads_accepted": false,
+  "max_initial_speed_sound_speed_ratio_assuming_340p3_ms": 0.666850705237552,
+  "initial_peak_location_m": [
+    -0.027480075,
+    0.01711465,
+    -0.033871
+  ],
+  "initial_peak_cell": 169652,
+  "initial_peak_not_valid_for_incompressible_load_acceptance": true
+}

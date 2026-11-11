@@ -1,0 +1,1342 @@
+{
+  "scope": "Una reserva fija por candidato, bajo techo/suelo muestreados y contra 316 registros CAD y cuatro cilindros de giro nominal. No prueba conexion, soportes, trayectoria completa, deformacion ni flujo.",
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C03/5kg/C03_5kg_cerrado.FCStd",
+  "source_sha256": "fe15cb8d9613e4c06e1e5d336ecae4153fac9e8a50ec3f065b7b65b7b6fa9e8d",
+  "rail_mm": {
+    "x_start": -280.0,
+    "length": 160.0,
+    "radius_reservation": 2.5,
+    "nominal_diameter_assumption": 4,
+    "radial_allowance_assumption": 0.5
+  },
+  "grid_y_mm": [
+    -145,
+    -130,
+    -115,
+    -100,
+    -85,
+    -70,
+    -55,
+    -40,
+    -25
+  ],
+  "grid_z_mm": [
+    5,
+    15,
+    25,
+    35,
+    45,
+    55,
+    65,
+    75
+  ],
+  "rotor_sweep_audit": [
+    {
+      "rotor": "modulo_C02_0_rotor_copa",
+      "center_mm": [
+        -160.0,
+        -76.0
+      ],
+      "radius_mm": 41.50000010000004,
+      "zmin_mm": -8.2900001,
+      "height_mm": 16.5800002,
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "rotor": "modulo_C02_1_rotor_copa",
+      "center_mm": [
+        -160.0,
+        76.0
+      ],
+      "radius_mm": 41.500000100000044,
+      "zmin_mm": -8.2900001,
+      "height_mm": 16.5800002,
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "rotor": "modulo_C02_2_rotor_copa",
+      "center_mm": [
+        160.0,
+        -76.0
+      ],
+      "radius_mm": 41.500000100000044,
+      "zmin_mm": -8.2900001,
+      "height_mm": 16.5800002,
+      "outside_volume_mm3": 0.0
+    },
+    {
+      "rotor": "modulo_C02_3_rotor_copa",
+      "center_mm": [
+        160.0,
+        76.0
+      ],
+      "radius_mm": 41.500000100000044,
+      "zmin_mm": -8.2900001,
+      "height_mm": 16.5800002,
+      "outside_volume_mm3": 0.0
+    }
+  ],
+  "roof_samples": {
+    "-145": [
+      {
+        "x_mm": -279,
+        "y_mm": -145,
+        "upper_z_mm": 9.771265817816413,
+        "lower_z_mm": -7.59533617600286
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -147.4,
+        "upper_z_mm": 4.799903929835693,
+        "lower_z_mm": -3.731029800985141
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -142.6,
+        "upper_z_mm": 14.742627705797076,
+        "lower_z_mm": -11.459642551020636
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -145,
+        "upper_z_mm": 25.606584966772544,
+        "lower_z_mm": -19.90434246373519
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -147.4,
+        "upper_z_mm": 20.544536400871323,
+        "lower_z_mm": -15.969544115790683
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -142.6,
+        "upper_z_mm": 30.668633532673795,
+        "lower_z_mm": -23.839140811679727
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -145,
+        "upper_z_mm": 33.174493020050534,
+        "lower_z_mm": -25.786979052016505
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -147.4,
+        "upper_z_mm": 28.03748088322581,
+        "lower_z_mm": -21.793910513419974
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -142.6,
+        "upper_z_mm": 38.311505156875285,
+        "lower_z_mm": -29.780047590613066
+      }
+    ],
+    "-130": [
+      {
+        "x_mm": -279,
+        "y_mm": -130,
+        "upper_z_mm": 40.84227761769546,
+        "lower_z_mm": -31.747251019863768
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -132.4,
+        "upper_z_mm": 35.870915729714795,
+        "lower_z_mm": -27.88294464484602
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -127.6,
+        "upper_z_mm": 45.81363950567615,
+        "lower_z_mm": -35.611557394881515
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -130,
+        "upper_z_mm": 57.24438850365536,
+        "lower_z_mm": -44.496832138388356
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -132.4,
+        "upper_z_mm": 52.18233993775408,
+        "lower_z_mm": -40.56203379044388
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -127.6,
+        "upper_z_mm": 62.30643706955661,
+        "lower_z_mm": -48.431630486332864
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -130,
+        "upper_z_mm": 65.28081887520523,
+        "lower_z_mm": -50.74365741824474
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -132.4,
+        "upper_z_mm": 60.143806738380476,
+        "lower_z_mm": -46.750588879648234
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -127.6,
+        "upper_z_mm": 70.41783101202998,
+        "lower_z_mm": -54.73672595684128
+      }
+    ],
+    "-115": [
+      {
+        "x_mm": -279,
+        "y_mm": -115,
+        "upper_z_mm": 66.79758692615903,
+        "lower_z_mm": -55.89916586372465
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -117.4,
+        "upper_z_mm": 65.5732963119546,
+        "lower_z_mm": -52.0348594887069
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -112.6,
+        "upper_z_mm": 68.02187754036345,
+        "lower_z_mm": -59.763472238742395
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -115,
+        "upper_z_mm": 74.35020047499972,
+        "lower_z_mm": -65.11031918135753
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -117.4,
+        "upper_z_mm": 73.10357657444186,
+        "lower_z_mm": -64.51995183733115
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -112.6,
+        "upper_z_mm": 75.59682437555759,
+        "lower_z_mm": -65.70068652538389
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -115,
+        "upper_z_mm": 78.35945345626095,
+        "lower_z_mm": -68.10029562134478
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -117.4,
+        "upper_z_mm": 77.09436837778918,
+        "lower_z_mm": -67.50118556304213
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -112.6,
+        "upper_z_mm": 79.62453853473272,
+        "lower_z_mm": -68.69940567964744
+      }
+    ],
+    "-100": [
+      {
+        "x_mm": -279,
+        "y_mm": -100,
+        "upper_z_mm": 74.44940326493654,
+        "lower_z_mm": -63.23447157942773
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -102.4,
+        "upper_z_mm": 73.22511265073214,
+        "lower_z_mm": -62.654680675450294
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -97.6,
+        "upper_z_mm": 75.67369387914096,
+        "lower_z_mm": -63.81426248340519
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -100,
+        "upper_z_mm": null,
+        "lower_z_mm": null
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -102.4,
+        "upper_z_mm": 80.89497595292852,
+        "lower_z_mm": -68.20974773749593
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -97.6,
+        "upper_z_mm": 83.38822375404425,
+        "lower_z_mm": -69.39048242554865
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -100,
+        "upper_z_mm": 86.26623519670943,
+        "lower_z_mm": -71.84473348573636
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -102.4,
+        "upper_z_mm": null,
+        "lower_z_mm": null
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -97.6,
+        "upper_z_mm": 87.5313202751812,
+        "lower_z_mm": -72.443843544039
+      }
+    ],
+    "-85": [
+      {
+        "x_mm": -279,
+        "y_mm": -85,
+        "upper_z_mm": 82.10121960371407,
+        "lower_z_mm": -66.85816472928676
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -87.4,
+        "upper_z_mm": 80.87692898950968,
+        "lower_z_mm": -66.27837382530932
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -82.6,
+        "upper_z_mm": 83.32551021791846,
+        "lower_z_mm": -67.4379556332642
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -85,
+        "upper_z_mm": 89.9329992319731,
+        "lower_z_mm": -72.48991098168707
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -87.4,
+        "upper_z_mm": 88.6863753314152,
+        "lower_z_mm": -71.8995436376607
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -82.6,
+        "upper_z_mm": 91.17962313253093,
+        "lower_z_mm": -73.08027832571344
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -85,
+        "upper_z_mm": 94.17301693715797,
+        "lower_z_mm": -75.58917135012791
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -87.4,
+        "upper_z_mm": 92.9079318586862,
+        "lower_z_mm": -74.99006129182526
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -82.6,
+        "upper_z_mm": 95.43810201562974,
+        "lower_z_mm": -76.18828140843056
+      }
+    ],
+    "-70": [
+      {
+        "x_mm": -279,
+        "y_mm": -70,
+        "upper_z_mm": 89.75303594249158,
+        "lower_z_mm": -70.48185787914578
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -72.4,
+        "upper_z_mm": 88.52874532828719,
+        "lower_z_mm": -69.90206697516832
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -67.6,
+        "upper_z_mm": 90.97732655669597,
+        "lower_z_mm": -71.06164878312322
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -70,
+        "upper_z_mm": 97.72439861045979,
+        "lower_z_mm": -76.17970688185183
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -72.4,
+        "upper_z_mm": 96.4777747099019,
+        "lower_z_mm": -75.58933953782547
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -67.6,
+        "upper_z_mm": 98.97102251101762,
+        "lower_z_mm": -76.77007422587819
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -70,
+        "upper_z_mm": 102.0797986776065,
+        "lower_z_mm": -79.33360921451947
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -72.4,
+        "upper_z_mm": 100.81471359913473,
+        "lower_z_mm": -78.73449915621683
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -67.6,
+        "upper_z_mm": 103.34488375607827,
+        "lower_z_mm": -79.93271927282213
+      }
+    ],
+    "-55": [
+      {
+        "x_mm": -279,
+        "y_mm": -55,
+        "upper_z_mm": 97.20316384402565,
+        "lower_z_mm": -74.10555102900479
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -57.4,
+        "upper_z_mm": 96.1805616670647,
+        "lower_z_mm": -73.52576012502735
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -52.6,
+        "upper_z_mm": 97.20316384402565,
+        "lower_z_mm": -74.68534193298223
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -55,
+        "upper_z_mm": 103.88376719834514,
+        "lower_z_mm": -79.86950278201661
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -57.4,
+        "upper_z_mm": 103.88376719834514,
+        "lower_z_mm": -79.27913543799025
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -52.6,
+        "upper_z_mm": null,
+        "lower_z_mm": null
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -55,
+        "upper_z_mm": 107.67535077636921,
+        "lower_z_mm": -83.07804707891104
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -57.4,
+        "upper_z_mm": 107.67535077636921,
+        "lower_z_mm": -82.47893702060838
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -52.6,
+        "upper_z_mm": 107.67535077636921,
+        "lower_z_mm": -83.67715713721368
+      }
+    ],
+    "-40": [
+      {
+        "x_mm": -279,
+        "y_mm": -40,
+        "upper_z_mm": 97.20316384402565,
+        "lower_z_mm": -75.81846779831476
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -42.4,
+        "upper_z_mm": 97.20316384402565,
+        "lower_z_mm": -75.81846779831476
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -37.6,
+        "upper_z_mm": 97.20316384402565,
+        "lower_z_mm": -75.81846779831474
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -40,
+        "upper_z_mm": 103.88376719834514,
+        "lower_z_mm": -81.02933841468007
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -42.4,
+        "upper_z_mm": 103.88376719834514,
+        "lower_z_mm": -81.02933841468007
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -37.6,
+        "upper_z_mm": 103.88376719834514,
+        "lower_z_mm": -81.02933841468007
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -40,
+        "upper_z_mm": 107.67535077636921,
+        "lower_z_mm": -83.98677360553614
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -42.4,
+        "upper_z_mm": 107.67535077636921,
+        "lower_z_mm": -83.98677360553614
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -37.6,
+        "upper_z_mm": 107.67535077636921,
+        "lower_z_mm": -83.98677360553614
+      }
+    ],
+    "-25": [
+      {
+        "x_mm": -279,
+        "y_mm": -25,
+        "upper_z_mm": 97.20316384402565,
+        "lower_z_mm": -75.81846779831474
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -27.4,
+        "upper_z_mm": 97.20316384402565,
+        "lower_z_mm": -75.81846779831474
+      },
+      {
+        "x_mm": -279,
+        "y_mm": -22.6,
+        "upper_z_mm": 97.20316384402565,
+        "lower_z_mm": -75.81846779831474
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -25,
+        "upper_z_mm": 103.88376719834514,
+        "lower_z_mm": -81.02933841468007
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -27.4,
+        "upper_z_mm": 103.88376719834514,
+        "lower_z_mm": -81.02933841468007
+      },
+      {
+        "x_mm": -200,
+        "y_mm": -22.6,
+        "upper_z_mm": 103.88376719834514,
+        "lower_z_mm": -81.02933841468007
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -25,
+        "upper_z_mm": 107.67535077636921,
+        "lower_z_mm": -83.98677360553614
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -27.4,
+        "upper_z_mm": 107.67535077636921,
+        "lower_z_mm": -83.98677360553614
+      },
+      {
+        "x_mm": -121,
+        "y_mm": -22.6,
+        "upper_z_mm": 107.67535077636921,
+        "lower_z_mm": -83.98677360553614
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "y_mm": -145,
+      "z_mm": 5,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -145,
+      "z_mm": 15,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -145,
+      "z_mm": 25,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -145,
+      "z_mm": 35,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -145,
+      "z_mm": 45,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -145,
+      "z_mm": 55,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -145,
+      "z_mm": 65,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -145,
+      "z_mm": 75,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 5,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 320,
+      "boolean_count": 1,
+      "clear_closed": true
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 15,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 320,
+      "boolean_count": 1,
+      "clear_closed": true
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 25,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 320,
+      "boolean_count": 2,
+      "clear_closed": true
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 35,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 45,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 55,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 65,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 75,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -115,
+      "z_mm": 5,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 3,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 195.81003466075262,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -115,
+      "z_mm": 15,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 195.8100333787387,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -115,
+      "z_mm": 25,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 195.8100174822972,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -115,
+      "z_mm": 35,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 114,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_casquillo_superior_Y_0_-1",
+        "volume_mm3": 9.012756535510736,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -115,
+      "z_mm": 45,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 195.8100043448594,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -115,
+      "z_mm": 55,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 195.81000434490352,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -115,
+      "z_mm": 65,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -115,
+      "z_mm": 75,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -100,
+      "z_mm": 5,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -100,
+      "z_mm": 15,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -100,
+      "z_mm": 25,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -100,
+      "z_mm": 35,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -100,
+      "z_mm": 45,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -100,
+      "z_mm": 55,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -100,
+      "z_mm": 65,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -100,
+      "z_mm": 75,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -85,
+      "z_mm": 5,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 85,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_rotor_copa",
+        "volume_mm3": 176.12965810848203,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -85,
+      "z_mm": 15,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 113,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_reserva_servo_superior_X",
+        "volume_mm3": 46.90486225480865,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -85,
+      "z_mm": 25,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 113,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_reserva_servo_superior_X",
+        "volume_mm3": 12.545644630011967,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -85,
+      "z_mm": 35,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 40.17990898788311,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -85,
+      "z_mm": 45,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 40.17990898788312,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -85,
+      "z_mm": 55,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 40.1799089878831,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -85,
+      "z_mm": 65,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 40.179908988524,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -85,
+      "z_mm": 75,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 5,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 40.17990898824134,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -70,
+      "z_mm": 5,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 85,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_rotor_copa",
+        "volume_mm3": 182.5258208729037,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -70,
+      "z_mm": 15,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 113,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_reserva_servo_superior_X",
+        "volume_mm3": 164.85804174226743,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -70,
+      "z_mm": 25,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 113,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_reserva_servo_superior_X",
+        "volume_mm3": 58.49882411747074,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -70,
+      "z_mm": 35,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 39.67555145401157,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -70,
+      "z_mm": 45,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 39.67555145401158,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -70,
+      "z_mm": 55,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 39.6755514540116,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -70,
+      "z_mm": 65,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 39.675551442221966,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -70,
+      "z_mm": 75,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 5,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 39.67555144433061,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -55,
+      "z_mm": 5,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -55,
+      "z_mm": 15,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -55,
+      "z_mm": 25,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -55,
+      "z_mm": 35,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -55,
+      "z_mm": 45,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -55,
+      "z_mm": 55,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -55,
+      "z_mm": 65,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -55,
+      "z_mm": 75,
+      "roof_floor_sampled_ok": false,
+      "tested_count": 0,
+      "boolean_count": 0,
+      "clear_closed": false
+    },
+    {
+      "y_mm": -40,
+      "z_mm": 5,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 3,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 145.69126030274344,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -40,
+      "z_mm": 15,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 145.69126040968354,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -40,
+      "z_mm": 25,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 145.6912654513327,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -40,
+      "z_mm": 35,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 115,
+      "boolean_count": 2,
+      "obstruction": {
+        "name": "modulo_C02_0_casquillo_superior_Y_0_1",
+        "volume_mm3": 2.411525140374326,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -40,
+      "z_mm": 45,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 3,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 145.69126244187908,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -40,
+      "z_mm": 55,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 3,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 145.69126244189843,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -40,
+      "z_mm": 65,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 3,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 145.69126295336,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -40,
+      "z_mm": 75,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 122,
+      "boolean_count": 6,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 145.69126156900916,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 5,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 320,
+      "boolean_count": 3,
+      "clear_closed": true
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 15,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 4,
+      "boolean_count": 1,
+      "obstruction": {
+        "name": "canal_axial_60_exterior_56_interior",
+        "volume_mm3": 1549.3847110402903,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 25,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 320,
+      "boolean_count": 3,
+      "clear_closed": true
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 35,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 132,
+      "boolean_count": 3,
+      "obstruction": {
+        "name": "modulo_C02_0_alabe_integral_superior_Y_0",
+        "volume_mm3": 22.789003319798233,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 45,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 132,
+      "boolean_count": 4,
+      "obstruction": {
+        "name": "modulo_C02_0_alabe_integral_superior_Y_0",
+        "volume_mm3": 5.525557180782998,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 55,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 320,
+      "boolean_count": 3,
+      "clear_closed": true
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 65,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 320,
+      "boolean_count": 3,
+      "clear_closed": true
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 75,
+      "roof_floor_sampled_ok": true,
+      "tested_count": 320,
+      "boolean_count": 3,
+      "clear_closed": true
+    }
+  ],
+  "same_z_straddling_pairs": [
+    {
+      "left_y_mm": -130,
+      "right_y_mm": -25,
+      "z_mm": 5,
+      "spacing_mm": 105
+    },
+    {
+      "left_y_mm": -130,
+      "right_y_mm": -25,
+      "z_mm": 25,
+      "spacing_mm": 105
+    }
+  ]
+}

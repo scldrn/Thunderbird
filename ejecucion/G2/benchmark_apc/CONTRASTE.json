@@ -1,0 +1,58 @@
+{
+  "status": "published_model_vs_experiment_compared_no_fit",
+  "own_rotor_solver_validated": false,
+  "data_sources": {
+    "geometry": "https://m-selig.ae.illinois.edu/props/volume-1/data/apce_10x5_geom.txt",
+    "static_experiment": "https://m-selig.ae.illinois.edu/props/volume-1/data/apce_10x5_static_pg0819.txt",
+    "vendor_simulation": "https://www.apcprop.com/files/PER3_10x5E.dat",
+    "methodology": "https://m-selig.ae.illinois.edu/props/volume-1/propDB-volume-1.html",
+    "vendor_model_status": "https://www.apcprop.com/technical-information/performance-data/"
+  },
+  "sha256": {
+    "apce_10x5_geom.txt": "8f75a94d7fcac2cd4b6cdcb558e51f3c0dd4d6f46a01d4ab6095fbd511a666b2",
+    "apce_10x5_static_pg0819.txt": "9d4f0434c5e31f6c53082e8551426d2dba40def4a60ee5aca5eeee60a514f2dd",
+    "PER3_10x5E.dat": "d5e3317cb2e713fa40d484487cec29638f7816a038d4ca778188277e12f57a67"
+  },
+  "model_header": "10x5E                    (10x5E.dat)                                                                                                                                       \n         v2022-0915                                                                                                                                                                 \n         Simulation Date: 09/22/2022                                                                                                                                                \n                                                                                                                                                                                    \n         AIRFOIL AERO DATA GENERATED USING:  POLAR DIAGRAMS                                                                                                                         \n                                                                                                                                                                                    \n         ====== PERFORMANCE DATA (versus advance ratio and MPH) ======                                                                                                              \n                                                                                                                                                                                    \n         DEFINITIONS:                                                                                                                                                               \n         J=V/nD (advance ratio)                                                                                                                                                     \n         Ct=T/(rho * n**2 * D**4) (thrust coef.)                                                                                                                                    \n         Cp=P/(rho * n**3 * D**5) (power coef.)                                                                                                                                     \n         Pe=Ct*J/Cp (efficiency)                                                                                                                                                    \n         V  (model speed in MPH)                                                                                                                                                    \n         Mach (at prop tip)                                                                                                                                                         \n         Reyn (at 75% of span)                                                                                                                                                      \n         FOM (Figure of Merit)",
+  "static_samples": 16,
+  "rpm_interval": [
+    2508.0,
+    6708.0
+  ],
+  "CT_measured_interval": [
+    0.0914,
+    0.0994
+  ],
+  "CP_measured_interval": [
+    0.0366,
+    0.0379
+  ],
+  "c75_m_approx": 0.016256,
+  "Re75_reference_interval": [
+    27853.64071400601,
+    74498.49358435099
+  ],
+  "Mach_tip_reference_interval": [
+    0.09801621369877622,
+    0.26215819836179866
+  ],
+  "comparison": {
+    "relative_CT_error": {
+      "min": 0.017227364185110693,
+      "max": 0.09466520787746176,
+      "mean_absolute": 0.05087131224885838
+    },
+    "relative_CP_error": {
+      "min": -0.028580474934036922,
+      "max": 0.09043850267379662,
+      "mean_absolute": 0.03881609325641722
+    }
+  },
+  "limitations": [
+    "UIUC geometry is approximate digitization of an off-the-shelf historical specimen; no exact airfoil/camber/sweep/thickness surface recovered.",
+    "Vendor file is a computational 2022 prediction, not a second wind-tunnel experiment; revision identity with historical specimen is not established.",
+    "Coefficient comparison is linear interpolation in RPM with no extrapolation or parameter fitting.",
+    "Measured free two-blade rotor data do not transfer to a high-solidity ducted rotor or vectoring vanes.",
+    "Vendor geometry archive download returned HTTP403; no complete 3D reproduction claimed."
+  ]
+}

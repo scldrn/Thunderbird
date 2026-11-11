@@ -1,0 +1,53 @@
+{
+  "scope": "Native SU2 continuation from finite unconverged600-step seed; not physical validation",
+  "source_SU2_version": "8.6.0",
+  "source_config_sha256": "68a8dcdd171b3ae1cfc38d7a946bd682164d099169eee25ff576c2f1503b3da7",
+  "source_mesh_sha256": "60fc63b5cab8eb1aeb3a3fe661a0f0c6a210fadb907f031f02efdb054883f11f",
+  "iteration_limit": 2000,
+  "counter_is_physical_time": false,
+  "declared_conditions": {
+    "Mach": 0.729,
+    "alpha_deg": 2.31,
+    "Reynolds": 6500000.0,
+    "chord": 1.0,
+    "T_freestream_K": 288.15,
+    "turbulence_intensity": 0.001,
+    "eddy_to_molecular_viscosity_ratio": 100.0
+  },
+  "numerics": "Official JST + implicit Euler + multigrid3 + FGMRES/LU_SGS + CFL100, unchanged from source case",
+  "changes_from_official": [
+    "iteration limit99999_to600",
+    "output interval250_to200",
+    "explicit restartASCII/surfaceCSV/ParaView output"
+  ],
+  "pending_defaults_confirmation": "Verify actual freestream pressure, gas and viscosity constants and SST variant in runtime output/source before comparing dimensional physics.",
+  "distinctions_from_NASA_OpenFOAM_case": [
+    "T288.15K and chord1 rather than255.5556K and0.3048m.",
+    "Freestream turbulent viscosity ratio100 rather than1; model settings and boundary treatment differ.",
+    "Official SU2 geometry differs from NASA polygon by up to0.001509chord in one-way vertex distance.",
+    "Native node-centred mesh/algorithm differs from the OpenFOAM cell-centred discretization."
+  ],
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "inputs_sha256": {
+    "case.cfg": "c83e8374c12d7285c0577b309cb38a378bbbb76a61a343f6bf57295b9de876ab",
+    "ORIGINAL_turb_SST_RAE2822.cfg": "68a8dcdd171b3ae1cfc38d7a946bd682164d099169eee25ff576c2f1503b3da7",
+    "solution_flow.csv": "0c4a453567eba84b3e0ddf43ed7347a7f67d9299263b09b0e68bdd8d1f2916c2",
+    "mesh_RAE2822_turb.su2": "60fc63b5cab8eb1aeb3a3fe661a0f0c6a210fadb907f031f02efdb054883f11f"
+  },
+  "counter_restart_note": "New inner counter0..1999; up to2000 additional iterations after source600, not physical time",
+  "parent": "su2_r1_oficial",
+  "changes_from_parent": [
+    "CFL_ADAPT NO_toYES using existing official parameters0.9/1.1/1/100/0.1",
+    "ASCII restart from source600-step field",
+    "additional2000iteration limit",
+    "richer history/primitive output in double precision"
+  ],
+  "physical_models_geometry_and_freestream_unchanged": true,
+  "source_seed_checks": {
+    "all_conserved_fields_finite": true,
+    "minimum_rho_kg_m3": 0.2352885216926914,
+    "minimum_p_reconstructed_Pa": 20824.100816908027,
+    "formula": "p=(gamma-1)*(rhoE-|momentum|^2/(2rho)-rho*k), from SU2 CNSVariable::SetPrimVar; gamma1.4"
+  }
+}

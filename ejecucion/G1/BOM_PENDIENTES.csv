@@ -1,0 +1,13 @@
+group,quantity_if_defined,scope,status,mass_kg,source
+fan_motors,4,Motor and bearings/cooling,unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+rotors_and_hubs,4,"Blade geometry, retention and hub",unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+fan_ESCs,4,Voltage/current/thermal compatible controllers,unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+vane_transmissions_and_actuators,,"16 packaging proxies exist, actual architecture/count pending",unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+tail_actuators,,"4 packaging proxies, bearings/linkages pending",unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+door_actuation_and_latches,,Eight doors with two-coordinate motion; drive topology pending,unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+axial_propulsion_installation,,"Engine, intake, exhaust, ECU, cooling/shielding and mount",unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+battery_and_power_distribution,,"Pack, BMS if appropriate, wiring, connectors and protection",unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+fuel_system_if_combustion,,"Tank, fuel, feed, pump, filters and thermal separation",conditional_unknown,,"No installed hardware data supplied; blank is unknown, not zero"
+avionics_sensors_communications,,"IMU, localization, compute, communication and telemetry",unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+seals_fasteners_reinforcements,,"Full mount and load path design, not only visible screws",unidentified,,"No installed hardware data supplied; blank is unknown, not zero"
+payload_and_mission_equipment,,User payload not yet quantified,unidentified,,"No installed hardware data supplied; blank is unknown, not zero"

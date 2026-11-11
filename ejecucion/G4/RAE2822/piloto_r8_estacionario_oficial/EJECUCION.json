@@ -1,0 +1,32 @@
+{
+  "container": "codex-aero-rae2822-r8",
+  "container_id": "f96f708e02afd112f6f5e28d1dc5dae11a6ba0b0832f8560e5ca3b71b9b27c48",
+  "image_id": "sha256:4ea55efc8f3c56c542acc2d525b9477a73d6a55b8f4d41a7587431fb719f92fb",
+  "stage": "solver_exited",
+  "started_UTC": "2026-11-03T22:31:44.905471+00:00",
+  "iteration_target": 500,
+  "counter_is_physical_time": false,
+  "historical_solvers_resumed": false,
+  "physical_validation_accepted": false,
+  "preflight_exit_code": 0,
+  "preflight_models_constructed": true,
+  "near_vacuum_guard_enabled": true,
+  "near_vacuum_guard_triggered": true,
+  "guard_stop_request_UTC": "2026-11-03T22:31:58.584887+00:00",
+  "guard_observed_min_p_Pa": -1033007.91121,
+  "guard_observed_min_rho_kg_m3": 1.32689668417,
+  "guard_nonfinite_detected": false,
+  "guard_action": "No timely response to writeNow: requested SIGTERM for this container foamRun only",
+  "guard_SIGTERM_requested": true,
+  "guard_SIGTERM_exit_code": 0,
+  "exit_code": 143,
+  "elapsed_wall_s": 45.361628583981656,
+  "last_completed_counter": 1.0,
+  "target_reached": false,
+  "copied_output_directories": [
+    "postProcessing"
+  ],
+  "container_oom_killed": false,
+  "container_stopped_after_solver": true,
+  "finished_UTC": "2026-11-03T22:32:34.176975+00:00"
+}

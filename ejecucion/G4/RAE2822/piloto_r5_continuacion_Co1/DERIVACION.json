@@ -1,0 +1,26 @@
+{
+  "source_case": "piloto_r4_hibrido_resuelto",
+  "source_audit_sha256": "b4169e587f28d54555108ddb4a80b330961dff47bde25099585422407b4f36df",
+  "source_initial_fields_sha256": {
+    "U": "bdd0396b2af8705da84fb3ef356b33a3b297442c18036f7d5173cfaaf8cbf238",
+    "T": "099f04a7d38876c259f240ed5fe23bf5fd44e6d9ea5b5b0077bf186a60c03ce7",
+    "rho": "ca1b8948ca168638dac292a60851324acbacb553a7831a873a7eb908637733ab",
+    "yPlus": "ed01d90a243a3bd6a53465af2025b6a663d7cda60f6ef6e50bca877ee61e9fb5",
+    "alphat": "cef445daa6c9c8101d6fefbbf22582f13a9e3ca10502db9485ec756b9a5f10ba",
+    "omega": "f0d9c1c994551d26bf0fc4702733f38233183828c66f275a9ed2d4fae354e2ed",
+    "phi": "0910a0961d03ae97a0f1ca0f1db6b58d44799f5b7e4f3dfc45e435f542e8605d",
+    "k": "bf3530a7e34caf39725eaf3349bf9cdb4991f2e04c3766958ae30ec76fcdc0d5",
+    "rDeltaT": "e6006f2c3f355f84d4b674f5e1a851282fafd5491c2d2be1b379d2bae93fb900",
+    "nut": "edf37a5e42562092e4b091b09756322bde83658e0bc971f3a4421d7e3de3dc76",
+    "p": "8e084589f4892a3339c5994f3c44ed6bca5242e30504f1d97af664f1cefab478"
+  },
+  "changes": [
+    "start100/end600",
+    "maxCo0.2_to1"
+  ],
+  "original_case_unchanged": true,
+  "historical_solvers_resumed": false,
+  "source_audit_original_snapshot": "../piloto_r4_hibrido_resuelto/AUDITORIA_PILOTO_r1_CONVENCION_INVALIDA.json",
+  "subsequent_source_audit_correction": "NASA minus-Cp sign and experimental upper-first order corrected after r5 preparation; only comparison metadata changed, seed flow fields unchanged.",
+  "corrected_source_audit_sha256": "0629d40554767ecc37017777b6058eff05a50f75eebfd6d6e10db038038b6667"
+}

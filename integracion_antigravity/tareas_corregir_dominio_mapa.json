@@ -1,0 +1,16 @@
+{
+  "descripcion": "Corrección de política de extrapolación de mapa",
+  "tareas": [
+    {
+      "id": "corregir_dominio_mapa",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/contrato_mapa_ventilador.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/test_contrato_mapa.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/ejemplo_sintetico_mapa.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/esquema_contrato_v1.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/DOCUMENTACION_INTERFAZ.md"
+      ],
+      "instruccion": "Revisa especialmente una posible falla del contrato adjunto: se admite la política ADVERTIR, pero _validar_muestras aparentemente acepta valores fuera de rango sin guardar aviso; verifica por prueba reproducible. Antes de ejecutar pruebas copia los archivos a salidas/prueba/; JAMÁS ejecutes tests directamente sobre entradas. En versión corregida, exige RECHAZAR para un contrato de referencia y rechaza muestras fuera de rangos sin importar marca de extrapolación. Añade pruebas de comportamiento y consistencia con esquema. Aclara que el chequeo por intervalos y módulo de velocidad NO prueba cobertura conjunta de direcciones ni determina una envolvente interpolable; no implementes ni declares interpolación validada. Entrega informe de alcance, código y pruebas sin alterar originales."
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "captured_UTC": "2026-11-05T02:08:03.737820+00:00",
+  "entries": [
+    {
+      "path": "xfoil_sd8020/Dockerfile",
+      "bytes": 518,
+      "sha256": "541151bce8c421a35334acf96894ef1a562e003cb615eecfb772828355d53598"
+    },
+    {
+      "path": "xfoil_sd8020/Dockerfile.fuentes",
+      "bytes": 736,
+      "sha256": "986c63b465a0721ab6843119b1a3d8774e26b12bc226a2f7c4a06ab1d25e5304"
+    },
+    {
+      "path": "xfoil_sd8020/Dockerfile.mit",
+      "bytes": 573,
+      "sha256": "71d9ac9d675ab025010ae83d588e92562be04325e1ed2ea6d0df6259d87fe038"
+    },
+    {
+      "path": "xfoil_sd8020/prueba_inicial.py",
+      "bytes": 2878,
+      "sha256": "dd91f5d574e16f4401bb53e29d9c209c4e00c7aefe0ace85f9d7b67e2ade847d"
+    },
+    {
+      "path": "xfoil_sd8020/comparar_arranques.py",
+      "bytes": 2510,
+      "sha256": "a89a30c26d720b433067110556283d6aa2019713819f20f7bd07d379fbf69421"
+    },
+    {
+      "path": "xfoil_sd8020/probar_mit.py",
+      "bytes": 2868,
+      "sha256": "c3255964ea2ca870e9de0bbb70c08b88378dc046c5044513c261412e8269a1ff"
+    },
+    {
+      "path": "xfoil_sd8020/comparar_uiuc.py",
+      "bytes": 5217,
+      "sha256": "75cb2af2f1139bae5f5576d235aa6c4620e209119366a89aee7de2bcc3d5ecf1"
+    },
+    {
+      "path": "xfoil_sd8020/auditar_uiuc_r1.py",
+      "bytes": 2902,
+      "sha256": "c37d040cb6680c77602751a4ea9c0b2a2de42184cf6a0528a05c78ff75a51c28"
+    },
+    {
+      "path": "xfoil_sd8020/auditar_columnas.py",
+      "bytes": 2139,
+      "sha256": "14731a5d6fdf51a38e69ad35b458be22465cc3197e695e6a6be94d3a8f636b9a"
+    },
+    {
+      "path": "xfoil_sd8020/auditar_cl_cd.py",
+      "bytes": 1796,
+      "sha256": "1a69c451841d075dabdeea39d8ddb1d4c4b3576113f9fa5522a3abd2faf598e0"
+    },
+    {
+      "path": "xfoil_sd8020/sensibilidad_paneles.py",
+      "bytes": 3958,
+      "sha256": "2109828e84269e4f6a67f27b788dab7cc49cc06cba5fa097d7553f97ec217c64"
+    },
+    {
+      "path": "xfoil_sd8020/sonda_continuacion.py",
+      "bytes": 2489,
+      "sha256": "9e372f86390a08edb7248cb4c2bef168c82ed68d37521fe3d824a8452b678268"
+    },
+    {
+      "path": "xfoil_sd8020/graficar_uiuc.py",
+      "bytes": 1733,
+      "sha256": "eb12a1326fad8c402f39722782bdbc81dc9701176ca474dbd95d3f4c055cc759"
+    },
+    {
+      "path": "xfoil_sd8020/INFORME-XFOIL-INICIAL.md",
+      "bytes": 6155,
+      "sha256": "586cdcc4efc0d3aad13c4a8b28d66e1444ef0e31419c81bca94ea964417ba85f"
+    },
+    {
+      "path": "xfoil_sd8020/smoke_r1/EJECUCION.json",
+      "bytes": 894,
+      "sha256": "856ecce0bfe08c2ada2c3b4007af20df9cdea036ef65c86d32621a8dddfe8859"
+    },
+    {
+      "path": "xfoil_sd8020/arranque_r2/EJECUCION.json",
+      "bytes": 1350,
+      "sha256": "ed4586fba688f4e3c03ffbc26b57ab419a4e7e99889e6a9bf7d7d3855d7d2b8d"
+    },
+    {
+      "path": "xfoil_sd8020/mit_smoke_r1/EJECUCION.json",
+      "bytes": 2070,
+      "sha256": "6d75ebcaa4d7ad3ec4276513ecd41568c9d01c053943d06121da880f8d89f478"
+    },
+    {
+      "path": "xfoil_sd8020/uiuc_61400_r1/RESULTADOS.json",
+      "bytes": 5772,
+      "sha256": "258e88198c7c17097288a2a50fc31f679e3d2ab64824c53c4e8f5bbae8a5485f"
+    },
+    {
+      "path": "xfoil_sd8020/uiuc_61400_r1/AUDITORIA_RESIDUOS.json",
+      "bytes": 5212,
+      "sha256": "a6591caac80d2999ee7aa655589bb6c6d77c04a160d68324344f170150e3b5b4"
+    },
+    {
+      "path": "xfoil_sd8020/uiuc_61400_r1/AUDITORIA_ORDEN_COLUMNAS.json",
+      "bytes": 4621,
+      "sha256": "5d6427087e8d2c47de1e6163b57f120b5aec9e56beb0f4fc4b7cf33a379a1bc6"
+    },
+    {
+      "path": "xfoil_sd8020/uiuc_61400_r1/AUDITORIA_CL_CD.json",
+      "bytes": 3274,
+      "sha256": "1b596f550c58a32d7a48e197c6b8d48a9215400fcb224ac7a697ac882da90ea4"
+    },
+    {
+      "path": "xfoil_sd8020/uiuc_61400_r1/COMPARACION.png",
+      "bytes": 167580,
+      "sha256": "b1ff7a552a9d4b23073bd3a8fac9debe15850888653708fc451636cdc4d67829"
+    },
+    {
+      "path": "xfoil_sd8020/paneles_r1/RESULTADOS.json",
+      "bytes": 3927,
+      "sha256": "3cd6148b666292bd125bff16e6e7c1130035379d4de3bb5215a4566390177311"
+    },
+    {
+      "path": "xfoil_sd8020/continuacion_r1/RESULTADOS.json",
+      "bytes": 1105,
+      "sha256": "40a2946dc097f4a65584606faafd51d88845487a18425f8d3c6f120b099f8632"
+    },
+    {
+      "path": "xfoil_sd8020/xoper_mit_6.996.f",
+      "bytes": 94724,
+      "sha256": "339c6bfc0eb3aa18cd48cae931850125b85d8e960457e83ec957046c164871bb"
+    },
+    {
+      "path": "xfoil_sd8020/iopol_mit_6.996.f",
+      "bytes": 24388,
+      "sha256": "cc4ed012c3c28be9400ee77efc1de9761985a3f309932a87a91c1e2717015ac5"
+    },
+    {
+      "path": "flujo_C02_conducto/neutro_fino_r5_mpi4_600/AUDITORIA_ARRANQUE.json",
+      "bytes": 10446,
+      "sha256": "69d19d17991a8d72e87494ded5d49fd32c83a3b644d957a8f786c8f7b5c57433"
+    },
+    {
+      "path": "flujo_C02_conducto/neutro_fino_r5_mpi4_600/AUDITORIA_CAMBIO_TERMINAL.json",
+      "bytes": 4258,
+      "sha256": "508ff526dc813012a1ca07203dc3d55d62f3300a81effe78b417312836134e24"
+    },
+    {
+      "path": "flujo_C02_conducto/balance_neutro_fino_r5_580_600/BALANCE.json",
+      "bytes": 3545,
+      "sha256": "bb257b63861ef71bb3d72c970f36b4aa788459af20bb3128392e38148a2f4a50"
+    }
+  ],
+  "scope": "Identity only; no physical or numerical acceptance implied",
+  "live_process_status_not_included": true
+}

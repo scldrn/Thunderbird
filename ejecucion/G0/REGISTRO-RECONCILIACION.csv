@@ -1,0 +1,14 @@
+id,item,source,evidence_status,execution_rule
+D01,Architecture A internal fans,User confirmation and modelos_integrados/DECISION-ARQUITECTURA.md,current,Do not substitute retractable B
+D02,A07 reference,modelos_integrados/producto_A07/LEEME.md,current_geometric,208 nominal parts; door/casing correction; mechanism incomplete
+D03,No CAD/tools found,DATOS-PARA-CERRAR-VALIDACION.md,superseded_availability_only,Data categories remain useful; availability claim is historical
+D04,Eight external rotors/457mm blades,REVISION-POTENCIA-Y-ESPACIO.md,historical_other_configuration,"Do not transfer consumption, mass or thrust to four internal 84mm bores"
+D05,"21 N, cone35°, tau80ms",simulacion_vuelo_A/INFORME.md,assumed,Not motor specs or installed flow map
+D06,High-speed video 3/6/10g,vuelo_rapido_visual/INFORME.md,inverse_demand,Not prediction or achieved acceleration/speed
+D07,CFD 200 pseudoiterations,CFD/INFORME-CONVERGENCIA-AVANCE-A.md,failed_convergence,Finite fields are not accepted drag; slip wall omits skin friction
+D08,Door motion 61 nodes,modelos_integrados/producto_A07/VERIFICACION_RECORRIDO.json,sampled_geometry,"Not continuous sweep, hardware or aerodynamic opening validation"
+D09,FreeCAD 293 shapes,integracion_apps/freecad/IMPORTACION.json,import_hierarchy_count,Do not equate shape objects with 208 design part records
+D10,Closed styling loft CFD,CFD/avance_A_compresible_600kmh_LTS_cont_1000/compressible_assumptions.json,diagnostic_other_geometry,"Not installed A07 with ports, fins and propulsion"
+D11,Research paused,ESTADO-VERIFICACION-GLOBAL.md,historical_user_request_superseded_for_plan_execution,2026-11-03 active goal authorizes plan execution; audit before resuming each specific case
+D12,Mass-scaling dimensions,modelos_integrados/producto_A07/5kg/manifest.json,geometry_only,"Actual mass, CG and inertia not closed in any variant"
+D13,CAD nose -X versus flight +X,product CAD section coordinates and simular.py/calcular.py flight conventions,frame_mismatch_requires_transform,"Use proper rotation diag(-1,-1,1) from CAD to FLU before assigning velocity/attitude"

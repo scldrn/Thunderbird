@@ -1,0 +1,38 @@
+[
+  {
+    "speed_kmh": 600,
+    "Cd0_assumed": 0.04,
+    "max_thrust_demand_N": 70.77393617709119,
+    "max_useful_power_demand_kW": 11.795656029515198
+  },
+  {
+    "speed_kmh": 600,
+    "Cd0_assumed": 0.06,
+    "max_thrust_demand_N": 87.70956117709119,
+    "max_useful_power_demand_kW": 14.618260196181863
+  },
+  {
+    "speed_kmh": 600,
+    "Cd0_assumed": 0.12,
+    "max_thrust_demand_N": 138.51643617709118,
+    "max_useful_power_demand_kW": 23.086072696181862
+  },
+  {
+    "speed_kmh": 1000,
+    "Cd0_assumed": 0.04,
+    "max_thrust_demand_N": 107.73518657363233,
+    "max_useful_power_demand_kW": 29.92644071489787
+  },
+  {
+    "speed_kmh": 1000,
+    "Cd0_assumed": 0.06,
+    "max_thrust_demand_N": 154.77858935141012,
+    "max_useful_power_demand_kW": 42.994052597613916
+  },
+  {
+    "speed_kmh": 1000,
+    "Cd0_assumed": 0.12,
+    "max_thrust_demand_N": 295.90879768474343,
+    "max_useful_power_demand_kW": 82.19688824576207
+  }
+]

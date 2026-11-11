@@ -1,0 +1,25 @@
+{
+  "container": "codex-aero-rae2822-r4",
+  "container_id": "8b2024c1515157a8856268b5a31d7590249f87823390509ccd99ed71b9555022",
+  "image_id": "sha256:4ea55efc8f3c56c542acc2d525b9477a73d6a55b8f4d41a7587431fb719f92fb",
+  "stage": "solver_exited",
+  "started_UTC": "2026-11-03T16:24:45.391259+00:00",
+  "iteration_target": 100,
+  "counter_is_physical_time": false,
+  "historical_solvers_resumed": false,
+  "physical_validation_accepted": false,
+  "preflight_exit_code": 0,
+  "preflight_models_constructed": true,
+  "exit_code": 0,
+  "elapsed_wall_s": 372.3015229580342,
+  "last_completed_counter": 100.0,
+  "target_reached": true,
+  "copied_output_directories": [
+    "postProcessing",
+    "80",
+    "100"
+  ],
+  "container_oom_killed": false,
+  "container_stopped_after_solver": true,
+  "finished_UTC": "2026-11-03T16:31:02.044178+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "codec": "H.264 / yuv420p",
+  "frames": 360,
+  "fps": 15,
+  "duration_s": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "decoded_without_errors": true,
+  "encoder": "/Users/sam/Documents/ChatGPT/New project/.venv-cad/lib/python3.11/site-packages/imageio_ffmpeg/binaries/ffmpeg-macos-aarch64-v9.0"
+}

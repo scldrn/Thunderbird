@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "container": "codex-aero-pareado-euler-v1",
+      "running": false,
+      "latest_deltaT_s": 1.09649123e-06,
+      "latest_max_velocity_ms": 97.0957775,
+      "runaway_reasons": []
+    },
+    {
+      "container": "codex-aero-pareado-backward-v1",
+      "running": false,
+      "latest_deltaT_s": 1.09584237e-06,
+      "latest_max_velocity_ms": 97.6983,
+      "runaway_reasons": []
+    }
+  ],
+  "all_observed_terminal": true,
+  "not_an_accuracy_acceptance": true
+}

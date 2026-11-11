@@ -1,0 +1,13 @@
+{
+  "container": "codex-aero-avance-compresible-600-euler-v3",
+  "physical_loads_accepted": false,
+  "stage": "diagnostic_exited",
+  "exit_code": 0,
+  "counter_kind": "physical_seconds",
+  "last_counter_value": 0.0001,
+  "target_counter_value": 0.0001,
+  "target_reached": true,
+  "health_stop_requested": false,
+  "results_audited": true,
+  "audit_scope": "Startup target, finite positive fields and derived instantaneous values only"
+}

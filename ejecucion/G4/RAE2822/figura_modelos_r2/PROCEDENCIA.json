@@ -1,0 +1,11 @@
+{
+  "comparison_sha256": "d1babe5d0beb9e4bc9d135035701b708631ac6f9445186e92ff2ce059a8f3c16",
+  "renderer_sha256": "f730127ca76fa604393d97467ca52f38b8a7fce7b64bb1424503834bbdfa93d4",
+  "source_vtu_sha256": {
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/flow.vtu": "ca959c2e7bc065311c0df8e87529a6b1e90ffa70dec197e7b28211da89697560",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_sa_r2_sonda/flow.vtu": "65de96b8f75027bdf550cb1bef0df28bd90427fb7f8cf4c160e65a9c35c89526"
+  },
+  "all103experimental_points_retained": true,
+  "physical_validation_accepted": false,
+  "vehicle_simulation": false
+}

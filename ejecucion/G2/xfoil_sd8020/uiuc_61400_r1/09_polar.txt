@@ -1,0 +1,13 @@
+  
+       XFOIL         Version 7.00
+  
+ Calculated polar for: SD8020-010-88                                   
+  
+ 1 1 Reynolds number fixed          Mach number fixed         
+  
+ xtrf =   1.000 (top)        1.000 (bottom)  
+ Mach =   0.000     Re =     0.061 e 6     Ncrit =   9.000  9.000
+  
+   alpha    CL        CD       CDp       CM      Top_Xtr  Bot_Xtr   Top_Itr  Bot_Itr  
+  ------ -------- --------- --------- --------  -------- --------  -------- --------  
+   7.400   0.7837   0.03427   0.01631   0.0110    0.1331  92.6596   1.0000 240.0000

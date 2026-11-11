@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "g0_standard_ms2": 9.80665,
+    "g_approx_ms2": 9.81,
+    "formula_simetrica": "R >= m * g * (n - 1) / 4",
+    "hipotesis": [
+      "Cuerpo rígido con actitud fija (cabeceo = 0, alabeo = 0, guiñada = 0)",
+      "Cuatro módulos ideales coplanares/simétricos",
+      "Ausencia de fuerzas aerodinámicas externas (L=0, D=0)",
+      "Fuerza descendente máxima reversible limitada a R por módulo",
+      "Caso simétrico con CG en el centroide geométrico de los módulos"
+    ]
+  },
+  "dimensional_check": "PASSED (Dimension de R = M L T^-2 = Newton)",
+  "equilibrium_checks": "PASSED (Sum Fz = -m*a_desc, Sum Mx = 0, Sum My = 0 para todos los casos)",
+  "boundary_cases_checks": "PASSED (n=1.0 -> R=0; n<1.0 -> R<0; g->0 -> R=m*a/4)",
+  "eccentric_cg_verification": {
+    "status": "PASSED",
+    "sample_scenario": {
+      "r_sym": 12.258312499999999,
+      "x_cg": 0.04,
+      "dx": 0.16,
+      "amplification_factor": 1.25,
+      "r_crit": 15.322890625
+    }
+  },
+  "tabular_data": [
+    {
+      "m_kg": 2.0,
+      "n_factor": 1.2,
+      "n_minus_1": 0.2,
+      "a_desc_net_ms2": 11.76798,
+      "peso_W_N": 19.6133,
+      "f_desc_total_N": 3.92266,
+      "f_desc_total_kgf": 0.4,
+      "r_min_por_modulo_N": 0.980665,
+      "r_min_por_modulo_kgf": 0.1,
+      "r_min_por_modulo_g981_N": 0.981,
+      "ratio_r_sobre_w_cuartos": 0.2
+    },
+    {
+      "m_kg": 2.0,
+      "n_factor": 2.0,
+      "n_minus_1": 1.0,
+      "a_desc_net_ms2": 19.6133,
+      "peso_W_N": 19.6133,
+      "f_desc_total_N": 19.6133,
+      "f_desc_total_kgf": 2.0,
+      "r_min_por_modulo_N": 4.903325,
+      "r_min_por_modulo_kgf": 0.5,
+      "r_min_por_modulo_g981_N": 4.905,
+      "ratio_r_sobre_w_cuartos": 1.0
+    },
+    {
+      "m_kg": 2.0,
+      "n_factor": 5.0,
+      "n_minus_1": 4.0,
+      "a_desc_net_ms2": 49.03325,
+      "peso_W_N": 19.6133,
+      "f_desc_total_N": 78.4532,
+      "f_desc_total_kgf": 8.0,
+      "r_min_por_modulo_N": 19.6133,
+      "r_min_por_modulo_kgf": 2.0,
+      "r_min_por_modulo_g981_N": 19.62,
+      "ratio_r_sobre_w_cuartos": 4.0
+    },
+    {
+      "m_kg": 5.0,
+      "n_factor": 1.2,
+      "n_minus_1": 0.2,
+      "a_desc_net_ms2": 11.76798,
+      "peso_W_N": 49.03325,
+      "f_desc_total_N": 9.80665,
+      "f_desc_total_kgf": 1.0,
+      "r_min_por_modulo_N": 2.451662,
+      "r_min_por_modulo_kgf": 0.25,
+      "r_min_por_modulo_g981_N": 2.4525,
+      "ratio_r_sobre_w_cuartos": 0.2
+    },
+    {
+      "m_kg": 5.0,
+      "n_factor": 2.0,
+      "n_minus_1": 1.0,
+      "a_desc_net_ms2": 19.6133,
+      "peso_W_N": 49.03325,
+      "f_desc_total_N": 49.03325,
+      "f_desc_total_kgf": 5.0,
+      "r_min_por_modulo_N": 12.258312,
+      "r_min_por_modulo_kgf": 1.25,
+      "r_min_por_modulo_g981_N": 12.2625,
+      "ratio_r_sobre_w_cuartos": 1.0
+    },
+    {
+      "m_kg": 5.0,
+      "n_factor": 5.0,
+      "n_minus_1": 4.0,
+      "a_desc_net_ms2": 49.03325,
+      "peso_W_N": 49.03325,
+      "f_desc_total_N": 196.133,
+      "f_desc_total_kgf": 20.0,
+      "r_min_por_modulo_N": 49.03325,
+      "r_min_por_modulo_kgf": 5.0,
+      "r_min_por_modulo_g981_N": 49.05,
+      "ratio_r_sobre_w_cuartos": 4.0
+    },
+    {
+      "m_kg": 10.0,
+      "n_factor": 1.2,
+      "n_minus_1": 0.2,
+      "a_desc_net_ms2": 11.76798,
+      "peso_W_N": 98.0665,
+      "f_desc_total_N": 19.6133,
+      "f_desc_total_kgf": 2.0,
+      "r_min_por_modulo_N": 4.903325,
+      "r_min_por_modulo_kgf": 0.5,
+      "r_min_por_modulo_g981_N": 4.905,
+      "ratio_r_sobre_w_cuartos": 0.2
+    },
+    {
+      "m_kg": 10.0,
+      "n_factor": 2.0,
+      "n_minus_1": 1.0,
+      "a_desc_net_ms2": 19.6133,
+      "peso_W_N": 98.0665,
+      "f_desc_total_N": 98.0665,
+      "f_desc_total_kgf": 10.0,
+      "r_min_por_modulo_N": 24.516625,
+      "r_min_por_modulo_kgf": 2.5,
+      "r_min_por_modulo_g981_N": 24.525,
+      "ratio_r_sobre_w_cuartos": 1.0
+    },
+    {
+      "m_kg": 10.0,
+      "n_factor": 5.0,
+      "n_minus_1": 4.0,
+      "a_desc_net_ms2": 49.03325,
+      "peso_W_N": 98.0665,
+      "f_desc_total_N": 392.266,
+      "f_desc_total_kgf": 40.0,
+      "r_min_por_modulo_N": 98.0665,
+      "r_min_por_modulo_kgf": 10.0,
+      "r_min_por_modulo_g981_N": 98.1,
+      "ratio_r_sobre_w_cuartos": 4.0
+    }
+  ]
+}

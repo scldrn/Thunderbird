@@ -1,0 +1,60 @@
+{
+  "base": [
+    {
+      "rpm": 6000,
+      "blade_mass_g": 15.0,
+      "chord_mm": 25.0,
+      "Cm_assumed": 0.01,
+      "tip_speed_ms": 143.63361612212535,
+      "tip_Mach": 0.42207938913348614,
+      "centrifugal_per_blade_N": 750.8795028348783,
+      "root_flap_moment_Nm": 2.8553683503069807,
+      "centrifugal_pitch_per_blade_Nm": 0.11813368136307989,
+      "aero_pitch_per_blade_Nm": 0.006010143798091966,
+      "pitch_inertia_per_blade_Nm": 0.0005565463176002326,
+      "total_two_blade_pitch_Nm": 0.36728328315754416,
+      "servo_required_Nm": 0.2295520519734651,
+      "servo_travel_deg": 100,
+      "kinematic_time_at_0_09s_per60deg": 0.15,
+      "blade_grip_bearing_couple_N_at_12mm": 237.94736252558172
+    },
+    {
+      "rpm": 6000,
+      "blade_mass_g": 15.0,
+      "chord_mm": 25.0,
+      "Cm_assumed": 0.05,
+      "tip_speed_ms": 143.63361612212535,
+      "tip_Mach": 0.42207938913348614,
+      "centrifugal_per_blade_N": 750.8795028348783,
+      "root_flap_moment_Nm": 2.8553683503069807,
+      "centrifugal_pitch_per_blade_Nm": 0.11813368136307989,
+      "aero_pitch_per_blade_Nm": 0.03005071899045983,
+      "pitch_inertia_per_blade_Nm": 0.0005565463176002326,
+      "total_two_blade_pitch_Nm": 0.4153644335422799,
+      "servo_required_Nm": 0.2596027709639249,
+      "servo_travel_deg": 100,
+      "kinematic_time_at_0_09s_per60deg": 0.15,
+      "blade_grip_bearing_couple_N_at_12mm": 237.94736252558172
+    }
+  ],
+  "centrifugal_range_N": [
+    347.6293994605918,
+    1362.7072458855198
+  ],
+  "servo_range_Nm": [
+    0.1477219138735892,
+    0.7009627892529113
+  ],
+  "budget_g": {
+    "servo": 20,
+    "blades": 30,
+    "ESC_assumed": 20,
+    "remaining_for_hub_bearings_linkage": 28.25
+  },
+  "notes": [
+    "no material stress or fatigue approval",
+    "no aerodynamic thrust validation",
+    "Cm, mass, chord, offset, friction assumed",
+    "servo speed figure cannot be combined with rated torque as simultaneous performance"
+  ]
+}

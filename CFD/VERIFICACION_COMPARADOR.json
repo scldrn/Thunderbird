@@ -1,0 +1,6 @@
+{
+  "analytic_affine_bias_rms_and_max": true,
+  "unequal_time_grids_equal_signal": true,
+  "extrapolation_rejected": true,
+  "physical_validation": false
+}

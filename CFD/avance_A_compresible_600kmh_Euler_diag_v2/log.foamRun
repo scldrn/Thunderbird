@@ -1,0 +1,128 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamRun
+Date   : Nov 01 2026
+Time   : 18:46:53
+Host   : "79cc7b90a5fe"
+PID    : 383
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting solver fluid
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+No MRF models present
+
+Courant Number mean: 9.306387418e-05 max: 0.05041190442
+Selecting thermophysical transport type laminar
+Selecting default laminar thermophysical transport model unityLewisFourier
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: No corrector convergence criteria found
+        Calculations will do 2 corrections
+
+
+PIMPLE: Operating solver in transient mode with 2 outer correctors
+
+
+volFieldValue maxVelocityDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = maxMag
+
+volFieldValue minScalarsDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = min
+
+volFieldValue maxScalarsDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = max
+
+surfaceFieldValue mass_flux_inlet read:
+    number of faces = 342
+    area = 64.6416
+    operation = sum
+
+surfaceFieldValue mass_flux_outlet read:
+    number of faces = 344
+    area = 64.6416
+    operation = sum
+
+surfaceFieldValue mass_flux_farfield read:
+    number of faces = 2054
+    area = 387.8496
+    operation = sum
+
+surfaceFieldValue hull_pressure_min read:
+    number of faces = 31546
+    area = 0.8303997457
+    operation = min
+
+surfaceFieldValue hull_pressure_max read:
+    number of faces = 31546
+    area = 0.8303997457
+    operation = max
+
+
+Starting time loop
+
+volFieldValue maxVelocityDiagnostic write:
+    maxMag(all) of U = 166.6666667 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+
+volFieldValue minScalarsDiagnostic write:
+    min(all) of p = 101325 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    min(all) of T = 288.15 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    min(all) of rho = 1.224999285 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+
+volFieldValue maxScalarsDiagnostic write:
+    max(all) of p = 101325 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    max(all) of T = 288.15 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    max(all) of rho = 1.224999285 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+
+Courant Number mean: 9.306387418e-05 max: 0.05041190442
+deltaT = 1.196172249e-07
+Time = 1.1961722e-07s
+
+PIMPLE: Iteration 1
+
+
+--> FOAM FATAL IO ERROR: 
+keyword rho is undefined in dictionary "//case/system/fvSolution/solvers"
+
+file: //case/system/fvSolution/solvers at line 3.
+
+    From function const Foam::dictionary& Foam::dictionary::subDict(const Foam::word&) const
+    in file db/dictionary/dictionary.C at line 855.
+
+FOAM exiting
+

@@ -1,0 +1,91 @@
+{
+  "scope": "8 compuertas simultaneas, 6 poses discretas, pieles, cuatro conductos y rotores, ocho aros y ocho juntas; no revisa todas las 316 piezas, guias ni barrido continuo",
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C03/5kg/C03_5kg_cerrado.FCStd",
+  "threshold_mm3": 0.001,
+  "fixed_obstacles": [
+    "carroceria_C02_superior004",
+    "carroceria_C02_inferior003",
+    "modulo_C02_0_camisa_cuna_y_soportes",
+    "modulo_C02_1_camisa_cuna_y_soportes",
+    "modulo_C02_2_camisa_cuna_y_soportes",
+    "modulo_C02_3_camisa_cuna_y_soportes",
+    "modulo_C02_0_rotor_copa",
+    "modulo_C02_1_rotor_copa",
+    "modulo_C02_2_rotor_copa",
+    "modulo_C02_3_rotor_copa",
+    "aro_C02_0_superior",
+    "aro_C02_0_inferior",
+    "aro_C02_1_superior",
+    "aro_C02_1_inferior",
+    "aro_C02_2_superior",
+    "aro_C02_2_inferior",
+    "aro_C02_3_superior",
+    "aro_C02_3_inferior",
+    "junta_C02_0_superior",
+    "junta_C02_0_inferior",
+    "junta_C02_1_superior",
+    "junta_C02_1_inferior",
+    "junta_C02_2_superior",
+    "junta_C02_2_inferior",
+    "junta_C02_3_superior",
+    "junta_C02_3_inferior"
+  ],
+  "poses": [
+    {
+      "lift_mm": 5,
+      "abs_dx_mm": 0,
+      "screened_pairs": 236,
+      "boolean_pairs": 140,
+      "intersections": [],
+      "errors": [],
+      "seconds": 116.23190529202111
+    },
+    {
+      "lift_mm": 10,
+      "abs_dx_mm": 0,
+      "screened_pairs": 236,
+      "boolean_pairs": 116,
+      "intersections": [],
+      "errors": [],
+      "seconds": 86.44085100002121
+    },
+    {
+      "lift_mm": 10,
+      "abs_dx_mm": 25,
+      "screened_pairs": 236,
+      "boolean_pairs": 116,
+      "intersections": [],
+      "errors": [],
+      "seconds": 51.6070288750343
+    },
+    {
+      "lift_mm": 10,
+      "abs_dx_mm": 50,
+      "screened_pairs": 236,
+      "boolean_pairs": 116,
+      "intersections": [],
+      "errors": [],
+      "seconds": 48.014590207953006
+    },
+    {
+      "lift_mm": 10,
+      "abs_dx_mm": 75,
+      "screened_pairs": 236,
+      "boolean_pairs": 116,
+      "intersections": [],
+      "errors": [],
+      "seconds": 47.13854766590521
+    },
+    {
+      "lift_mm": 10,
+      "abs_dx_mm": 100,
+      "screened_pairs": 236,
+      "boolean_pairs": 116,
+      "intersections": [],
+      "errors": [],
+      "seconds": 47.76814604201354
+    }
+  ],
+  "errors": [],
+  "passed_screen": true
+}

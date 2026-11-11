@@ -1,0 +1,14 @@
+{
+  "status": "REJECTED_NUMERICAL_FAILURE",
+  "solver_exit_code": 134,
+  "last_attempted_steady_iteration": 3,
+  "last_completed_steady_iteration": 2,
+  "max_reported_speed_m_s": 8478.195494,
+  "min_reported_temperature_K": -1666.36273,
+  "preflight_success": true,
+  "physical_loads_accepted": false,
+  "geometry_infeasibility_proven": false,
+  "cause_isolated": false,
+  "note": "Uniform steady startup diverged; exact numerical cause not isolated. No failed field reused.",
+  "log_sha256": "4b04e8d0da2cdde01b68d06b1909410d654b82c6c7291bf96395f865eb5d5900"
+}

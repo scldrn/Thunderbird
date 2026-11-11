@@ -1,0 +1,51 @@
+{
+  "case": "avance_A_compresible_600kmh_Euler_diag_v3",
+  "target_time_reached": true,
+  "completed_timesteps": 144,
+  "final_physical_time_s": 0.0001,
+  "cells_checked": 326013,
+  "all_U_p_T_finite": true,
+  "all_p_T_positive": true,
+  "min_T_K": 269.1637847,
+  "max_T_K": 308.262986,
+  "min_p_Pa": 63006.88678,
+  "max_p_Pa": 123208.7533,
+  "maximum_internal_speed_m_s": 212.46063648316917,
+  "maximum_internal_Mach_with_declared_constants": 0.6459891155840731,
+  "cells_internal_Mach_above_one": 0,
+  "instantaneous_final_pressure_force_N": [
+    1030.778534,
+    1.8283280218,
+    -47.516279487
+  ],
+  "instantaneous_final_viscous_force_N": [
+    0.0067501627224,
+    1.2226681635e-05,
+    0.00020253378201
+  ],
+  "instantaneous_pressure_force_coefficients": [
+    1.217174092788672,
+    0.0021589443589000103,
+    -0.05610864261292641
+  ],
+  "reference_dynamic_pressure_Pa": 17013.88914061511,
+  "reference_area_m2": 0.04977474767647352,
+  "body_flow_through_times": 0.012437810943417242,
+  "stationary_drag_accepted": false,
+  "critical_Mach_determined": false,
+  "drag_divergence_determined": false,
+  "physical_loads_accepted": false,
+  "field_sha256": {
+    "U": "7a9bf3a18b5b24992a3812e13ce81bcf2fe5309db5b201846aa1a6e635f584b2",
+    "p": "f2da39bdbec2abdc62008a02d117a1e9d21079fd3cbee1c4d99ac3872e6b1069",
+    "T": "0d7b3a400cfb6274a9e971f7001097b1f9d1700c4416b22b48c025030fdc5024"
+  },
+  "limitations": [
+    "Short startup only, not developed flight",
+    "Slip wall without turbulent skin-friction model",
+    "No scheme, mesh or domain independence",
+    "No installed ports, doors, propulsion or trim",
+    "Internal cell Mach does not resolve all surface extrema",
+    "Declared constant gas parameters used for derived Mach; no isentropic inference from pressure"
+  ]
+}

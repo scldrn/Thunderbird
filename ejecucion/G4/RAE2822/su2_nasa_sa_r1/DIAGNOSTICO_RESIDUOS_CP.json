@@ -1,0 +1,117 @@
+{
+  "scope": "Residual location and complete-data diagnostic; not convergence/validation acceptance",
+  "residual_fields": {
+    "Residual_Density": {
+      "arithmetic_RMS_per_component": [
+        2.6329210893598935e-07
+      ],
+      "maximum_vector_magnitude": 1.870831111037511e-06,
+      "values_at_maximum": [
+        -1.870831111037511e-06
+      ],
+      "maximum_node_ID": 46040,
+      "xy_over_chord": [
+        0.546593975,
+        0.060422672499999996
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 7.5018785147450645e-06
+    },
+    "Residual_Momentum": {
+      "arithmetic_RMS_per_component": [
+        5.971101877411023e-05,
+        9.322750558756064e-06,
+        0.0
+      ],
+      "maximum_vector_magnitude": 0.000778214818593969,
+      "values_at_maximum": [
+        -0.0007723112538412142,
+        9.567461037002234e-05,
+        0.0
+      ],
+      "maximum_node_ID": 81037,
+      "xy_over_chord": [
+        1.016381,
+        -0.0032367435
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 0.01669771449884068
+    },
+    "Residual_Energy": {
+      "arithmetic_RMS_per_component": [
+        0.0103554112522117
+      ],
+      "maximum_vector_magnitude": 0.13892839177666852,
+      "values_at_maximum": [
+        -0.13892839177666852
+      ],
+      "maximum_node_ID": 83945,
+      "xy_over_chord": [
+        1.065563,
+        -0.01339151
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 0.06691666092297276
+    },
+    "Residual_Nu_Tilde": {
+      "arithmetic_RMS_per_component": [
+        4.4357500391810984e-08
+      ],
+      "maximum_vector_magnitude": 2.3458092775447347e-06,
+      "values_at_maximum": [
+        -2.3458092775447347e-06
+      ],
+      "maximum_node_ID": 85557,
+      "xy_over_chord": [
+        1.1177335,
+        -0.02405807
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 0.12016641691577094
+    }
+  },
+  "residual_export_not_assumed_identical_to_history_stage_or_normalization": true,
+  "Cp_regions": {
+    "all_103": {
+      "points": 103,
+      "own_RMS": 0.10828950874889919,
+      "published_WIND_SA_RMS": 0.10682682210129264
+    },
+    "leading_edge_x_lt_0p02": {
+      "points": 27,
+      "own_RMS": 0.19372405764787134,
+      "published_WIND_SA_RMS": 0.18987861433942396
+    },
+    "mid_chord_0p4_to_0p65": {
+      "points": 22,
+      "own_RMS": 0.08592089394509299,
+      "published_WIND_SA_RMS": 0.08781143678196186
+    },
+    "remaining_points": {
+      "points": 54,
+      "own_RMS": 0.02439851978353706,
+      "published_WIND_SA_RMS": 0.024471924722553048
+    }
+  },
+  "points_removed": 0,
+  "worst_own_Cp_point": {
+    "index": 52,
+    "x_over_c": 0.0002,
+    "branch": "upper",
+    "experimental": -0.4219,
+    "own": 0.5501185528317268,
+    "published_WIND_SA": 0.5339172634990897
+  },
+  "published_WIND_is_SA_not_SST": true,
+  "interpretation": "Similar error against the published computation is context, not an experimental acceptance test or proof of the cause.",
+  "experimental_Cp_error_reported_approximately": 0.0026,
+  "experimental_error_is_not_own_acceptance_tolerance": true,
+  "physical_validation_accepted": false,
+  "source_URL": "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/raetaf04.html",
+  "source_sha256": {
+    "flow.vtu": "fc115b5b85f62f330197cfdafc7479aea365953a8e2edea18913cbc0868182c8",
+    "Cp_CONTRASTE_PROVISIONAL.csv": "678aae416e75f2e874e989bd4920d908b1f762d4b630cb3c95f95f4f9a50a2c6",
+    "cp.wind.gen": "eb4371990d743e1fd66c97efde5f66d78109d72a771d23b967a2712d84f02d6c",
+    "cp.exp.gen": "739bbec6bd8775240bcf571fc8356701cab4c773c4e3d3b21deea5a3f627f001"
+  }
+}

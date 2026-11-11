@@ -1,0 +1,18 @@
+id,severidad_juicio,requisitos,riesgo,senal_temprana,respuesta,tareas
+K01,critica,R19;R33,Vectorización útil menor que cono supuesto,Carga local y reacción total discrepan o región útil insuficiente,Medir/calcular módulo completo; rediseñar canales y disposición,T12;T14
+K02,critica,R24;R25,Potencia/masa/energía incompatibles,BOM excede masa o pack/motor no entrega potencia,"Iterar área, integración y misión; conservar requisitos originales visibles",T06;T18
+K03,critica,R22;R23,Instalación axial no cabe o pierde empuje,Reserva de tubo insuficiente; distorsión/temperatura/CG inaceptables,Resolver motor+toma+escape con planos y mapas,T15;T24
+K04,critica,R28;R29,Arrastre o separación en avance mayor que hipótesis,Solución compresible aceptada excede presupuesto de empuje,Optimizar forma/tomas y reevaluar velocidad factible,T22;T24
+K05,critica,R26;R30,Tapas no funcionan bajo carga o se atascan,"Interferencia, par excesivo o asimetría de apertura",Diseñar mecanismo y cierres; simular fallo y transición,T16;T25;T29
+K06,critica,R31;R32,"Flutter, pérdida de rigidez o fallo local",Sensibilidad a holgura/temperatura o modo cercano a excitación,Aeroelasticidad y redimensionamiento con masa devuelta al modelo,T28;T30
+K07,alta,R21;R33,Control consume toda la reserva nominal,Saturación o margen comparable a incertidumbre; ejemplo 34.92/35°,Identificar mapa y límites; escenarios robustos; no aprobar por seguimiento nominal,T13;T33
+K08,alta,R38;R39,Mezcla de geometrías/datos históricos,"Masa, estaciones, número de rotores o método no coinciden",Configuración y huellas únicas; resultados incompatibles separados,T02;T07;T36
+K09,alta,R02;R17,Escalado algebraico no realizable,Rotor/motor/estructura cambia de régimen al variar masa,Redimensionar cada variante y validar mapas propios,T35
+K10,alta,R13;R14,Operación ambiental mal definida,Petición de cualquier condición sin rangos o fallos de ingestión,Definir envolvente y ensayos; no prometer inmunidad universal,T04;T33;T44
+K11,alta,R35;R36,ML explota errores del simulador,Buen entrenamiento y fallo en estados fuera de ajuste,"Base interpretable, datos separados y recuperación independiente",T38;T39
+K12,alta,R42,Coste computacional y herramientas bloquean ruta,Caso caro sin convergencia; apps no arrancan; RAM insuficiente,"Benchmark, diagnóstico con límite de coste y cómputo remoto si se justifica",T03;T05
+K13,alta,R39,Convergencia confundida con validez física,Campos finitos o End usados como aceptación,"Criterios predefinidos, balances, sensibilidad y contraste",T05;T12;T22
+K14,alta,R38;R40,Render presentado como vuelo validado,Trayectoria impuesta o control/fluido ausentes sin etiqueta,Separar visualización y predicción; rastrear fuente de estados,T41
+K15,alta,R41,Producto visualmente terminado pero no fabricable,"Faltan interfaces, montaje, tolerancias o mantenimiento",Cerrar mecánica/BOM/planos con revisión de fabricación,T17;T48
+K16,alta,R31;R34,Fallos de rotor o alimentación sin recuperación,La autoridad remanente no cubre gravedad/momentos,Definir el requisito; comprobar dominio de fallos y modos de recuperación,T04;T33;T45
+K17,alta,R44;R45,Aviónica/rotor afectados por vibración o integración,"Sensores saturados, pérdida de enlace, interferencia o retención insuficiente","Presupuesto de vibración/EMC/datos; analizar buje, pala y protección",T28;T33;T37;T44

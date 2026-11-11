@@ -1,0 +1,8 @@
+{
+  "inertia_reduction": 0.29930069930069925,
+  "ring_wetted_m2": 0.3540574920595697,
+  "area_5kg_from_2kg": 0.5931290712811023,
+  "reorientation_5kg_s": 0.24457998111075546,
+  "reorientation_10kg_s": 0.2843402972909405,
+  "report_buckling_expression_Pa": 46839.21287385087
+}

@@ -1,0 +1,105 @@
+{
+  "scope": "Forced full-state/residual continuation; not experimental validation",
+  "source_SU2_version": "8.6.0",
+  "iteration_limit": 600,
+  "counter_is_physical_time": false,
+  "declared_conditions": {
+    "Mach": 0.729,
+    "alpha_deg": 2.31,
+    "Reynolds": 6500000.0,
+    "chord": 0.3048,
+    "T_freestream_K": 255.55555555555554,
+    "turbulence_intensity": 0.001,
+    "eddy_to_molecular_viscosity_ratio": 1.0,
+    "gas_model": "IDEAL_GAS",
+    "gas_R_J_kg_K": 287.05287,
+    "gamma": 1.4,
+    "mu_reference_Pas": 1.716040346944096e-05,
+    "mu_reference_temperature_K": 273.15,
+    "Sutherland_K": 110.4,
+    "turbulence_model": "SA",
+    "SA_options": "NONE",
+    "freestream_nu_factor": 4.622838269107444,
+    "turbulence_intensity_not_transported_by_SA": true
+  },
+  "target_reference": {
+    "p_Pa": 108987.77275058624,
+    "rho_kg_m3": 1.4856980645128517,
+    "U_m_s": 233.62276311273394,
+    "mu_Pas": 1.6275986454205707e-05
+  },
+  "geometry": {
+    "points": 97956,
+    "quadrilaterals": 97152,
+    "positive_convex_cells": true,
+    "minimum_area_m2": 1.1432354170359349e-10,
+    "boundary_edges": {
+      "AIRFOIL": 608,
+      "FARFIELD": 736,
+      "OUTFLOW": 264
+    },
+    "identical_source_vertices_verified": true,
+    "conformal_wake_merged_nodes": 65,
+    "refinement": "i2; first2 jintervals4, remaining jintervals2",
+    "planar_geometry_unchanged_by_bilinear_subdivision": true,
+    "sharp_TE": true,
+    "quality_not_accepted_from_other_solver": true
+  },
+  "source_grid_sha256": "2318157ce20050a3f7c1a5dc208cbfd3d821108b618afb2e43fd4792ee4238ed",
+  "source_URL": "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/raetaf04.html",
+  "numerical_note": "Same parent model, mesh, mean conditions, transport and numerical schemes; 600 forced additional steps.",
+  "distinctions_from_NASA_WIND": [
+    "Same supplied vertices/connectivity and freestream M/alpha/Re/T/chord; native node-centred scheme differs.",
+    "Transport reference chosen to reproduce stated p/Re simultaneously; not measured viscosity.",
+    "SA-noft2 fully turbulent; no identity to the legacy WIND SA variant or experiment transition asserted.",
+    "I0.001 and viscosityRatio1 are assumptions, not stated NASA experimental values.",
+    "Native characteristic farfield/static-pressure outlet may differ from WIND implementation.",
+    "Single highly stretched source C-grid; no mesh independence or full force budget accepted."
+  ],
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "inputs_sha256": {
+    "preparador_sonda.py": "d5cefcef944ce23f5d4552030a3e12b7ab14d65c39d22ba0a76a27677f5ed6a9",
+    "case.cfg": "7e0943b05782599cc00306c443a17b9e8f43cbdfd81a3dbf212537fd9966ec30",
+    "ORIGINAL_turb_SST_RAE2822.cfg": "68a8dcdd171b3ae1cfc38d7a946bd682164d099169eee25ff576c2f1503b3da7",
+    "solution_flow.csv": "336ee14461df322afbd06f440c47053f29f736e0f688b119a7962a5a3b20b45b",
+    "mesh_RAE2822_turb.su2": "d6247af7602ecf7eb76067985b948e62bb38cfa869d542c81c925401995c34e9"
+  },
+  "parent": "su2_nasa_sa_r1",
+  "changes_from_parent": [
+    "ASCII restart from audited finite positive seed",
+    "600 forced additional iterations; density-only early stop disabled",
+    "Export max residual histories and residual fields"
+  ],
+  "physical_models_geometry_freestream_and_schemes_unchanged": true,
+  "source_audit_sha256": "776137eef1ea854220b2bc084390d6eac76128377ed31626ac2a7557eeaa4623",
+  "turbulence_model": "SA",
+  "actual_model_expected": "Spalart-Allmaras-noft2; no corrections, fully turbulent",
+  "geometry_and_mean_conditions_unchanged": true,
+  "source_inputs_sha256": {
+    "restart_flow.csv": "ff89ac13aa091500c0144ec1187be203ad9a6dadbaa8739aef6fc0f687c283ab",
+    "flow.vtu": "ca959c2e7bc065311c0df8e87529a6b1e90ffa70dec197e7b28211da89697560",
+    "AUDITORIA_SU2.json": "91a4935eca8059ba8fdaa1fb876b974ae44e31ccfcc163381e5e4ae73b215aa9",
+    "case.cfg": "942f68f90d9512f7bde056a433014a923e4940423060febd12b675e05651b675"
+  },
+  "metadata_amendment": "Inherited model/numerical-note labels corrected; initial metadata/preparer preserved under procedencia; no solver input or field changed.",
+  "executed_preparer_sha256": "5557078372a74f9d28c96990cb0a26775a739f458e42589e8c908562e1808188",
+  "origin_model_change": "SST2003m to SA-noft2; preserve mean pressure and initial eddy viscosity, not the SST transported variables",
+  "parent_initialization_metadata": {
+    "source": "su2_nasa_fina_r3_sonda",
+    "energy_formula": "rhoE_SA=rhoE_SST-rho*k_SST",
+    "initial_mu_t_preserved_by_inverse_fv1": true,
+    "maximum_pressure_conversion_difference_Pa": 2.9103830456733704e-11,
+    "maximum_mut_conversion_difference_Pas": 6.938893903907228e-18,
+    "native_primitive_stage_lag_from_SST_preserved_in_report": {
+      "pressure_max_abs_Pa": 0.002267857824335806,
+      "pressure_max_relative": 1.9497598615430983e-08,
+      "temperature_max_abs_K": 5.2006083706146455e-06
+    }
+  },
+  "restart_seed": {
+    "parent": "su2_nasa_sa_r1",
+    "source_restart_sha256": "336ee14461df322afbd06f440c47053f29f736e0f688b119a7962a5a3b20b45b",
+    "exact_copy_to_solution_flow_csv_verified": true
+  }
+}

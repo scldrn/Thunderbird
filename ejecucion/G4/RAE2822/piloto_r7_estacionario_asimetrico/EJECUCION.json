@@ -1,0 +1,32 @@
+{
+  "container": "codex-aero-rae2822-r7",
+  "container_id": "54f6b899e889c368365f6c56777302c13c8cb500d19fba18a4d3e9daed9fce72",
+  "image_id": "sha256:4ea55efc8f3c56c542acc2d525b9477a73d6a55b8f4d41a7587431fb719f92fb",
+  "stage": "solver_exited",
+  "started_UTC": "2026-11-03T22:25:48.413951+00:00",
+  "iteration_target": 500,
+  "counter_is_physical_time": false,
+  "historical_solvers_resumed": false,
+  "physical_validation_accepted": false,
+  "preflight_exit_code": 0,
+  "preflight_models_constructed": true,
+  "near_vacuum_guard_enabled": true,
+  "near_vacuum_guard_triggered": true,
+  "guard_stop_request_UTC": "2026-11-03T22:27:16.560030+00:00",
+  "guard_observed_min_p_Pa": -3.33059904248e+58,
+  "guard_observed_min_rho_kg_m3": -4.52193912406e+51,
+  "guard_action": "Requested stopAt writeNow; original host input unchanged, actual control snapshot preserved",
+  "exit_code": 143,
+  "elapsed_wall_s": 199.7251056249952,
+  "last_completed_counter": 2.0,
+  "target_reached": false,
+  "copied_output_directories": [
+    "postProcessing"
+  ],
+  "container_oom_killed": false,
+  "container_stopped_after_solver": true,
+  "finished_UTC": "2026-11-03T22:29:17.016102+00:00",
+  "manual_SIGTERM_requested": true,
+  "manual_SIGTERM_reason": "Live Docker top/log confirmed nonfinite U/p/T/rho and linear residuals; prior stopAt writeNow had not yet ended the run. Terminated only this container foamRun, then runner preserved logs and stopped container.",
+  "intervention_recorded_UTC": "2026-11-03T22:30:03.938163+00:00"
+}

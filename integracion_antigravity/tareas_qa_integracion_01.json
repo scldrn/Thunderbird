@@ -1,0 +1,47 @@
+{
+  "descripcion": "Revisión independiente de paquetes integrables y hallazgos cruzados",
+  "tareas": [
+    {
+      "id": "qa_uiuc_estatico",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/README.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/INFORME.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/puntos.csv",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/test_analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/datos/mi_3.2x2.2_static_0519rd.txt",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/datos/mi_3.2x2.2_geom.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt"
+      ],
+      "instruccion": "Audita de forma independiente este paquete UIUC estático. Verifica integridad byte a byte contra fuentes originales copiadas, unidades, ecuaciones, último punto y que los scripts no dependan de rutas temporales. Copia archivos a salidas/prueba/ conservando la estructura y ejecuta tests y script solo en esa copia aislada. Entrega dictamen conciso con comandos, fallas, evidencia y si puede usarse como análisis condicional; no declares validación de C02 ni potencia eléctrica. No uses git ni red."
+    },
+    {
+      "id": "qa_uiuc_avance",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/informe_tecnico_uiuc_avance.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/uiuc_mi_3.2x2.2_20051_procesado.csv",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/test_procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/datos/mi_3.2x2.2_geom.txt",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/datos/mi_3.2x2.2_0544rd_20051.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_0544rd_20051.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt"
+      ],
+      "instruccion": "Audita independientemente paquete UIUC de avance: integridad byte a byte contra originales copiados, fórmulas, dominio de datos y rutas. Copia a salidas/prueba/ conservando la estructura y ejecuta tests y script en esa copia aislada. Produce dictamen conciso con defectos y un README de uso si falta. No extrapoles a alta velocidad ni declares que mide C02. No uses git ni red."
+    },
+    {
+      "id": "sintesis_control_fuentes",
+      "entradas": [
+        "investigacion-aeronautica/ESTADO-VERIFICACION-GLOBAL.md",
+        "investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/NOTA-NASA-EDF.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035419Z_55aa97fb/corregir_bom_incertidumbre/salidas/DICTAMEN.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035419Z_55aa97fb/corregir_fuente_nasa/salidas/DICTAMEN.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035419Z_55aa97fb/corregir_cfd_inventario/salidas/DICTAMEN.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035419Z_55aa97fb/corregir_ejes_cg/salidas/DICTAMEN.md"
+      ],
+      "instruccion": "Sintetiza en una página cómo preservar trazabilidad y no propagar errores detectados en las revisiones adjuntas: 1) masa de reserva sin asignar desconocida; 2) identificar solo el EDF de la nota y rechazar marca no sustentada; 3) no confundir entrada no suministrada con archivo inexistente; 4) +y CAD derecha según conversión documentada. Identifica cuáles son solo dictámenes de agentes y requieren contraste. No atribuyas documentos secundarios al papel NASA completo y no declares científicamente validado ningún vehículo. Incluye enlaces de referencia disponibles, sin red."
+    }
+  ]
+}

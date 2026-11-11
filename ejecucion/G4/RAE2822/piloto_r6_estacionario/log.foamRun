@@ -1,0 +1,119 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamRun
+Date   : Nov 03 2026
+Time   : 22:23:01
+Host   : "587169fe202a"
+PID    : 404
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting solver fluid
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       sutherland;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting turbulence model type RAS
+    Selecting RAS turbulence model kOmegaSST
+No MRF models present
+
+Selecting patchDistMethod meshWave
+Selecting thermophysical transport type RAS
+Selecting default RAS thermophysical transport model unityLewisEddyDiffusivity
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: Operating solver in steady-state mode with 1 outer corrector
+PIMPLE: Operating solver in SIMPLE mode
+
+
+
+Starting time loop
+
+volFieldValue max_velocity read:
+    number of cells = 365478
+    volume = 0.585458041651
+    operation = maxMag
+
+volFieldValue min_scalars read:
+    number of cells = 365478
+    volume = 0.585458041651
+    operation = min
+
+volFieldValue max_scalars read:
+    number of cells = 365478
+    volume = 0.585458041651
+    operation = max
+
+surfaceFieldValue mass_farfield read:
+    number of faces = 441
+    area = 0.112920539458
+    operation = sum
+
+surfaceFieldValue mass_outlet read:
+    number of faces = 69
+    area = 0.0476612197741
+    operation = sum
+
+volFieldValue max_velocity write:
+    maxMag(all) of U = 233.622763113 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+
+volFieldValue min_scalars write:
+    min(all) of p = 108987.772751 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of T = 255.555555556 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of rho = 1.48569717592 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of k = 0.0818693931666 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of omega = 7473.16909563 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+
+Time = 1s
+
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.999999449878, Final residual = 0.0118465525099, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.999998930023, Final residual = 0.0406274145472, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.999999248179, Final residual = 0.00841206023735, No Iterations 1
+
+
+--> FOAM FATAL IO ERROR: 
+Unknown asymmetric matrix smoother DIC
+
+Valid asymmetric matrix smoothers are :
+
+5
+(
+DILU
+DILUGaussSeidel
+GaussSeidel
+nonBlockingGaussSeidel
+symGaussSeidel
+)
+
+
+file: //case/system/fvSolution/solvers/p at line 3.
+
+    From function static Foam::autoPtr<Foam::lduMatrix::smoother> Foam::lduMatrix::smoother::New(const Foam::word&, const Foam::lduMatrix&, const Foam::FieldField<Foam::Field, double>&, const Foam::FieldField<Foam::Field, double>&, const Foam::lduInterfaceFieldPtrsList&, const Foam::dictionary&)
+    in file matrices/lduMatrix/lduMatrix/lduMatrixSmoother.C at line 136.
+
+FOAM exiting
+

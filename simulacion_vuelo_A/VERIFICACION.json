@@ -1,0 +1,8 @@
+{
+  "caida_libre_max_error": 1.4921397450962104e-13,
+  "estacionario_max_error": 0.0,
+  "par_constante_max_error": 1.8318679906315083e-15,
+  "half_step_max_position_difference_m": 0.0036226229706329527,
+  "half_step_max_attitude_difference_deg": 0.01642502231577005,
+  "scope": "Numerical checks only, not physical validation or full NASA check-case suite."
+}

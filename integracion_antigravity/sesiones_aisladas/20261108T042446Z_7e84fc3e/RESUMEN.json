@@ -1,0 +1,17 @@
+{
+  "inicio_utc": "2026-11-08T04:24:46.738261+00:00",
+  "estado": "interrumpido",
+  "tareas": [
+    "qa_contrato_mapa",
+    "qa_contrato_masa",
+    "qa_integracion_6dof"
+  ],
+  "trabajadores": 3,
+  "workspace_temporal": "/private/tmp/aero_20261108T042446Z_7e84fc3e_pt3xyn2r",
+  "fin_utc": "2026-11-08T04:38:42.388922+00:00",
+  "recolectadas": 2,
+  "requieren_revision": [
+    "qa_contrato_mapa",
+    "qa_integracion_6dof"
+  ]
+}

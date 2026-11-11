@@ -1,0 +1,72 @@
+{
+  "config_id": "A07_RESEARCH_BASE_2026-11-03_r1",
+  "source": "modelos_integrados/producto_A07/5kg/A07_cerrado.step",
+  "source_sha256": "49cc51974b5ae56dc10c77dc07da25c9025f9906ce34954303e322e02d62f3e2",
+  "valid_part_records": 208,
+  "assembly_dimensions_mm": [
+    1341.0000000999999,
+    321.82117266175834,
+    242.53762614698624
+  ],
+  "nominal_sum_part_volume_litres": 1.977105270580502,
+  "manifest_volume_discrepancies": [
+    {
+      "name": "aro_0_superior_cobre",
+      "relative_error": 2.6973501519697825e-05
+    },
+    {
+      "name": "junta_0_superior",
+      "relative_error": 2.0659469273787984e-05
+    },
+    {
+      "name": "aro_0_inferior_cobre",
+      "relative_error": 3.852357407261572e-05
+    },
+    {
+      "name": "junta_0_inferior",
+      "relative_error": 0.00019036426190156315
+    },
+    {
+      "name": "aro_1_superior_cobre",
+      "relative_error": 2.0922148575842588e-05
+    },
+    {
+      "name": "aro_1_inferior_cobre",
+      "relative_error": 3.023970834519713e-05
+    },
+    {
+      "name": "junta_1_inferior",
+      "relative_error": 0.00016048976489191214
+    },
+    {
+      "name": "aro_2_superior_cobre",
+      "relative_error": 0.00015799434512048292
+    },
+    {
+      "name": "junta_2_superior",
+      "relative_error": 0.00022244707016868084
+    },
+    {
+      "name": "aro_2_inferior_cobre",
+      "relative_error": 0.00012614681245936874
+    },
+    {
+      "name": "junta_2_inferior",
+      "relative_error": 8.159948553350295e-05
+    },
+    {
+      "name": "aro_3_superior_cobre",
+      "relative_error": 3.682584038610265e-05
+    },
+    {
+      "name": "junta_3_superior",
+      "relative_error": 0.00015104552225002801
+    },
+    {
+      "name": "junta_3_inferior",
+      "relative_error": 6.067942582913234e-05
+    }
+  ],
+  "mass_closed": false,
+  "scope": "Geometrical volume/centroid only. No material, hardware or physical mass established."
+}

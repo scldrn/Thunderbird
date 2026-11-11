@@ -1,0 +1,167 @@
+{
+  "scope": "Transonic startup diagnostic and provisional Cp comparison, not accepted validation",
+  "iteration_start": 0,
+  "iteration_target": 100,
+  "counter_is_physical_time": false,
+  "final_fields": {
+    "U": {
+      "min": 1.9416823025613386,
+      "max": 249.493896683097,
+      "sha256": "bdd0396b2af8705da84fb3ef356b33a3b297442c18036f7d5173cfaaf8cbf238"
+    },
+    "p": {
+      "min": 70526.5045394,
+      "max": 225670.957162,
+      "sha256": "8e084589f4892a3339c5994f3c44ed6bca5242e30504f1d97af664f1cefab478"
+    },
+    "T": {
+      "min": 238.076490008,
+      "max": 314.005077712,
+      "sha256": "099f04a7d38876c259f240ed5fe23bf5fd44e6d9ea5b5b0077bf186a60c03ce7"
+    },
+    "rho": {
+      "min": 0.997975426609,
+      "max": 2.53269012766,
+      "sha256": "ca1b8948ca168638dac292a60851324acbacb553a7831a873a7eb908637733ab"
+    },
+    "k": {
+      "min": 1.35185817111e-05,
+      "max": 83.3491877814,
+      "sha256": "bf3530a7e34caf39725eaf3349bf9cdb4991f2e04c3766958ae30ec76fcdc0d5"
+    },
+    "omega": {
+      "min": 1704.43002261,
+      "max": 551488466.851,
+      "sha256": "f0d9c1c994551d26bf0fc4702733f38233183828c66f275a9ed2d4fae354e2ed"
+    },
+    "nut": {
+      "min": 5.03515176901e-14,
+      "max": 1.15894728e-05,
+      "sha256": "edf37a5e42562092e4b091b09756322bde83658e0bc971f3a4421d7e3de3dc76"
+    }
+  },
+  "maximum_local_Mach": 0.7784118790195704,
+  "perfect_gas_relative_defect_max": 5.981056070315368e-07,
+  "last_force_N": [
+    6.6511229754567,
+    8.454550785947152,
+    8.132819453636999e-19
+  ],
+  "last_CL": 0.21715569074402066,
+  "last_CD": 0.18548046122872128,
+  "pressure_force_independently_reconstructed_verified": true,
+  "force_series_parsing": {
+    "discarded_rows": 0,
+    "overwritten_duplicate_times": 0
+  },
+  "last20_first_residual_max": {
+    "p": 0.00218852102893,
+    "Ux": 1.69776805726e-05,
+    "Uy": 0.000167514302065,
+    "h": 0.000285618131313,
+    "k": 0.000868565877326,
+    "omega": 3.10496635188e-06
+  },
+  "declared_screen_thresholds": {
+    "p": 1e-05,
+    "Ux": 1e-05,
+    "Uy": 1e-05,
+    "h": 1e-05,
+    "k": 1e-05,
+    "omega": 1e-05
+  },
+  "adjacent20_coefficient_drift": {
+    "CL": 0.005705237048118483,
+    "CD": 0.010321067518649057
+  },
+  "last20_outer_net_mass_relative_max": 0.0,
+  "comparison_counters": [
+    80,
+    100
+  ],
+  "field_changes": {
+    "U": {
+      "maximum": 146.33279748099085,
+      "cell_arithmetic_RMS": 4.465973482143063
+    },
+    "p": {
+      "maximum": 92958.152287,
+      "cell_arithmetic_RMS": 2380.4642727684077
+    },
+    "T": {
+      "maximum": 41.68413744000003,
+      "cell_arithmetic_RMS": 1.197793446280103
+    },
+    "rho": {
+      "maximum": 0.8363980469600001,
+      "cell_arithmetic_RMS": 0.02279139127099621
+    },
+    "k": {
+      "maximum": 65.75239400070001,
+      "cell_arithmetic_RMS": 3.5616500977385988
+    },
+    "omega": {
+      "maximum": 13313678.80400002,
+      "cell_arithmetic_RMS": 260204.10556285834
+    },
+    "nut": {
+      "maximum": 1.0679316715558001e-05,
+      "cell_arithmetic_RMS": 8.667065457771001e-07
+    }
+  },
+  "yPlus_reported": [
+    {
+      "counter": 0.0,
+      "minimum": 0.021598322173,
+      "maximum": 0.02184901858474,
+      "reported_average": 0.02180012942899
+    },
+    {
+      "counter": 20.0,
+      "minimum": 0.001098451752374,
+      "maximum": 0.02352641999489,
+      "reported_average": 0.001950485732527
+    },
+    {
+      "counter": 40.0,
+      "minimum": 0.0008800847746018,
+      "maximum": 0.003138058120676,
+      "reported_average": 0.001702940517511
+    },
+    {
+      "counter": 60.0,
+      "minimum": 0.0008523102843494,
+      "maximum": 0.00346990204303,
+      "reported_average": 0.002319159853826
+    },
+    {
+      "counter": 80.0,
+      "minimum": 0.0005644710715673,
+      "maximum": 0.006541512725531,
+      "reported_average": 0.00389839067698
+    },
+    {
+      "counter": 100.0,
+      "minimum": 0.00039744953273,
+      "maximum": 0.01408427681617,
+      "reported_average": 0.007800181386015
+    }
+  ],
+  "Cp_points": 103,
+  "Cp_interpolation": "Full surface arc on actual NASA polygon; lower/upper trace joined at LE; no tap extrapolation",
+  "experimental_Cp_convention": "Raw NASA file stores -Cp, upper trace first; corrected to (p-pInf)/qInf with independently verified branch order",
+  "experimental_convention_sha256": "4f41646a64994a232bba5d4223ffaec85133b55b65539351db0740ef7b5380df",
+  "Cp_startup_RMS_error": 1.1997224103801478,
+  "Cp_startup_max_abs_error": 3.2323908424352745,
+  "diagnostic_screens": {
+    "first_residuals": false,
+    "adjacent20_force_coeff_drift": false,
+    "outer_net_mass_last20": true
+  },
+  "diagnostic_screens_all_pass": false,
+  "solver_CPU_s": 371.62554,
+  "solver_wall_s": 371.0,
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "pending": "Develop and converge fields; confirm budgets, wall treatment, turbulence/transition and mesh/scheme/domain sensitivity before accepting Cp or loads."
+}

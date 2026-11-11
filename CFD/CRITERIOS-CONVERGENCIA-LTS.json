@@ -1,0 +1,12 @@
+{
+  "scope": "Chosen numerical screening targets for the slip-wall pressure diagnostic; not a standard, physical uncertainty or product acceptance.",
+  "tail_iterations": 25,
+  "required_complete_blocks": 4,
+  "first_outer_initial_residual_max": {"p": 0.00001, "Ux": 0.00001, "Uy": 0.00001, "Uz": 0.00001, "h": 0.00001},
+  "force_coefficient_adjacent_block_mean_change_max": 0.0001,
+  "force_coefficient_last_block_peak_to_peak_max": 0.0002,
+  "moment_coefficient_adjacent_block_mean_change_max": 0.00001,
+  "moment_coefficient_last_block_peak_to_peak_max": 0.00002,
+  "mass_imbalance_relative_to_rho_U_body_area_max": 0.001,
+  "required_before_physical_acceptance": ["field-change audit", "mesh and domain sensitivity", "scheme sensitivity", "external validation", "viscous and installed geometry closure"]
+}

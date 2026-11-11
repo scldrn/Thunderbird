@@ -1,0 +1,11 @@
+{
+  "mass_assumed_kg": 5,
+  "gravity_ms2": 9.80665,
+  "roll_reserve_Nm": 0.5,
+  "lateral_half_spacing_m": 0.065,
+  "per_fan_preload_N": 1.0,
+  "minimum_upward_force_for_roll_reserve_N": 11.692307692307692,
+  "necessary_upper_bound_downward_acceleration_g": 0.7615432855805461,
+  "velocity_reversal_plus10_to_minus10_ms_at_half_g_lower_time_s": 4.078864851911713,
+  "assumptions": "All forces in positive cones; same Fy lever in every channel; zero total lateral force, no exterior aerodynamics or free couple. Necessary bound, not an attainable maximum."
+}

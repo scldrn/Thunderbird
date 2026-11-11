@@ -1,44 +1,35 @@
-# Repository Guidelines
+# Repository guidance
 
-## Project Structure & Module Organization
+## Language and evidence
 
-`investigacion-aeronautica/` contains research scripts, Spanish reports, and generated `resultados/`. Within it:
+Communicate with the user in Spanish. Write new or updated repository documentation, comments, identifiers and user-facing text in English. Translate historical material carefully without changing technical meaning, provenance, units or reproducibility; do not silently rename paths, change machine-readable keys, or rewrite generated data, third-party material or solver outputs.
 
-- `modelos_integrados/`: CadQuery generators, geometry checks, and versioned `producto_A03`–`producto_A07` deliverables.
-- `CFD/`: Gmsh meshes, OpenFOAM case preparation, solver monitoring, audits, and `solver/Dockerfile`.
-- `simulacion_vuelo_A/`: conditional low-speed dynamics, verification, and video generation.
-- `vuelo_rapido_visual/`: prescribed high-speed trajectories and inverse-demand visualization; not predictive flight simulation.
-- `fuentes/`: scientific reference material.
+Thunderbird is conceptual research on a compact sports aircraft with protected internal fans. Masses of 2–10 kg, rapid omnidirectional maneuvering and 600–1,000 km/h are objectives, not demonstrated capabilities. Distinguish measurements, assumptions, calculations and prescribed animations; cite primary sources. Numerical agreement alone is not physical validation.
 
-Read `ESTADO-VERIFICACION-GLOBAL.md` and `modelos_integrados/DECISION-ARQUITECTURA.md` before changing assumptions. The selected architecture uses internal fans.
+Read `ESTADO-VERIFICACION-GLOBAL.md`, `modelos_integrados/DECISION-ARQUITECTURA.md` and `plan_maestro/PLAN-MAESTRO.md` before changing assumptions. For a concise research and CAD history see `docs/research_context.md`; use the underlying reports and audits as authority. Consult `ejecucion/ESTADO-TAREAS.csv` and the identified configuration for task-specific work. Do not promote a later candidate or agent output to an accepted baseline without evidence.
 
-## Build, Test, and Development Commands
+## Architecture and frames
 
-Run from the repository root:
+Architecture A with internal fans is selected. A07 is the canonical research reference; C02 is a separate integrated candidate and C03 and later studies do not replace it automatically. Keep results from differing geometries, masses and domains separate. The 10 kg C03 is geometric scaling, not a validated hardware or mass configuration. The opening mechanisms are conceptual; local or sampled collision checks do not prove continuous motion, flight readiness or structural integrity.
 
-```sh
-python3 investigacion-aeronautica/calcular.py
-.venv-cad/bin/python investigacion-aeronautica/simulacion_vuelo_A/simular.py
-.venv-cad/bin/python investigacion-aeronautica/simulacion_vuelo_A/verificar.py
-.venv-cad/bin/python investigacion-aeronautica/modelos_integrados/producto_A06/crear_A06.py
-```
+The CAD nose points toward −X while historical flight models use +X. `configuraciones/base.py` documents CAD→FLU conversion `diag(-1,-1,+1)` and mm→m; verify frame, units, moment reference and configuration before coupling models. The CAD origin is a geometric datum, not a measured CG.
 
-These generate screening results, run conditional flight scenarios, verify dynamics, and export CAD, respectively. Generators can overwrite adjacent artifacts; read their `LEEME.md` first. There is no unified build command. Core numerical dependencies and CAD dependencies are recorded separately in `requirements.txt` and `modelos_integrados/requirements-lock.txt`; do not combine their differing pins blindly.
+## Layout and recovery
 
-## Coding Style & Naming Conventions
+Use `docs/repository_organization.md` for naming and placement and `docs/research_index.md` to find task-specific evidence. New directories and filenames use English `snake_case`, with conventional `README.md` names and established revision IDs preserved.
 
-Use four-space indentation for new Python modules; preserve surrounding style in existing compact scripts. Use `snake_case` filenames/functions, uppercase constants, and explicit unit suffixes such as `_mm`, `_N`, and `_kgm2`. Resolve paths relative to `__file__`. Keep numerical routines separate from rendering where practical. No formatter or linter is currently configured.
+Historical root-level scripts and reports are organized under `legacy/scripts/` and `legacy/reports/`; their former paths and hashes are recorded in `legacy/move_manifest.json`. All 28 scripts completed in isolated copies after reconnection; historical references and differing regenerated outputs still require review as documented in `audits/legacy_execution_2026-11-11.md`. `modelos_integrados/` contains CAD; `CFD/` contains flow cases and audits; `ejecucion/` contains G0–G6 work and snapshots; `configuraciones/` holds configuration data. `simulacion_vuelo_A/` is conditional low-speed dynamics; `vuelo_rapido_visual/` is prescribed visualization, not predictive flight. `fuentes/` contains references.
 
-## Testing Guidelines
+A source tree was located in `/Users/sam/Library/Mobile Documents/.Trash/investigacion-aeronautica/` on 2026-11-11 after the path originally supplied by the user disappeared. Recovery was interrupted at the user's request to remove unnecessary material; do not restore, move or delete the source without establishing intent. Availability and identity must be verified rather than assumed. `audits/markdown_review_2026-11-11.md` records the dated inventory and limitations; `audits/historical_migration_status_2026-11-11.json` and older path descriptions are historical, not current status.
 
-Verification uses executable `verificar*.py` and audit scripts with assertions and JSON reports; no centralized pytest suite or coverage threshold exists. Run checks relevant to changed equations or geometry. Check analytic cases and timestep sensitivity for dynamics; reimport STEP files and check solid validity and relevant collisions for CAD. Preserve failed cases and logs. Numerical agreement does not establish physical validity.
+Historical snapshots and failed cases can be necessary evidence even when superseded. Preserve traceability, negative results and licenses. Do not equate a third-party document or an agent report with project validation. Exact duplicate packaging, temporary frames and caches may be removed when their contents are preserved and verified; do not indiscriminately delete CFD cases or alter user work.
 
-## Commit & Pull Request Guidelines
+The unrecovered files discarded at the user's direction affect the 18 scopes listed in `audits/incomplete_case_scopes_2026-11-11.json`. Keep their historical evidence, but do not execute or treat those cases as complete unless their required inputs are re-established and checked.
 
-Git has no commits yet, so no historical convention exists. Use short imperative subjects, for example `Fix duct clearance beneath fan covers`. Keep changes focused. PRs should describe assumptions, affected revisions, reproduction commands, verification results, and unresolved limitations; include screenshots for visual changes and link issues when applicable. Avoid staging virtual environments, caches, temporary frames, or solver dumps indiscriminately.
+## Execution and verification
 
-## Research & Runtime Constraints
+There is no unified build. Historical scripts are in `legacy/scripts/`. Root-relative paths and six CAD import consumers have been reconnected; the screening generator was verified in isolation. Review each script before running it because other historical consumers and outputs may still need reconciliation. Check the relevant `LEEME.md`, environment and paths before running generators: they may overwrite artifacts. Numerical and CAD dependencies have separate pins; see `docs/development_setup.md` for the verified environments and checks. Use `verificar*.py` and audit scripts appropriate to the change; preserve failures and logs. Check analytical cases and timestep sensitivity for dynamics; reimport STEP and check solid validity, relevant collisions and continuous versus sampled motion for CAD. CFD requires convergence, conservation, mesh, domain and model sensitivity; a solver exit alone is not acceptance.
 
-Use `investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md` for execution priorities; keep historical results separate from accepted baselines.
+Before CFD work, inspect `CFD/PAUSA_SOLICITADA_USUARIO.json`, later dated records and actual process state. Do not resume, restart, duplicate or destroy paused solvers without explicit authorization. For blade-element coupling do not add BEM induction to CFD disk velocity that already includes it, or equate fluid force work with shaft power. Mark polar extrapolation and preserve distinct experimental branches.
 
-Distinguish measured data, assumptions, calculations, and prescribed animations. Cite primary sources for scientific claims. Record changed geometry and regenerated artifacts together. Check pause records before CFD work; do not resume paused solvers without explicit authorization.
+Use four-space indentation in new Python, preserve surrounding style, prefer `snake_case`, uppercase constants and unit suffixes such as `_mm`, `_N`, `_kgm2`; resolve paths relative to `__file__`. Keep numerical and rendering code separate where practical. No unified formatter or test suite is configured. Report assumptions, commands, results and remaining limits. Do not stage environments, caches, temporary frames, solver dumps or third-party code indiscriminately. Use short imperative commit subjects.

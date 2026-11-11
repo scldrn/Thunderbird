@@ -1,0 +1,57 @@
+{
+  "scope": "Proyeccion XY de cuatro mallas sobre circulo nominal D84, no caudal ni eficiencia; teselacion .4mm",
+  "states": {
+    "cerrado": [
+      {
+        "pixels": 336,
+        "aperture_pixels": 88620,
+        "overlap_pixels": 88284,
+        "covered_fraction": 0.9962085308056872,
+        "circle_raster_area_mm2": 5538.75,
+        "analytic_circle_area_mm2": 5541.769440932396
+      },
+      {
+        "pixels": 672,
+        "aperture_pixels": 354540,
+        "overlap_pixels": 352742,
+        "covered_fraction": 0.9949286399277938,
+        "circle_raster_area_mm2": 5539.6875,
+        "analytic_circle_area_mm2": 5541.769440932396
+      },
+      {
+        "pixels": 1344,
+        "aperture_pixels": 1418476,
+        "overlap_pixels": 1405432,
+        "covered_fraction": 0.9908042152281744,
+        "circle_raster_area_mm2": 5540.921875,
+        "analytic_circle_area_mm2": 5541.769440932396
+      }
+    ],
+    "elevado_60": [
+      {
+        "pixels": 336,
+        "aperture_pixels": 88620,
+        "overlap_pixels": 18977,
+        "covered_fraction": 0.2141390205371248,
+        "circle_raster_area_mm2": 5538.75,
+        "analytic_circle_area_mm2": 5541.769440932396
+      },
+      {
+        "pixels": 672,
+        "aperture_pixels": 354540,
+        "overlap_pixels": 75216,
+        "covered_fraction": 0.21215095616855645,
+        "circle_raster_area_mm2": 5539.6875,
+        "analytic_circle_area_mm2": 5541.769440932396
+      },
+      {
+        "pixels": 1344,
+        "aperture_pixels": 1418476,
+        "overlap_pixels": 300204,
+        "covered_fraction": 0.21163840628956712,
+        "circle_raster_area_mm2": 5540.921875,
+        "analytic_circle_area_mm2": 5541.769440932396
+      }
+    ]
+  }
+}

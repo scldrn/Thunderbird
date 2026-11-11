@@ -1,0 +1,20 @@
+FoamFile { version 2.0; format ascii; class dictionary; object controlDict; }
+application foamRun; solver incompressibleFluid;
+startFrom startTime; startTime 0; stopAt endTime; endTime 1; deltaT 1;
+writeControl timeStep; writeInterval 1; writeFormat ascii; writePrecision 14;
+functions {
+force_inlet { type forces; libs ("libforces.so"); patches (inlet);
+ rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1; }
+force_outlet { type forces; libs ("libforces.so"); patches (outlet);
+ rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1; }
+force_all { type forces; libs ("libforces.so"); patches (inlet outlet walls);
+ rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1; }
+momentum_inlet { type surfaceFieldValue; libs ("libfieldFunctionObjects.so");
+ patch inlet; operation sum; weightField phi; fields (U); writeFields false; writeControl timeStep; writeInterval 1; }
+flow_inlet { type surfaceFieldValue; libs ("libfieldFunctionObjects.so");
+ patch inlet; operation sum; fields (phi); writeFields false; writeControl timeStep; writeInterval 1; }
+momentum_outlet { type surfaceFieldValue; libs ("libfieldFunctionObjects.so");
+ patch outlet; operation sum; weightField phi; fields (U); writeFields false; writeControl timeStep; writeInterval 1; }
+flow_outlet { type surfaceFieldValue; libs ("libfieldFunctionObjects.so");
+ patch outlet; operation sum; fields (phi); writeFields false; writeControl timeStep; writeInterval 1; }
+}

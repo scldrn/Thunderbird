@@ -1,0 +1,7 @@
+{
+  "cases": 60,
+  "globally_feasible": 1,
+  "globally_infeasible_in_interpolated_model": 59,
+  "unresolved": 0,
+  "scope": "Exact segment disjunction for the conditional interpolated aerodynamic map. Numerical MILP solver tolerances apply. Does not prove physical impossibility. Feasible solutions minimize zero, not power."
+}

@@ -1,0 +1,65 @@
+{
+  "updated_UTC": "2026-11-04T07:36:00.362729+00:00",
+  "previous_goal_turn_classification": "progress_CAD_delivery",
+  "this_goal_turn_classification": "progress",
+  "global_goal_complete": false,
+  "physical_product_validated": false,
+  "completed_evidence": [
+    "SU2 original r3 terminal200 and complete field comparison with originalr2",
+    "Direct native conversion of NASA23952nodes/23552quads, same source profile and M/alpha/Re/T/chord",
+    "NASA1200+4000+1000steps completed with finite positive thermodynamics; all-fields1000-step stability measured",
+    "Independent WLS/fullTau wall-force reconstruction agrees with native coefficients within1e-8; affine/linear-pressure references passed",
+    "Roe/characteristic boundary reconstruction and four analytic checks; net mass relative2.45e-11, remaining momentum coefficient defect1.866e-4",
+    "Full103pointCp comparison RMS0.122101; no points discarded; physical validation remains pending",
+    "Scientific PNG/SVG generated from saved CFD and visually inspected",
+    "Refined NASA1200step case terminal exit0: yPlusmax0.976, force extraction verified; same polygon/conditions/binary explicitly verified; provisional CDdifference-3.438percent not settled grid uncertainty",
+    "C02r8 immutable780/800 snapshots audited without stopping source; CVdefect0.02089/0.01892percent, all fields finite, volume-weightedRMSdeltaU0.01222m_s but localchanges remain; passive loads not accepted",
+    "FineR2terminal1800 audited: same polygon/conditions/binary verified, yPlusmax0.97625, CD0.01259316 (-3.424percent versuscoarse), all103CpRMS0.123145; krelativeL2change0.004789 means late-state probe remains justified",
+    "FineR3late600probe terminal exit0: CL0.67880791/CD0.01259346, deltaCL9.57e-6/deltaCD2.99e-7; latekL2change0.000888, force reconstruction remains verified; no experimental or whole-vehicle acceptance",
+    "R8 terminal1000: CVdefect0.00679percent, continuity/load drift pass but first residual screens fail",
+    "SA-noft2 matched model runs1800+600 complete; CL+4.8049percent/CD+5.3832percent versusSST; full force reconstruction verified; no physical acceptance",
+    "Passive r8 nominal mechanicalflux21.5632W/drop194.593Pa/K0.79426; uniform-inlet independent crosscheck uses triangulated mesh area; no shaft-power or full RANS energy acceptance",
+    "Four actuator cell bands measured on original mesh; positive unit-axial-force kernels with zero spurious local transverse moments verified; no source applied or rotor performance accepted",
+    "Uniform coded source completed as UID1000; all80 velocity vectors at4s exactly equal original semiImplicitSource. Root-loading failure preserved. Generated C02 source algebra passes32 force/density/band cases; not applied to C02 or physically validated.",
+    "Generated zero-source channel and rigidly rotated nonzero channel both terminal exit0 with exact velocity agreement. Nonzero source work2.58316347127W equals independent reference. Four saved-field postprocessing fixtures crosscheck CSV work and reject modified source dictionary; not installed flow validation.",
+    "R9 terminal1200/exit0/reconstruct0: all five unchanged startup screens pass; CVfinal1.69343e-5, nominal mean mechanical loss21.564149W. Max local deltaU0.94448m_s retained; no physical acceptance. Same-CAD finer mesh1283005cells generated and checkMesh passed; missing-controlDict conversion failure preserved separately.",
+    "Forced1N terminal1200 audited: source integral-1N, source work22.649994W, CV0.346214percent; first residual screens fail, no physical acceptance. Matched comparison21common inputs preserved. Same-source continuation1400 UID1000 and independently solved fine-grid100 active. Fine mapped seed all fields finite, nonnegative turbulence, no inherited convergence.",
+    "Local blade law:9 vector-work cases/64 frozen annuli reproduced/4 unsupported cases rejected.42 disk-velocity prescribed points retain all extrapolations; hub0.315R area-1.01374percent versus BEM0.30R; no accepted fan law.8 quadrature checks64/128/256. Free-Q transient boundary fields match analytic final solution but linear iteration-limit criterion fails; benchmark stays partial. ASCII compact reader extension reproduces5coarse fields exactly.",
+    "Forced1400 terminal0/reconstruct0: CV0.00187422percent, p/k first residuals narrowly fail. Fine100 terminal0/reconstruct0: residuals fail and maxlocaldeltaU12.0086m_s retained. Separate continuations1500/200 live; no physical acceptance."
+  ],
+  "active_jobs": [
+    {
+      "case": "actuador_r3_h4_F1N_1500",
+      "container": "codex-aero-c02-actuador-r3-h4-f1n",
+      "local_exec_session": 40070,
+      "target_counter": 1500,
+      "last_verified_counter": 1416.0,
+      "observation_UTC": "2026-11-04T07:33:00.926566+00:00",
+      "actual_solver_process_verified": true
+    },
+    {
+      "case": "neutro_fino_r2_mpi4_200",
+      "container": "codex-aero-c02-neutro-fino-r2-mpi4",
+      "local_exec_session": 78427,
+      "target_counter": 200,
+      "last_verified_counter": 106.0,
+      "observation_UTC": "2026-11-04T07:32:59.245405+00:00",
+      "actual_solver_process_verified": true
+    }
+  ],
+  "next_required": [
+    "Inspect actual forced40070 and fine78427; do not duplicate or restart on observation timeout.",
+    "After forced1500/reconstruction audit1480/1500 with unchanged criteria and source-aware CV/work.",
+    "After fine200/reconstruction audit180/200; do not attribute unconverged differences solely to mesh.",
+    "Local-law data42points remain conditional; distinguish disk velocity from far field, avoid double induction, add validated compressibility/polar/rotation and physical rotor torque/energy before installed map.",
+    "Free-Q uniform benchmark R1/R2 remains partial: R2 final analytic fields pass but linear maximum-iteration criterion fails. Native normFactor source preserved; no exact absolute linear-matrix residual measured. Do not label entire workflow validated.",
+    "Complete full remaining plan with A07 canonical/C02 candidate; no rotor, structure, autonomy or high-speed performance acceptance yet."
+  ],
+  "historical_solvers_resumed": false,
+  "native_SU2_r2_terminal": "exit0/1085steps; density criterion reached, full turbulence/traction/physical validation pending; CpRMS0.103901 over103points with declared mesh/condition differences",
+  "corrective_action": "Revalidated actual terminal/live state; audited all stored fields and independently reconstructed native wall/Roe fluxes; ran NASA-aligned and refined cases.",
+  "current_report": "G2/INFORME-LEY-LOCAL-C02.md",
+  "latest_manifest": "G2/MANIFIESTO-LEY-LOCAL-CAUDAL-2026-11-04.json",
+  "latest_refined_terminal_case": "su2_nasa_fina_r3_sonda",
+  "native_SU2_solver_currently_active": false
+}

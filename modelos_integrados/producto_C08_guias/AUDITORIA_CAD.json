@@ -1,0 +1,25 @@
+{
+  "scope": "reapertura e identidad de centros en extremos, no equivalencia global, mecanismo ni vuelo",
+  "states": [
+    {
+      "state": "cerrado",
+      "native_count": 8,
+      "step_count": 8,
+      "native_invalid": [],
+      "step_invalid": []
+    },
+    {
+      "state": "abierto",
+      "native_count": 8,
+      "step_count": 8,
+      "native_invalid": [],
+      "step_invalid": []
+    }
+  ],
+  "errors_mm": {
+    "door_translation_mm": 7.652779469160725e-14,
+    "rotor_C03_movement_mm": 0.0,
+    "reserva_guia_0_movement_mm": 0.0,
+    "reserva_guia_1_movement_mm": 0.0
+  }
+}

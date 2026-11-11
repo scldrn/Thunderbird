@@ -1,0 +1,15 @@
+LOAD /tmp/sd8020.dat
+PANE
+OPER
+VISC 61400
+MACH 0
+ITER 200
+PACC
+/tmp/sd_polar.txt
+
+ALFA 0
+ALFA 2
+ALFA 4
+PACC
+
+QUIT

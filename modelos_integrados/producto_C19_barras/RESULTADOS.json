@@ -1,0 +1,198 @@
+{
+  "source_sha256": "5e6d951919ad7420f8cb22c4711c16e867f3ce5168b259d4c76ca9d656b35791",
+  "code_sha256": "3ad95813b72125c122395e48b7156bf8b326089941e337c3aa1eb194f867795a",
+  "scope": "six straight 1mm diameter connecting rods, local sampled poses only, not mechanism",
+  "cases": [
+    {
+      "bearing": 0,
+      "from_leaf": 0,
+      "to_leaf": 1,
+      "length_mm": 25.93333206381556,
+      "endpoint_overlap_mm3": [
+        0.536555345757092,
+        0.36904380662477604
+      ],
+      "lift_collisions": [],
+      "rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 0,
+          "volume_mm3": 0.7931619380971878
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 0,
+          "volume_mm3": 1.1106740654607872
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 0,
+          "volume_mm3": 0.9067154045986077
+        }
+      ],
+      "errors": [],
+      "other_component_collisions": [],
+      "passes_sampled_local": false
+    },
+    {
+      "bearing": 0,
+      "from_leaf": 1,
+      "to_leaf": 2,
+      "length_mm": 25.84867488833385,
+      "endpoint_overlap_mm3": [
+        0.5365553457408386,
+        0.36904380663242864
+      ],
+      "lift_collisions": [],
+      "rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 1,
+          "volume_mm3": 0.7219441115950039
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 1.1111637879342993
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 0.9071129885353719
+        }
+      ],
+      "errors": [],
+      "other_component_collisions": [],
+      "passes_sampled_local": false
+    },
+    {
+      "bearing": 0,
+      "from_leaf": 2,
+      "to_leaf": 3,
+      "length_mm": 28.004996730397295,
+      "endpoint_overlap_mm3": [
+        0.6634217626273582,
+        0.4945492589005146
+      ],
+      "lift_collisions": [],
+      "rotation_collisions": [
+        {
+          "angle_deg": 30,
+          "leaf": 2,
+          "volume_mm3": 2.286191941528091
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 0.9775946564793327
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 0.8047802512755374
+        }
+      ],
+      "errors": [],
+      "other_component_collisions": [],
+      "passes_sampled_local": false
+    },
+    {
+      "bearing": 1,
+      "from_leaf": 0,
+      "to_leaf": 1,
+      "length_mm": 25.93333206381556,
+      "endpoint_overlap_mm3": [
+        0.22163211389812684,
+        1.1947754694107497
+      ],
+      "lift_collisions": [],
+      "rotation_collisions": [
+        {
+          "angle_deg": 15,
+          "leaf": 1,
+          "volume_mm3": 1.7584659471567134
+        },
+        {
+          "angle_deg": 30,
+          "leaf": 1,
+          "volume_mm3": 1.5697834792214531
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 1,
+          "volume_mm3": 1.110274999346816
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 1,
+          "volume_mm3": 0.9066620961546226
+        }
+      ],
+      "errors": [],
+      "other_component_collisions": [],
+      "passes_sampled_local": false
+    },
+    {
+      "bearing": 1,
+      "from_leaf": 1,
+      "to_leaf": 2,
+      "length_mm": 25.84867488833385,
+      "endpoint_overlap_mm3": [
+        0.22163211382953735,
+        1.1947754694206947
+      ],
+      "lift_collisions": [],
+      "rotation_collisions": [
+        {
+          "angle_deg": 15,
+          "leaf": 2,
+          "volume_mm3": 1.7350800316457407
+        },
+        {
+          "angle_deg": 30,
+          "leaf": 2,
+          "volume_mm3": 1.5702522261504437
+        },
+        {
+          "angle_deg": 45,
+          "leaf": 2,
+          "volume_mm3": 1.110600614721866
+        },
+        {
+          "angle_deg": 60,
+          "leaf": 2,
+          "volume_mm3": 0.9069264818941136
+        }
+      ],
+      "errors": [],
+      "other_component_collisions": [],
+      "passes_sampled_local": false
+    },
+    {
+      "bearing": 1,
+      "from_leaf": 2,
+      "to_leaf": 3,
+      "length_mm": 14.103328670131164,
+      "endpoint_overlap_mm3": [
+        0.2332032625956055,
+        0.3889983296787981
+      ],
+      "lift_collisions": [],
+      "rotation_collisions": [
+        {
+          "angle_deg": 0,
+          "leaf": 2,
+          "volume_mm3": 0.5678373424741483
+        },
+        {
+          "angle_deg": 0,
+          "leaf": 3,
+          "volume_mm3": 0.6332781917614569
+        }
+      ],
+      "errors": [],
+      "other_component_collisions": [],
+      "passes_sampled_local": false
+    }
+  ]
+}

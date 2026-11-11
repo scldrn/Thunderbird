@@ -1,0 +1,34 @@
+{
+  "tarea": "integridad_masa_incertidumbre",
+  "inicio_utc": "2026-11-08T04:00:57.352532+00:00",
+  "workspace_temporal": "/private/tmp/aero_20261108T040057Z_075131ca_9_f47he_/integridad_masa_incertidumbre",
+  "entradas_sha256": {
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/auditar_bom.py": "26554c4119cf11f4703ceaff97695e04847dd1d604eed400364f868abc32185a",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/test_auditoria.py": "3be0a1abd6df7f544da294c57b96e5c551caf5f599d7dd4e93b1f5c476b0ca7a",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/INFORME_AUDITORIA_BOM.md": "9bd05035bb299ea4c8a1bc5a77c90407e2ca8507d8d197ae850b2a8a49e31795",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/bom_agrupada_roles.csv": "bb281aad64c0fdaaf760e1638caa0361c5ae6d5f32e5d7828335e98fd584bbfd",
+    "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json": "4529d8530f0edd2faa8dddf1cd7c142d72969e5dc6166c232063b3c4db0d4bf3",
+    "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md": "d7b724afd7b48b7058a1d1969afa4b869f14629d709d72e30f3170f03ee1627a"
+  },
+  "instruccion_sha256": "ff97faae5f30dc9c1c19a95a2fe5d2f40e8af5fdebc9ae66f313c954cc4cac64",
+  "errores_locales": [
+    "[Errno 1] Operation not permitted"
+  ],
+  "entradas_modificadas": [],
+  "fin_utc": "2026-11-08T04:09:43.849272+00:00",
+  "duracion_real_s": 526.502,
+  "exito_tecnico": false,
+  "requiere_revision": true,
+  "entregables_sha256": {
+    "plantilla_presupuesto_masa.csv": "887f3e14f0c2c2e63f5bdbdf011f17d36583d16c447b3bf35c5da9bceeb10117",
+    "REVISION_AUDITORIA_INCERTIDUMBRE.md": "17b19f22b3fe23801573b54883a6fedf74711d7009aba471ba387fe161a0e22f",
+    "presupuesto_c02_roles_incertidumbre.csv": "608c03916b405079741832a9cf380a9b9b0efd3543b8acd036beb1218dec4810",
+    "presupuesto_c02_5kg_incertidumbre.csv": "0205e435121afd34d278201a001f63c7354389799e43bbf9bb58518eea13274c",
+    "test_presupuesto_incertidumbre.py": "fd782b8e71ee92cbc6f7de0e25b63931b99dee177bd44eba37af17a7b10b3323",
+    "presupuesto_hipotetico_2kg.csv": "d1769f373b040f8fd3a43431be2a20ef2e4e16bcb42a9e520121548a2823dee5",
+    "presupuesto_hipotetico_10kg.csv": "52b740112a2e70cb77ad3dd38a33444d782ce0c0f0633ab7d4b814ba3ce7f7c2",
+    "README.md": "05ab9037afbc9fabe315c85e790527414e6b9313bd941f508014ba7e8cbf2525",
+    "test_roundtrip.csv": "e9aaedc0ecb57cb275be8e79dbcfcef4ffaf3f5205ebbe1581845e9bcace686d",
+    "presupuesto_incertidumbre.py": "87bfca481f27b39cd01fb6df793efbd85fdb869bd944674b72adde0353612c78"
+  }
+}

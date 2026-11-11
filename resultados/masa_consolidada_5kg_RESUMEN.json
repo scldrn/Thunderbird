@@ -1,0 +1,108 @@
+{
+  "fixed_budget": {
+    "engine": 1.08,
+    "motors": 1.024,
+    "fuel": 0.156,
+    "skin_old": 0.35,
+    "arms_locks": 0.25,
+    "avionics_wiring": 0.2,
+    "engine_installation": 0.15,
+    "contingency": 0.25
+  },
+  "battery_assumed_kg": 0.754,
+  "station_parts_excluding_hubs_assumed_kg": 0.56,
+  "previous_hub_and_missing_parts_margin_kg": 0.22599999999999953,
+  "rows": [
+    {
+      "fineness": 4,
+      "skin_scenario": "old_skin_allowance",
+      "skin_kg": 0.35,
+      "aerodynamic_panels_kg": 0.3516089241203867,
+      "subtotal_excluding_hubs_and_new_mechanisms_kg": 5.125608924120388,
+      "remaining_to_5kg_kg": -0.12560892412038793,
+      "remaining_if_prior_025kg_reserve_removed_kg": 0.12439107587961207,
+      "warning": "Frozen mass/power/CG and load-derived geometry; not self-consistent closure. Existing0.25kg reserve retained in subtotal."
+    },
+    {
+      "fineness": 4,
+      "skin_scenario": "isotropic_skin_02mm",
+      "skin_kg": 0.28555050922538805,
+      "aerodynamic_panels_kg": 0.3516089241203867,
+      "subtotal_excluding_hubs_and_new_mechanisms_kg": 5.061159433345776,
+      "remaining_to_5kg_kg": -0.061159433345776115,
+      "remaining_if_prior_025kg_reserve_removed_kg": 0.18884056665422388,
+      "warning": "Frozen mass/power/CG and load-derived geometry; not self-consistent closure. Existing0.25kg reserve retained in subtotal."
+    },
+    {
+      "fineness": 4,
+      "skin_scenario": "isotropic_skin_05mm",
+      "skin_kg": 0.7138762730634701,
+      "aerodynamic_panels_kg": 0.3516089241203867,
+      "subtotal_excluding_hubs_and_new_mechanisms_kg": 5.489485197183858,
+      "remaining_to_5kg_kg": -0.48948519718385786,
+      "remaining_if_prior_025kg_reserve_removed_kg": -0.23948519718385786,
+      "warning": "Frozen mass/power/CG and load-derived geometry; not self-consistent closure. Existing0.25kg reserve retained in subtotal."
+    },
+    {
+      "fineness": 6,
+      "skin_scenario": "old_skin_allowance",
+      "skin_kg": 0.35,
+      "aerodynamic_panels_kg": 0.34396908684941185,
+      "subtotal_excluding_hubs_and_new_mechanisms_kg": 5.1179690868494125,
+      "remaining_to_5kg_kg": -0.11796908684941254,
+      "remaining_if_prior_025kg_reserve_removed_kg": 0.13203091315058746,
+      "warning": "Frozen mass/power/CG and load-derived geometry; not self-consistent closure. Existing0.25kg reserve retained in subtotal."
+    },
+    {
+      "fineness": 6,
+      "skin_scenario": "isotropic_skin_02mm",
+      "skin_kg": 0.3225279397319539,
+      "aerodynamic_panels_kg": 0.34396908684941185,
+      "subtotal_excluding_hubs_and_new_mechanisms_kg": 5.0904970265813665,
+      "remaining_to_5kg_kg": -0.09049702658136649,
+      "remaining_if_prior_025kg_reserve_removed_kg": 0.1595029734186335,
+      "warning": "Frozen mass/power/CG and load-derived geometry; not self-consistent closure. Existing0.25kg reserve retained in subtotal."
+    },
+    {
+      "fineness": 6,
+      "skin_scenario": "isotropic_skin_05mm",
+      "skin_kg": 0.8063198493298849,
+      "aerodynamic_panels_kg": 0.34396908684941185,
+      "subtotal_excluding_hubs_and_new_mechanisms_kg": 5.574288936179298,
+      "remaining_to_5kg_kg": -0.5742889361792978,
+      "remaining_if_prior_025kg_reserve_removed_kg": -0.32428893617929777,
+      "warning": "Frozen mass/power/CG and load-derived geometry; not self-consistent closure. Existing0.25kg reserve retained in subtotal."
+    },
+    {
+      "fineness": 8,
+      "skin_scenario": "old_skin_allowance",
+      "skin_kg": 0.35,
+      "aerodynamic_panels_kg": 0.3394444839783351,
+      "subtotal_excluding_hubs_and_new_mechanisms_kg": 5.113444483978336,
+      "remaining_to_5kg_kg": -0.11344448397833595,
+      "remaining_if_prior_025kg_reserve_removed_kg": 0.13655551602166405,
+      "warning": "Frozen mass/power/CG and load-derived geometry; not self-consistent closure. Existing0.25kg reserve retained in subtotal."
+    },
+    {
+      "fineness": 8,
+      "skin_scenario": "isotropic_skin_02mm",
+      "skin_kg": 0.35319587778651973,
+      "aerodynamic_panels_kg": 0.3394444839783351,
+      "subtotal_excluding_hubs_and_new_mechanisms_kg": 5.116640361764855,
+      "remaining_to_5kg_kg": -0.11664036176485482,
+      "remaining_if_prior_025kg_reserve_removed_kg": 0.13335963823514518,
+      "warning": "Frozen mass/power/CG and load-derived geometry; not self-consistent closure. Existing0.25kg reserve retained in subtotal."
+    },
+    {
+      "fineness": 8,
+      "skin_scenario": "isotropic_skin_05mm",
+      "skin_kg": 0.8829896944662993,
+      "aerodynamic_panels_kg": 0.3394444839783351,
+      "subtotal_excluding_hubs_and_new_mechanisms_kg": 5.646434178444634,
+      "remaining_to_5kg_kg": -0.6464341784446344,
+      "remaining_if_prior_025kg_reserve_removed_kg": -0.39643417844463436,
+      "warning": "Frozen mass/power/CG and load-derived geometry; not self-consistent closure. Existing0.25kg reserve retained in subtotal."
+    }
+  ],
+  "conclusion": "These additions invalidate the old available-margin claim under retained allocations; not proof no5kg architecture can work."
+}

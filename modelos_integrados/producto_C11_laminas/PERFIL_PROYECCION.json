@@ -1,0 +1,68 @@
+{
+  "scope": "Fraccion de proyeccion de malla sobre circulo D84, no caudal ni CFD; solo 672 pixeles y teselacion .4mm",
+  "cases": [
+    {
+      "angle_deg": 0,
+      "pixels": 672,
+      "aperture_pixels": 354540,
+      "overlap_pixels": 352742,
+      "covered_fraction": 0.9949286399277938,
+      "circle_raster_area_mm2": 5539.6875,
+      "analytic_circle_area_mm2": 5541.769440932396
+    },
+    {
+      "angle_deg": 15,
+      "pixels": 672,
+      "aperture_pixels": 354540,
+      "overlap_pixels": 309092,
+      "covered_fraction": 0.8718113612004287,
+      "circle_raster_area_mm2": 5539.6875,
+      "analytic_circle_area_mm2": 5541.769440932396
+    },
+    {
+      "angle_deg": 30,
+      "pixels": 672,
+      "aperture_pixels": 354540,
+      "overlap_pixels": 248942,
+      "covered_fraction": 0.7021549049472556,
+      "circle_raster_area_mm2": 5539.6875,
+      "analytic_circle_area_mm2": 5541.769440932396
+    },
+    {
+      "angle_deg": 45,
+      "pixels": 672,
+      "aperture_pixels": 354540,
+      "overlap_pixels": 168013,
+      "covered_fraction": 0.4738901111299148,
+      "circle_raster_area_mm2": 5539.6875,
+      "analytic_circle_area_mm2": 5541.769440932396
+    },
+    {
+      "angle_deg": 60,
+      "pixels": 672,
+      "aperture_pixels": 354540,
+      "overlap_pixels": 75216,
+      "covered_fraction": 0.21215095616855645,
+      "circle_raster_area_mm2": 5539.6875,
+      "analytic_circle_area_mm2": 5541.769440932396
+    },
+    {
+      "angle_deg": 75,
+      "pixels": 672,
+      "aperture_pixels": 354540,
+      "overlap_pixels": 99393,
+      "covered_fraction": 0.28034354374682685,
+      "circle_raster_area_mm2": 5539.6875,
+      "analytic_circle_area_mm2": 5541.769440932396
+    },
+    {
+      "angle_deg": 90,
+      "pixels": 672,
+      "aperture_pixels": 354540,
+      "overlap_pixels": 153782,
+      "covered_fraction": 0.4337507756529588,
+      "circle_raster_area_mm2": 5539.6875,
+      "analytic_circle_area_mm2": 5541.769440932396
+    }
+  ]
+}

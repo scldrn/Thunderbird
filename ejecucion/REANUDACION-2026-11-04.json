@@ -1,0 +1,15 @@
+{
+  "updated_UTC": "2026-11-04T06:44:34.269523+00:00",
+  "goal_status_from_user": "active",
+  "cad_delivery_completed": true,
+  "historical_containers_remain_paused": [
+    "codex-aero-avance-compresible-600-lts-cont-v1",
+    "codex-aero-exterior-urans-v1"
+  ],
+  "resumed_historical_solvers": false,
+  "observed_on_resume": {
+    "passive_r9": "terminal reconstructed",
+    "prescribed_1N": "already running"
+  },
+  "research_continues_with_separate_identified_cases": true
+}

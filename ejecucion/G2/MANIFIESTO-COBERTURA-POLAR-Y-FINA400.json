@@ -1,0 +1,87 @@
+{
+  "captured_UTC": "2026-11-05T01:31:31.565307+00:00",
+  "entries": [
+    {
+      "path": "ejecucion/G2/analizar_dominio_polar_C02.py",
+      "bytes": 8119,
+      "sha256": "fdf402e1dc77e31a8fdd2b717257bf8127ee5179f70d37ebb8486fdf98170f68"
+    },
+    {
+      "path": "ejecucion/G2/auditar_ramas_lift_C02.py",
+      "bytes": 3234,
+      "sha256": "99f73d7b3602ba1dd0c943219f7ea496066a46667c5514fdb014d927487aa50a"
+    },
+    {
+      "path": "ejecucion/G2/dominio_polar_C02_r2/RESULTADOS.json",
+      "bytes": 12904,
+      "sha256": "ba65dcf1189492ee28a0ce45165717c9651e2011e784fa85ea8f4a197877673c"
+    },
+    {
+      "path": "ejecucion/G2/dominio_polar_C02_r2/COBERTURA.csv",
+      "bytes": 2357,
+      "sha256": "2949a8016eb66acfcf42ed0d4af393a7ae79dc43316d01cc6fecf17c1196668d"
+    },
+    {
+      "path": "ejecucion/G2/dominio_polar_C02_r2/RAMAS_LIFT.json",
+      "bytes": 8898,
+      "sha256": "d99f7a68e7d788e6d7bb92068194fc67a7a7e813d5703b0e0906af2d03269beb"
+    },
+    {
+      "path": "ejecucion/G2/dominio_polar_C02_r2/RAMAS_LIFT.csv",
+      "bytes": 2373,
+      "sha256": "a450d51e68195d7442f1731e9bdaffe50f6fe2631081beb28d060f7bfcdd5fad"
+    },
+    {
+      "path": "ejecucion/G2/INFORME-COBERTURA-POLAR-C02.md",
+      "bytes": 6077,
+      "sha256": "e0c2b020986d7fc445e5c66f3a136c1a7cce077129966bb764eaa4d6c96f30a4"
+    },
+    {
+      "path": "fuentes/uiuc/SD8020.DRG",
+      "bytes": 3459,
+      "sha256": "1c1aec6cbca84a719aa26523f67b529436dcd32c38da246368f1c0327397fa30"
+    },
+    {
+      "path": "fuentes/uiuc/SD8020.LFT",
+      "bytes": 16963,
+      "sha256": "a3f2f1a146c89fd4edbb585ddbe75e19673c6e524b8e66c5e7101c4ba4c684cf"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/preparar_deposito_C02.py",
+      "bytes": 7195,
+      "sha256": "578a53db3e307428e030381b9a656e084452ba11c7098d1e51f4f79778ce99da"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/verificar_dos_extremos_deposito.py",
+      "bytes": 3293,
+      "sha256": "f1d02bf1069ed820b09c9228f559afe72e4e664aaabb30cead90ec33c13b3ee0"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/VERIFICACION_DOS_EXTREMOS_DEPOSITO.json",
+      "bytes": 1583,
+      "sha256": "00a01869b30295922a3f0ffbf5987508698483ae3ac4962acd90054b26082ce9"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/VERIFICACION_GUARDA_1700_TRAS_REFACTOR.json",
+      "bytes": 360,
+      "sha256": "112147d3c8399d4b1ca277d9479130f60ef3288c46892c97bd310971d6f6cbd7"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_fino_r4_mpi4_400/AUDITORIA_ARRANQUE.json",
+      "bytes": 10433,
+      "sha256": "433033679c2c6a642523c586e9b99c19d4bd30a8b80be987fcd49949c91581e0"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_fino_r4_mpi4_400/AUDITORIA_CAMBIO_TERMINAL.json",
+      "bytes": 4270,
+      "sha256": "23232641984900c96929f6582c6e64f520fd2555ffcc2a91e67a3556a9f0f2f3"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_neutro_fino_r4_380_400/BALANCE.json",
+      "bytes": 3547,
+      "sha256": "77abd3fce2817efe99f6e2f30a87d58a41b2c68b314d41ea50fda36fd31ee8ff"
+    }
+  ],
+  "scope": "File identity only, not physical validation",
+  "live_process_status_not_included": true
+}

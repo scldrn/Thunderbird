@@ -1,0 +1,37 @@
+{
+  "scope": "clasificacion de cribado discreto con elemento telescopico ideal; no valida mecanismo ni permite extrapolacion global",
+  "inputs": {
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C03/5kg/C03_5kg_cerrado.FCStd": "fe15cb8d9613e4c06e1e5d336ecae4153fac9e8a50ec3f065b7b65b7b6fa9e8d",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C09_paso_sellado/ENLACES.json": "4703ec1f8837bcca70c5836d50434db17923ac516d72b0dfc2937f606def796b",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C08_guias/GUIAS.json": "916cf562c226cfee458840be460705c978f97da06ec2ebdefada1c98960d3ea2",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C10_enlace_variable/buscar_enlaces.py": "87a6a2a4607b39ca7e8fff3c7757516005c71f28fa566f49fbfe4cce8316aacf",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C10_enlace_variable/buscar_elevacion_30.py": "adaf1b2596823835a982a322f029ea598d7cd5fb80c775947ca3ecfcdfa42312",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C10_enlace_variable/BUSQUEDA.json": "4577e4d1033f353acba0ec0b7b645a8c5679ff685ba2f32ffc1476f0c506ef24",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C10_enlace_variable/BUSQUEDA_30.json": "1cc004fca53e50f06919f3e086b12f26129f8904b6a850e9d4e8e93f5b33cec4"
+  },
+  "cases": {
+    "10": {
+      "count": 20,
+      "classification": {
+        "colision": 19,
+        "contacto_no_establecido": 1
+      },
+      "first_detected_obstacles": {
+        "carroceria_C02_superior004": 12,
+        "aro_C02_0_superior": 6,
+        "junta_C02_0_superior": 1
+      }
+    },
+    "30": {
+      "count": 20,
+      "classification": {
+        "colision": 19,
+        "contacto_no_establecido": 1
+      },
+      "first_detected_obstacles": {
+        "aro_C02_0_superior": 9,
+        "carroceria_C02_superior004": 10
+      }
+    }
+  }
+}

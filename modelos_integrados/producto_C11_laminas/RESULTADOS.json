@@ -1,0 +1,726 @@
+{
+  "scope": "Una tapa dividida en cuatro hojas, juntas nominales 0.3mm, ejes ideales sin soportes, rotor envolvente nominal; no sella ni certifica mecanismo o flujo",
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C03/5kg/C03_5kg_cerrado.FCStd",
+  "source_sha256": "fe15cb8d9613e4c06e1e5d336ecae4153fac9e8a50ec3f065b7b65b7b6fa9e8d",
+  "closed_original_volume_mm3": 7212.242710544527,
+  "closed_leaves_volume_mm3": 7130.567707003298,
+  "kerf_mm": 0.3,
+  "axes": [
+    {
+      "index": 0,
+      "y_mm": -110.42500007639262,
+      "z_mm": 78.60778276499595,
+      "bounds_y_mm": [
+        -121.80000010090522,
+        -99.05000005188
+      ]
+    },
+    {
+      "index": 1,
+      "y_mm": -87.4500000273674,
+      "z_mm": 90.63637734658818,
+      "bounds_y_mm": [
+        -98.75000005188,
+        -76.1500000028548
+      ]
+    },
+    {
+      "index": 2,
+      "y_mm": -64.54999997834217,
+      "z_mm": 102.62570556945593,
+      "bounds_y_mm": [
+        -75.85000000285478,
+        -53.249999953829565
+      ]
+    },
+    {
+      "index": 3,
+      "y_mm": -41.57499992931696,
+      "z_mm": 105.63200110202852,
+      "bounds_y_mm": [
+        -52.94999995382957,
+        -30.199999904804358
+      ]
+    }
+  ],
+  "angles": [
+    {
+      "angle_deg": 15,
+      "checked_pairs": 1282,
+      "boolean_count": 17,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 102.94838458803812
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 31.40562339312856
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 28.628871553113562
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 28.104276247133463
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": 30,
+      "checked_pairs": 1282,
+      "boolean_count": 16,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.04933347280467623
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 47.72925974961149
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 41.07070859798887
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 39.93687371443578
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.0036009534409087245
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.3281636360162398
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 44.35641852788111
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": 45,
+      "checked_pairs": 1282,
+      "boolean_count": 16,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.03889673897929417
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.20253187396068895
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 23.58001061480912
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 37.14380143929263
+        },
+        {
+          "leaf": 2,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.023419142195982616
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 43.59047674851748
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.48850409370193104
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.41989070405839507
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 50.94195478612075
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": 60,
+      "checked_pairs": 1282,
+      "boolean_count": 16,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.24665472331502866
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.28387634701205156
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 14.401234800506796
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 30.382728471049624
+        },
+        {
+          "leaf": 2,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.010363131614133457
+        },
+        {
+          "leaf": 2,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.19626280013104064
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 45.36734938249735
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 1.0648962392934838
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.3422334436921053
+        },
+        {
+          "leaf": 3,
+          "obstacle": "carroceria_C02_superior004",
+          "volume_mm3": 0.03467982479147795
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 55.51330804574987
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": 75,
+      "checked_pairs": 1282,
+      "boolean_count": 16,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.5970200254045276
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.30957726332464913
+        },
+        {
+          "leaf": 0,
+          "obstacle": "carroceria_C02_superior004",
+          "volume_mm3": 0.0020340069482520564
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 9.935561283496249
+        },
+        {
+          "leaf": 1,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.06401202553391902
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 25.175173628402213
+        },
+        {
+          "leaf": 2,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.1996059207744933
+        },
+        {
+          "leaf": 2,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.21267369030882277
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 46.397626433622044
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 1.1973933411026814
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.30612860310906614
+        },
+        {
+          "leaf": 3,
+          "obstacle": "carroceria_C02_superior004",
+          "volume_mm3": 0.52033143043932
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 59.88774257127852
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": 90,
+      "checked_pairs": 1282,
+      "boolean_count": 16,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.9533304047894349
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.3001378169065224
+        },
+        {
+          "leaf": 0,
+          "obstacle": "carroceria_C02_superior004",
+          "volume_mm3": 0.16176460349660085
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 7.744543215547704
+        },
+        {
+          "leaf": 1,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.032802449186661774
+        },
+        {
+          "leaf": 1,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.16895312467818305
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 21.491803802430432
+        },
+        {
+          "leaf": 2,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.5006611907664238
+        },
+        {
+          "leaf": 2,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.20504771351722725
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 46.98008492653362
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 1.1629791662560554
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.29480690746242283
+        },
+        {
+          "leaf": 3,
+          "obstacle": "carroceria_C02_superior004",
+          "volume_mm3": 1.3599089960955846
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 64.96322553257124
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": -15,
+      "checked_pairs": 1282,
+      "boolean_count": 18,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.005000258063226172
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 34.240635632956725
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 26.830494444439665
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 26.694460165718567
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 65.06164587702433
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": -30,
+      "checked_pairs": 1282,
+      "boolean_count": 18,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.008319373822389049
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.20966712363750775
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 49.51407705686231
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 37.92939436899262
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 39.177698814447346
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.047153750089690534
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 106.0173974311496
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": -45,
+      "checked_pairs": 1282,
+      "boolean_count": 18,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.2646525984324364
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.373914924570555
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 54.9756995090873
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 41.29427589439314
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 42.34489569199376
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.09242006311875708
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.3465370017190413
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 78.40752606607352
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": -60,
+      "checked_pairs": 1282,
+      "boolean_count": 19,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.751935134280427
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.3431833010562654
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 58.3030563213787
+        },
+        {
+          "leaf": 1,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.06501305726181479
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 42.68825836935728
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 42.76422253475242
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.5097895469976534
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.3441726962476521
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 32.61458688872712
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": -75,
+      "checked_pairs": 1282,
+      "boolean_count": 17,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 1.0939246838630772
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.3071804157088249
+        },
+        {
+          "leaf": 0,
+          "obstacle": "carroceria_C02_superior004",
+          "volume_mm3": 0.20786562268279743
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 61.20298020173687
+        },
+        {
+          "leaf": 1,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.029256038430422664
+        },
+        {
+          "leaf": 1,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.1923375933519477
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 43.26246332306271
+        },
+        {
+          "leaf": 2,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.0343785725438616
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 39.98533040328018
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.9477860785143402
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.3097673188530927
+        },
+        {
+          "leaf": 3,
+          "obstacle": "carroceria_C02_superior004",
+          "volume_mm3": 0.06308057538761432
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 19.15141347208059
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "angle_deg": -90,
+      "checked_pairs": 1282,
+      "boolean_count": 16,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 1.167392059159835
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.2960770003205489
+        },
+        {
+          "leaf": 0,
+          "obstacle": "carroceria_C02_superior004",
+          "volume_mm3": 0.8315946401618085
+        },
+        {
+          "leaf": 0,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 64.37640662272977
+        },
+        {
+          "leaf": 1,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.2277333691147066
+        },
+        {
+          "leaf": 1,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.2059382512287745
+        },
+        {
+          "leaf": 1,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 43.37329436916363
+        },
+        {
+          "leaf": 2,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 0.008148436734607349
+        },
+        {
+          "leaf": 2,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.14011812073030425
+        },
+        {
+          "leaf": 2,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 34.50994167796329
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro_C02_0_superior",
+          "volume_mm3": 1.1446680373038451
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta_C02_0_superior",
+          "volume_mm3": 0.29944248404445095
+        },
+        {
+          "leaf": 3,
+          "obstacle": "carroceria_C02_superior004",
+          "volume_mm3": 0.49022296423809325
+        },
+        {
+          "leaf": 3,
+          "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+          "volume_mm3": 13.37499141820587
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    }
+  ]
+}

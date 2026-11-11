@@ -1,0 +1,157 @@
+{
+  "scope": "Independent polygon dual-normal/full-stress reconstruction; not global numerical momentum closure or physical validation",
+  "wall_nodes": 608,
+  "method": "WLS weights1/r^2, edge connectivity, smooth adiabatic wall, fullTau=mu*(gradU+gradU^T-2/3divU*I)",
+  "analytic_affine_stencil_verified": true,
+  "analytic_linear_pressure_force_verified": true,
+  "affine_max_gradient_error": 4.1989745014348046e-10,
+  "wall_stencil_condition_range": [
+    1.1943934418151665,
+    1.4373711349586178
+  ],
+  "dual_normal_sum_m": [
+    -2.9815559743351372e-18,
+    4.883788685960955e-16
+  ],
+  "force_coeff_pressure": [
+    -0.020637796938986378,
+    0.6785306676018089
+  ],
+  "force_coeff_full_viscous": [
+    0.0,
+    0.0
+  ],
+  "force_coeff_tangential_viscous": [
+    0.005860630292246991,
+    0.00022390582347419388
+  ],
+  "force_coeff_normal_viscous": [
+    -0.005860630292246991,
+    -0.00022390582347419388
+  ],
+  "independently_reconstructed_CD_CL": [
+    0.012593160091006923,
+    0.6787983383825059
+  ],
+  "solver_CD_CL": [
+    0.01259316009,
+    0.6787983384
+  ],
+  "complete_traction_minus_solver_coeff_force": [
+    2.184032468766084e-12,
+    5.07083264267294e-12
+  ],
+  "reconstructed_Cf_minus_exported_max_abs": 3.2333077187862713e-15,
+  "reconstructed_Cf_minus_exported_RMS": 9.461465085019059e-17,
+  "solver_surface_force_reconstruction_verified": true,
+  "consistency_tolerances": {
+    "force_coefficient_absolute": 1e-08,
+    "Cf_absolute": 1e-10
+  },
+  "global_momentum_closure_verified": false,
+  "exterior_physical_CV_diagnostic": {
+    "scope": "Physical flux reconstruction on saved primitives, not exact assembled numerical residual",
+    "SST2003m_isotropic_k_stress_excluded_as_in_native_diffusion": true,
+    "mass_flux_kg_m_s": {
+      "vertex_lumped": -0.06080586612733896,
+      "linear_edge_Gauss": -0.060896312727322766
+    },
+    "mass_flux_relative_rho_U_chord": {
+      "vertex_lumped": -0.0005747577058567753,
+      "linear_edge_Gauss": -0.0005756126378496916
+    },
+    "outer_pressure_coeff_force": [
+      -0.03194860090009212,
+      -0.5094238593417425
+    ],
+    "outer_viscous_coeff_force": [
+      1.561773380106213e-09,
+      -1.7698804153050916e-07
+    ],
+    "outward_convective_momentum_coeff": {
+      "vertex_lumped": [
+        0.04005834661938688,
+        -0.16881382495305697
+      ],
+      "linear_edge_Gauss": [
+        0.040054960909883676,
+        -0.1688135296642996
+      ]
+    },
+    "momentum_defect_coeff": {
+      "vertex_lumped": [
+        -0.0066671001502945845,
+        0.0005168051983128474
+      ],
+      "linear_edge_Gauss": [
+        -0.006670485859797785,
+        0.0005171004870702101
+      ]
+    },
+    "uniform_flux_analytic_reference_verified": true,
+    "numerical_flux_and_artificial_dissipation_not_reconstructed": true,
+    "global_balance_accepted": false,
+    "Roe_characteristic_reconstruction": {
+      "analytic_checks": {
+        "equal_state_flux": true,
+        "orientation_antisymmetry": true,
+        "supersonic_contact_upwind": true,
+        "uniform_characteristic_states": true
+      },
+      "assumed_pinned_defaults": {
+        "ROE_KAPPA": 0.5,
+        "ENTROPY_FIX_COEFF": 0.001
+      },
+      "marker_fluxes": {
+        "FARFIELD": {
+          "vertices": 737,
+          "convective_mass_kg_m_s": -5424.386521230762,
+          "convective_plus_pressure_momentum_N_m": [
+            -2970623.295687656,
+            -56436.91850978078
+          ],
+          "viscous_momentum_N_m": [
+            -7.18778589799957e-05,
+            3.084144523293517e-05
+          ]
+        },
+        "OUTFLOW": {
+          "vertices": 265,
+          "convective_mass_kg_m_s": 5424.386522287691,
+          "convective_plus_pressure_momentum_N_m": [
+            2970805.542063565,
+            48048.506829819635
+          ],
+          "viscous_momentum_N_m": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "mass_flux_kg_m_s": 1.0569292498985305e-06,
+      "mass_flux_relative_rho_U_chord": 9.990454369195693e-09,
+      "momentum_defect_coeff": [
+        -2.951985155378624e-05,
+        -3.328897697074673e-05
+      ],
+      "momentum_defect_norm_over_q_chord": 4.4492444566650664e-05,
+      "directly_exported_native_numerical_flux": false,
+      "full_native_assembly_identity_not_asserted": true,
+      "source_notes": "JST boundaries use CUpwRoe_Flow with characteristic BC_Far_Field/BC_Outlet; fixed ideal gas, mesh and smooth wall only."
+    }
+  },
+  "limitations": [
+    "Saved primitive gradients are reconstructed, not exported at the exact native force-assembly stage.",
+    "Wall functions, roughness, QCR, moving walls, multizone/MPI and nonplanar cases are outside this implementation.",
+    "No exterior flux/discrete residual closure, mesh independence, or experimental validation follows from agreement."
+  ],
+  "source_formula": "https://github.com/su2code/SU2/blob/v8.6.0/SU2_CFD/include/solvers/CFVMFlowSolverBase.inl",
+  "source_sha256": {
+    "flow.vtu": "31ae327d823b079453e356f25289b6218c868601a68bbf800b5dc5b7a326a176",
+    "history.csv": "69894406426de2d5511ac64a8d93f7825c780402175293d3b54f8a710fa79fa9",
+    "mesh_RAE2822_turb.su2": "d6247af7602ecf7eb76067985b948e62bb38cfa869d542c81c925401995c34e9",
+    "case.cfg": "c8e8564bab1c1834fdc3d6bec986b677f6ccc2d3aac8ce3c855e6a5186e70a5d",
+    "reconstruir_traccion_su2.py": "6181ca032beb9a22c35f0c392923c101df7ad57cec5217925b01530bdbc9349c",
+    "flujo_frontera_su2.py": "005612c15a0eb2979b64aaa4af707017a9aaf4c758616981511285f686b860dd"
+  }
+}

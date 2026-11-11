@@ -1,0 +1,1756 @@
+{
+  "case": "Passive C02 duct pilot, no installed loads accepted",
+  "gmsh_version": "4.15.2",
+  "geometry_sha256": "412c3b403398dd4a6c6d4344ce243ec3b0bf99cf35d9a9efc50770f827813830",
+  "STEP_import_units": "Geometry.OCCTargetUnit=M; no general dilation",
+  "mesh_revision": "r2_explicit_interior_size_field",
+  "automatic_boundary_size_extension": false,
+  "mesh_sha256": "0bd130d3cc7ba733aa2ad1be8bbe7982218a763c1cf0fe28a254546872b9b0b7",
+  "CAD_face_mapping": [
+    {
+      "surface": 1,
+      "CAD_face": 0,
+      "patch": "walls",
+      "centre_error_m": 1.6579244358098663e-14,
+      "relative_area_error": 4.745093207247919e-13
+    },
+    {
+      "surface": 2,
+      "CAD_face": 1,
+      "patch": "walls",
+      "centre_error_m": 1.1390785112783503e-10,
+      "relative_area_error": 1.0365821312419143e-08
+    },
+    {
+      "surface": 3,
+      "CAD_face": 2,
+      "patch": "inlet",
+      "centre_error_m": 9.514204821947303e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 4,
+      "CAD_face": 3,
+      "patch": "walls",
+      "centre_error_m": 2.5713860707714094e-15,
+      "relative_area_error": 6.283862319378386e-14
+    },
+    {
+      "surface": 5,
+      "CAD_face": 4,
+      "patch": "walls",
+      "centre_error_m": 4.6215733871445733e-14,
+      "relative_area_error": 5.531353153287455e-11
+    },
+    {
+      "surface": 6,
+      "CAD_face": 5,
+      "patch": "walls",
+      "centre_error_m": 3.362897388229839e-14,
+      "relative_area_error": 2.7297053506458724e-11
+    },
+    {
+      "surface": 7,
+      "CAD_face": 6,
+      "patch": "walls",
+      "centre_error_m": 2.5745938077507122e-15,
+      "relative_area_error": 1.7554846465372975e-12
+    },
+    {
+      "surface": 8,
+      "CAD_face": 7,
+      "patch": "walls",
+      "centre_error_m": 4.3235466104439797e-10,
+      "relative_area_error": 1.799615006570221e-06
+    },
+    {
+      "surface": 9,
+      "CAD_face": 8,
+      "patch": "walls",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 9.547918011776346e-15
+    },
+    {
+      "surface": 10,
+      "CAD_face": 9,
+      "patch": "walls",
+      "centre_error_m": 8.911031703368415e-16,
+      "relative_area_error": 4.1804337769235644e-12
+    },
+    {
+      "surface": 11,
+      "CAD_face": 10,
+      "patch": "walls",
+      "centre_error_m": 4.3235466492565684e-10,
+      "relative_area_error": 1.7996150059040872e-06
+    },
+    {
+      "surface": 12,
+      "CAD_face": 11,
+      "patch": "walls",
+      "centre_error_m": 7.757919228897728e-18,
+      "relative_area_error": 2.6645352591003757e-15
+    },
+    {
+      "surface": 13,
+      "CAD_face": 12,
+      "patch": "walls",
+      "centre_error_m": 2.8368303802274534e-15,
+      "relative_area_error": 2.950972799453666e-13
+    },
+    {
+      "surface": 14,
+      "CAD_face": 13,
+      "patch": "walls",
+      "centre_error_m": 4.3235297520844375e-10,
+      "relative_area_error": 1.7996079844095902e-06
+    },
+    {
+      "surface": 15,
+      "CAD_face": 14,
+      "patch": "walls",
+      "centre_error_m": 0.0,
+      "relative_area_error": 3.552713678800501e-15
+    },
+    {
+      "surface": 16,
+      "CAD_face": 15,
+      "patch": "walls",
+      "centre_error_m": 1.671976774012209e-14,
+      "relative_area_error": 3.002598170098736e-12
+    },
+    {
+      "surface": 17,
+      "CAD_face": 16,
+      "patch": "walls",
+      "centre_error_m": 2.5931054029766504e-15,
+      "relative_area_error": 1.3811174426336947e-13
+    },
+    {
+      "surface": 18,
+      "CAD_face": 17,
+      "patch": "walls",
+      "centre_error_m": 2.3307996644802094e-16,
+      "relative_area_error": 1.6653345369377348e-14
+    },
+    {
+      "surface": 19,
+      "CAD_face": 18,
+      "patch": "walls",
+      "centre_error_m": 1.0971354589302191e-17,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 20,
+      "CAD_face": 19,
+      "patch": "walls",
+      "centre_error_m": 2.6742325163131694e-16,
+      "relative_area_error": 1.8207657603852567e-14
+    },
+    {
+      "surface": 21,
+      "CAD_face": 20,
+      "patch": "walls",
+      "centre_error_m": 7.502254465563816e-15,
+      "relative_area_error": 3.68816088780477e-13
+    },
+    {
+      "surface": 22,
+      "CAD_face": 21,
+      "patch": "walls",
+      "centre_error_m": 4.3235297711908275e-10,
+      "relative_area_error": 1.7996079719750924e-06
+    },
+    {
+      "surface": 23,
+      "CAD_face": 22,
+      "patch": "walls",
+      "centre_error_m": 7.757919228897728e-18,
+      "relative_area_error": 2.220446049250313e-15
+    },
+    {
+      "surface": 24,
+      "CAD_face": 23,
+      "patch": "walls",
+      "centre_error_m": 9.583492781979349e-15,
+      "relative_area_error": 9.47175671228706e-12
+    },
+    {
+      "surface": 25,
+      "CAD_face": 24,
+      "patch": "walls",
+      "centre_error_m": 9.965227682168975e-18,
+      "relative_area_error": 6.661338147750939e-16
+    },
+    {
+      "surface": 26,
+      "CAD_face": 25,
+      "patch": "walls",
+      "centre_error_m": 3.1986720415755645e-17,
+      "relative_area_error": 1.3655743202889425e-14
+    },
+    {
+      "surface": 27,
+      "CAD_face": 26,
+      "patch": "walls",
+      "centre_error_m": 3.190806809424669e-16,
+      "relative_area_error": 2.2426505097428162e-14
+    },
+    {
+      "surface": 28,
+      "CAD_face": 27,
+      "patch": "walls",
+      "centre_error_m": 4.65894022206686e-15,
+      "relative_area_error": 2.750022431996513e-13
+    },
+    {
+      "surface": 29,
+      "CAD_face": 28,
+      "patch": "walls",
+      "centre_error_m": 4.323546688069158e-10,
+      "relative_area_error": 1.7996150167842728e-06
+    },
+    {
+      "surface": 30,
+      "CAD_face": 29,
+      "patch": "walls",
+      "centre_error_m": 0.0,
+      "relative_area_error": 4.884981308350689e-15
+    },
+    {
+      "surface": 31,
+      "CAD_face": 30,
+      "patch": "walls",
+      "centre_error_m": 4.444309817753522e-15,
+      "relative_area_error": 6.5100147494945304e-12
+    },
+    {
+      "surface": 32,
+      "CAD_face": 31,
+      "patch": "walls",
+      "centre_error_m": 4.323546707175548e-10,
+      "relative_area_error": 1.7996149985766152e-06
+    },
+    {
+      "surface": 33,
+      "CAD_face": 32,
+      "patch": "walls",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 7.105427357601002e-15
+    },
+    {
+      "surface": 34,
+      "CAD_face": 33,
+      "patch": "walls",
+      "centre_error_m": 4.205410519981102e-15,
+      "relative_area_error": 1.5145662501936386e-12
+    },
+    {
+      "surface": 35,
+      "CAD_face": 34,
+      "patch": "walls",
+      "centre_error_m": 4.3235298482163713e-10,
+      "relative_area_error": 1.799607981745055e-06
+    },
+    {
+      "surface": 36,
+      "CAD_face": 35,
+      "patch": "walls",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 37,
+      "CAD_face": 36,
+      "patch": "walls",
+      "centre_error_m": 8.13493575547119e-15,
+      "relative_area_error": 3.0604407896817065e-12
+    },
+    {
+      "surface": 38,
+      "CAD_face": 37,
+      "patch": "walls",
+      "centre_error_m": 1.1043800625663156e-16,
+      "relative_area_error": 7.771561172376096e-15
+    },
+    {
+      "surface": 39,
+      "CAD_face": 38,
+      "patch": "walls",
+      "centre_error_m": 2.7097246932071044e-17,
+      "relative_area_error": 2.886579864025407e-15
+    },
+    {
+      "surface": 40,
+      "CAD_face": 39,
+      "patch": "walls",
+      "centre_error_m": 7.642633322004867e-17,
+      "relative_area_error": 6.217248937900877e-15
+    },
+    {
+      "surface": 41,
+      "CAD_face": 40,
+      "patch": "walls",
+      "centre_error_m": 8.725945326085619e-15,
+      "relative_area_error": 7.789213718467636e-12
+    },
+    {
+      "surface": 42,
+      "CAD_face": 41,
+      "patch": "walls",
+      "centre_error_m": 4.3235296941656305e-10,
+      "relative_area_error": 1.7996079695326017e-06
+    },
+    {
+      "surface": 43,
+      "CAD_face": 42,
+      "patch": "walls",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 4.6629367034256575e-15
+    },
+    {
+      "surface": 44,
+      "CAD_face": 43,
+      "patch": "walls",
+      "centre_error_m": 1.5964169205508855e-16,
+      "relative_area_error": 1.1435297153639112e-14
+    },
+    {
+      "surface": 45,
+      "CAD_face": 44,
+      "patch": "walls",
+      "centre_error_m": 1.9382381426879289e-16,
+      "relative_area_error": 1.709743457922741e-14
+    },
+    {
+      "surface": 46,
+      "CAD_face": 45,
+      "patch": "walls",
+      "centre_error_m": 1.963305434148942e-16,
+      "relative_area_error": 1.3100631690576847e-14
+    },
+    {
+      "surface": 47,
+      "CAD_face": 46,
+      "patch": "walls",
+      "centre_error_m": 4.3235297711910007e-10,
+      "relative_area_error": 1.7996079768600737e-06
+    },
+    {
+      "surface": 48,
+      "CAD_face": 47,
+      "patch": "walls",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 4.884981308350689e-15
+    },
+    {
+      "surface": 49,
+      "CAD_face": 48,
+      "patch": "walls",
+      "centre_error_m": 2.0492076591395933e-14,
+      "relative_area_error": 7.027267656667391e-12
+    },
+    {
+      "surface": 50,
+      "CAD_face": 49,
+      "patch": "walls",
+      "centre_error_m": 2.4670002129115316e-14,
+      "relative_area_error": 1.940514415821326e-11
+    },
+    {
+      "surface": 51,
+      "CAD_face": 50,
+      "patch": "walls",
+      "centre_error_m": 4.3235297711908275e-10,
+      "relative_area_error": 1.799607974417583e-06
+    },
+    {
+      "surface": 52,
+      "CAD_face": 51,
+      "patch": "walls",
+      "centre_error_m": 0.0,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 53,
+      "CAD_face": 52,
+      "patch": "walls",
+      "centre_error_m": 7.463249719941267e-15,
+      "relative_area_error": 1.355138223857466e-12
+    },
+    {
+      "surface": 54,
+      "CAD_face": 53,
+      "patch": "walls",
+      "centre_error_m": 7.408582153297214e-15,
+      "relative_area_error": 5.483835607833498e-12
+    },
+    {
+      "surface": 55,
+      "CAD_face": 54,
+      "patch": "walls",
+      "centre_error_m": 4.323546630150178e-10,
+      "relative_area_error": 1.7996149881405188e-06
+    },
+    {
+      "surface": 56,
+      "CAD_face": 55,
+      "patch": "walls",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 3.885780586188048e-15
+    },
+    {
+      "surface": 57,
+      "CAD_face": 56,
+      "patch": "walls",
+      "centre_error_m": 8.289475881794034e-15,
+      "relative_area_error": 6.255662654552907e-12
+    },
+    {
+      "surface": 58,
+      "CAD_face": 57,
+      "patch": "walls",
+      "centre_error_m": 4.3235466683629594e-10,
+      "relative_area_error": 1.7996150174504066e-06
+    },
+    {
+      "surface": 59,
+      "CAD_face": 58,
+      "patch": "walls",
+      "centre_error_m": 0.0,
+      "relative_area_error": 9.325873406851315e-15
+    },
+    {
+      "surface": 60,
+      "CAD_face": 59,
+      "patch": "walls",
+      "centre_error_m": 3.4144575882343178e-15,
+      "relative_area_error": 3.539391002504999e-13
+    },
+    {
+      "surface": 61,
+      "CAD_face": 60,
+      "patch": "walls",
+      "centre_error_m": 4.3235296941654573e-10,
+      "relative_area_error": 1.7996079662019326e-06
+    },
+    {
+      "surface": 62,
+      "CAD_face": 61,
+      "patch": "walls",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 4.218847493575595e-15
+    },
+    {
+      "surface": 63,
+      "CAD_face": 62,
+      "patch": "walls",
+      "centre_error_m": 5.983026815498099e-15,
+      "relative_area_error": 7.544853630747639e-12
+    },
+    {
+      "surface": 64,
+      "CAD_face": 63,
+      "patch": "walls",
+      "centre_error_m": 1.3389827883539267e-14,
+      "relative_area_error": 1.5165979583287026e-11
+    },
+    {
+      "surface": 65,
+      "CAD_face": 64,
+      "patch": "walls",
+      "centre_error_m": 4.3235297323782393e-10,
+      "relative_area_error": 1.799607977748252e-06
+    },
+    {
+      "surface": 66,
+      "CAD_face": 65,
+      "patch": "walls",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 3.552713678800501e-15
+    },
+    {
+      "surface": 67,
+      "CAD_face": 66,
+      "patch": "walls",
+      "centre_error_m": 1.026750689021509e-14,
+      "relative_area_error": 1.6871726238321116e-11
+    },
+    {
+      "surface": 68,
+      "CAD_face": 67,
+      "patch": "walls",
+      "centre_error_m": 4.3235467453879837e-10,
+      "relative_area_error": 1.7996150154520052e-06
+    },
+    {
+      "surface": 69,
+      "CAD_face": 68,
+      "patch": "walls",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 3.1086244689504383e-15
+    },
+    {
+      "surface": 70,
+      "CAD_face": 69,
+      "patch": "walls",
+      "centre_error_m": 2.3822227458855223e-14,
+      "relative_area_error": 2.0196289085561148e-11
+    },
+    {
+      "surface": 71,
+      "CAD_face": 70,
+      "patch": "walls",
+      "centre_error_m": 4.3235466110437875e-10,
+      "relative_area_error": 1.7996150016852397e-06
+    },
+    {
+      "surface": 72,
+      "CAD_face": 71,
+      "patch": "walls",
+      "centre_error_m": 6.938893903907228e-18,
+      "relative_area_error": 9.769962616701378e-15
+    },
+    {
+      "surface": 73,
+      "CAD_face": 72,
+      "patch": "walls",
+      "centre_error_m": 4.646453511209929e-15,
+      "relative_area_error": 4.110711770977105e-12
+    },
+    {
+      "surface": 74,
+      "CAD_face": 73,
+      "patch": "outlet",
+      "centre_error_m": 9.514204821947303e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 75,
+      "CAD_face": 74,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 8.373376078725904e-16,
+      "relative_area_error": 1.27675647831893e-14
+    },
+    {
+      "surface": 76,
+      "CAD_face": 75,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 1.2585222608994377e-15,
+      "relative_area_error": 2.275957200481571e-14
+    },
+    {
+      "surface": 77,
+      "CAD_face": 76,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 5.277141753259353e-15,
+      "relative_area_error": 1.8540724511240114e-13
+    },
+    {
+      "surface": 78,
+      "CAD_face": 77,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 1.5081917114334273e-16,
+      "relative_area_error": 8.881784197001252e-16
+    },
+    {
+      "surface": 79,
+      "CAD_face": 78,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 4.593273667189762e-15,
+      "relative_area_error": 1.4976908602193362e-13
+    },
+    {
+      "surface": 80,
+      "CAD_face": 79,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 5.14736498482238e-15,
+      "relative_area_error": 1.4344081478157023e-13
+    },
+    {
+      "surface": 81,
+      "CAD_face": 80,
+      "patch": "walls",
+      "centre_error_m": 8.525011376544143e-16,
+      "relative_area_error": 6.639133687258436e-14
+    },
+    {
+      "surface": 82,
+      "CAD_face": 81,
+      "patch": "walls",
+      "centre_error_m": 8.277408449018313e-16,
+      "relative_area_error": 6.661338147750939e-14
+    },
+    {
+      "surface": 83,
+      "CAD_face": 82,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 5.059993721617049e-15,
+      "relative_area_error": 1.5443202272535927e-13
+    },
+    {
+      "surface": 84,
+      "CAD_face": 83,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 5.893644970557254e-15,
+      "relative_area_error": 1.2645440250480533e-13
+    },
+    {
+      "surface": 85,
+      "CAD_face": 84,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 5.026443668995272e-15,
+      "relative_area_error": 1.496580637194711e-13
+    },
+    {
+      "surface": 86,
+      "CAD_face": 85,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 8.97352410629874e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 87,
+      "CAD_face": 86,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 4.836980631127669e-15,
+      "relative_area_error": 1.2112533198660458e-13
+    },
+    {
+      "surface": 88,
+      "CAD_face": 87,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 5.559553878941351e-15,
+      "relative_area_error": 1.4699352846037073e-13
+    },
+    {
+      "surface": 89,
+      "CAD_face": 88,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 6.93925716570297e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 90,
+      "CAD_face": 89,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 6.2784496707713255e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 91,
+      "CAD_face": 90,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 6.93925433778772e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 92,
+      "CAD_face": 91,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 6.2784496707713255e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 93,
+      "CAD_face": 92,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 7.416474402453912e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 94,
+      "CAD_face": 93,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 6.940271046889108e-18,
+      "relative_area_error": 1.1102230246251565e-16
+    },
+    {
+      "surface": 95,
+      "CAD_face": 94,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 7.416474402453912e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 96,
+      "CAD_face": 95,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 7.759326110080994e-18,
+      "relative_area_error": 1.1102230246251565e-16
+    },
+    {
+      "surface": 97,
+      "CAD_face": 96,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 7.75824414182618e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 98,
+      "CAD_face": 97,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 6.2784496707713255e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 99,
+      "CAD_face": 98,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 7.758241612435508e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 100,
+      "CAD_face": 99,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 6.2784496707713255e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 101,
+      "CAD_face": 100,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 8.187866310259e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 102,
+      "CAD_face": 101,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 7.153784155423777e-18,
+      "relative_area_error": 1.1102230246251565e-16
+    },
+    {
+      "surface": 103,
+      "CAD_face": 102,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 8.187866310259e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 104,
+      "CAD_face": 103,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 7.153974075174546e-18,
+      "relative_area_error": 1.1102230246251565e-16
+    },
+    {
+      "surface": 105,
+      "CAD_face": 104,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 6.938893903907228e-18,
+      "relative_area_error": 1.3322676295501878e-15
+    },
+    {
+      "surface": 106,
+      "CAD_face": 105,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 6.58573144374084e-20,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 107,
+      "CAD_face": 106,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 108,
+      "CAD_face": 107,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 6.58573144374084e-20,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 109,
+      "CAD_face": 108,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 4.9065389333867974e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 110,
+      "CAD_face": 109,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 7.090259325337913e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 111,
+      "CAD_face": 110,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 7.090259325337913e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 112,
+      "CAD_face": 111,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 4.9065389333867974e-18,
+      "relative_area_error": 1.3322676295501878e-15
+    },
+    {
+      "surface": 113,
+      "CAD_face": 112,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 7.881525833538993e-20,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 114,
+      "CAD_face": 113,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 6.404103304821057e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 115,
+      "CAD_face": 114,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 6.939331038997176e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 116,
+      "CAD_face": 115,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 6.404103304821057e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 117,
+      "CAD_face": 116,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 1.1426869973312877e-19,
+      "relative_area_error": 8.881784197001252e-16
+    },
+    {
+      "surface": 118,
+      "CAD_face": 117,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 1.043454347327277e-17,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 119,
+      "CAD_face": 118,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 1.043454347327277e-17,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 120,
+      "CAD_face": 119,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 6.939589191221956e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 121,
+      "CAD_face": 120,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 7.757919228897728e-18,
+      "relative_area_error": 1.3322676295501878e-15
+    },
+    {
+      "surface": 122,
+      "CAD_face": 121,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 6.58573144374084e-20,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 123,
+      "CAD_face": 122,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 7.757919228897728e-18,
+      "relative_area_error": 1.3322676295501878e-15
+    },
+    {
+      "surface": 124,
+      "CAD_face": 123,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 6.58573144374084e-20,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 125,
+      "CAD_face": 124,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 126,
+      "CAD_face": 125,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 7.090259325337913e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 127,
+      "CAD_face": 126,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 7.090259325337913e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 128,
+      "CAD_face": 127,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 1.3322676295501878e-15
+    },
+    {
+      "surface": 129,
+      "CAD_face": 128,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 4.9065389333867974e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 130,
+      "CAD_face": 129,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 7.38003236295211e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 131,
+      "CAD_face": 130,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 1.0971354589302191e-17,
+      "relative_area_error": 1.3322676295501878e-15
+    },
+    {
+      "surface": 132,
+      "CAD_face": 131,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 7.38003236295211e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 133,
+      "CAD_face": 132,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 6.367292842999136e-18,
+      "relative_area_error": 7.771561172376096e-16
+    },
+    {
+      "surface": 134,
+      "CAD_face": 133,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 4.9065389333867974e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 135,
+      "CAD_face": 134,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 4.9065389333867974e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 136,
+      "CAD_face": 135,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 6.367292842999136e-18,
+      "relative_area_error": 7.771561172376096e-16
+    },
+    {
+      "surface": 137,
+      "CAD_face": 136,
+      "patch": "walls",
+      "centre_error_m": 8.88984008350451e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 138,
+      "CAD_face": 137,
+      "patch": "walls",
+      "centre_error_m": 1.043535719178262e-17,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 139,
+      "CAD_face": 138,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 140,
+      "CAD_face": 139,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 7.38003236295211e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 141,
+      "CAD_face": 140,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 1.0408340855860843e-17,
+      "relative_area_error": 1.3322676295501878e-15
+    },
+    {
+      "surface": 142,
+      "CAD_face": 141,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 7.38003236295211e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 143,
+      "CAD_face": 142,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 6.367292842999136e-18,
+      "relative_area_error": 7.771561172376096e-16
+    },
+    {
+      "surface": 144,
+      "CAD_face": 143,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 145,
+      "CAD_face": 144,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 4.9065389333867974e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 146,
+      "CAD_face": 145,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 6.367292842999136e-18,
+      "relative_area_error": 7.771561172376096e-16
+    },
+    {
+      "surface": 147,
+      "CAD_face": 146,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 6.009258394948637e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 148,
+      "CAD_face": 147,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 8.154872152930463e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 149,
+      "CAD_face": 148,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 1.1506853769672337e-17,
+      "relative_area_error": 1.3322676295501878e-15
+    },
+    {
+      "surface": 150,
+      "CAD_face": 149,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 8.154872152930463e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 151,
+      "CAD_face": 150,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 6.599369946185247e-18,
+      "relative_area_error": 7.771561172376096e-16
+    },
+    {
+      "surface": 152,
+      "CAD_face": 151,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 5.204170427930421e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 153,
+      "CAD_face": 152,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 7.152448122690996e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 154,
+      "CAD_face": 153,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 6.599369946185247e-18,
+      "relative_area_error": 7.771561172376096e-16
+    },
+    {
+      "surface": 155,
+      "CAD_face": 154,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 3.469446951953614e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 156,
+      "CAD_face": 155,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 6.95142395910736e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 157,
+      "CAD_face": 156,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 0.0,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 158,
+      "CAD_face": 157,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 6.95142395910736e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 159,
+      "CAD_face": 158,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 7.757919228897728e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 160,
+      "CAD_face": 159,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 1.3835141758559033e-18,
+      "relative_area_error": 1.1102230246251565e-16
+    },
+    {
+      "surface": 161,
+      "CAD_face": 160,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 1.3835141758559033e-18,
+      "relative_area_error": 1.1102230246251565e-16
+    },
+    {
+      "surface": 162,
+      "CAD_face": 161,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 8.498374721940739e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 163,
+      "CAD_face": 162,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 6.939241221374944e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 164,
+      "CAD_face": 163,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 9.766274945832012e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 165,
+      "CAD_face": 164,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 9.813316949311195e-18,
+      "relative_area_error": 3.3306690738754696e-16
+    },
+    {
+      "surface": 166,
+      "CAD_face": 165,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 9.766274945832012e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 167,
+      "CAD_face": 166,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 6.941481862211836e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 168,
+      "CAD_face": 167,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 5.633905002471641e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 169,
+      "CAD_face": 168,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 5.633905002471641e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 170,
+      "CAD_face": 169,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 9.813980814060524e-18,
+      "relative_area_error": 1.1102230246251565e-16
+    },
+    {
+      "surface": 171,
+      "CAD_face": 170,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 4.9065389333867974e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 172,
+      "CAD_face": 171,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 6.95142395910736e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 173,
+      "CAD_face": 172,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 8.498374721940739e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 174,
+      "CAD_face": 173,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 6.95142395910736e-18,
+      "relative_area_error": 0.0
+    },
+    {
+      "surface": 175,
+      "CAD_face": 174,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 6.938893903907228e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 176,
+      "CAD_face": 175,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 1.3835141758559033e-18,
+      "relative_area_error": 1.1102230246251565e-16
+    },
+    {
+      "surface": 177,
+      "CAD_face": 176,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 1.3835141758559033e-18,
+      "relative_area_error": 1.1102230246251565e-16
+    },
+    {
+      "surface": 178,
+      "CAD_face": 177,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 7.757919228897728e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 179,
+      "CAD_face": 178,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 4.9065389333867974e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 180,
+      "CAD_face": 179,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 8.154872152930463e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 181,
+      "CAD_face": 180,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 1.0971354589302191e-17,
+      "relative_area_error": 1.3322676295501878e-15
+    },
+    {
+      "surface": 182,
+      "CAD_face": 181,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 8.154872152930463e-18,
+      "relative_area_error": 4.440892098500626e-16
+    },
+    {
+      "surface": 183,
+      "CAD_face": 182,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 6.599369946185247e-18,
+      "relative_area_error": 7.771561172376096e-16
+    },
+    {
+      "surface": 184,
+      "CAD_face": 183,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 3.878959614448864e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 185,
+      "CAD_face": 184,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 7.152448122690996e-18,
+      "relative_area_error": 1.6653345369377348e-15
+    },
+    {
+      "surface": 186,
+      "CAD_face": 185,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 6.599369946185247e-18,
+      "relative_area_error": 7.771561172376096e-16
+    },
+    {
+      "surface": 187,
+      "CAD_face": 186,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 7.733250434892928e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 188,
+      "CAD_face": 187,
+      "patch": "vane_inferior_X_1",
+      "centre_error_m": 6.911302347340292e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 189,
+      "CAD_face": 188,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 6.911302347340292e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 190,
+      "CAD_face": 189,
+      "patch": "vane_superior_X_1",
+      "centre_error_m": 7.733250434892928e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 191,
+      "CAD_face": 190,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 3.496872258189316e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 192,
+      "CAD_face": 191,
+      "patch": "vane_inferior_Y_2",
+      "centre_error_m": 4.370965999339579e-19,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 193,
+      "CAD_face": 192,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 2.0149782280180514e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 194,
+      "CAD_face": 193,
+      "patch": "vane_inferior_Y_1",
+      "centre_error_m": 2.0149782280180514e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 195,
+      "CAD_face": 194,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 3.496872258189316e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 196,
+      "CAD_face": 195,
+      "patch": "vane_inferior_Y_0",
+      "centre_error_m": 4.370965999339579e-19,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 197,
+      "CAD_face": 196,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 5.229449934338757e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 198,
+      "CAD_face": 197,
+      "patch": "vane_inferior_X_2",
+      "centre_error_m": 6.275683928320152e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 199,
+      "CAD_face": 198,
+      "patch": "walls",
+      "centre_error_m": 1.5685016336840002e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 200,
+      "CAD_face": 199,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 5.229449934338757e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 201,
+      "CAD_face": 200,
+      "patch": "vane_inferior_X_0",
+      "centre_error_m": 6.275683928320152e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 202,
+      "CAD_face": 201,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 6.275683928320152e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 203,
+      "CAD_face": 202,
+      "patch": "vane_superior_X_2",
+      "centre_error_m": 5.229449934338757e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 204,
+      "CAD_face": 203,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 4.370965999339579e-19,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 205,
+      "CAD_face": 204,
+      "patch": "vane_superior_Y_2",
+      "centre_error_m": 3.496872258189316e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 206,
+      "CAD_face": 205,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 2.0149782280180514e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 207,
+      "CAD_face": 206,
+      "patch": "vane_superior_Y_1",
+      "centre_error_m": 2.0149782280180514e-18,
+      "relative_area_error": 2.220446049250313e-16
+    },
+    {
+      "surface": 208,
+      "CAD_face": 207,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 4.370965999339579e-19,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 209,
+      "CAD_face": 208,
+      "patch": "vane_superior_Y_0",
+      "centre_error_m": 3.496872258189316e-18,
+      "relative_area_error": 1.4432899320127035e-15
+    },
+    {
+      "surface": 210,
+      "CAD_face": 209,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 6.275683928320152e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 211,
+      "CAD_face": 210,
+      "patch": "vane_superior_X_0",
+      "centre_error_m": 5.229449934338757e-18,
+      "relative_area_error": 1.7763568394002505e-15
+    },
+    {
+      "surface": 212,
+      "CAD_face": 211,
+      "patch": "walls",
+      "centre_error_m": 3.717836126564601e-18,
+      "relative_area_error": 0.0
+    }
+  ],
+  "patches": {
+    "walls": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      81,
+      82,
+      137,
+      138,
+      199,
+      212
+    ],
+    "inlet": [
+      3
+    ],
+    "outlet": [
+      74
+    ],
+    "vane_inferior_X_1": [
+      75,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      187,
+      188
+    ],
+    "vane_superior_X_1": [
+      76,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      189,
+      190
+    ],
+    "vane_inferior_Y_2": [
+      77,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      191,
+      192
+    ],
+    "vane_inferior_Y_1": [
+      78,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      193,
+      194
+    ],
+    "vane_inferior_Y_0": [
+      79,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      195,
+      196
+    ],
+    "vane_inferior_X_2": [
+      80,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      197,
+      198
+    ],
+    "vane_inferior_X_0": [
+      83,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      200,
+      201
+    ],
+    "vane_superior_X_2": [
+      84,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      202,
+      203
+    ],
+    "vane_superior_Y_2": [
+      85,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      204,
+      205
+    ],
+    "vane_superior_Y_1": [
+      86,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      206,
+      207
+    ],
+    "vane_superior_Y_0": [
+      87,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      208,
+      209
+    ],
+    "vane_superior_X_0": [
+      88,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      210,
+      211
+    ]
+  },
+  "cells": 581786,
+  "nodes": 128174,
+  "all_tetrahedra_positive": true,
+  "min_cell_volume_m3": 5.211550524458454e-12,
+  "CAD_volume_m3": 0.00135646652943022,
+  "mesh_volume_m3": 0.0013564297892665021,
+  "relative_polygonal_volume_error": 2.7085197401244265e-05,
+  "wall_size_parameter_m": 0.0015,
+  "elapsed_s": 32.56912704196293,
+  "boundary_layers": false,
+  "checkMesh_accepted": false,
+  "physical_loads_accepted": false,
+  "limitations": [
+    "No prism layers or accepted wall resolution",
+    "No demonstrated mesh, timestep, inlet/outlet or turbulence sensitivity",
+    "Pilot mesh only; this is not physical validation"
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "assumptions": "Closed symmetric spheroid; density 200kg/m3; crossflow coefficient is a sensitivity parameter, not measured. No trim/axial drag lift correction/transonic correction.",
+  "checks": {
+    "count": 405,
+    "zero_speed": true,
+    "zero_angle": true,
+    "speed_squared": true
+  },
+  "transition": [
+    {
+      "mass_kg": 2,
+      "fineness": 4,
+      "crossflow_C_ASSUMED": 0.3,
+      "body_only_1g_speed_kmh": 723.1517994474615,
+      "moment_at_1g_Nm": 84.20850256353991,
+      "effective_wing_area_150kmh_CL05_m2": 0.03688901485714286
+    },
+    {
+      "mass_kg": 2,
+      "fineness": 4,
+      "crossflow_C_ASSUMED": 0.6,
+      "body_only_1g_speed_kmh": 511.34554121655424,
+      "moment_at_1g_Nm": 42.104251281769955,
+      "effective_wing_area_150kmh_CL05_m2": 0.03688901485714286
+    },
+    {
+      "mass_kg": 2,
+      "fineness": 4,
+      "crossflow_C_ASSUMED": 1.2,
+      "body_only_1g_speed_kmh": 361.57589972373074,
+      "moment_at_1g_Nm": 21.052125640884977,
+      "effective_wing_area_150kmh_CL05_m2": 0.03688901485714286
+    },
+    {
+      "mass_kg": 2,
+      "fineness": 6,
+      "crossflow_C_ASSUMED": 0.3,
+      "body_only_1g_speed_kmh": 675.8976368809025,
+      "moment_at_1g_Nm": 73.56290280420502,
+      "effective_wing_area_150kmh_CL05_m2": 0.03688901485714286
+    },
+    {
+      "mass_kg": 2,
+      "fineness": 6,
+      "crossflow_C_ASSUMED": 0.6,
+      "body_only_1g_speed_kmh": 477.9318024264489,
+      "moment_at_1g_Nm": 36.78145140210251,
+      "effective_wing_area_150kmh_CL05_m2": 0.03688901485714286
+    },
+    {
+      "mass_kg": 2,
+      "fineness": 6,
+      "crossflow_C_ASSUMED": 1.2,
+      "body_only_1g_speed_kmh": 337.94881844045125,
+      "moment_at_1g_Nm": 18.390725701051256,
+      "effective_wing_area_150kmh_CL05_m2": 0.03688901485714286
+    },
+    {
+      "mass_kg": 2,
+      "fineness": 8,
+      "crossflow_C_ASSUMED": 0.3,
+      "body_only_1g_speed_kmh": 644.2550111486231,
+      "moment_at_1g_Nm": 66.83633277701504,
+      "effective_wing_area_150kmh_CL05_m2": 0.03688901485714286
+    },
+    {
+      "mass_kg": 2,
+      "fineness": 8,
+      "crossflow_C_ASSUMED": 0.6,
+      "body_only_1g_speed_kmh": 455.5570871966061,
+      "moment_at_1g_Nm": 33.41816638850751,
+      "effective_wing_area_150kmh_CL05_m2": 0.03688901485714286
+    },
+    {
+      "mass_kg": 2,
+      "fineness": 8,
+      "crossflow_C_ASSUMED": 1.2,
+      "body_only_1g_speed_kmh": 322.12750557431156,
+      "moment_at_1g_Nm": 16.70908319425376,
+      "effective_wing_area_150kmh_CL05_m2": 0.03688901485714286
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 4,
+      "crossflow_C_ASSUMED": 0.3,
+      "body_only_1g_speed_kmh": 842.4668209941666,
+      "moment_at_1g_Nm": 285.7213035319376,
+      "effective_wing_area_150kmh_CL05_m2": 0.09222253714285715
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 4,
+      "crossflow_C_ASSUMED": 0.6,
+      "body_only_1g_speed_kmh": 595.7140020496485,
+      "moment_at_1g_Nm": 142.8606517659688,
+      "effective_wing_area_150kmh_CL05_m2": 0.09222253714285715
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 4,
+      "crossflow_C_ASSUMED": 1.2,
+      "body_only_1g_speed_kmh": 421.2334104970833,
+      "moment_at_1g_Nm": 71.4303258829844,
+      "effective_wing_area_150kmh_CL05_m2": 0.09222253714285715
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 6,
+      "crossflow_C_ASSUMED": 0.3,
+      "body_only_1g_speed_kmh": 787.4160499850799,
+      "moment_at_1g_Nm": 249.60054912449053,
+      "effective_wing_area_150kmh_CL05_m2": 0.09222253714285715
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 6,
+      "crossflow_C_ASSUMED": 0.6,
+      "body_only_1g_speed_kmh": 556.7872285595754,
+      "moment_at_1g_Nm": 124.80027456224524,
+      "effective_wing_area_150kmh_CL05_m2": 0.09222253714285715
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 6,
+      "crossflow_C_ASSUMED": 1.2,
+      "body_only_1g_speed_kmh": 393.70802499253995,
+      "moment_at_1g_Nm": 62.40013728112263,
+      "effective_wing_area_150kmh_CL05_m2": 0.09222253714285715
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 8,
+      "crossflow_C_ASSUMED": 0.3,
+      "body_only_1g_speed_kmh": 750.5526108994698,
+      "moment_at_1g_Nm": 226.77714889816164,
+      "effective_wing_area_150kmh_CL05_m2": 0.09222253714285715
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 8,
+      "crossflow_C_ASSUMED": 0.6,
+      "body_only_1g_speed_kmh": 530.7208408042833,
+      "moment_at_1g_Nm": 113.38857444908082,
+      "effective_wing_area_150kmh_CL05_m2": 0.09222253714285715
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 8,
+      "crossflow_C_ASSUMED": 1.2,
+      "body_only_1g_speed_kmh": 375.2763054497349,
+      "moment_at_1g_Nm": 56.69428722454041,
+      "effective_wing_area_150kmh_CL05_m2": 0.09222253714285715
+    },
+    {
+      "mass_kg": 10,
+      "fineness": 4,
+      "crossflow_C_ASSUMED": 0.3,
+      "body_only_1g_speed_kmh": 945.6370335257976,
+      "moment_at_1g_Nm": 719.9725694465807,
+      "effective_wing_area_150kmh_CL05_m2": 0.1844450742857143
+    },
+    {
+      "mass_kg": 10,
+      "fineness": 4,
+      "crossflow_C_ASSUMED": 0.6,
+      "body_only_1g_speed_kmh": 668.6663589472221,
+      "moment_at_1g_Nm": 359.98628472329034,
+      "effective_wing_area_150kmh_CL05_m2": 0.1844450742857143
+    },
+    {
+      "mass_kg": 10,
+      "fineness": 4,
+      "crossflow_C_ASSUMED": 1.2,
+      "body_only_1g_speed_kmh": 472.8185167628988,
+      "moment_at_1g_Nm": 179.99314236164517,
+      "effective_wing_area_150kmh_CL05_m2": 0.1844450742857143
+    },
+    {
+      "mass_kg": 10,
+      "fineness": 6,
+      "crossflow_C_ASSUMED": 0.3,
+      "body_only_1g_speed_kmh": 883.8446323379284,
+      "moment_at_1g_Nm": 628.9539718145303,
+      "effective_wing_area_150kmh_CL05_m2": 0.1844450742857143
+    },
+    {
+      "mass_kg": 10,
+      "fineness": 6,
+      "crossflow_C_ASSUMED": 0.6,
+      "body_only_1g_speed_kmh": 624.97253304148,
+      "moment_at_1g_Nm": 314.47698590726515,
+      "effective_wing_area_150kmh_CL05_m2": 0.1844450742857143
+    },
+    {
+      "mass_kg": 10,
+      "fineness": 6,
+      "crossflow_C_ASSUMED": 1.2,
+      "body_only_1g_speed_kmh": 441.9223161689642,
+      "moment_at_1g_Nm": 157.23849295363257,
+      "effective_wing_area_150kmh_CL05_m2": 0.1844450742857143
+    },
+    {
+      "mass_kg": 10,
+      "fineness": 8,
+      "crossflow_C_ASSUMED": 0.3,
+      "body_only_1g_speed_kmh": 842.4668209941666,
+      "moment_at_1g_Nm": 571.4426070638752,
+      "effective_wing_area_150kmh_CL05_m2": 0.1844450742857143
+    },
+    {
+      "mass_kg": 10,
+      "fineness": 8,
+      "crossflow_C_ASSUMED": 0.6,
+      "body_only_1g_speed_kmh": 595.7140020496485,
+      "moment_at_1g_Nm": 285.7213035319376,
+      "effective_wing_area_150kmh_CL05_m2": 0.1844450742857143
+    },
+    {
+      "mass_kg": 10,
+      "fineness": 8,
+      "crossflow_C_ASSUMED": 1.2,
+      "body_only_1g_speed_kmh": 421.2334104970833,
+      "moment_at_1g_Nm": 142.8606517659688,
+      "effective_wing_area_150kmh_CL05_m2": 0.1844450742857143
+    }
+  ],
+  "jets_force_only": [
+    {
+      "mass_kg": 2,
+      "thrust_ASSUMED_N": 24,
+      "minimum_axis_elevation_deg": 54.807548433905374
+    },
+    {
+      "mass_kg": 5,
+      "thrust_ASSUMED_N": 100,
+      "minimum_axis_elevation_deg": 29.362438176564297
+    },
+    {
+      "mass_kg": 10,
+      "thrust_ASSUMED_N": 100,
+      "minimum_axis_elevation_deg": 78.71472960592243
+    },
+    {
+      "mass_kg": 10,
+      "thrust_ASSUMED_N": 250,
+      "minimum_axis_elevation_deg": 23.095570212189802
+    }
+  ]
+}

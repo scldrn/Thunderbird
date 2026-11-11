@@ -1,0 +1,43 @@
+{
+  "scope": "Partial boundary benchmark: analytic final fields pass; original linear-workflow criterion does not",
+  "results": [
+    {
+      "case": "nx20_Uinicial0.5",
+      "U_relative_error": 1.3597000692208248e-13,
+      "p_error_normalized_GL": 1.5701884237273589e-12,
+      "Q_relative_error": 1.3955503419538218e-13,
+      "mass_relative": 1.1849291524135003e-13,
+      "linear_solves_at_iteration_limit": 3732
+    },
+    {
+      "case": "nx20_Uinicial2",
+      "U_relative_error": 3.3599978615826785e-14,
+      "p_error_normalized_GL": 2.130406961953213e-12,
+      "Q_relative_error": 3.375077994860476e-14,
+      "mass_relative": 0.0,
+      "linear_solves_at_iteration_limit": 3828
+    },
+    {
+      "case": "nx4_Uinicial0.5",
+      "U_relative_error": 7.614948424620093e-14,
+      "p_error_normalized_GL": 1.2688738948440914e-12,
+      "Q_relative_error": 9.903189379656396e-14,
+      "mass_relative": 1.7148353572195376e-13,
+      "linear_solves_at_iteration_limit": 3712
+    },
+    {
+      "case": "nx4_Uinicial2",
+      "U_relative_error": 3.7054182024930474e-14,
+      "p_error_normalized_GL": 1.3666845433135677e-12,
+      "Q_relative_error": 2.8310687127941492e-14,
+      "mass_relative": 4.771609112717808e-14,
+      "linear_solves_at_iteration_limit": 3780
+    }
+  ],
+  "predeclared_U_p_Q_and_mass_errors_pass": true,
+  "linear_no_iteration_limit_criterion_pass": false,
+  "whole_benchmark_accepted": false,
+  "physical_fan_or_vehicle_validated": false,
+  "normalization_diagnosis": "Installed normFactor subtracts a reference based on uniform psi. Cancellation is a plausible cause; exact absolute assembled linear residual was not measured.",
+  "normalization_source_sha256": "95eda050d2718403b71ad92df5ed17440bff88928c8e2996a44b3da4a1824e03"
+}

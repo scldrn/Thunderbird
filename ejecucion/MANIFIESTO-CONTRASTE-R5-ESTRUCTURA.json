@@ -1,0 +1,673 @@
+{
+  "date": "2026-11-03",
+  "scope": "Current-turn terminal r5/independent BEM/conditional centrifugal evidence; live r6 state and outputs excluded",
+  "goal_complete": false,
+  "physical_validation_accepted": false,
+  "records": [
+    {
+      "path": "ESTADO-VERIFICACION-GLOBAL.md",
+      "bytes": 43616,
+      "sha256": "69f81320abfae31ceaca815c64698d109720b7c59e4ca2119d302e2fcdfcd4c7"
+    },
+    {
+      "path": "ejecucion/ESTADO-TAREAS.csv",
+      "bytes": 12136,
+      "sha256": "a59a69e9ae8491cf427019b72aafbbd99b79bd3a3531837fdfb64bc421591689"
+    },
+    {
+      "path": "ejecucion/ESTIMACION-AVANCE-2026-11-03.json",
+      "bytes": 833,
+      "sha256": "567f096bf39bae05450547a06874a2f6de00d48f80111ce9c2f4cebb9e6139d7"
+    },
+    {
+      "path": "ejecucion/G2/bem_anular.py",
+      "bytes": 3296,
+      "sha256": "6644cc24a583adfdd717959b4f62d39400580828a8eeec33465fbc55ae39b2e4"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/CCBlade_reference.jl",
+      "bytes": 22277,
+      "sha256": "3a377560a80d2a7a4fc9fe0f68a7c8c19af2e1f0c2020a5881b3916ffc38ace6"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/COMPARACION_ESTATICA.csv",
+      "bytes": 1740,
+      "sha256": "eae6f5f5688e18e991d4f6a4d9b9bf13ed6bba25f1887699188dc767e78b2808"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/CONTRASTE.json",
+      "bytes": 246103,
+      "sha256": "fbedfbe3f581c9e74fa7a056ab6538e1ea62150e94adc70ba890cf6c647e8329"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/CONTRASTE_ESTATICO.png",
+      "bytes": 80459,
+      "sha256": "7352d00609edd3de086e371afa27b2b0a7257fed6ff72656580e3b356537c759"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/INFORME.md",
+      "bytes": 4849,
+      "sha256": "614447cd19f42dea854575bc6f4e23db54df93d3b829ee1aba79d17193a2d1d0"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/LICENSE_CCBlade.md",
+      "bytes": 1161,
+      "sha256": "b72c0e118614427c6b92d21a9a1b64a540f0df9501b6a8014a3542e11434565d"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/PROCEDENCIA.json",
+      "bytes": 2312,
+      "sha256": "64a22911aafd8d9e5ffff93a5a45eb612a614480bf0d83b80402f9490a0060f9"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/airfoils_reference.jl",
+      "bytes": 24157,
+      "sha256": "1830c15d8d0c946916f1a8942de04af827591db4bd7ec4ff21739befc4548e89"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/naca4412_CCBlade.dat",
+      "bytes": 12326,
+      "sha256": "4c73d618c69df184fa819d92114ecb0dc36e2543a7854bd664fdb51b2af0247a"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/rechazo_numpy_trapz.log",
+      "bytes": 940,
+      "sha256": "1e51be0697d43b338dce0c56685d611404fd3a0aaf6e8563917af64e93f80e5f"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/tutorial_reference.md",
+      "bytes": 8685,
+      "sha256": "f93635c9f769435421badf4b34417453443227e48b4c7480024086e9456df753"
+    },
+    {
+      "path": "ejecucion/G2/contrastar_bem_publico.log",
+      "bytes": 2076,
+      "sha256": "b20e54d4a729a0ace4375452bad62d2c96777a1d099f20ecfc9615654b50a07b"
+    },
+    {
+      "path": "ejecucion/G2/contrastar_bem_publico.py",
+      "bytes": 7076,
+      "sha256": "0422b01ec1097ad09d9f102a6bff0cca7d63f181c3077a2603772dd3c5a566b5"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-R5-TERMINADO.md",
+      "bytes": 5068,
+      "sha256": "503d9cf94769a7aab9bac2c8e30020199c5bf8c57d4fb84fd935d7f5e602eef2"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/auditar_arranque.py",
+      "bytes": 9302,
+      "sha256": "d9b2106536de2ca06554c16a50cb1edf38ea8c9a48b8dbcd31267ec9725ce9a0"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_estacionario_guardado.py",
+      "bytes": 5734,
+      "sha256": "c5b6e1b1d7b5b9ab1306909be2b760119c1d71684f41c16b94006d2374fc564c"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/100/U",
+      "bytes": 27948303,
+      "sha256": "b798855ea967391ee759b4b42dc12c82e40aba6a5a426d6fc9fcee50dcd9c76b"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/100/k",
+      "bytes": 9742700,
+      "sha256": "8ee886ebf33a6f0e8d9817f7a34d938c15aa9fdddb14bea3d16a1198bc772e8f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/100/nut",
+      "bytes": 12478785,
+      "sha256": "7b5767fa39e3ea73525fd7a2305b7d2fac8ac7c199887264b190bc303d290625"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/100/omega",
+      "bytes": 9744050,
+      "sha256": "0de5578294bbcd9b5e1fc745d34aa873cc8cc59225c7abaabcce4464d89fd3fa"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/100/p",
+      "bytes": 8261967,
+      "sha256": "c594fec7e3bbb6586f75541709620247b9df450a42fd71311f53ddef2c31f396"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/100/phi",
+      "bytes": 20343361,
+      "sha256": "6c6b66b2c87f3f50f90cc3a2559ddb5f967c6ce3fdc3558de98e35ed7ab5ac3a"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/100/uniform/time",
+      "bytes": 799,
+      "sha256": "4da13cab20b602ccd11a6f370d6780903de300aece5365180b1addbe3e171af5"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/100/yPlus",
+      "bytes": 1641649,
+      "sha256": "8dd6e08d4d1273adc24be53a397bd7e7e897c84cc666919fb6496f26b119c987"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/80/U",
+      "bytes": 27930195,
+      "sha256": "3b505e7d9cff673734eda9a8bb6c6610b22e67969d19fa85ae10dd5675989ad6"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/80/k",
+      "bytes": 9742487,
+      "sha256": "5f7a226c34e952e525b03f71ba8fad4df8d9eada58fd2287457dcab4af3b6502"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/80/nut",
+      "bytes": 12461570,
+      "sha256": "7f676ba6c2418e780f5416945f82a6a331e033ac80b28e98a4a236f4712402d1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/80/omega",
+      "bytes": 9743502,
+      "sha256": "6a1a919cb8deaf20acc97a6c84d75f8e6066a91d6f8d2d1d35565fa3446768e7"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/80/p",
+      "bytes": 8244637,
+      "sha256": "196ccc590f762f8495e5e0465ec25c25c362456b0d4c2c0a6be23168ac5e3fd1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/80/phi",
+      "bytes": 20343015,
+      "sha256": "96d70d0ea0b42d336b6c98de20a337780450f3ba9b88ded1d78a60ad67691d45"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/80/uniform/time",
+      "bytes": 795,
+      "sha256": "d91168bde17396a0855be7d45e6acd3f94ab6b467c50551b2ee0a4eea60b59b0"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/80/yPlus",
+      "bytes": 1641569,
+      "sha256": "7107f99a7af65e8049346188cd474365228be641417cc466103a4581a00947ff"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/BALANCE.json",
+      "bytes": 2348,
+      "sha256": "42ffbbb83191516f02d310f3e098d2658bdc0009d8b559655b1d0291442e7835"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/CONTENEDOR.json",
+      "bytes": 221,
+      "sha256": "6f053d87deb6dacc06fab652b05a572f8a368be07ba44de159930b270e70b700"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/constant/momentumTransport",
+      "bytes": 160,
+      "sha256": "aca3cecdec71eaac515e7aaae1b9ed1233964d1e8f4e33272b77c8a7e41cead9"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/constant/physicalProperties",
+      "bytes": 140,
+      "sha256": "c0489bfe925edfe5062f5fe90f113fcd7c2c04478bbe047e53239c52950a3f97"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/constant/polyMesh/boundary",
+      "bytes": 3032,
+      "sha256": "d5ee4a40321d75d47205a02478cf9a31dd6014572b2bb8e6bdb627e7f05c46e4"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/constant/polyMesh/cellZones",
+      "bytes": 3962134,
+      "sha256": "389e9291701a120e0ce0bd24daa5a9b547ac8d4fa7ab36ab0c8d82fcaf586fe1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/constant/polyMesh/faces",
+      "bytes": 26479316,
+      "sha256": "7c0d29e9410dfe827046f072887c69ef232509e69dcc9ac4a0a66ad72e5c162f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/constant/polyMesh/neighbour",
+      "bytes": 7631113,
+      "sha256": "c184162a80bc638e521ab1fae1abc6691e2fa8bbae4f6a64cc805cc05e275bd3"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/constant/polyMesh/owner",
+      "bytes": 8216019,
+      "sha256": "32d1f9909c1d84b0e56d9bef6de7a9ae76d9e739cb326fdad5bd6ef7e5f0ba2e"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/constant/polyMesh/points",
+      "bytes": 6413192,
+      "sha256": "0ffd70e50ba89ccbb9c05ed725f132973b2ad29c458b6faaf166f10df67b2cc9"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/constant/polyMesh/sets/fluid",
+      "bytes": 4543870,
+      "sha256": "39067fbd2a89a323422c1d71ad108b42fb29d782df5248725593293192c178f6"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/log.postProcess",
+      "bytes": 1712,
+      "sha256": "e4f3ccdc88666f33c33c7b80b8382ff1d5651a161b0f90a69025fa7f21469f89"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/postProcessing/momentum_inlet/80/surfaceFieldValue.dat",
+      "bytes": 291,
+      "sha256": "70c8fe13c91534a00398fab4ff8e0750f724d4ee4ea1a4c1093a3dbb5614d153"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/postProcessing/momentum_outlet/80/surfaceFieldValue.dat",
+      "bytes": 298,
+      "sha256": "41a6b33ead0951c5deb786ad70cadb76e353e9a05fc514f0020970b123a4a3df"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/postProcessing/traction_all_boundary/80/forces.dat",
+      "bytes": 701,
+      "sha256": "b79ba9e55b159eb30c254cd4206ea35dbc6791ed36efb1de624fdfec3246c340"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/postProcessing/traction_open_ends/80/forces.dat",
+      "bytes": 705,
+      "sha256": "d8d12b56ff7f9b7059afb738f6958c98e757eef4c08ebc2be789906daef9983c"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/postProcessing/traction_solids/80/forces.dat",
+      "bytes": 701,
+      "sha256": "5764e19af5e0b9008896d1c8d2e05c6ef89ca703c79ee719b03c5db3d9c9c827"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/system/controlDict",
+      "bytes": 1672,
+      "sha256": "eeb3d42fa0a59f515d5d8d5d20da4c13eddac14f9b8efab36f9840eab843e726"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/system/fvSchemes",
+      "bytes": 537,
+      "sha256": "62adc1dd6de0bda03167f228634520aff9ea884ec3fcb6559be99c7bbec18884"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r5_80_100_r2_precision12/system/fvSolution",
+      "bytes": 547,
+      "sha256": "082aa8332bff66cb1d4e1ec658971377b81193b91b3d555e3a03ee20cb16ca8f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/ejecutar_arranque.py",
+      "bytes": 4593,
+      "sha256": "3d4ac6e12d3f48475d677ae31b35b2cc5acffd58066ace12681014857cd1fef8"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/0/U",
+      "bytes": 27593958,
+      "sha256": "6b2bfe44dcc0ba9e7033ad78b6481853b996cb4dddc950e8c88e62241c262345"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/0/k",
+      "bytes": 328,
+      "sha256": "a9804e114ed015951c218c224082a3535ee1417a36fa3285e6aa10e712c4f66f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/0/nut",
+      "bytes": 302,
+      "sha256": "7da8d414d286983633471a8304833b3171adf7e621f870c4876fadc79bb37307"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/0/omega",
+      "bytes": 399,
+      "sha256": "cd655bc50ce4ae5bdaff137824686ea37b7a95d40ebde4fff72aa2ec866e73b9"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/0/p",
+      "bytes": 8083988,
+      "sha256": "66af473479149a8774e323a30c7a6bec83362804ef33f6113864192e13c60a85"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/0/phi",
+      "bytes": 20343219,
+      "sha256": "80af1f1d415b39e5ea02d900e7789d5fc87798940d2e3bcc0f9a373e2ba13360"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/100/U",
+      "bytes": 27948303,
+      "sha256": "b798855ea967391ee759b4b42dc12c82e40aba6a5a426d6fc9fcee50dcd9c76b"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/100/k",
+      "bytes": 9742700,
+      "sha256": "8ee886ebf33a6f0e8d9817f7a34d938c15aa9fdddb14bea3d16a1198bc772e8f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/100/nut",
+      "bytes": 12478785,
+      "sha256": "7b5767fa39e3ea73525fd7a2305b7d2fac8ac7c199887264b190bc303d290625"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/100/omega",
+      "bytes": 9744050,
+      "sha256": "0de5578294bbcd9b5e1fc745d34aa873cc8cc59225c7abaabcce4464d89fd3fa"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/100/p",
+      "bytes": 8261967,
+      "sha256": "c594fec7e3bbb6586f75541709620247b9df450a42fd71311f53ddef2c31f396"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/100/phi",
+      "bytes": 20343361,
+      "sha256": "6c6b66b2c87f3f50f90cc3a2559ddb5f967c6ce3fdc3558de98e35ed7ab5ac3a"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/100/uniform/time",
+      "bytes": 799,
+      "sha256": "4da13cab20b602ccd11a6f370d6780903de300aece5365180b1addbe3e171af5"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/100/yPlus",
+      "bytes": 1641649,
+      "sha256": "8dd6e08d4d1273adc24be53a397bd7e7e897c84cc666919fb6496f26b119c987"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/80/U",
+      "bytes": 27930195,
+      "sha256": "3b505e7d9cff673734eda9a8bb6c6610b22e67969d19fa85ae10dd5675989ad6"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/80/k",
+      "bytes": 9742487,
+      "sha256": "5f7a226c34e952e525b03f71ba8fad4df8d9eada58fd2287457dcab4af3b6502"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/80/nut",
+      "bytes": 12461570,
+      "sha256": "7f676ba6c2418e780f5416945f82a6a331e033ac80b28e98a4a236f4712402d1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/80/omega",
+      "bytes": 9743502,
+      "sha256": "6a1a919cb8deaf20acc97a6c84d75f8e6066a91d6f8d2d1d35565fa3446768e7"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/80/p",
+      "bytes": 8244637,
+      "sha256": "196ccc590f762f8495e5e0465ec25c25c362456b0d4c2c0a6be23168ac5e3fd1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/80/phi",
+      "bytes": 20343015,
+      "sha256": "96d70d0ea0b42d336b6c98de20a337780450f3ba9b88ded1d78a60ad67691d45"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/80/uniform/time",
+      "bytes": 795,
+      "sha256": "d91168bde17396a0855be7d45e6acd3f94ab6b467c50551b2ee0a4eea60b59b0"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/80/yPlus",
+      "bytes": 1641569,
+      "sha256": "7107f99a7af65e8049346188cd474365228be641417cc466103a4581a00947ff"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/AUDITORIA_ARRANQUE.json",
+      "bytes": 10036,
+      "sha256": "05da8396186aa7b58856ad951fb868dc82c7d9c299fc9049a9525f4da38467e5"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/CONTENEDOR.json",
+      "bytes": 180,
+      "sha256": "61e79dcd441691bffdb983c2cbe9a42cbfd1cee81f67e1669005f5c66f209147"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/DERIVACION.json",
+      "bytes": 903,
+      "sha256": "288ba72709da4d28dbee5c761d8bce7fa6cff32ecdd1501fcb4215ecd49a38cc"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/DIAGNOSTICO_CONVERGENCIA.png",
+      "bytes": 228601,
+      "sha256": "7bb7dbe9d0f03c246de4f99aea129f8a4288d8e01072315108fec5ec0a638117"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/EJECUCION.json",
+      "bytes": 663,
+      "sha256": "a3b59ab51813d48327048a56f88f7aa1e4ff2dedbab383174ba902c78da23f2e"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/ENTRADAS.json",
+      "bytes": 3495,
+      "sha256": "1da46b7959b355464feef9c765b92e3d9202d2086a6507b72898484d4cd10004"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/GEOMETRIA.json",
+      "bytes": 89029,
+      "sha256": "093fb274c44e8dcc95596b2e79f2b5717ad9c0ed0e6353263b3cd746b871853d"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/LOCALIZACION_CAMBIOS.json",
+      "bytes": 1508,
+      "sha256": "08b5b21edcdfd262cb9ff160a6e18034df8cbdb793352aca15a8a193d0bc173f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/MALLA.json",
+      "bytes": 43070,
+      "sha256": "2b777f4df9d9538852525c15bcfc701b6f58831a25962e7e2419cefa267e8e35"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/MALLA_OPENFOAM.json",
+      "bytes": 466,
+      "sha256": "1348892ecd08eb9ac2dc13b72a0469fd60118027c0048a15ea194d070d068028"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/constant/momentumTransport",
+      "bytes": 160,
+      "sha256": "aca3cecdec71eaac515e7aaae1b9ed1233964d1e8f4e33272b77c8a7e41cead9"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/constant/physicalProperties",
+      "bytes": 140,
+      "sha256": "c0489bfe925edfe5062f5fe90f113fcd7c2c04478bbe047e53239c52950a3f97"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/constant/polyMesh/boundary",
+      "bytes": 3032,
+      "sha256": "d5ee4a40321d75d47205a02478cf9a31dd6014572b2bb8e6bdb627e7f05c46e4"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/constant/polyMesh/cellZones",
+      "bytes": 3962134,
+      "sha256": "389e9291701a120e0ce0bd24daa5a9b547ac8d4fa7ab36ab0c8d82fcaf586fe1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/constant/polyMesh/faces",
+      "bytes": 26479316,
+      "sha256": "7c0d29e9410dfe827046f072887c69ef232509e69dcc9ac4a0a66ad72e5c162f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/constant/polyMesh/neighbour",
+      "bytes": 7631113,
+      "sha256": "c184162a80bc638e521ab1fae1abc6691e2fa8bbae4f6a64cc805cc05e275bd3"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/constant/polyMesh/owner",
+      "bytes": 8216019,
+      "sha256": "32d1f9909c1d84b0e56d9bef6de7a9ae76d9e739cb326fdad5bd6ef7e5f0ba2e"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/constant/polyMesh/points",
+      "bytes": 6413192,
+      "sha256": "0ffd70e50ba89ccbb9c05ed725f132973b2ad29c458b6faaf166f10df67b2cc9"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/constant/polyMesh/sets/fluid",
+      "bytes": 4543870,
+      "sha256": "39067fbd2a89a323422c1d71ad108b42fb29d782df5248725593293192c178f6"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/log.checkMesh",
+      "bytes": 5864,
+      "sha256": "457e199d3c8f099bb32633fbeb7efe5c1f1dda2018d3805c8bc2e5f317419cc1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/log.foamRun",
+      "bytes": 216716,
+      "sha256": "38f951ce978b80531b34408d21d0b587e33c7277f5a6a06fe402645992b6acb1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/flow_inlet/0/surfaceFieldValue.dat",
+      "bytes": 4274,
+      "sha256": "cb00bf860807090aeb0eb6f02c690a4eed02e70369ebcaa82ff7fa6fbe058d7a"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/flow_outlet/0/surfaceFieldValue.dat",
+      "bytes": 4174,
+      "sha256": "0947dc19bb42d41baf826fbfd203b0685033f7ef83a10e290828ea1b3aff4237"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_all_walls/0/forces.dat",
+      "bytes": 26914,
+      "sha256": "ef750bbb6ac9cf7a6cba163034556b2d80c29b7617e5b4361f465673dd637c69"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_inferior_X_0/0/forces.dat",
+      "bytes": 26970,
+      "sha256": "c120219f520e80f9e9f66903cee081acf87921cee48d9158e8ef7704612ecfe9"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_inferior_X_1/0/forces.dat",
+      "bytes": 27259,
+      "sha256": "ab8562156aab5816aab0457ec3ca98f4b77547ccd4fbd664d9015cf5bb4baa4d"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_inferior_X_2/0/forces.dat",
+      "bytes": 27402,
+      "sha256": "fefbc54b7b35b988da69da745081835e1fcad6138c691b4c3923da1923cc6fa9"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_inferior_Y_0/0/forces.dat",
+      "bytes": 27368,
+      "sha256": "2f731d61962710011fdc864537fc99527936d84193f758a3cc508da6c75ccd74"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_inferior_Y_1/0/forces.dat",
+      "bytes": 27180,
+      "sha256": "f27fb8287b75915c9fc4ea30da02ec8a949a8e2b8cb46515831999f33a58be80"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_inferior_Y_2/0/forces.dat",
+      "bytes": 27161,
+      "sha256": "490e517b385a3a32a91a8e96f8abf0dd11591f36861f6895526d92ffb81de3ed"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_superior_X_0/0/forces.dat",
+      "bytes": 27160,
+      "sha256": "7fb0c8e56be7610dd06f02fb5c80bbcee48e94dd07d894710858876b96c3d36c"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_superior_X_1/0/forces.dat",
+      "bytes": 27303,
+      "sha256": "07455b721418350a9c66810eb58618ffd0ce31f41247c0ded7839b38ee4c24a8"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_superior_X_2/0/forces.dat",
+      "bytes": 27188,
+      "sha256": "788d006213d351657e4abc2210ee5823d917ce204251e1cd75a11ba63a3e13b2"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_superior_Y_0/0/forces.dat",
+      "bytes": 27385,
+      "sha256": "b1a7eb53c4e0fe64d5c7fff8fa656bb5e9f1c606f273154deb694a4fc69e4121"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_superior_Y_1/0/forces.dat",
+      "bytes": 27381,
+      "sha256": "1d10d05434884e51422d118e9ad009261a19b6f91769632ad3ef51e2e55c6f7f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_vane_superior_Y_2/0/forces.dat",
+      "bytes": 27006,
+      "sha256": "2b05b1b31bc30304e82cf06f8e59ae30387283e0bae3b2f3aac426b778a4304f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/force_walls/0/forces.dat",
+      "bytes": 26904,
+      "sha256": "fdf050ba1ff9f905c0304cba3b78be07244817422f05b49afc7513918ffc64d1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/max_scalars/0/volFieldValue.dat",
+      "bytes": 9948,
+      "sha256": "0d7c0fc1622149ef2798e58ad99a316b34b1c5e1f6d5c5530049be90c9c7321a"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/max_velocity/0/volFieldValue.dat",
+      "bytes": 4167,
+      "sha256": "21b166beb3df5328780d4a17e9ee550162ebfed4b6c05d5d2aa79e0fe8dd323f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/mean_inlet/0/surfaceFieldValue.dat",
+      "bytes": 10269,
+      "sha256": "79c5a03f6323a43bbae9e64f8d018578c44a1479a12a67ba0315d77705aec6a0"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/mean_outlet/0/surfaceFieldValue.dat",
+      "bytes": 10384,
+      "sha256": "a670eebeb53a1f6c1806eeb7732ad262af71004651fbb6ce0e08942297126aaf"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/min_scalars/0/volFieldValue.dat",
+      "bytes": 10049,
+      "sha256": "c51af6c78125273b8c4023ba33aa17d3c8a1d7364a99a3dda8644b73843213a0"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/postProcessing/wall_resolution/0/yPlus.dat",
+      "bytes": 7542,
+      "sha256": "3d36c62724b5a29d73468746b6e6c3713dffeb5c9f30c401c98885745e5a0bc2"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/system/controlDict",
+      "bytes": 4592,
+      "sha256": "a5132ee0e2af77cf0fd24e1c15484eb9a0e1f2348de457717d306cb3f6f5cc59"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/system/fvSchemes",
+      "bytes": 537,
+      "sha256": "62adc1dd6de0bda03167f228634520aff9ea884ec3fcb6559be99c7bbec18884"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r5_viscoso_exploratorio/system/fvSolution",
+      "bytes": 547,
+      "sha256": "082aa8332bff66cb1d4e1ec658971377b81193b91b3d555e3a03ee20cb16ca8f"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/preparar_continuacion_presion.py",
+      "bytes": 3421,
+      "sha256": "79dd46b129a25160c25de05ae67b614be7a4504b742b73212f5482534b0ed654"
+    },
+    {
+      "path": "ejecucion/G5/cargas_rotor.py",
+      "bytes": 8292,
+      "sha256": "ca7093100e34628967ad6939aae80bfa93102e7fb0ae4fa0a81d174b1776b43a"
+    },
+    {
+      "path": "ejecucion/G5/rotor_C02/CRIBADO_CENTRIFUGO.png",
+      "bytes": 166019,
+      "sha256": "42e3b42e82d3d840c6a60a86e831392fa5410218f6dff5bdb7689c160c48053b"
+    },
+    {
+      "path": "ejecucion/G5/rotor_C02/INFORME.md",
+      "bytes": 5651,
+      "sha256": "9ff99802f77e5663de5e3b3ec26ebca1d501eea2f1354ba8dee8c28587ad23df"
+    },
+    {
+      "path": "ejecucion/G5/rotor_C02/RESULTADOS.csv",
+      "bytes": 43418,
+      "sha256": "692b05b47e4b3c7362d7836555df4a084d9c6f5242764bd11403ef14995ba153"
+    },
+    {
+      "path": "ejecucion/G5/rotor_C02/RESULTADOS.json",
+      "bytes": 120679,
+      "sha256": "d8ed9af852a2386300930ed83a159d11661126333bd90fd86b047eeb71b51dfd"
+    },
+    {
+      "path": "ejecucion/G5/test_cargas_rotor.log",
+      "bytes": 485,
+      "sha256": "ca977e8c3c165e1d87eb8337dc817f2d4e37a7e61c06282f428ec51695c215e6"
+    },
+    {
+      "path": "ejecucion/G5/test_cargas_rotor.py",
+      "bytes": 1254,
+      "sha256": "8c40504cd40ce60b11dc1889b975ed22edf00d0d8710f381118593f604ceb0a9"
+    }
+  ]
+}

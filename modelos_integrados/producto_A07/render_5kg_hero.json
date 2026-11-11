@@ -1,0 +1,13 @@
+{
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_A07/5kg/A07_abierto.step",
+  "source_sha256": "1af155387d5deb524a38b7ce4ed86c26f4019744fd6f882c22de5faf2384dc9c",
+  "renderer": "Mitsuba3 scalar CPU path tracing from actual STEP",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "requested_samples_per_pixel": 64,
+  "samples_per_pixel": 64,
+  "view": "hero",
+  "no_AI_image_generator": true
+}

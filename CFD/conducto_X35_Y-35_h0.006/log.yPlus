@@ -1,0 +1,46 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamPostProcess -solver incompressibleFluid -func yPlus -latestTime
+Date   : Nov 01 2026
+Time   : 07:17:45
+Host   : "9ddc4945a2cc"
+PID    : 7
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 300
+
+Time = 300s
+Selecting solver incompressibleFluid
+Selecting viscosity model constant
+Selecting turbulence model type RAS
+    Selecting RAS turbulence model kOmegaSST
+No MRF models present
+
+Selecting patchDistMethod meshWave
+yPlus yPlus write:
+    writing object yPlus
+    patch vaneX0 y+ : min = 28.827059, max = 241.459322, average = 59.6482688
+    patch vaneX1 y+ : min = 28.4580753, max = 239.306387, average = 62.1734832
+    patch vaneX2 y+ : min = 25.0611072, max = 201.7048, average = 56.7584537
+    patch vaneY0 y+ : min = 29.1321266, max = 206.295188, average = 77.0644797
+    patch vaneY1 y+ : min = 37.5350009, max = 252.083447, average = 94.176973
+    patch vaneY2 y+ : min = 31.9693009, max = 282.325701, average = 95.7017355
+    patch walls y+ : min = 49.7780983, max = 489.866007, average = 130.066916
+
+
+End
+

@@ -1,0 +1,11 @@
+{
+  "stage": "diagnostic_audited",
+  "exit_code": 0,
+  "last_physical_time_s": 0.001,
+  "target_physical_time_s": 0.001,
+  "target_reached": true,
+  "results_audited": true,
+  "container": "codex-aero-diagnostico-estabilidad-A-v1",
+  "physical_loads_accepted": false,
+  "force_statistics_withheld": true
+}

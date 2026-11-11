@@ -1,0 +1,94 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : gmshToFoam fluid.msh
+Date   : Nov 01 2026
+Time   : 07:09:12
+Host   : "31113accb37b"
+PID    : 7
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Starting to read mesh format at line 2
+Read format version 2.2  ascii 0
+
+Starting to read physical names at line 5
+Physical names:10
+    Surface 1	inlet
+    Surface 2	outlet
+    Surface 3	walls
+    Surface 4	vaneX0
+    Surface 5	vaneX1
+    Surface 6	vaneX2
+    Surface 7	vaneY0
+    Surface 8	vaneY1
+    Surface 9	vaneY2
+    Volume 10	fluid
+
+Starting to read points at line 18
+Vertices to be read:34905
+Vertices read:34905
+
+Starting to read cells at line 34926
+Cells to be read:199819
+
+Mapping region 4 to Foam patch 0
+Mapping region 5 to Foam patch 1
+Mapping region 6 to Foam patch 2
+Mapping region 7 to Foam patch 3
+Mapping region 8 to Foam patch 4
+Mapping region 9 to Foam patch 5
+Mapping region 3 to Foam patch 6
+Mapping region 1 to Foam patch 7
+Mapping region 2 to Foam patch 8
+Mapping region 10 to Foam cellZone 0
+Cells:
+    total:181015
+    hex  :0
+    prism:0
+    pyr  :0
+    tet  :181015
+
+CellZones:
+Zone	Size
+    0	181015
+
+Skipping tag  at line 234748
+Patch 0 gets name vaneX0
+Patch 1 gets name vaneX1
+Patch 2 gets name vaneX2
+Patch 3 gets name vaneY0
+Patch 4 gets name vaneY1
+Patch 5 gets name vaneY2
+Patch 6 gets name walls
+Patch 7 gets name inlet
+Patch 8 gets name outlet
+
+Finding faces of patch 0
+Finding faces of patch 1
+Finding faces of patch 2
+Finding faces of patch 3
+Finding faces of patch 4
+Finding faces of patch 5
+Finding faces of patch 6
+Finding faces of patch 7
+Finding faces of patch 8
+
+FaceZones:
+Zone	Size
+
+Writing zone 0 to cellZone fluid and cellSet
+End
+

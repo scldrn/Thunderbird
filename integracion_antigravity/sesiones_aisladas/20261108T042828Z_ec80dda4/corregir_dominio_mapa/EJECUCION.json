@@ -1,0 +1,153 @@
+{
+  "tarea": "corregir_dominio_mapa",
+  "inicio_utc": "2026-11-08T04:28:28.166951+00:00",
+  "workspace_temporal": "/private/tmp/aero_20261108T042828Z_ec80dda4_asng5zpc/corregir_dominio_mapa",
+  "entradas_sha256": {
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/contrato_mapa_ventilador.py": "ac816919a2a96906c1120e2f863e7484c933bd14ad6ceaf631438eea8961ad42",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/test_contrato_mapa.py": "e00f8506c6b5e5510e04b4234ef38a8cea69926fa1d16113d68a8e3c001037f8",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/ejemplo_sintetico_mapa.json": "d26a8cd43e149abe63d8810c7ec1e63846912474dfdc7d591e7c9d70a3eb1908",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/esquema_contrato_v1.json": "8f0a100f3900b58d3b5e7af2462e770b993078af59fe5c93474ed8fcff0701bb",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/DOCUMENTACION_INTERFAZ.md": "632e86682b8698f27b196bc5552f924054d2dd2c9e8bbacda0bebac9c14d8877"
+  },
+  "instruccion_sha256": "063e605641557174c333bf6b83960d849cf40733b83f54aa89fa2ba96dfa4e6b",
+  "errores_locales": [
+    "La tarea no generó entregables."
+  ],
+  "pid_sesion": 84086,
+  "codigo_salida": 3,
+  "stderr": "error: Your AI credits balance is too low to continue.\nAGY_ERROR: {\"short_error\":\"RESOURCE_EXHAUSTED (code 429): Resource has been exhausted (e.g. check quota).\",\"status\":\"RESOURCE_EXHAUSTED\",\"error_code\":429,\"code_kind\":\"http\",\"retryable\":true,\"error_id\":\"5291b62f-f1eb-46dd-84e9-bd031c73c6ad-1-2008\"}\n",
+  "stdout_original": "{\"event\":\"init\",\"conversation_id\":\"e26b395e-1e05-40a8-8115-f89ab21e5cc4\",\"init\":{\"cwd\":\"/private/tmp/aero_20261108T042828Z_ec80dda4_asng5zpc/corregir_dominio_mapa\",\"tools\":[\"ask_custom_permission\",\"ask_permission\",\"ask_question\",\"browser_click_element\",\"browser_drag_pixel_to_pixel\",\"browser_get_dom\",\"browser_get_network_request\",\"browser_input\",\"browser_list_network_requests\",\"browser_mouse_down\",\"browser_mouse_up\",\"browser_move_mouse\",\"browser_press_key\",\"browser_refresh_page\",\"browser_resize_window\",\"browser_scroll\",\"browser_scroll_dom\",\"browser_select_option\",\"browser_subagent\",\"call_mcp_tool\",\"capture_browser_console_logs\",\"capture_browser_screenshot\",\"click_browser_pixel\",\"command_status\",\"define_subagent\",\"delete_knowledge\",\"execute_browser_javascript\",\"find_by_name\",\"finish\",\"generate_image\",\"grep_search\",\"invoke_subagent\",\"list_browser_pages\",\"list_dir\",\"list_permissions\",\"list_plugin_accounts\",\"list_resources\",\"manage_inbox\",\"manage_subagents\",\"manage_task\",\"multi_replace_file_content\",\"notebook_edit\",\"notebook_execution\",\"open_browser_url\",\"read_browser_page\",\"read_resource\",\"read_url_content\",\"replace_file_content\",\"run_command\",\"run_workflow\",\"schedule\",\"search_marketplace\",\"search_web\",\"sed_file\",\"send_command_input\",\"send_message\",\"view_file\",\"wait\",\"wait_5_seconds\",\"write_to_file\"],\"permission_mode\":\"proceed-in-sandbox\"}}\n{\"event\":\"step_update\",\"step_update\":{\"conversation_id\":\"e26b395e-1e05-40a8-8115-f89ab21e5cc4\",\"step_index\":0,\"state\":\"DONE\",\"step_type\":\"user_input\"}}\n{\"event\":\"step_update\",\"step_update\":{\"conversation_id\":\"e26b395e-1e05-40a8-8115-f89ab21e5cc4\",\"step_index\":1,\"state\":\"DONE\",\"step_type\":\"error_message\"}}\n{\"event\":\"result\",\"result\":{\"conversation_id\":\"e26b395e-1e05-40a8-8115-f89ab21e5cc4\",\"status\":\"ERROR\",\"response\":\"\",\"error\":\"Your AI credits balance is too low to continue.\",\"duration_seconds\":0,\"num_turns\":1,\"usage\":{\"input_tokens\":0,\"output_tokens\":0,\"thinking_tokens\":0,\"cache_read_tokens\":0,\"total_tokens\":0},\"finished_reason\":\"error\"}}\n",
+  "eventos_cli": [
+    {
+      "event": "init",
+      "conversation_id": "e26b395e-1e05-40a8-8115-f89ab21e5cc4",
+      "init": {
+        "cwd": "/private/tmp/aero_20261108T042828Z_ec80dda4_asng5zpc/corregir_dominio_mapa",
+        "tools": [
+          "ask_custom_permission",
+          "ask_permission",
+          "ask_question",
+          "browser_click_element",
+          "browser_drag_pixel_to_pixel",
+          "browser_get_dom",
+          "browser_get_network_request",
+          "browser_input",
+          "browser_list_network_requests",
+          "browser_mouse_down",
+          "browser_mouse_up",
+          "browser_move_mouse",
+          "browser_press_key",
+          "browser_refresh_page",
+          "browser_resize_window",
+          "browser_scroll",
+          "browser_scroll_dom",
+          "browser_select_option",
+          "browser_subagent",
+          "call_mcp_tool",
+          "capture_browser_console_logs",
+          "capture_browser_screenshot",
+          "click_browser_pixel",
+          "command_status",
+          "define_subagent",
+          "delete_knowledge",
+          "execute_browser_javascript",
+          "find_by_name",
+          "finish",
+          "generate_image",
+          "grep_search",
+          "invoke_subagent",
+          "list_browser_pages",
+          "list_dir",
+          "list_permissions",
+          "list_plugin_accounts",
+          "list_resources",
+          "manage_inbox",
+          "manage_subagents",
+          "manage_task",
+          "multi_replace_file_content",
+          "notebook_edit",
+          "notebook_execution",
+          "open_browser_url",
+          "read_browser_page",
+          "read_resource",
+          "read_url_content",
+          "replace_file_content",
+          "run_command",
+          "run_workflow",
+          "schedule",
+          "search_marketplace",
+          "search_web",
+          "sed_file",
+          "send_command_input",
+          "send_message",
+          "view_file",
+          "wait",
+          "wait_5_seconds",
+          "write_to_file"
+        ],
+        "permission_mode": "proceed-in-sandbox"
+      }
+    },
+    {
+      "event": "step_update",
+      "step_update": {
+        "conversation_id": "e26b395e-1e05-40a8-8115-f89ab21e5cc4",
+        "step_index": 0,
+        "state": "DONE",
+        "step_type": "user_input"
+      }
+    },
+    {
+      "event": "step_update",
+      "step_update": {
+        "conversation_id": "e26b395e-1e05-40a8-8115-f89ab21e5cc4",
+        "step_index": 1,
+        "state": "DONE",
+        "step_type": "error_message"
+      }
+    },
+    {
+      "event": "result",
+      "result": {
+        "conversation_id": "e26b395e-1e05-40a8-8115-f89ab21e5cc4",
+        "status": "ERROR",
+        "response": "",
+        "error": "Your AI credits balance is too low to continue.",
+        "duration_seconds": 0,
+        "num_turns": 1,
+        "usage": {
+          "input_tokens": 0,
+          "output_tokens": 0,
+          "thinking_tokens": 0,
+          "cache_read_tokens": 0,
+          "total_tokens": 0
+        },
+        "finished_reason": "error"
+      }
+    }
+  ],
+  "errores_herramientas": [],
+  "errores_parseo": [],
+  "respuesta_cli": {
+    "conversation_id": "e26b395e-1e05-40a8-8115-f89ab21e5cc4",
+    "status": "ERROR",
+    "response": "",
+    "error": "Your AI credits balance is too low to continue.",
+    "duration_seconds": 0,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "thinking_tokens": 0,
+      "cache_read_tokens": 0,
+      "total_tokens": 0
+    },
+    "finished_reason": "error"
+  },
+  "entradas_modificadas": [],
+  "fin_utc": "2026-11-08T04:28:31.272600+00:00",
+  "duracion_real_s": 3.106,
+  "exito_tecnico": false,
+  "requiere_revision": true,
+  "entregables_sha256": {}
+}

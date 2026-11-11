@@ -1,0 +1,6 @@
+{
+  "stage": "stopped_after_result_recovery",
+  "last_iteration": 600,
+  "all_residual_targets_met": false,
+  "note": "Final audit in CFD/ESTADO-CFD.md; no validated actuator map."
+}

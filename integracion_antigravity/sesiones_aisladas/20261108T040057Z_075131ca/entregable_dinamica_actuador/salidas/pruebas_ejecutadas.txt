@@ -1,0 +1,57 @@
+test_first_order_exact_formula_and_residuals (__main__.TestCharacteristicTimes10_50_90)
+Verifica la fórmula t = -tau * ln(1 - p) y comprueba residuales < 1e-15. ... ok
+test_known_analytical_values (__main__.TestCharacteristicTimes10_50_90)
+Comprueba los valores analíticos conocidos teóricamente. ... ok
+test_scaling_invariance_u_dimensionless (__main__.TestCharacteristicTimes10_50_90)
+u_p = t_p / tau debe ser rigurosamente independiente del valor de tau. ... ok
+test_second_order_solver_residuals (__main__.TestCharacteristicTimes10_50_90)
+Verifica que el solver de Halley resuelve y_2(t) = p con residuo < 1e-14. ... ok
+test_strict_temporal_ordering (__main__.TestCharacteristicTimes10_50_90)
+Verifica el ordenamiento temporal estricto: 0 < t_10 < t_50 < t_90. ... ok
+test_universal_relative_delay_ratios (__main__.TestCharacteristicTimes10_50_90)
+Verifica los factores universales de retraso u2 / u1. ... ok
+test_continuity_at_t_zero (__main__.TestContinuity)
+Verifica continuidad de y(t) en t = 0: ... ok
+test_continuity_over_t_ge_0_lipschitz (__main__.TestContinuity)
+Verifica que y(t) es uniformemente Lipschitz-continua en [0, inf): ... ok
+test_derivative_continuity_contrast_at_t_zero (__main__.TestContinuity)
+Verifica la regularidad de derivadas en t = 0: ... ok
+test_rate_limited_continuity_at_switching_point (__main__.TestContinuity)
+Verifica la continuidad C^1 en el punto de transición t_sat para 1er orden con rampa: ... ok
+test_asymptotic_convergence_t_infinity (__main__.TestDomainLimits_t_ge_0)
+Cuando t -> inf: y_1(t) -> 1, y_2(t) -> 1, y error e_2 / e_1 = 1 + t/tau. ... ok
+test_causality_for_t_negative (__main__.TestDomainLimits_t_ge_0)
+Para t < 0, la respuesta causal es estrictamente 0. ... ok
+test_initial_boundary_t_zero (__main__.TestDomainLimits_t_ge_0)
+Valores y derivadas en la frontera inicial t = 0. ... ok
+test_monotonicity_and_bounds_for_t_positive (__main__.TestDomainLimits_t_ge_0)
+Para todo t > 0: 0 < y(t) < 1, dy/dt > 0, y y_1(t) > y_2(t). ... ok
+test_second_order_inflection_point (__main__.TestDomainLimits_t_ge_0)
+En t = tau: d2y_2/dt2 = 0, y_2(tau) = 1 - 2/e, dy_2/dt es máxima con valor 1/(e*tau). ... ok
+test_limit_tau_approaching_infinity_frozen (__main__.TestDomainLimits_tau_gt_0)
+Cuando tau -> inf (actuador congelado/sin respuesta): ... ok
+test_limit_tau_approaching_zero_ultrafast (__main__.TestDomainLimits_tau_gt_0)
+Cuando tau -> 0+ (actuador ultra-rápido/ideal): ... ok
+test_linear_scaling_with_tau (__main__.TestDomainLimits_tau_gt_0)
+El tiempo al porcentaje p escala linealmente con tau: t_p(2*tau) = 2 * t_p(tau). ... ok
+test_percentage_open_interval_constraint (__main__.TestInputValidationAndDomainConstraints)
+El porcentaje p debe pertenecer al intervalo abierto (0, 1). ... ok
+test_rate_positive_constraint (__main__.TestInputValidationAndDomainConstraints)
+La tasa máxima R debe ser estrictamente positiva (R > 0). ... ok
+test_tau_positive_constraint (__main__.TestInputValidationAndDomainConstraints)
+tau debe ser estrictamente positivo (> 0); tau <= 0 debe lanzar ValueError. ... ok
+test_rk4_convergence_rate_order_4 (__main__.TestNumericalIntegrationAndConvergence)
+Verifica que el error global de RK4 decrece como O(dt^4) al reducir el paso a la mitad. ... ok
+test_rate_limit_inactive_when_R_large (__main__.TestSlewRateLimitingAndRamps)
+Si R >= 1/tau, la cota nunca se satura y coincide con el modelo lineal. ... ok
+test_rate_limit_pure_ramp_phase (__main__.TestSlewRateLimitingAndRamps)
+En régimen de rampa pura (p <= 1 - R*tau), t(p) = p / R exactamente. ... ok
+test_rate_limited_matches_simulation (__main__.TestSlewRateLimitingAndRamps)
+Verifica que la solución analítica con rampa coincide con la simulación numérica. ... ok
+test_second_order_rate_limit_thresholds (__main__.TestSlewRateLimitingAndRamps)
+Para 2do orden, si 1/(e*tau) > R satura; si 1/(e*tau) <= R no satura. ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.046s
+
+OK

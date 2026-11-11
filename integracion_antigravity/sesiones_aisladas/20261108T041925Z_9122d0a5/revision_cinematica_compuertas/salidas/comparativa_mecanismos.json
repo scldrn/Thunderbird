@@ -1,0 +1,33 @@
+{
+  "statement_on_fit_and_manufacturability": "DECLARACI\u00d3N EXPL\u00cdCITA Y OBLIGATORIA: Ninguno de los dos conceptos mec\u00e1nicos ha sido aprobado, fabricado ni sometido a estudio de empaquetamiento volum\u00e9trico en el espacio interior de las camisas o el fuselaje. No se afirma que quepan, ni su fabricabilidad, ni viabilidad de vuelo.",
+  "concept_1": {
+    "nombre": "Carro lineal + Bisagra transportada (Cadena serial PR)",
+    "topologia": "Par prism\u00e1tico (P) normal seguido de par revoluta (R) sobre el carro m\u00f3vil",
+    "descripcion": "Un carro lineal gu\u00eda la traslaci\u00f3n pura de 10 mm normal al fuselaje (+Z/-Z). Al finalizar la carrera, el eje de rotaci\u00f3n montado sobre el carro permite girar los 110 grados hacia el exterior.",
+    "ventajas": [
+      "Desacoplamiento cinem\u00e1tico natural e independiente de ambos grados de libertad.",
+      "Menores concentraciones de tensiones de contacto (contacto superficial en gu\u00edas y casquillos).",
+      "Facilidad de ajuste de carrera o \u00e1ngulo mediante software o topes ajustables."
+    ],
+    "desventajas_y_desafios": [
+      "Mayor masa no suspendida sobre el carro m\u00f3vil y mayor n\u00famero de piezas.",
+      "Susceptibilidad a bloqueo por ladeo ('cocking/binding') bajo momentos aerodin\u00e1micos o de flexi\u00f3n.",
+      "Dificultades de estanqueidad y sellado contra flujo y part\u00edculas en los carriles lineales."
+    ]
+  },
+  "concept_2": {
+    "nombre": "Ranura / Cam con guiado de seguidor (Mecanismo de leva de ranura)",
+    "topologia": "Par cinem\u00e1tico superior (leva de ranura programada de 1-DOF con rodillo seguidor)",
+    "descripcion": "Una pista ranurada fija contiene un tramo rectil\u00edneo vertical de 10 mm y un tramo circular de 110 grados subtendido en el radio de giro. Un \u00fanico actuador empuja el seguidor.",
+    "ventajas": [
+      "Sincronizaci\u00f3n cinem\u00e1tica intr\u00ednseca: la geometr\u00eda de la ranura impide el giro antes del lift.",
+      "Actuador \u00fanico y fijo r\u00edgidamente a la estructura del fuselaje (menor masa m\u00f3vil).",
+      "Menor conteo de piezas estructurales discretas si se integra en costillas."
+    ],
+    "desventajas_y_desafios": [
+      "Contacto lineal/puntual de Hertz: elevadas tensiones de contacto, riesgo de desgaste o picado.",
+      "\u00c1ngulo de presi\u00f3n cr\u00edtico en la transici\u00f3n entre tramo recto y curvo (riesgo de autoenclavamiento).",
+      "Rigidez total de dise\u00f1o: cualquier modificaci\u00f3n de trayectoria exige mecanizar nuevas placas."
+    ]
+  }
+}

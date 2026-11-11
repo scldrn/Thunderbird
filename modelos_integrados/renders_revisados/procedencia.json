@@ -1,0 +1,15 @@
+{
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/candidato_ejes/5kg/integracion_desplegada.step",
+  "sha256": "bac999037fc3eb4d3e1f06efd6f8b5b0fa576d7429d9874893a70c8cc9c84791",
+  "samples": 128,
+  "resolution": [
+    2200,
+    1400
+  ],
+  "renderer": "Mitsuba CPU",
+  "display_only": [
+    "palas",
+    "ejes y bujes cil\u00edndricos"
+  ],
+  "revision": "ejes revisados"
+}

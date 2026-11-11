@@ -1,0 +1,14 @@
+{
+  "inicio_utc": "2026-11-08T04:28:28.166738+00:00",
+  "estado": "completado",
+  "tareas": [
+    "corregir_dominio_mapa"
+  ],
+  "trabajadores": 1,
+  "workspace_temporal": "/private/tmp/aero_20261108T042828Z_ec80dda4_asng5zpc",
+  "fin_utc": "2026-11-08T04:28:31.274131+00:00",
+  "recolectadas": 1,
+  "requieren_revision": [
+    "corregir_dominio_mapa"
+  ]
+}

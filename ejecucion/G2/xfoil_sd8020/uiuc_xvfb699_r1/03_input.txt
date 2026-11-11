@@ -1,0 +1,17 @@
+LOAD /tmp/sd8020.dat
+PPAR
+N 240
+
+
+PANE
+OPER
+VISC 61400
+MACH 0
+ITER 200
+PACC
+/tmp/v699_03.txt
+
+ALFA -1.81
+PACC
+
+QUIT

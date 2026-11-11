@@ -1,0 +1,300 @@
+[
+  {
+    "case": "conducto_X0_Y0_h0.006",
+    "last_iteration": 600.0,
+    "residuals_last": {
+      "Ux": 6.76816036e-05,
+      "Uy": 6.54602598e-05,
+      "Uz": 1.53612221e-05,
+      "p": 0.000174760945,
+      "omega": 4.28044352e-06,
+      "k": 9.5349209e-06
+    },
+    "all_declared_residual_targets_met": false,
+    "solver_reported_convergence": false,
+    "relative_flux_imbalance": {
+      "last": 8.419407076236628e-08,
+      "mean_tail": 2.0498992935723585e-07,
+      "min_tail": 2.715937738158218e-09,
+      "max_tail": 5.404716151702545e-07
+    },
+    "static_pressure_difference_Pa_last": 161.55481263250002,
+    "area_mean_outlet_velocity_ms_last": [
+      0.02160959538,
+      0.007854070869,
+      -40.05260455
+    ],
+    "forces": [
+      {
+        "patch": "force_vaneX0",
+        "last_force_N": [
+          0.00069255793414,
+          -0.027857956867270002,
+          -0.09114641448199999
+        ],
+        "last_moment_Nm": [
+          5.27765187459e-05,
+          -1.2886708075e-05,
+          3.34365242928e-05
+        ],
+        "axis_moment_Nm": {
+          "last": 5.27765187459e-05,
+          "mean_tail": 5.272446204298e-05,
+          "min_tail": 5.26117470932e-05,
+          "max_tail": 5.278830913382e-05
+        },
+        "force_tail_range_N": 9.709338055704864e-05
+      },
+      {
+        "patch": "force_vaneX1",
+        "last_force_N": [
+          -9.081506279e-05,
+          -0.00402632831255,
+          -0.133907973534
+        ],
+        "last_moment_Nm": [
+          3.5424275191e-06,
+          2.098996207e-05,
+          -0.000211875098934
+        ],
+        "axis_moment_Nm": {
+          "last": 3.5424275191e-06,
+          "mean_tail": 2.865362003344e-06,
+          "min_tail": 2.4063859347999997e-06,
+          "max_tail": 3.5688893431e-06
+        },
+        "force_tail_range_N": 0.0003201138416639734
+      },
+      {
+        "patch": "force_vaneX2",
+        "last_force_N": [
+          -1.7289960199999986e-06,
+          0.015853719941269998,
+          -0.087567076351
+        ],
+        "last_moment_Nm": [
+          -9.527828730853e-05,
+          1.3826889347e-06,
+          -4.9677948244e-05
+        ],
+        "axis_moment_Nm": {
+          "last": -9.527828730853e-05,
+          "mean_tail": -9.52754658630716e-05,
+          "min_tail": -9.530326215644e-05,
+          "max_tail": -9.525439044264999e-05
+        },
+        "force_tail_range_N": 3.643033165248073e-05
+      },
+      {
+        "patch": "force_vaneY0",
+        "last_force_N": [
+          0.0001331739096,
+          0.00040170509265,
+          -0.087675759541
+        ],
+        "last_moment_Nm": [
+          -1.9415743808e-05,
+          4.9959408939999997e-08,
+          -5.5601644661200004e-05
+        ],
+        "axis_moment_Nm": {
+          "last": 4.9959408939999997e-08,
+          "mean_tail": -4.6310617386244996e-07,
+          "min_tail": -3.16742071241e-06,
+          "max_tail": 1.9932358374799997e-06
+        },
+        "force_tail_range_N": 0.0016831201514019242
+      },
+      {
+        "patch": "force_vaneY1",
+        "last_force_N": [
+          0.012337150116362,
+          0.00037533582115,
+          -0.13722820090100002
+        ],
+        "last_moment_Nm": [
+          1.8432348521e-05,
+          -2.4550380498899997e-05,
+          0.0004484354884757
+        ],
+        "axis_moment_Nm": {
+          "last": -2.4550380498899997e-05,
+          "mean_tail": -2.4630940278246e-05,
+          "min_tail": -2.49226437038e-05,
+          "max_tail": -2.42419308024e-05
+        },
+        "force_tail_range_N": 0.00032169474016869985
+      },
+      {
+        "patch": "force_vaneY2",
+        "last_force_N": [
+          -0.00446154260729,
+          -0.00015754906411,
+          -0.08870116874100001
+        ],
+        "last_moment_Nm": [
+          -1.3830880902e-06,
+          -1.03302468771e-05,
+          4.15529652889e-05
+        ],
+        "axis_moment_Nm": {
+          "last": -1.03302468771e-05,
+          "mean_tail": -1.0329068989986001e-05,
+          "min_tail": -1.0334987610800001e-05,
+          "max_tail": -1.03184500108e-05
+        },
+        "force_tail_range_N": 1.2878757490569482e-05
+      }
+    ],
+    "interpretation": "Diagnostic raw prototype CFD values; not installed thrust, electric power, validated vane effectiveness or servo sizing. Grid, wall treatment and outlet sensitivity unresolved."
+  },
+  {
+    "case": "conducto_X35_Y-35_h0.006",
+    "last_iteration": 300.0,
+    "residuals_last": {
+      "Ux": 0.00621895718,
+      "Uy": 0.00678836429,
+      "Uz": 0.00356474167,
+      "p": 0.024867627,
+      "omega": 0.0022706046,
+      "k": 0.00508452853
+    },
+    "all_declared_residual_targets_met": false,
+    "solver_reported_convergence": false,
+    "relative_flux_imbalance": {
+      "last": 4.7007450831749535e-05,
+      "mean_tail": 4.0869313792788484e-05,
+      "min_tail": 5.62561242329234e-06,
+      "max_tail": 5.763672593013975e-05
+    },
+    "static_pressure_difference_Pa_last": 2675.4829741500002,
+    "area_mean_outlet_velocity_ms_last": [
+      9.49744313,
+      2.990132217,
+      -40.35418422
+    ],
+    "forces": [
+      {
+        "patch": "force_vaneX0",
+        "last_force_N": [
+          -0.003022941247,
+          -1.7323857242577998,
+          -1.3968237291699999
+        ],
+        "last_moment_Nm": [
+          0.003319174628366,
+          -8.287068392599999e-05,
+          -0.000128823418771
+        ],
+        "axis_moment_Nm": {
+          "last": 0.003319174628366,
+          "mean_tail": 0.00322054511854384,
+          "min_tail": 0.003093044900732,
+          "max_tail": 0.003319174628366
+        },
+        "force_tail_range_N": 0.08930431258546467
+      },
+      {
+        "patch": "force_vaneX1",
+        "last_force_N": [
+          -0.0021444010018,
+          -2.2346812794013,
+          -1.78933221245
+        ],
+        "last_moment_Nm": [
+          0.003937739243263,
+          4.638151739999999e-05,
+          -0.0006538736601999999
+        ],
+        "axis_moment_Nm": {
+          "last": 0.003937739243263,
+          "mean_tail": 0.00398755578601194,
+          "min_tail": 0.003937739243263,
+          "max_tail": 0.004021119853113
+        },
+        "force_tail_range_N": 0.07769329531296233
+      },
+      {
+        "patch": "force_vaneX2",
+        "last_force_N": [
+          0.0083014422435,
+          -1.2608741700789998,
+          -1.0246615317860002
+        ],
+        "last_moment_Nm": [
+          0.002150134493765,
+          0.0002633938923449,
+          -0.000487854787027
+        ],
+        "axis_moment_Nm": {
+          "last": 0.002150134493765,
+          "mean_tail": 0.0020697475985124,
+          "min_tail": 0.002027350286714,
+          "max_tail": 0.002150134493765
+        },
+        "force_tail_range_N": 0.0900769052274982
+      },
+      {
+        "patch": "force_vaneY0",
+        "last_force_N": [
+          -0.243100562565,
+          -0.0090605448162,
+          -0.339849634655
+        ],
+        "last_moment_Nm": [
+          -0.0009391925092799999,
+          -0.00097976907013099,
+          0.000926156727244
+        ],
+        "axis_moment_Nm": {
+          "last": -0.00097976907013099,
+          "mean_tail": -0.0012126987756163861,
+          "min_tail": -0.0014236792981416999,
+          "max_tail": -0.0009609842421284
+        },
+        "force_tail_range_N": 0.11156615883860456
+      },
+      {
+        "patch": "force_vaneY1",
+        "last_force_N": [
+          -1.9907955392140002,
+          -0.001086514075,
+          -1.6152970600999998
+        ],
+        "last_moment_Nm": [
+          -0.00433612628257,
+          -0.004339540756426999,
+          0.005321271389920001
+        ],
+        "axis_moment_Nm": {
+          "last": -0.004339540756426999,
+          "mean_tail": -0.0045284463740366794,
+          "min_tail": -0.004673106705253,
+          "max_tail": -0.004339540756426999
+        },
+        "force_tail_range_N": 0.23234475571820234
+      },
+      {
+        "patch": "force_vaneY2",
+        "last_force_N": [
+          -1.9010569424700001,
+          -0.007346931848,
+          -1.388778549894
+        ],
+        "last_moment_Nm": [
+          -0.00031086391065,
+          -0.0031102199463200002,
+          -3.00552631e-05
+        ],
+        "axis_moment_Nm": {
+          "last": -0.0031102199463200002,
+          "mean_tail": -0.00314416273757886,
+          "min_tail": -0.00321375469569,
+          "max_tail": -0.0030299732975700004
+        },
+        "force_tail_range_N": 0.12247403728100995
+      }
+    ],
+    "interpretation": "Diagnostic raw prototype CFD values; not installed thrust, electric power, validated vane effectiveness or servo sizing. Grid, wall treatment and outlet sensitivity unresolved."
+  }
+]

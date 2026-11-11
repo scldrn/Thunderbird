@@ -1,0 +1,97 @@
+{
+  "source_sha256": "5e6d951919ad7420f8cb22c4711c16e867f3ce5168b259d4c76ca9d656b35791",
+  "code_sha256": "bfc669d8588ca7ad43b809fdcee65b009f90dde069c1e09b268d895a1d9d9c21",
+  "scope": "shared stem nodes row 0 only; first collision, sampled poses; no joint design",
+  "cases": [
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "radius_mm": 0.75,
+      "center_mm": [
+        -164.0,
+        -92.0461941050922,
+        95.23257142429432
+      ],
+      "intentional_stem_overlap_mm3": 1.3089969028271038,
+      "first_collision": null,
+      "checks": 64,
+      "error": null,
+      "passes": true
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "radius_mm": 1.0,
+      "center_mm": [
+        -164.0,
+        -92.0461941050922,
+        95.23257142429432
+      ],
+      "intentional_stem_overlap_mm3": 1.930111193397607,
+      "first_collision": null,
+      "checks": 64,
+      "error": null,
+      "passes": true
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "radius_mm": 1.5,
+      "center_mm": [
+        -164.0,
+        -92.0461941050922,
+        95.23257142429432
+      ],
+      "intentional_stem_overlap_mm3": 2.919188865837756,
+      "first_collision": null,
+      "checks": 64,
+      "error": null,
+      "passes": true
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "radius_mm": 0.75,
+      "center_mm": [
+        -164.0,
+        -69.1461940560366,
+        107.22189964717799
+      ],
+      "intentional_stem_overlap_mm3": 0.0,
+      "first_collision": null,
+      "checks": 0,
+      "error": "ValueError('missing intended stem connection')",
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "radius_mm": 1.0,
+      "center_mm": [
+        -164.0,
+        -69.1461940560366,
+        107.22189964717799
+      ],
+      "intentional_stem_overlap_mm3": 1.9301112027192187,
+      "first_collision": null,
+      "checks": 64,
+      "error": null,
+      "passes": true
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "radius_mm": 1.5,
+      "center_mm": [
+        -164.0,
+        -69.1461940560366,
+        107.22189964717799
+      ],
+      "intentional_stem_overlap_mm3": 2.919188865850942,
+      "first_collision": null,
+      "checks": 64,
+      "error": null,
+      "passes": true
+    }
+  ]
+}

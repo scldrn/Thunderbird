@@ -1,0 +1,6 @@
+{
+  "uniform_vector_known_values_pass": true,
+  "nonuniform_scalar_known_values_pass": true,
+  "rejected_truncation_wrong_count_nonfinite": true,
+  "scope": "ASCII field parsing only, not aerodynamic validation"
+}

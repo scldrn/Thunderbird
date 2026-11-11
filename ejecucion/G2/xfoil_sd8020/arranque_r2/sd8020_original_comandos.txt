@@ -1,0 +1,8 @@
+PLOP
+G
+
+LOAD /tmp/sd8020.dat
+OPER
+ALFA 2
+
+QUIT

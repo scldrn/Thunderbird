@@ -1,0 +1,77 @@
+{
+  "A07_sha256": "49cc51974b5ae56dc10c77dc07da25c9025f9906ce34954303e322e02d62f3e2",
+  "canonical_configuration_changed": false,
+  "trials": [
+    {
+      "file": "rotor_8palas_D82mm_CCW.step",
+      "source_sha256": "25595624c9d54f0c221e63be35af5e1781f4055b40944117301e3c5c37ebb465",
+      "replacement_datum_CAD_mm": [
+        -200,
+        -76,
+        7.75
+      ],
+      "tested_pairs": 6,
+      "tested_part_names": [
+        "carroceria_superior",
+        "canal_0_base_motor_3",
+        "canal_0_alabe_0_superior_X_0",
+        "canal_0_alabe_0_superior_X_1",
+        "canal_0_alabe_0_superior_X_2",
+        "conducto_0_84mm_con_taladros"
+      ],
+      "intersections": [
+        {
+          "part": "canal_0_base_motor_3",
+          "nominal_overlap_mm3": 3970.2486628715797
+        },
+        {
+          "part": "canal_0_alabe_0_superior_X_1",
+          "nominal_overlap_mm3": 148.51839363012192
+        }
+      ],
+      "fits_without_changes": false,
+      "scope": "fan0 nominal closed pose; not swept rotor clearance, tolerance or modified integration"
+    },
+    {
+      "file": "rotor_8palas_D102.5mm_CCW.step",
+      "source_sha256": "708c15b4370d009cb0c6c88a3354672d5f03e6b5752976ca4ee54e55a1775f64",
+      "replacement_datum_CAD_mm": [
+        -200,
+        -76,
+        7.75
+      ],
+      "tested_pairs": 9,
+      "tested_part_names": [
+        "carroceria_superior",
+        "carroceria_inferior",
+        "canal_0_base_motor_3",
+        "canal_0_alabe_0_superior_X_0",
+        "canal_0_alabe_0_superior_X_1",
+        "canal_0_alabe_0_superior_X_2",
+        "conducto_0_84mm_con_taladros",
+        "alojamiento_actuador_0_2",
+        "canal_axial_60_exterior_56_interior"
+      ],
+      "intersections": [
+        {
+          "part": "canal_0_base_motor_3",
+          "nominal_overlap_mm3": 4743.967048689867
+        },
+        {
+          "part": "canal_0_alabe_0_superior_X_1",
+          "nominal_overlap_mm3": 264.93350310721496
+        },
+        {
+          "part": "conducto_0_84mm_con_taladros",
+          "nominal_overlap_mm3": 233.13539243256983
+        },
+        {
+          "part": "canal_axial_60_exterior_56_interior",
+          "nominal_overlap_mm3": 15.07019716738143
+        }
+      ],
+      "fits_without_changes": false,
+      "scope": "fan0 nominal closed pose; not swept rotor clearance, tolerance or modified integration"
+    }
+  ]
+}

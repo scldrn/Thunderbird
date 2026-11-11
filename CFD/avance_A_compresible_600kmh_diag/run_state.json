@@ -1,0 +1,10 @@
+{
+  "container": "codex-aero-avance-compresible-600-v1",
+  "physical_loads_accepted": false,
+  "stage": "steady_diagnostic_exited",
+  "exit_code": 134,
+  "last_steady_iteration": 3.0,
+  "requested_iterations_reached": false,
+  "health_stop_requested": false,
+  "results_audited": false
+}

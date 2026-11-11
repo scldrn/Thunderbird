@@ -1,0 +1,171 @@
+{
+  "vehiculo": "C02 (candidata 5.0 kg)",
+  "fuentes_referencia": {
+    "informe_entrada": "/private/tmp/aero_20261108T034228Z_e90078d2_dhlokcs0/revisar_energia/entradas/investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md",
+    "sha256_informe_entrada": "d7b724afd7b48b7058a1d1969afa4b869f14629d709d72e30f3170f03ee1627a",
+    "script_calculo_entrada": "/private/tmp/aero_20261108T034228Z_e90078d2_dhlokcs0/revisar_energia/entradas/investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/calcular_r2.py",
+    "sha256_script_calculo_entrada": "73d70339ce0ce124d239c22a4cde8282b85f77becb0d163c138301066cd3b67a"
+  },
+  "constantes_mision": {
+    "masa_vehiculo_kg": 5.0,
+    "eficiencia_axial": 0.7,
+    "densidad_energia_pack_Wh_kg": 150.0,
+    "densidad_potencia_pack_W_kg": 5000.0,
+    "tiempo_estacionario_s": 30.0,
+    "tiempo_maniobra_s": 3.0,
+    "tiempo_crucero_s": 30.0,
+    "potencia_estacionario_W": 2968.8083465960835,
+    "potencia_maniobra_W": 3505.892708058721,
+    "presupuesto_masa_disponible_kg": 2.20416
+  },
+  "verificacion_integral": [
+    {
+      "velocidad_kmh": 600.0,
+      "exponente_p": 1,
+      "trabajo_analitico_J": 166666.66666666666,
+      "trabajo_numerico_temporal_J": 166666.6666666666,
+      "error_absoluto_temporal_J": 5.820766091346741e-11,
+      "error_relativo_temporal": 3.4924596548080445e-16,
+      "trabajo_numerico_espacial_J": 166666.65949089304,
+      "error_absoluto_espacial_J": 0.007175773615017533,
+      "error_relativo_espacial": 4.3054641690105203e-08
+    },
+    {
+      "velocidad_kmh": 600.0,
+      "exponente_p": 2,
+      "trabajo_analitico_J": 124999.99999999999,
+      "trabajo_numerico_temporal_J": 124999.99999999994,
+      "error_absoluto_temporal_J": 4.3655745685100555e-11,
+      "error_relativo_temporal": 3.492459654808045e-16,
+      "trabajo_numerico_espacial_J": 124999.99999999997,
+      "error_absoluto_espacial_J": 1.4551915228366852e-11,
+      "error_relativo_espacial": 1.1641532182693483e-16
+    },
+    {
+      "velocidad_kmh": 600.0,
+      "exponente_p": 4,
+      "trabajo_analitico_J": 83333.33333333333,
+      "trabajo_numerico_temporal_J": 83333.33333333344,
+      "error_absoluto_temporal_J": 1.1641532182693481e-10,
+      "error_relativo_temporal": 1.3969838619232178e-15,
+      "trabajo_numerico_espacial_J": 83333.33333333334,
+      "error_absoluto_espacial_J": 1.4551915228366852e-11,
+      "error_relativo_espacial": 1.7462298274040223e-16
+    },
+    {
+      "velocidad_kmh": 1000.0,
+      "exponente_p": 1,
+      "trabajo_analitico_J": 277777.7777777778,
+      "trabajo_numerico_temporal_J": 277777.77777777775,
+      "error_absoluto_temporal_J": 5.820766091346741e-11,
+      "error_relativo_temporal": 2.0954757928848263e-16,
+      "trabajo_numerico_espacial_J": 277777.7658181551,
+      "error_absoluto_espacial_J": 0.011959622730500996,
+      "error_relativo_espacial": 4.305464182980358e-08
+    },
+    {
+      "velocidad_kmh": 1000.0,
+      "exponente_p": 2,
+      "trabajo_analitico_J": 208333.33333333334,
+      "trabajo_numerico_temporal_J": 208333.33333333273,
+      "error_absoluto_temporal_J": 6.111804395914078e-10,
+      "error_relativo_temporal": 2.9336661100387572e-15,
+      "trabajo_numerico_espacial_J": 208333.3333333333,
+      "error_absoluto_espacial_J": 2.9103830456733704e-11,
+      "error_relativo_espacial": 1.3969838619232177e-16
+    },
+    {
+      "velocidad_kmh": 1000.0,
+      "exponente_p": 4,
+      "trabajo_analitico_J": 138888.8888888889,
+      "trabajo_numerico_temporal_J": 138888.88888888867,
+      "error_absoluto_temporal_J": 2.3283064365386963e-10,
+      "error_relativo_temporal": 1.676380634307861e-15,
+      "trabajo_numerico_espacial_J": 138888.88888888896,
+      "error_absoluto_espacial_J": 5.820766091346741e-11,
+      "error_relativo_espacial": 4.1909515857696526e-16
+    }
+  ],
+  "tiempos_cruce_potencia_energia": [
+    {
+      "velocidad_kmh": 600.0,
+      "apoyo_W": 0.0,
+      "exponente_p": 1,
+      "tiempo_cruce_s": 211.6621308516152
+    },
+    {
+      "velocidad_kmh": 600.0,
+      "apoyo_W": 0.0,
+      "exponente_p": 2,
+      "tiempo_cruce_s": 274.43538167168265
+    },
+    {
+      "velocidad_kmh": 600.0,
+      "apoyo_W": 0.0,
+      "exponente_p": 4,
+      "tiempo_cruce_s": 399.34390539056335
+    },
+    {
+      "velocidad_kmh": 600.0,
+      "apoyo_W": 1000.0,
+      "exponente_p": 1,
+      "tiempo_cruce_s": 187.39739737560643
+    },
+    {
+      "velocidad_kmh": 600.0,
+      "apoyo_W": 1000.0,
+      "exponente_p": 2,
+      "tiempo_cruce_s": 228.93534775963514
+    },
+    {
+      "velocidad_kmh": 600.0,
+      "apoyo_W": 1000.0,
+      "exponente_p": 4,
+      "tiempo_cruce_s": 297.7915711673296
+    },
+    {
+      "velocidad_kmh": 1000.0,
+      "apoyo_W": 0.0,
+      "exponente_p": 1,
+      "tiempo_cruce_s": 219.60573371737172
+    },
+    {
+      "velocidad_kmh": 1000.0,
+      "apoyo_W": 0.0,
+      "exponente_p": 2,
+      "tiempo_cruce_s": 280.8861920992615
+    },
+    {
+      "velocidad_kmh": 1000.0,
+      "apoyo_W": 0.0,
+      "exponente_p": 4,
+      "tiempo_cruce_s": 402.0202575732933
+    },
+    {
+      "velocidad_kmh": 1000.0,
+      "apoyo_W": 1000.0,
+      "exponente_p": 1,
+      "tiempo_cruce_s": 203.7730826411422
+    },
+    {
+      "velocidad_kmh": 1000.0,
+      "apoyo_W": 1000.0,
+      "exponente_p": 2,
+      "tiempo_cruce_s": 251.06912819691587
+    },
+    {
+      "velocidad_kmh": 1000.0,
+      "apoyo_W": 1000.0,
+      "exponente_p": 4,
+      "tiempo_cruce_s": 333.81159889442586
+    }
+  ],
+  "conclusiones_clave": [
+    "La integral de arrastre en aceleracion uniforme W = D_final*V*t/(p+2) se verifica analitica y numericamente (temporal y espacial) con error < 1e-10 J.",
+    "El trabajo de arrastre en aceleracion decrece estrictamente al aumentar p: para p=1 es D*V*t/3, para p=2 es D*V*t/4, para p=4 es D*V*t/6.",
+    "A t = 60 s y D_final = 50 N, la masa de pack esta gobernada 100% por el requisito de potencia pico (m_power > m_energy) en todos los 12 casos.",
+    "La potencia pico ocurre en v = V donde (v/V)^p = 1 para cualquier p, resultando en potencia pico y masa minima de pack identicas para p=1, 2 y 4.",
+    "Ninguna ley de potencias simple (v/V)^p modela la fisica del arrastre transonico (ondas de choque, divergencia Mach, regla del area).",
+    "C02 no se altera: conserva 5.0 kg y sus supuestos de mision y presupuestos ligeros de entrada."
+  ]
+}

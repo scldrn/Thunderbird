@@ -1,0 +1,14 @@
+{
+  "alcance": "Hélice abierta; no valida C02",
+  "codigo_origen": "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas",
+  "nota": "Afirmaciones y una aserción sin fuente eliminadas; el CSV regenerado coincide con el candidato previo.",
+  "pruebas": "11 unit tests en Python estándar, correctas",
+  "archivos_sha256": {
+    "README.md": "3e89e3b1daff716a052c0b517b1d10d9b1d9fa8f7bfffad509e4a284f072d598",
+    "datos/mi_3.2x2.2_0544rd_20051.txt": "6f3b8d49f0a4595059ea44befe8d946a6044c2a7b97e5eeeeab9051d02e22300",
+    "datos/mi_3.2x2.2_geom.txt": "a709e55616905f8e626f4d83fa05d97f2e316e684afa418de972c38301ec3b61",
+    "procesar_uiuc_prop.py": "5a78837abeb575b48f75b3e2e777dc77135f1d618510384054ec4ce746be3c9f",
+    "test_procesar_uiuc_prop.py": "06f09aa3efa0f48ec7e5720bbe135f2d2fd272e733324d1d6a2ee21f295265e2",
+    "uiuc_mi_3.2x2.2_20051_procesado.csv": "c4ea07cc12d12303f32e0237c1fceae3239890218c2890c7f9cfcc9bb808cf88"
+  }
+}

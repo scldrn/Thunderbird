@@ -1,0 +1,106 @@
+[
+  {
+    "name": "compuerta_C02_0_superior",
+    "axis_closed": [
+      -160.0,
+      -124,
+      67.97676834139618
+    ],
+    "out": 1,
+    "sign": 1,
+    "lift_mm": 10.0,
+    "angle_deg": 110.0,
+    "scope": "conceptual two-coordinate motion; guides/hinges/locks not synthesized"
+  },
+  {
+    "name": "compuerta_C02_0_inferior",
+    "axis_closed": [
+      -160.0,
+      -124,
+      -55.90329588517128
+    ],
+    "out": -1,
+    "sign": -1,
+    "lift_mm": 10.0,
+    "angle_deg": 110.0,
+    "scope": "conceptual two-coordinate motion; guides/hinges/locks not synthesized"
+  },
+  {
+    "name": "compuerta_C02_1_superior",
+    "axis_closed": [
+      -160.0,
+      124,
+      67.97676834041076
+    ],
+    "out": 1,
+    "sign": -1,
+    "lift_mm": 10.0,
+    "angle_deg": 110.0,
+    "scope": "conceptual two-coordinate motion; guides/hinges/locks not synthesized"
+  },
+  {
+    "name": "compuerta_C02_1_inferior",
+    "axis_closed": [
+      -160.0,
+      124,
+      -55.90329588515871
+    ],
+    "out": -1,
+    "sign": 1,
+    "lift_mm": 10.0,
+    "angle_deg": 110.0,
+    "scope": "conceptual two-coordinate motion; guides/hinges/locks not synthesized"
+  },
+  {
+    "name": "compuerta_C02_2_superior",
+    "axis_closed": [
+      160.0,
+      -124,
+      54.90773263772802
+    ],
+    "out": 1,
+    "sign": 1,
+    "lift_mm": 10.0,
+    "angle_deg": 110.0,
+    "scope": "conceptual two-coordinate motion; guides/hinges/locks not synthesized"
+  },
+  {
+    "name": "compuerta_C02_2_inferior",
+    "axis_closed": [
+      160.0,
+      -124,
+      -41.68687672097969
+    ],
+    "out": -1,
+    "sign": -1,
+    "lift_mm": 10.0,
+    "angle_deg": 110.0,
+    "scope": "conceptual two-coordinate motion; guides/hinges/locks not synthesized"
+  },
+  {
+    "name": "compuerta_C02_3_superior",
+    "axis_closed": [
+      160.0,
+      124,
+      54.90773263766361
+    ],
+    "out": 1,
+    "sign": -1,
+    "lift_mm": 10.0,
+    "angle_deg": 110.0,
+    "scope": "conceptual two-coordinate motion; guides/hinges/locks not synthesized"
+  },
+  {
+    "name": "compuerta_C02_3_inferior",
+    "axis_closed": [
+      160.0,
+      124,
+      -41.68687672087685
+    ],
+    "out": -1,
+    "sign": 1,
+    "lift_mm": 10.0,
+    "angle_deg": 110.0,
+    "scope": "conceptual two-coordinate motion; guides/hinges/locks not synthesized"
+  }
+]

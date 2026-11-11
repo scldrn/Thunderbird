@@ -1,0 +1,90 @@
+{
+  "summary": [
+    {
+      "force_weight_multiple": 1.0,
+      "feasible_samples": 882,
+      "sample_max_W": 860.1474196098607,
+      "pseudoinverse_sample_max_W": 860.147419609861,
+      "packs": [
+        {
+          "current_A": 40,
+          "parallel": 1,
+          "pack_kg": 0.9797999999999998,
+          "remaining_after_engine_motors_fuel_pack_kg": 1.7602
+        },
+        {
+          "current_A": 60,
+          "parallel": 1,
+          "pack_kg": 0.9797999999999998,
+          "remaining_after_engine_motors_fuel_pack_kg": 1.7602
+        }
+      ]
+    },
+    {
+      "force_weight_multiple": 1.5,
+      "feasible_samples": 882,
+      "sample_max_W": 1548.7735553774055,
+      "pseudoinverse_sample_max_W": 1548.7735553774,
+      "packs": [
+        {
+          "current_A": 40,
+          "parallel": 2,
+          "pack_kg": 1.9595999999999996,
+          "remaining_after_engine_motors_fuel_pack_kg": 0.7804000000000002
+        },
+        {
+          "current_A": 60,
+          "parallel": 1,
+          "pack_kg": 0.9797999999999998,
+          "remaining_after_engine_motors_fuel_pack_kg": 1.7602
+        }
+      ]
+    },
+    {
+      "force_weight_multiple": 2.0,
+      "feasible_samples": 882,
+      "sample_max_W": 2362.2933910954353,
+      "pseudoinverse_sample_max_W": 2362.293391095428,
+      "packs": [
+        {
+          "current_A": 40,
+          "parallel": 2,
+          "pack_kg": 1.9595999999999996,
+          "remaining_after_engine_motors_fuel_pack_kg": 0.7804000000000002
+        },
+        {
+          "current_A": 60,
+          "parallel": 2,
+          "pack_kg": 1.9595999999999996,
+          "remaining_after_engine_motors_fuel_pack_kg": 0.7804000000000002
+        }
+      ]
+    }
+  ],
+  "forceballs_N": {
+    "0.0": 106.48609971503026,
+    "1.0": 101.41939801270983,
+    "2.0": 96.3526963103894
+  },
+  "max_residual": 3.268496584496461e-13,
+  "assumptions": {
+    "mass": 5,
+    "CGx": 0.05,
+    "diameter": 0.4572,
+    "effective_efficiency": 0.65,
+    "per_rotor_signed_limit_N": 40.20726499999999,
+    "directions_per_level": 126,
+    "torque_samples_Nm": [
+      0,
+      1
+    ],
+    "station_fraction": 0.25
+  },
+  "not_verified": [
+    "bidirectional thrust",
+    "continuous worst-case power",
+    "interference",
+    "new mass closure",
+    "transition"
+  ]
+}

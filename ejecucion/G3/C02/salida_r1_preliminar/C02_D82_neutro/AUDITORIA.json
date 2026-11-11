@@ -1,0 +1,53 @@
+{
+  "label": "C02_D82_neutro",
+  "parts": 54,
+  "valid": true,
+  "boolean_pairs_tested": 94,
+  "intersections": [],
+  "inside_reference_inset_hull": true,
+  "outside_reference_inset_hull": [],
+  "continuous_partial_enclosures": {
+    "vane_half_enclosing_cross_radius_mm": 8.035079339994098,
+    "upper_row_vertical_enclosure_gap_mm": 1.9298413200118034,
+    "lower_row_vertical_enclosure_gap_mm": 1.9298413200118034,
+    "lower_X_to_motor_seat_gap_mm": 1.5649206600059014,
+    "rotor_bottom_to_strut_top_gap_mm": 1.71,
+    "rotor_top_to_upper_X_enclosure_gap_mm": 3.1749206600059017,
+    "motor_to_cup_radial_gap_mm": 0.5,
+    "motor_to_cup_axial_gap_mm": 0.5,
+    "rotor_swept_cylinder_to_bore_gap_mm": 0.5
+  },
+  "pin_alignment": [
+    {
+      "row": "inferior_X",
+      "angles": 181,
+      "pins": 3,
+      "max_pin_hole_axis_error_mm": 3.552713678800501e-15,
+      "exact_identity": "delta=(+/-6sin(a),6(cos(a)-1)); common angles are a kinematic constraint, not servo performance"
+    },
+    {
+      "row": "inferior_Y",
+      "angles": 181,
+      "pins": 3,
+      "max_pin_hole_axis_error_mm": 7.105427357601002e-15,
+      "exact_identity": "delta=(+/-6sin(a),6(cos(a)-1)); common angles are a kinematic constraint, not servo performance"
+    },
+    {
+      "row": "superior_X",
+      "angles": 181,
+      "pins": 3,
+      "max_pin_hole_axis_error_mm": 3.552713678800501e-15,
+      "exact_identity": "delta=(+/-6sin(a),6(cos(a)-1)); common angles are a kinematic constraint, not servo performance"
+    },
+    {
+      "row": "superior_Y",
+      "angles": 181,
+      "pins": 3,
+      "max_pin_hole_axis_error_mm": 7.105427357601002e-15,
+      "exact_identity": "delta=(+/-6sin(a),6(cos(a)-1)); common angles are a kinematic constraint, not servo performance"
+    }
+  ],
+  "geometric_interference_free_neutral": true,
+  "all_motion_and_installed_hardware_approved": false,
+  "scope": "Neutral local nominal pairs; partial analytic motion enclosures and pin alignment; not all 4DOF collision states, aircraft interactions or loaded tolerances"
+}

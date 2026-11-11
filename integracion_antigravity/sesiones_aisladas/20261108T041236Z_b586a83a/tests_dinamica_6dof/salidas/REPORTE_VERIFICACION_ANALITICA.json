@@ -1,0 +1,72 @@
+{
+  "pruebas_analiticas_puras": {
+    "caso1_conservacion": {
+      "dt_0.02": {
+        "dt_s": 0.02,
+        "pasos": 100,
+        "max_rel_err_E": 1.6120683881933938e-08,
+        "max_rel_err_H": 2.917097209503117e-07
+      },
+      "dt_0.01": {
+        "dt_s": 0.01,
+        "pasos": 200,
+        "max_rel_err_E": 7.990243108485546e-10,
+        "max_rel_err_H": 1.827700506268177e-08
+      },
+      "dt_0.005": {
+        "dt_s": 0.005,
+        "pasos": 400,
+        "max_rel_err_E": 4.344850428371076e-11,
+        "max_rel_err_H": 1.1436095369145669e-09
+      },
+      "dt_0.0025": {
+        "dt_s": 0.0025,
+        "pasos": 800,
+        "max_rel_err_E": 2.511876797906367e-12,
+        "max_rel_err_H": 7.151610029024915e-11
+      },
+      "aprobado": true,
+      "convergencia_monotona": true
+    },
+    "caso2_cuaternion_analitico": {
+      "Omega_rad_s": 3.141592653589793,
+      "eje": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "periodo_s": 2.0,
+      "pasos": 400,
+      "max_error_geodesico_rad": 4.2146848510894035e-08,
+      "max_error_geodesico_deg": 2.4148365394514667e-06,
+      "diferencia_espinor_360deg": 3.735628993639665e-11,
+      "tolerancia_rad": 1e-07,
+      "aprobado": true
+    },
+    "caso3_par_fuerzas_rxF": {
+      "F_magnitud_N": 10.0,
+      "error_fuerza_neta_N": 0.0,
+      "torque_A_Nm": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "torque_geom_Nm": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "error_torque_vs_rxF_Nm": 0.0,
+      "error_aceleracion_lineal_vs_gravedad_ms2": 0.0,
+      "error_aceleracion_angular_vs_tau_sobre_I_rads2": 0.0,
+      "aprobado": true
+    }
+  },
+  "alcance_metodologico": {
+    "tipo": "Verificacion analitica pura en Python estandar",
+    "dependencias_externas_utilizadas": null,
+    "relacion_con_simular_py": "Valida las ecuaciones matematicas identicas implementadas en simular.py sin importar numpy/scipy. El archivo simular.py no fue modificado.",
+    "afirmacion_exito_sobre_simular_py": false,
+    "validacion_fisica_afirmada": false
+  }
+}

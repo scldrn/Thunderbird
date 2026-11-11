@@ -1,0 +1,9 @@
+NACA 0012
+OPER
+PACC
+/tmp/naca_polar.txt
+
+ALFA 2
+PACC
+
+QUIT

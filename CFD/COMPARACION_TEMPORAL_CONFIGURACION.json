@@ -1,0 +1,13 @@
+{
+  "cases": [
+    "comparacion_Euler_reinicio_h0.006",
+    "comparacion_backward_reinicio_h0.006"
+  ],
+  "identical_initial_fields": true,
+  "identical_mesh_and_models": true,
+  "only_dictionary_difference": "ddtSchemes/default Euler versus backward",
+  "startup_history_available": false,
+  "loads_accepted": false,
+  "physical_initial_age_s": 0.001,
+  "requested_restart_window_s": 0.0015
+}

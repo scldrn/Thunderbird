@@ -1,0 +1,17 @@
+{
+  "source_mesh_sha256": "e842dda28cca25e448056db4f4f2c1573fd5692ab072ea356224a4afc5b65bc7",
+  "cells": 117660,
+  "conformal_wake_verified_by_internal_face_count": true,
+  "boundary_counts_verified": true,
+  "checkMesh_exit_code": 0,
+  "checkMesh_OK": false,
+  "physical_validation_accepted": false,
+  "polyMesh_sha256": {
+    "owner": "0734b8d0c554548b239d7c156567ee22ac9b4d2dedb57016f6aec59c86924e0c",
+    "boundary": "aecca305c93b6e919925a8bf0befb293dc365eea1f6a5bd26a7edc79885d579d",
+    "neighbour": "5ebf72e62314db96879d291dcae49455a6f0b483765b84f2cd699440c2d58956",
+    "points": "85b0074dda083bd9b5211af9fa7459c9c769f0ad0cf9bc8cb737ce2a90ccd093",
+    "cellZones": "043f12ddb4628dbd9ed88af25e7c63a3ecef523b48a1241ef0e31792eba92692",
+    "faces": "5c7b01c94936d747c414549d76886557014087f1c7dc0108a920d5a8cc9c793e"
+  }
+}

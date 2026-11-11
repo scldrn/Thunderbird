@@ -1,0 +1,142 @@
+{
+  "cases": [
+    {
+      "bearing": 0,
+      "edge": 0,
+      "rail_x_mm": -215.0,
+      "first_collision": null,
+      "error": null,
+      "checks": 45,
+      "passes": true
+    },
+    {
+      "bearing": 0,
+      "edge": 0,
+      "rail_x_mm": -105.0,
+      "first_collision": null,
+      "error": null,
+      "checks": 45,
+      "passes": true
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "rail_x_mm": -215.0,
+      "first_collision": null,
+      "error": null,
+      "checks": 45,
+      "passes": true
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "rail_x_mm": -105.0,
+      "first_collision": null,
+      "error": null,
+      "checks": 45,
+      "passes": true
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "rail_x_mm": -215.0,
+      "first_collision": null,
+      "error": null,
+      "checks": 45,
+      "passes": true
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "rail_x_mm": -105.0,
+      "first_collision": null,
+      "error": null,
+      "checks": 45,
+      "passes": true
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "rail_x_mm": -215.0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 2.1256426746240296
+      },
+      "error": null,
+      "checks": 6,
+      "passes": false
+    },
+    {
+      "bearing": 1,
+      "edge": 0,
+      "rail_x_mm": -105.0,
+      "first_collision": {
+        "phase": "lift",
+        "lift_mm": 0,
+        "object": "camisa",
+        "volume_mm3": 3.647905217955346
+      },
+      "error": null,
+      "checks": 22,
+      "passes": false
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "rail_x_mm": -215.0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 2.097133757502014
+      },
+      "error": null,
+      "checks": 6,
+      "passes": false
+    },
+    {
+      "bearing": 1,
+      "edge": 1,
+      "rail_x_mm": -105.0,
+      "first_collision": {
+        "phase": "lift",
+        "lift_mm": 0,
+        "object": "camisa",
+        "volume_mm3": 3.310126157889381
+      },
+      "error": null,
+      "checks": 22,
+      "passes": false
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "rail_x_mm": -215.0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 2,
+        "volume_mm3": 1.2289686968508673
+      },
+      "error": null,
+      "checks": 7,
+      "passes": false
+    },
+    {
+      "bearing": 1,
+      "edge": 2,
+      "rail_x_mm": -105.0,
+      "first_collision": {
+        "phase": "lift",
+        "lift_mm": 0,
+        "object": "piel",
+        "volume_mm3": 1.4570066297873863
+      },
+      "error": null,
+      "checks": 21,
+      "passes": false
+    }
+  ]
+}

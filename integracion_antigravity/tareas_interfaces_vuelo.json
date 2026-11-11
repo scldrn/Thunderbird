@@ -1,0 +1,32 @@
+{
+  "descripcion": "Contratos y verificación necesarios para futura simulación con planta identificada",
+  "tareas": [
+    {
+      "id": "contrato_mapa_instalado",
+      "entradas": [
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json",
+        "investigacion-aeronautica/simulacion_vuelo_A/simular.py",
+        "investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md"
+      ],
+      "instruccion": "Diseña un contrato de datos versionado para futuros mapas instalados de un módulo de ventilador, sin inventar datos medidos. Incluye convención explícita de ejes y punto de aplicación, entradas físicas (flujo local vectorial, densidad, mando/estado y geometría), fuerza y momento vectoriales, potencia eléctrica y mecánica cuando se conozcan, incertidumbre, origen y dominio. Implementa validador con Python estándar y tests de rechazo de unidades ausentes, NaN, geometría/ejes desconocidos, muestras duplicadas y extrapolación declarada; acepta marcas de datos faltantes cuando estén señaladas y no las conviertas en cero. Incluye ejemplo SINTÉTICO pequeño marcado como tal y documentación de interfaz; no alteres el simulador original."
+    },
+    {
+      "id": "contrato_masa_cg",
+      "entradas": [
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json",
+        "investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md",
+        "investigacion-aeronautica/simulacion_vuelo_A/simular.py"
+      ],
+      "instruccion": "Diseña un contrato versionado para masa, posición CG y tensor de inercia respecto al CG, con unidades, ejes, origen y trazabilidad físico vs supuesto. Implementa en Python estándar validaciones de matriz 3x3 finita, simetría, masa positiva, energía cinética no negativa mediante menores principales, y convierte posiciones CAD a FLU aplicando diag(-1,-1,1). Nunca sustituyas null por cero. Provee ejemplos únicamente sintéticos, tests y README; advierte que PSD es necesaria pero no suficiente para aceptar medición ni demuestra todas restricciones de cuerpo físico. No modifiques la configuración base."
+    },
+    {
+      "id": "tests_dinamica_6dof",
+      "entradas": [
+        "investigacion-aeronautica/simulacion_vuelo_A/simular.py",
+        "investigacion-aeronautica/simulacion_vuelo_A/verificar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/auditoria_vuelo_seis_grados/salidas/INFORME_AUDITORIA_6DOF.md"
+      ],
+      "instruccion": "Prepara pruebas independientes y de bajo costo para el integrador rígido existente: conservación de energía cinética rotacional y momento angular inercial para giro libre asimétrico con pasos decrecientes; cuaternión de giro constante comparado con solución analítica; par de fuerzas opuestas y momento resultante r×F. Copia simular.py a salidas/ sin modificar el original y crea test con tolerancias justificadas; usa numpy/scipy solo si están disponibles y si no, declara explícitamente que no se ejecutaron y evita afirmar éxito. Añade comandos y objetivos, no extrapoles a validación física. No ejecutes simulación completa que sobrescriba artefactos."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "analytic_solver_verification_not_physical_validation",
+  "source": "OpenFOAM Foundation13 tutorials/incompressibleFluid/planarPoiseuille",
+  "modifications": [
+    "Maxwell model removed; default Newtonian Stokes laminar",
+    "uniform y spacing",
+    "2 outer/2 inner corrections, tighter linear tolerances",
+    "4 s transient window, zero initial velocity"
+  ],
+  "H_m": 1.0,
+  "nu_m2_s": 0.1,
+  "body_acceleration_m_s2": 5.0,
+  "Ny": 40,
+  "dt_s": 0.005,
+  "end_s": 4.0,
+  "geometry": "Half-channel wall y=0, symmetry y=H; cyclic x; empty z",
+  "expected_steady_Ux": "G*(H*y-y*y/2)/nu",
+  "expected_transient_Ux": "steady - sum[2G/(H*nu*k_n^3)*sin(k_n*y)*exp(-nu*k_n^2*t)], k_n=(n+.5)*pi/H",
+  "input_sha256": {
+    "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+    "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+    "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+    "system/fvSolution": "422c890618d80e2d4efa17c400901c813323420fe01210bfc919cfc8e81319bd",
+    "system/blockMeshDict": "c4b27978eaa39fac15b3171d798d994861c7d383bb6ed1f40f25012763e67dcd",
+    "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+    "system/controlDict": "a1b7ff9c3e87ba5d6daf10db70686815f1cb960d8e1cd0f6384060e422f4aa6d",
+    "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+    "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+    "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "packs": 2,
+      "arrangement": "12S1P",
+      "nominal_Wh": 97.68,
+      "mass_with_allowance_kg": 0.754,
+      "mass_tolerance_kg": 0.02,
+      "usable_energy_assumed_Wh": 68.376,
+      "hover_only_energy_minutes": 4.769601008465281,
+      "mixed_energy_minutes": 4.060485184471201,
+      "peak_energy_minutes": 1.7366852125415184,
+      "current_total_at_40V_A": 59.05733477738588,
+      "remaining_per_module_g": 98.25
+    },
+    {
+      "packs": 4,
+      "arrangement": "12S2P",
+      "nominal_Wh": 195.36,
+      "mass_with_allowance_kg": 1.468,
+      "mass_tolerance_kg": 0.04,
+      "usable_energy_assumed_Wh": 136.752,
+      "hover_only_energy_minutes": 9.539202016930561,
+      "mixed_energy_minutes": 8.120970368942402,
+      "peak_energy_minutes": 3.473370425083037,
+      "current_total_at_40V_A": 59.05733477738588,
+      "remaining_per_module_g": 9.000000000000007
+    }
+  ],
+  "resistance_acceptance_sensitivity": [
+    {
+      "terminal_V": 40,
+      "current_A": 59.05733477738588,
+      "max_total_pack_R_ohm_at_44_4V_open": 0.07450387012190123
+    },
+    {
+      "terminal_V": 42,
+      "current_A": 56.245080740367506,
+      "max_total_pack_R_ohm_at_44_4V_open": 0.04267039834254342
+    },
+    {
+      "terminal_V": 44,
+      "current_A": 53.688486161259895,
+      "max_total_pack_R_ohm_at_44_4V_open": 0.007450387012190099
+    }
+  ],
+  "not_verified": [
+    "usable energy at current",
+    "voltage sag",
+    "continuous discharge",
+    "connector temperature",
+    "VP profile losses",
+    "aircraft mass closure"
+  ]
+}

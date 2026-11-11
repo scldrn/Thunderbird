@@ -1,0 +1,383 @@
+{
+  "metadata": {
+    "polinomio": "10*u^3 - 15*u^4 + 6*u^5",
+    "c_v_adimensional": 1.875,
+    "c_a_adimensional": 5.773502691896258,
+    "c_a_exacto_formula": "10 / sqrt(3)",
+    "u_vmax": 0.5,
+    "u_amax1": 0.21132486540518713,
+    "u_amax2": 0.7886751345948129,
+    "g0_m_s2": 9.80665,
+    "fuente_geometria": "entradas/investigacion-aeronautica/modelos_integrados/producto_A07/LEEME.md",
+    "fuente_configuracion": "entradas/investigacion-aeronautica/configuraciones/C02_CANDIDATA.json"
+  },
+  "translation_table": [
+    {
+      "T_fase_s": 0.25,
+      "delta_h_mm": 10.0,
+      "v_max_mm_s": 75.0,
+      "v_max_m_s": 0.075,
+      "a_max_mm_s2": 923.7604307034013,
+      "a_max_m_s2": 0.9237604307034013,
+      "a_max_g0": 0.09419734880957323,
+      "j_max_mm_s3": 38400.0,
+      "j_max_m_s3": 38.4,
+      "t_vmax_s": 0.125,
+      "t_amax_s": 0.052831216351296784,
+      "fuerza_especifica_inercial_N_kg": 0.9237604307034013
+    },
+    {
+      "T_fase_s": 0.5,
+      "delta_h_mm": 10.0,
+      "v_max_mm_s": 37.5,
+      "v_max_m_s": 0.0375,
+      "a_max_mm_s2": 230.94010767585033,
+      "a_max_m_s2": 0.23094010767585033,
+      "a_max_g0": 0.023549337202393307,
+      "j_max_mm_s3": 4800.0,
+      "j_max_m_s3": 4.8,
+      "t_vmax_s": 0.25,
+      "t_amax_s": 0.10566243270259357,
+      "fuerza_especifica_inercial_N_kg": 0.23094010767585033
+    },
+    {
+      "T_fase_s": 1.0,
+      "delta_h_mm": 10.0,
+      "v_max_mm_s": 18.75,
+      "v_max_m_s": 0.01875,
+      "a_max_mm_s2": 57.73502691896258,
+      "a_max_m_s2": 0.05773502691896258,
+      "a_max_g0": 0.005887334300598327,
+      "j_max_mm_s3": 600.0,
+      "j_max_m_s3": 0.6,
+      "t_vmax_s": 0.5,
+      "t_amax_s": 0.21132486540518713,
+      "fuerza_especifica_inercial_N_kg": 0.05773502691896258
+    },
+    {
+      "T_fase_s": 2.0,
+      "delta_h_mm": 10.0,
+      "v_max_mm_s": 9.375,
+      "v_max_m_s": 0.009375,
+      "a_max_mm_s2": 14.433756729740645,
+      "a_max_m_s2": 0.014433756729740645,
+      "a_max_g0": 0.0014718335751495817,
+      "j_max_mm_s3": 75.0,
+      "j_max_m_s3": 0.075,
+      "t_vmax_s": 1.0,
+      "t_amax_s": 0.42264973081037427,
+      "fuerza_especifica_inercial_N_kg": 0.014433756729740645
+    }
+  ],
+  "rotation_table": [
+    {
+      "T_fase_s": 0.25,
+      "delta_theta_deg": 110.0,
+      "delta_theta_rad": 1.9198621771937625,
+      "omega_max_deg_s": 825.0,
+      "omega_max_rad_s": 14.398966328953218,
+      "omega_max_rpm": 137.5,
+      "alpha_max_deg_s2": 10161.364737737415,
+      "alpha_max_rad_s2": 177.34927116956797,
+      "jerk_rot_max_deg_s3": 422400.0,
+      "jerk_rot_max_rad_s3": 7372.270760424048,
+      "t_wmax_s": 0.125,
+      "t_alphamax_s": 0.052831216351296784,
+      "par_especifico_inercial_Nm_kgm2": 177.34927116956797
+    },
+    {
+      "T_fase_s": 0.5,
+      "delta_theta_deg": 110.0,
+      "delta_theta_rad": 1.9198621771937625,
+      "omega_max_deg_s": 412.5,
+      "omega_max_rad_s": 7.199483164476609,
+      "omega_max_rpm": 68.75,
+      "alpha_max_deg_s2": 2540.3411844343536,
+      "alpha_max_rad_s2": 44.33731779239199,
+      "jerk_rot_max_deg_s3": 52800.0,
+      "jerk_rot_max_rad_s3": 921.533845053006,
+      "t_wmax_s": 0.25,
+      "t_alphamax_s": 0.10566243270259357,
+      "par_especifico_inercial_Nm_kgm2": 44.33731779239199
+    },
+    {
+      "T_fase_s": 1.0,
+      "delta_theta_deg": 110.0,
+      "delta_theta_rad": 1.9198621771937625,
+      "omega_max_deg_s": 206.25,
+      "omega_max_rad_s": 3.5997415822383045,
+      "omega_max_rpm": 34.375,
+      "alpha_max_deg_s2": 635.0852961085884,
+      "alpha_max_rad_s2": 11.084329448097998,
+      "jerk_rot_max_deg_s3": 6600.0,
+      "jerk_rot_max_rad_s3": 115.19173063162575,
+      "t_wmax_s": 0.5,
+      "t_alphamax_s": 0.21132486540518713,
+      "par_especifico_inercial_Nm_kgm2": 11.084329448097998
+    },
+    {
+      "T_fase_s": 2.0,
+      "delta_theta_deg": 110.0,
+      "delta_theta_rad": 1.9198621771937625,
+      "omega_max_deg_s": 103.125,
+      "omega_max_rad_s": 1.7998707911191523,
+      "omega_max_rpm": 17.1875,
+      "alpha_max_deg_s2": 158.7713240271471,
+      "alpha_max_rad_s2": 2.7710823620244995,
+      "jerk_rot_max_deg_s3": 825.0,
+      "jerk_rot_max_rad_s3": 14.398966328953218,
+      "t_wmax_s": 1.0,
+      "t_alphamax_s": 0.42264973081037427,
+      "par_especifico_inercial_Nm_kgm2": 2.7710823620244995
+    }
+  ],
+  "sampling_sensitivity": [
+    {
+      "n_points": 21,
+      "dt_s": 0.025,
+      "trans_v_exact": 37.5,
+      "trans_v_sampled": 37.5,
+      "trans_v_err_rel_pct": 0.0,
+      "trans_a_exact": 230.94010767585033,
+      "trans_a_sampled": 230.39999999999995,
+      "trans_a_err_rel_pct": 0.2338734840326996,
+      "trans_a_fd": 228.6,
+      "trans_a_fd_err": 2.3401076758503336,
+      "trans_int_v_err": 6.250000000385114e-05,
+      "trans_int_a": 7.105427357601002e-15,
+      "rot_w_exact": 412.5,
+      "rot_w_sampled": 412.5,
+      "rot_w_err_rel_pct": 0.0,
+      "rot_alpha_exact": 2540.3411844343536,
+      "rot_alpha_sampled": 2534.3999999999996,
+      "rot_alpha_err_rel_pct": 0.2338734840326929,
+      "rot_alpha_fd": 2514.599999999999,
+      "rot_alpha_fd_err": 25.741184434354636
+    },
+    {
+      "n_points": 51,
+      "dt_s": 0.01,
+      "trans_v_exact": 37.5,
+      "trans_v_sampled": 37.5,
+      "trans_v_err_rel_pct": 0.0,
+      "trans_a_exact": 230.94010767585033,
+      "trans_a_sampled": 230.63039999999998,
+      "trans_a_err_rel_pct": 0.13410735751671865,
+      "trans_a_fd": 230.3615999999997,
+      "trans_a_fd_err": 0.5785076758506307,
+      "trans_int_v_err": 1.5999999973814738e-06,
+      "trans_int_a": -3.0531133177191805e-14,
+      "rot_w_exact": 412.5,
+      "rot_w_sampled": 412.5,
+      "rot_w_err_rel_pct": 0.0,
+      "rot_alpha_exact": 2540.3411844343536,
+      "rot_alpha_sampled": 2536.9343999999996,
+      "rot_alpha_err_rel_pct": 0.13410735751672537,
+      "rot_alpha_fd": 2533.9776000000124,
+      "rot_alpha_fd_err": 6.363584434341192
+    },
+    {
+      "n_points": 101,
+      "dt_s": 0.005,
+      "trans_v_exact": 37.5,
+      "trans_v_sampled": 37.5,
+      "trans_v_err_rel_pct": 0.0,
+      "trans_a_exact": 230.94010767585033,
+      "trans_a_sampled": 230.93280000000004,
+      "trans_a_err_rel_pct": 0.0031643164644844382,
+      "trans_a_fd": 230.86320000000882,
+      "trans_a_fd_err": 0.07690767584151104,
+      "trans_int_v_err": 1.0000000116860974e-07,
+      "trans_int_a": -3.4833247397614286e-15,
+      "rot_w_exact": 412.5,
+      "rot_w_sampled": 412.5,
+      "rot_w_err_rel_pct": 0.0,
+      "rot_alpha_exact": 2540.3411844343536,
+      "rot_alpha_sampled": 2540.2608000000005,
+      "rot_alpha_err_rel_pct": 0.003164316464485557,
+      "rot_alpha_fd": 2539.4952000000967,
+      "rot_alpha_fd_err": 0.845984434256934
+    },
+    {
+      "n_points": 501,
+      "dt_s": 0.001,
+      "trans_v_exact": 37.5,
+      "trans_v_sampled": 37.5,
+      "trans_v_err_rel_pct": 0.0,
+      "trans_a_exact": 230.94010767585033,
+      "trans_a_sampled": 230.9382144,
+      "trans_a_err_rel_pct": 0.0008198124913810141,
+      "trans_a_fd": 230.93544960006707,
+      "trans_a_fd_err": 0.0046580757832543895,
+      "trans_int_v_err": 1.5999646052478056e-10,
+      "trans_int_a": 9.576540949129964e-15,
+      "rot_w_exact": 412.5,
+      "rot_w_sampled": 412.5,
+      "rot_w_err_rel_pct": 0.0,
+      "rot_alpha_exact": 2540.3411844343536,
+      "rot_alpha_sampled": 2540.3203584,
+      "rot_alpha_err_rel_pct": 0.0008198124913866082,
+      "rot_alpha_fd": 2540.2899456015152,
+      "rot_alpha_fd_err": 0.05123883283840769
+    },
+    {
+      "n_points": 1001,
+      "dt_s": 0.0005,
+      "trans_v_exact": 37.5,
+      "trans_v_sampled": 37.5,
+      "trans_v_err_rel_pct": 0.0,
+      "trans_a_exact": 230.94010767585033,
+      "trans_a_sampled": 230.93966880000005,
+      "trans_a_err_rel_pct": 0.00019003881772432278,
+      "trans_a_fd": 230.93897519999018,
+      "trans_a_fd_err": 0.0011324758601460871,
+      "trans_int_v_err": 9.993783578465809e-12,
+      "trans_int_a": 1.3663115777662327e-14,
+      "rot_w_exact": 412.5,
+      "rot_w_sampled": 412.5,
+      "rot_w_err_rel_pct": 0.0,
+      "rot_alpha_exact": 2540.3411844343536,
+      "rot_alpha_sampled": 2540.3363568000004,
+      "rot_alpha_err_rel_pct": 0.00019003881772991686,
+      "rot_alpha_fd": 2540.3287271963395,
+      "rot_alpha_fd_err": 0.012457238014121685
+    },
+    {
+      "n_points": 5001,
+      "dt_s": 0.0001,
+      "trans_v_exact": 37.5,
+      "trans_v_sampled": 37.5,
+      "trans_v_err_rel_pct": 0.0,
+      "trans_a_exact": 230.94010767585033,
+      "trans_a_sampled": 230.9400842112001,
+      "trans_a_err_rel_pct": 1.016049159964339e-05,
+      "trans_a_fd": 230.94005648927052,
+      "trans_a_fd_err": 5.118657981029173e-05,
+      "trans_int_v_err": 0.0,
+      "trans_int_a": 2.43882401795327e-14,
+      "rot_w_exact": 412.5,
+      "rot_w_sampled": 412.5,
+      "rot_w_err_rel_pct": 0.0,
+      "rot_alpha_exact": 2540.3411844343536,
+      "rot_alpha_sampled": 2540.340926323201,
+      "rot_alpha_err_rel_pct": 1.0160491596286947e-05,
+      "rot_alpha_fd": 2540.3406214152824,
+      "rot_alpha_fd_err": 0.000563019071250892
+    },
+    {
+      "n_points": 10001,
+      "dt_s": 5e-05,
+      "trans_v_exact": 37.5,
+      "trans_v_sampled": 37.5,
+      "trans_v_err_rel_pct": 0.0,
+      "trans_a_exact": 230.94010767585033,
+      "trans_a_sampled": 230.94010510560003,
+      "trans_a_err_rel_pct": 1.112951027968293e-06,
+      "trans_a_fd": 230.9400982891674,
+      "trans_a_fd_err": 9.386682933154589e-06,
+      "trans_int_v_err": 1.4210854715202004e-14,
+      "trans_int_a": 1.8485025318694566e-14,
+      "rot_w_exact": 412.5,
+      "rot_w_sampled": 412.5,
+      "rot_w_err_rel_pct": 0.0,
+      "rot_alpha_exact": 2540.3411844343536,
+      "rot_alpha_sampled": 2540.3411561616003,
+      "rot_alpha_err_rel_pct": 1.1129510268494783e-06,
+      "rot_alpha_fd": 2540.3410809587967,
+      "rot_alpha_fd_err": 0.00010347555689804722
+    }
+  ],
+  "auditoria_referencia": {
+    "status": "loaded",
+    "path": "entradas/investigacion-aeronautica/configuraciones/C02_CANDIDATA.json",
+    "id": "C02_COMPACTA_x160_5kg_2026-11-03_r2",
+    "actual_mass_kg": null,
+    "actual_CG_m": null,
+    "actual_inertia_kgm2": null,
+    "rotor_motor_servo_and_cooling_qualified": false,
+    "mass_targets_are_actual_masses": false,
+    "door_motion": "conceptual lift10mm/rotate110deg, 61 discrete nodes checked"
+  },
+  "desglose_indeterminacion_dinamica": {
+    "fase_1_traslacion": {
+      "ecuacion_fuerza_actuador": "F_act(t) = m * a(t) + F_grav + F_fric(v) + F_aero(v_aire, P_ducto) + F_sello",
+      "ecuacion_potencia": "P_mec(t) = F_act(t) * v(t)",
+      "energia_mecanica": "E_mec = integral(P_mec^+(t) * dt)",
+      "potencia_electrica_motor": "P_elec(t) = P_mec(t) / eta_mecanica + I_motor^2 * R_bobina",
+      "parametros_requeridos": [
+        {
+          "param": "m",
+          "desc": "Masa física real de la compuerta y herrajes móviles",
+          "estado": "INDETERMINADO (null en C02)"
+        },
+        {
+          "param": "g_vector",
+          "desc": "Orientación de la compuerta respecto al vector gravedad (+Z vs -Z)",
+          "estado": "GEOMETRÍA DIVERGENTE (4 superiores elevan contra gravedad, 4 inferiores descienden a favor)"
+        },
+        {
+          "param": "F_fric",
+          "desc": "Fuerza de fricción en guías lineales (fricción estática/Coulomb y viscosa)",
+          "estado": "DESCONOCIDO (no existe síntesis de guía ni cojinetes)"
+        },
+        {
+          "param": "F_aero",
+          "desc": "Carga aerodinámica por gradiente de presión entre exterior y conducto del ventilador",
+          "estado": "DESCONOCIDO (solvers CFD pausados, flujo no resuelto)"
+        },
+        {
+          "param": "F_sello",
+          "desc": "Resistencia de compresión/despegue del labio de sellado perimetral",
+          "estado": "DESCONOCIDO (sellos no dimensionados ni diseñados)"
+        },
+        {
+          "param": "i_transmision",
+          "desc": "Relación de transmisión cinemática husillo/biela/motor",
+          "estado": "DESCONOCIDO (mecanismo no existente)"
+        },
+        {
+          "param": "eta_mecanica",
+          "desc": "Rendimiento mecánico de la transmisión",
+          "estado": "DESCONOCIDO"
+        }
+      ]
+    },
+    "fase_2_giro": {
+      "ecuacion_par_actuador": "tau_act(t) = I_eje * alpha(t) + tau_grav(theta) + tau_fric(omega) + tau_aero(theta, v_aire)",
+      "ecuacion_potencia": "P_mec(t) = tau_act(t) * omega(t)",
+      "energia_mecanica": "E_mec = integral(P_mec^+(t) * dt)",
+      "parametros_requeridos": [
+        {
+          "param": "I_eje",
+          "desc": "Momento de inercia másico respecto al eje real de giro",
+          "estado": "INDETERMINADO (null en C02)"
+        },
+        {
+          "param": "tau_grav(theta)",
+          "desc": "Par de gravedad variable m * g * r_CG(theta)",
+          "estado": "INDETERMINADO (CG real null)"
+        },
+        {
+          "param": "tau_fric",
+          "desc": "Fricción en muñones/bisagras",
+          "estado": "DESCONOCIDO (bisagras son líneas de construcción CAD, no herrajes)"
+        },
+        {
+          "param": "tau_aero(theta)",
+          "desc": "Momento aerodinámico de deflexión sobre la placa expuesta al flujo externo",
+          "estado": "DESCONOCIDO"
+        },
+        {
+          "param": "i_reductor",
+          "desc": "Brazo de palanca o reductor del servomotor/actuador",
+          "estado": "DESCONOCIDO"
+        }
+      ]
+    },
+    "metricas_cinematicas_normalizadas": {
+      "aceleracion_especifica_traslacion": "a(t) [m/s^2] = F_inercial / m [N/kg]",
+      "aceleracion_especifica_rotacion": "alpha(t) [rad/s^2] = tau_inercial / I [N*m / (kg*m^2)]",
+      "nota": "Estas métricas adimensionales o normalizadas son los únicos invariantes estrictamente cinemáticos independientes de la masa."
+    }
+  }
+}

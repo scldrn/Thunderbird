@@ -1,0 +1,56 @@
+{
+  "blender": {
+    "installed": "/Applications/Blender.app",
+    "version": "5.2.3 LTS",
+    "import_and_render_test": "passed_outside_sandbox",
+    "native_file": "blender/A07_ventiladores_internos.blend"
+  },
+  "freecad": {
+    "installed_app_incomplete": false,
+    "tested_executable": "/Applications/FreeCAD.app/Contents/Resources/bin/freecadcmd",
+    "version": "1.1.4",
+    "native_import_test": "passed_outside_sandbox",
+    "native_file": "freecad/A07_ventiladores_internos.FCStd",
+    "installed_version_test": "passed_outside_sandbox_exit_0",
+    "revision": "20260928",
+    "repair": "complete application copied from mounted official installer; historical native import retained"
+  },
+  "paraview": {
+    "app": "/Applications/ParaView-6.2.0.app",
+    "version": "6.2.0",
+    "architecture": "arm64",
+    "distribution": "official standard DMG, not unsigned variant",
+    "installer_evidence": "../ejecucion/G0/PARAVIEW_INSTALADOR.json",
+    "signature_verification": "passed_exit_0",
+    "macos_assessment": "accepted; Notarized Developer ID; exit_0",
+    "python_start_test": "passed_outside_sandbox_exit_0",
+    "openfoam_read_and_render_test": "passed_outside_sandbox_exit_0",
+    "native_gui_scene_check": "visually_verified_2026-11-03",
+    "manual_launch_check_needed": false,
+    "native_state": "paraview/benchmark_poiseuille.pvsm",
+    "test_report": "paraview/PRUEBA.json",
+    "previous_test": {
+      "python_start_test": "terminated_exit_137",
+      "installer_variant": "unsigned",
+      "cause": "undetermined"
+    },
+    "system_security_weakened": false,
+    "C02_t0_native_geometry_read": "passed_581786_cells",
+    "C02_t0_native_field_discovery": "empty_in_this_route; not used for field values",
+    "C02_verified_VTU_fallback": "strict ASCII fields + all-cell centroid correspondence; native VTU/state/render exported"
+  },
+  "CFD_resumed": false,
+  "updated": "2026-11-03",
+  "su2": {
+    "version": "8.6.0",
+    "architecture": "arm64",
+    "binary": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/build-native-r2/SU2_CFD/src/SU2_CFD",
+    "binary_sha256": "a12399dbec97a0cb6b86153bf978c74c2b2de66b43f4e4435c53cce7a8abe05f",
+    "source_build": "workspace-only AppleClang21, double precision, serial; no Rosetta/global settings",
+    "runtime_operability": "official RAE2822 case600iterations/exit0/finite fields; not physical validation",
+    "report": "SU2/INFORME.md"
+  },
+  "CFD_resumed_field_scope": "Historical paused solvers only; new benchmark cases are separately authorized and recorded.",
+  "new_benchmark_processes_started": true,
+  "updated_UTC": "2026-11-03T23:00:16.224494+00:00"
+}

@@ -1,0 +1,187 @@
+{
+  "id": "A07_RESEARCH_BASE_2026-11-03_r1",
+  "date": "2026-11-03",
+  "architecture": "A_internal_fans",
+  "scope": "Research reference, not manufacturing or physically validated vehicle",
+  "canonical_units": {
+    "length": "m",
+    "mass": "kg",
+    "time": "s",
+    "force": "N",
+    "torque": "N m",
+    "temperature": "K"
+  },
+  "cad_units": "mm",
+  "cad_to_SI_length_factor": 0.001,
+  "coordinate_frame": {
+    "x": "CAD longitudinal, nose at negative x",
+    "y": "CAD lateral",
+    "z": "up"
+  },
+  "flight_body_frame": {
+    "name": "FLU",
+    "x": "forward towards nose",
+    "y": "left",
+    "z": "up",
+    "R_flight_from_CAD": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "rule": "Transform vectors, CG and inertia consistently; apply CAD-to-FLU before flight attitude in visualization"
+  },
+  "mass_targets_kg": [
+    2,
+    5,
+    10
+  ],
+  "integration_reference_mass_target_kg": 5,
+  "mass_targets_are_actual_masses": false,
+  "fan_reference": {
+    "count": 4,
+    "axes": [
+      0,
+      0,
+      1
+    ],
+    "centres_xy_m": [
+      [
+        -0.2,
+        -0.076
+      ],
+      [
+        -0.2,
+        0.076
+      ],
+      [
+        0.2,
+        -0.076
+      ],
+      [
+        0.2,
+        0.076
+      ]
+    ],
+    "nominal_bore_diameter_m": 0.084,
+    "scope": "Geometric reference; effective throat, force/power maps and rotation hardware pending"
+  },
+  "geometry": {
+    "2": {
+      "states": {
+        "cerrado": {
+          "path": "modelos_integrados/producto_A07/2kg/A07_cerrado.step",
+          "sha256": "d6bef4d5b9abc0985e118cf2cee8d637dbd4d2042fdc4c3965c1335c52aee216"
+        },
+        "elevado": {
+          "path": "modelos_integrados/producto_A07/2kg/A07_elevado.step",
+          "sha256": "354bd534918cd61717e843223101e51ad12715b8fbc38237cee457fa6d924afb"
+        },
+        "abierto": {
+          "path": "modelos_integrados/producto_A07/2kg/A07_abierto.step",
+          "sha256": "ec472cd702301811703de443c8988b89e749ecfe57415e4315738bef06e9fe2f"
+        }
+      },
+      "nominal_part_records": 208,
+      "scale_from_5kg": 0.7368062997280773,
+      "scope": "Nominal geometric similarity only; components must be redimensioned"
+    },
+    "5": {
+      "states": {
+        "cerrado": {
+          "path": "modelos_integrados/producto_A07/5kg/A07_cerrado.step",
+          "sha256": "49cc51974b5ae56dc10c77dc07da25c9025f9906ce34954303e322e02d62f3e2"
+        },
+        "elevado": {
+          "path": "modelos_integrados/producto_A07/5kg/A07_elevado.step",
+          "sha256": "12e4985d798d8cdeb39f56c7a5f30e4e7e8cc7385ee8758cdb39cef4a8a733ec"
+        },
+        "abierto": {
+          "path": "modelos_integrados/producto_A07/5kg/A07_abierto.step",
+          "sha256": "1af155387d5deb524a38b7ce4ed86c26f4019744fd6f882c22de5faf2384dc9c"
+        }
+      },
+      "nominal_part_records": 208,
+      "scale_from_5kg": 1.0,
+      "scope": "Nominal geometric similarity only; components must be redimensioned"
+    },
+    "10": {
+      "states": {
+        "cerrado": {
+          "path": "modelos_integrados/producto_A07/10kg/A07_cerrado.step",
+          "sha256": "730103c6cbc8a193753d39ce1b994452f657439b00a55d37ae29a2b9a972c3f1"
+        },
+        "elevado": {
+          "path": "modelos_integrados/producto_A07/10kg/A07_elevado.step",
+          "sha256": "8aab4c382302532994c7d22e310cd81185275eb8468f2cf34ebfafdb745cad5d"
+        },
+        "abierto": {
+          "path": "modelos_integrados/producto_A07/10kg/A07_abierto.step",
+          "sha256": "48326e9e1d2fa7bc3f8b241d5e1c72bfae41b21a3dd36ab67c97d6ffd61e6095"
+        }
+      },
+      "nominal_part_records": 208,
+      "scale_from_5kg": 1.2599210498948732,
+      "scope": "Nominal geometric similarity only; components must be redimensioned"
+    }
+  },
+  "door_reference": {
+    "translation_m": 0.01,
+    "rotation_deg": 110,
+    "scope": "Two-coordinate sampled kinematic proposal; hardware not designed"
+  },
+  "tail_reference": {
+    "count": 4,
+    "angles_about_x_deg": [
+      45,
+      135,
+      225,
+      315
+    ],
+    "scope": "Candidate all-moving surfaces; aerodynamic/structural sizing pending"
+  },
+  "operating_reference": {
+    "rho_kg_m3": 1.225,
+    "p_Pa": 101325,
+    "T_K": 288.15,
+    "mu_Pa_s": 1.7894e-05,
+    "g_m_s2": 9.80665,
+    "gamma": 1.4,
+    "R_J_kg_K": 287.05287,
+    "scope": "Reference atmosphere for comparable calculations, not entire operating envelope"
+  },
+  "unidentified": [
+    "installed force/moment/power maps",
+    "rotor/motor/ESC",
+    "axial engine and net thrust map",
+    "component mass/CG/inertia",
+    "door hardware",
+    "structural materials/laminates",
+    "thermal/energy installation",
+    "full aerodynamic derivatives",
+    "physical validation"
+  ],
+  "historical_assumptions_not_specifications": {
+    "fan_max_useful_N_at_5kg": 21,
+    "force_cone_deg": 35,
+    "actuator_tau_s": 0.08,
+    "force_rate_N_s_at_5kg": 50,
+    "body_inertia_kgm2": [
+      0.035311862,
+      0.458989923,
+      0.475462439
+    ]
+  },
+  "physical_performance_validated": false
+}

@@ -1,0 +1,27 @@
+{
+  "old_multiline_results_unchanged_for_5_fields_581786_cells": true,
+  "compact_benchmark_cases_read": [
+    {
+      "case": "nx20_Uinicial0.5",
+      "U_mean": 0.8462468439163754,
+      "U_relative_error": 0.4017937739509726
+    },
+    {
+      "case": "nx20_Uinicial2",
+      "U_mean": 1.7094815771580802,
+      "U_relative_error": 0.20891048777925766
+    },
+    {
+      "case": "nx4_Uinicial0.5",
+      "U_mean": 1.4140330408922002,
+      "U_relative_error": 0.0001285023407568669
+    },
+    {
+      "case": "nx4_Uinicial2",
+      "U_mean": 1.4143074096819,
+      "U_relative_error": 6.680426324462015e-05
+    }
+  ],
+  "numerical_steady_benchmark_accepted": false,
+  "reader_sha256": "e0350dcbae2d2c28650e8b541caf807649e638e67be0934d766142a781b61011"
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "check": "integracion_esferoide",
+    "volume_relative_error": 1.687538997430238e-14,
+    "area_refinement_relative": 6.95221658020273e-13
+  },
+  {
+    "check": "integracion_sears_haack",
+    "volume_relative_error": 1.3322676295501878e-15,
+    "area_refinement_relative": 5.21027665456586e-13
+  }
+]

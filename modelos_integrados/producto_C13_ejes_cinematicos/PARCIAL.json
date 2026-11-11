@@ -1,0 +1,256 @@
+{
+  "scope": "C11 local STEP; reconstructed axes; ideal cylinders and sampled poses, not full vehicle or mechanism",
+  "source_sha256": "b1a2c73a9b041be6ebb17f1ffffc65754830aa2bb17e055a3de4b35b13ad91c6",
+  "code_sha256": "99f5cf47e8fe738c421f91d632027baf204aa8f17f1efefa42f28109919ff06b",
+  "radius_mm": 1.0,
+  "axes": [
+    {
+      "leaf": 0,
+      "x0_mm": -199.57698202972855,
+      "x1_mm": -120.42301798350017,
+      "y_mm": -110.42500002637692,
+      "z_mm": 78.60778279118173,
+      "intersections_z_mm": [
+        78.04363891108994,
+        79.17192667127352
+      ]
+    },
+    {
+      "leaf": 1,
+      "x0_mm": -205.79975446612514,
+      "x1_mm": -114.20024553369983,
+      "y_mm": -87.45000002737964,
+      "z_mm": 90.63637734658177,
+      "intersections_z_mm": [
+        90.07202746388076,
+        91.20072722928278
+      ]
+    },
+    {
+      "leaf": 2,
+      "x0_mm": -205.79975446609998,
+      "x1_mm": -114.2002455338,
+      "y_mm": -64.54999997832405,
+      "z_mm": 102.62570556946544,
+      "intersections_z_mm": [
+        102.06115035663335,
+        103.19026078229753
+      ]
+    },
+    {
+      "leaf": 3,
+      "x0_mm": -199.5769820196,
+      "x1_mm": -120.4230179803,
+      "y_mm": -41.57499992932824,
+      "z_mm": 105.63200110202852,
+      "intersections_z_mm": [
+        105.1320044857895,
+        106.13199771826756
+      ]
+    }
+  ],
+  "states": [
+    {
+      "lift_mm": 0.0,
+      "angle_deg": 0.0,
+      "checked": 38,
+      "booleans": 16,
+      "collisions": [
+        {
+          "axis": 0,
+          "obstacle": "piel",
+          "intersection_mm3": 1.059196257077013
+        },
+        {
+          "axis": 0,
+          "obstacle": "camisa",
+          "intersection_mm3": 2.108517462289071
+        },
+        {
+          "axis": 0,
+          "obstacle": "aro",
+          "intersection_mm3": 0.3592117498810971
+        },
+        {
+          "axis": 0,
+          "obstacle": "junta",
+          "intersection_mm3": 0.10218047934747138
+        },
+        {
+          "axis": 1,
+          "obstacle": "camisa",
+          "intersection_mm3": 3.491977499096083
+        },
+        {
+          "axis": 2,
+          "obstacle": "camisa",
+          "intersection_mm3": 3.822234654609786
+        },
+        {
+          "axis": 3,
+          "obstacle": "piel",
+          "intersection_mm3": 0.25934857463101146
+        },
+        {
+          "axis": 3,
+          "obstacle": "camisa",
+          "intersection_mm3": 2.566369072154437
+        },
+        {
+          "axis": 3,
+          "obstacle": "aro",
+          "intersection_mm3": 0.17838228695095992
+        },
+        {
+          "axis": 3,
+          "obstacle": "junta",
+          "intersection_mm3": 0.05533979400788099
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "lift_mm": 2.0,
+      "angle_deg": 0.0,
+      "checked": 38,
+      "booleans": 15,
+      "collisions": [
+        {
+          "axis": 0,
+          "obstacle": "piel",
+          "intersection_mm3": 11.220272477287388
+        },
+        {
+          "axis": 0,
+          "obstacle": "aro",
+          "intersection_mm3": 1.6896354858073463
+        },
+        {
+          "axis": 0,
+          "obstacle": "junta",
+          "intersection_mm3": 0.4134504785366918
+        },
+        {
+          "axis": 1,
+          "obstacle": "piel",
+          "intersection_mm3": 0.0025370461315630775
+        },
+        {
+          "axis": 1,
+          "obstacle": "aro",
+          "intersection_mm3": 1.1763338310896745
+        },
+        {
+          "axis": 1,
+          "obstacle": "junta",
+          "intersection_mm3": 0.3906513703061699
+        },
+        {
+          "axis": 2,
+          "obstacle": "piel",
+          "intersection_mm3": 0.0033707518239026162
+        },
+        {
+          "axis": 2,
+          "obstacle": "aro",
+          "intersection_mm3": 1.2089730473348066
+        },
+        {
+          "axis": 2,
+          "obstacle": "junta",
+          "intersection_mm3": 0.3957657262656884
+        },
+        {
+          "axis": 3,
+          "obstacle": "piel",
+          "intersection_mm3": 10.23604958858351
+        },
+        {
+          "axis": 3,
+          "obstacle": "aro",
+          "intersection_mm3": 1.403248655681117
+        },
+        {
+          "axis": 3,
+          "obstacle": "junta",
+          "intersection_mm3": 0.33930235429666145
+        }
+      ],
+      "errors": [],
+      "screened_ok": false
+    },
+    {
+      "lift_mm": 5.0,
+      "angle_deg": 0.0,
+      "checked": 38,
+      "booleans": 11,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 10.0,
+      "angle_deg": 0.0,
+      "checked": 38,
+      "booleans": 8,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 15.0,
+      "angle_deg": 0.0,
+      "checked": 38,
+      "booleans": 8,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 20.0,
+      "angle_deg": 0.0,
+      "checked": 38,
+      "booleans": 4,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 20.0,
+      "angle_deg": 15.0,
+      "checked": 38,
+      "booleans": 4,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 20.0,
+      "angle_deg": 30.0,
+      "checked": 38,
+      "booleans": 4,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 20.0,
+      "angle_deg": 45.0,
+      "checked": 38,
+      "booleans": 4,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 20.0,
+      "angle_deg": 60.0,
+      "checked": 38,
+      "booleans": 4,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    }
+  ]
+}

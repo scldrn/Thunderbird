@@ -1,0 +1,24 @@
+{
+  "angles_mechanical_deg": [
+    0.0,
+    0.0
+  ],
+  "h_m": 0.004,
+  "cells": 606177,
+  "volume_m3": 0.000795010646412978,
+  "patches": {
+    "inlet": 1,
+    "outlet": 1,
+    "walls": 1,
+    "vaneX0": 6,
+    "vaneX1": 6,
+    "vaneX2": 6,
+    "vaneY0": 6,
+    "vaneY1": 6,
+    "vaneY2": 6
+  },
+  "radius_m": 0.042,
+  "inlet_z_m": 0.08,
+  "outlet_z_m": -0.065,
+  "note": "No rotor, shafts, motor, stators, grids, outer air or hull. Uniform prescribed post-rotor inlet. Isotropic tetrahedra, no prism boundary layers; prototype mesh only."
+}

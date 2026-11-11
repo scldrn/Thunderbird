@@ -1,0 +1,1777 @@
+{
+  "source": "modelos_integrados/empaquetado_axial_A/masa_y_agilidad/ESCENARIOS.json",
+  "source_sha256": "bb6f2b58fdddc92743975078aa446835c2772ceb208336fd80d6e29c526c56eb",
+  "description": "Vertical hover ideal comparison, no moments reserved; hypothetical masses",
+  "cases": [
+    {
+      "source_index": 0,
+      "reserve_mm": 38,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07658287101108648,
+        -6.199190466515958e-14,
+        0.0017304919384843822
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.3098534643863877,
+        "cy_fraction": -9.537216102332242e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.32746336609632065,
+          0.3274633660968732,
+          0.1725366339032025,
+          0.17253663390360363
+        ],
+        "max_individual_thrust_N": 16.056593095669506,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1563.9346084715344,
+        "power_factor": 1.0362258004132079,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.32746336609632065,
+          0.3274633660968732,
+          0.1725366339032025,
+          0.17253663390360363
+        ],
+        "bounded_ideal_W": 1563.9346084715344,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 1,
+      "reserve_mm": 38,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -6.199190466515958e-14,
+        0.0017304919384843822
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": -0.14500392426391762,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.04347826086956516,
+        "cy_fraction": -9.537216102332242e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.26086956521714766,
+          0.26086956521763494,
+          0.2391304347823755,
+          0.2391304347828419
+        ],
+        "max_individual_thrust_N": 12.791282608707597,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1510.3304590572236,
+        "power_factor": 1.0007089684872237,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.26086956521714766,
+          0.26086956521763494,
+          0.2391304347823755,
+          0.2391304347828419
+        ],
+        "bounded_ideal_W": 1510.3304590572236,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 2,
+      "reserve_mm": 38,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07558287101108647,
+        -6.199207813750718e-14,
+        0.002290491938484383
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.3063752035168225,
+        "cy_fraction": -9.53724279038572e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.32659380087892975,
+          0.32659380087948153,
+          0.1734061991205934,
+          0.1734061991209953
+        ],
+        "max_individual_thrust_N": 16.013955486973835,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1562.7064704430422,
+        "power_factor": 1.0354120654240986,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.32659380087892975,
+          0.32659380087948153,
+          0.1734061991205934,
+          0.1734061991209953
+        ],
+        "bounded_ideal_W": 1562.7064704430422,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 3,
+      "reserve_mm": 38,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -6.199207813750718e-14,
+        0.002290491938484383
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": -0.16865776599002613,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.04347826086956516,
+        "cy_fraction": -9.53724279038572e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.26086956521714766,
+          0.26086956521763494,
+          0.2391304347823755,
+          0.2391304347828419
+        ],
+        "max_individual_thrust_N": 12.791282608707597,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1510.3304590572236,
+        "power_factor": 1.0007089684872237,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.26086956521714766,
+          0.26086956521763494,
+          0.2391304347823755,
+          0.2391304347828419
+        ],
+        "bounded_ideal_W": 1510.3304590572236,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 4,
+      "reserve_mm": 38,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07408287101108647,
+        -6.199207813750718e-14,
+        0.0031304919384843822
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.3011578122124747,
+        "cy_fraction": -9.53724279038572e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.3252894530528435,
+          0.32528945305339385,
+          0.17471054694667965,
+          0.174710546947083
+        ],
+        "max_individual_thrust_N": 15.949999073930323,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1560.8909078162787,
+        "power_factor": 1.0342091168954788,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.3252894530528435,
+          0.32528945305339385,
+          0.17471054694667965,
+          0.174710546947083
+        ],
+        "bounded_ideal_W": 1560.8909078162787,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 5,
+      "reserve_mm": 38,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -6.199207813750718e-14,
+        0.0031304919384843822
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": -0.22576368302991384,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.04347826086956516,
+        "cy_fraction": -9.53724279038572e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.26086956521714766,
+          0.26086956521763494,
+          0.2391304347823755,
+          0.2391304347828419
+        ],
+        "max_individual_thrust_N": 12.791282608707597,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1510.3304590572236,
+        "power_factor": 1.0007089684872237,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.26086956521714766,
+          0.26086956521763494,
+          0.2391304347823755,
+          0.2391304347828419
+        ],
+        "bounded_ideal_W": 1510.3304590572236,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 6,
+      "reserve_mm": 38,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.0759341628687168,
+        -5.990676704703546e-14,
+        0.0027535703595936113
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.30759708823901494,
+        "cy_fraction": -9.216425699543917e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.326899272059487,
+          0.32689927206002045,
+          0.1731007279400522,
+          0.17310072794044035
+        ],
+        "max_individual_thrust_N": 16.028933731736995,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1563.136285274587,
+        "power_factor": 1.0356968504882786,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.326899272059487,
+          0.32689927206002045,
+          0.1731007279400522,
+          0.17310072794044035
+        ],
+        "bounded_ideal_W": 1563.136285274587,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 7,
+      "reserve_mm": 38,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -5.990676704703546e-14,
+        0.0027535703595936113
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": -0.19201906256965837,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.04347826086956516,
+        "cy_fraction": -9.216425699543917e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.2608695652171559,
+          0.2608695652176267,
+          0.23913043478238333,
+          0.23913043478283408
+        ],
+        "max_individual_thrust_N": 12.791282608707194,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1510.3304590572236,
+        "power_factor": 1.0007089684872237,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.2608695652171559,
+          0.2608695652176267,
+          0.23913043478238333,
+          0.23913043478283408
+        ],
+        "bounded_ideal_W": 1510.3304590572236,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 8,
+      "reserve_mm": 38,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.0749341628687168,
+        -5.990694051938306e-14,
+        0.0033135703595936123
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.30411882736944973,
+        "cy_fraction": -9.216452387597392e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.3260297068420962,
+          0.32602970684262866,
+          0.173970293157443,
+          0.17397029315783213
+        ],
+        "max_individual_thrust_N": 15.98629612304132,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1561.9173684171974,
+        "power_factor": 1.034889225227386,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.3260297068420962,
+          0.32602970684262866,
+          0.173970293157443,
+          0.17397029315783213
+        ],
+        "bounded_ideal_W": 1561.9173684171974,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 9,
+      "reserve_mm": 38,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -5.990694051938306e-14,
+        0.0033135703595936123
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": -0.23754599793066072,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.04347826086956516,
+        "cy_fraction": -9.216452387597392e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.2608695652171559,
+          0.2608695652176267,
+          0.23913043478238333,
+          0.23913043478283408
+        ],
+        "max_individual_thrust_N": 12.791282608707194,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1510.3304590572236,
+        "power_factor": 1.0007089684872237,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.2608695652171559,
+          0.2608695652176267,
+          0.23913043478238333,
+          0.23913043478283408
+        ],
+        "bounded_ideal_W": 1510.3304590572236,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 10,
+      "reserve_mm": 38,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.0734341628687168,
+        -5.990694051938306e-14,
+        0.004153570359593612
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.2989014360651019,
+        "cy_fraction": -9.216452387597392e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.32472535901600985,
+          0.3247253590165411,
+          0.17527464098352935,
+          0.1752746409839197
+        ],
+        "max_individual_thrust_N": 15.922339709997813,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1560.1156222852621,
+        "power_factor": 1.0336954311789694,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.32472535901600985,
+          0.3247253590165411,
+          0.17527464098352935,
+          0.1752746409839197
+        ],
+        "bounded_ideal_W": 1560.1156222852621,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 11,
+      "reserve_mm": 38,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -5.990694051938306e-14,
+        0.004153570359593612
+      ],
+      "station_midpoint_x_m": -0.012499999999999983,
+      "half_x_m": 0.2875,
+      "remaining_equipment_x_m": -0.37571615989033136,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": false,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.04347826086956516,
+        "cy_fraction": -9.216452387597392e-13,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.2608695652171559,
+          0.2608695652176267,
+          0.23913043478238333,
+          0.23913043478283408
+        ],
+        "max_individual_thrust_N": 12.791282608707194,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1510.3304590572236,
+        "power_factor": 1.0007089684872237,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.2608695652171559,
+          0.2608695652176267,
+          0.23913043478238333,
+          0.23913043478283408
+        ],
+        "bounded_ideal_W": 1510.3304590572236,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 12,
+      "reserve_mm": 60,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07876861506300245,
+        -6.960404475009341e-15,
+        0.0018404964329403004
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.3938430753150122,
+        "cy_fraction": -9.158426940801765e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.34846076882872545,
+          0.34846076882878063,
+          0.15153923117122875,
+          0.15153923117126517
+        ],
+        "max_individual_thrust_N": 17.086163993173805,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1597.94226572436,
+        "power_factor": 1.0587584636499576,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.34846076882872545,
+          0.34846076882878063,
+          0.15153923117122875,
+          0.15153923117126517
+        ],
+        "bounded_ideal_W": 1597.94226572436,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 13,
+      "reserve_mm": 60,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -6.960404475009341e-15,
+        0.0018404964329403004
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": -0.15099203363473918,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -9.158426940801765e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.24999999999997707,
+          0.2500000000000229,
+          0.24999999999997713,
+          0.25000000000002287
+        ],
+        "max_individual_thrust_N": 12.258312500001123,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.24999999999997707,
+          0.2500000000000229,
+          0.24999999999997713,
+          0.25000000000002287
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 14,
+      "reserve_mm": 60,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07876861506300245,
+        -6.960404475009341e-15,
+        0.002400496432940301
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.3938430753150122,
+        "cy_fraction": -9.158426940801765e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.34846076882872545,
+          0.34846076882878063,
+          0.15153923117122875,
+          0.15153923117126517
+        ],
+        "max_individual_thrust_N": 17.086163993173805,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1597.94226572436,
+        "power_factor": 1.0587584636499576,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.34846076882872545,
+          0.34846076882878063,
+          0.15153923117122875,
+          0.15153923117126517
+        ],
+        "bounded_ideal_W": 1597.94226572436,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 15,
+      "reserve_mm": 60,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -6.960404475009341e-15,
+        0.002400496432940301
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": -0.17834108123707818,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -9.158426940801765e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.24999999999997707,
+          0.2500000000000229,
+          0.24999999999997713,
+          0.25000000000002287
+        ],
+        "max_individual_thrust_N": 12.258312500001123,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.24999999999997707,
+          0.2500000000000229,
+          0.24999999999997713,
+          0.25000000000002287
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 16,
+      "reserve_mm": 60,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07876861506300245,
+        -6.960404475009341e-15,
+        0.0032404964329403006
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.3938430753150122,
+        "cy_fraction": -9.158426940801765e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.34846076882872545,
+          0.34846076882878063,
+          0.15153923117122875,
+          0.15153923117126517
+        ],
+        "max_individual_thrust_N": 17.086163993173805,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1597.94226572436,
+        "power_factor": 1.0587584636499576,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.34846076882872545,
+          0.34846076882878063,
+          0.15153923117122875,
+          0.15153923117126517
+        ],
+        "bounded_ideal_W": 1597.94226572436,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 17,
+      "reserve_mm": 60,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -6.960404475009341e-15,
+        0.0032404964329403006
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": -0.24487095654736893,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -9.158426940801765e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.24999999999997707,
+          0.2500000000000229,
+          0.24999999999997713,
+          0.25000000000002287
+        ],
+        "max_individual_thrust_N": 12.258312500001123,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.24999999999997707,
+          0.2500000000000229,
+          0.24999999999997713,
+          0.25000000000002287
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 18,
+      "reserve_mm": 60,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07811990692063278,
+        -4.875266856885219e-15,
+        0.0028635748540495297
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.3905995346031639,
+        "cy_fraction": -6.414824811691077e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.34764988365077165,
+          0.3476498836508103,
+          0.15235011634919626,
+          0.1523501163492218
+        ],
+        "max_individual_thrust_N": 17.046403657521093,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1596.4724761889036,
+        "power_factor": 1.0577846161312907,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.34764988365077165,
+          0.3476498836508103,
+          0.15235011634919626,
+          0.1523501163492218
+        ],
+        "bounded_ideal_W": 1596.4724761889036,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 19,
+      "reserve_mm": 60,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -4.875266856885219e-15,
+        0.0028635748540495297
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": -0.20083182472391728,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -6.414824811691077e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.24999999999998396,
+          0.25000000000001604,
+          0.24999999999998396,
+          0.25000000000001604
+        ],
+        "max_individual_thrust_N": 12.258312500000786,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.24999999999998396,
+          0.25000000000001604,
+          0.24999999999998396,
+          0.25000000000001604
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 20,
+      "reserve_mm": 60,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07811990692063278,
+        -4.875266856885219e-15,
+        0.00342357485404953
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.3905995346031639,
+        "cy_fraction": -6.414824811691077e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.34764988365077165,
+          0.3476498836508103,
+          0.15235011634919626,
+          0.1523501163492218
+        ],
+        "max_individual_thrust_N": 17.046403657521093,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1596.4724761889036,
+        "power_factor": 1.0577846161312907,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.34764988365077165,
+          0.3476498836508103,
+          0.15235011634919626,
+          0.1523501163492218
+        ],
+        "bounded_ideal_W": 1596.4724761889036,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 21,
+      "reserve_mm": 60,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -4.875266856885219e-15,
+        0.00342357485404953
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": -0.252830196717556,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -6.414824811691077e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.24999999999998396,
+          0.25000000000001604,
+          0.24999999999998396,
+          0.25000000000001604
+        ],
+        "max_individual_thrust_N": 12.258312500000786,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.24999999999998396,
+          0.25000000000001604,
+          0.24999999999998396,
+          0.25000000000001604
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 22,
+      "reserve_mm": 60,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07811990692063278,
+        -4.875266856885219e-15,
+        0.00426357485404953
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.3905995346031639,
+        "cy_fraction": -6.414824811691077e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.34764988365077165,
+          0.3476498836508103,
+          0.15235011634919626,
+          0.1523501163492218
+        ],
+        "max_individual_thrust_N": 17.046403657521093,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1596.4724761889036,
+        "power_factor": 1.0577846161312907,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.34764988365077165,
+          0.3476498836508103,
+          0.15235011634919626,
+          0.1523501163492218
+        ],
+        "bounded_ideal_W": 1596.4724761889036,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 23,
+      "reserve_mm": 60,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -4.875266856885219e-15,
+        0.00426357485404953
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.2,
+      "remaining_equipment_x_m": -0.41337284051423917,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": false,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -6.414824811691077e-14,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.24999999999998396,
+          0.25000000000001604,
+          0.24999999999998396,
+          0.25000000000001604
+        ],
+        "max_individual_thrust_N": 12.258312500000786,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.24999999999998396,
+          0.25000000000001604,
+          0.24999999999998396,
+          0.25000000000001604
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 24,
+      "reserve_mm": 80,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07931489604470236,
+        -1.6892997417583544e-13,
+        0.0019005335262027034
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.7931489604470235,
+        "cy_fraction": -1.9643020253004123e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.4482872401110227,
+          0.4482872401124891,
+          0.05171275988799512,
+          0.051712759888493054
+        ],
+        "max_individual_thrust_N": 21.980980316245706,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1882.9961620169,
+        "power_factor": 1.2476283820254592,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": false,
+        "bounded_weights": null,
+        "bounded_ideal_W": null,
+        "joint_scenario_feasible_in_this_model": false
+      }
+    },
+    {
+      "source_index": 25,
+      "reserve_mm": 80,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -1.6892997417583544e-13,
+        0.0019005335262027034
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": -0.15266224117193403,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -1.9643020253004123e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.2499999999995089,
+          0.2500000000004911,
+          0.24999999999950895,
+          0.25000000000049105
+        ],
+        "max_individual_thrust_N": 12.25831250002408,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.2499999999995089,
+          0.2500000000004911,
+          0.24999999999950895,
+          0.25000000000049105
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 26,
+      "reserve_mm": 80,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07931489604470236,
+        -1.6892980070348783e-13,
+        0.0024605335262027042
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.7931489604470235,
+        "cy_fraction": -1.9643000081800913e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.4482872401110227,
+          0.4482872401124891,
+          0.05171275988799512,
+          0.051712759888493054
+        ],
+        "max_individual_thrust_N": 21.980980316245706,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1882.9961620169,
+        "power_factor": 1.2476283820254592,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": false,
+        "bounded_weights": null,
+        "bounded_ideal_W": null,
+        "joint_scenario_feasible_in_this_model": false
+      }
+    },
+    {
+      "source_index": 27,
+      "reserve_mm": 80,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -1.6892980070348783e-13,
+        0.0024605335262027042
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": -0.1804477483623033,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -1.9643000081800913e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.2499999999995089,
+          0.2500000000004911,
+          0.24999999999950895,
+          0.25000000000049105
+        ],
+        "max_individual_thrust_N": 12.25831250002408,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.2499999999995089,
+          0.2500000000004911,
+          0.24999999999950895,
+          0.25000000000049105
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 28,
+      "reserve_mm": 80,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.07931489604470236,
+        -1.6893014764818305e-13,
+        0.0033005335262027034
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.7931489604470235,
+        "cy_fraction": -1.9643040424207334e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.4482872401110227,
+          0.4482872401124891,
+          0.05171275988799512,
+          0.051712759888493054
+        ],
+        "max_individual_thrust_N": 21.980980316245706,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1882.9961620169,
+        "power_factor": 1.2476283820254592,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": false,
+        "bounded_weights": null,
+        "bounded_ideal_W": null,
+        "joint_scenario_feasible_in_this_model": false
+      }
+    },
+    {
+      "source_index": 29,
+      "reserve_mm": 80,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -1.6893014764818305e-13,
+        0.0033005335262027034
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": -0.2482120174777859,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -1.9643040424207334e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.2499999999995089,
+          0.2500000000004911,
+          0.24999999999950895,
+          0.25000000000049105
+        ],
+        "max_individual_thrust_N": 12.25831250002408,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.2499999999995089,
+          0.2500000000004911,
+          0.24999999999950895,
+          0.25000000000049105
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 30,
+      "reserve_mm": 80,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.0786661879023327,
+        -1.6684483655771132e-13,
+        0.0029236119473119325
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.7866618790233268,
+        "cy_fraction": -1.940056239043155e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.4466654697551108,
+          0.44666546975655264,
+          0.05333453024391921,
+          0.053334530244417366
+        ],
+        "max_individual_thrust_N": 21.901459644940484,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1876.5378491276842,
+        "power_factor": 1.2433492578173908,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": false,
+        "bounded_weights": null,
+        "bounded_ideal_W": null,
+        "joint_scenario_feasible_in_this_model": false
+      }
+    },
+    {
+      "source_index": 31,
+      "reserve_mm": 80,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -1.6684483655771132e-13,
+        0.0029236119473119325
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": -0.2033492130222034,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -1.940056239043155e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.249999999999515,
+          0.250000000000485,
+          0.249999999999515,
+          0.250000000000485
+        ],
+        "max_individual_thrust_N": 12.25831250002378,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.249999999999515,
+          0.250000000000485,
+          0.249999999999515,
+          0.250000000000485
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 32,
+      "reserve_mm": 80,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.0786661879023327,
+        -1.6684501003005893e-13,
+        0.0034836119473119326
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.7866618790233268,
+        "cy_fraction": -1.940058256163476e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.4466654697551108,
+          0.44666546975655264,
+          0.05333453024391921,
+          0.053334530244417366
+        ],
+        "max_individual_thrust_N": 21.901459644940484,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1876.5378491276842,
+        "power_factor": 1.2433492578173908,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": false,
+        "bounded_weights": null,
+        "bounded_ideal_W": null,
+        "joint_scenario_feasible_in_this_model": false
+      }
+    },
+    {
+      "source_index": 33,
+      "reserve_mm": 80,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -1.6684501003005893e-13,
+        0.0034836119473119326
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": -0.25636467658595974,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -1.940058256163476e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.249999999999515,
+          0.250000000000485,
+          0.249999999999515,
+          0.250000000000485
+        ],
+        "max_individual_thrust_N": 12.25831250002378,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.249999999999515,
+          0.250000000000485,
+          0.249999999999515,
+          0.250000000000485
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    },
+    {
+      "source_index": 34,
+      "reserve_mm": 80,
+      "mode": "remaining_equipment_at_x0",
+      "CG_m": [
+        0.0786661879023327,
+        -1.6684501003005893e-13,
+        0.0043236119473119335
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": true,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.7866618790233268,
+        "cy_fraction": -1.940058256163476e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.4466654697551108,
+          0.44666546975655264,
+          0.05333453024391921,
+          0.053334530244417366
+        ],
+        "max_individual_thrust_N": 21.901459644940484,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1876.5378491276842,
+        "power_factor": 1.2433492578173908,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": false,
+        "bounded_weights": null,
+        "bounded_ideal_W": null,
+        "joint_scenario_feasible_in_this_model": false
+      }
+    },
+    {
+      "source_index": 35,
+      "reserve_mm": 80,
+      "mode": "x_CG_balanced",
+      "CG_m": [
+        0.0,
+        -1.6684501003005893e-13,
+        0.0043236119473119335
+      ],
+      "station_midpoint_x_m": 0.0,
+      "half_x_m": 0.1,
+      "remaining_equipment_x_m": -0.42100647512232203,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "remaining_equipment_within_assumed_zone": false,
+      "scenario": {
+        "mass_kg": 5,
+        "scaled_diameter_m": 0.082,
+        "cx_fraction": 0.0,
+        "cy_fraction": -1.940058256163476e-12,
+        "ax_g": 0,
+        "az_g": 0.0,
+        "cone_deg": 45.0,
+        "angle_deg": 0.0,
+        "cone_possible": true,
+        "total_thrust_N": 49.033249999999995,
+        "unconstrained_weights": [
+          0.249999999999515,
+          0.250000000000485,
+          0.249999999999515,
+          0.250000000000485
+        ],
+        "max_individual_thrust_N": 12.25831250002378,
+        "uniform_ideal_W": 1509.2604409655657,
+        "min_ideal_W": 1509.2604409655657,
+        "power_factor": 1.0,
+        "per_fan_limit_N": 21,
+        "cap_feasible_common_direction": true,
+        "bounded_weights": [
+          0.249999999999515,
+          0.250000000000485,
+          0.249999999999515,
+          0.250000000000485
+        ],
+        "bounded_ideal_W": 1509.2604409655657,
+        "joint_scenario_feasible_in_this_model": true
+      }
+    }
+  ]
+}

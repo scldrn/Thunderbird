@@ -1,0 +1,38 @@
+[
+  {
+    "cone_half_angle_ASSUMED_deg": 15,
+    "maximum_additional_acceleration_ball_radius_g_NECESSARY": 0.25881904510252074,
+    "maximum_horizontal_acceleration_at_fixed_altitude_g_NECESSARY": 0.2679491924311227,
+    "caveat": "Upward force cone, fixed horizontal attitude, no external aerodynamic force, unlimited magnitude; ignores moments and power. Necessary bounds, not sufficient performance."
+  },
+  {
+    "cone_half_angle_ASSUMED_deg": 30,
+    "maximum_additional_acceleration_ball_radius_g_NECESSARY": 0.49999999999999994,
+    "maximum_horizontal_acceleration_at_fixed_altitude_g_NECESSARY": 0.5773502691896256,
+    "caveat": "Upward force cone, fixed horizontal attitude, no external aerodynamic force, unlimited magnitude; ignores moments and power. Necessary bounds, not sufficient performance."
+  },
+  {
+    "cone_half_angle_ASSUMED_deg": 35,
+    "maximum_additional_acceleration_ball_radius_g_NECESSARY": 0.573576436351046,
+    "maximum_horizontal_acceleration_at_fixed_altitude_g_NECESSARY": 0.7002075382097097,
+    "caveat": "Upward force cone, fixed horizontal attitude, no external aerodynamic force, unlimited magnitude; ignores moments and power. Necessary bounds, not sufficient performance."
+  },
+  {
+    "cone_half_angle_ASSUMED_deg": 40,
+    "maximum_additional_acceleration_ball_radius_g_NECESSARY": 0.6427876096865393,
+    "maximum_horizontal_acceleration_at_fixed_altitude_g_NECESSARY": 0.8390996311772799,
+    "caveat": "Upward force cone, fixed horizontal attitude, no external aerodynamic force, unlimited magnitude; ignores moments and power. Necessary bounds, not sufficient performance."
+  },
+  {
+    "cone_half_angle_ASSUMED_deg": 45,
+    "maximum_additional_acceleration_ball_radius_g_NECESSARY": 0.7071067811865475,
+    "maximum_horizontal_acceleration_at_fixed_altitude_g_NECESSARY": 0.9999999999999999,
+    "caveat": "Upward force cone, fixed horizontal attitude, no external aerodynamic force, unlimited magnitude; ignores moments and power. Necessary bounds, not sufficient performance."
+  },
+  {
+    "cone_half_angle_ASSUMED_deg": 60,
+    "maximum_additional_acceleration_ball_radius_g_NECESSARY": 0.8660254037844386,
+    "maximum_horizontal_acceleration_at_fixed_altitude_g_NECESSARY": 1.7320508075688767,
+    "caveat": "Upward force cone, fixed horizontal attitude, no external aerodynamic force, unlimited magnitude; ignores moments and power. Necessary bounds, not sufficient performance."
+  }
+]

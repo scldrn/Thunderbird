@@ -1,0 +1,18 @@
+{
+  "source_case": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/comparacion_Euler_reinicio_h0.006",
+  "snapshot_time_s": 0.0005,
+  "source_initial_age_s": 0.001,
+  "purpose": "Saved-field local solid reaction partition; not net thruster force or accepted physical loads.",
+  "origin_m": [
+    0,
+    0,
+    0
+  ],
+  "rho_kg_m3": 1.225,
+  "missing": [
+    "rotor",
+    "external body",
+    "inlet and outlet momentum/pressure control-volume audit",
+    "time development and numerical sensitivity"
+  ]
+}

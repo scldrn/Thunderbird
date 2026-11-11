@@ -1,0 +1,5 @@
+componente,masa medida,masa supuesta,intervalo inferior,intervalo superior,evidencia,estado
+GUIA_FILA_1_COMPONENTE_NO_MEDIDO,,0.150000,0.120000,0.180000,Estimación paramétrica inicial; pieza sin pesar en báscula,SUPUESTO_PARAMETRICO
+GUIA_FILA_2_RESERVA_VOLUMETRICA_VACIA_O_CON_EQUIPO,,,0.000000,0.250000,Volumen reservado en CAD; puede permanecer vacío (m=0) o alojar hardware (m>0),RESERVA_VOLUMETRICA_INCIERTA
+GUIA_FILA_3_DEMOSTRACION_CERO_MEDIDO_EXPLICITO,0.000000,0.000000,0.000000,0.000000,Inspección dimensional que certifica ausencia total de material físico,MEDIDO_CERO_CONFIRMADO
+GUIA_FILA_4_COMPONENTE_CON_MEDICION_REAL_HIPOTETICA,0.045200,0.045000,0.045150,0.045250,Pesaje de cupón de prueba en báscula calibrada (+/- 0.05 g),MEDIDO_CALIBRADO

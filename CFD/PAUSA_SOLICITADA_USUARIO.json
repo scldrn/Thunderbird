@@ -1,0 +1,10 @@
+{
+  "reason": "User paused the research goal before requesting the new CAD revision",
+  "action": "docker pause; preserve live memory and original exec handles; do not restart",
+  "containers": [
+    "codex-aero-avance-compresible-600-lts-cont-v1",
+    "codex-aero-exterior-urans-v1"
+  ],
+  "goal_resumed": false,
+  "new_task": "CAD A03 and presentation only"
+}

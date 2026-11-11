@@ -1,0 +1,176 @@
+{
+  "case": "diagnostico_Euler_upwind_X35_Y-35_h0.006",
+  "source_post_processing": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/diagnostico_Euler_upwind_X35_Y-35_h0.006/postProcessing",
+  "discard_before_s": 0.0072499999999999995,
+  "flow_through_time_s": 0.0036249999999999998,
+  "method": "Time-weighted piecewise-linear interpolation; exact interpolant variance. No extrapolation, no independent-sample assumption.",
+  "physical_loads_accepted": false,
+  "per_vane": {
+    "force_vaneX0": {
+      "parsing": {
+        "discarded_rows": 0,
+        "overwritten_duplicate_times": 0
+      },
+      "force_N": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "moment_about_vane_center_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "hinge_axis": "X",
+      "hinge_torque_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      }
+    },
+    "force_vaneX1": {
+      "parsing": {
+        "discarded_rows": 0,
+        "overwritten_duplicate_times": 0
+      },
+      "force_N": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "moment_about_vane_center_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "hinge_axis": "X",
+      "hinge_torque_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      }
+    },
+    "force_vaneX2": {
+      "parsing": {
+        "discarded_rows": 0,
+        "overwritten_duplicate_times": 0
+      },
+      "force_N": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "moment_about_vane_center_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "hinge_axis": "X",
+      "hinge_torque_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      }
+    },
+    "force_vaneY0": {
+      "parsing": {
+        "discarded_rows": 0,
+        "overwritten_duplicate_times": 0
+      },
+      "force_N": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "moment_about_vane_center_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "hinge_axis": "Y",
+      "hinge_torque_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      }
+    },
+    "force_vaneY1": {
+      "parsing": {
+        "discarded_rows": 0,
+        "overwritten_duplicate_times": 0
+      },
+      "force_N": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "moment_about_vane_center_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "hinge_axis": "Y",
+      "hinge_torque_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      }
+    },
+    "force_vaneY2": {
+      "parsing": {
+        "discarded_rows": 0,
+        "overwritten_duplicate_times": 0
+      },
+      "force_N": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "moment_about_vane_center_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      },
+      "hinge_axis": "Y",
+      "hinge_torque_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      }
+    }
+  },
+  "row_generalized_torques": {
+    "X": {
+      "interpretation": "Sum of signed local hinge torques for synchronous equal-angle row motion, before linkage ratio, friction, inertia or mechanical efficiency. Not a common-axis body moment.",
+      "torque_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      }
+    },
+    "Y": {
+      "interpretation": "Sum of signed local hinge torques for synchronous equal-angle row motion, before linkage ratio, friction, inertia or mechanical efficiency. Not a common-axis body moment.",
+      "torque_Nm": {
+        "statistics_withheld": true,
+        "reason": "Initial discard interval not reached.",
+        "last_recorded_time_s": 0.001
+      }
+    }
+  },
+  "mass_balance": {
+    "inlet_parsing": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "outlet_parsing": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "max_abs_relative_imbalance_recorded": 4.7007450831749535e-05,
+    "after_discard": {
+      "statistics_withheld": true,
+      "reason": "Initial discard interval not reached.",
+      "last_recorded_time_s": 0.001
+    }
+  }
+}

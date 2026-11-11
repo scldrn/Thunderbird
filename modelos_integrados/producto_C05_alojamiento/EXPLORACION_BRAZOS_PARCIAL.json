@@ -1,0 +1,93 @@
+{
+  "scope": "Barras rectas candidatas en posicion cerrada, 1.5 mm radio; puntos de malla de tapa C03; no analisis de recorrido ni integracion mecanica",
+  "arms": [
+    {
+      "x_mm": -177.5,
+      "samples": [
+        {
+          "target_mm": [
+            -174.83262784956798,
+            -119.33166453786227,
+            72.58774894319235
+          ],
+          "length_mm": 9.083034116214387,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 2.2659185303997904
+            },
+            "junta": {
+              "interseccion_mm3": 0.6059635053868049
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.4020430038215848
+            },
+            "camisa": {
+              "interseccion_mm3": 0.03861190712899787
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 4.876873656233783
+        },
+        {
+          "target_mm": [
+            -179.73586956132505,
+            -117.32959539310794,
+            73.34460409142498
+          ],
+          "length_mm": 10.849128259915641,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 2.8951516199044076
+            },
+            "junta": {
+              "interseccion_mm3": 0.7823340605447884
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.6819278132310036
+            },
+            "camisa": {
+              "interseccion_mm3": 0.02917099633713016
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 4.545673654844112
+        }
+      ]
+    },
+    {
+      "x_mm": -145.5,
+      "samples": [
+        {
+          "target_mm": [
+            -147.94000239287143,
+            -120.18366733337007,
+            73.49606261699603
+          ],
+          "length_mm": 9.14007114857367,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 2.023130780327612
+            },
+            "junta": {
+              "interseccion_mm3": 0.5930709853072796
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.08401354430887055
+            },
+            "camisa": {
+              "interseccion_mm3": 0.0
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 5.044034204936018
+        }
+      ]
+    }
+  ]
+}

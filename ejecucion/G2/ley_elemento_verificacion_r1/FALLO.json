@@ -1,0 +1,5 @@
+{
+  "stage": "bridge_to_frozen_BEM",
+  "exception": "KeyError v_i_m_s; stored key is vi_m_s",
+  "physical_result_accepted": false
+}

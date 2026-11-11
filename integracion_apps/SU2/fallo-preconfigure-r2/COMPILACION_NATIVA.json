@@ -1,0 +1,18 @@
+{
+  "stage": "failed_preconfigure_running",
+  "source_dir": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3",
+  "version": "8.6.0",
+  "started_UTC": "2026-11-03T22:41:17.957250+00:00",
+  "architecture_target": "arm64",
+  "global_system_settings_changed": false,
+  "compiler_jobs": 2,
+  "flow_solver_executed": false,
+  "command": [
+    "/Users/sam/Documents/ChatGPT/New project/.venv-cad/bin/python",
+    "-c",
+    "import sys; from pathlib import Path; sys.path[0]='/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3'; import preconfigure; preconfigure.init_submodules(method=\"url\", own_meson=True, own_codi=False, own_medi=False, own_opdi=False, own_mpp=False, own_coolprop=False, own_cantera=False, own_mel=False, own_fado=False, own_mlpcpp=False, own_eigen=False); preconfigure.build_ninja(); Path(\"su2preconfig.timestamp\").touch()"
+  ],
+  "active_pid": 29606,
+  "last_exit_code": 1,
+  "last_stage_wall_s": 0.04516545799560845
+}

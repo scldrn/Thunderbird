@@ -1,0 +1,6 @@
+{
+  "container": "codex-aero-exterior-urans-v1",
+  "running": true,
+  "physical_loads_accepted": false,
+  "diagnostic_read_retry": true
+}

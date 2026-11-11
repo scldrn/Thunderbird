@@ -1,0 +1,7 @@
+{
+  "stage": "postprocessing",
+  "failure": "Reader rejects valid compact List<vector> for4cells",
+  "additional_numerical_issue": "20-cell result not at analytical U after200 steady iterations; U linear solver reaches500 iterations",
+  "cases_not_accepted": true,
+  "solver_exit0_not_validation": true
+}

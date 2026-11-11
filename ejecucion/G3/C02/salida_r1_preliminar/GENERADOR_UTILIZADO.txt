@@ -1,0 +1,243 @@
+"""C02 packaging candidate: hub motor reserve and synchronized vane linkages.
+
+All CAD lengths in mm. These are geometric mechanisms and reserved motor/servo
+envelopes, not selected or validated electromechanical hardware. A07 unchanged.
+"""
+from pathlib import Path
+import hashlib
+import json
+import math
+
+import cadquery as cq
+import numpy as np
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+A07 = ROOT/'modelos_integrados/producto_A07/5kg/A07_cerrado.step'
+C01 = ROOT/'ejecucion/G2/modulo_preliminar/CAD'
+OUT = HERE/'salida'
+OUT.mkdir(exist_ok=True)
+
+ROW_Z = {'inferior_X': -21., 'inferior_Y': -39., 'superior_X': 19., 'superior_Y': 37.}
+
+
+def cylinder(radius, length, origin, direction=(0,0,1)):
+    return cq.Solid.makeCylinder(radius, length, cq.Vector(*origin), cq.Vector(*direction))
+
+
+def box(dx,dy,dz,centre):
+    return cq.Workplane('XY').box(dx,dy,dz).val().translate(centre)
+
+
+def inner_hull(width_factor=1.):
+    sections=[(-680,7,6),(-580,58,36),(-400,127,80),(-140,160,107),(160,150,103),(400,112,78),(570,63,47),(660,25,25)]
+    wires=[]
+    for x,w,h in sections:
+        w*=width_factor
+        yz=np.array([(w,0),(.79*w,.67*h),(.37*w,h),(-.37*w,h),(-.79*w,.67*h),(-w,0),(-.75*w,-.62*h),(-.32*w,-.78*h),(.32*w,-.78*h),(.75*w,-.62*h)])
+        edges=np.roll(yz,-1,axis=0)-yz
+        normals=np.column_stack([-edges[:,1],edges[:,0]])/np.linalg.norm(edges,axis=1)[:,None]
+        d=min(2.,min(w,h)*.38)
+        pts=[np.linalg.solve(np.array([normals[i-1],normals[i]]),[normals[i-1]@yz[i]+d,normals[i]@yz[i]+d]) for i in range(len(yz))]
+        wires.append(cq.Wire.makePolygon([cq.Vector(x,*p) for p in pts]+[cq.Vector(x,*pts[0])]))
+    return cq.Solid.makeLoft(wires,False)
+
+
+def old_parts():
+    return {n.split('/')[-1]:s.moved(loc).translate((200,76,0)) for s,n,loc,c in cq.Assembly.load(str(A07))}
+
+
+def parameters(factor):
+    if factor not in (1.,1.25):
+        raise ValueError('Only C01 rotor dimensions are identified')
+    large=factor>1
+    return dict(factor=factor, R_in=42*factor, R_out=42*factor+2,
+                rotor_R=41*factor, rotor_swept_R=41.5*factor,
+                cup_half_height=7.79*factor,
+                cavity_R=11.4*factor, cavity_top=5.8*factor,
+                motor_R=10.9 if not large else 13.75,
+                motor_bottom=-10.8 if not large else -12.6,
+                motor_top=5.3 if not large else 6.75,
+                support_bottom=-10.8 if not large else -12.6,
+                support_top=-9.5 if not large else -11.3,
+                shaft_R=2.0 if not large else 2.5,
+                vane_shaft_R=1.2*factor,
+                row_z={k:v+((-2 if k.startswith('inferior') else .5) if large else 0) for k,v in ROW_Z.items()},
+                nominal_motor_reserve_not_hardware=True,
+                root_fillet_material_tolerances_and_RPM_approved=False)
+
+
+def rotate(shape,row,p,angle):
+    z=p['row_z'][row]
+    direction=(1,0,0) if row.endswith('X') else (0,1,0)
+    # Full units are rotated about their own parallel axis in pose(), not this
+    # helper, which is reserved for centreline couplings.
+    return shape.rotate((0,0,z),(direction[0],direction[1],z),angle)
+
+
+def build(factor=1., station=(-200.,-76.), width_factor=1., parts=None, hull=None):
+    p=parameters(factor)
+    parts=old_parts() if parts is None else parts
+    hull=inner_hull(width_factor) if hull is None else hull
+    local_hull=hull.translate((-station[0],-station[1],0))
+    rin,rout=p['R_in'],p['R_out']
+    casing=cylinder(rout,240,(0,0,-120)).cut(cylinder(rin,242,(0,0,-121))).intersect(local_hull)
+    source=C01/f'rotor_8palas_D{82*factor:g}mm_CCW.step'
+    rotor=cq.importers.importStep(str(source)).val()
+    rotor=rotor.cut(cylinder(p['cavity_R'],p['cup_half_height']+p['cavity_top']+.1,
+                              (0,0,-p['cup_half_height']-.1)))
+    # Local adapter remains a geometric interface. Its shaft clearance is not
+    # treated as proof of torque transmission, retention or bearing qualification.
+    shaft_clearance=.05
+    adapter=cylinder(p['shaft_R']+1.,p['cup_half_height']-p['cavity_top'],(0,0,p['cavity_top']))
+    adapter=adapter.cut(cylinder(p['shaft_R']+shaft_clearance,30,(0,0,-15)))
+    rotor=rotor.fuse(adapter).clean()
+    assert rotor.isValid() and len(rotor.Solids())==1
+    motor=cylinder(p['motor_R'],p['motor_top']-p['motor_bottom'],(0,0,p['motor_bottom']))
+    bearing_outer=p['shaft_R']+2.5
+    motor=motor.cut(cylinder(bearing_outer,p['motor_top']-p['motor_bottom']+2,(0,0,p['motor_bottom']-1)))
+    spindle=cylinder(p['shaft_R'],p['cup_half_height']-p['motor_bottom']-1,(0,0,p['motor_bottom']+1))
+    support_R=p['motor_R']+1.6
+    cradle=cylinder(support_R,p['support_top']-p['support_bottom'],(0,0,p['support_bottom']))
+    cradle=cradle.cut(cylinder(p['motor_R']+.2,5,(0,0,p['support_bottom']-1)))
+    seat=cylinder(support_R,.6,(0,0,p['support_bottom']-.6)).cut(cylinder(p['motor_R']-.9,2,(0,0,p['support_bottom']-1)))
+    fixed_add=[cradle,seat]
+    for angle in (45,135,225,315):
+        radial=box(rin-support_R+.8,2.,p['support_top']-p['support_bottom'],
+                   ((rin+support_R)/2,0,(p['support_top']+p['support_bottom'])/2))
+        fixed_add.append(radial.rotate((0,0,0),(0,0,1),angle))
+    fixed={'rotor_copa_CCW':rotor,'reserva_motor_anular':motor,'eje_rotor_interfaz_pendiente':spindle}
+    for i,z in enumerate((p['motor_bottom']+1,p['motor_top']-4.3)):
+        bearing=cylinder(bearing_outer,4,(0,0,z)).cut(cylinder(p['shaft_R']+.025,6,(0,0,z-1)))
+        fixed[f'reserva_apoyo_motor_{i}']=bearing
+    units=[]
+    rods={}
+    couplings={}
+    axis_data=[]
+    for row,z in p['row_z'].items():
+        x_axis=row.endswith('X')
+        axis_index=0 if x_axis else 1
+        cross_index=1-axis_index
+        # X drive outwards in longitudinal direction, Y drive towards centreline.
+        drive_sign=(-1 if station[0]<0 else 1) if x_axis else (-1 if station[1]>0 else 1)
+        direction=np.eye(3)[axis_index]
+        def xyz(q,t,h):
+            return (q,t,h) if x_axis else (t,q,h)
+        def oriented_box(dq,dt,dh,q,t,h):
+            dims=(dq,dt,dh) if x_axis else (dt,dq,dh)
+            return box(*dims,xyz(q,t,h))
+        sr=p['vane_shaft_R']
+        bush_outer=sr+.6
+        for index,t in enumerate((-22*factor,0.,22*factor)):
+            old=parts[f'canal_0_alabe_0_{row}_{index}']
+            old_z=ROW_Z[row]
+            matrix=cq.Matrix([[factor,0,0,0],[0,factor,0,0],[0,0,1,z-old_z],[0,0,0,1]])
+            vane=old.transformGeometry(matrix)
+            wall=math.sqrt(rout*rout-t*t)
+            q_start=-rout-10 if drive_sign<0 else -wall-2.5
+            q_end=wall+2.5 if drive_sign<0 else rout+10
+            stem=cylinder(sr,q_end-q_start,xyz(q_start,t,z),direction)
+            q_crank=drive_sign*(rout+8)
+            crank=oriented_box(2,3,6,q_crank,t,z+3)
+            crank=crank.fuse(cylinder(2.2,2,xyz(q_crank-1,t,z),direction))
+            pin_start=drive_sign*(rout+3)
+            pin=cylinder(1.,4,xyz(min(pin_start,drive_sign*(rout+7)),t,z+6),direction)
+            unit=vane.fuse(stem,crank,pin).clean()
+            assert unit.isValid() and len(unit.Solids())==1,(row,index)
+            units.append(dict(name=f'alabe_integral_{row}_{index}',shape=unit,row=row,
+                              axis_origin=xyz(0,t,z),axis_direction=direction.tolist(),transverse_mm=t))
+            for side in (-1,1):
+                q0=side*(wall-1)
+                boss=cylinder(bush_outer+1.5,3.5,xyz(q0,t,z),side*direction)
+                fixed_add.append(boss)
+                # Cut after the casing/support union, preserving the seat boundary.
+                cut=cylinder(bush_outer,wall+12,xyz(0,t,z),side*direction)
+                axis_data.append(cut)
+                bush=cylinder(bush_outer,3.,xyz(side*(wall-.8),t,z),side*direction)
+                bush=bush.cut(cylinder(sr+.05,5,xyz(side*(wall-1.5),t,z),side*direction))
+                fixed[f'casquillo_{row}_{index}_{side}']=bush
+        q_rod=drive_sign*(rout+5)
+        rod=oriented_box(1.6,44*factor+3.,3.,q_rod,0,z+6)
+        for t in (-22*factor,0,22*factor):
+            rod=rod.cut(cylinder(1.1,6,xyz(q_rod-3,t,z+6),direction))
+        rods[row]=rod
+        coupling=cylinder(2.7,4,xyz(min(drive_sign*(rout+10),drive_sign*(rout+14)),0,z),direction)
+        coupling=coupling.cut(cylinder(sr+.05,6,xyz(min(drive_sign*(rout+10),drive_sign*(rout+14))-1,0,z),direction))
+        couplings[row]=coupling
+        plate_q=drive_sign*(rout+14.5)
+        plate=oriented_box(1,16,14,plate_q,0,z)
+        plate=plate.cut(cylinder(3.,4,xyz(plate_q-2,0,z),direction))
+        base=oriented_box(15,16,2,drive_sign*(rout+6.5),0,z-6)
+        fixed_add.extend([plate,base])
+        fixed[f'reserva_servo_{row}']=oriented_box(12,16,10,drive_sign*(rout+21),0,z)
+    print('C02',factor,station,'geometry built; uniting fixed carrier',flush=True)
+    carrier=casing.fuse(*fixed_add).clean()
+    for cut in axis_data:
+        carrier=carrier.cut(cut)
+    carrier=carrier.clean()
+    assert carrier.isValid(), 'carrier invalid'
+    fixed['camisa_cuna_y_soportes']=carrier
+    # An enclosing axisymmetric rotor volume proves rotation clearance without
+    # relying on empty spaces between blades at a single clocking angle.
+    # BEM radial stations describe a finite chord: the outer corners extend
+    # beyond R even though the cardinal X/Y bounding diameter remains 2R.
+    swept=cylinder(p['rotor_swept_R'],2*p['cup_half_height'],(0,0,-p['cup_half_height']))
+    swept=swept.cut(cylinder(p['cavity_R'],p['cup_half_height']+p['cavity_top']+.1,
+                                (0,0,-p['cup_half_height']-.1)))
+    swept=swept.cut(cylinder(p['shaft_R']+.05,30,(0,0,-15)))
+    assert rotor.cut(swept).Volume(1e-8)<1e-4, 'rotor swept enclosure does not contain rotor'
+    return dict(parameters=p,station_CAD_mm=list(station),fixed=fixed,units=units,rods=rods,
+                couplings=couplings,rotor_swept=swept,inner_hull_local=local_hull,rotor_source=source)
+
+
+def pose(module, angles=None):
+    p=module['parameters'];angles=angles or {}
+    shapes=dict(module['fixed'])
+    for u in module['units']:
+        a=angles.get(u['row'],0.)
+        origin=np.asarray(u['axis_origin'])
+        direction=np.asarray(u['axis_direction'])
+        shapes[u['name']]=u['shape'].rotate(tuple(origin),tuple(origin+direction),a)
+    for row,rod in module['rods'].items():
+        a=math.radians(angles.get(row,0.))
+        dz=6*(math.cos(a)-1)
+        shift=(0,-6*math.sin(a),dz) if row.endswith('X') else (6*math.sin(a),0,dz)
+        shapes[f'barra_sincrona_{row}']=rod.translate(shift)
+        shapes[f'acoplamiento_servo_{row}']=rotate(module['couplings'][row],row,p,angles.get(row,0.))
+    return shapes
+
+
+def save(module, name, angles=None):
+    folder=OUT/name
+    folder.mkdir(exist_ok=True)
+    shapes=pose(module,angles)
+    assembly=cq.Assembly(name=name)
+    for n,s in shapes.items():
+        assert s.isValid() and s.Volume(1e-8)>0,n
+        color=(.18,.22,.26) if n=='rotor_copa_CCW' else ((.75,.45,.18) if n.startswith(('casquillo','barra')) else (.40,.44,.48))
+        assembly.add(s,name=n,color=cq.Color(*color))
+    target=folder/'modulo.step'
+    assembly.save(str(target))
+    imported={n.split('/')[-1]:s.moved(loc) for s,n,loc,c in cq.Assembly.load(str(target))}
+    assert len(imported)==len(shapes) and all(s.isValid() for s in imported.values())
+    meta=dict(parameters=module['parameters'],station_CAD_mm=module['station_CAD_mm'],angles_deg=angles or {},
+        parts=len(shapes),source_A07_sha256=hashlib.sha256(A07.read_bytes()).hexdigest(),
+        source_rotor_sha256=hashlib.sha256(module['rotor_source'].read_bytes()).hexdigest(),
+        STEP_sha256=hashlib.sha256(target.read_bytes()).hexdigest(),
+        physical_motor_and_servos_selected=False,structural_and_aerodynamic_performance_validated=False,
+        source_configuration_changed=False,
+        scope='Packaging and geometric linkage candidate; reserved devices are not zero-mass physical components',
+        records=[dict(name=n,volume_mm3=s.Volume(1e-8),role='hardware_reserve' if n.startswith('reserva_') else 'geometric_component_unqualified') for n,s in imported.items()])
+    (folder/'MANIFIESTO.json').write_text(json.dumps(meta,indent=2)+'\n')
+    print('SAVED',name,len(shapes),flush=True)
+    return imported,meta
+
+
+if __name__=='__main__':
+    parts=old_parts()
+    hull=inner_hull()
+    for factor in (1.,1.25):
+        station=(-200.,-76.) if factor==1 else (-200.,-86.5)
+        module=build(factor,station,parts=parts,hull=hull)
+        save(module,f'C02_D{82*factor:g}_neutro')
+        save(module,f'C02_D{82*factor:g}_desviado',dict(inferior_X=35,inferior_Y=-35,superior_X=35,superior_Y=-35))

@@ -1,0 +1,1992 @@
+{
+  "scope": "Conditional 5 kg ideal C02 force-allocation comparison; not a real control capability",
+  "config_sha256": "4529d8530f0edd2faa8dddf1cd7c142d72969e5dc6166c232063b3c4db0d4bf3",
+  "script_sha256": "157cbdd632d7cef50016dd71656237873a45c58c68c9f2ba8693fde31707d0ae",
+  "fan_centres_CAD_m": [
+    [
+      -0.16,
+      -0.076,
+      0.0
+    ],
+    [
+      -0.16,
+      0.076,
+      0.0
+    ],
+    [
+      0.16,
+      -0.076,
+      0.0
+    ],
+    [
+      0.16,
+      0.076,
+      0.0
+    ]
+  ],
+  "fan_force_application_z_assumed_m": 0.0,
+  "mass_kg": 5.0,
+  "g_m_s2": 9.80665,
+  "ideal_force_ray_azimuths": 16,
+  "ideal_force_ray_radial_levels": 4,
+  "convex_hull_inner_approximation": true,
+  "max_individual_20_58N_origin": "prior A ideal sufficient-force scenario, not C02 measured capacity",
+  "incomplete_C02_geometric_CG_x_m": 0.09605024872370113,
+  "incomplete_CG_is_not_a_physical_vehicle_CG": true,
+  "all_cases_ignore_rotor_reaction_torque_and_gyro": true,
+  "axial_engine_aerodynamic_forces_and_actuator_lag_omitted": true,
+  "ideal_hover_pitch_balance_check_pass": true,
+  "ideal_unlimited_thrust_cone_check_pass": true,
+  "solved_cases": 40,
+  "physical_vehicle_performance_accepted": false,
+  "cases": [
+    {
+      "cg_x_CAD_m": 0.0,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 6.866690254584249,
+      "acceleration_g": 0.7002075382097097,
+      "total_force_N": [
+        34.333451272921245,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        2.220446049250313e-16,
+        -4.440892098500626e-16,
+        -2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          11.804203060104525,
+          0.0,
+          16.858149071467448
+        ],
+        [
+          5.362522576356096,
+          0.0,
+          7.658475928532549
+        ],
+        [
+          5.362522576356097,
+          0.0,
+          7.65847592853255
+        ],
+        [
+          11.804203060104529,
+          0.0,
+          16.85814907146745
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        20.579999999999995,
+        9.349272802193832,
+        9.349272802193834,
+        20.580000000000002
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.706637440704408,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.0,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 6.787155047422397,
+      "acceleration_g": 0.6920972041851597,
+      "total_force_N": [
+        33.93577523711198,
+        0.0,
+        49.03324999999999
+      ],
+      "total_moment_Nm": [
+        0.4999999999999992,
+        1.3322676295501878e-15,
+        4.440892098500626e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          9.500888789677852,
+          0.0,
+          13.568675387256928
+        ],
+        [
+          7.466998828878141,
+          -0.9996262199479716,
+          10.947949612743072
+        ],
+        [
+          5.3625225763560955,
+          0.0,
+          7.658475928532547
+        ],
+        [
+          11.605365042199892,
+          0.9996262199479716,
+          16.858149071467444
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        16.564294115916265,
+        13.289579557429052,
+        9.34927280219383,
+        20.490996570643933
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7166079227486901,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 1.2609952268414676e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.0,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 6.866690254584251,
+      "acceleration_g": 0.7002075382097098,
+      "total_force_N": [
+        34.33345127292125,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        6.661338147750939e-16,
+        -4.440892098500626e-16,
+        -4.440892098500626e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          14.339410908776152,
+          0.0,
+          20.478801107224793
+        ],
+        [
+          2.827314727684472,
+          0.0,
+          4.0378238927752035
+        ],
+        [
+          2.8273147276844703,
+          0.0,
+          4.037823892775201
+        ],
+        [
+          14.339410908776156,
+          0.0,
+          20.4788011072248
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        24.999999999999996,
+        4.929272802193831,
+        4.929272802193827,
+        25.000000000000007
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7066374407044078,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.0,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 6.787155047422397,
+      "acceleration_g": 0.6920972041851597,
+      "total_force_N": [
+        33.93577523711198,
+        -4.440892098500626e-16,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.4999999999999998,
+        0.0,
+        0.0
+      ],
+      "fan_force_vectors_N": [
+        [
+          12.036096638349475,
+          0.0,
+          17.18932742301427
+        ],
+        [
+          4.931790980206517,
+          -0.9996262199479719,
+          7.327297576985727
+        ],
+        [
+          2.8273147276844712,
+          0.0,
+          4.037823892775202
+        ],
+        [
+          14.140572890871521,
+          0.9996262199479714,
+          20.478801107224793
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        20.984294115916263,
+        8.888819079819026,
+        4.929272802193829,
+        24.906552331684317
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7166079227486901,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 3.8943502528780706e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.0,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 9.806649999999998,
+      "acceleration_g": 0.9999999999999999,
+      "total_force_N": [
+        49.03324999999999,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        4.440892098500626e-16,
+        -8.881784197001252e-16,
+        -4.440892098500626e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          14.552257556819146,
+          0.0,
+          14.552257556819148
+        ],
+        [
+          9.964367443180848,
+          0.0,
+          9.96436744318085
+        ],
+        [
+          9.964367443180848,
+          0.0,
+          9.96436744318085
+        ],
+        [
+          14.55225755681915,
+          0.0,
+          14.552257556819153
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        20.58,
+        14.091743578615278,
+        14.091743578615278,
+        20.580000000000005
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.4280869812290347,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 9.190412668565116e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.0,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 9.693061952425976,
+      "acceleration_g": 0.9884172426288261,
+      "total_force_N": [
+        48.465309762129884,
+        -4.440892098500626e-16,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.5000000000000001,
+        0.0,
+        4.440892098500626e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          11.262783872608617,
+          0.0,
+          11.262783872608619
+        ],
+        [
+          12.969871008456325,
+          -1.4276141935058522,
+          13.253841127391379
+        ],
+        [
+          9.96436744318085,
+          0.0,
+          9.964367443180851
+        ],
+        [
+          14.268287437884092,
+          1.4276141935058517,
+          14.552257556819146
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        15.927981702720077,
+        18.598923111073567,
+        14.09174357861528,
+        20.430132370975482
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.4364301215260973,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.0,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 9.806649999999996,
+      "acceleration_g": 0.9999999999999997,
+      "total_force_N": [
+        49.03324999999998,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.0,
+        4.440892098500626e-16,
+        -2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          17.677669529663685,
+          0.0,
+          17.67766952966369
+        ],
+        [
+          6.838955470336307,
+          0.0,
+          6.838955470336309
+        ],
+        [
+          6.838955470336306,
+          0.0,
+          6.838955470336307
+        ],
+        [
+          17.677669529663685,
+          0.0,
+          17.67766952966369
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        24.999999999999996,
+        9.671743578615276,
+        9.671743578615274,
+        24.999999999999996
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.4280869812290347,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 1.942890293094024e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.0,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 9.693061952425978,
+      "acceleration_g": 0.9884172426288262,
+      "total_force_N": [
+        48.46530976212989,
+        -4.440892098500626e-16,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.5000000000000003,
+        -8.881784197001252e-16,
+        0.0
+      ],
+      "fan_force_vectors_N": [
+        [
+          14.388195845453156,
+          0.0,
+          14.38819584545316
+        ],
+        [
+          9.844459035611784,
+          -1.4276141935058522,
+          10.128429154546836
+        ],
+        [
+          6.83895547033631,
+          0.0,
+          6.838955470336311
+        ],
+        [
+          17.39369941072864,
+          1.4276141935058517,
+          17.677669529663692
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        20.347981702720077,
+        14.196356332806394,
+        9.67174357861528,
+        24.84107206777279
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.4364301215260973,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 1.4310681321411122e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.04,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 6.866690254584251,
+      "acceleration_g": 0.7002075382097098,
+      "total_force_N": [
+        34.33345127292125,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        6.661338147750939e-16,
+        -8.881784197001252e-16,
+        -3.3306690738754696e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          7.5125216509893695,
+          0.0,
+          10.728992821467447
+        ],
+        [
+          5.362522576356096,
+          0.0,
+          7.658475928532549
+        ],
+        [
+          9.654203985471252,
+          0.0,
+          13.787632178532547
+        ],
+        [
+          11.80420306010453,
+          0.0,
+          16.858149071467455
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        13.097681799451536,
+        9.349272802193832,
+        16.83159100274229,
+        20.580000000000005
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7066374407044078,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.04,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 6.787155047422397,
+      "acceleration_g": 0.6920972041851597,
+      "total_force_N": [
+        33.93577523711198,
+        -2.220446049250313e-16,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.49999999999999956,
+        -4.440892098500626e-16,
+        2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          5.209207380562693,
+          0.0,
+          7.439519137256922
+        ],
+        [
+          7.4669988288781415,
+          -0.9996262199479719,
+          10.947949612743074
+        ],
+        [
+          9.654203985471254,
+          0.0,
+          13.78763217853255
+        ],
+        [
+          11.605365042199894,
+          0.9996262199479716,
+          16.858149071467448
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        9.081975915367801,
+        13.289579557429054,
+        16.831591002742293,
+        20.490996570643937
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7166079227486901,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.04,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 6.866690254584249,
+      "acceleration_g": 0.7002075382097097,
+      "total_force_N": [
+        34.333451272921245,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        2.220446049250313e-16,
+        -4.440892098500626e-16,
+        -4.440892098500626e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          10.047729499660994,
+          0.0,
+          14.349644857224794
+        ],
+        [
+          2.827314727684472,
+          0.0,
+          4.0378238927752035
+        ],
+        [
+          7.118996136799627,
+          0.0,
+          10.166980142775202
+        ],
+        [
+          14.339410908776154,
+          0.0,
+          20.478801107224797
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        17.51768179945154,
+        4.929272802193831,
+        12.411591002742286,
+        25.000000000000004
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.706637440704408,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 3.4922552073154737e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.04,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 6.787155047422397,
+      "acceleration_g": 0.6920972041851597,
+      "total_force_N": [
+        33.93577523711198,
+        -2.220446049250313e-16,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.4999999999999998,
+        -4.440892098500626e-16,
+        -1.1102230246251565e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          7.74441522923432,
+          0.0,
+          11.06017117301427
+        ],
+        [
+          4.931790980206517,
+          -0.9996262199479719,
+          7.327297576985727
+        ],
+        [
+          7.118996136799627,
+          0.0,
+          10.166980142775202
+        ],
+        [
+          14.140572890871521,
+          0.9996262199479716,
+          20.478801107224797
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        13.501975915367806,
+        8.888819079819026,
+        12.411591002742286,
+        24.90655233168432
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7166079227486901,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 1.9448146142963385e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.04,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 9.122789128522438,
+      "acceleration_g": 0.9302655981933117,
+      "total_force_N": [
+        45.613945642612194,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        4.440892098500626e-16,
+        -8.881784197001252e-16,
+        -2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          9.193734374999995,
+          0.0,
+          9.193734374999996
+        ],
+        [
+          9.193734374999998,
+          0.0,
+          9.193734375
+        ],
+        [
+          13.613238446306102,
+          0.0,
+          15.322890625
+        ],
+        [
+          13.6132384463061,
+          0.0,
+          15.322890625000003
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        13.001903841980726,
+        13.00190384198073,
+        20.49661528403408,
+        20.496615284034082
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.4806458020872189,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 5.14469997829498e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.04,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 9.068236681063006,
+      "acceleration_g": 0.9247027966801106,
+      "total_force_N": [
+        45.34118340531503,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.5000000000000008,
+        0.0,
+        -6.661338147750939e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          6.6748937589703194,
+          0.0,
+          6.674893758970321
+        ],
+        [
+          11.576193872381092,
+          -0.6856341837623228,
+          11.712574991029676
+        ],
+        [
+          14.552257556819143,
+          0.0,
+          14.552257556819145
+        ],
+        [
+          12.537838217144474,
+          0.6856341837623228,
+          16.093523693180853
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        9.439725281335356,
+        16.482195597838015,
+        20.579999999999995,
+        20.412471341221902
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.4850927382122554,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.771561172376096e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.04,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 9.806649999999996,
+      "acceleration_g": 0.9999999999999997,
+      "total_force_N": [
+        49.03324999999998,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.0,
+        0.0,
+        2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          11.548513279663686,
+          0.0,
+          11.548513279663688
+        ],
+        [
+          6.838955470336307,
+          0.0,
+          6.838955470336309
+        ],
+        [
+          12.968111720336308,
+          0.0,
+          12.96811172033631
+        ],
+        [
+          17.677669529663685,
+          0.0,
+          17.67766952966369
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        16.332064105346177,
+        9.671743578615276,
+        18.339679473269097,
+        24.999999999999996
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.4280869812290347,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 3.0531133177191805e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.04,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 9.693061952425978,
+      "acceleration_g": 0.9884172426288262,
+      "total_force_N": [
+        48.46530976212989,
+        -2.220446049250313e-16,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.5000000000000007,
+        -4.440892098500626e-16,
+        -4.440892098500626e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          8.259039595453157,
+          0.0,
+          8.259039595453158
+        ],
+        [
+          9.844459035611784,
+          -1.427614193505852,
+          10.128429154546838
+        ],
+        [
+          12.968111720336308,
+          0.0,
+          12.96811172033631
+        ],
+        [
+          17.39369941072864,
+          1.4276141935058517,
+          17.677669529663692
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        11.680045808066255,
+        14.196356332806396,
+        18.339679473269097,
+        24.84107206777279
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.4364301215260973,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 9.256707596608894e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.08,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 5.405007763627567,
+      "acceleration_g": 0.5511574047842603,
+      "total_force_N": [
+        27.025038818137833,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.0,
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "fan_force_vectors_N": [
+        [
+          4.291681409115157,
+          0.0,
+          6.129156250000001
+        ],
+        [
+          4.291681409115154,
+          0.0,
+          6.129156249999997
+        ],
+        [
+          9.220837999953758,
+          0.0,
+          18.387468749999996
+        ],
+        [
+          9.220837999953762,
+          0.0,
+          18.38746875
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        7.48231820054846,
+        7.482318200548454,
+        20.569950424189592,
+        20.5699504241896
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.9236091613998425,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 5.902022790409663e-17,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.08,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 5.331262395969885,
+      "acceleration_g": 0.5436374700810047,
+      "total_force_N": [
+        26.656311979849423,
+        -4.440892098500626e-16,
+        49.03324999999998
+      ],
+      "total_moment_Nm": [
+        0.4999999999999991,
+        6.661338147750939e-16,
+        6.661338147750939e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          2.0375022916358283,
+          0.0,
+          2.9098548365321992
+        ],
+        [
+          6.36149710745028,
+          -0.926857497966995,
+          9.348457663467798
+        ],
+        [
+          9.339374755200478,
+          0.0,
+          18.317296479257273
+        ],
+        [
+          8.917937825562838,
+          0.9268574979669946,
+          18.457641020742713
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        3.552276841423129,
+        11.34554410133272,
+        20.560818834061227,
+        20.520068029437578
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.9368677532213832,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 1.4210854715202004e-14,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.08,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 6.866690254584251,
+      "acceleration_g": 0.7002075382097098,
+      "total_force_N": [
+        34.33345127292125,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        4.440892098500626e-16,
+        -6.661338147750939e-16,
+        -6.661338147750939e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          5.756048090545839,
+          0.0,
+          8.220488607224794
+        ],
+        [
+          2.827314727684472,
+          0.0,
+          4.0378238927752035
+        ],
+        [
+          11.410677545914782,
+          0.0,
+          16.2961363927752
+        ],
+        [
+          14.339410908776156,
+          0.0,
+          20.4788011072248
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        10.035363598903084,
+        4.929272802193831,
+        19.893909203290743,
+        25.000000000000007
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7066374407044078,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.08,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 6.787155047422397,
+      "acceleration_g": 0.6920972041851597,
+      "total_force_N": [
+        33.93577523711198,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.5000000000000002,
+        0.0,
+        -2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          3.4527338201191644,
+          0.0,
+          4.9310149230142715
+        ],
+        [
+          4.931790980206516,
+          -0.9996262199479716,
+          7.3272975769857265
+        ],
+        [
+          11.41067754591478,
+          0.0,
+          16.296136392775196
+        ],
+        [
+          14.140572890871521,
+          0.9996262199479716,
+          20.478801107224797
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        6.01965771481935,
+        8.888819079819024,
+        19.893909203290736,
+        24.90655233168432
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7166079227486901,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.08,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 6.070357033578918,
+      "acceleration_g": 0.6190041485705026,
+      "total_force_N": [
+        30.35178516789459,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        1.1102230246251565e-15,
+        -4.440892098500626e-16,
+        -7.771561172376096e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          6.129156249999996,
+          0.0,
+          6.129156249999998
+        ],
+        [
+          6.12915625,
+          0.0,
+          6.129156250000001
+        ],
+        [
+          9.046736333947296,
+          0.0,
+          18.387468749999993
+        ],
+        [
+          9.046736333947301,
+          0.0,
+          18.387468750000004
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        8.667935894653816,
+        8.667935894653821,
+        20.492497293599637,
+        20.492497293599648
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.815130607932054,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 9.522691494989411e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.08,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 6.018823650612613,
+      "acceleration_g": 0.6137492059584684,
+      "total_force_N": [
+        30.094118253063066,
+        -1.3322676295501878e-15,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.4999999999999999,
+        -2.220446049250313e-16,
+        0.0
+      ],
+      "fan_force_vectors_N": [
+        [
+          3.465654594871756,
+          0.0,
+          3.4656545948717565
+        ],
+        [
+          8.663824447712475,
+          -0.6476895283733948,
+          8.792657905128243
+        ],
+        [
+          10.217847629821051,
+          0.0,
+          17.761496720917716
+        ],
+        [
+          7.746791580657783,
+          0.6476895283733934,
+          19.013440779082284
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        4.901175730568272,
+        12.360913753544239,
+        20.490855910708326,
+        20.541256333997296
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.8228846522393394,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 1.3374867569582915e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.08,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 9.176773170889719,
+      "acceleration_g": 0.9357704385177119,
+      "total_force_N": [
+        45.883865854448594,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        4.440892098500626e-16,
+        -2.220446049250313e-16,
+        -2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          6.129156249999996,
+          0.0,
+          6.129156249999998
+        ],
+        [
+          6.12915625,
+          0.0,
+          6.129156250000001
+        ],
+        [
+          16.8127766772243,
+          0.0,
+          18.387468749999996
+        ],
+        [
+          16.8127766772243,
+          0.0,
+          18.38746875
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        8.667935894653816,
+        8.667935894653821,
+        24.91522559862631,
+        24.915225598626314
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.4762842937556622,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.08,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 9.117560447531071,
+      "acceleration_g": 0.9297324211153729,
+      "total_force_N": [
+        45.58780223765535,
+        -3.3306690738754696e-16,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.5000000000000008,
+        -2.220446049250313e-16,
+        -4.440892098500626e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          3.549481786125777,
+          0.0,
+          3.5494817861257775
+        ],
+        [
+          8.560798905477597,
+          -0.7442061564431494,
+          8.708830713874221
+        ],
+        [
+          17.677669529663685,
+          0.0,
+          17.67766952966369
+        ],
+        [
+          15.79985201638829,
+          0.744206156443149,
+          19.097267970336308
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        5.019725281335352,
+        12.2345761310408,
+        24.999999999999996,
+        24.79707261903893
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.481070296939205,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.096,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 3.862890335771907,
+      "acceleration_g": 0.39390519043423666,
+      "total_force_N": [
+        19.314451678859534,
+        0.0,
+        49.03324999999998
+      ],
+      "total_moment_Nm": [
+        6.661338147750939e-16,
+        2.220446049250313e-16,
+        -3.885780586188048e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          3.433345127292124,
+          0.0,
+          4.903324999999999
+        ],
+        [
+          3.433345127292124,
+          0.0,
+          4.903324999999999
+        ],
+        [
+          6.223880712137641,
+          0.0,
+          19.613299999999988
+        ],
+        [
+          6.223880712137646,
+          0.0,
+          19.6133
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        5.9858545604387645,
+        5.9858545604387645,
+        20.57712876008017,
+        20.577128760080182
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 2.2754055251149445,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.096,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 3.7849191892069585,
+      "acceleration_g": 0.38595434620456104,
+      "total_force_N": [
+        18.924595946034792,
+        -1.6653345369377348e-15,
+        49.03324999999999
+      ],
+      "total_moment_Nm": [
+        0.5000000000000002,
+        2.220446049250313e-16,
+        -5.551115123125783e-17
+      ],
+      "fan_force_vectors_N": [
+        [
+          1.1399701953174124,
+          0.0,
+          1.6280461621879818
+        ],
+        [
+          5.531792192854463,
+          -0.9799685609307514,
+          8.178603837812018
+        ],
+        [
+          6.25923607047735,
+          0.0,
+          19.599105153601485
+        ],
+        [
+          5.993597487385568,
+          0.9799685609307497,
+          19.627494846398506
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        1.9874773841297002,
+        9.922228780934843,
+        20.57432766842924,
+        20.545610313802
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 2.2987232694804334,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.096,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 6.866690254584249,
+      "acceleration_g": 0.7002075382097097,
+      "total_force_N": [
+        34.333451272921245,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        2.220446049250313e-16,
+        2.220446049250313e-16,
+        -2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          4.039375526899777,
+          0.0,
+          5.768826107224796
+        ],
+        [
+          2.827314727684472,
+          0.0,
+          4.0378238927752035
+        ],
+        [
+          13.127350109560846,
+          0.0,
+          18.7477988927752
+        ],
+        [
+          14.339410908776154,
+          0.0,
+          20.478801107224797
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        7.042436318683701,
+        4.929272802193831,
+        22.886836483510127,
+        25.000000000000004
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.706637440704408,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 3.5609713990922206e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.096,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 6.787155047422397,
+      "acceleration_g": 0.6920972041851597,
+      "total_force_N": [
+        33.93577523711198,
+        -4.440892098500626e-16,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.49999999999999956,
+        0.0,
+        2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          1.736061256473101,
+          0.0,
+          2.4793524230142703
+        ],
+        [
+          4.931790980206517,
+          -0.9996262199479719,
+          7.327297576985727
+        ],
+        [
+          13.127350109560846,
+          0.0,
+          18.7477988927752
+        ],
+        [
+          14.140572890871521,
+          0.9996262199479714,
+          20.478801107224793
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        3.0267304345999655,
+        8.888819079819026,
+        22.886836483510127,
+        24.906552331684317
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7166079227486901,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 3.8943502528780706e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.096,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 4.320591679659957,
+      "acceleration_g": 0.4405777385406798,
+      "total_force_N": [
+        21.602958398299783,
+        0.0,
+        49.03324999999998
+      ],
+      "total_moment_Nm": [
+        2.886579864025407e-15,
+        6.661338147750939e-16,
+        -1.7208456881689926e-15
+      ],
+      "fan_force_vectors_N": [
+        [
+          4.903325000000003,
+          0.0,
+          4.903325000000004
+        ],
+        [
+          4.903324999999993,
+          0.0,
+          4.9033249999999935
+        ],
+        [
+          5.898154199149878,
+          0.0,
+          19.613299999999967
+        ],
+        [
+          5.898154199149911,
+          0.0,
+          19.613300000000013
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        6.934348715723061,
+        6.934348715723047,
+        20.480960911220645,
+        20.4809609112207
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 2.151510081091209,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 2.1316282072803006e-14,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.096,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 4.291757894303157,
+      "acceleration_g": 0.43763751069969437,
+      "total_force_N": [
+        21.458789471515786,
+        1.0158540675320182e-14,
+        49.03325000000009
+      ],
+      "total_moment_Nm": [
+        0.4999999999999942,
+        -6.661338147750939e-15,
+        4.551914400963142e-15
+      ],
+      "fan_force_vectors_N": [
+        [
+          2.1851123864879685,
+          0.0,
+          2.185112386487969
+        ],
+        [
+          7.549453150119996,
+          -0.36239306957945916,
+          7.621537613512028
+        ],
+        [
+          7.78134957120793,
+          0.0,
+          19.042038929301587
+        ],
+        [
+          3.94287436369989,
+          0.3623930695794693,
+          20.184561070698503
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        3.0902155722807256,
+        10.73375084473804,
+        20.57057723386427,
+        20.56925114343151
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 2.1587253450740054,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 8.526512829121202e-14,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.096,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 8.088968790929352,
+      "acceleration_g": 0.824845262238313,
+      "total_force_N": [
+        40.44484395464676,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        -4.440892098500626e-16,
+        -2.220446049250313e-16,
+        2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          4.9033250000000015,
+          0.0,
+          4.903325000000002
+        ],
+        [
+          4.903324999999995,
+          0.0,
+          4.903324999999995
+        ],
+        [
+          15.31909697732338,
+          0.0,
+          19.613299999999995
+        ],
+        [
+          15.319096977323383,
+          0.0,
+          19.6133
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        6.934348715723059,
+        6.93434871572305,
+        24.886869411210363,
+        24.88686941121037
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.572419488922587,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 3.5199306481511523e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.096,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 8.065274047465932,
+      "acceleration_g": 0.8224290708311129,
+      "total_force_N": [
+        40.32637023732966,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.5000000000000007,
+        0.0,
+        -2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          2.787291623353104,
+          0.0,
+          2.7872916233531044
+        ],
+        [
+          6.9601215179883384,
+          -0.29780379892362996,
+          7.0193583766468945
+        ],
+        [
+          16.748938129156713,
+          0.0,
+          18.439859692436364
+        ],
+        [
+          13.830018966831505,
+          0.29780379892362996,
+          20.786740307563637
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        3.9418256160348806,
+        9.88955866900139,
+        24.91094847513958,
+        24.968914360453546
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.5747275786071866,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.12,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": false,
+      "solver_status": 2,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Basic)"
+    },
+    {
+      "cg_x_CAD_m": 0.12,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": false,
+      "solver_status": 2,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Basic)"
+    },
+    {
+      "cg_x_CAD_m": 0.12,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 5.936488205840762,
+      "acceleration_g": 0.6053533271648078,
+      "total_force_N": [
+        29.682441029203808,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        -4.440892098500626e-16,
+        2.220446049250313e-16,
+        2.220446049250313e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          2.1458407045575765,
+          0.0,
+          3.064578124999998
+        ],
+        [
+          2.1458407045575796,
+          0.0,
+          3.0645781250000024
+        ],
+        [
+          12.69537981004433,
+          0.0,
+          21.452046875
+        ],
+        [
+          12.695379810044324,
+          0.0,
+          21.45204687499999
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        3.7411591002742264,
+        3.7411591002742317,
+        24.927153540837317,
+        24.927153540837306
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.8354822675423155,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 2.921012154776985e-16,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.12,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 35.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 5.936488205840765,
+      "acceleration_g": 0.605353327164808,
+      "total_force_N": [
+        29.682441029203822,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        0.5000000000000002,
+        7.771561172376096e-16,
+        -3.3306690738754696e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          0.5174975737939588,
+          0.0,
+          0.7390631285077226
+        ],
+        [
+          3.774183835321199,
+          0.0,
+          5.39009312149228
+        ],
+        [
+          14.32372294080795,
+          0.0,
+          20.488088187281747
+        ],
+        [
+          11.067036679280713,
+          0.0,
+          22.416005562718247
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        0.9022294867727702,
+        6.580088713775691,
+        24.99861589078207,
+        24.999132109902536
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.8354822675423148,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 7.105427357601002e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.12,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": false,
+      "solver_status": 2,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Basic)"
+    },
+    {
+      "cg_x_CAD_m": 0.12,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 20.58,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": false,
+      "solver_status": 2,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Basic)"
+    },
+    {
+      "cg_x_CAD_m": 0.12,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.0,
+      "feasible": true,
+      "acceleration_m_s2": 6.283653163726932,
+      "acceleration_g": 0.6407543007782405,
+      "total_force_N": [
+        31.41826581863466,
+        0.0,
+        49.033249999999995
+      ],
+      "total_moment_Nm": [
+        -6.661338147750939e-16,
+        2.220446049250313e-16,
+        1.1102230246251565e-15
+      ],
+      "fan_force_vectors_N": [
+        [
+          3.064578125,
+          0.0,
+          3.0645781250000006
+        ],
+        [
+          3.0645781249999993,
+          0.0,
+          3.0645781249999997
+        ],
+        [
+          12.644554784317336,
+          0.0,
+          21.452046875
+        ],
+        [
+          12.644554784317323,
+          0.0,
+          21.45204687499999
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        4.333967947326911,
+        4.33396794732691,
+        24.90130680949897,
+        24.90130680949895
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.784057695420655,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 1.0248952390581975e-15,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    },
+    {
+      "cg_x_CAD_m": 0.12,
+      "cg_z_m": 0.0,
+      "effective_cone_deg_ASSUMED": 45.0,
+      "max_fan_force_N_ASSUMED": 25.0,
+      "roll_moment_Nm_ASSUMED": 0.5,
+      "feasible": true,
+      "acceleration_m_s2": 6.236019142827398,
+      "acceleration_g": 0.635896982438182,
+      "total_force_N": [
+        31.18009571413699,
+        2.220446049250313e-16,
+        49.03325000000001
+      ],
+      "total_moment_Nm": [
+        0.4999999999999989,
+        -4.440892098500626e-16,
+        8.881784197001252e-16
+      ],
+      "fan_force_vectors_N": [
+        [
+          0.44041100822584056,
+          0.0,
+          0.44041100822584067
+        ],
+        [
+          5.569660189525315,
+          -0.5986809860924828,
+          5.68874524177416
+        ],
+        [
+          13.889255825490062,
+          0.0,
+          20.786740307563644
+        ],
+        [
+          11.28076869089577,
+          0.598680986092483,
+          22.117353442436364
+        ]
+      ],
+      "fan_force_magnitudes_N": [
+        0.6228352208513925,
+        7.98381838318608,
+        25.000000000000014,
+        24.835287082662333
+      ],
+      "minimum_requested_time_5m_rest_to_rest_s": 1.7908585223887643,
+      "displacement_time_is_ideal_symmetric_accel_without_jerk_drag_or_attitude_dynamics": true,
+      "maximum_allocation_residual": 1.4210854715202004e-14,
+      "cone_is_hypothesis_not_measured": true,
+      "physical_performance_accepted": false
+    }
+  ]
+}

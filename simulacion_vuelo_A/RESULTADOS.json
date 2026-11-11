@@ -1,0 +1,94 @@
+[
+  {
+    "mass_assumed_kg": 2.0,
+    "inertia_assumed_kgm2": [
+      0.007668091230660118,
+      0.09967122663188802,
+      0.1032482896382883
+    ],
+    "dt_s": 0.005,
+    "capacity_factor": 1.0,
+    "max_speed_ms": 3.274080583780891,
+    "max_acceleration_ms2": 4.898903542351025,
+    "min_altitude_m": 1.9984250397337358,
+    "max_altitude_m": 3.500537778108745,
+    "final_position_error_m": 0.0005096771827001995,
+    "max_attitude_deg": 7.507401656495419,
+    "max_fan_force_N": 6.668705148591202,
+    "max_force_rate_Ns": 20.000000000000053,
+    "max_force_angle_deg": 33.755956247395595,
+    "solver_unsuccessful_steps": 0,
+    "infeasible_allocation_steps": 0,
+    "final_speed_ms": 0.00037950569651158976,
+    "simulation_scope": "Conditional low-speed rigid-body ideal-vector-thrust model; not validated installed plant"
+  },
+  {
+    "mass_assumed_kg": 5.0,
+    "inertia_assumed_kgm2": [
+      0.035311862035250004,
+      0.458989923025,
+      0.4754624390102499
+    ],
+    "dt_s": 0.005,
+    "capacity_factor": 1.0,
+    "max_speed_ms": 3.2745771200611973,
+    "max_acceleration_ms2": 4.899955794704679,
+    "min_altitude_m": 1.9991424290477229,
+    "max_altitude_m": 3.500540228688457,
+    "final_position_error_m": 0.0005103117307872757,
+    "max_attitude_deg": 7.069945578430292,
+    "max_fan_force_N": 16.611425502487485,
+    "max_force_rate_Ns": 50.000000000000135,
+    "max_force_angle_deg": 34.92040600027897,
+    "solver_unsuccessful_steps": 0,
+    "infeasible_allocation_steps": 0,
+    "final_speed_ms": 0.00037418442985772755,
+    "simulation_scope": "Conditional low-speed rigid-body ideal-vector-thrust model; not validated installed plant"
+  },
+  {
+    "mass_assumed_kg": 10.0,
+    "inertia_assumed_kgm2": [
+      0.11210817388342358,
+      1.457202173305376,
+      1.5094991517124734
+    ],
+    "dt_s": 0.005,
+    "capacity_factor": 1.0,
+    "max_speed_ms": 3.274231661925143,
+    "max_acceleration_ms2": 4.899584894447806,
+    "min_altitude_m": 1.9991458606724988,
+    "max_altitude_m": 3.5005431042757422,
+    "final_position_error_m": 0.0005104167216755445,
+    "max_attitude_deg": 7.069945578430292,
+    "max_fan_force_N": 33.211859707517625,
+    "max_force_rate_Ns": 100.00000000000018,
+    "max_force_angle_deg": 34.92017725866836,
+    "solver_unsuccessful_steps": 0,
+    "infeasible_allocation_steps": 0,
+    "final_speed_ms": 0.00037573282205594186,
+    "simulation_scope": "Conditional low-speed rigid-body ideal-vector-thrust model; not validated installed plant"
+  },
+  {
+    "mass_assumed_kg": 5.0,
+    "inertia_assumed_kgm2": [
+      0.035311862035250004,
+      0.458989923025,
+      0.4754624390102499
+    ],
+    "dt_s": 0.005,
+    "capacity_factor": 0.8,
+    "max_speed_ms": 3.274596124753065,
+    "max_acceleration_ms2": 4.899956355270136,
+    "min_altitude_m": 1.9991424290477229,
+    "max_altitude_m": 3.5005287006915564,
+    "final_position_error_m": 0.0005104810685589318,
+    "max_attitude_deg": 7.069945578430292,
+    "max_fan_force_N": 16.359908655344622,
+    "max_force_rate_Ns": 50.00000000000016,
+    "max_force_angle_deg": 34.920309003753296,
+    "solver_unsuccessful_steps": 0,
+    "infeasible_allocation_steps": 0,
+    "final_speed_ms": 0.0003745783282226122,
+    "simulation_scope": "Conditional low-speed rigid-body ideal-vector-thrust model; not validated installed plant"
+  }
+]

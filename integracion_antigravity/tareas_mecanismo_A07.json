@@ -1,0 +1,46 @@
+{
+  "descripcion": "Cuatro tareas independientes para profundizar la integración de las compuertas A07",
+  "tareas": [
+    {
+      "id": "cinematica_compuertas",
+      "entradas": [
+        "investigacion-aeronautica/modelos_integrados/producto_A07/LEEME.md",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/propuesta_elevacion.json",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/VERIFICACION_RECORRIDO.json",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json"
+      ],
+      "instruccion": "Diseña una parametrización de referencia de dos grados de libertad para la trayectoria candidata A07: primero traslación exterior 10mm y luego rotación alrededor de un eje transportado 110 grados, en la escala de 5kg. Compara dos ideas mecánicas conceptuales (carro + bisagra, ranura/cam con guiado), sin afirmar que caben ni fabricabilidad. Genera código reproducible de perfiles temporales suaves de 0.5/1/2s por fase, derivadas hasta aceleración, pruebas de continuidad y escala 2/5/10kg. Verifica extremos, signos por tapa desde JSON cuando estén disponibles; si no se pueden verificar, decláralo. Sin invocar CAD ni CFD."
+    },
+    {
+      "id": "cargas_compuertas",
+      "entradas": [
+        "investigacion-aeronautica/modelos_integrados/producto_A07/LEEME.md",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/propuesta_elevacion.json",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/VERIFICACION_RECORRIDO.json",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json"
+      ],
+      "instruccion": "Construye análisis paramétrico de cargas ilustrativas de compuerta usando q=0.5 rho V², Delta_p=Cp_diferencial*q y F=Delta_p*A solo bajo distribución uniforme supuesta, momento=F*brazo supuesto. Casos 600 y 1000 km/h, rho 1.225, áreas y brazos EXPLÍCITAMENTE hipotéticos, escalados geométricamente 2/5/10kg y varios Cp. Prueba conversiones y q de 1000 km/h ~47261 Pa. Deja claro que q no es presión diferencial uniforme, que las tapas son para baja velocidad y que ninguna carga real ni mecanismo instalado está validado. Script, tablas, tests y reporte."
+    },
+    {
+      "id": "fallos_compuerta",
+      "entradas": [
+        "investigacion-aeronautica/modelos_integrados/producto_A07/LEEME.md",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/propuesta_elevacion.json",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/VERIFICACION_RECORRIDO.json",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json",
+        "investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md"
+      ],
+      "instruccion": "Haz análisis FMEA conceptual de compuertas A07: fallo al cerrar, apertura no comandada, una tapa atascada, sensor discordante, pérdida de energía, sellos y bloqueo; define detección propuesta, mitigación y evidencia necesaria separando hipótesis de implementación. Propón estados a bajo y alto avance sin pretender que se implementaron o funcionan y sin cuantificar probabilidades no medidas. Genera tabla CSV y validador de campos, README y pruebas; no atribuyas empuje proporcional a área ni garantía de vuelo seguro."
+    },
+    {
+      "id": "perfil_mecanismo_tiempo",
+      "entradas": [
+        "investigacion-aeronautica/modelos_integrados/producto_A07/LEEME.md",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/propuesta_elevacion.json",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/VERIFICACION_RECORRIDO.json",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json"
+      ],
+      "instruccion": "Realiza un análisis independiente de perfiles temporales para traslación 10mm y giro 110 grados en dos fases con polinomio suave 10u^3-15u^4+6u^5: velocidades y aceleraciones máximas y valores para fases 0.25/0.5/1/2s, con chequeo analítico vs muestreo. Separa cinemática de requerimientos reales de fuerza, potencia y energía; sin masa/tensor/rozamiento no puede dimensionarse motor. Entrega código y pruebas estándar de Python, tablas y reporte; no afirmes que los mecanismos existen o encajan."
+    }
+  ]
+}

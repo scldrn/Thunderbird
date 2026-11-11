@@ -1,0 +1,43 @@
+{
+  "source_pdf_sha256": "f489c575cfac7ac849b926a3af2a33c8960a700e958e3114b89e2a07b8496fdd",
+  "source": "https://ntrs.nasa.gov/citations/20230017299",
+  "scope": "Reproduccion tentativa de ajuste 3F para ventilador NASA aislado, no validada ni aplicable a C02",
+  "centering": "interpretado de seccion V.A y tabla 8; modelo dimensional 3F; no confirmado contra datos originales",
+  "assumed_air": {
+    "rho_kg_m3": 1.225,
+    "speed_of_sound_m_s": 340.3
+  },
+  "synthetic_case_not_a_measured_point": {
+    "status": "EXPLORATORIO_COBERTURA_CONJUNTA_NO_DEMOSTRADA",
+    "q_pa": 143.64077694100752,
+    "velocity_m_s": 15.313900684978991,
+    "incidence_deg": 15,
+    "rpm": 15000,
+    "advance_ratio": 0.47194479513626186,
+    "jx": 0.45586366620481883,
+    "jz": 0.12214830121827207,
+    "tip_mach": 0.29955912201001583,
+    "ct": 1.0981554939445963,
+    "thrust_N": 23.86153684246942,
+    "power_W": 1306.6900543899717
+  },
+  "high_speed_external_free_stream_checks": [
+    {
+      "speed_km_h": 600,
+      "q_pa": 17013.888888888887,
+      "q_psf": 355.34245743901255,
+      "ratio_to_6psf": 59.223742906502096,
+      "status": "RECHAZADO: presion fuera de los limites de factores DOE 3F"
+    },
+    {
+      "speed_km_h": 1000,
+      "q_pa": 47260.80246913581,
+      "q_psf": 987.0623817750351,
+      "ratio_to_6psf": 164.51039696250587,
+      "status": "RECHAZADO: presion fuera de los limites de factores DOE 3F"
+    }
+  ],
+  "q6_speed_kmh_assumed_rho": 77.96565374951491,
+  "joint_coverage_proven": false,
+  "flight_simulation_use_allowed": false
+}

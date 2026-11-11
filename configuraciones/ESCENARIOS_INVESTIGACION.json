@@ -1,0 +1,53 @@
+{
+  "revision": "REQUIREMENTS_RESEARCH_v1",
+  "date": "2026-11-03",
+  "user_fixed": {
+    "architecture": "internal fans",
+    "mass_targets_kg": [
+      2,
+      5,
+      10
+    ],
+    "speed_targets_kmh": [
+      600,
+      1000
+    ]
+  },
+  "mission_duration_scenarios_s": {
+    "hover": [
+      30,
+      120,
+      300
+    ],
+    "fast_flight": [
+      30,
+      120,
+      300
+    ]
+  },
+  "agility_investigation_levels_g": [
+    0.5,
+    1,
+    2
+  ],
+  "kinematic_stress_demands_g": [
+    3,
+    6,
+    10
+  ],
+  "attitude_change_tests_deg": [
+    30,
+    90
+  ],
+  "unfixed_acceptance_targets": {
+    "position_error_m": null,
+    "attitude_error_deg": null,
+    "settling_time_s": null,
+    "payload_kg": null,
+    "jerk_m_s3": null,
+    "maximum_body_rate_rad_s": null,
+    "weather_envelope": null,
+    "failure_recovery_class": null
+  },
+  "rule": "Levels are analysis scenarios, not agreed or demonstrated performance. Do not silently reduce the goal to .5g."
+}

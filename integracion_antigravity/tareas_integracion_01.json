@@ -1,0 +1,91 @@
+{
+  "descripcion": "Preparación de paquetes reproducibles y auditorías independientes de la primera ola, sin promoción automática.",
+  "tareas": [
+    {
+      "id": "entregable_uiuc_estatico",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/test_analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/INFORME.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt"
+      ],
+      "instruccion": "Prepara un entregable autónomo y reproducible, revisando el análisis de la hélice UIUC estática adjunto. Copia los datos de entrada a salidas/datos/ y adapta el script para leerlos mediante rutas relativas a __file__, sin apuntar a /private/tmp o workspace de la sesión; añade README con comandos, ejecuta tests y reconstruye CSV. Verifica de modo independiente los 18 puntos, unidades y último punto (19923.333 rpm, CT .125828, CP .059879): con rho supuesta 1.225 y D=.08128 m debe dar aproximadamente T=.74177 N y potencia de eje 9.5271 W. No presentes resultados dimensionales calculados como medidas directas de potencia eléctrica; no extrapoles ni apliques a C02. Declara la fuente primaria UIUC y diferencias con ventilador interno."
+    },
+    {
+      "id": "entregable_uiuc_avance",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/test_procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/informe_tecnico_uiuc_avance.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_0544rd_20051.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt"
+      ],
+      "instruccion": "Prepara paquete autónomo reproducible de datos UIUC de avance adjuntos: conserva archivo de datos en salidas/datos/, adapta rutas relativas a __file__, ejecuta tests y genera CSV e informe. Verifica J=V/(nD), eficiencia ideal de coeficientes solo en dominio apropiado, unidades y alcance medido; con 20051 rpm, D=.08128 m y J=.448667 la velocidad calculada es aproximadamente 12.19 m/s. No extrapoles a 600 km/h ni presentes este propulsor abierto como prueba de C02. Incluye fuente UIUC y comandos."
+    },
+    {
+      "id": "entregable_equilibrio_2d",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/equilibrio_cg.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/test_equilibrio.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/generar_matrices_csv.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/INFORME_EQUILIBRIO_CG.md",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json"
+      ],
+      "instruccion": "Prepara versión autónoma reproducible del equilibrio vertical ideal 2D adjunto. Verifica analíticamente fuerzas/momentos, límites y singularidades y añade tests independientes, genera tablas. Corrige todas las etiquetas y comentarios a +x CAD hacia cola, -x nariz, +y CAD derecha y -y izquierda, +z arriba; FLU convierte x e y de signo. No cambies solo la prosa: comprueba que los índices y signos concuerdan y que la suma vertical/momentos se satisfaga. No infieras mapa instalado; el alcance es solo equilibrio de fuerzas verticales ideales con posiciones y CG supuestos. Incluye README."
+    },
+    {
+      "id": "entregable_potencia_sensibilidad",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/sensibilidad_ley_arrastre.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/test_sensibilidad.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/REPORTE_SENSIBILIDAD_ARRASTRE.md",
+        "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md",
+        "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/calcular_r2.py"
+      ],
+      "instruccion": "Revisa y prepara como paquete autónomo la sensibilidad de arrastre hipotético p=1,2,4. Verifica integral exacta W=Df*V*t/(p+2) y coteja p=2 contra el modelo r2 bajo idénticos supuestos; distingue potencia de pico simultánea y energía por etapa, comprueba que no se cuente dos veces la energía de aceleración. Conserva P_aux, límites masa, tiempo y eficiencia como hipótesis y advierte limitaciones a v=0 y transónico. Sin extrapolar a rendimiento del vehículo. Archivos reproducibles en salidas/, sin rutas temporales, tests y README."
+    },
+    {
+      "id": "entregable_dinamica_actuador",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/respuesta_ventilador/salidas/comparar_respuestas.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/respuesta_ventilador/salidas/test_respuestas.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/respuesta_ventilador/salidas/INFORME.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/NOTA-NASA-EDF.md"
+      ],
+      "instruccion": "Revisa modelos normalizados de primer y segundo orden crítico; prepara paquete reproducible con tablas y tests que verifiquen los tiempos 10/50/90%, continuidad, límites t>=0 y tau>0. Reporta constantes de tiempo como supuestos sin atribuirlas al vehículo ni a NASA. La nota incluida identifica Jetfan 130 Pro; no uses marcas no presentes en nota ni inventes detalles. NASA NTRS 20230017299 es motivación sobre dinámica, no calibración de este ejemplo. Mantén las limitaciones respecto respuesta real de empuje y control."
+    },
+    {
+      "id": "auditoria_vuelo_seis_grados",
+      "entradas": [
+        "investigacion-aeronautica/simulacion_vuelo_A/simular.py",
+        "investigacion-aeronautica/simulacion_vuelo_A/verificar.py",
+        "investigacion-aeronautica/simulacion_vuelo_A/INFORME.md",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json"
+      ],
+      "instruccion": "Audita por lectura la simulación de vuelo 6DOF adjunta y el script de verificación. Enumera ecuaciones, convenciones, integración, control, saturación y supuestos realmente implementados con rutas/líneas verificadas; identifica máximo cinco pruebas faltantes priorizadas y la mínima interfaz necesaria para sustituir planta hipotética por mapas instalados con masa y CG. No ejecutes código que modifique archivos ni atribuyas validación física. Si referencias modelos, solo con datos adjuntos. Entrega informe con separación hecho/hipótesis/recomendación y tests conceptuales."
+    },
+    {
+      "id": "integridad_masa_incertidumbre",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/auditar_bom.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/test_auditoria.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/INFORME_AUDITORIA_BOM.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/bom_agrupada_roles.csv",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json",
+        "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md"
+      ],
+      "instruccion": "Revisa la auditoría BOM como incertidumbre, no como inventario cerrado. Elabora plantilla CSV de presupuesto con columnas componente, masa medida, masa supuesta, intervalo inferior y superior, evidencia y estado; distingue valor desconocido de cero en código y tablas. Los volúmenes reservados pueden estar vacíos y no prueban masa cero ni positiva. Incluye chequeos de unidades y ejemplos de 2,5,10 kg expresamente hipotéticos sin inventar datos ni asignar pesos reales a piezas. Haz tests ejecutables, README, sin alterar registros base."
+    },
+    {
+      "id": "auditoria_transicion_control",
+      "entradas": [
+        "investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md",
+        "investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md",
+        "investigacion-aeronautica/simulacion_vuelo_A/simular.py",
+        "investigacion-aeronautica/simulacion_vuelo_A/INFORME.md"
+      ],
+      "instruccion": "Diseña una especificación técnica verificable, sin simular físicamente, para transición entre estacionario con ventiladores internos y avance: máquina de estados, precondiciones comprobables para tapas y empuje, estados intermedios, saturación, retorno ante anomalías y variables aún desconocidas. Cita líneas de los documentos adjuntos donde sean hechos, y marca el resto como propuesta; no declares que tapas o controladores estén construidos o que exista un mapa experimental. Proporciona archivo JSON de estados, script de validación sintáctica, pruebas de estados y tabla de verificaciones futuras. No reanudes CFD."
+    }
+  ]
+}

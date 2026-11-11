@@ -1,0 +1,307 @@
+{
+  "scope": "short internal shaft envelope translation 0\u201320mm, local C11 geometry only; no bearings or supports",
+  "source_sha256": "b1a2c73a9b041be6ebb17f1ffffc65754830aa2bb17e055a3de4b35b13ad91c6",
+  "axis_source_sha256": "45a498c60aebf272719217ada7cddefefa1bf16fd46f4efedb8ed63140a58d93",
+  "code_sha256": "ebee4ef49f9393f8050ee31a1d21bbb823e9fc32c1e6326be40c6ccf53733ca9",
+  "radius_mm": 1.0,
+  "length_mm": 10.0,
+  "travel_mm": 20.0,
+  "candidates": [
+    {
+      "leaf": 0,
+      "center_x_mm": -190.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 0,
+      "center_x_mm": -180.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 0,
+      "center_x_mm": -170.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 0,
+      "center_x_mm": -160.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 0,
+      "center_x_mm": -150.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 0,
+      "center_x_mm": -140.0,
+      "collisions": [
+        {
+          "obstacle": "camisa",
+          "volume_mm3": 0.27807571708657985
+        }
+      ],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": false
+    },
+    {
+      "leaf": 0,
+      "center_x_mm": -130.0,
+      "collisions": [
+        {
+          "obstacle": "piel",
+          "volume_mm3": 5.488513089221265
+        },
+        {
+          "obstacle": "camisa",
+          "volume_mm3": 1.8304756957817492
+        },
+        {
+          "obstacle": "aro",
+          "volume_mm3": 2.6587643381786648
+        },
+        {
+          "obstacle": "junta",
+          "volume_mm3": 0.6740074929640912
+        }
+      ],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": false
+    },
+    {
+      "leaf": 1,
+      "center_x_mm": -190.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 1,
+      "center_x_mm": -180.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 1,
+      "center_x_mm": -170.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 1,
+      "center_x_mm": -160.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 1,
+      "center_x_mm": -150.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 1,
+      "center_x_mm": -140.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 1,
+      "center_x_mm": -130.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 2,
+      "center_x_mm": -190.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 2,
+      "center_x_mm": -180.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 2,
+      "center_x_mm": -170.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 2,
+      "center_x_mm": -160.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 2,
+      "center_x_mm": -150.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 2,
+      "center_x_mm": -140.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 2,
+      "center_x_mm": -130.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 3,
+      "center_x_mm": -190.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 3,
+      "center_x_mm": -180.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 3,
+      "center_x_mm": -170.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 3,
+      "center_x_mm": -160.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 3,
+      "center_x_mm": -150.0,
+      "collisions": [],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": true
+    },
+    {
+      "leaf": 3,
+      "center_x_mm": -140.0,
+      "collisions": [
+        {
+          "obstacle": "camisa",
+          "volume_mm3": 0.639711878337824
+        }
+      ],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": false
+    },
+    {
+      "leaf": 3,
+      "center_x_mm": -130.0,
+      "collisions": [
+        {
+          "obstacle": "piel",
+          "volume_mm3": 4.854848666171485
+        },
+        {
+          "obstacle": "camisa",
+          "volume_mm3": 1.9266567409117104
+        },
+        {
+          "obstacle": "aro",
+          "volume_mm3": 2.352032551805222
+        },
+        {
+          "obstacle": "junta",
+          "volume_mm3": 0.5962767081215485
+        }
+      ],
+      "unknown": [],
+      "checks": 8,
+      "booleans": 4,
+      "passes_local_sweep": false
+    }
+  ]
+}

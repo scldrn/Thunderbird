@@ -1,0 +1,10 @@
+# Presupuesto de Masa e Incertidumbre: Variante Hipotética 10 kg
+# Objetivo de Masa de Diseno: 10.0 kg (HIPOTETICO - mass_targets_are_actual_masses: false)
+# Sin mediciones reales en hardware ni marcas/piezas comerciales inventadas.
+componente,masa medida,masa supuesta,intervalo inferior,intervalo superior,evidencia,estado
+Estructura_portante_y_fuselaje_clase_10kg,,3.400000,2.600000,4.600000,Escalado paramétrico preliminar para plataforma de 10 kg; arquitectura por definir,SUPUESTO_HIPOTETICO_CONFIG_PENDIENTE
+Planta_propulsiva_vectorizada_y_actuacion_10kg,,2.300000,1.700000,3.200000,Potencia instalada requerida para maniobra en 10 kg; hardware comercial sin seleccionar,SUPUESTO_HIPOTETICO_SIN_SELECCION
+Avionica_sensores_navegacion_y_carga_pago_10kg,,0.800000,0.450000,1.400000,"Electrónica de misión, piloto automático, telemetría y margen de carga útil",SUPUESTO_HIPOTETICO_CONCEPTUAL
+Reservas_volumetricas_de_bahias_y_canalizaciones_10kg,,,0.000000,0.600000,Bahías de carga y ductos reservados; el espacio puede quedar diáfano o alojar cables,RESERVA_VOLUMETRICA_INCIERTA
+Sistema_de_almacenamiento_de_energia_pack_10kg,,2.500000,1.800000,3.800000,Pack de batería dimensionado para soportar picos de aceleración y crucero prolongado,SUPUESTO_HIPOTETICO_ENERGIA
+Margen_de_crecimiento_e_incertidumbre_contingencia_10kg,,1.000000,0.500000,1.600000,Margen de contingencia del 10% del objetivo de 10 kg según norma AIAA S-120,MARGEN_RESERVA_CONTINGENCIA

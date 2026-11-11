@@ -1,0 +1,208 @@
+{
+  "scope": "C11 reduced 9-part STEP, hypothetical shaft envelopes; no mechanism or continuous sweep",
+  "source_sha256": "b1a2c73a9b041be6ebb17f1ffffc65754830aa2bb17e055a3de4b35b13ad91c6",
+  "code_sha256": "041e8d384b9424df59a4efb2adadd91ca82977f51d21b12bf2efa4fa7f094f8e",
+  "axes": [
+    {
+      "leaf": 0,
+      "x0_mm": -199.57698202972855,
+      "x1_mm": -120.42301798350017,
+      "y_mm": -110.42500002637692,
+      "z_mm": 79.38126690417789
+    },
+    {
+      "leaf": 1,
+      "x0_mm": -205.79975446612514,
+      "x1_mm": -114.20024553369983,
+      "y_mm": -87.45000002737964,
+      "z_mm": 90.37278483485856
+    },
+    {
+      "leaf": 2,
+      "x0_mm": -205.79975446609998,
+      "x1_mm": -114.2002455338,
+      "y_mm": -64.54999997832405,
+      "z_mm": 100.44978295747816
+    },
+    {
+      "leaf": 3,
+      "x0_mm": -199.5769820196,
+      "x1_mm": -120.4230179803,
+      "y_mm": -41.57499992932824,
+      "z_mm": 105.30247339531837
+    }
+  ],
+  "rows": [
+    {
+      "lift_mm": 0.0,
+      "radius_mm": 1.0,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "piel",
+          "intersection_mm3": 9.319996292833915
+        },
+        {
+          "leaf": 0,
+          "obstacle": "aro",
+          "intersection_mm3": 1.807238927893307
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta",
+          "intersection_mm3": 0.47173980696871004
+        },
+        {
+          "leaf": 1,
+          "obstacle": "camisa",
+          "intersection_mm3": 4.4395944547892885
+        },
+        {
+          "leaf": 2,
+          "obstacle": "piel",
+          "intersection_mm3": 0.003636143076770655
+        },
+        {
+          "leaf": 2,
+          "obstacle": "camisa",
+          "intersection_mm3": 6.519198418578265
+        },
+        {
+          "leaf": 2,
+          "obstacle": "aro",
+          "intersection_mm3": 0.6988303440030607
+        },
+        {
+          "leaf": 2,
+          "obstacle": "junta",
+          "intersection_mm3": 0.22098968505647393
+        },
+        {
+          "leaf": 3,
+          "obstacle": "piel",
+          "intersection_mm3": 0.008188322899410485
+        },
+        {
+          "leaf": 3,
+          "obstacle": "camisa",
+          "intersection_mm3": 4.685388798569413
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro",
+          "intersection_mm3": 0.06037756523810717
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta",
+          "intersection_mm3": 0.028836232053098928
+        }
+      ],
+      "unknowns": [],
+      "screened_ok": false
+    },
+    {
+      "lift_mm": 0.0,
+      "radius_mm": 2.0,
+      "collisions": [
+        {
+          "leaf": 0,
+          "obstacle": "piel",
+          "intersection_mm3": 27.262039563894295
+        },
+        {
+          "leaf": 0,
+          "obstacle": "camisa",
+          "intersection_mm3": 6.234124062302308
+        },
+        {
+          "leaf": 0,
+          "obstacle": "aro",
+          "intersection_mm3": 4.547658323606864
+        },
+        {
+          "leaf": 0,
+          "obstacle": "junta",
+          "intersection_mm3": 1.1748045152313091
+        },
+        {
+          "leaf": 1,
+          "obstacle": "piel",
+          "intersection_mm3": 0.0782710774462867
+        },
+        {
+          "leaf": 1,
+          "obstacle": "camisa",
+          "intersection_mm3": 15.399825090219405
+        },
+        {
+          "leaf": 1,
+          "obstacle": "aro",
+          "intersection_mm3": 0.9431428467158853
+        },
+        {
+          "leaf": 1,
+          "obstacle": "junta",
+          "intersection_mm3": 0.2783812109012207
+        },
+        {
+          "leaf": 2,
+          "obstacle": "piel",
+          "intersection_mm3": 0.22750917387520556
+        },
+        {
+          "leaf": 2,
+          "obstacle": "camisa",
+          "intersection_mm3": 26.116182214600972
+        },
+        {
+          "leaf": 2,
+          "obstacle": "aro",
+          "intersection_mm3": 2.4129690622405193
+        },
+        {
+          "leaf": 2,
+          "obstacle": "junta",
+          "intersection_mm3": 0.7506049811023494
+        },
+        {
+          "leaf": 3,
+          "obstacle": "piel",
+          "intersection_mm3": 24.4197258780423
+        },
+        {
+          "leaf": 3,
+          "obstacle": "camisa",
+          "intersection_mm3": 19.88613522589876
+        },
+        {
+          "leaf": 3,
+          "obstacle": "aro",
+          "intersection_mm3": 5.53754007354979
+        },
+        {
+          "leaf": 3,
+          "obstacle": "junta",
+          "intersection_mm3": 1.4658956649004942
+        }
+      ],
+      "unknowns": [],
+      "screened_ok": false
+    },
+    {
+      "lift_mm": 20.0,
+      "radius_mm": 1.0,
+      "collisions": [],
+      "unknowns": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 20.0,
+      "radius_mm": 2.0,
+      "collisions": [],
+      "unknowns": [],
+      "screened_ok": true
+    }
+  ],
+  "excluded": "associated leaf intentionally; other moving leaves and all missing C03 objects are not checked"
+}

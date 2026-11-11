@@ -1,0 +1,17 @@
+[
+  {
+    "variant": "B_retractil_guardado",
+    "title": "Retr\u00e1ctil / modo compacto",
+    "parts": 73
+  },
+  {
+    "variant": "B_retractil_desplegado",
+    "title": "Retr\u00e1ctil / modo desplegado",
+    "parts": 93
+  },
+  {
+    "variant": "C_conductos_integrados",
+    "title": "Conductos / integraci\u00f3n deportiva",
+    "parts": 69
+  }
+]

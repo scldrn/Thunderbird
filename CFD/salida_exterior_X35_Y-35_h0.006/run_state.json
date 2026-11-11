@@ -1,0 +1,5 @@
+{
+  "stage": "solver_starting",
+  "container": "codex-aero-exterior-urans-v1",
+  "note": "Use live handle/container for status, not this file alone."
+}

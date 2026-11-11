@@ -1,0 +1,298 @@
+{
+  "scope": "Kinematic/polar-domain diagnostic; not a fan operating map or rotor redesign",
+  "reynolds_blocks": [
+    61400.0,
+    101500.0,
+    203300.0,
+    304800.0
+  ],
+  "alpha_domain_deg": [
+    [
+      -6.45,
+      7.4
+    ],
+    [
+      -6.55,
+      8.9
+    ],
+    [
+      -6.41,
+      8.87
+    ],
+    [
+      -6.78,
+      8.87
+    ]
+  ],
+  "nu_m2_s": 1.46e-05,
+  "sound_speed_m_s": 340.3,
+  "mach_screen": 0.3,
+  "radius_m": 0.041,
+  "hub_ratio": 0.315,
+  "critical_chord_m": 0.008780879616025077,
+  "critical_chord_formula": "Re_min*nu/(M_screen*a)",
+  "critical_chord_condition": "Below this chord Re >= minimum and M <= screen cannot both hold for any local speed",
+  "impossible_span_fraction": 0.11600802217852986,
+  "impossible_active_annular_area_fraction": 0.16942768777822384,
+  "below_chord_intervals_r_over_R": [
+    [
+      0.920534504807707,
+      0.92890625
+    ],
+    [
+      0.92890625,
+      0.9398437499999999
+    ],
+    [
+      0.9398437499999999,
+      0.9507812499999999
+    ],
+    [
+      0.9507812499999999,
+      0.9617187500000001
+    ],
+    [
+      0.9617187500000001,
+      0.9726562499999999
+    ],
+    [
+      0.9726562499999999,
+      0.9835937499999999
+    ],
+    [
+      0.9835937499999999,
+      0.9945312499999999
+    ],
+    [
+      0.9945312499999999,
+      1.0
+    ]
+  ],
+  "theoretical_bound_tests_pass": true,
+  "polar_flags_reproduced_for_all_21x128_sections": true,
+  "angle_and_Re_area_fractions_can_overlap": true,
+  "midpoint_area_weighting_is_not_thrust_or_torque_weighting": true,
+  "prescribed_disk_velocity_and_zero_swirl_not_solved": true,
+  "no_compressibility_or_rotating_cascade_model": true,
+  "physical_fan_performance_accepted": false,
+  "actual_experiment_reynolds_are_not_assumed_continuous_measurements": true,
+  "chord_geometry": "Interpolation of 64 saved C01 annuli with endpoint extension; not exact CAD section metrology",
+  "source_sha256": {
+    "ejecucion/G2/modulo_preliminar/m5_d1_k0.85.json": "85287461615fd25fb381912cc4e89534e850680dfa40fddd3720b33518656f94",
+    "fuentes/uiuc/SD8020.DRG": "1c1aec6cbca84a719aa26523f67b529436dcd32c38da246368f1c0327397fa30",
+    "ejecucion/G2/cargas_locales_C02_r1/ANILLOS.json": "af2d4cce991fa3de890cf5d2eb52e709af7bc48ab70c3ac2fd1e0f66aa40505c",
+    "ejecucion/G2/analizar_dominio_polar_C02.py": "90842011256293a2d2c2c9759be2ec2a08eeef3d4f530dbc81ae752b81b0785c"
+  },
+  "rows": [
+    {
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 5.0,
+      "below_re_annular_area_fraction": 0.6002925974334599,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 1.0,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.0,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 10.0,
+      "below_re_annular_area_fraction": 0.5821240791349809,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 1.0,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.0,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 20.0,
+      "below_re_annular_area_fraction": 0.5415672621346244,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.07014819243108365,
+      "outside_polar_annular_area_fraction": 0.5415672621346244,
+      "mach_above_limit_annular_area_fraction": 0.0,
+      "polar_and_mach_joint_area_fraction": 0.45843273786537553
+    },
+    {
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 30.0,
+      "below_re_annular_area_fraction": 0.470205560836502,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.1424444510456274,
+      "outside_polar_annular_area_fraction": 0.470205560836502,
+      "mach_above_limit_annular_area_fraction": 0.035360242024120726,
+      "polar_and_mach_joint_area_fraction": 0.5297944391634981
+    },
+    {
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 40.0,
+      "below_re_annular_area_fraction": 0.38256000475285173,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.5206981122267109,
+      "outside_polar_annular_area_fraction": 0.7026729221126424,
+      "mach_above_limit_annular_area_fraction": 0.11564189490256654,
+      "polar_and_mach_joint_area_fraction": 0.2973270778873574
+    },
+    {
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 50.0,
+      "below_re_annular_area_fraction": 0.27892555846007605,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.9646397579758791,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.2142828299518774,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 60.0,
+      "below_re_annular_area_fraction": 0.18548816057212453,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.9763629173597906,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.3377919940440828,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 34673.61111300333,
+      "axial_disk_velocity_m_s": 5.0,
+      "below_re_annular_area_fraction": 0.1424444510456274,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 1.0,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.5903707874138544,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 34673.61111300333,
+      "axial_disk_velocity_m_s": 10.0,
+      "below_re_annular_area_fraction": 0.1370800874079135,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 1.0,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.5903707874138544,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 34673.61111300333,
+      "axial_disk_velocity_m_s": 20.0,
+      "below_re_annular_area_fraction": 0.10958177689817014,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 1.0,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.6065044910735502,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 34673.61111300333,
+      "axial_disk_velocity_m_s": 30.0,
+      "below_re_annular_area_fraction": 0.07767292211264257,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.07014819243108365,
+      "outside_polar_annular_area_fraction": 0.14782111454372623,
+      "mach_above_limit_annular_area_fraction": 0.6302281368821293,
+      "polar_and_mach_joint_area_fraction": 0.29209894100522815
+    },
+    {
+      "rpm": 34673.61111300333,
+      "axial_disk_velocity_m_s": 40.0,
+      "below_re_annular_area_fraction": 0.058631809945342214,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.07312986424667302,
+      "outside_polar_annular_area_fraction": 0.08226889258555134,
+      "mach_above_limit_annular_area_fraction": 0.6684957874138543,
+      "polar_and_mach_joint_area_fraction": 0.2728724026408033
+    },
+    {
+      "rpm": 34673.61111300333,
+      "axial_disk_velocity_m_s": 50.0,
+      "below_re_annular_area_fraction": 0.04501864937321769,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.23808978990910173,
+      "outside_polar_annular_area_fraction": 0.23808978990910173,
+      "mach_above_limit_annular_area_fraction": 0.7123185654556795,
+      "polar_and_mach_joint_area_fraction": 0.06144197993405419
+    },
+    {
+      "rpm": 34673.61111300333,
+      "axial_disk_velocity_m_s": 60.0,
+      "below_re_annular_area_fraction": 0.03197778041825095,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.5296869894397574,
+      "outside_polar_annular_area_fraction": 0.5296869894397574,
+      "mach_above_limit_annular_area_fraction": 0.7671880105602422,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 5.0,
+      "below_re_annular_area_fraction": 0.049492781606463886,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 1.0,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.8179878263872384,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 10.0,
+      "below_re_annular_area_fraction": 0.04501864937321769,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 1.0,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.8179878263872384,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 20.0,
+      "below_re_annular_area_fraction": 0.04501864937321769,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 1.0,
+      "outside_polar_annular_area_fraction": 1.0,
+      "mach_above_limit_annular_area_fraction": 0.8300519007693676,
+      "polar_and_mach_joint_area_fraction": 0.0
+    },
+    {
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 30.0,
+      "below_re_annular_area_fraction": 0.03626114877911122,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.9497441629039922,
+      "outside_polar_annular_area_fraction": 0.9822306469819391,
+      "mach_above_limit_annular_area_fraction": 0.8418616233216489,
+      "polar_and_mach_joint_area_fraction": 0.01776935301806084
+    },
+    {
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 40.0,
+      "below_re_annular_area_fraction": 0.03197778041825095,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.07014819243108365,
+      "outside_polar_annular_area_fraction": 0.10212597284933461,
+      "mach_above_limit_annular_area_fraction": 0.8590992974691064,
+      "polar_and_mach_joint_area_fraction": 0.1089229221126426
+    },
+    {
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 50.0,
+      "below_re_annular_area_fraction": 0.02360180756891635,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.05550532467918251,
+      "outside_polar_annular_area_fraction": 0.06311824203897339,
+      "mach_above_limit_annular_area_fraction": 0.8865569952322954,
+      "polar_and_mach_joint_area_fraction": 0.08568500475285172
+    },
+    {
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 60.0,
+      "below_re_annular_area_fraction": 0.015480186549429658,
+      "above_re_annular_area_fraction": 0.0,
+      "outside_alpha_annular_area_fraction": 0.1424444510456274,
+      "outside_polar_annular_area_fraction": 0.1424444510456274,
+      "mach_above_limit_annular_area_fraction": 0.9174078299518772,
+      "polar_and_mach_joint_area_fraction": 0.0
+    }
+  ]
+}

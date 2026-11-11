@@ -1,0 +1,21 @@
+{
+  "kind": "analytic_solver_verification_not_physical_validation",
+  "source": "OpenFOAM Foundation13 tutorials/incompressibleFluid/planarPoiseuille",
+  "modifications": [
+    "Maxwell model removed; default Newtonian Stokes laminar",
+    "uniform y spacing",
+    "2 outer/2 inner corrections, tighter linear tolerances",
+    "4 s transient window, zero initial velocity"
+  ],
+  "H_m": 1.0,
+  "nu_m2_s": 0.1,
+  "body_acceleration_m_s2": 5.0,
+  "Ny": 40,
+  "dt_s": 0.0025,
+  "end_s": 4.0,
+  "geometry": "Half-channel wall y=0, symmetry y=H; cyclic x; empty z",
+  "expected_steady_Ux": "G*(H*y-y*y/2)/nu",
+  "expected_transient_Ux": "steady - sum[2G/(H*nu*k_n^3)*sin(k_n*y)*exp(-nu*k_n^2*t)], k_n=(n+.5)*pi/H",
+  "input_sha256": {},
+  "parent_case": "poiseuille_newtonian_40"
+}

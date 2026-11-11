@@ -1,0 +1,69 @@
+{
+  "scope": "Forced full-state/residual continuation; not experimental validation",
+  "source_SU2_version": "8.6.0",
+  "iteration_limit": 1000,
+  "counter_is_physical_time": false,
+  "declared_conditions": {
+    "Mach": 0.729,
+    "alpha_deg": 2.31,
+    "Reynolds": 6500000.0,
+    "chord": 0.3048,
+    "T_freestream_K": 255.55555555555554,
+    "turbulence_intensity": 0.001,
+    "eddy_to_molecular_viscosity_ratio": 1.0,
+    "gas_model": "IDEAL_GAS",
+    "gas_R_J_kg_K": 287.05287,
+    "gamma": 1.4,
+    "mu_reference_Pas": 1.716040346944096e-05,
+    "mu_reference_temperature_K": 273.15,
+    "Sutherland_K": 110.4
+  },
+  "target_reference": {
+    "p_Pa": 108987.77275058624,
+    "rho_kg_m3": 1.4856980645128517,
+    "U_m_s": 233.62276311273394,
+    "mu_Pas": 1.6275986454205707e-05
+  },
+  "geometry": {
+    "points": 23952,
+    "quadrilaterals": 23552,
+    "positive_convex_cells": true,
+    "minimum_area_m2": 9.155827470494417e-10,
+    "boundary_edges": {
+      "AIRFOIL": 304,
+      "FARFIELD": 368,
+      "OUTFLOW": 128
+    },
+    "identical_source_vertices_verified": true,
+    "conformal_wake_merged_nodes": 33,
+    "sharp_TE": true,
+    "quality_not_accepted_from_other_solver": true
+  },
+  "source_grid_sha256": "2318157ce20050a3f7c1a5dc208cbfd3d821108b618afb2e43fd4792ee4238ed",
+  "source_URL": "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/raetaf04.html",
+  "numerical_note": "Official SU2 JST/implicit/MG3; startCFL5/adaptive1..50; all1200steps forced; residual export added.",
+  "distinctions_from_NASA_WIND": [
+    "Same supplied vertices/connectivity and freestream M/alpha/Re/T/chord; native node-centred scheme differs.",
+    "Transport reference chosen to reproduce stated p/Re simultaneously; not measured viscosity.",
+    "SST2003m fully turbulent versus legacy WIND/experiment transition, not identical.",
+    "I0.001 and viscosityRatio1 are assumptions, not stated NASA experimental values.",
+    "Native characteristic farfield/static-pressure outlet may differ from WIND implementation.",
+    "Single highly stretched source C-grid; no mesh independence or full force budget accepted."
+  ],
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "inputs_sha256": {
+    "case.cfg": "31ebadea97cce6a04a9f314da5f5dee272b19acb1b6829db7bc8181a5c1ccbdc",
+    "ORIGINAL_turb_SST_RAE2822.cfg": "68a8dcdd171b3ae1cfc38d7a946bd682164d099169eee25ff576c2f1503b3da7",
+    "solution_flow.csv": "d936b7d1b5735c012f84dd282b73acd0ea49386871914530fd3a6b1f3b66baed",
+    "mesh_RAE2822_turb.su2": "3c0393264283e77a7c0e1a729e57c8c9a60f8c9cc8242f134e3200d1db524575"
+  },
+  "parent": "su2_nasa_r2",
+  "changes_from_parent": [
+    "ASCII restart from audited finite positive seed",
+    "1000 forced additional iterations; density-only early stop disabled",
+    "Export max residual histories and residual fields"
+  ],
+  "physical_models_geometry_freestream_and_schemes_unchanged": true,
+  "source_audit_sha256": "9826d0f5ab97aa21b5b88363913635559fc2629ed295646b052fa95098bf30f2"
+}

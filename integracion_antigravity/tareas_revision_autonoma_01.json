@@ -1,0 +1,129 @@
+{
+  "descripcion": "Doce revisiones y recuperaciones independientes del primer lote; resultados candidatos hasta revisión.",
+  "tareas": [
+    {
+      "id": "revisar_uiuc_estatico",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/test_analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/INFORME.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt"
+      ],
+      "instruccion": "Revisa el cálculo UIUC estático ya producido; la sesión anterior terminó con error de red después de crear archivos. Copia script y test a salidas/, ejecútalos contra las entradas copiadas y audita dimensionalmente CT, CP, diámetro, Mach, Reynolds y figura de mérito. Crea salidas/REVISION.md con errores precisos, evidencias y límites; corrige solo las copias si es necesario. No atribuyas sus datos de hélice abierta al ventilador C02."
+    },
+    {
+      "id": "revisar_uiuc_avance",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/test_procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/informe_tecnico_uiuc_avance.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_0544rd_20051.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt"
+      ],
+      "instruccion": "Audita el análisis UIUC en avance: J, V, CT/CP, eficiencia, rango medido y advertencias contra extrapolación. Copia script y pruebas a salidas/, ejecútalos si es posible y entrega REVISION.md con fallos concretos y correcciones de las copias cuando haga falta."
+    },
+    {
+      "id": "revisar_energia",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/sensibilidad_ley_arrastre.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/test_sensibilidad.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/REPORTE_SENSIBILIDAD_ARRASTRE.md",
+        "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/calcular_r2.py",
+        "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md"
+      ],
+      "instruccion": "Verifica independientemente la generalización D(v)=Dfin*(v/V)^p y la integral Dfin*V*t/(p+2), energía, potencia y comparación p=2. Copia código y test a salidas/ y ejecútalos; documenta en REVISION.md cualquier defecto o supuesto no físico y corrige solo copias si procede."
+    },
+    {
+      "id": "revisar_cg",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/equilibrio_cg.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/test_equilibrio.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/INFORME_EQUILIBRIO_CG.md"
+      ],
+      "instruccion": "Audita las condiciones analíticas de factibilidad 2D de cuatro fuerzas verticales limitadas, incluidos signos, límites, casos en bordes y construcción explícita de fuerzas. Copia código y pruebas a salidas/, ejecútalas y entrega REVISION.md. No presentes el CG supuesto como medido."
+    },
+    {
+      "id": "recuperar_jerk",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/trayectoria_jerk/salidas/trayectoria_jerk.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/trayectoria_jerk/salidas/test_trayectoria_jerk.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/trayectoria_jerk/salidas/resumen_comparativo.csv"
+      ],
+      "instruccion": "La sesión anterior acabó por timeout; recupera el estudio 1D de jerk. Copia código y tests a salidas/, ejecútalos y verifica las dos ramas de tiempo mínimo por derivación independiente y convergencia numérica. Produce INFORME-REVISADO.md con cifras, unidades y limitaciones; corrige copias si hay errores. No llames capacidad real a una cinemática ideal."
+    },
+    {
+      "id": "revisar_termica",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/termica_motor/salidas/modelo_termico.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/termica_motor/salidas/test_modelo_termico.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/termica_motor/salidas/INFORME_SENSIBILIDAD_TERMICA.md",
+        "investigacion-aeronautica/ejecucion/G3/C02/INFORME-C02.md"
+      ],
+      "instruccion": "Audita unidades y solución del modelo térmico concentrado C dT/dt=P-(T-Tamb)/R, incluidas condiciones iniciales y casos límite. Copia código y tests a salidas/, ejecútalos y entrega REVISION.md. No trates 74.2 W o 80 C como datos validados del motor C02."
+    },
+    {
+      "id": "revisar_respuesta",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/respuesta_ventilador/salidas/comparar_respuestas.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/respuesta_ventilador/salidas/test_respuestas.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/respuesta_ventilador/salidas/INFORME.md"
+      ],
+      "instruccion": "Revisa las respuestas temporales de primer y segundo orden, tiempos 10/50/90, unidades y tratamiento de tau. Copia código y tests a salidas/, ejecútalos y escribe REVISION.md; distingue el ensayo NASA de EDF diferente de los tau arbitrarios del escenario C02."
+    },
+    {
+      "id": "revisar_bom",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/auditar_bom.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/test_auditoria.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/INFORME_AUDITORIA_BOM.md",
+        "investigacion-aeronautica/ejecucion/G3/C02/integracion_x160/BOM_GEOMETRICA_PARCIAL.csv",
+        "investigacion-aeronautica/ejecucion/G3/C02/integracion_x160/MASA_INERCIA_PARCIAL.json"
+      ],
+      "instruccion": "Audita el recuento de la BOM, las masas parciales y el tratamiento de reservas sin masa real. Copia código y pruebas a salidas/, ejecútalos con entradas copiadas y entrega REVISION.md; identifica duplicados o diferencias y no conviertas datos desconocidos en cero."
+    },
+    {
+      "id": "recuperar_plan",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/dependencias_plan/salidas/analizar_dependencias.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/dependencias_plan/salidas/test_dependencias.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/dependencias_plan/salidas/matriz_tareas_dependencias.csv",
+        "investigacion-aeronautica/plan_maestro/TRABAJO.csv",
+        "investigacion-aeronautica/ejecucion/ESTADO-TAREAS.csv"
+      ],
+      "instruccion": "La sesión anterior terminó por timeout tras generar código y matrices. Copia código y tests a salidas/, ejecútalos y valida IDs, dependencias, estados y ciclos. Crea INFORME-REVISADO.md con ruta crítica y actividades listas para preparación; no declares completas tareas parciales."
+    },
+    {
+      "id": "recuperar_cfd",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_cfd/salidas/informe_verificacion_cfd.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_cfd/salidas/matriz_verificacion_cfd.csv",
+        "investigacion-aeronautica/ejecucion/G2/flujo_C02_conducto/INFORME-FINA-800.md",
+        "investigacion-aeronautica/ejecucion/G2/flujo_C02_conducto/INFORME-F1N-PRELIMINAR.md",
+        "investigacion-aeronautica/ejecucion/G4/RAE2822/INFORME-NASA-SU2.md"
+      ],
+      "instruccion": "La matriz CFD anterior terminó con error de tiempo y una comprobación de texto fallida. Revisa exclusivamente sus cifras y conclusiones contra los tres informes copiados, identifica errores verificables y produce un informe corto CORRECCIONES.md. No inicies solvers ni declares cargas aceptadas."
+    },
+    {
+      "id": "revisar_estructura",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/estructura_rotor/salidas/comprobaciones_centrifugas.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/estructura_rotor/salidas/test_comprobaciones_centrifugas.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/estructura_rotor/salidas/INFORME_AUDITORIA_C02.md",
+        "investigacion-aeronautica/ejecucion/G5/rotor_C02/INFORME.md"
+      ],
+      "instruccion": "Audita dimensionalmente velocidad periférica, Mach y escalado de fuerza centrífuga del estudio, con cuidado de no equiparar un anillo ideal con esfuerzo real de pala. Copia código y test a salidas/, ejecútalos y entrega REVISION.md con errores o límites."
+    },
+    {
+      "id": "revisar_polar",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cobertura_reynolds/salidas/sensibilidad_cinematica.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cobertura_reynolds/salidas/test_sensibilidad.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cobertura_reynolds/salidas/INFORME_SENSIBILIDAD_CINEMATICA.md",
+        "investigacion-aeronautica/fuentes/uiuc/SD8020.DRG",
+        "investigacion-aeronautica/ejecucion/G2/INFORME-COBERTURA-POLAR-C02.md"
+      ],
+      "instruccion": "Revisa unidades, lectura de Reynolds DRG y condición c>=Re*nu/(M*a), incluido el ejemplo 8.781 mm. Copia script y test a salidas/, ejecútalos y entrega REVISION.md; no confundas LFT sin arrastre con DRG ni llames umbral físico universal a M=0.3."
+    }
+  ]
+}

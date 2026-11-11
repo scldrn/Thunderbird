@@ -1,0 +1,12 @@
+{
+  "container": "codex-aero-avance-compresible-600-lts-v1",
+  "physical_loads_accepted": false,
+  "stage": "diagnostic_exited",
+  "exit_code": 0,
+  "counter_kind": "local_pseudo_iterations",
+  "last_counter_value": 200.0,
+  "target_counter_value": 200,
+  "target_reached": true,
+  "health_stop_requested": false,
+  "results_audited": false
+}

@@ -1,0 +1,77 @@
+{
+  "scope": "Reservas fijas individualmente contra ocho tapas moviles en seis poses discretas; sin guias montadas, tolerancias, ni analisis continuo",
+  "candidates": [
+    {
+      "y_mm": -130,
+      "z_mm": 5,
+      "pairs_screened": 48,
+      "boolean_count": 0,
+      "intersections": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 15,
+      "pairs_screened": 48,
+      "boolean_count": 0,
+      "intersections": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 25,
+      "pairs_screened": 48,
+      "boolean_count": 0,
+      "intersections": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 5,
+      "pairs_screened": 48,
+      "boolean_count": 0,
+      "intersections": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 25,
+      "pairs_screened": 48,
+      "boolean_count": 0,
+      "intersections": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 55,
+      "pairs_screened": 48,
+      "boolean_count": 0,
+      "intersections": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 65,
+      "pairs_screened": 48,
+      "boolean_count": 0,
+      "intersections": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 75,
+      "pairs_screened": 48,
+      "boolean_count": 0,
+      "intersections": [],
+      "errors": [],
+      "screened_ok": true
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "scope": "Numerical verification of one Newtonian channel transient, not installed fan or vehicle validation",
+  "reference": {
+    "H_m": 1,
+    "nu_m2_s": 0.1,
+    "G_m_s2": 5,
+    "time_s": 4,
+    "series_terms": 1000
+  },
+  "normalization": "Linf error divided by maximum analytic cell-centre velocity; L2 Euclidean ratio",
+  "cases": [
+    {
+      "case": "poiseuille_20_outer15",
+      "Ny": 20,
+      "dt_s": 0.005,
+      "outer_correctors": 15,
+      "steps_in_log": 800,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 4.005703,
+      "clock_s": 4.0,
+      "max_abs_error_m_s": 0.01490791944845149,
+      "relative_Linf_PDE": 0.0009695828911096507,
+      "relative_L2_PDE": 0.0006009162498076029,
+      "relative_Linf_MOL": 0.00038606290582402983,
+      "max_transverse_velocity_m_s": 1.18674612129e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "aa95eac7719c9452f4b6ff8d8da7a1e1c32d96f4cda3ea846d56f34b332c57e6",
+        "system/controlDict": "a1b7ff9c3e87ba5d6daf10db70686815f1cb960d8e1cd0f6384060e422f4aa6d",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "7d8a1c54d92881598e086ad492c6038d36cf2ab5f7d1a2c7ea9b69a120f24293"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "b78915396d225443a9d5deb45ba7ed32028c0e8f63f8305a3fe7fa97f3d5505f",
+        "constant/polyMesh/faces": "8ac01eca5e3d5593d136db36341ecd63d209fafd0e94fcf7c179b5073468e53c",
+        "constant/polyMesh/neighbour": "09cd1450c51d924bace7251168c6e797e1afb0b696dd8a07e6599c0da7827e48",
+        "constant/polyMesh/owner": "0d4c29e7e5050df00a6a6c7dd81581a63c0a772c489b6f4ca7a105efc345ba04",
+        "constant/polyMesh/points": "905c134a5fb5515225a1847435a01ea08f475daca9be78d03a7f7db58ae3b71d"
+      },
+      "result_and_log_sha256": {
+        "4/U": "ef9e6998f93ba0745151e382e183e0ce4b6b483400d820b2a8e470f7ff5e6c79",
+        "log.blockMesh": "cfe11da3b4fc5a85b396a1e8ab216e8ab9ff995efddaf96aefa30ea6a6942f1b",
+        "log.foamRun": "e25a7a9df5873cc68c687e9d31f9863eb88fc6377ed36c204fa8540faa8daff0"
+      }
+    },
+    {
+      "case": "poiseuille_40_outer15",
+      "Ny": 40,
+      "dt_s": 0.005,
+      "outer_correctors": 15,
+      "steps_in_log": 800,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 6.437693,
+      "clock_s": 7.0,
+      "max_abs_error_m_s": 0.005107537119730665,
+      "relative_Linf_PDE": 0.0003320515412524319,
+      "relative_L2_PDE": 0.00029003774764750466,
+      "relative_Linf_MOL": 0.00038629021550677217,
+      "max_transverse_velocity_m_s": 1.48596402542e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "c4b27978eaa39fac15b3171d798d994861c7d383bb6ed1f40f25012763e67dcd",
+        "system/controlDict": "a1b7ff9c3e87ba5d6daf10db70686815f1cb960d8e1cd0f6384060e422f4aa6d",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "7d8a1c54d92881598e086ad492c6038d36cf2ab5f7d1a2c7ea9b69a120f24293"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "5795c365750932501a7509b812725cf0498e575e9cc9b76076c8c80fd874d428",
+        "constant/polyMesh/faces": "5b04afafed90025968cee0477c4ecf27e3006dd97f41ef89c2b737c1e9a306e4",
+        "constant/polyMesh/neighbour": "928752afdb0ff6b2ef7acb1004c8464819536a897ffc4dc0591c1ba1080c3097",
+        "constant/polyMesh/owner": "c8f949c6877aee849be5776ddeb8a8c257394789f199927d24097f776a40c1b0",
+        "constant/polyMesh/points": "9b48779686ead7f068b4452c1d70c7ec03576b0b3642b37e679f1009345581b0"
+      },
+      "result_and_log_sha256": {
+        "4/U": "75779da5277fb792b1bf3b594a0586b3801568b6f44037b9e7dadca700e3ad71",
+        "log.blockMesh": "6a828ee6c004d302efb11a3498815f415c718e5a3316b4a3298e09eb1f08ce27",
+        "log.foamRun": "43d2484fdb583a60d6c1ddf6555c11f128185b7842f74d487efe6cb4f7b27187"
+      }
+    },
+    {
+      "case": "poiseuille_40_outer50",
+      "Ny": 40,
+      "dt_s": 0.005,
+      "outer_correctors": 50,
+      "steps_in_log": 800,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 15.855565,
+      "clock_s": 16.0,
+      "max_abs_error_m_s": 0.005102681619730376,
+      "relative_Linf_PDE": 0.0003317358751650688,
+      "relative_L2_PDE": 0.00028982325914812536,
+      "relative_Linf_MOL": 0.0003859745665464062,
+      "max_transverse_velocity_m_s": 1.45998654561e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "c4b27978eaa39fac15b3171d798d994861c7d383bb6ed1f40f25012763e67dcd",
+        "system/controlDict": "837c822eb54fa8055ea84e9853c35e930694c5249cf535e24564853da0d6915d",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "02cddd2edbe7ae29d65729cda1eb2535ca2cbd40165bca1a049ec260f58311b0"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "5795c365750932501a7509b812725cf0498e575e9cc9b76076c8c80fd874d428",
+        "constant/polyMesh/faces": "5b04afafed90025968cee0477c4ecf27e3006dd97f41ef89c2b737c1e9a306e4",
+        "constant/polyMesh/neighbour": "928752afdb0ff6b2ef7acb1004c8464819536a897ffc4dc0591c1ba1080c3097",
+        "constant/polyMesh/owner": "c8f949c6877aee849be5776ddeb8a8c257394789f199927d24097f776a40c1b0",
+        "constant/polyMesh/points": "9b48779686ead7f068b4452c1d70c7ec03576b0b3642b37e679f1009345581b0"
+      },
+      "result_and_log_sha256": {
+        "4/U": "ac4db78672eb955989422ebc86522f1efaa0141c828fed086b5ac75e6b34e35e",
+        "log.blockMesh": "fabf50b89e106b78f19aaebf27494a0376c877033e8f569129629b9da3fd09b0",
+        "log.foamRun": "6bda26331874f598417f94ab8376de5c3cd6de750b1d4b936a3eccbb3d221d29"
+      }
+    },
+    {
+      "case": "poiseuille_80_outer15",
+      "Ny": 80,
+      "dt_s": 0.005,
+      "outer_correctors": 15,
+      "steps_in_log": 800,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 9.438331,
+      "clock_s": 10.0,
+      "max_abs_error_m_s": 0.00845036440771807,
+      "relative_Linf_PDE": 0.0005493206656654176,
+      "relative_L2_PDE": 0.00047310985655028045,
+      "relative_Linf_MOL": 0.0005628747980446555,
+      "max_transverse_velocity_m_s": 1.43611008298e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "b5c788236464c59f49c7637ad7062580f09d3c2c4888c54c085e4dbdd4954152",
+        "system/controlDict": "a1b7ff9c3e87ba5d6daf10db70686815f1cb960d8e1cd0f6384060e422f4aa6d",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "7d8a1c54d92881598e086ad492c6038d36cf2ab5f7d1a2c7ea9b69a120f24293"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "944c301cc632561884d05e6a0cd509ee0dab228ea5397a311c085f2eb6be8817",
+        "constant/polyMesh/faces": "a9d42e446eeebf3e5885fb7645983f05a98a26d9c997ffd9f040dea530af7dd0",
+        "constant/polyMesh/neighbour": "380c4ca3b8daf48f43e565ddfd383253f0f64c597598b2d3d4f05feb47552df2",
+        "constant/polyMesh/owner": "483cbf1312d5a5c5a5ac69af944dba7fe569b8cb70536a5568c35d4e2f51a7ff",
+        "constant/polyMesh/points": "7275ce67f70df6066fffa45e5d0d2a2b32ef7673c6f2a34c66171479cf16d1f9"
+      },
+      "result_and_log_sha256": {
+        "4/U": "33ae9f901ba3aebee1c2ca5a3dcd5cf643a7131c8bcaaabde1ea6ced4b1842ff",
+        "log.blockMesh": "d6373e645cc3767dd7a840f3f35f2b49cbb16d4e3c37d1f8f866577f5b2e25dc",
+        "log.foamRun": "1786ab33245c7e27b882c2898079c7d91f920ee51637095696ea1bf5c0c21edb"
+      }
+    },
+    {
+      "case": "poiseuille_80_outer50",
+      "Ny": 80,
+      "dt_s": 0.005,
+      "outer_correctors": 50,
+      "steps_in_log": 800,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 19.048251,
+      "clock_s": 19.0,
+      "max_abs_error_m_s": 0.005728703707719163,
+      "relative_Linf_PDE": 0.000372397589298048,
+      "relative_L2_PDE": 0.0003389620721930644,
+      "relative_Linf_MOL": 0.00038595412103410026,
+      "max_transverse_velocity_m_s": 1.89555046286e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "b5c788236464c59f49c7637ad7062580f09d3c2c4888c54c085e4dbdd4954152",
+        "system/controlDict": "837c822eb54fa8055ea84e9853c35e930694c5249cf535e24564853da0d6915d",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "02cddd2edbe7ae29d65729cda1eb2535ca2cbd40165bca1a049ec260f58311b0"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "944c301cc632561884d05e6a0cd509ee0dab228ea5397a311c085f2eb6be8817",
+        "constant/polyMesh/faces": "a9d42e446eeebf3e5885fb7645983f05a98a26d9c997ffd9f040dea530af7dd0",
+        "constant/polyMesh/neighbour": "380c4ca3b8daf48f43e565ddfd383253f0f64c597598b2d3d4f05feb47552df2",
+        "constant/polyMesh/owner": "483cbf1312d5a5c5a5ac69af944dba7fe569b8cb70536a5568c35d4e2f51a7ff",
+        "constant/polyMesh/points": "7275ce67f70df6066fffa45e5d0d2a2b32ef7673c6f2a34c66171479cf16d1f9"
+      },
+      "result_and_log_sha256": {
+        "4/U": "aa7ce46e5c526df82e269e29980b355ca248f8a0b0ce4cc24653f027ad32be59",
+        "log.blockMesh": "0055408645c1690954738bc17514ca2a3ff167b36e961a38498014f3b54fd89e",
+        "log.foamRun": "4a509ada98c0816e77224d6e9dda73f147a552e5223c149d25e3e4ce1700fd10"
+      }
+    },
+    {
+      "case": "poiseuille_80_outer50_dt_half",
+      "Ny": 80,
+      "dt_s": 0.0025,
+      "outer_correctors": 50,
+      "steps_in_log": 1600,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 36.689165,
+      "clock_s": 37.0,
+      "max_abs_error_m_s": 0.0027584713077182244,
+      "relative_Linf_PDE": 0.00017931597051492321,
+      "relative_L2_PDE": 0.00015812111205178948,
+      "relative_Linf_MOL": 0.00019287512074318838,
+      "max_transverse_velocity_m_s": 1.80347880419e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "b5c788236464c59f49c7637ad7062580f09d3c2c4888c54c085e4dbdd4954152",
+        "system/controlDict": "abe868e66a6ce98128c630ae66245ef0688d5affb1e65145a9b24ea3b1476287",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "02cddd2edbe7ae29d65729cda1eb2535ca2cbd40165bca1a049ec260f58311b0"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "944c301cc632561884d05e6a0cd509ee0dab228ea5397a311c085f2eb6be8817",
+        "constant/polyMesh/faces": "a9d42e446eeebf3e5885fb7645983f05a98a26d9c997ffd9f040dea530af7dd0",
+        "constant/polyMesh/neighbour": "380c4ca3b8daf48f43e565ddfd383253f0f64c597598b2d3d4f05feb47552df2",
+        "constant/polyMesh/owner": "483cbf1312d5a5c5a5ac69af944dba7fe569b8cb70536a5568c35d4e2f51a7ff",
+        "constant/polyMesh/points": "7275ce67f70df6066fffa45e5d0d2a2b32ef7673c6f2a34c66171479cf16d1f9"
+      },
+      "result_and_log_sha256": {
+        "4/U": "bfbcfa1e513a35cf2b006d7dd8ceb66545059df61308b000739656139ffcba34",
+        "log.blockMesh": "c1ddaf80a6400f13dafa0b98fe6d86fc8d1859e7814c3b662e166ed4eb7f4c4f",
+        "log.foamRun": "de9e005703e48209d67471958c9cbaa5e610bf3e412799f7f05096d478d46672"
+      }
+    },
+    {
+      "case": "poiseuille_newtonian_20",
+      "Ny": 20,
+      "dt_s": 0.005,
+      "outer_correctors": 2,
+      "steps_in_log": 800,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 1.523686,
+      "clock_s": 1.0,
+      "max_abs_error_m_s": 0.0757438619687516,
+      "relative_Linf_PDE": 0.004926237556180304,
+      "relative_L2_PDE": 0.0036889935978330715,
+      "relative_Linf_MOL": 0.005142360323529204,
+      "max_transverse_velocity_m_s": 1.7374272943e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "aa95eac7719c9452f4b6ff8d8da7a1e1c32d96f4cda3ea846d56f34b332c57e6",
+        "system/controlDict": "837c822eb54fa8055ea84e9853c35e930694c5249cf535e24564853da0d6915d",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "422c890618d80e2d4efa17c400901c813323420fe01210bfc919cfc8e81319bd"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "b78915396d225443a9d5deb45ba7ed32028c0e8f63f8305a3fe7fa97f3d5505f",
+        "constant/polyMesh/faces": "8ac01eca5e3d5593d136db36341ecd63d209fafd0e94fcf7c179b5073468e53c",
+        "constant/polyMesh/neighbour": "09cd1450c51d924bace7251168c6e797e1afb0b696dd8a07e6599c0da7827e48",
+        "constant/polyMesh/owner": "0d4c29e7e5050df00a6a6c7dd81581a63c0a772c489b6f4ca7a105efc345ba04",
+        "constant/polyMesh/points": "905c134a5fb5515225a1847435a01ea08f475daca9be78d03a7f7db58ae3b71d"
+      },
+      "result_and_log_sha256": {
+        "4/U": "77170ad8a77530514f11823377ff97cef0bd67684973ea089b9e0533041ae1a6",
+        "log.blockMesh": "9354e20e9939b26ce0a0f84e0d7c56592eca6f83923410b5f729c13c7fb8bbfe",
+        "log.foamRun": "3795e06d6a733b2e3bc74017922f2bdd9e9d292b0061c8ced4cfe08b06ce3ae4"
+      }
+    },
+    {
+      "case": "poiseuille_newtonian_40",
+      "Ny": 40,
+      "dt_s": 0.005,
+      "outer_correctors": 2,
+      "steps_in_log": 800,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 3.517915,
+      "clock_s": 3.0,
+      "max_abs_error_m_s": 0.28202598851973093,
+      "relative_Linf_PDE": 0.018335092230549587,
+      "relative_L2_PDE": 0.014039594011120838,
+      "relative_Linf_MOL": 0.018388354119401294,
+      "max_transverse_velocity_m_s": 1.62667099363e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "c4b27978eaa39fac15b3171d798d994861c7d383bb6ed1f40f25012763e67dcd",
+        "system/controlDict": "a1b7ff9c3e87ba5d6daf10db70686815f1cb960d8e1cd0f6384060e422f4aa6d",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "422c890618d80e2d4efa17c400901c813323420fe01210bfc919cfc8e81319bd"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "5795c365750932501a7509b812725cf0498e575e9cc9b76076c8c80fd874d428",
+        "constant/polyMesh/faces": "5b04afafed90025968cee0477c4ecf27e3006dd97f41ef89c2b737c1e9a306e4",
+        "constant/polyMesh/neighbour": "928752afdb0ff6b2ef7acb1004c8464819536a897ffc4dc0591c1ba1080c3097",
+        "constant/polyMesh/owner": "c8f949c6877aee849be5776ddeb8a8c257394789f199927d24097f776a40c1b0",
+        "constant/polyMesh/points": "9b48779686ead7f068b4452c1d70c7ec03576b0b3642b37e679f1009345581b0"
+      },
+      "result_and_log_sha256": {
+        "4/U": "376c9d154cd44b9fb16cc8a575ea93e3a3c9dbc24c6180aa14144fe8492cbd48",
+        "log.blockMesh": "e81446d78b24020f26ee8be363aa081f88a80bc8b2868672da0c49670d26dc86",
+        "log.foamRun": "eb6a11c75da2c27630370cc209c2e29396fd640fc5af9f31ef151026d3a28d4e"
+      }
+    },
+    {
+      "case": "poiseuille_newtonian_40_dt_half",
+      "Ny": 40,
+      "dt_s": 0.0025,
+      "outer_correctors": 2,
+      "steps_in_log": 1600,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 3.667444,
+      "clock_s": 4.0,
+      "max_abs_error_m_s": 0.10899205521973165,
+      "relative_Linf_PDE": 0.007085798707203623,
+      "relative_L2_PDE": 0.005415697194782447,
+      "relative_Linf_MOL": 0.007139670945489805,
+      "max_transverse_velocity_m_s": 1.68167768383e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "c4b27978eaa39fac15b3171d798d994861c7d383bb6ed1f40f25012763e67dcd",
+        "system/controlDict": "abe868e66a6ce98128c630ae66245ef0688d5affb1e65145a9b24ea3b1476287",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "422c890618d80e2d4efa17c400901c813323420fe01210bfc919cfc8e81319bd"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "5795c365750932501a7509b812725cf0498e575e9cc9b76076c8c80fd874d428",
+        "constant/polyMesh/faces": "5b04afafed90025968cee0477c4ecf27e3006dd97f41ef89c2b737c1e9a306e4",
+        "constant/polyMesh/neighbour": "928752afdb0ff6b2ef7acb1004c8464819536a897ffc4dc0591c1ba1080c3097",
+        "constant/polyMesh/owner": "c8f949c6877aee849be5776ddeb8a8c257394789f199927d24097f776a40c1b0",
+        "constant/polyMesh/points": "9b48779686ead7f068b4452c1d70c7ec03576b0b3642b37e679f1009345581b0"
+      },
+      "result_and_log_sha256": {
+        "4/U": "fdec428b71f0a741b23e4bf9f457189ef14e50a5b775e41405bddbcdc8f746e1",
+        "log.blockMesh": "bd79fd21349c08d7d64b19e0cd24613d48ce8016ffef20a4005561e088fdf396",
+        "log.foamRun": "8b1253f47e94f36f0b0bc407719a6e11c85a15b408da5051399edb2fb61a66ff"
+      }
+    },
+    {
+      "case": "poiseuille_newtonian_80",
+      "Ny": 80,
+      "dt_s": 0.005,
+      "outer_correctors": 2,
+      "steps_in_log": 800,
+      "final_time_s": 4.0,
+      "execution_cpu_s": 2.009016,
+      "clock_s": 2.0,
+      "max_abs_error_m_s": 0.7323905781077187,
+      "relative_Linf_PDE": 0.04760945924719636,
+      "relative_L2_PDE": 0.03612767653985872,
+      "relative_Linf_MOL": 0.04762237516964557,
+      "max_transverse_velocity_m_s": 1.93167952721e-15,
+      "input_sha256_reconstructed_after_run": {
+        "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+        "0/p": "511ec6e81eae8d41bb9849854b362dc36c622b277a9ea60aa10f58fcdd6a9d8d",
+        "constant/fvModels": "ba98c59013541af9f2b7eb4a31a1a2f339429056b85b71d0b29731b914daf5da",
+        "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+        "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2",
+        "system/blockMeshDict": "b5c788236464c59f49c7637ad7062580f09d3c2c4888c54c085e4dbdd4954152",
+        "system/controlDict": "837c822eb54fa8055ea84e9853c35e930694c5249cf535e24564853da0d6915d",
+        "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+        "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+        "system/fvSolution": "422c890618d80e2d4efa17c400901c813323420fe01210bfc919cfc8e81319bd"
+      },
+      "actual_mesh_sha256": {
+        "constant/polyMesh/boundary": "944c301cc632561884d05e6a0cd509ee0dab228ea5397a311c085f2eb6be8817",
+        "constant/polyMesh/faces": "a9d42e446eeebf3e5885fb7645983f05a98a26d9c997ffd9f040dea530af7dd0",
+        "constant/polyMesh/neighbour": "380c4ca3b8daf48f43e565ddfd383253f0f64c597598b2d3d4f05feb47552df2",
+        "constant/polyMesh/owner": "483cbf1312d5a5c5a5ac69af944dba7fe569b8cb70536a5568c35d4e2f51a7ff",
+        "constant/polyMesh/points": "7275ce67f70df6066fffa45e5d0d2a2b32ef7673c6f2a34c66171479cf16d1f9"
+      },
+      "result_and_log_sha256": {
+        "4/U": "13f3562ee408fc599265bc9663904749a6df5f8f2a1d25383c4359138e964ee0",
+        "log.blockMesh": "22216e115b3149744b71f10151c561b2b52afb376fe6cbb9a41ba09c3768df52",
+        "log.foamRun": "95824a8f620c043fb7783c2e0f1b925b0306e8bc7762582dc7cedaabe2da034f"
+      }
+    }
+  ],
+  "selection_for_app_integration": "poiseuille_80_outer50_dt_half",
+  "decisions": [
+    "Two-outer-corrector family rejected for grid convergence: error rises with refinement.",
+    "50-corrector cases closely reproduce this endpoint; halving dt reduces MOL error about twofold.",
+    "No formal second-order temporal or spatial convergence established; no GCI reported.",
+    "Residuals alone do not certify equation/time-discretization accuracy.",
+    "Input hashes reconstructed now from retained files; not an immutable pre-run execution attestation.",
+    "CPU/wall times are observed for this tiny case, not a vehicle campaign cost forecast."
+  ]
+}

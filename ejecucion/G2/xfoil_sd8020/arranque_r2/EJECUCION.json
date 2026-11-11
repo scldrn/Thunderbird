@@ -1,0 +1,31 @@
+{
+  "scope": "Independent inviscid startup diagnostics, not validation",
+  "image_id": "sha256:13cbe27aaddde9b40c9250256c4c1eaa5c15a61c03f746169a4357a606479b01",
+  "geometry_sha256": "102c8b1d93c5b02ae547b27a50340ff326975e0c75ba13adfe737cc7812c3ea7",
+  "cases": {
+    "naca0012": {
+      "exit_code": 136,
+      "alpha_command_in_stdout": false,
+      "fpe_signal_reported": true,
+      "commands_sha256": "849c22cf28b38523d8cd31a45d5854da00cd3d9986e606d41a0c35fcc5017670"
+    },
+    "sd8020_original": {
+      "exit_code": 136,
+      "alpha_command_in_stdout": false,
+      "fpe_signal_reported": true,
+      "commands_sha256": "dfc6071934fb139cb8299f0c674623473afbfe91af6e127be76eed4504482f7b"
+    },
+    "sd8020_pane": {
+      "exit_code": 136,
+      "alpha_command_in_stdout": false,
+      "fpe_signal_reported": true,
+      "commands_sha256": "9f409850cb582f8f496be7f6d55a4a6698e426b76ad905e1e54e406ca1772b64"
+    }
+  },
+  "physical_acceptance": false,
+  "started_UTC": "2026-11-05T01:37:43.295884+00:00",
+  "script_sha256": "a89a30c26d720b433067110556283d6aa2019713819f20f7bd07d379fbf69421",
+  "container_id": "c16b9636d27a7d121eaea80354674a8feccfc8d461dc9dd0930e9cf50521753d",
+  "binary_identification": "xfoil\t6.99.dfsg+1-3\n9d7db6a2dae0f4ed6101bfb84f71ec636c60dd974a0aea996dac0f38bf6e2684  /usr/bin/xfoil\naarch64",
+  "stop_exit_code": 0
+}

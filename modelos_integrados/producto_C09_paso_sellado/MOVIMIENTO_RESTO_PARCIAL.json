@@ -1,0 +1,682 @@
+{
+  "scope": "Enlaces restantes del lado -25, pasador raiz ideal, siete poses discretas; permitido solo componente combinado de ducto; sin carro, fijaciones ni sellos",
+  "allowed": "modulo_C02_0_camisa_cuna_y_soportes",
+  "cases": [
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -158.71728089519524,
+        -52.708432784855425,
+        105.19264083755694
+      ],
+      "length_mm": 42.999977761462176,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 20.93113647096303,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 20.93113647096308,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 20.93116276510877,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 17.705903959155865,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 9.626927869974566,
+            "distance_mm": 7.105427357601002e-15
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -156.3421480317417,
+        -57.54053192791381,
+        105.3030988191625
+      ],
+      "length_mm": 46.61551184528983,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 19.436155762120187,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 19.436155746506326,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 19.43615574650629,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 21.522398862800422,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 10.49402642803125,
+            "distance_mm": 1.4210854715202004e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.93411692543583,
+        -64.37565114105661,
+        101.8223913112726
+      ],
+      "length_mm": 49.80543749847108,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 17.201825508132995,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 17.20182550813287,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 17.201825516689787,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 23.836954779460438,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 12.46813631832514,
+            "distance_mm": 3.4809342861069267e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.50809044332487,
+        -68.44688695097877,
+        99.70883338180317
+      ],
+      "length_mm": 52.10454202344721,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 16.327851280673823,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 16.327851280673805,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 16.327851223663448,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 22.0556772739698,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 13.388673654142426,
+            "distance_mm": 2.842170943040401e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.2634790268078,
+        -72.76700590095805,
+        98.58623523478057
+      ],
+      "length_mm": 55.37272375147235,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 15.813887369550908,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 15.81388739791017,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 15.81388739791017,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 21.026467155722884,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 9.11691127115078,
+            "distance_mm": 1.4210854715202004e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.27693221653465,
+        -77.5124319419785,
+        94.97228780529414
+      ],
+      "length_mm": 58.27775824773219,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 15.165409760890423,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 15.165409767335015,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 15.165409774895306,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 20.016473309313305,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 9.451093346931565,
+            "distance_mm": 1.4210854715202004e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.68932481922258,
+        -82.79477600361716,
+        92.18835055870348
+      ],
+      "length_mm": 62.4093258186093,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.791361399945792,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.791361397687838,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.79136140256043,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 19.557084313153826,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 10.145955618399897,
+            "distance_mm": 2.842170943040401e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -156.24068621853033,
+        -94.21764137820084,
+        86.72122678853295
+      ],
+      "length_mm": 72.30363771169306,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.370444916758899,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.370444917256421,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.370444917261388,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 16.75036572130854,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "aro_C02_0_superior",
+            "volume_mm3": 3.850967683631693,
+            "distance_mm": 2.842170943040401e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -157.75797890052047,
+        -97.50282896350978,
+        84.92380523323949
+      ],
+      "length_mm": 75.21317351836169,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.280810159299023,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.280810160439547,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.280810160439533,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 17.02243177895886,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "aro_C02_0_superior",
+            "volume_mm3": 1.2763591145346451,
+            "distance_mm": 1.4210854715202004e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -161.58685295739434,
+        -103.77031030055862,
+        81.44578123341178
+      ],
+      "length_mm": 81.04952866945942,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.190618650547968,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.190618649996534,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.190618650547979,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 17.83358021767966,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 13.27928699800091,
+            "distance_mm": 2.842170943040401e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -159.34751470956465,
+        -107.51466118368882,
+        80.71847793529608
+      ],
+      "length_mm": 84.71514998601927,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.173517465527382,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.173517465527382,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.173517465527377,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 17.289456265378625,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 13.59481666348126,
+            "distance_mm": 2.842170943040401e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -159.4269595742914,
+        -112.513257946375,
+        76.96764207297839
+      ],
+      "length_mm": 89.53725096806285,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.142965149356835,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.142965148406777,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.142965149356838,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 17.276378388032793,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 14.734428079749101,
+            "distance_mm": 3.1776437161565096e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -156.00870472233342,
+        -118.46603781255885,
+        74.02203969295371
+      ],
+      "length_mm": 95.55633099226564,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.909550695525395,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 5,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.158285895128225,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "duct_overlap_mm3": 14.158285895128225,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -25,
+          "duct_overlap_mm3": 16.685502479856698,
+          "failure": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": -50,
+          "duct_overlap_mm3": 0.0,
+          "failure": {
+            "obstacle": "carroceria_C02_superior004",
+            "volume_mm3": 15.77895144119747,
+            "distance_mm": 1.4210854715202004e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_otherwise_clear": false
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "scope": "distancias minimas de los cilindros de reserva a la tapa en dos extremos; no garantizan un enlace libre ni conexi\u00f3n cinematica",
+  "rails": [
+    {
+      "y_mm": -130,
+      "z_mm": 5,
+      "distance_closed_mm": 64.99873625935017,
+      "distance_open_mm": 74.931863934953
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 15,
+      "distance_closed_mm": 55.08857513360677,
+      "distance_open_mm": 64.99873625935017
+    },
+    {
+      "y_mm": -130,
+      "z_mm": 25,
+      "distance_closed_mm": 45.21558815884137,
+      "distance_open_mm": 55.08857513360677
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 5,
+      "distance_closed_mm": 97.07271778409043,
+      "distance_open_mm": 107.02932494101523
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 25,
+      "distance_closed_mm": 77.19908706893501,
+      "distance_open_mm": 87.1327345345569
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 55,
+      "distance_closed_mm": 47.47193284657407,
+      "distance_open_mm": 57.36436445226185
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 65,
+      "distance_closed_mm": 37.60861285905633,
+      "distance_open_mm": 47.47193284657407
+    },
+    {
+      "y_mm": -25,
+      "z_mm": 75,
+      "distance_closed_mm": 27.79738876699864,
+      "distance_open_mm": 37.60861285905633
+    }
+  ],
+  "pairs": [
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 25,
+        "distance_closed_mm": 45.21558815884137,
+        "distance_open_mm": 55.08857513360677
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 75,
+        "distance_closed_mm": 27.79738876699864,
+        "distance_open_mm": 37.60861285905633
+      },
+      "rail_spacing_clear_mm": 111.29703349613007,
+      "max_closed_gap_mm": 45.21558815884137,
+      "max_endpoint_gap_mm": 55.08857513360677
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 25,
+        "distance_closed_mm": 45.21558815884137,
+        "distance_open_mm": 55.08857513360677
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 65,
+        "distance_closed_mm": 37.60861285905633,
+        "distance_open_mm": 47.47193284657407
+      },
+      "rail_spacing_clear_mm": 107.36102527122117,
+      "max_closed_gap_mm": 45.21558815884137,
+      "max_endpoint_gap_mm": 55.08857513360677
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 25,
+        "distance_closed_mm": 45.21558815884137,
+        "distance_open_mm": 55.08857513360677
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 55,
+        "distance_closed_mm": 47.47193284657407,
+        "distance_open_mm": 57.36436445226185
+      },
+      "rail_spacing_clear_mm": 104.20164833920778,
+      "max_closed_gap_mm": 47.47193284657407,
+      "max_endpoint_gap_mm": 57.36436445226185
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 15,
+        "distance_closed_mm": 55.08857513360677,
+        "distance_open_mm": 64.99873625935017
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 75,
+        "distance_closed_mm": 27.79738876699864,
+        "distance_open_mm": 37.60861285905633
+      },
+      "rail_spacing_clear_mm": 115.93386622447825,
+      "max_closed_gap_mm": 55.08857513360677,
+      "max_endpoint_gap_mm": 64.99873625935017
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 15,
+        "distance_closed_mm": 55.08857513360677,
+        "distance_open_mm": 64.99873625935017
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 65,
+        "distance_closed_mm": 37.60861285905633,
+        "distance_open_mm": 47.47193284657407
+      },
+      "rail_spacing_clear_mm": 111.29703349613007,
+      "max_closed_gap_mm": 55.08857513360677,
+      "max_endpoint_gap_mm": 64.99873625935017
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 15,
+        "distance_closed_mm": 55.08857513360677,
+        "distance_open_mm": 64.99873625935017
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 55,
+        "distance_closed_mm": 47.47193284657407,
+        "distance_open_mm": 57.36436445226185
+      },
+      "rail_spacing_clear_mm": 107.36102527122117,
+      "max_closed_gap_mm": 55.08857513360677,
+      "max_endpoint_gap_mm": 64.99873625935017
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 5,
+        "distance_closed_mm": 64.99873625935017,
+        "distance_open_mm": 74.931863934953
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 75,
+        "distance_closed_mm": 27.79738876699864,
+        "distance_open_mm": 37.60861285905633
+      },
+      "rail_spacing_clear_mm": 121.19429464123962,
+      "max_closed_gap_mm": 64.99873625935017,
+      "max_endpoint_gap_mm": 74.931863934953
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 5,
+        "distance_closed_mm": 64.99873625935017,
+        "distance_open_mm": 74.931863934953
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 65,
+        "distance_closed_mm": 37.60861285905633,
+        "distance_open_mm": 47.47193284657407
+      },
+      "rail_spacing_clear_mm": 115.93386622447825,
+      "max_closed_gap_mm": 64.99873625935017,
+      "max_endpoint_gap_mm": 74.931863934953
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 5,
+        "distance_closed_mm": 64.99873625935017,
+        "distance_open_mm": 74.931863934953
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 55,
+        "distance_closed_mm": 47.47193284657407,
+        "distance_open_mm": 57.36436445226185
+      },
+      "rail_spacing_clear_mm": 111.29703349613007,
+      "max_closed_gap_mm": 64.99873625935017,
+      "max_endpoint_gap_mm": 74.931863934953
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 25,
+        "distance_closed_mm": 45.21558815884137,
+        "distance_open_mm": 55.08857513360677
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 25,
+        "distance_closed_mm": 77.19908706893501,
+        "distance_open_mm": 87.1327345345569
+      },
+      "rail_spacing_clear_mm": 100.0,
+      "max_closed_gap_mm": 77.19908706893501,
+      "max_endpoint_gap_mm": 87.1327345345569
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 15,
+        "distance_closed_mm": 55.08857513360677,
+        "distance_open_mm": 64.99873625935017
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 25,
+        "distance_closed_mm": 77.19908706893501,
+        "distance_open_mm": 87.1327345345569
+      },
+      "rail_spacing_clear_mm": 100.47511554864494,
+      "max_closed_gap_mm": 77.19908706893501,
+      "max_endpoint_gap_mm": 87.1327345345569
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 5,
+        "distance_closed_mm": 64.99873625935017,
+        "distance_open_mm": 74.931863934953
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 25,
+        "distance_closed_mm": 77.19908706893501,
+        "distance_open_mm": 87.1327345345569
+      },
+      "rail_spacing_clear_mm": 101.88779163215975,
+      "max_closed_gap_mm": 77.19908706893501,
+      "max_endpoint_gap_mm": 87.1327345345569
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 25,
+        "distance_closed_mm": 45.21558815884137,
+        "distance_open_mm": 55.08857513360677
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 5,
+        "distance_closed_mm": 97.07271778409043,
+        "distance_open_mm": 107.02932494101523
+      },
+      "rail_spacing_clear_mm": 101.88779163215975,
+      "max_closed_gap_mm": 97.07271778409043,
+      "max_endpoint_gap_mm": 107.02932494101523
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 15,
+        "distance_closed_mm": 55.08857513360677,
+        "distance_open_mm": 64.99873625935017
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 5,
+        "distance_closed_mm": 97.07271778409043,
+        "distance_open_mm": 107.02932494101523
+      },
+      "rail_spacing_clear_mm": 100.47511554864494,
+      "max_closed_gap_mm": 97.07271778409043,
+      "max_endpoint_gap_mm": 107.02932494101523
+    },
+    {
+      "left": {
+        "y_mm": -130,
+        "z_mm": 5,
+        "distance_closed_mm": 64.99873625935017,
+        "distance_open_mm": 74.931863934953
+      },
+      "right": {
+        "y_mm": -25,
+        "z_mm": 5,
+        "distance_closed_mm": 97.07271778409043,
+        "distance_open_mm": 107.02932494101523
+      },
+      "rail_spacing_clear_mm": 100.0,
+      "max_closed_gap_mm": 97.07271778409043,
+      "max_endpoint_gap_mm": 107.02932494101523
+    }
+  ]
+}

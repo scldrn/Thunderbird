@@ -1,0 +1,21 @@
+{
+  "scope": "Reapertura STEP/FCStd y comprobacion de centros en extremos; no valida trayectoria, mecanismo, ni equivalencia geometrica global",
+  "states": [
+    {
+      "state": "cerrado",
+      "native_count": 6,
+      "step_count": 6,
+      "invalid_native": [],
+      "invalid_step": []
+    },
+    {
+      "state": "evaluacion",
+      "native_count": 6,
+      "step_count": 6,
+      "invalid_native": [],
+      "invalid_step": []
+    }
+  ],
+  "door_translation_error_mm": 7.652779469160725e-14,
+  "rotor_motion_error_mm": 0.0
+}

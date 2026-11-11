@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-03",
+  "scope": "Digital plan T01-T41; physical product validation is a separate pending scope",
+  "planning_estimate_fraction_range": [
+    0.15,
+    0.2
+  ],
+  "planning_estimate_is_verified_measurement": false,
+  "judgment_basis": "Integrated CAD, identified CFD pilot, independent BEM equation check and partial mass/structural screening; task efforts heterogeneous and partial credit is uncertain.",
+  "formally_closed_digital_tasks": [
+    "T01",
+    "T03"
+  ],
+  "digital_task_count": 41,
+  "formally_closed_task_fraction": 0.04878048780487805,
+  "partial_digital_tasks": [
+    "T02",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T10",
+    "T11",
+    "T12",
+    "T16",
+    "T17",
+    "T21",
+    "T26",
+    "T27"
+  ],
+  "global_goal_complete": false,
+  "physical_product_validated": false,
+  "last_evidence_update_UTC": "2026-11-03T16:41:28.810238+00:00",
+  "estimate_not_incremented_for_individual_pilots": true
+}

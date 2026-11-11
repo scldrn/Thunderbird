@@ -1,0 +1,13 @@
+{
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_A06/5kg/A06_corte.step",
+  "source_sha256": "eae6809c41ce9742a403552ed5086bb992d0129e776f5f0de4947d0eb6cd157f",
+  "renderer": "Mitsuba3 scalar CPU path tracing from actual STEP",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "requested_samples_per_pixel": 64,
+  "samples_per_pixel": 64,
+  "view": "interior",
+  "no_AI_image_generator": true
+}

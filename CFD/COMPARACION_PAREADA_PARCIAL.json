@@ -1,0 +1,465 @@
+{
+  "purpose": "Numerical sensitivity, not load acceptance or temporal convergence.",
+  "physical_loads_accepted": false,
+  "temporal_order_verified": false,
+  "start_requested_s": 5e-05,
+  "sources": [
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/snapshots_pareados/euler",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/snapshots_pareados/backward"
+  ],
+  "per_vane": {
+    "force_vaneX0": {
+      "parsing": [
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        },
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        }
+      ],
+      "force_N": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          7.489969984694143e-05,
+          -0.0006384184307768633,
+          -0.00124683011802725
+        ],
+        "rms_difference": [
+          7.674498257518517e-05,
+          0.0007012436857206406,
+          0.0012666576445462107
+        ],
+        "max_absolute_difference": [
+          9.525556672055312e-05,
+          0.0014781307232536456,
+          0.0018339913038327715
+        ],
+        "relative_rms_difference": [
+          0.013089009263373379,
+          0.00038689032934134703,
+          0.0008473670656678742
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      },
+      "local_moment_Nm": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          3.7305826406431234e-06,
+          -3.541818314531823e-06,
+          1.1471107159988613e-05
+        ],
+        "rms_difference": [
+          3.8732590039588086e-06,
+          3.572710024538337e-06,
+          1.1593195844890974e-05
+        ],
+        "max_absolute_difference": [
+          5.4219580893667685e-06,
+          4.327627453511607e-06,
+          1.372405190807691e-05
+        ],
+        "relative_rms_difference": [
+          0.001123878427614793,
+          0.0035112226965225003,
+          0.006395205658292656
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      }
+    },
+    "force_vaneX1": {
+      "parsing": [
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        },
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        }
+      ],
+      "force_N": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          8.229580690010486e-05,
+          -0.0010272816770637958,
+          -0.001645989847587816
+        ],
+        "rms_difference": [
+          8.271826019739961e-05,
+          0.001064132208815678,
+          0.0016697413888072026
+        ],
+        "max_absolute_difference": [
+          9.566790697343973e-05,
+          0.001781320674247855,
+          0.0023807359977050524
+        ],
+        "relative_rms_difference": [
+          0.01317114448887533,
+          0.0004692000304493448,
+          0.0008954719920256171
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      },
+      "local_moment_Nm": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          -7.708147830991194e-08,
+          -8.674083402692124e-06,
+          -3.398044704989956e-06
+        ],
+        "rms_difference": [
+          2.3211543589538346e-06,
+          8.749315793237643e-06,
+          3.562533313376471e-06
+        ],
+        "max_absolute_difference": [
+          4.015949850592719e-06,
+          1.1144951580000005e-05,
+          5.251965994356941e-06
+        ],
+        "relative_rms_difference": [
+          0.0005507331291392402,
+          0.040044941853277984,
+          0.005573061409165426
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      }
+    },
+    "force_vaneX2": {
+      "parsing": [
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        },
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        }
+      ],
+      "force_N": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          -4.877024872467008e-07,
+          -0.00027675269941642843,
+          -0.00091949133553495
+        ],
+        "rms_difference": [
+          6.651462566804595e-06,
+          0.0004305957848985246,
+          0.0009571973222579731
+        ],
+        "max_absolute_difference": [
+          1.2684762300033646e-05,
+          0.001164916833805707,
+          0.0015677424785556227
+        ],
+        "relative_rms_difference": [
+          0.00151532336936074,
+          0.00033318223055135037,
+          0.000908779015823148
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      },
+      "local_moment_Nm": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          3.377523156129942e-06,
+          1.3635628892791538e-06,
+          3.6647276348671935e-06
+        ],
+        "rms_difference": [
+          3.509880210868594e-06,
+          1.6986979953519248e-06,
+          4.155752243763591e-06
+        ],
+        "max_absolute_difference": [
+          5.290613152150823e-06,
+          3.1795515555824204e-06,
+          6.536660872018588e-06
+        ],
+        "relative_rms_difference": [
+          0.0014857215716948882,
+          0.006104876537347648,
+          0.006892473688548809
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      }
+    },
+    "force_vaneY0": {
+      "parsing": [
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        },
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        }
+      ],
+      "force_N": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          -0.0020927086006785863,
+          0.00015344920317933946,
+          -0.0021357701562679005
+        ],
+        "rms_difference": [
+          0.002111734788181148,
+          0.00015837957126044457,
+          0.0021370878356698313
+        ],
+        "max_absolute_difference": [
+          0.002676511797000125,
+          0.00020347202725761078,
+          0.0023608443576805804
+        ],
+        "relative_rms_difference": [
+          0.003779824467293068,
+          0.021343842259938677,
+          0.003547735737351127
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      },
+      "local_moment_Nm": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          -4.113236845390868e-06,
+          9.31636407377793e-07,
+          8.099565282715212e-06
+        ],
+        "rms_difference": [
+          4.749190125971029e-06,
+          1.1706929154309188e-06,
+          8.85588446551643e-06
+        ],
+        "max_absolute_difference": [
+          9.826173456997515e-06,
+          2.1994753332129323e-06,
+          1.5660120680811602e-05
+        ],
+        "relative_rms_difference": [
+          0.03947446533848138,
+          0.0007329730929090121,
+          0.04663983791638001
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      }
+    },
+    "force_vaneY1": {
+      "parsing": [
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        },
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        }
+      ],
+      "force_N": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          -0.000406406256729189,
+          9.961999933264479e-05,
+          -0.0016960764087369797
+        ],
+        "rms_difference": [
+          0.0005202215945863819,
+          0.00010159626301687986,
+          0.001722669120177854
+        ],
+        "max_absolute_difference": [
+          0.001486596628244019,
+          0.00012724909284829704,
+          0.002631408540846092
+        ],
+        "relative_rms_difference": [
+          0.00022455585066066984,
+          0.01734928209038602,
+          0.0009338275759751095
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      },
+      "local_moment_Nm": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          4.644182661089286e-06,
+          2.3698311555948683e-08,
+          -9.98242434551664e-06
+        ],
+        "rms_difference": [
+          5.169697108821879e-06,
+          3.1975536182638774e-07,
+          1.0639601736492812e-05
+        ],
+        "max_absolute_difference": [
+          8.32909667537133e-06,
+          1.3627318572583674e-06,
+          1.640799481817442e-05
+        ],
+        "relative_rms_difference": [
+          0.0012581645917329567,
+          5.960743635496194e-05,
+          0.002170209906082708
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      }
+    },
+    "force_vaneY2": {
+      "parsing": [
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        },
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        }
+      ],
+      "force_N": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          -0.0001251880686033709,
+          3.452275585692217e-05,
+          -0.0008497653942514625
+        ],
+        "rms_difference": [
+          0.0003791661329327116,
+          3.5780457301720044e-05,
+          0.0008940061520878558
+        ],
+        "max_absolute_difference": [
+          0.0011190693283888997,
+          5.3555294500001044e-05,
+          0.0016109878606163086
+        ],
+        "relative_rms_difference": [
+          0.00024383665564436108,
+          0.0030644139690042763,
+          0.0007510808662457573
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      },
+      "local_moment_Nm": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          1.4662900992829116e-06,
+          -1.0532945496957005e-06,
+          3.4345818069355453e-06
+        ],
+        "rms_difference": [
+          1.6131319131831276e-06,
+          1.0896306200759638e-06,
+          3.845853628490935e-06
+        ],
+        "max_absolute_difference": [
+          3.6122132277610283e-06,
+          2.0054539047924605e-06,
+          5.899502277089568e-06
+        ],
+        "relative_rms_difference": [
+          0.0018123915815605575,
+          0.0004066646181602634,
+          0.009442910177196284
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      }
+    }
+  },
+  "flow": {
+    "flow_inlet": {
+      "parsing": [
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        },
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        }
+      ],
+      "comparison_m3_s": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          0.0
+        ],
+        "rms_difference": [
+          0.0
+        ],
+        "max_absolute_difference": [
+          0.0
+        ],
+        "relative_rms_difference": [
+          0.0
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      }
+    },
+    "flow_outlet": {
+      "parsing": [
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        },
+        {
+          "discarded_rows": 0,
+          "overwritten_duplicate_times": 0
+        }
+      ],
+      "comparison_m3_s": {
+        "start_s": 5e-05,
+        "end_s": 0.0005,
+        "interpolation_nodes": 801,
+        "signed_mean_difference": [
+          -4.032737953778386e-11
+        ],
+        "rms_difference": [
+          6.398132109261658e-11
+        ],
+        "max_absolute_difference": [
+          1.000000082740371e-10
+        ],
+        "relative_rms_difference": [
+          2.8961547683347595e-10
+        ],
+        "normalization": "RMS difference / symmetric RMS magnitude; null near zero."
+      }
+    }
+  },
+  "limitations": [
+    "Adaptive times are interpolated on their union, never compared by step index.",
+    "No time-step refinement or mesh-independence proof; two schemes may share bias.",
+    "Startup exclusion is explicit, not proof that the initial physical transient has ended.",
+    "Local vane loads omit duct walls and rotor; not net installed propulsive force.",
+    "Live snapshots may end at different times; only common recorded intervals are used."
+  ]
+}

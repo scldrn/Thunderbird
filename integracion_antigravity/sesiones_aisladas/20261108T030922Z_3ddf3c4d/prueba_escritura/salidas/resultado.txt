@@ -1,0 +1,1 @@
+Prueba de verificación de escritura en salidas/ y ejecución correcta de Python (PRUEBA_ESCRITURA_Y_PYTHON_OK).

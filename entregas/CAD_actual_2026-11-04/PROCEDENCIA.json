@@ -1,0 +1,51 @@
+{
+  "geometry_revision": "C02 integracion_x160 candidata; A07 remains canonical",
+  "mass_target_kg": 5,
+  "mass_closed": false,
+  "geometry_changed_for_this_delivery": false,
+  "closed_STEP_sha256": "c587381e42e5eba78454f9bc263a9db51b75114875ab281eaa4fbb33666b439e",
+  "FreeCAD_previous_import_reopen_validation": {
+    "version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ],
+    "source_SHA256": "c587381e42e5eba78454f9bc263a9db51b75114875ab281eaa4fbb33666b439e",
+    "output_SHA256": "740dcd2dc8939b724c0e80dc4e6b4c278b4041cbce43a316294e64999a8a8f83",
+    "document_objects": 349,
+    "shape_objects": 345,
+    "invalid_shapes": [],
+    "design_part_records_in_STEP": 316,
+    "note": "FreeCAD hierarchy counts differ from design part records; import/reopen test only, not parametric manufacturing or physical validation"
+  },
+  "render_geometry_source": "native Blender meshes tessellated from identified CAD",
+  "goal_research_remains_paused": true,
+  "files": {
+    "C02_actual_cerrado.step": "c587381e42e5eba78454f9bc263a9db51b75114875ab281eaa4fbb33666b439e",
+    "C02_actual_corte.step": "d982b0342190f94439bba9d874ce690efafc705d70aa30cb8288cd8fae89cc1d",
+    "C02_actual.FCStd": "740dcd2dc8939b724c0e80dc4e6b4c278b4041cbce43a316294e64999a8a8f83",
+    "C02_actual_exterior.png": "07bb6f0bf4ea3406976f3e7678bc7f9c4a602de8d338906d105c8f9853f9f6fa",
+    "C02_actual_interior.png": "4d7977dee207fc47bd2bd48e16758356b0b8423f8e1b4b28204dfed01281de98",
+    "C02_actual_exterior.blend": "e9d6045623596890da016d06179ba1f982276ec35975c7ffc14b2b3995c641d0",
+    "C02_actual_interior.blend": "6f9ebd73be08ee0bf9cf633bbf039ed9d5785dd0552e7ddfc91eec12879acfaf",
+    "renderizar_actual.py": "17c73cf7dd2c9d3a4a6fed226d59a0bb33abb79899761d158db00f048b20e115"
+  },
+  "approximate_closed_mesh_envelope_mm": [
+    1341.0,
+    321.7999305982,
+    242.5376259469
+  ],
+  "dimensions_are_tessellation_estimates": true,
+  "render_changes": "Camera, lighting, floor material, captions and image resolution only",
+  "rendered_exterior_resolution_px": [
+    2000,
+    1250
+  ],
+  "exterior_visual_review": "Passed: complete model within frame; visible closed fan covers and rear surfaces; candidate scope legible",
+  "interior_visual_review": "Passed: intact framing, four module positions, internal vanes and equipment reserves visible; source CAD cut preserved."
+}

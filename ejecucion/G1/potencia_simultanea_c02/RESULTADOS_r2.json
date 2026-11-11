@@ -1,0 +1,522 @@
+{
+  "alcance": "Sensibilidad condicional C02 de 5 kg; no valida hardware ni vuelo.",
+  "cantidad_escenarios": 192,
+  "cantidad_umbrales": 48,
+  "umbral_arrastre": [
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 32.39846050624549,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 28.198460506245496,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 19.929465450541947,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 41.65771976550475,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 37.457719765504756,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 28.344624124834684,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 4.624261488932481,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 2.1042614889324804,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 20.05636025436458,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 17.53636025436458,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 2.204159495006399,
+      "arrastre_maximo_N_condicional": 10.967863943147249,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": 21.898460506245495,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": 17.698460506245496,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": 9.429465450541946,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": 31.157719765504755,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": 26.957719765504756,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": 16.947106106445908,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": 13.756360254364582,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": 11.236360254364582,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "ligera_1200",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 1.7041594950063992,
+      "arrastre_maximo_N_condicional": 3.2603023303123857,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": 16.89732658376263,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": 12.69732658376263,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": 4.428331528059081,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": 26.15658584302189,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": 21.953625460518488,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": 11.294005123215207,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": 10.755679900874862,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": 7.804834072696292,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.0,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 1.4660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": 6.397326583762628,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": 2.1973265837626297,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": 15.656585843021888,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": 10.225306516944448,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 600.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 60.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 0.0,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": 4.455679900874861,
+      "ningun_arrastre_no_negativo_cumple": false
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 1000.0,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    },
+    {
+      "hipotesis_masa": "mixta_1600",
+      "masa_adicional_no_identificada_kg_supuesta": 0.5,
+      "velocidad_kmh": 1000.0,
+      "tiempo_maximo_aceleracion_s": 180.0,
+      "potencia_apoyo_W_supuesta": 2968.8083465960835,
+      "masa_disponible_bateria_kg": 0.9660102606024532,
+      "arrastre_maximo_N_condicional": null,
+      "ningun_arrastre_no_negativo_cumple": true
+    }
+  ],
+  "hipotesis": {
+    "masa_vehiculo_kg": 5.0,
+    "velocidades_kmh": [
+      600.0,
+      1000.0
+    ],
+    "estacionario_s_incluye_maniobra": 30.0,
+    "maniobra_s": 3.0,
+    "potencia_estacionario_W_exploratoria_C01": 2968.8083465960835,
+    "potencia_maniobra_W_exploratoria_C01": 3505.892708058721,
+    "crucero_s": 30.0,
+    "eficiencia_axial": 0.7,
+    "energia_pack_Wh_kg": 150.0,
+    "potencia_pack_W_kg": 5000.0,
+    "aceleracion_rectilinea_constante": true,
+    "arrastre": "D(v)=D_final*(v/V)^2",
+    "apoyo": "Potencia eléctrica constante hipotética añadida a aceleración y crucero; no mapa del ventilador.",
+    "tiempos_aceleracion_s": "10–60 o 10–180, seleccionados como límites de escenario, no requisitos aprobados."
+  },
+  "limitaciones": [
+    "P_aux no es medición ni cota física universal de potencia de sustentación en avance.",
+    "No modela fuerza vertical efectiva, trimado, transición, pérdida de sustentación ni dinámica.",
+    "Potencia y energía específicas del pack no identifican una batería ni garantizan duración de pico.",
+    "No modela voltaje, corriente, temperatura, resistencia interna, degradación o enfriamiento.",
+    "No incluye frenado, ascenso, giros ni recuperación, ni masa real de hardware no identificado.",
+    "La masa geométrica parcial no es cota inferior ni incluye toda la instalación.",
+    "Los arrastres y eficiencias son escenarios; no resultados CFD aceptados ni ensayos.",
+    "No se extrapola C02 a variantes físicas de 2 o 10 kg."
+  ],
+  "fuentes_locales_sha256": {
+    "informe_previo": "ea2a0f4fb5b7d90c648dc2fdf563de6cf3f1d462a1dfa85d29e2caad4ffca4c8",
+    "masa_parcial": "4b8df67e7161d2eed06bb21e97973f966a9ee34648a9f73661e915cf41be18f6",
+    "codigo": "73d70339ce0ce124d239c22a4cde8282b85f77becb0d163c138301066cd3b67a"
+  },
+  "validacion_fisica": false
+}

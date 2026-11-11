@@ -1,0 +1,10 @@
+{
+  "stage": "rejected_after_audit",
+  "exit_code": 0,
+  "results_audited": true,
+  "container": "codex-aero-transitorio-A-v2",
+  "physical_loads_accepted": false,
+  "target_reached": false,
+  "last_physical_time_s": 0.0005561922108,
+  "reason": "Numerical runaway; deliberately stopped before target physical time."
+}

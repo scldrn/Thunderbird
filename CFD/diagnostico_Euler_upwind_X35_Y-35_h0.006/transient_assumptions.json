@@ -1,0 +1,37 @@
+{
+  "initial_field_source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/conducto_X35_Y-35_h0.006/300",
+  "initial_state_converged": false,
+  "end_time_s": 0.001,
+  "flow_through_time_s": 0.0036249999999999998,
+  "discard_before_s": 0.0072499999999999995,
+  "nominal_total_flow_through_times": 0.2758620689655173,
+  "maxCo": 0.5,
+  "maxDeltaT": 2e-05,
+  "initial_dt": 1e-06,
+  "time_scheme": "Euler first-order diagnostic",
+  "model": "URANS kOmegaSST, same spatial grid and boundary conditions as prototype RANS",
+  "mesh_sha256": {
+    "owner": "b153f2fd0a9b100c31d2081d90955d83552b8e9bf52c096268c036291935f627",
+    "boundary": "9d04a2e27b4a4e99bd2a859ff24822a86b875e3d9c1463213c091d6944593ed2",
+    "neighbour": "d792e350e767572e7bf8e285727304a0dd48f04988d0c8f1dd088787ebae47a0",
+    "points": "b077ebbde45542c758c15935dee1cc620725e2eedf5ae0a78b6760d0538be57e",
+    "cellZones": "896c42753745820109880175b48e6bff8cebf5331eaab8df1c8ee55aaeac87d1",
+    "faces": "8b133dee5abbbceeac73ad519c03f1e885ae25ae6a520f1ea9778795089a7efa"
+  },
+  "acceptance_plan": [
+    "Audit actual Courant numbers, time steps, mass balance and per-step pressure corrections",
+    "Discard initial transient; examine block means over flow-through-time intervals, drift and fluctuations of all vane moments",
+    "Require timestep, mesh and outlet/domain sensitivity before accepting physical loads",
+    "A successful process exit is not statistical convergence or physical validation"
+  ],
+  "momentum_advection": "Gauss upwind",
+  "outer_correctors": 2,
+  "purpose": "Numerical stability diagnostic only; target deliberately shorter than initial discard window. No statistical load estimates permitted.",
+  "comparison_case": "transitorio_X35_Y-35_h0.006",
+  "not_a_single_variable_comparison": true,
+  "configuration_sha256": {
+    "system/fvSchemes": "ef57594fab6a1b3aeec0edf14bea105ec423b3f6fb5fd10dcc90a943d071d8a4",
+    "system/fvSolution": "5a533bf7a8c19d02a7d4943e6ac3126b48c7d6164beaced3a06a7499a0a4d5f0",
+    "system/controlDict": "f326d80e52aa6bc9d0473654b79d3f135fc1612549d14dd127091f54eaaef603"
+  }
+}

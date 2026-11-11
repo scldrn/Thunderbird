@@ -1,0 +1,333 @@
+{
+  "source_STEP_sha256": "c587381e42e5eba78454f9bc263a9db51b75114875ab281eaa4fbb33666b439e",
+  "geometry_records": 316,
+  "hypotheses": [
+    {
+      "hypothesis": "ligera_1200",
+      "partial_assigned_mass_kg": 2.045840504993601,
+      "provisional_reserve_kg": 0.75,
+      "remaining_for_energy_and_unidentified_hardware_kg": 2.204159495006399,
+      "partial_assigned_CG_CAD_m": [
+        0.09605024872370113,
+        -1.0696297076349977e-09,
+        0.005705449138230194
+      ],
+      "partial_assigned_CG_FLU_m": [
+        -0.09605024872370113,
+        1.0696297076349977e-09,
+        0.005705449138230194
+      ],
+      "partial_inertia_about_assigned_CG_CAD_kgm2": [
+        [
+          0.021260611868558776,
+          1.1013487851479164e-09,
+          0.0011828574480328932
+        ],
+        [
+          1.1013487851479164e-09,
+          0.22940340705927378,
+          4.87218329079238e-11
+        ],
+        [
+          0.0011828574480328932,
+          4.87218329079238e-11,
+          0.2359491620322201
+        ]
+      ],
+      "partial_inertia_about_assigned_CG_FLU_kgm2": [
+        [
+          0.021260611868558776,
+          1.1013487851479164e-09,
+          -0.0011828574480328932
+        ],
+        [
+          1.1013487851479164e-09,
+          0.22940340705927378,
+          -4.87218329079238e-11
+        ],
+        [
+          -0.0011828574480328932,
+          -4.87218329079238e-11,
+          0.2359491620322201
+        ]
+      ],
+      "unidentified_part_records": 54,
+      "unidentified_records": [
+        "canal_axial_60_exterior_56_interior",
+        "interfaz_posterior_reservada",
+        "cojinete_0",
+        "actuador_reserva_0",
+        "cojinete_1",
+        "actuador_reserva_1",
+        "cojinete_2",
+        "actuador_reserva_2",
+        "cojinete_3",
+        "actuador_reserva_3",
+        "modulo_C02_0_reserva_motor_anular",
+        "modulo_C02_0_reserva_apoyo_motor_0",
+        "modulo_C02_0_reserva_apoyo_motor_1",
+        "modulo_C02_0_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_0_reserva_servo_inferior_X",
+        "modulo_C02_0_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_0_reserva_servo_inferior_Y",
+        "modulo_C02_0_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_0_reserva_servo_superior_X",
+        "modulo_C02_0_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_0_reserva_servo_superior_Y",
+        "modulo_C02_1_reserva_motor_anular",
+        "modulo_C02_1_reserva_apoyo_motor_0",
+        "modulo_C02_1_reserva_apoyo_motor_1",
+        "modulo_C02_1_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_1_reserva_servo_inferior_X",
+        "modulo_C02_1_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_1_reserva_servo_inferior_Y",
+        "modulo_C02_1_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_1_reserva_servo_superior_X",
+        "modulo_C02_1_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_1_reserva_servo_superior_Y",
+        "modulo_C02_2_reserva_motor_anular",
+        "modulo_C02_2_reserva_apoyo_motor_0",
+        "modulo_C02_2_reserva_apoyo_motor_1",
+        "modulo_C02_2_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_2_reserva_servo_inferior_X",
+        "modulo_C02_2_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_2_reserva_servo_inferior_Y",
+        "modulo_C02_2_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_2_reserva_servo_superior_X",
+        "modulo_C02_2_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_2_reserva_servo_superior_Y",
+        "modulo_C02_3_reserva_motor_anular",
+        "modulo_C02_3_reserva_apoyo_motor_0",
+        "modulo_C02_3_reserva_apoyo_motor_1",
+        "modulo_C02_3_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_3_reserva_servo_inferior_X",
+        "modulo_C02_3_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_3_reserva_servo_inferior_Y",
+        "modulo_C02_3_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_3_reserva_servo_superior_X",
+        "modulo_C02_3_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_3_reserva_servo_superior_Y"
+      ],
+      "physical_mass_CG_and_inertia_closed": false
+    },
+    {
+      "hypothesis": "mixta_1600",
+      "partial_assigned_mass_kg": 2.783989739397547,
+      "provisional_reserve_kg": 0.75,
+      "remaining_for_energy_and_unidentified_hardware_kg": 1.4660102606024532,
+      "partial_assigned_CG_CAD_m": [
+        0.09305647316909903,
+        -1.0475227127246752e-09,
+        0.005508274506873176
+      ],
+      "partial_assigned_CG_FLU_m": [
+        -0.09305647316909903,
+        1.0475227127246752e-09,
+        0.005508274506873176
+      ],
+      "partial_inertia_about_assigned_CG_CAD_kgm2": [
+        [
+          0.02858714027662763,
+          1.4770258445646367e-09,
+          0.001506544366729819
+        ],
+        [
+          1.4770258445646367e-09,
+          0.3034801989164598,
+          6.541833840795206e-11
+        ],
+        [
+          0.001506544366729819,
+          6.541833840795206e-11,
+          0.31258166519803027
+        ]
+      ],
+      "partial_inertia_about_assigned_CG_FLU_kgm2": [
+        [
+          0.02858714027662763,
+          1.4770258445646367e-09,
+          -0.001506544366729819
+        ],
+        [
+          1.4770258445646367e-09,
+          0.3034801989164598,
+          -6.541833840795206e-11
+        ],
+        [
+          -0.001506544366729819,
+          -6.541833840795206e-11,
+          0.31258166519803027
+        ]
+      ],
+      "unidentified_part_records": 54,
+      "unidentified_records": [
+        "canal_axial_60_exterior_56_interior",
+        "interfaz_posterior_reservada",
+        "cojinete_0",
+        "actuador_reserva_0",
+        "cojinete_1",
+        "actuador_reserva_1",
+        "cojinete_2",
+        "actuador_reserva_2",
+        "cojinete_3",
+        "actuador_reserva_3",
+        "modulo_C02_0_reserva_motor_anular",
+        "modulo_C02_0_reserva_apoyo_motor_0",
+        "modulo_C02_0_reserva_apoyo_motor_1",
+        "modulo_C02_0_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_0_reserva_servo_inferior_X",
+        "modulo_C02_0_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_0_reserva_servo_inferior_Y",
+        "modulo_C02_0_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_0_reserva_servo_superior_X",
+        "modulo_C02_0_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_0_reserva_servo_superior_Y",
+        "modulo_C02_1_reserva_motor_anular",
+        "modulo_C02_1_reserva_apoyo_motor_0",
+        "modulo_C02_1_reserva_apoyo_motor_1",
+        "modulo_C02_1_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_1_reserva_servo_inferior_X",
+        "modulo_C02_1_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_1_reserva_servo_inferior_Y",
+        "modulo_C02_1_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_1_reserva_servo_superior_X",
+        "modulo_C02_1_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_1_reserva_servo_superior_Y",
+        "modulo_C02_2_reserva_motor_anular",
+        "modulo_C02_2_reserva_apoyo_motor_0",
+        "modulo_C02_2_reserva_apoyo_motor_1",
+        "modulo_C02_2_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_2_reserva_servo_inferior_X",
+        "modulo_C02_2_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_2_reserva_servo_inferior_Y",
+        "modulo_C02_2_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_2_reserva_servo_superior_X",
+        "modulo_C02_2_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_2_reserva_servo_superior_Y",
+        "modulo_C02_3_reserva_motor_anular",
+        "modulo_C02_3_reserva_apoyo_motor_0",
+        "modulo_C02_3_reserva_apoyo_motor_1",
+        "modulo_C02_3_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_3_reserva_servo_inferior_X",
+        "modulo_C02_3_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_3_reserva_servo_inferior_Y",
+        "modulo_C02_3_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_3_reserva_servo_superior_X",
+        "modulo_C02_3_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_3_reserva_servo_superior_Y"
+      ],
+      "physical_mass_CG_and_inertia_closed": false
+    },
+    {
+      "hypothesis": "aluminio_2700",
+      "partial_assigned_mass_kg": 4.421342235936211,
+      "provisional_reserve_kg": 0.75,
+      "remaining_for_energy_and_unidentified_hardware_kg": -0.17134223593621112,
+      "partial_assigned_CG_CAD_m": [
+        0.0975091681663278,
+        -1.1123940740032248e-09,
+        0.005808989195646148
+      ],
+      "partial_assigned_CG_FLU_m": [
+        -0.0975091681663278,
+        1.1123940740032248e-09,
+        0.005808989195646148
+      ],
+      "partial_inertia_about_assigned_CG_CAD_kgm2": [
+        [
+          0.04604461706337105,
+          2.4702226467613036e-09,
+          0.002632878065307313
+        ],
+        [
+          2.4702226467613036e-09,
+          0.4926824716090945,
+          1.0866835281936169e-10
+        ],
+        [
+          0.002632878065307313,
+          1.0866835281936169e-10,
+          0.506890542777634
+        ]
+      ],
+      "partial_inertia_about_assigned_CG_FLU_kgm2": [
+        [
+          0.04604461706337105,
+          2.4702226467613036e-09,
+          -0.002632878065307313
+        ],
+        [
+          2.4702226467613036e-09,
+          0.4926824716090945,
+          -1.0866835281936169e-10
+        ],
+        [
+          -0.002632878065307313,
+          -1.0866835281936169e-10,
+          0.506890542777634
+        ]
+      ],
+      "unidentified_part_records": 54,
+      "unidentified_records": [
+        "canal_axial_60_exterior_56_interior",
+        "interfaz_posterior_reservada",
+        "cojinete_0",
+        "actuador_reserva_0",
+        "cojinete_1",
+        "actuador_reserva_1",
+        "cojinete_2",
+        "actuador_reserva_2",
+        "cojinete_3",
+        "actuador_reserva_3",
+        "modulo_C02_0_reserva_motor_anular",
+        "modulo_C02_0_reserva_apoyo_motor_0",
+        "modulo_C02_0_reserva_apoyo_motor_1",
+        "modulo_C02_0_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_0_reserva_servo_inferior_X",
+        "modulo_C02_0_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_0_reserva_servo_inferior_Y",
+        "modulo_C02_0_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_0_reserva_servo_superior_X",
+        "modulo_C02_0_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_0_reserva_servo_superior_Y",
+        "modulo_C02_1_reserva_motor_anular",
+        "modulo_C02_1_reserva_apoyo_motor_0",
+        "modulo_C02_1_reserva_apoyo_motor_1",
+        "modulo_C02_1_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_1_reserva_servo_inferior_X",
+        "modulo_C02_1_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_1_reserva_servo_inferior_Y",
+        "modulo_C02_1_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_1_reserva_servo_superior_X",
+        "modulo_C02_1_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_1_reserva_servo_superior_Y",
+        "modulo_C02_2_reserva_motor_anular",
+        "modulo_C02_2_reserva_apoyo_motor_0",
+        "modulo_C02_2_reserva_apoyo_motor_1",
+        "modulo_C02_2_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_2_reserva_servo_inferior_X",
+        "modulo_C02_2_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_2_reserva_servo_inferior_Y",
+        "modulo_C02_2_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_2_reserva_servo_superior_X",
+        "modulo_C02_2_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_2_reserva_servo_superior_Y",
+        "modulo_C02_3_reserva_motor_anular",
+        "modulo_C02_3_reserva_apoyo_motor_0",
+        "modulo_C02_3_reserva_apoyo_motor_1",
+        "modulo_C02_3_reserva_eje_salida_servo_inferior_X",
+        "modulo_C02_3_reserva_servo_inferior_X",
+        "modulo_C02_3_reserva_eje_salida_servo_inferior_Y",
+        "modulo_C02_3_reserva_servo_inferior_Y",
+        "modulo_C02_3_reserva_eje_salida_servo_superior_X",
+        "modulo_C02_3_reserva_servo_superior_X",
+        "modulo_C02_3_reserva_eje_salida_servo_superior_Y",
+        "modulo_C02_3_reserva_servo_superior_Y"
+      ],
+      "physical_mass_CG_and_inertia_closed": false
+    }
+  ],
+  "assumptions_are_not_measurements": true,
+  "note": "Gross nominal part volumes; unresolved legacy joints may share material. Partial CG/inertia excludes hardware and energy and must not drive a physical flight simulator.",
+  "inertia_model_acceptance_for_predictive_flight": false
+}

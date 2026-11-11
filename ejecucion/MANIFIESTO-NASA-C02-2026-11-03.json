@@ -1,0 +1,456 @@
+{
+  "created_UTC": "2026-11-03T23:52:57.777055+00:00",
+  "kind": "Historical checkpoint of finished evidence and immutable active-case inputs; not goal completion",
+  "files": 96,
+  "entries": {
+    "configuraciones/A07_BASE.json": {
+      "bytes": 5138,
+      "sha256": "8513ab8f28f5285bc4b97ed22cfe2a57d8fe95a15684927c6fdb832a0cd99b5f",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/configuraciones/A07_BASE.json"
+    },
+    "configuraciones/C02_CANDIDATA.json": {
+      "bytes": 3505,
+      "sha256": "4529d8530f0edd2faa8dddf1cd7c142d72969e5dc6166c232063b3c4db0d4bf3",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/configuraciones/C02_CANDIDATA.json"
+    },
+    "ejecucion/G4/RAE2822/CALIFICACION_ACTUAL_SU2.json": {
+      "bytes": 1027,
+      "sha256": "a8e87d78aa613f38d1871a90dded60f0c0dcf18a86513721fda503511cd10e4e",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/CALIFICACION_ACTUAL_SU2.json"
+    },
+    "ejecucion/G4/RAE2822/INFORME-NASA-SU2.md": {
+      "bytes": 10782,
+      "sha256": "dff7dcd2818b4326c7de5c1031205db016f6572c9b601f05cc38bc3fce0ecfdd",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/INFORME-NASA-SU2.md"
+    },
+    "ejecucion/G4/RAE2822/INFORME-SU2.md": {
+      "bytes": 6374,
+      "sha256": "6d2746a02a6688e180543e3820f32e35a913904bf5cd915a791585aabb967753",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/INFORME-SU2.md"
+    },
+    "ejecucion/G2/flujo_C02_conducto/INFORME-SNAPSHOT-R8.md": {
+      "bytes": 3814,
+      "sha256": "1decffd054c20419e585e051ea6b921efb8503ce4c14e4722439075caea4edab",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/INFORME-SNAPSHOT-R8.md"
+    },
+    "ejecucion/G4/RAE2822/COMPARACION_MALLAS_SU2_r1_config_verificada.json": {
+      "bytes": 4035,
+      "sha256": "62eda3877f195df79a66d9ac3a9537d0e476f3b1f8eb0515110e9703b0990ba5",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/COMPARACION_MALLAS_SU2_r1_config_verificada.json"
+    },
+    "ejecucion/G4/RAE2822/preparar_su2_nasa.py": {
+      "bytes": 11590,
+      "sha256": "0afa5a1c0dd5d4d95a9756e181a32823dbd481e6829e7f85148670147a04dff4",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/preparar_su2_nasa.py"
+    },
+    "ejecucion/G4/RAE2822/preparar_su2_sonda.py": {
+      "bytes": 2733,
+      "sha256": "f000a2dac5122849fee09ec022e24160381d3079412e926017ea9684a47b16d7",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/preparar_su2_sonda.py"
+    },
+    "ejecucion/G4/RAE2822/auditar_su2.py": {
+      "bytes": 10975,
+      "sha256": "57197be2075e9305ed3db211a48a5e1086a7a02b595139f4d5f3c675e86e97bc",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/auditar_su2.py"
+    },
+    "ejecucion/G4/RAE2822/reconstruir_traccion_su2.py": {
+      "bytes": 15828,
+      "sha256": "6181ca032beb9a22c35f0c392923c101df7ad57cec5217925b01530bdbc9349c",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/reconstruir_traccion_su2.py"
+    },
+    "ejecucion/G4/RAE2822/flujo_frontera_su2.py": {
+      "bytes": 4001,
+      "sha256": "005612c15a0eb2979b64aaa4af707017a9aaf4c758616981511285f686b860dd",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/flujo_frontera_su2.py"
+    },
+    "ejecucion/G4/RAE2822/visualizar_su2.py": {
+      "bytes": 6090,
+      "sha256": "50bf68295fa3bc1f0702a2b450a9929a8349c0c8740634b8ecfae016f85ca5d6",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/visualizar_su2.py"
+    },
+    "ejecucion/G4/RAE2822/diagnosticar_residuos_su2.py": {
+      "bytes": 4881,
+      "sha256": "b571ca05503c186f70859e7fc3357f55a0f2ddf1a6ce516f269356952f64cb83",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/diagnosticar_residuos_su2.py"
+    },
+    "ejecucion/G4/RAE2822/comparar_mallas_su2.py": {
+      "bytes": 4810,
+      "sha256": "a39471a09fca26bba1fd45b39a11e66c4c2ab581fad50cd06b29cd491f8fee4f",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/comparar_mallas_su2.py"
+    },
+    "ejecucion/G2/flujo_C02_conducto/balance_estacionario_guardado.py": {
+      "bytes": 7410,
+      "sha256": "aa3c851de79c854eb318c38754918d823254d47a583158266b96d4b625265a2b",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/balance_estacionario_guardado.py"
+    },
+    "ejecucion/G2/flujo_C02_conducto/auditar_instantanea.py": {
+      "bytes": 3783,
+      "sha256": "fd2baac8343a0b05254174a1f827e9da287946f067610c74cbf44308eb54a03d",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/auditar_instantanea.py"
+    },
+    "ejecucion/G4/RAE2822/su2_r3_estado_completo/EJECUCION.json": {
+      "bytes": 1496,
+      "sha256": "11c7f265426b65b8b79f10b84c9b7511cfeb2e64dd233a6b519b490fc8206603",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_r3_estado_completo/EJECUCION.json"
+    },
+    "ejecucion/G4/RAE2822/su2_r3_estado_completo/ENTRADAS.json": {
+      "bytes": 3001,
+      "sha256": "8a1129cc078155c4156cf7677cbc781fa42576d0680b5382f744a72d8b7de75b",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_r3_estado_completo/ENTRADAS.json"
+    },
+    "ejecucion/G4/RAE2822/su2_r3_estado_completo/AUDITORIA_SU2.json": {
+      "bytes": 5950,
+      "sha256": "21e8ecfa7a288b761636c8d296e42788403df20658908b38fe2ffa08c340106e",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_r3_estado_completo/AUDITORIA_SU2.json"
+    },
+    "ejecucion/G4/RAE2822/su2_r3_estado_completo/TRACCION_RECONSTRUIDA.json": {
+      "bytes": 5245,
+      "sha256": "8e34eccfa1a5d29fdfa84ec09d39691b6f9b060dd3e024114825ffb782402056",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_r3_estado_completo/TRACCION_RECONSTRUIDA.json"
+    },
+    "ejecucion/G4/RAE2822/su2_r3_estado_completo/restart_flow.csv": {
+      "bytes": 2650438,
+      "sha256": "6ff2f99a81720ffb16cc4f8855fcf1975c02f83744184939df830e8ad2fc5df3"
+    },
+    "ejecucion/G4/RAE2822/su2_r3_estado_completo/flow.vtu": {
+      "bytes": 3085860,
+      "sha256": "8a5d28f82798d33e0a592d62a81520f3b757272a06d9acc9af24f3b84381df1a"
+    },
+    "ejecucion/G4/RAE2822/su2_r3_estado_completo/case.cfg": {
+      "bytes": 3695,
+      "sha256": "a134b034be4876916f7907a92f1af7767db62b7256593162b751429453754ac7",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_r3_estado_completo/case.cfg"
+    },
+    "ejecucion/G4/RAE2822/su2_r3_estado_completo/history.csv": {
+      "bytes": 76380,
+      "sha256": "f03a67126c34532014441daa262e73bfdee0454d4cbd88acfc915a62c0ceefb5"
+    },
+    "ejecucion/G4/RAE2822/su2_r3_estado_completo/mesh_RAE2822_turb.su2": {
+      "bytes": 1101375,
+      "sha256": "60fc63b5cab8eb1aeb3a3fe661a0f0c6a210fadb907f031f02efdb054883f11f"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/EJECUCION.json": {
+      "bytes": 1403,
+      "sha256": "63cbe839ef8c6433c2e3b61cd80ae015047bb3c54de7703348fcf41dccb3c2af",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r1/EJECUCION.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/ENTRADAS.json": {
+      "bytes": 2531,
+      "sha256": "72dd3ff324cb442251170e1892574e7483fabb42057c039ad374b72ef66c5047",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r1/ENTRADAS.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/AUDITORIA_SU2.json": {
+      "bytes": 2985,
+      "sha256": "f821c39f88be56a481cb044e0d853de25d0fa26c021803b5e26a3b793d85e726",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r1/AUDITORIA_SU2.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/TRACCION_RECONSTRUIDA.json": {
+      "bytes": 3644,
+      "sha256": "58eeb3b8a36179467b85bb99a340b3ede44648a23196149d6f21f5b5d0991fd1",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r1/TRACCION_RECONSTRUIDA.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/DIAGNOSTICO_RESIDUOS_CP.json": {
+      "bytes": 4141,
+      "sha256": "763790ed53f505aa229ed31164e26c2a3167ea537ba903277d00d28c9c1c9bc2",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r1/DIAGNOSTICO_RESIDUOS_CP.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/restart_flow.csv": {
+      "bytes": 4564970,
+      "sha256": "09892507e9ab47059a0935d4dc32203f4ed9001b82c179567b3f2acc55c179fb"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/flow.vtu": {
+      "bytes": 6437722,
+      "sha256": "bbbd3bf4187d9be6529fc8c9ab53294435c8ae50a4cf4dc7e4d87c3c93c99fa8"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/case.cfg": {
+      "bytes": 3937,
+      "sha256": "e896018901bb86f3068cccf7d5cb3613b2092eb7b5bbb32613a3a9b1e703e99e",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r1/case.cfg"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/history.csv": {
+      "bytes": 593294,
+      "sha256": "03f1b04c30be9570039ab1e6329720d6be0f2a4da944f15fd89887abf8a8490c"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/mesh_RAE2822_turb.su2": {
+      "bytes": 1786102,
+      "sha256": "3c0393264283e77a7c0e1a729e57c8c9a60f8c9cc8242f134e3200d1db524575"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/DIAGNOSTICO.png": {
+      "bytes": 425194,
+      "sha256": "8c1040c8cda98047a32903fe22e3af8acb345075b840be5e79b142e0dc380fd8"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/DIAGNOSTICO.svg": {
+      "bytes": 46631607,
+      "sha256": "e01e29442fe2035d6b56ba3c6673e199b51e2674bc1ce12c2b057954d62879f1"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r1/DIAGNOSTICO_PROCEDENCIA.json": {
+      "bytes": 647,
+      "sha256": "19e0359991b3062f0d56c41af31a91418466eadf37c2d0698651cf8e9ec632d1",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r1/DIAGNOSTICO_PROCEDENCIA.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/EJECUCION.json": {
+      "bytes": 1497,
+      "sha256": "cdb4333376a0999c188b1abc37761837075b8595cd863fc9171a32ecd358a830",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r2/EJECUCION.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/ENTRADAS.json": {
+      "bytes": 3021,
+      "sha256": "ad8dad1c1bab4e24dd308d71c642efbfbea8cb69fbcf21ad015bc8e9865ac3c0",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r2/ENTRADAS.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/AUDITORIA_SU2.json": {
+      "bytes": 5910,
+      "sha256": "9826d0f5ab97aa21b5b88363913635559fc2629ed295646b052fa95098bf30f2",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r2/AUDITORIA_SU2.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/TRACCION_RECONSTRUIDA.json": {
+      "bytes": 5232,
+      "sha256": "d3efa51dbd042466c04ff997b9a11ff5f669c9c88a8e400117d713c7291c8061",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r2/TRACCION_RECONSTRUIDA.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/DIAGNOSTICO_RESIDUOS_CP.json": {
+      "bytes": 4111,
+      "sha256": "476e4a62864c55623e0f68adb665ef77b6abdea12c60758a4e3602e6a17ad9eb",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r2/DIAGNOSTICO_RESIDUOS_CP.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/restart_flow.csv": {
+      "bytes": 4565152,
+      "sha256": "d936b7d1b5735c012f84dd282b73acd0ea49386871914530fd3a6b1f3b66baed"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/flow.vtu": {
+      "bytes": 6437722,
+      "sha256": "0f3c9ecaee251f173c26000084a98730065f319a6f87f97b50dfa4b95ac0bd97"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/case.cfg": {
+      "bytes": 3964,
+      "sha256": "cc7db224e2ce692cd800a4c560e99560e21157c32bcb1970ffe9f6784ce2c512",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r2/case.cfg"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/history.csv": {
+      "bytes": 1976494,
+      "sha256": "92f023e86967ca097ef2b671f0ce3767dc99245dc6c3fbf9c4775c1c36e29818"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r2/mesh_RAE2822_turb.su2": {
+      "bytes": 1786102,
+      "sha256": "3c0393264283e77a7c0e1a729e57c8c9a60f8c9cc8242f134e3200d1db524575"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/EJECUCION.json": {
+      "bytes": 1497,
+      "sha256": "ff4494957ebec60e0445e84bee43fc3264b390b21f86161634a2171af036351f",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/EJECUCION.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/ENTRADAS.json": {
+      "bytes": 3021,
+      "sha256": "7e0713d918b0ceb21878b0db569b4bfbe05f0c39aa9ee877afb34c01ca4b4713",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/ENTRADAS.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/AUDITORIA_SU2.json": {
+      "bytes": 5938,
+      "sha256": "c301380fd75cca44360070117c9d04eecf9d9d56faaef80d64c35ea97460b6ee",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/AUDITORIA_SU2.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/TRACCION_RECONSTRUIDA.json": {
+      "bytes": 5514,
+      "sha256": "cbfa40003386f52b9b17f49265686d85ddad8d94b218a629ff2895d913939df0",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/TRACCION_RECONSTRUIDA.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/DIAGNOSTICO_RESIDUOS_CP.json": {
+      "bytes": 4116,
+      "sha256": "fd9c539f4066314b1ace01fd550b39fa8e52f8324ac0f02fd440c6542655e9c0",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/DIAGNOSTICO_RESIDUOS_CP.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/restart_flow.csv": {
+      "bytes": 4565152,
+      "sha256": "545eb20dea895353175ff10b698b093a0f8f34962e614197c85b0a8eb7417e8f"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/flow.vtu": {
+      "bytes": 6437722,
+      "sha256": "f74e10d48c6e2a726e27ac2500bc6799e4c3d766ccc96134f4344225bb45c202"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/case.cfg": {
+      "bytes": 3964,
+      "sha256": "31ebadea97cce6a04a9f314da5f5dee272b19acb1b6829db7bc8181a5c1ccbdc",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/case.cfg"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/history.csv": {
+      "bytes": 494494,
+      "sha256": "1dcdfeeb3b1b6cb16728acfa4675266ef076eb9f819869d5b77a9e0542b19393"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/mesh_RAE2822_turb.su2": {
+      "bytes": 1786102,
+      "sha256": "3c0393264283e77a7c0e1a729e57c8c9a60f8c9cc8242f134e3200d1db524575"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/DIAGNOSTICO.png": {
+      "bytes": 393683,
+      "sha256": "92b06538b8988dd2db190a060fb8f3f3713de26227cf23cc7836e9c46af04d94"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/DIAGNOSTICO.svg": {
+      "bytes": 46607745,
+      "sha256": "2fc176eb3da9b9b1d0f2854736131740b32a5bbcb81d539b920c0cf0703b0aa2"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_r3_sonda/DIAGNOSTICO_PROCEDENCIA.json": {
+      "bytes": 647,
+      "sha256": "e70ae56b4f8f01b5e23634a803e17efd2c7bd26340f3824a9647f7ffc7c3faae",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/DIAGNOSTICO_PROCEDENCIA.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/EJECUCION.json": {
+      "bytes": 1496,
+      "sha256": "57754e7ff2d0373a014fee180ba7fe995f9b921f9d1299912304f951e8a3fab0",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_fina_r1/EJECUCION.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/ENTRADAS.json": {
+      "bytes": 3274,
+      "sha256": "690e8b9f6289e22bbc4be1caef02066e3a19f58c04beedd209bf4a98f2fde8e7",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_fina_r1/ENTRADAS.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/AUDITORIA_SU2.json": {
+      "bytes": 2992,
+      "sha256": "aa0b671c095f595140e4c7188fd527680b23ed0170562b2018793298f8c74578",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_fina_r1/AUDITORIA_SU2.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/TRACCION_RECONSTRUIDA.json": {
+      "bytes": 5517,
+      "sha256": "0b5a664a78eec412ea67fbc2c91155261e6ef41462df15af7200487b04f879af",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_fina_r1/TRACCION_RECONSTRUIDA.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/DIAGNOSTICO_RESIDUOS_CP.json": {
+      "bytes": 4194,
+      "sha256": "8fd3b64a3ae5a974e86d74a88c2fd79f600a9575f0b9395c5477f1438d042f9a",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_fina_r1/DIAGNOSTICO_RESIDUOS_CP.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/restart_flow.csv": {
+      "bytes": 18704255,
+      "sha256": "7abbfb6aeee572a7fc74d0824f881d21cb1ed0db62f41a8e9609c5f24234b316"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/flow.vtu": {
+      "bytes": 26336330,
+      "sha256": "ed532fb64d45b213ec6d5ec4ecb6b5f0725e01034c1250d678468ec71147c397"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/case.cfg": {
+      "bytes": 3963,
+      "sha256": "7f89f80ab386c97970c3784ba018570cdc1de54c76aee5558e31db469099a4f1",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_fina_r1/case.cfg"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/history.csv": {
+      "bytes": 593294,
+      "sha256": "bb78a9ff34233a6869aa8712b9080af5e9db5badc421f17d3da775e64840ff63"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r1/mesh_RAE2822_turb.su2": {
+      "bytes": 7534452,
+      "sha256": "d6247af7602ecf7eb76067985b948e62bb38cfa869d542c81c925401995c34e9"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/INSTANTANEA_GUARDADA.json": {
+      "bytes": 1902,
+      "sha256": "dddbf5bc7b7297997d5e4dd2ae6444daead532ed1f4369702062d33387da21b6",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/INSTANTANEA_GUARDADA.json"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/AUDITORIA_CAMPOS.json": {
+      "bytes": 1706,
+      "sha256": "2405ed143a54bd91921461f50e2e7f2a77fdfb8d67175d66f407364ee57e5f39",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/AUDITORIA_CAMPOS.json"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/MALLA.json": {
+      "bytes": 43070,
+      "sha256": "2b777f4df9d9538852525c15bcfc701b6f58831a25962e7e2419cefa267e8e35",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/MALLA.json"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/AUDITORIA_INSTANTANEA.json": {
+      "bytes": 4191,
+      "sha256": "7cbe586e5fc91e93f78779c75e3d8aecbb110bdfa5acfc81db3d95ee9e6b5570",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/AUDITORIA_INSTANTANEA.json"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/GEOMETRIA.json": {
+      "bytes": 89029,
+      "sha256": "093fb274c44e8dcc95596b2e79f2b5717ad9c0ed0e6353263b3cd746b871853d",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/GEOMETRIA.json"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/800/U": {
+      "bytes": 28033986,
+      "sha256": "42797ec043602c8d97a03ed93f4a24cb948be20174528b29ac80b27f78ac736e"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/800/yPlus": {
+      "bytes": 1641698,
+      "sha256": "339bb4356bce86396e3e87c0256ac91b2bfdaf79fd153cf13181ecde5d96580f"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/800/omega": {
+      "bytes": 9743574,
+      "sha256": "0705f07f6b9c35c91a4ea47d0d395c7ca07a68a3a837f2a919140f7da0f2d292"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/800/phi": {
+      "bytes": 20342596,
+      "sha256": "53fc0cc0a3162823e240ed54138e206b3c228d7c4747ab247aeaa6e01e6f6d1c"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/800/k": {
+      "bytes": 9803352,
+      "sha256": "2811da359f8c4221c654c73e345a9fbbcfcbe5c50fe6f4427b50c4a3e1c949a6"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/800/nut": {
+      "bytes": 12502734,
+      "sha256": "e965c04b9251198a3face578eeedbe41331a6a51f7b3c0c48a8f305cf7cdfcfc"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/800/p": {
+      "bytes": 8366215,
+      "sha256": "00db164362672674043b103cc1aead52805a8039cd44570c0d61ef8974f986e9"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/780/U": {
+      "bytes": 28034626,
+      "sha256": "5258950eed79a9cdabeedcab0d0b839e2470d794703c20cde9548eaaf2999d86"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/780/yPlus": {
+      "bytes": 1641613,
+      "sha256": "5aee05709322590d09335011c2ae0b78fc0fd30034c06cf2702a6c17c92fa6f5"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/780/omega": {
+      "bytes": 9743818,
+      "sha256": "2a60fd8d4438f30c51fa4e0eb898bb11ba1dd2fbdfd69a4d69a7b8d2ad1f06e1"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/780/phi": {
+      "bytes": 20342351,
+      "sha256": "5f5bac5543f9fe78045bab4ce805bb30a8056ccaa3eca4316e9a90bb137e6fe7"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/780/k": {
+      "bytes": 9802990,
+      "sha256": "e12229c673e2a25cd2ede63a710c9fd5080dc0b0a981bc21a90b4834663d3359"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/780/nut": {
+      "bytes": 12502736,
+      "sha256": "5bdb2ec577f117f35e2d49a7f83fa18cf9b236655600ba7eb11eff4d96c2e358"
+    },
+    "ejecucion/G2/flujo_C02_conducto/snapshot_r8_780_800/780/p": {
+      "bytes": 8365919,
+      "sha256": "520d1c7cb2e1e8d24707658d83cd6a2abc056b141bfd13196019ba1a5e488237"
+    },
+    "ejecucion/G2/flujo_C02_conducto/balance_r8_snapshot_780_800/BALANCE.json": {
+      "bytes": 4398,
+      "sha256": "76c77f00d2752ef161fb94a41f48d497ff24fcad2c45e08490d48859649a279d",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/balance_r8_snapshot_780_800/BALANCE.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/ENTRADAS.json": {
+      "bytes": 3676,
+      "sha256": "8a701ce49178a82d23c64bd860b7fe947838dd9bba0a7abe9718497b839c3206",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_fina_r2/ENTRADAS.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/case.cfg": {
+      "bytes": 3964,
+      "sha256": "c8e8564bab1c1834fdc3d6bec986b677f6ccc2d3aac8ce3c855e6a5186e70a5d",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/su2_nasa_fina_r2/case.cfg"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/solution_flow.csv": {
+      "bytes": 18704255,
+      "sha256": "7abbfb6aeee572a7fc74d0824f881d21cb1ed0db62f41a8e9609c5f24234b316"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/mesh_RAE2822_turb.su2": {
+      "bytes": 7534452,
+      "sha256": "d6247af7602ecf7eb76067985b948e62bb38cfa869d542c81c925401995c34e9"
+    }
+  },
+  "active_cases": [
+    "C02r8: own process, do not restart",
+    "SU2 fineR2: own process, do not restart"
+  ],
+  "historical_solvers_resumed": false,
+  "global_goal_complete": false,
+  "physical_product_validated": false,
+  "mutable_documents_archived": 56,
+  "verification_rule": "Use archived_copy for checkpoint documents if the current worktree report/code is subsequently revised; raw terminal case fields remain at recorded paths."
+}

@@ -1,0 +1,19 @@
+{
+  "case": "avance_A_compresible_600kmh_Euler_diag_v3",
+  "counter_kind": "physical_seconds",
+  "completed_log_blocks": 117,
+  "last_completed_counter": 7.890625e-05,
+  "target_counter": 0.0001,
+  "last_clock_s": 239.0,
+  "diagnostics": {
+    "counter": 7.890625e-05,
+    "max_U_m_s": 209.1826911,
+    "min_T_K": 268.4128373,
+    "min_p_Pa": 61235.38404
+  },
+  "physical_loads_accepted": false,
+  "live_process_confirmed_by_this_script": false,
+  "positive_finite_latest_diagnostics": true,
+  "Mach_upper_bound_from_same_block_separate_extrema": 0.6369115723572285,
+  "Mach_note": "Bound from separate Umax and Tmin; not measured pointwise Mach or critical Mach."
+}

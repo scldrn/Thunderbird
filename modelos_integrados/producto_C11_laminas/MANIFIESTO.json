@@ -1,0 +1,25 @@
+{
+  "scope": "una tapa fraccionada en cuatro laminas; apertura ideal, sin eje fisico, mecanismo, sello ni cargas",
+  "states": [
+    {
+      "state": "cerrado",
+      "lift_mm": 0,
+      "angle_deg": 0,
+      "objects": 9,
+      "fcstd": "C11_cerrado.FCStd",
+      "step": "C11_cerrado.step",
+      "fcstd_sha256": "a03c48c25ab7f22b2aa0cfb100bcfc2f131e49b1c2d04c4867ea43bc4d20d38b",
+      "step_sha256": "b1a2c73a9b041be6ebb17f1ffffc65754830aa2bb17e055a3de4b35b13ad91c6"
+    },
+    {
+      "state": "elevado_60",
+      "lift_mm": 20,
+      "angle_deg": 60,
+      "objects": 9,
+      "fcstd": "C11_elevado_60.FCStd",
+      "step": "C11_elevado_60.step",
+      "fcstd_sha256": "7dde0ee90fc98b611daf14b82cbfd7753115779479e195fe0a8f0afc98c41397",
+      "step_sha256": "100d5eb22ecac9bfb9db1158d10b1965f17b6acfaf56c502bb71dab5ef2d5d4c"
+    }
+  ]
+}

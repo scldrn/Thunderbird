@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-03",
+  "architecture": "arm64",
+  "version": "6.2.0",
+  "filename": "ParaView-6.2.0-arm64.dmg",
+  "sha256": "df762309fe739de605e093848ae335b3bcfbdcc95c51415120b18980b14608b9",
+  "bytes": 515278175,
+  "download_source": "https://www.paraview.org/paraview-downloads/download.php?submit=Download&version=v6.2&type=binary&os=macOS%20Silicon&downloadFile=ParaView-6.2.0-MPI-OSX11.0-Python3.12-arm64.dmg",
+  "checksum_reference": "https://formulae.brew.sh/api/cask/paraview.json",
+  "checksum_verified": true
+}

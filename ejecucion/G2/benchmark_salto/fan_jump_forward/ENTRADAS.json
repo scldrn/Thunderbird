@@ -1,0 +1,24 @@
+{
+  "kind": "fan_operator_verification_not_rotor_or_vehicle_validation",
+  "reference_case": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G0/poiseuille_40_outer50",
+  "reference_operator": "G=abs(jump)/L=5 m/s2",
+  "jump_kinematic_m2_s2": 1.0,
+  "physical_pressure_jump_at_rho_1_225_Pa": 1.225,
+  "reverse": false,
+  "Ny": 40,
+  "dt_s": 0.005,
+  "outer_correctors": 50,
+  "end_s": 4.0,
+  "input_sha256": {
+    "0/U": "60d1762870cff61b12ec553d69b1088f80b5b7fb48e30292087b030e60519c2e",
+    "0/p": "ca1801d65ff345c596ea545d121b2644e6d6401c3ed29045a227606bd1bdc067",
+    "system/fvSchemes": "733d376e591ced2aebcd6a4ba1f7ae7670452d6cb500f6f68a50e5be095742fe",
+    "system/fvSolution": "02cddd2edbe7ae29d65729cda1eb2535ca2cbd40165bca1a049ec260f58311b0",
+    "system/blockMeshDict": "c4b27978eaa39fac15b3171d798d994861c7d383bb6ed1f40f25012763e67dcd",
+    "system/functions": "fcf3ab577ba21d1f55c7008a2bc5805ffc3c5a9077ec5d64b11f1a90924e9475",
+    "system/controlDict": "837c822eb54fa8055ea84e9853c35e930694c5249cf535e24564853da0d6915d",
+    "constant/fvModels": "bb287e35a61526639350724022196d28f51e976b7d41109d0653db5670ad60aa",
+    "constant/momentumTransport": "1e30ed3650d4c5a03bd4c6d8489a6e8bcd5d8baf0931b2b116734a2ce5c2c793",
+    "constant/physicalProperties": "29b927006f56048a407fae82c7cb323c3163fdc7d6144bcc5f151dc9461a91e2"
+  }
+}

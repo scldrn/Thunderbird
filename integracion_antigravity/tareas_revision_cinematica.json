@@ -1,0 +1,16 @@
+{
+  "descripcion": "Control independiente de derivadas de compuerta A07",
+  "tareas": [
+    {
+      "id": "revision_cinematica_compuertas",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041107Z_69dce893/cinematica_compuertas/salidas/cinematica_A07.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041107Z_69dce893/cinematica_compuertas/salidas/test_cinematica.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041107Z_69dce893/cinematica_compuertas/salidas/INFORME_PARAMETRIZACION_A07.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041107Z_69dce893/cinematica_compuertas/salidas/resultados_perfiles.json",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/LEEME.md"
+      ],
+      "instruccion": "Revisa y corrige en copias portables la cinemática de compuertas adjunta. El informe es contradictorio: indica jerk nulo en fronteras y también admite que la derivada tercera del quíntico es 60 en extremos. Deriva límites unilaterales del movimiento frente al reposo; aclara que es C2 y el jerk salta, y no afirmes que minimiza aceleración pico entre todos los perfiles sin demostración. Añade una prueba precisa de esos límites y ejecuta todas las pruebas disponibles. No cambies la geometría A07 ni afirme mecanismo real aprobado. Si encuentras otros resultados sin sustento, enuméralos y corrígelos o decláralos pendientes. Produce informe resumido y archivos corregidos, sin red."
+    }
+  ]
+}

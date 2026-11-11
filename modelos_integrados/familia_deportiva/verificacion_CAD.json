@@ -1,0 +1,26 @@
+[
+  {
+    "file": "A_integracion_interna/diseno_industrial_v2.step",
+    "parts": 53,
+    "valid": true,
+    "sha256": "3482dc0892008ae47f1e501de8c63f9295d1c47789fc3a2e9937cb80de49cd5a"
+  },
+  {
+    "file": "B_retractil_desplegado/B_retractil_desplegado.step",
+    "parts": 93,
+    "valid": true,
+    "sha256": "833c6cc41d27e5a9c386239a3686df0ef4f0f0ecff17c429c8e5b239e07a68bd"
+  },
+  {
+    "file": "B_retractil_guardado/B_retractil_guardado.step",
+    "parts": 73,
+    "valid": true,
+    "sha256": "d9c0383b283f216d831827391c3cb4ee51f7aa76aeeb0db6beb04564d8ac2d77"
+  },
+  {
+    "file": "C_conductos_integrados/C_conductos_integrados.step",
+    "parts": 69,
+    "valid": true,
+    "sha256": "027bc160a171b823d9cf65ac303f39c632479f832ef8be2b2fb27811064e3b96"
+  }
+]

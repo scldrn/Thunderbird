@@ -1,0 +1,75 @@
+{
+  "CAD": [
+    {
+      "target_mass_kg": 2,
+      "full_valid_parts": 178,
+      "cutaway_valid_parts": 145,
+      "dimensions_mm": [
+        988.0572480353517,
+        237.11986745574103,
+        143.02171088541505
+      ],
+      "STEP_sha256": "14e8491d7bac27002081cd92b183dc8a54d8bba63379d1fbeba6edad9433c25f",
+      "GLB_valid_binary_embedded": true
+    },
+    {
+      "target_mass_kg": 5,
+      "full_valid_parts": 178,
+      "cutaway_valid_parts": 145,
+      "dimensions_mm": [
+        1341.0000000999999,
+        321.82117266181456,
+        194.11032572001523
+      ],
+      "STEP_sha256": "41b17fbc784b0084e3df3a1dd2fe24f3504a950cb31a119b79d724a02133e44a",
+      "GLB_valid_binary_embedded": true
+    },
+    {
+      "target_mass_kg": 10,
+      "full_valid_parts": 178,
+      "cutaway_valid_parts": 145,
+      "dimensions_mm": [
+        1689.554128009025,
+        405.4692696864885,
+        244.56368532461283
+      ],
+      "STEP_sha256": "b94ec67698a166929382f4518bbf6e0919674c589de7c484c32494ae3934247a",
+      "GLB_valid_binary_embedded": true
+    }
+  ],
+  "renders": [
+    {
+      "view": "hero",
+      "size": [
+        1800,
+        1125
+      ],
+      "samples": 64,
+      "source_hash_matches": true,
+      "image_sha256": "ef9d6a781b42663ea5264cb26827b32b63fc874608c3e416d6f6c6098614dd76"
+    },
+    {
+      "view": "interior",
+      "size": [
+        1800,
+        1125
+      ],
+      "samples": 64,
+      "source_hash_matches": true,
+      "image_sha256": "7f8b419878ad93a52e8f6686021fa1a6ecd45711e7f06eaec6d3ff7ce78b32ae"
+    },
+    {
+      "view": "posterior",
+      "size": [
+        1600,
+        1000
+      ],
+      "samples": 64,
+      "source_hash_matches": true,
+      "image_sha256": "c3af51856c4cf90a1dd497a7cd4e651f5e6bb7b06a6a04d63434438ec2a4b9d0"
+    }
+  ],
+  "visual_QA": "Exterior, rear and cutaway inspected; all views rendered from exported STEP.",
+  "physical_mass_or_flight_validated": false,
+  "global_interference_validation": false
+}

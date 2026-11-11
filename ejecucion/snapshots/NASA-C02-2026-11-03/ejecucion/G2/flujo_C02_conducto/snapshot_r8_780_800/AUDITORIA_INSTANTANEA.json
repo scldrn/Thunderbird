@@ -1,0 +1,131 @@
+{
+  "scope": "Saved passive-duct fields only; no terminal convergence, physical elapsed time or installed thrust/power claim",
+  "saved_counters": [
+    780,
+    800
+  ],
+  "source_completed_counter_observed": 825.0,
+  "field_sha256_checks_passed": true,
+  "mesh_volume_m3": 0.0013564297892664757,
+  "tetrahedral_topology_orientation_normal_closure_and_volume_verified": true,
+  "all_fields_finite": true,
+  "turbulence_nonnegative": true,
+  "ranges_at_last_counter": {
+    "U": [
+      0.26603237083263936,
+      36.30958930983024
+    ],
+    "p": [
+      -878.155548139,
+      372.252868633
+    ],
+    "k": [
+      0.106522205955,
+      22.1456047182
+    ],
+    "omega": [
+      249.937845232,
+      923131.797264
+    ],
+    "nut": [
+      2.61874429333e-07,
+      0.00563422530451
+    ]
+  },
+  "field_changes": {
+    "U": {
+      "units": "m/s",
+      "max_abs": 2.067099062226196,
+      "arithmetic_RMS": 0.021627531850935428,
+      "volume_weighted_RMS": 0.012216788029123899,
+      "largest_change_cell": 575814,
+      "largest_change_centre_m": [
+        0.0116858486102,
+        -2.7921755622499825e-06,
+        -0.0118
+      ],
+      "largest_change_cell_volume_m3": 5.646844697484333e-10,
+      "first_value_at_largest_change": [
+        -0.722590175227,
+        -0.969268143368,
+        -2.41796583836
+      ],
+      "last_value_at_largest_change": [
+        1.27945570855,
+        -0.506696522619,
+        -2.19271418357
+      ],
+      "volume_fraction_deltaU_gt_1_m_s": 2.5186641730750044e-06,
+      "volume_fraction_deltaU_gt_0p1_m_s": 0.002498988896973428
+    },
+    "p": {
+      "units": "m2/s2 kinematic pressure",
+      "max_abs": 4.441326932999999,
+      "arithmetic_RMS": 0.0780232438483888,
+      "volume_weighted_RMS": 0.04179998308665886,
+      "largest_change_cell": 561839,
+      "largest_change_centre_m": [
+        0.0120056345443,
+        -0.0005644845333845,
+        -0.0118
+      ],
+      "largest_change_cell_volume_m3": 5.215711510993613e-10,
+      "first_value_at_largest_change": -114.320052264,
+      "last_value_at_largest_change": -109.878725331
+    },
+    "k": {
+      "units": "m2/s2",
+      "max_abs": 2.9423480105,
+      "arithmetic_RMS": 0.01220151435836189,
+      "volume_weighted_RMS": 0.006662225452229147,
+      "largest_change_cell": 1854,
+      "largest_change_centre_m": [
+        -0.023109793828900004,
+        0.0342771700463,
+        -0.0394671218733
+      ],
+      "largest_change_cell_volume_m3": 4.717047109741781e-11,
+      "first_value_at_largest_change": 15.7170670495,
+      "last_value_at_largest_change": 12.774719039
+    },
+    "omega": {
+      "units": "1/s",
+      "max_abs": 36156.96349600001,
+      "arithmetic_RMS": 171.7215498764958,
+      "volume_weighted_RMS": 29.550334612410385,
+      "largest_change_cell": 1854,
+      "largest_change_centre_m": [
+        -0.023109793828900004,
+        0.0342771700463,
+        -0.0394671218733
+      ],
+      "largest_change_cell_volume_m3": 4.717047109741781e-11,
+      "first_value_at_largest_change": 203647.936055,
+      "last_value_at_largest_change": 239804.899551
+    },
+    "nut": {
+      "units": "m2/s",
+      "max_abs": 8.148524626100005e-05,
+      "arithmetic_RMS": 7.306620484278695e-07,
+      "volume_weighted_RMS": 6.407439206065758e-07,
+      "largest_change_cell": 25110,
+      "largest_change_centre_m": [
+        0.0034607548529199997,
+        0.0019418724349175,
+        -0.02852918303525
+      ],
+      "largest_change_cell_volume_m3": 8.833545300774849e-10,
+      "first_value_at_largest_change": 0.000418304001644,
+      "last_value_at_largest_change": 0.000336818755383
+    }
+  },
+  "physical_loads_accepted": false,
+  "source_mesh_sha256": {
+    "points": "0ffd70e50ba89ccbb9c05ed725f132973b2ad29c458b6faaf166f10df67b2cc9",
+    "faces": "7c0d29e9410dfe827046f072887c69ef232509e69dcc9ac4a0a66ad72e5c162f",
+    "owner": "32d1f9909c1d84b0e56d9bef6de7a9ae76d9e739cb326fdad5bd6ef7e5f0ba2e",
+    "neighbour": "c184162a80bc638e521ab1fae1abc6691e2fa8bbae4f6a64cc805cc05e275bd3"
+  },
+  "snapshot_record_sha256": "dddbf5bc7b7297997d5e4dd2ae6444daead532ed1f4369702062d33387da21b6",
+  "script_sha256": "fd2baac8343a0b05254174a1f827e9da287946f067610c74cbf44308eb54a03d"
+}

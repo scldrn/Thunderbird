@@ -1,0 +1,36 @@
+{
+  "scope": "local poses, short shaft probes, not a bearing or mechanism; only sampled angles",
+  "source_results_sha256": "8e572f6b3c8e0dca909940af46326fbef0b6e98a0ecca5369cb196911266a46d",
+  "rotation_checks": [
+    {
+      "angle_deg": 0,
+      "checked_pairs": 12,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 15,
+      "checked_pairs": 12,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 30,
+      "checked_pairs": 12,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 45,
+      "checked_pairs": 12,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 60,
+      "checked_pairs": 12,
+      "collisions": [],
+      "errors": []
+    }
+  ]
+}

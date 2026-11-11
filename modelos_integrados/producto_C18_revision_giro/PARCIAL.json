@@ -1,0 +1,39 @@
+{
+  "states": [
+    {
+      "angle_deg": 0,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 15,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 30,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 45,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 60,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    }
+  ]
+}

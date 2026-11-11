@@ -1,0 +1,20 @@
+{
+  "descripcion": "Tres encargos de infraestructura y trazabilidad en paralelo.",
+  "tareas": [
+    {
+      "id": "auditar_supervisor",
+      "entradas": ["investigacion-aeronautica/integracion_antigravity/orquestar.py", "investigacion-aeronautica/integracion_antigravity/orquestar_aislado.py", "investigacion-aeronautica/integracion_antigravity/verificar_aislado.py"],
+      "instruccion": "Audita el coordinador en vivo: detección de denegaciones, cancelación, timeouts, lectura de pipes, preservación de eventos y separación de espacios. No intentes acceder a red ni desactivar certificados. Usa solo procesos falsos creados en tu carpeta para pruebas. Entrega salidas/REVISION.md y tests o propuesta de parche en copias, sin ejecutar git, rm ni modificar entradas. Distingue problemas demostrados de riesgos hipotéticos."
+    },
+    {
+      "id": "resumen_lotes",
+      "entradas": ["investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/RESUMEN.json", "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/RESUMEN.json"],
+      "instruccion": "Crea un programa Python estándar que lea manifiestos RESUMEN.json de lotes y produzca una tabla de tareas, estado del lote, número recogido y tareas que requieren revisión. No conviertas estado completado en aceptación científica. Incluye pruebas con manifiestos truncados e IDs duplicados y un informe corto en salidas/. No uses git ni elimines archivos."
+    },
+    {
+      "id": "trazabilidad_fuentes",
+      "entradas": ["investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt", "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt", "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_0544rd_20051.txt", "investigacion-aeronautica/fuentes/uiuc_propdb/NOTA-NASA-EDF.md"],
+      "instruccion": "Prepara un manifiesto reproducible de las tres tablas públicas UIUC y la nota NASA: tamaño, SHA-256, nombre, naturaleza experimental o resumen derivado, URL primaria y límites de transferencia. Incluye script Python estándar y pruebas que detecten cambios de contenido. No inventes licencia, fechas de descarga o mediciones ausentes; no llames a la nota una fuente primaria. Entrega todo en salidas/."
+    }
+  ]
+}

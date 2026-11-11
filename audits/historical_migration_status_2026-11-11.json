@@ -1,0 +1,11 @@
+{
+  "phase": "waiting_for_copy",
+  "updated": "2026-11-11T08:11:03.073097+00:00",
+  "expected_files": 20287,
+  "missing_or_incomplete": 20287,
+  "example_missing": [
+    "energia_control.py",
+    "comparacion_integrada.py",
+    "contraste_nasa_presiones.py"
+  ]
+}

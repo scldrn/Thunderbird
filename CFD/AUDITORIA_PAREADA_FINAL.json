@@ -1,0 +1,70 @@
+{
+  "cases": [
+    {
+      "case": "comparacion_Euler_reinicio_h0.006",
+      "requested_time_reached": true,
+      "finite_final_fields": [
+        {
+          "field": "U",
+          "sha256": "ae38dd4aa42a2e79e4edd0ade66c72b58b293418a79472c86a2bfa11d0d3eff3"
+        },
+        {
+          "field": "p",
+          "sha256": "ca8884ed05ec56ce762e233b5d7592f04000e618dcd5e24efbe4fafeb27f5a67"
+        },
+        {
+          "field": "k",
+          "sha256": "f6f9f1ebcc0198116f5d0291329fe545d4b0ad46f67eb91e3d1d0aaa2cb7a8b8"
+        },
+        {
+          "field": "omega",
+          "sha256": "7b09a84f09896608c9382abe2ca7a36fc7be18ec5461e364b6418e0fdce2c663"
+        },
+        {
+          "field": "nut",
+          "sha256": "936e1ce170e89db2cb666d9d231d18012b54e51bf7ba7a4f1b75d19f6af3a0a6"
+        },
+        {
+          "field": "phi",
+          "sha256": "b7862b5e6d863f24605b37e096ddd611bc7ec39cbca7607812ef593f775028b3"
+        }
+      ],
+      "loads_withheld_initial_discard_not_reached": true
+    },
+    {
+      "case": "comparacion_backward_reinicio_h0.006",
+      "requested_time_reached": true,
+      "finite_final_fields": [
+        {
+          "field": "U",
+          "sha256": "f7509e305c4d96c7eb2e92a13b6ae9caf7c70e6fc869e8a1583f2d6197edb685"
+        },
+        {
+          "field": "p",
+          "sha256": "222b2332ff5f44c6ac6bf4eef9ba1c5d8e01593f72fda7d5621a8bef08950462"
+        },
+        {
+          "field": "k",
+          "sha256": "cec62d648bc26604e115a2a00a2f88c0c5e3dbdeb28d0d84bdadbc5d8bd6c730"
+        },
+        {
+          "field": "omega",
+          "sha256": "4ec82859effa63a43c170e21d922b48cbbc3079aa9b4247a91a8946d6d3406d3"
+        },
+        {
+          "field": "nut",
+          "sha256": "a708dd070535654ef3180d8956e1240a54613d78a447483fc53e7b4b0bf5b7bd"
+        },
+        {
+          "field": "phi",
+          "sha256": "3861e7f317492ff40bb90b768f3c898656b219f814aa7ec523b310000c947fca"
+        }
+      ],
+      "loads_withheld_initial_discard_not_reached": true
+    }
+  ],
+  "initial_inputs_match": true,
+  "physical_loads_accepted": false,
+  "temporal_convergence_proven": false,
+  "interpretation": "Both requested short numerical windows completed; same-grid scheme sensitivity only. Not temporal refinement, stationary loading or installed calibration."
+}

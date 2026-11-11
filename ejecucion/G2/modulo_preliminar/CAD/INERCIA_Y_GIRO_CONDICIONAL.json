@@ -1,0 +1,75 @@
+{
+  "material_and_RPM_approved": false,
+  "candidates": [
+    {
+      "file": "rotor_8palas_D82mm_CCW.step",
+      "rho_ASSUMED_kg_m3": 1600.0,
+      "mass_sensitivity_kg": 0.01631522471678672,
+      "centre_of_mass_local_mm": [
+        7.036770386388346e-09,
+        -8.363886840285335e-10,
+        -0.1864099284435313
+      ],
+      "adaptive_volume_error_estimate": 1.6030392811063137e-06,
+      "inertia_about_centroid_sensitivity_kgm2": [
+        [
+          2.0866487516884574e-06,
+          3.0897356109055343e-16,
+          2.3516708135715247e-16
+        ],
+        [
+          3.0897356109055343e-16,
+          2.086648732435764e-06,
+          -5.528691381814349e-17
+        ],
+        [
+          2.3516708135715247e-16,
+          -5.528691381814349e-17,
+          3.642765953881453e-06
+        ]
+      ],
+      "spin_angular_momentum_sensitivity_Nms": 0.017635902837378703,
+      "spin_kinetic_energy_sensitivity_J": 42.69078398490818,
+      "local_gyroscopic_moment_at_5rad_s_perpendicular_Nm": 0.08817951418689352,
+      "geometry_and_spin_approved": false
+    },
+    {
+      "file": "rotor_8palas_D102.5mm_CCW.step",
+      "rho_ASSUMED_kg_m3": 1600.0,
+      "mass_sensitivity_kg": 0.03186567325784159,
+      "centre_of_mass_local_mm": [
+        1.8941331219010726e-09,
+        9.968047463565936e-10,
+        -0.2330124091742386
+      ],
+      "adaptive_volume_error_estimate": 1.6030392717284149e-06,
+      "inertia_about_centroid_sensitivity_kgm2": [
+        [
+          6.367946629529286e-06,
+          8.919753605928426e-17,
+          1.3957975091535708e-16
+        ],
+        [
+          8.919753605928426e-17,
+          6.3679465681691194e-06,
+          1.9771582424596038e-17
+        ],
+        [
+          1.3957975091535708e-16,
+          1.9771582424596038e-17,
+          1.1116839455752921e-05
+        ]
+      ],
+      "spin_angular_momentum_sensitivity_Nms": 0.034445122719523644,
+      "spin_kinetic_energy_sensitivity_J": 53.36347996592917,
+      "local_gyroscopic_moment_at_5rad_s_perpendicular_Nm": 0.17222561359761823,
+      "geometry_and_spin_approved": false
+    }
+  ],
+  "inertia_ratio_large_small": 3.051757811645205,
+  "limitations": [
+    "Uniform-density monolithic geometric sensitivity; no material, retention, stress/fatigue, motor or RPM approval.",
+    "Counterrotation can cancel equal aggregate spin momentum, not local support loads; unequal operation breaks exact cancellation.",
+    "Acceleration/braking time requires motor excess torque, controller and energy sink; not derived from steady shaft power."
+  ]
+}

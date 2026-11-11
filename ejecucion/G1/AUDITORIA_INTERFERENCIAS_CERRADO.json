@@ -1,0 +1,378 @@
+{
+  "config_id": "A07_RESEARCH_BASE_2026-11-03_r1",
+  "possible_pairs": 21528,
+  "bbox_candidates": 580,
+  "tested": 580,
+  "intersection_threshold_mm3": 0.0001,
+  "overlaps": [
+    {
+      "a": "panel_sensor_nariz",
+      "b": "sculpture_capot_-1",
+      "volume_overlap_mm3": 34.27112314165132
+    },
+    {
+      "a": "panel_sensor_nariz",
+      "b": "sculpture_capot_1",
+      "volume_overlap_mm3": 34.271123141630675
+    },
+    {
+      "a": "cubierta_lateral_-1",
+      "b": "epaule_arriere_-1",
+      "volume_overlap_mm3": 4746.818036500441
+    },
+    {
+      "a": "cubierta_lateral_1",
+      "b": "epaule_arriere_1",
+      "volume_overlap_mm3": 4746.818036523482
+    },
+    {
+      "a": "carroceria_superior",
+      "b": "carenado_raiz_0",
+      "volume_overlap_mm3": 0.04479083093295743
+    },
+    {
+      "a": "canal_0_alabe_0_inferior_X_0",
+      "b": "canal_0_eje_0_inferior_X_0",
+      "volume_overlap_mm3": 170.27323375696204
+    },
+    {
+      "a": "canal_0_alabe_0_inferior_X_1",
+      "b": "canal_0_eje_0_inferior_X_1",
+      "volume_overlap_mm3": 255.79928750485368
+    },
+    {
+      "a": "canal_0_alabe_0_inferior_X_2",
+      "b": "canal_0_eje_0_inferior_X_2",
+      "volume_overlap_mm3": 170.27323375699913
+    },
+    {
+      "a": "canal_0_alabe_0_inferior_Y_0",
+      "b": "canal_0_eje_0_inferior_Y_0",
+      "volume_overlap_mm3": 170.27323375696218
+    },
+    {
+      "a": "canal_0_alabe_0_inferior_Y_1",
+      "b": "canal_0_eje_0_inferior_Y_1",
+      "volume_overlap_mm3": 255.79928750450247
+    },
+    {
+      "a": "canal_0_alabe_0_inferior_Y_2",
+      "b": "canal_0_eje_0_inferior_Y_2",
+      "volume_overlap_mm3": 170.27323375696218
+    },
+    {
+      "a": "canal_0_alabe_0_superior_X_0",
+      "b": "canal_0_eje_0_superior_X_0",
+      "volume_overlap_mm3": 170.27323375696204
+    },
+    {
+      "a": "canal_0_alabe_0_superior_X_1",
+      "b": "canal_0_eje_0_superior_X_1",
+      "volume_overlap_mm3": 255.79928750485368
+    },
+    {
+      "a": "canal_0_alabe_0_superior_X_2",
+      "b": "canal_0_eje_0_superior_X_2",
+      "volume_overlap_mm3": 170.27323375699913
+    },
+    {
+      "a": "canal_0_alabe_0_superior_Y_0",
+      "b": "canal_0_eje_0_superior_Y_0",
+      "volume_overlap_mm3": 170.27323375696216
+    },
+    {
+      "a": "canal_0_alabe_0_superior_Y_1",
+      "b": "canal_0_eje_0_superior_Y_1",
+      "volume_overlap_mm3": 255.79928750450247
+    },
+    {
+      "a": "canal_0_alabe_0_superior_Y_2",
+      "b": "canal_0_eje_0_superior_Y_2",
+      "volume_overlap_mm3": 170.27323375696216
+    },
+    {
+      "a": "canal_1_alabe_0_inferior_X_0",
+      "b": "canal_1_eje_0_inferior_X_0",
+      "volume_overlap_mm3": 170.27323375699913
+    },
+    {
+      "a": "canal_1_alabe_0_inferior_X_1",
+      "b": "canal_1_eje_0_inferior_X_1",
+      "volume_overlap_mm3": 255.79928750485368
+    },
+    {
+      "a": "canal_1_alabe_0_inferior_X_2",
+      "b": "canal_1_eje_0_inferior_X_2",
+      "volume_overlap_mm3": 170.27323375696204
+    },
+    {
+      "a": "canal_1_alabe_0_inferior_Y_0",
+      "b": "canal_1_eje_0_inferior_Y_0",
+      "volume_overlap_mm3": 170.27323375726363
+    },
+    {
+      "a": "canal_1_alabe_0_inferior_Y_1",
+      "b": "canal_1_eje_0_inferior_Y_1",
+      "volume_overlap_mm3": 255.79928750450253
+    },
+    {
+      "a": "canal_1_alabe_0_inferior_Y_2",
+      "b": "canal_1_eje_0_inferior_Y_2",
+      "volume_overlap_mm3": 170.27323375726363
+    },
+    {
+      "a": "canal_1_alabe_0_superior_X_0",
+      "b": "canal_1_eje_0_superior_X_0",
+      "volume_overlap_mm3": 170.27323375699913
+    },
+    {
+      "a": "canal_1_alabe_0_superior_X_1",
+      "b": "canal_1_eje_0_superior_X_1",
+      "volume_overlap_mm3": 255.79928750485368
+    },
+    {
+      "a": "canal_1_alabe_0_superior_X_2",
+      "b": "canal_1_eje_0_superior_X_2",
+      "volume_overlap_mm3": 170.27323375696204
+    },
+    {
+      "a": "canal_1_alabe_0_superior_Y_0",
+      "b": "canal_1_eje_0_superior_Y_0",
+      "volume_overlap_mm3": 170.27323375726363
+    },
+    {
+      "a": "canal_1_alabe_0_superior_Y_1",
+      "b": "canal_1_eje_0_superior_Y_1",
+      "volume_overlap_mm3": 255.7992875045025
+    },
+    {
+      "a": "canal_1_alabe_0_superior_Y_2",
+      "b": "canal_1_eje_0_superior_Y_2",
+      "volume_overlap_mm3": 170.27323375726363
+    },
+    {
+      "a": "canal_2_alabe_0_inferior_X_0",
+      "b": "canal_2_eje_0_inferior_X_0",
+      "volume_overlap_mm3": 170.27323375696207
+    },
+    {
+      "a": "canal_2_alabe_0_inferior_X_1",
+      "b": "canal_2_eje_0_inferior_X_1",
+      "volume_overlap_mm3": 255.79928750485368
+    },
+    {
+      "a": "canal_2_alabe_0_inferior_X_2",
+      "b": "canal_2_eje_0_inferior_X_2",
+      "volume_overlap_mm3": 170.27323375699916
+    },
+    {
+      "a": "canal_2_alabe_0_inferior_Y_0",
+      "b": "canal_2_eje_0_inferior_Y_0",
+      "volume_overlap_mm3": 170.27323375696218
+    },
+    {
+      "a": "canal_2_alabe_0_inferior_Y_1",
+      "b": "canal_2_eje_0_inferior_Y_1",
+      "volume_overlap_mm3": 255.79928750450247
+    },
+    {
+      "a": "canal_2_alabe_0_inferior_Y_2",
+      "b": "canal_2_eje_0_inferior_Y_2",
+      "volume_overlap_mm3": 170.27323375696218
+    },
+    {
+      "a": "canal_2_alabe_0_superior_X_0",
+      "b": "canal_2_eje_0_superior_X_0",
+      "volume_overlap_mm3": 170.27323375696207
+    },
+    {
+      "a": "canal_2_alabe_0_superior_X_1",
+      "b": "canal_2_eje_0_superior_X_1",
+      "volume_overlap_mm3": 255.79928750485368
+    },
+    {
+      "a": "canal_2_alabe_0_superior_X_2",
+      "b": "canal_2_eje_0_superior_X_2",
+      "volume_overlap_mm3": 170.27323375699916
+    },
+    {
+      "a": "canal_2_alabe_0_superior_Y_0",
+      "b": "canal_2_eje_0_superior_Y_0",
+      "volume_overlap_mm3": 170.27323375696216
+    },
+    {
+      "a": "canal_2_alabe_0_superior_Y_1",
+      "b": "canal_2_eje_0_superior_Y_1",
+      "volume_overlap_mm3": 255.79928750450247
+    },
+    {
+      "a": "canal_2_alabe_0_superior_Y_2",
+      "b": "canal_2_eje_0_superior_Y_2",
+      "volume_overlap_mm3": 170.27323375696216
+    },
+    {
+      "a": "canal_3_alabe_0_inferior_X_0",
+      "b": "canal_3_eje_0_inferior_X_0",
+      "volume_overlap_mm3": 170.27323375699916
+    },
+    {
+      "a": "canal_3_alabe_0_inferior_X_1",
+      "b": "canal_3_eje_0_inferior_X_1",
+      "volume_overlap_mm3": 255.79928750485368
+    },
+    {
+      "a": "canal_3_alabe_0_inferior_X_2",
+      "b": "canal_3_eje_0_inferior_X_2",
+      "volume_overlap_mm3": 170.27323375696207
+    },
+    {
+      "a": "canal_3_alabe_0_inferior_Y_0",
+      "b": "canal_3_eje_0_inferior_Y_0",
+      "volume_overlap_mm3": 170.27323375726363
+    },
+    {
+      "a": "canal_3_alabe_0_inferior_Y_1",
+      "b": "canal_3_eje_0_inferior_Y_1",
+      "volume_overlap_mm3": 255.79928750450253
+    },
+    {
+      "a": "canal_3_alabe_0_inferior_Y_2",
+      "b": "canal_3_eje_0_inferior_Y_2",
+      "volume_overlap_mm3": 170.27323375726363
+    },
+    {
+      "a": "canal_3_alabe_0_superior_X_0",
+      "b": "canal_3_eje_0_superior_X_0",
+      "volume_overlap_mm3": 170.27323375699916
+    },
+    {
+      "a": "canal_3_alabe_0_superior_X_1",
+      "b": "canal_3_eje_0_superior_X_1",
+      "volume_overlap_mm3": 255.79928750485368
+    },
+    {
+      "a": "canal_3_alabe_0_superior_X_2",
+      "b": "canal_3_eje_0_superior_X_2",
+      "volume_overlap_mm3": 170.27323375696207
+    },
+    {
+      "a": "canal_3_alabe_0_superior_Y_0",
+      "b": "canal_3_eje_0_superior_Y_0",
+      "volume_overlap_mm3": 170.27323375726363
+    },
+    {
+      "a": "canal_3_alabe_0_superior_Y_1",
+      "b": "canal_3_eje_0_superior_Y_1",
+      "volume_overlap_mm3": 255.7992875045025
+    },
+    {
+      "a": "canal_3_alabe_0_superior_Y_2",
+      "b": "canal_3_eje_0_superior_Y_2",
+      "volume_overlap_mm3": 170.27323375726363
+    },
+    {
+      "a": "abrazadera_axial_-350",
+      "b": "soporte_canal_axial_-350_-1",
+      "volume_overlap_mm3": 2.7365981023030646
+    },
+    {
+      "a": "abrazadera_axial_-350",
+      "b": "soporte_canal_axial_-350_1",
+      "volume_overlap_mm3": 2.7365981083240083
+    },
+    {
+      "a": "abrazadera_axial_0",
+      "b": "soporte_canal_axial_0_-1",
+      "volume_overlap_mm3": 2.7106899756586196
+    },
+    {
+      "a": "abrazadera_axial_0",
+      "b": "soporte_canal_axial_0_1",
+      "volume_overlap_mm3": 2.710689973656616
+    },
+    {
+      "a": "abrazadera_axial_350",
+      "b": "soporte_canal_axial_350_-1",
+      "volume_overlap_mm3": 2.7821019393396695
+    },
+    {
+      "a": "abrazadera_axial_350",
+      "b": "soporte_canal_axial_350_1",
+      "volume_overlap_mm3": 2.78210194120749
+    },
+    {
+      "a": "cuaderna_-350",
+      "b": "soporte_canal_axial_-350_-1",
+      "volume_overlap_mm3": 26.371327572183592
+    },
+    {
+      "a": "cuaderna_-350",
+      "b": "soporte_canal_axial_-350_1",
+      "volume_overlap_mm3": 26.371327572128305
+    },
+    {
+      "a": "cuaderna_0",
+      "b": "soporte_canal_axial_0_-1",
+      "volume_overlap_mm3": 24.51016602912011
+    },
+    {
+      "a": "cuaderna_0",
+      "b": "soporte_canal_axial_0_1",
+      "volume_overlap_mm3": 24.5101660289726
+    },
+    {
+      "a": "cuaderna_0",
+      "b": "vis_encastree_2",
+      "volume_overlap_mm3": 0.9905390636664064
+    },
+    {
+      "a": "cuaderna_0",
+      "b": "vis_encastree_3",
+      "volume_overlap_mm3": 0.9905390636806559
+    },
+    {
+      "a": "cuaderna_350",
+      "b": "soporte_canal_axial_350_-1",
+      "volume_overlap_mm3": 28.61862378485204
+    },
+    {
+      "a": "cuaderna_350",
+      "b": "soporte_canal_axial_350_1",
+      "volume_overlap_mm3": 28.61862378546955
+    },
+    {
+      "a": "vis_encastree_0",
+      "b": "sculpture_capot_-1",
+      "volume_overlap_mm3": 6.830289209223737
+    },
+    {
+      "a": "vis_encastree_1",
+      "b": "sculpture_capot_1",
+      "volume_overlap_mm3": 6.830289212258071
+    },
+    {
+      "a": "eje_control_0",
+      "b": "actuador_reserva_0",
+      "volume_overlap_mm3": 196.34954084937138
+    },
+    {
+      "a": "eje_control_1",
+      "b": "actuador_reserva_1",
+      "volume_overlap_mm3": 196.34954084929257
+    },
+    {
+      "a": "eje_control_2",
+      "b": "actuador_reserva_2",
+      "volume_overlap_mm3": 196.34954084934816
+    },
+    {
+      "a": "eje_control_3",
+      "b": "actuador_reserva_3",
+      "volume_overlap_mm3": 196.34954084942677
+    }
+  ],
+  "boolean_failures": [],
+  "complete": true,
+  "elapsed_seconds": 882.4303533749771,
+  "note": "All nominal closed-assembly pairs with positive AABB overlap tested. Intersections require engineering classification, not automatic acceptance/rejection. Not deformation, tolerances or door sweep."
+}

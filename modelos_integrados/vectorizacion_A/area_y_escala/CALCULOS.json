@@ -1,0 +1,166 @@
+{
+  "method": "Equal-loading isolated ideal free-rotor momentum theory reference: P=(mg)^(3/2)/sqrt(2*rho*sum(A)). Not installed fan power or a universal lower bound for a shrouded system.",
+  "rho_kgm3": 1.225,
+  "g_ms2": 9.80665,
+  "n_rotors": 4,
+  "reference_mass_assumed_kg": 5,
+  "reference_rotor_diameter_mm": 82.02438661763951,
+  "source_script_sha256": "fa291b01b573380a1540527673ebf766791fdc9c564c04dcd5439127c817ffa2",
+  "scale_basis": "Algebraic similar-geometry envelopes at fixed mean density, not newly validated CAD or closed mass budgets.",
+  "scales": [
+    {
+      "scale": 0.7368062997280773,
+      "envelope_mm": [
+        991.0044732079446,
+        237.25660851479995,
+        143.02171083277622
+      ],
+      "mass_assumed_kg": 2,
+      "rotor_diameter_mm": 60.43608479120819,
+      "total_geometric_disk_area_m2": 0.011474731082594013,
+      "weight_N": 19.6133,
+      "disk_loading_Pa": 1709.2601001997648,
+      "isolated_free_rotor_ideal_induced_velocity_ms": 26.41320093731553,
+      "isolated_free_rotor_ideal_induced_power_W": 518.0500339438506,
+      "reference_energy_Wh": {
+        "30": 4.317083616198755,
+        "120": 17.26833446479502,
+        "300": 43.17083616198755
+      }
+    },
+    {
+      "scale": 1.0,
+      "envelope_mm": [
+        1345.0000000999999,
+        322.00675890306707,
+        194.11032572001517
+      ],
+      "mass_assumed_kg": 5,
+      "rotor_diameter_mm": 82.02438661763951,
+      "total_geometric_disk_area_m2": 0.02113663537335213,
+      "weight_N": 49.033249999999995,
+      "disk_loading_Pa": 2319.8228636625076,
+      "isolated_free_rotor_ideal_induced_velocity_ms": 30.771195540054805,
+      "isolated_free_rotor_ideal_induced_power_W": 1508.8117237143922,
+      "reference_energy_Wh": {
+        "30": 12.573431030953268,
+        "120": 50.29372412381307,
+        "300": 125.73431030953269
+      }
+    },
+    {
+      "scale": 1.2599210498948732,
+      "envelope_mm": [
+        1694.5938122345963,
+        405.70309375039756,
+        244.5636853765973
+      ],
+      "mass_assumed_kg": 10,
+      "rotor_diameter_mm": 103.34425130427935,
+      "total_geometric_disk_area_m2": 0.03355231722672742,
+      "weight_N": 98.06649999999999,
+      "disk_loading_Pa": 2922.7936579557986,
+      "isolated_free_rotor_ideal_induced_velocity_ms": 34.53949917481816,
+      "isolated_free_rotor_ideal_induced_power_W": 3387.167795827305,
+      "reference_energy_Wh": {
+        "30": 28.226398298560873,
+        "120": 112.9055931942435,
+        "300": 282.2639829856087
+      }
+    }
+  ],
+  "diameter_sweep_5kg": [
+    {
+      "mass_assumed_kg": 5,
+      "rotor_diameter_mm": 82.02438661763951,
+      "total_geometric_disk_area_m2": 0.02113663537335213,
+      "weight_N": 49.033249999999995,
+      "disk_loading_Pa": 2319.8228636625076,
+      "isolated_free_rotor_ideal_induced_velocity_ms": 30.771195540054805,
+      "isolated_free_rotor_ideal_induced_power_W": 1508.8117237143922,
+      "reference_energy_Wh": {
+        "30": 12.573431030953268,
+        "120": 50.29372412381307,
+        "300": 125.73431030953269
+      },
+      "disk_only_gap_at_unchanged_130mm_pair_pitch_mm": 47.97561338236049,
+      "disk_pair_overlap_at_original_centers": false
+    },
+    {
+      "mass_assumed_kg": 5,
+      "rotor_diameter_mm": 100,
+      "total_geometric_disk_area_m2": 0.031415926535897934,
+      "weight_N": 49.033249999999995,
+      "disk_loading_Pa": 1560.7768226721353,
+      "isolated_free_rotor_ideal_induced_velocity_ms": 25.2398843966444,
+      "isolated_free_rotor_ideal_induced_power_W": 1237.5935615917638,
+      "reference_energy_Wh": {
+        "30": 10.313279679931366,
+        "120": 41.253118719725464,
+        "300": 103.13279679931365
+      },
+      "disk_only_gap_at_unchanged_130mm_pair_pitch_mm": 30,
+      "disk_pair_overlap_at_original_centers": false
+    },
+    {
+      "mass_assumed_kg": 5,
+      "rotor_diameter_mm": 120,
+      "total_geometric_disk_area_m2": 0.04523893421169302,
+      "weight_N": 49.033249999999995,
+      "disk_loading_Pa": 1083.8727935223162,
+      "isolated_free_rotor_ideal_induced_velocity_ms": 21.03323699720367,
+      "isolated_free_rotor_ideal_induced_power_W": 1031.3279679931368,
+      "reference_energy_Wh": {
+        "30": 8.59439973327614,
+        "120": 34.37759893310456,
+        "300": 85.9439973327614
+      },
+      "disk_only_gap_at_unchanged_130mm_pair_pitch_mm": 10,
+      "disk_pair_overlap_at_original_centers": false
+    },
+    {
+      "mass_assumed_kg": 5,
+      "rotor_diameter_mm": 160,
+      "total_geometric_disk_area_m2": 0.0804247719318987,
+      "weight_N": 49.033249999999995,
+      "disk_loading_Pa": 609.6784463563029,
+      "isolated_free_rotor_ideal_induced_velocity_ms": 15.774927747902751,
+      "isolated_free_rotor_ideal_induced_power_W": 773.4959759948525,
+      "reference_energy_Wh": {
+        "30": 6.445799799957104,
+        "120": 25.783199199828417,
+        "300": 64.45799799957103
+      },
+      "disk_only_gap_at_unchanged_130mm_pair_pitch_mm": -30,
+      "disk_pair_overlap_at_original_centers": true
+    },
+    {
+      "mass_assumed_kg": 5,
+      "rotor_diameter_mm": 200,
+      "total_geometric_disk_area_m2": 0.12566370614359174,
+      "weight_N": 49.033249999999995,
+      "disk_loading_Pa": 390.1942056680338,
+      "isolated_free_rotor_ideal_induced_velocity_ms": 12.6199421983222,
+      "isolated_free_rotor_ideal_induced_power_W": 618.7967807958819,
+      "reference_energy_Wh": {
+        "30": 5.156639839965683,
+        "120": 20.626559359862732,
+        "300": 51.566398399656826
+      },
+      "disk_only_gap_at_unchanged_130mm_pair_pitch_mm": -70,
+      "disk_pair_overlap_at_original_centers": true
+    }
+  ],
+  "geometric_warning": "The illustrative original sleeve bore radius is 41 mm; the farthest blade vertex is at sqrt(41^2+1) mm. No running/tolerance clearance was designed in that styling model. The preliminary integration retained those sleeves; CAD_integracion_coherente replaces them with consolidated 42 mm bores, without validating operating clearance.",
+  "limitations": [
+    "No duct thrust augmentation, installed capture area or fan characteristic is supplied.",
+    "No inlet, vane, grille, shaft, swirl, profile, motor, ESC or battery losses are included.",
+    "An assumed efficiency multiplier cannot close missing fan data.",
+    "Hover zero-moment equal-loading benchmark does not include actual CG, torque control or lateral acceleration.",
+    "Positive-power reserve, response time, thermal limits and flight endurance remain unknown."
+  ],
+  "sources": [
+    "https://ntrs.nasa.gov/api/citations/20170011656/downloads/20170011656.pdf",
+    "https://ntrs.nasa.gov/api/citations/20230003601/downloads/NASA%20TP-20220000355%20appxA.pdf"
+  ]
+}

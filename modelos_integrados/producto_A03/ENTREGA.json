@@ -1,0 +1,142 @@
+{
+  "part_count_per_scale": 178,
+  "files": [
+    {
+      "path": "2kg/A03_corte.step",
+      "sha256": "31425683d415da6947d7f939b9e6a22af95eed52b518d4539d96265404907113"
+    },
+    {
+      "path": "2kg/A03_exterior.stl",
+      "sha256": "7e573a73d611f4105252787900e9380d15608d6d684fe1a0acfb4144fa58e671"
+    },
+    {
+      "path": "2kg/lista_piezas.csv",
+      "sha256": "0e39bcaf4984eb58513611b45dd619a71c786d587fe6e2bcedb2998833663409"
+    },
+    {
+      "path": "2kg/manifest.json",
+      "sha256": "84afbbcdff87e0936d7645eac7028522bf7a3a92d7f4b96144c5d705e12f58e4"
+    },
+    {
+      "path": "2kg/A03_integrado.step",
+      "sha256": "14e8491d7bac27002081cd92b183dc8a54d8bba63379d1fbeba6edad9433c25f"
+    },
+    {
+      "path": "2kg/A03_integrado.glb",
+      "sha256": "73712baaf67f8c54aa39b2669e2dc94f61e9b5985e5742431006862ffb4f904c"
+    },
+    {
+      "path": "5kg/A03_corte.step",
+      "sha256": "d1bc8f9d2988356e207bc174d0c5d64fc775d62dc32a93b5ece17f4639eef5a5"
+    },
+    {
+      "path": "5kg/A03_exterior.stl",
+      "sha256": "4206d2e34325f344f2d1240667673a7784bb98dfe6944daaebe2f4a4e5e5f5a1"
+    },
+    {
+      "path": "5kg/lista_piezas.csv",
+      "sha256": "b0a153c4ccf5e40d78e8ee76103bd2dd6823c958f61403c3d8b8f110b60f9ed4"
+    },
+    {
+      "path": "5kg/manifest.json",
+      "sha256": "e1435730e5e26d6cb1cefd5d4b2f9980d82371250a176fb90d452ff198cbcc68"
+    },
+    {
+      "path": "5kg/A03_integrado.step",
+      "sha256": "41b17fbc784b0084e3df3a1dd2fe24f3504a950cb31a119b79d724a02133e44a"
+    },
+    {
+      "path": "5kg/A03_integrado.glb",
+      "sha256": "5c3868a1bd9e41b71bf87a277caa2eff2daafbfe4044eb037d1502357a9858f6"
+    },
+    {
+      "path": "10kg/A03_corte.step",
+      "sha256": "d9bb95ab1183ce06ba21eff4644b69fbe133bdf609d968cb8366339c0c5a060b"
+    },
+    {
+      "path": "10kg/A03_exterior.stl",
+      "sha256": "ea06a3ccce093acff0ad6e0911b7f4c98168eec28ab86dbb9e3629acb39174d7"
+    },
+    {
+      "path": "10kg/lista_piezas.csv",
+      "sha256": "1ad15a07c65d8a87191560e17e4d1835f3ec33b1fc9506ae5c820cd943cefcbd"
+    },
+    {
+      "path": "10kg/manifest.json",
+      "sha256": "655297dce4ebcc32d6e055dca7a909b679af2a58ecb76d68b37f666ce08d1dfa"
+    },
+    {
+      "path": "10kg/A03_integrado.step",
+      "sha256": "b94ec67698a166929382f4518bbf6e0919674c589de7c484c32494ae3934247a"
+    },
+    {
+      "path": "10kg/A03_integrado.glb",
+      "sha256": "4e2f206b3103dd90b4bc0e3baeeedc9350ffe46fc21e7fdf19f94667af46b8df"
+    },
+    {
+      "path": "LEEME.md",
+      "sha256": "0f19d4ca09309b68ba81fdcd411bbcc847e777e8a2967e0f31c8609f1b66f15d"
+    },
+    {
+      "path": "VERIFICACION.json",
+      "sha256": "a94e267aec0c0e8485dc7168054ba8675264d23a2665397ad088c5b42382318a"
+    },
+    {
+      "path": "dimensiones.csv",
+      "sha256": "be2f60511a0b7fc227d129ac644c0221928af2570f635298dd2a646f2cb907f2"
+    },
+    {
+      "path": "crear_A03.py",
+      "sha256": "2e9d66a54e0be6fce33aefa62ff0911e4827c8325d578328ae609bcd1db8bc95"
+    },
+    {
+      "path": "render_A03.py",
+      "sha256": "d3afbd67540f05f42bb29bec8a9605aa471e578610d4505b575003c063adde36"
+    },
+    {
+      "path": "preparar_entrega.py",
+      "sha256": "5b45e6f12695d4cbeeb6edd3dd8b7b24945bbf3a35b4f5ad644823c6904cd1e6"
+    },
+    {
+      "path": "A03_5kg_interior.png",
+      "sha256": "7f8b419878ad93a52e8f6686021fa1a6ecd45711e7f06eaec6d3ff7ce78b32ae"
+    },
+    {
+      "path": "A03_5kg_hero.png",
+      "sha256": "ef9d6a781b42663ea5264cb26827b32b63fc874608c3e416d6f6c6098614dd76"
+    },
+    {
+      "path": "A03_5kg_posterior.png",
+      "sha256": "c3af51856c4cf90a1dd497a7cd4e651f5e6bb7b06a6a04d63434438ec2a4b9d0"
+    },
+    {
+      "path": "render_5kg_hero.json",
+      "sha256": "c5dc90895e0525b94602e366e3e3df8363d8d3247755abca3d1dfc9a2e77fdda"
+    },
+    {
+      "path": "render_5kg_posterior.json",
+      "sha256": "1c1c20128318c29c389cfeff878358d13e53c07049884a214fc0c8bbd2ef3ffe"
+    },
+    {
+      "path": "render_5kg_interior.json",
+      "sha256": "b9e2f970ecadb9c1b0a28765b7d852383bda5897062d5cb5274d25d4fd3954bc"
+    },
+    {
+      "path": "referencias/envolvente_cerrada_referencia.step",
+      "sha256": "574f91d9e24d83d1326b62d119f7952ae49b0f78d822cae8ab136819b99f8e30"
+    },
+    {
+      "path": "referencias/diseno_industrial_v2.py",
+      "sha256": "fa291b01b573380a1540527673ebf766791fdc9c564c04dcd5439127c817ffa2"
+    },
+    {
+      "path": "referencias/reserva_axial_60mm.step",
+      "sha256": "d96d94fd5a9b9f177279da3a70c052faedcbdf02f6ccb3e5fbad0b4b62699fd1"
+    },
+    {
+      "path": "REVISION_ENTREGA.json",
+      "sha256": "3b097ba925a3b11c992e0b45fabe3202fd2c7cc3ea8d9bbf4688e02ef5b858fe"
+    }
+  ],
+  "physical_validation": false
+}

@@ -1,0 +1,4122 @@
+{
+  "generated_utc": "2026-11-11T08:38:28.244022+00:00",
+  "source": "/Users/sam/Library/Mobile Documents/.Trash/investigacion-aeronautica",
+  "checkout": "/Users/sam/Repositories/Thunderbird",
+  "scope": "Source *.md files; byte reading, UTF-8 decoding and SHA-256 only",
+  "groups": {
+    "(root)": 23,
+    "CFD": 11,
+    "ejecucion": 80,
+    "entregas": 1,
+    "fuentes": 3,
+    "integracion_antigravity": 95,
+    "integracion_apps": 213,
+    "modelos_integrados": 60,
+    "plan_maestro": 1,
+    "simulacion_vuelo_A": 1,
+    "vuelo_rapido_visual": 1
+  },
+  "comparison": {
+    "identical": 46,
+    "missing": 443
+  },
+  "source_read_errors": 0,
+  "files": [
+    {
+      "path": "ALA-ANULAR-CONTRASTE.md",
+      "source": {
+        "bytes": 7111,
+        "sha256": "43486e219f9328b58bdd09b6406fbbd9a13a96b91fb5d98524d46852656d2a51"
+      },
+      "checkout": {
+        "bytes": 7111,
+        "sha256": "43486e219f9328b58bdd09b6406fbbd9a13a96b91fb5d98524d46852656d2a51"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "AVANCE-A-TRANSONICO-EVIDENCIA-Y-MALLA.md",
+      "source": {
+        "bytes": 4443,
+        "sha256": "b98df1ccef6d62b8def73d988590da33c3df94fe7a587624c69bf39f7808e4a7"
+      },
+      "checkout": {
+        "bytes": 4443,
+        "sha256": "b98df1ccef6d62b8def73d988590da33c3df94fe7a587624c69bf39f7808e4a7"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CANDIDATOS-CONCRETOS.md",
+      "source": {
+        "bytes": 5115,
+        "sha256": "d3b32582404b88e4a616865c9c732c23c7befc96cb75179a10eea53373e54b78"
+      },
+      "checkout": {
+        "bytes": 5115,
+        "sha256": "d3b32582404b88e4a616865c9c732c23c7befc96cb75179a10eea53373e54b78"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/ESTADO-AVANCE-COMPRESIBLE.md",
+      "source": {
+        "bytes": 6592,
+        "sha256": "40381080f920d8c32378ecd06d1bacd3dec2e4ea5e2bdeb5d0355b9876dc9f32"
+      },
+      "checkout": {
+        "bytes": 6592,
+        "sha256": "40381080f920d8c32378ecd06d1bacd3dec2e4ea5e2bdeb5d0355b9876dc9f32"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/ESTADO-CFD.md",
+      "source": {
+        "bytes": 5667,
+        "sha256": "f02268fc7111614539b39ec64ad1e1832bac881b36641f53d7a57cb8a782ec6e"
+      },
+      "checkout": {
+        "bytes": 5667,
+        "sha256": "f02268fc7111614539b39ec64ad1e1832bac881b36641f53d7a57cb8a782ec6e"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/ESTADO-COMPARACION-PAREADA.md",
+      "source": {
+        "bytes": 3117,
+        "sha256": "cd9c31c1f7a0eb6d489645a06cbbf3d85f63250a51bc46df050e73f9b1e81b6a"
+      },
+      "checkout": {
+        "bytes": 3117,
+        "sha256": "cd9c31c1f7a0eb6d489645a06cbbf3d85f63250a51bc46df050e73f9b1e81b6a"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/ESTADO-SALIDA-EXTERIOR.md",
+      "source": {
+        "bytes": 4016,
+        "sha256": "bf7a1ea0340695d32519268f651e5832983158f2de3ec6916f7620b5a94f9480"
+      },
+      "checkout": {
+        "bytes": 4016,
+        "sha256": "bf7a1ea0340695d32519268f651e5832983158f2de3ec6916f7620b5a94f9480"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/ESTADO-TRANSITORIO.md",
+      "source": {
+        "bytes": 8431,
+        "sha256": "2aaa9eed1b6112627960c7f4422dfe2d5ad3dbadd9181232c5997b22e107ac17"
+      },
+      "checkout": {
+        "bytes": 8431,
+        "sha256": "2aaa9eed1b6112627960c7f4422dfe2d5ad3dbadd9181232c5997b22e107ac17"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/INFORME-BALANCE-EXTERIOR-PARCIAL.md",
+      "source": {
+        "bytes": 3006,
+        "sha256": "8fdc02ae2c89fcb537b90f5f1283dc4c3fbffba20dd70cfa292378c917f6b2e9"
+      },
+      "checkout": {
+        "bytes": 3006,
+        "sha256": "8fdc02ae2c89fcb537b90f5f1283dc4c3fbffba20dd70cfa292378c917f6b2e9"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/INFORME-BALANCE-MOMENTO.md",
+      "source": {
+        "bytes": 2869,
+        "sha256": "8572abed55cd5271b433766bdaead1c905439b743ef5b1bc8cea53a264cf5c5a"
+      },
+      "checkout": {
+        "bytes": 2869,
+        "sha256": "8572abed55cd5271b433766bdaead1c905439b743ef5b1bc8cea53a264cf5c5a"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/INFORME-COMPARACION-PARCIAL.md",
+      "source": {
+        "bytes": 2532,
+        "sha256": "936731e01f4c2fdb20979704925bad7e74bbfcb6b675ea07fdebdeaa80994d8f"
+      },
+      "checkout": {
+        "bytes": 2532,
+        "sha256": "936731e01f4c2fdb20979704925bad7e74bbfcb6b675ea07fdebdeaa80994d8f"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/INFORME-CONVERGENCIA-AVANCE-A.md",
+      "source": {
+        "bytes": 5003,
+        "sha256": "1ef061dbc8e9bc5310bf3ea4e161fac480b75f8b0b791706d41821769a357589"
+      },
+      "checkout": {
+        "bytes": 5003,
+        "sha256": "1ef061dbc8e9bc5310bf3ea4e161fac480b75f8b0b791706d41821769a357589"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/INFORME-REACCION-CONDUCTO.md",
+      "source": {
+        "bytes": 3300,
+        "sha256": "aafa806b4f607032c5e4bf2607b50937cc4dd6b157e9eb7769ae71d827f4b76b"
+      },
+      "checkout": {
+        "bytes": 3300,
+        "sha256": "aafa806b4f607032c5e4bf2607b50937cc4dd6b157e9eb7769ae71d827f4b76b"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CFD/LEEME.md",
+      "source": {
+        "bytes": 3068,
+        "sha256": "e1ab55a4002285ac7f36840d3de46c10aa24c8f66bf99dc35d99f499dcd0b5a5"
+      },
+      "checkout": {
+        "bytes": 3068,
+        "sha256": "e1ab55a4002285ac7f36840d3de46c10aa24c8f66bf99dc35d99f499dcd0b5a5"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "COMPARACION-INTEGRADA.md",
+      "source": {
+        "bytes": 7125,
+        "sha256": "32ac845695c4d3ea3450a5b89bffc4e742963caec1c87d26f7f14ca758ccc4d1"
+      },
+      "checkout": {
+        "bytes": 7125,
+        "sha256": "32ac845695c4d3ea3450a5b89bffc4e742963caec1c87d26f7f14ca758ccc4d1"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "COMPONENTES-5KG.md",
+      "source": {
+        "bytes": 4539,
+        "sha256": "a22c4a59eb400f12155da56609db33eca6c82611df4647a7dac0154a38e1e343"
+      },
+      "checkout": {
+        "bytes": 4539,
+        "sha256": "a22c4a59eb400f12155da56609db33eca6c82611df4647a7dac0154a38e1e343"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "CONTRASTE-NASA-TRANSONICO.md",
+      "source": {
+        "bytes": 1315,
+        "sha256": "41a1c3a7e4368dc086b1eb7b102f414e74d88335d661e73c0a00e510754bc99c"
+      },
+      "checkout": {
+        "bytes": 1315,
+        "sha256": "41a1c3a7e4368dc086b1eb7b102f414e74d88335d661e73c0a00e510754bc99c"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "DATOS-PARA-CERRAR-VALIDACION.md",
+      "source": {
+        "bytes": 7040,
+        "sha256": "9629a4127b9a2f162cdf910c1ba93f578473354c76502575c1ce9522c7009faa"
+      },
+      "checkout": {
+        "bytes": 7040,
+        "sha256": "9629a4127b9a2f162cdf910c1ba93f578473354c76502575c1ce9522c7009faa"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ESTADO-VERIFICACION-GLOBAL.md",
+      "source": {
+        "bytes": 75391,
+        "sha256": "f974a9b9c98a149865af166f87d6dfce800bb5f6b940e3b98473505c6268bd53"
+      },
+      "checkout": {
+        "bytes": 75391,
+        "sha256": "f974a9b9c98a149865af166f87d6dfce800bb5f6b940e3b98473505c6268bd53"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ESTRUCTURA-PRELIMINAR.md",
+      "source": {
+        "bytes": 7745,
+        "sha256": "ade0fc94a18aed62479cce306c0b4ff673aec915c5310c99d54089af2fdca586"
+      },
+      "checkout": {
+        "bytes": 7745,
+        "sha256": "ade0fc94a18aed62479cce306c0b4ff673aec915c5310c99d54089af2fdca586"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ETAPA-2-CONTROL.md",
+      "source": {
+        "bytes": 5995,
+        "sha256": "d61e08938cc1bbf59f39b51a2a14562ac18377b9698253f8c2f99249d6fa7a8a"
+      },
+      "checkout": {
+        "bytes": 5995,
+        "sha256": "d61e08938cc1bbf59f39b51a2a14562ac18377b9698253f8c2f99249d6fa7a8a"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ETAPA-3-DINAMICA.md",
+      "source": {
+        "bytes": 4725,
+        "sha256": "6b7e09d69372568e41f39fe04232984a4765f1663dc140650cea10916e021f79"
+      },
+      "checkout": {
+        "bytes": 4725,
+        "sha256": "6b7e09d69372568e41f39fe04232984a4765f1663dc140650cea10916e021f79"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "EVALUACION-INTEGRADA-ROTOR.md",
+      "source": {
+        "bytes": 8900,
+        "sha256": "2e14db8ec1434ff3b3a6c755047bfb89f0535aff6e8d1f821818de256721d033"
+      },
+      "checkout": {
+        "bytes": 8900,
+        "sha256": "2e14db8ec1434ff3b3a6c755047bfb89f0535aff6e8d1f821818de256721d033"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "FAMILIA-ESCALABLE.md",
+      "source": {
+        "bytes": 5839,
+        "sha256": "266c9e4ed9307496ce6f135b4b76d818f55b4eb32e0cd852fa3e7fd21bc9b07b"
+      },
+      "checkout": {
+        "bytes": 5839,
+        "sha256": "266c9e4ed9307496ce6f135b4b76d818f55b4eb32e0cd852fa3e7fd21bc9b07b"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "INFORME-CONSOLIDADO-VIABILIDAD.md",
+      "source": {
+        "bytes": 16360,
+        "sha256": "59dd48b5260c4ea6f0f22516b0f1dd39455a52ff14d35818f4c1e0cda281db5d"
+      },
+      "checkout": {
+        "bytes": 16360,
+        "sha256": "59dd48b5260c4ea6f0f22516b0f1dd39455a52ff14d35818f4c1e0cda281db5d"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "LEEME.md",
+      "source": {
+        "bytes": 6728,
+        "sha256": "10f952e3898072f70a8ff5852506284d4735f46f7b7bf23d077d15da9d41e3a0"
+      },
+      "checkout": {
+        "bytes": 6728,
+        "sha256": "10f952e3898072f70a8ff5852506284d4735f46f7b7bf23d077d15da9d41e3a0"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "PALA-DE-REFERENCIA.md",
+      "source": {
+        "bytes": 5311,
+        "sha256": "126f3e42e181c62fb7a99c5730ae18109720b118c43ca443f24ee2c116e181ee"
+      },
+      "checkout": {
+        "bytes": 5311,
+        "sha256": "126f3e42e181c62fb7a99c5730ae18109720b118c43ca443f24ee2c116e181ee"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "PREDIMENSIONADO-PALAS-Y-BUJE.md",
+      "source": {
+        "bytes": 5176,
+        "sha256": "33cd3b5d29a35077dce053ad188d63630f9623598e54f28ca3ab2c7a94812a2f"
+      },
+      "checkout": {
+        "bytes": 5176,
+        "sha256": "33cd3b5d29a35077dce053ad188d63630f9623598e54f28ca3ab2c7a94812a2f"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "REQUISITOS-MODULO-REVERSIBLE.md",
+      "source": {
+        "bytes": 5704,
+        "sha256": "9801031257601441450b8d90f13b76369308ccf762804255eee96afcd433afb9"
+      },
+      "checkout": {
+        "bytes": 5704,
+        "sha256": "9801031257601441450b8d90f13b76369308ccf762804255eee96afcd433afb9"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "REVISION-CON-POLARES-EXPERIMENTALES.md",
+      "source": {
+        "bytes": 4232,
+        "sha256": "d2d086e65a00fa53168680a889caa1c1400422852aa04d3cc4e65b6fa29c85cb"
+      },
+      "checkout": {
+        "bytes": 4232,
+        "sha256": "d2d086e65a00fa53168680a889caa1c1400422852aa04d3cc4e65b6fa29c85cb"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "REVISION-POTENCIA-Y-ESPACIO.md",
+      "source": {
+        "bytes": 5099,
+        "sha256": "5b29bd6a8d12313b5e342a3064d598db107052611a7821bfd0632db0ebd23038"
+      },
+      "checkout": {
+        "bytes": 5099,
+        "sha256": "5b29bd6a8d12313b5e342a3064d598db107052611a7821bfd0632db0ebd23038"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "TOMAS-Y-EMPUJE-INSTALADO.md",
+      "source": {
+        "bytes": 7861,
+        "sha256": "1b325add32c5b62b624de88de0b9b6778f0f453e48712630b7b30b565d7bb9d5"
+      },
+      "checkout": {
+        "bytes": 7861,
+        "sha256": "1b325add32c5b62b624de88de0b9b6778f0f453e48712630b7b30b565d7bb9d5"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "TRANSICION-Y-SUSTENTACION.md",
+      "source": {
+        "bytes": 9730,
+        "sha256": "a6b9b8a5cf0c7c1d5ac08bdc18687ad17cc807ae92e084581bcbad247cdc8215"
+      },
+      "checkout": {
+        "bytes": 9730,
+        "sha256": "a6b9b8a5cf0c7c1d5ac08bdc18687ad17cc807ae92e084581bcbad247cdc8215"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "TRIMADO-Y-GEOMETRIA-VARIABLE.md",
+      "source": {
+        "bytes": 11024,
+        "sha256": "f66af5a4c7aee2dc0d5d67e6758f400b3eb8947aae275be06b59dfa8d23f3047"
+      },
+      "checkout": {
+        "bytes": 11024,
+        "sha256": "f66af5a4c7aee2dc0d5d67e6758f400b3eb8947aae275be06b59dfa8d23f3047"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G0/INFORME-BENCHMARK.md",
+      "source": {
+        "bytes": 3600,
+        "sha256": "247b0d33ee26695a0f11f5f99178dc7aa10dc0996072b997fe7e95e2411d19ea"
+      },
+      "checkout": {
+        "bytes": 3600,
+        "sha256": "247b0d33ee26695a0f11f5f99178dc7aa10dc0996072b997fe7e95e2411d19ea"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G1/aceleracion_ideal_2_5_10/INFORME.md",
+      "source": {
+        "bytes": 3168,
+        "sha256": "f2cc72f4a11d8f9574da7c302bf1159052af474ae6bfe804409ba1b82848e7c3"
+      },
+      "checkout": {
+        "bytes": 3168,
+        "sha256": "f2cc72f4a11d8f9574da7c302bf1159052af474ae6bfe804409ba1b82848e7c3"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G1/decision_integrada_c02/INFORME.md",
+      "source": {
+        "bytes": 7091,
+        "sha256": "ea2a0f4fb5b7d90c648dc2fdf563de6cf3f1d462a1dfa85d29e2caad4ffca4c8"
+      },
+      "checkout": {
+        "bytes": 7091,
+        "sha256": "ea2a0f4fb5b7d90c648dc2fdf563de6cf3f1d462a1dfa85d29e2caad4ffca4c8"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G1/potencia_simultanea_c02/INFORME.md",
+      "source": {
+        "bytes": 6600,
+        "sha256": "d7b724afd7b48b7058a1d1969afa4b869f14629d709d72e30f3170f03ee1627a"
+      },
+      "checkout": {
+        "bytes": 6600,
+        "sha256": "d7b724afd7b48b7058a1d1969afa4b869f14629d709d72e30f3170f03ee1627a"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G2/INFORME-C01.md",
+      "source": {
+        "bytes": 11805,
+        "sha256": "76db64b47984145875c4b3954de4cfcd6417d8606160bf4c916ad2e04a98df6e"
+      },
+      "checkout": {
+        "bytes": 11805,
+        "sha256": "76db64b47984145875c4b3954de4cfcd6417d8606160bf4c916ad2e04a98df6e"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G2/INFORME-CAUDAL-LIBRE.md",
+      "source": {
+        "bytes": 3831,
+        "sha256": "c73b585cb5e1f2fd76784b6f4209bf1dcbc110b4310fba32adfce4e72e50d1a5"
+      },
+      "checkout": {
+        "bytes": 3831,
+        "sha256": "c73b585cb5e1f2fd76784b6f4209bf1dcbc110b4310fba32adfce4e72e50d1a5"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G2/INFORME-COBERTURA-POLAR-C02.md",
+      "source": {
+        "bytes": 6077,
+        "sha256": "e0c2b020986d7fc445e5c66f3a136c1a7cce077129966bb764eaa4d6c96f30a4"
+      },
+      "checkout": {
+        "bytes": 6077,
+        "sha256": "e0c2b020986d7fc445e5c66f3a136c1a7cce077129966bb764eaa4d6c96f30a4"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G2/INFORME-LEY-LOCAL-C02.md",
+      "source": {
+        "bytes": 5268,
+        "sha256": "360a5eb237fcab6f1fb228056c35a101cd9eb5ea383c407ccaaaaffdcfa0f72c"
+      },
+      "checkout": {
+        "bytes": 5268,
+        "sha256": "360a5eb237fcab6f1fb228056c35a101cd9eb5ea383c407ccaaaaffdcfa0f72c"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/INFORME.md",
+      "source": {
+        "bytes": 4849,
+        "sha256": "614447cd19f42dea854575bc6f4e23db54df93d3b829ee1aba79d17193a2d1d0"
+      },
+      "checkout": {
+        "bytes": 4849,
+        "sha256": "614447cd19f42dea854575bc6f4e23db54df93d3b829ee1aba79d17193a2d1d0"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/LICENSE_CCBlade.md",
+      "source": {
+        "bytes": 1161,
+        "sha256": "b72c0e118614427c6b92d21a9a1b64a540f0df9501b6a8014a3542e11434565d"
+      },
+      "checkout": {
+        "bytes": 1161,
+        "sha256": "b72c0e118614427c6b92d21a9a1b64a540f0df9501b6a8014a3542e11434565d"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_bem_publico/tutorial_reference.md",
+      "source": {
+        "bytes": 8685,
+        "sha256": "f93635c9f769435421badf4b34417453443227e48b4c7480024086e9456df753"
+      },
+      "checkout": {
+        "bytes": 8685,
+        "sha256": "f93635c9f769435421badf4b34417453443227e48b4c7480024086e9456df753"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_cv_no_uniforme/INFORME.md",
+      "source": {
+        "bytes": 4348,
+        "sha256": "295c559fa94ca7a1218d3a8ce46688d842dafe64240f2b6f442057ee4afda898"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_cv_uniforme/INFORME.md",
+      "source": {
+        "bytes": 2128,
+        "sha256": "8fc2dfa342d28506d9bbdfef8b83778d3d7a36674c63b7d7440ce9bd96348afa"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_salto/LEEME.md",
+      "source": {
+        "bytes": 2097,
+        "sha256": "948c51fd0902411936cb1a0eca8a4ef0ce65b3fa79869d6d74f6f9aebcc4f04a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-F1N-PRELIMINAR.md",
+      "source": {
+        "bytes": 4462,
+        "sha256": "443347eb00fdf8ce5b3511dabada648142f59e336970713cb8769050e7b03af7"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-FINA-800.md",
+      "source": {
+        "bytes": 3698,
+        "sha256": "a4cdbad0e94310dfb1e27cbc07efb0dd5de85ef806e0361bf198aeb43fcd93be"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-FLUJO-MECANICO.md",
+      "source": {
+        "bytes": 1922,
+        "sha256": "5c78f165e13dad769ca559ada04ca243100c0b267f1f10ff56ab0f89ea0e07d5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-FUENTE-AXIAL.md",
+      "source": {
+        "bytes": 5075,
+        "sha256": "491eefa2b31710adfd38be6e7812210aed97f165e1b3486ea7b2a366a153d162"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-GRADIENTE-Y-R7.md",
+      "source": {
+        "bytes": 4724,
+        "sha256": "6de91a44df115754d43e048b013c0f13e0cd8db35cd1a4c713446b08410b26f7"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-INTEGRIDAD-COPIAS.md",
+      "source": {
+        "bytes": 11060,
+        "sha256": "4965d3ea564598369bb17c70efd9b8ca747cdf389ccecd4b6c4a37e6ebd518d6"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-MALLA-FINA-R1.md",
+      "source": {
+        "bytes": 4429,
+        "sha256": "848e5ca0f86e191c23bdb7bd0d7bf3c47727fb0ba843fe2218066e91148b77a3"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-R5-TERMINADO.md",
+      "source": {
+        "bytes": 5068,
+        "sha256": "503d9cf94769a7aab9bac2c8e30020199c5bf8c57d4fb84fd935d7f5e602eef2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-R6-TERMINADO.md",
+      "source": {
+        "bytes": 3718,
+        "sha256": "0576ce223967542d37e7d0c63722c8eecc67c9f1a4695a84d626a6aa5533c40e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-R8-TERMINADO.md",
+      "source": {
+        "bytes": 1979,
+        "sha256": "848bf3cd3ccc5cf3924a41bfcacbacad4b83c7444b86c53eac7df1ba64949b56"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-R9-TERMINADO.md",
+      "source": {
+        "bytes": 3675,
+        "sha256": "54cd7466fa47897f06e249f80c76bbffd6b9f53ccd04a91a4c687571906c7524"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-SNAPSHOT-R8.md",
+      "source": {
+        "bytes": 3814,
+        "sha256": "1decffd054c20419e585e051ea6b921efb8503ce4c14e4722439075caea4edab"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-ZONAS-ACTUADOR.md",
+      "source": {
+        "bytes": 2261,
+        "sha256": "f01f879a33469e6f79981d24b9901331bda6aa6d6f30f92b234be7009f7faae4"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME.md",
+      "source": {
+        "bytes": 8746,
+        "sha256": "f6641aa4dd36f21e8bfa0d61482934327b8a408d5b7638ebf19f038c39c79386"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/PROTOCOLO-CAUDAL-LIBRE.md",
+      "source": {
+        "bytes": 5213,
+        "sha256": "e77aa8ea795406c47eb7761ffe4e1d16a52e265ec536adfe971abebfc132b0ac"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_auditoria_fina_300_2026-11-04/INFORME-INTEGRIDAD-COPIAS.md",
+      "source": {
+        "bytes": 7969,
+        "sha256": "50b6842863ae88a742cd0e4c4110f4efb42616dcc865bc2536f1c87e0e690cb3"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_deposito_p02_2026-11-04/ESTADO-VERIFICACION-GLOBAL.md",
+      "source": {
+        "bytes": 51631,
+        "sha256": "3d5bfd87204f3c3a8b85c2b44ffee9185626995f5ce849e439626a313a3a662e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_deposito_p02_2026-11-04/PROTOCOLO-CAUDAL-LIBRE.md",
+      "source": {
+        "bytes": 4396,
+        "sha256": "0f1224661e78162f637904bfb4a755bf42f9b14e38f9f8f8ac6233b516b0496c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_fuente_axial_r2/INFORME-FUENTE-AXIAL.md",
+      "source": {
+        "bytes": 5075,
+        "sha256": "491eefa2b31710adfd38be6e7812210aed97f165e1b3486ea7b2a366a153d162"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_integridad_copias_2026-11-04/ESTADO-VERIFICACION-GLOBAL.md",
+      "source": {
+        "bytes": 52002,
+        "sha256": "900b17d76ea9424c0609fa30bdf8e2a7187261030b5cd5bc7c805501b869c05e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_integridad_copias_2026-11-04/INFORME-INTEGRIDAD-COPIAS.md",
+      "source": {
+        "bytes": 2899,
+        "sha256": "28ba15ada199a2629f23f313a0980decf973b419bba610c24a15d4a5b09e6315"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_r9_fina_f1n_2026-11-04/ESTADO-VERIFICACION-GLOBAL.md",
+      "source": {
+        "bytes": 50855,
+        "sha256": "9d5c89d3ef0f59e1ab9134e28a68f540e6e5f02b45560934a32d0d5bd35e8b49"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_r9_fina_f1n_2026-11-04/INFORME-F1N-PRELIMINAR.md",
+      "source": {
+        "bytes": 3496,
+        "sha256": "7e906386493bfd79a7d6e77265298d06dab7c9b4004dd33a116af87a77b08dae"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_r9_fina_f1n_2026-11-04/INFORME-MALLA-FINA-R1.md",
+      "source": {
+        "bytes": 3475,
+        "sha256": "7397fe789742ace4b1825558c72cd22b0d55338830aa4c27e4bf144ef6b0238c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/snapshot_r9_fina_f1n_2026-11-04/INFORME-R9-TERMINADO.md",
+      "source": {
+        "bytes": 3675,
+        "sha256": "54cd7466fa47897f06e249f80c76bbffd6b9f53ccd04a91a4c687571906c7524"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/referencia_nasa_edf/INFORME-VIENTO.md",
+      "source": {
+        "bytes": 4085,
+        "sha256": "e251e83bd89e327174c8359c2b10167e004890d3d405e1f977ca766614e3a6b0"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/referencia_nasa_edf/INFORME.md",
+      "source": {
+        "bytes": 5473,
+        "sha256": "dc13e79b73bc241c07992efeb75362a1ad82c357e2e74ba2f31fd400ca9fe20b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/referencia_uiuc_mi32_r1/avance/README.md",
+      "source": {
+        "bytes": 1032,
+        "sha256": "3e89e3b1daff716a052c0b517b1d10d9b1d9fa8f7bfffad509e4a284f072d598"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/referencia_uiuc_mi32_r1/estatico/README.md",
+      "source": {
+        "bytes": 1357,
+        "sha256": "14eb062bd72de7f4c703fe5bcd693f3d29547735324e241aa4bef066e7de551a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/snapshot_ley_local_caudal_2026-11-04/ESTADO-VERIFICACION-GLOBAL.md",
+      "source": {
+        "bytes": 51266,
+        "sha256": "98305e4e7209f51a96180668ffc14ae5d3e777c18ccd82d3d2f2e922ea15fd9b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/snapshot_ley_local_caudal_2026-11-04/INFORME-CAUDAL-LIBRE.md",
+      "source": {
+        "bytes": 3831,
+        "sha256": "c73b585cb5e1f2fd76784b6f4209bf1dcbc110b4310fba32adfce4e72e50d1a5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/snapshot_ley_local_caudal_2026-11-04/INFORME-F1N-PRELIMINAR.md",
+      "source": {
+        "bytes": 4462,
+        "sha256": "443347eb00fdf8ce5b3511dabada648142f59e336970713cb8769050e7b03af7"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/snapshot_ley_local_caudal_2026-11-04/INFORME-LEY-LOCAL-C02.md",
+      "source": {
+        "bytes": 4754,
+        "sha256": "525690c8163ac2ddc6ce94d85507aa74ed0882e4f6a2f550437e3aa8904eb6c9"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/snapshot_ley_local_caudal_2026-11-04/INFORME-MALLA-FINA-R1.md",
+      "source": {
+        "bytes": 4429,
+        "sha256": "848e5ca0f86e191c23bdb7bd0d7bf3c47727fb0ba843fe2218066e91148b77a3"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/xfoil_sd8020/INFORME-UIUC-TRAZABILIDAD.md",
+      "source": {
+        "bytes": 3842,
+        "sha256": "ab636537701261031b0aac2bdb72dbdf69aa3b03d59d34bc6562976d8122ad49"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G2/xfoil_sd8020/INFORME-XFOIL-INICIAL.md",
+      "source": {
+        "bytes": 6604,
+        "sha256": "dd6e7456f423dc13d7c6d0315b020db0a3db247cd303d596ee180b6c1852f016"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G3/C02/INFORME-C02.md",
+      "source": {
+        "bytes": 10825,
+        "sha256": "2a3982a7315456faf143d1f0208cd6654668a2d72ff42c1649886b034dac5db1"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G3/DECISION-PROPULSION-PRELIMINAR.md",
+      "source": {
+        "bytes": 6261,
+        "sha256": "92e18d32b3501f3c28af57a95ca42737a9a07d6a89e860094ba84ab78b76c950"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/INFORME-NASA-SU2-FINA-R2.md",
+      "source": {
+        "bytes": 4780,
+        "sha256": "e25a4f45775f1d1814cc76d17e6358d69fd71ad3ecffab9f79c34d5916f13673"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/INFORME-NASA-SU2.md",
+      "source": {
+        "bytes": 10782,
+        "sha256": "dff7dcd2818b4326c7de5c1031205db016f6572c9b601f05cc38bc3fce0ecfdd"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/INFORME-R5-Y-REARRANQUE.md",
+      "source": {
+        "bytes": 6438,
+        "sha256": "f279d0cb8a9dc275793de46dda97cda70794c374baa1e9ae51f29155618c092d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/INFORME-SENSIBILIDAD-MODELO.md",
+      "source": {
+        "bytes": 3713,
+        "sha256": "4e520876862dfeb8521340d9e388b831eb803344000536ecd4d21f552d158e04"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/INFORME-SU2.md",
+      "source": {
+        "bytes": 6374,
+        "sha256": "6d2746a02a6688e180543e3820f32e35a913904bf5cd915a791585aabb967753"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/INFORME.md",
+      "source": {
+        "bytes": 7482,
+        "sha256": "91690c313f370087dae52ab61eea5f3be15de5dbe92561b4b612265ef595b0df"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G5/rotor_C02/INFORME.md",
+      "source": {
+        "bytes": 5651,
+        "sha256": "9ff99802f77e5663de5e3b3ec26ebca1d501eea2f1354ba8dee8c28587ad23df"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/autoridad_C02/INFORME-VERTICAL.md",
+      "source": {
+        "bytes": 4995,
+        "sha256": "7ea89b36c5b00143b6d0aa8ac0c31bf7028761405a294d95a4d78b37ecb9669b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/autoridad_C02/INFORME.md",
+      "source": {
+        "bytes": 5101,
+        "sha256": "143db927282820f98445713c5e066e2879577cc80c56dbfb24a6d267e8b44828"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/contrato_mapa_candidato_r1/DOCUMENTACION_INTERFAZ.md",
+      "source": {
+        "bytes": 19219,
+        "sha256": "632e86682b8698f27b196bc5552f924054d2dd2c9e8bbacda0bebac9c14d8877"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/contrato_mapa_candidato_r1/LEEME.md",
+      "source": {
+        "bytes": 1552,
+        "sha256": "9517ebc8d89260942b72667ff86a0bc084ed8c6697a564c78d71d81994386b1e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/potencia_cg_ideal/ESTADO-RESERVA-MOMENTOS.md",
+      "source": {
+        "bytes": 3028,
+        "sha256": "9cd2d5e37a482aa62dae7831d6075d21a80df0f3e2ea9ddb76a6560cae451062"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/potencia_cg_ideal/INFORME-ACELERACION-MOMENTOS.md",
+      "source": {
+        "bytes": 3621,
+        "sha256": "75c0f7b065abd95d4b5adfd8f92b000e6c304ca2bd61857aa868e6b1fc954c80"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/potencia_cg_ideal/INFORME-CONTRASTE-CONO-CONTINUO.md",
+      "source": {
+        "bytes": 3770,
+        "sha256": "5f7d8758359d477bf6fdd6417b1105df824232fb9119f03ce06ecaeb11f8d823"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/potencia_cg_ideal/INFORME-MASAS-INTEGRADAS.md",
+      "source": {
+        "bytes": 3440,
+        "sha256": "5e71bc8df669f0e1237ad63d00a12ecb7e5af4bd9d895801c2da091e3fff2663"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/potencia_cg_ideal/INFORME-POTENCIA-ASIGNACIONES.md",
+      "source": {
+        "bytes": 3378,
+        "sha256": "0e532cb4ff31012c41ddf1391f38625d3e8ebda8e0c40a9c91b42c2ebd0be775"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/potencia_cg_ideal/INFORME-SENSIBILIDAD-CONO.md",
+      "source": {
+        "bytes": 2946,
+        "sha256": "fb358d6610bef6db328b5fb176673123042c094f908ec9e291d9c3620055556b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/potencia_cg_ideal/INFORME.md",
+      "source": {
+        "bytes": 4637,
+        "sha256": "9d1b9bd1493469187bf579b653dd1930291f73f59f0f994b6d835c5da55dbd05"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/verificacion_6dof_antigravity_r1/INFORME_PRUEBAS_INTEGRADOR_6DOF.md",
+      "source": {
+        "bytes": 15215,
+        "sha256": "aab56319bb7307f4e02733d2dcb62e880110a3109f95e08c534d33edebc34f9f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/G6/verificacion_6dof_antigravity_r1/RESULTADO-2026-11-08.md",
+      "source": {
+        "bytes": 1171,
+        "sha256": "8ccb5cd2a6279294f42287f6b6dd5815cd98cae79b74acd60a6da40fb83bf12d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/INFORME-AVANCE-2026-11-03.md",
+      "source": {
+        "bytes": 6886,
+        "sha256": "faf2d7319ac7dd045a01c9e7f08f76ca6a82afd4eaffee785e22f507a530cfd6"
+      },
+      "checkout": {
+        "bytes": 6886,
+        "sha256": "faf2d7319ac7dd045a01c9e7f08f76ca6a82afd4eaffee785e22f507a530cfd6"
+      },
+      "comparison": "identical"
+    },
+    {
+      "path": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G2/flujo_C02_conducto/INFORME-SNAPSHOT-R8.md",
+      "source": {
+        "bytes": 3814,
+        "sha256": "1decffd054c20419e585e051ea6b921efb8503ce4c14e4722439075caea4edab"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/INFORME-NASA-SU2.md",
+      "source": {
+        "bytes": 10782,
+        "sha256": "dff7dcd2818b4326c7de5c1031205db016f6572c9b601f05cc38bc3fce0ecfdd"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/snapshots/NASA-C02-2026-11-03/ejecucion/G4/RAE2822/INFORME-SU2.md",
+      "source": {
+        "bytes": 6374,
+        "sha256": "6d2746a02a6688e180543e3820f32e35a913904bf5cd915a791585aabb967753"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ESTADO-VERIFICACION-GLOBAL.md",
+      "source": {
+        "bytes": 47657,
+        "sha256": "003bda694b72827e7b001408fabc18737ed39615c8de1bc6a21513ea9c958b3c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/INFORME-NASA-SU2-FINA-R2.md",
+      "source": {
+        "bytes": 3409,
+        "sha256": "2425f0c50cb6429c6740c91b6a948ce0b757d41eab7abc27e274ff7b399de643"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/snapshots/NASA-C02-2026-11-03-R3/ESTADO-VERIFICACION-GLOBAL.md",
+      "source": {
+        "bytes": 48048,
+        "sha256": "cf3fab279c4a7905abb19c1ae0e3054c3c826d3e2dcfd811338095a7838ed201"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "ejecucion/snapshots/NASA-C02-2026-11-03-R3/ejecucion/G4/RAE2822/INFORME-NASA-SU2-FINA-R2.md",
+      "source": {
+        "bytes": 4780,
+        "sha256": "e25a4f45775f1d1814cc76d17e6358d69fd71ad3ecffab9f79c34d5916f13673"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "entregas/CAD_actual_2026-11-04/LEEME.md",
+      "source": {
+        "bytes": 2303,
+        "sha256": "f623262b0eb09656b14c263536296f064d3c4b236e122ecb34d4bd9b167257c1"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "fuentes/benchmark_compresible/LEEME.md",
+      "source": {
+        "bytes": 1332,
+        "sha256": "18de1e6320058ac7bbf009a4aeb86fae6fe5c249cf19908083b9a2593a435e9a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "fuentes/benchmark_modulo/SELECCION.md",
+      "source": {
+        "bytes": 1201,
+        "sha256": "97f94790011d884e26c47eeafe946712b6385e2636ab63a52d0d105b4607242e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "fuentes/uiuc_propdb/NOTA-NASA-EDF.md",
+      "source": {
+        "bytes": 1699,
+        "sha256": "6da4e76950f8fc94aec9e17216fde93f2749c0e0a224ec1398394b3b96b35643"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/ESTADO-LOTE-AUTONOMO-01.md",
+      "source": {
+        "bytes": 2835,
+        "sha256": "100157905ac3c9c0b8489071531b97f82e54e93437e5cd57db7ee76593c9c97c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/ESTADO-ORQUESTACION-2026-11-07.md",
+      "source": {
+        "bytes": 5764,
+        "sha256": "df4aa60cf95f735ec2ff0defafe15403a23250e5c5200bf5c9c698f469209118"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/LEEME.md",
+      "source": {
+        "bytes": 8050,
+        "sha256": "d400a950aca51afe89665bcf61d3a97658cd58aa34b5c9bb54a838603208ffd2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/REVISION-LOTE-2026-11-07.md",
+      "source": {
+        "bytes": 2840,
+        "sha256": "ce1b90dddd53b9915bedfab99ed533584ce859984bf97ea13ef75b2645361fb6"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/INFORME_AUDITORIA_BOM.md",
+      "source": {
+        "bytes": 22986,
+        "sha256": "9bd05035bb299ea4c8a1bc5a77c90407e2ca8507d8d197ae850b2a8a49e31795"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_cfd/salidas/informe_verificacion_cfd.md",
+      "source": {
+        "bytes": 33595,
+        "sha256": "f0c208888b257c4f75a342a1b136c89f82de6c80c544433ca93170084cb5ac76"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/INFORME_EQUILIBRIO_CG.md",
+      "source": {
+        "bytes": 20323,
+        "sha256": "e8a963c51af9617519ed7fd6780600ea924d5e04a3562834ae6c554c101cf431"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cobertura_reynolds/salidas/INFORME_SENSIBILIDAD_CINEMATICA.md",
+      "source": {
+        "bytes": 16744,
+        "sha256": "0536a55fdf0f3c5a7092fe72695e10262eb8dd033933d0d793145e79d378f700"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/REPORTE_SENSIBILIDAD_ARRASTRE.md",
+      "source": {
+        "bytes": 29168,
+        "sha256": "f0ece77916341bc4740bfc449f3bb228d7b35df7282f34a533e92506e9f1050c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/estructura_rotor/salidas/INFORME_AUDITORIA_C02.md",
+      "source": {
+        "bytes": 22794,
+        "sha256": "b198eb562f67bbd053f8fde65a43dc2c6f91bdb5839cf72a2ea52bfd39854ebd"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/respuesta_ventilador/salidas/INFORME.md",
+      "source": {
+        "bytes": 26751,
+        "sha256": "d507a97f7551386c211bf6d7496071dbd5527aa3d2660a83af6ea36a53f98e4f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/respuesta_ventilador/salidas/tabla_comparativa.md",
+      "source": {
+        "bytes": 3724,
+        "sha256": "dae5709a6cdae5de0cf1c8fd75c74cf9ad78ff81d7dd148fd08408ea5a061e1d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/termica_motor/salidas/INFORME_SENSIBILIDAD_TERMICA.md",
+      "source": {
+        "bytes": 27131,
+        "sha256": "21f4203ada2102f7c992af781900f4a635c006204b94a417ddd5b83f16eae679"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/informe_tecnico_uiuc_avance.md",
+      "source": {
+        "bytes": 19719,
+        "sha256": "382bbbf31fd2e00e7372833bb7d0ee722ee40e70fe61915e46f888b286e06c60"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/INFORME.md",
+      "source": {
+        "bytes": 22971,
+        "sha256": "14ded362adc2888fc04356682a81db1dab6bcbf0126f65a41310a1fedc387305"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/recuperar_cfd/salidas/CORRECCIONES.md",
+      "source": {
+        "bytes": 15602,
+        "sha256": "c8b8b003f07c628bd73dd524eef5adb8e275ab7ff72b4dce73b1245bdea264b9"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/recuperar_jerk/salidas/INFORME-REVISADO.md",
+      "source": {
+        "bytes": 33113,
+        "sha256": "59730c4c1db8cdff8cad26e5320870bcf210b764c70011e3160cd8485dedcb2a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/recuperar_plan/salidas/INFORME-REVISADO.md",
+      "source": {
+        "bytes": 36594,
+        "sha256": "98e1fe55d223984fe7453a409dc59c51a97865c0ccaed196eee5a305ea3cc09c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_bom/salidas/REVISION.md",
+      "source": {
+        "bytes": 26486,
+        "sha256": "24b81ff5c31a1d6f453a4e30efb11a53bd264bba79db430b5b2a841165601d95"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_cg/salidas/REVISION.md",
+      "source": {
+        "bytes": 29934,
+        "sha256": "cde107ff127980af734e06f019da8cd38864f1bcc6da6e8738424a3b4f40b634"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_energia/salidas/REVISION.md",
+      "source": {
+        "bytes": 32186,
+        "sha256": "50d0277543708c881471f2203828089e69bb8fec862a21517503160ce3228b57"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_estructura/salidas/REVISION.md",
+      "source": {
+        "bytes": 27062,
+        "sha256": "564b3600aff6137095d4cc7afadfeffdbc09e14aa81dc414c9e7c2b17888fcda"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_polar/salidas/REVISION.md",
+      "source": {
+        "bytes": 17760,
+        "sha256": "a8714052bace3f5df2e264f83ae94a1040a98c6385ef935b9326c23405e6c46e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_respuesta/salidas/REVISION.md",
+      "source": {
+        "bytes": 20125,
+        "sha256": "52aad520629f2117f4e9b727cbc81dfd2a6f5f6f2adcf2057573343d17d2d091"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_respuesta/salidas/tabla_comparativa.md",
+      "source": {
+        "bytes": 3724,
+        "sha256": "dae5709a6cdae5de0cf1c8fd75c74cf9ad78ff81d7dd148fd08408ea5a061e1d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_termica/salidas/REVISION.md",
+      "source": {
+        "bytes": 32372,
+        "sha256": "625c7f95307d99cdad15cdcf39dcf18d04075b877ddc33adc2259873707c2b54"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_uiuc_avance/salidas/REVISION.md",
+      "source": {
+        "bytes": 29273,
+        "sha256": "06c6109a5e7fb326555506348dde78cf01658946163e76531d806f26cf6fe6d6"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_uiuc_estatico/salidas/REVISION.md",
+      "source": {
+        "bytes": 23839,
+        "sha256": "c188d11b7e2c8978dd565bb29e15afb7a8b06d219bb76e3fcaea79893f125f94"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T034438Z_bcd29140/prueba_nasa/salidas/prueba.md",
+      "source": {
+        "bytes": 1073,
+        "sha256": "6ba74269cb607fac1fead28c59daeffd18558a791fda2449ba3e05a7ef8e6103"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/contraste_nasa_edf/salidas/INFORME_CONTRASTE_NASA_C02.md",
+      "source": {
+        "bytes": 21493,
+        "sha256": "19940eb1dbc411ae5982c1855a7d933570426e76c20651b7bf519e4175d98f20"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/contraste_nasa_edf/salidas/tabla_comparativa.md",
+      "source": {
+        "bytes": 5176,
+        "sha256": "aec2b7a23ce9b0240bc1033034c65c668fb5bad2ef2e48fbe25059cb17833349"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/escalado_2_5_10/salidas/INFORME_ESCALADO_2_5_10.md",
+      "source": {
+        "bytes": 21211,
+        "sha256": "6d69ee3172315cccdbef9f69434e4d029ad5507bede2b8f92b75d37bc21b7173"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/escalado_2_5_10/salidas/TABLA_ESTACIONARIO_COMPARADA.md",
+      "source": {
+        "bytes": 1082,
+        "sha256": "865f1897d16af109df6800d8522eac21f6a3b9feefa73700f7fb14033041bb65"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/margen_control_estatico/salidas/INFORME_SENSIBILIDAD_RESERVA.md",
+      "source": {
+        "bytes": 19960,
+        "sha256": "8eb0046cceea2442bbc882c07b2bb780909623e6d0e9e907ec6fd87b9a5af65a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/reversibilidad_necesaria/salidas/INFORME_REVERSIBILIDAD_DESCENDENTE.md",
+      "source": {
+        "bytes": 21930,
+        "sha256": "9bcb45e905c3170e96fb890b55fb591c265d07df1a166cb481182c2248bcbfc7"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035257Z_b042f471/reintento_recuperar_jerk/salidas/INFORME-REVISADO.md",
+      "source": {
+        "bytes": 17751,
+        "sha256": "b19df32d67ff3c3b2c14c5344ae30e36a69cc2c5deebd4e6cce6f87eec3c7ca9"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035257Z_b042f471/reintento_revisar_cg/salidas/INFORME_EQUILIBRIO_CG.md",
+      "source": {
+        "bytes": 20323,
+        "sha256": "e8a963c51af9617519ed7fd6780600ea924d5e04a3562834ae6c554c101cf431"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035257Z_b042f471/reintento_revisar_cg/salidas/REVISION.md",
+      "source": {
+        "bytes": 14807,
+        "sha256": "8aa62c30c8ef9a9b0739b79adc3426470eaaf05f9f87a4ad860903dd314159f7"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035257Z_b042f471/reintento_revisar_energia/salidas/REPORTE_SENSIBILIDAD_ARRASTRE.md",
+      "source": {
+        "bytes": 29179,
+        "sha256": "add1f92aa77a54a2b1940bf0875f7c4c8363c19243d04fb4f3e3fcfe5bc4588e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035257Z_b042f471/reintento_revisar_energia/salidas/REVISION.md",
+      "source": {
+        "bytes": 25428,
+        "sha256": "f63941c44e48043708946c53a48357a31304bf600a0a6391a00c3adb92ba9a87"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035257Z_b042f471/reintento_revisar_estructura/salidas/REVISION.md",
+      "source": {
+        "bytes": 19280,
+        "sha256": "df09ec299f34a9bf1f0ec0db08780dd406b49e07b7ac5fd4a6f975316fbcda27"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035257Z_b042f471/reintento_revisar_uiuc_avance/salidas/REVISION.md",
+      "source": {
+        "bytes": 16464,
+        "sha256": "ff37e8f18385e467d1bf2fda1713e3f53de634bca0575ef82a40da8d7a7eff23"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035257Z_b042f471/reintento_revisar_uiuc_avance/salidas/informe_tecnico_uiuc_avance.md",
+      "source": {
+        "bytes": 19791,
+        "sha256": "619e3f022f00c1cbb7d6336092312d80da738bb204ecfc53a258623aa54b0cdb"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035257Z_b042f471/reintento_revisar_uiuc_estatico/salidas/REVISION.md",
+      "source": {
+        "bytes": 19688,
+        "sha256": "845eda44e9168453c18803adca5bef879be1c31a37ee7d8dda005741c5a34a0d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035419Z_55aa97fb/corregir_bom_incertidumbre/salidas/DICTAMEN.md",
+      "source": {
+        "bytes": 30431,
+        "sha256": "aebf9cf847d11e22f3bb96d7d1236e67998c17cc1327fa68f9ccb3c21a39f0ed"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035419Z_55aa97fb/corregir_cfd_inventario/salidas/DICTAMEN.md",
+      "source": {
+        "bytes": 28816,
+        "sha256": "99b723fca3675b9e76b050553860273601a94a7f93be5aafa3102fe036b13849"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035419Z_55aa97fb/corregir_ejes_cg/salidas/DICTAMEN.md",
+      "source": {
+        "bytes": 25099,
+        "sha256": "26e4624f629d665c01b4e581e35b60a22d12a13f7fafbe3d58f147ff36a87861"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035419Z_55aa97fb/corregir_fuente_nasa/salidas/DICTAMEN.md",
+      "source": {
+        "bytes": 18476,
+        "sha256": "89975239b9d3af387d7685195f972dc9aa617408f6ce4e5bb64e47ca2fc1ec97"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035544Z_4fa5fa26/resumen_lotes/salidas/INFORME.md",
+      "source": {
+        "bytes": 15125,
+        "sha256": "8908ed54651f8072ee5adf6d668dabb22187b52e26a6f901feca07702ed0adb2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T035544Z_4fa5fa26/trazabilidad_fuentes/salidas/MANIFIESTO_FUENTES.md",
+      "source": {
+        "bytes": 17557,
+        "sha256": "d4ad6cc5155b992b13dd6ef1731a361d9da64817d76c32e2a141a76c7447ad0c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/auditoria_transicion_control/salidas/ESPECIFICACION_TECNICA_TRANSICION.md",
+      "source": {
+        "bytes": 37090,
+        "sha256": "4dfe3eca73847f9593a0c0dcf8124aa5247b75c1727a8557ee876c12884a38be"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/auditoria_transicion_control/salidas/TABLA_VERIFICACIONES_FUTURAS.md",
+      "source": {
+        "bytes": 9802,
+        "sha256": "b1e2f70d3d929d3c281ac1799c4bad035b916d6b38a15d20b10d5156acef2e69"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/auditoria_vuelo_seis_grados/salidas/INFORME_AUDITORIA_6DOF.md",
+      "source": {
+        "bytes": 42835,
+        "sha256": "d1813091fb8fec81f03e039539a956667a26bee04acba19499c86eb11160a126"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_dinamica_actuador/salidas/INFORME.md",
+      "source": {
+        "bytes": 25245,
+        "sha256": "53f880e62c05c80db13a8a7a4ceee4e89631b8e364dcb5a5ae105d4e22d84de0"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_dinamica_actuador/salidas/tabla_comparativa.md",
+      "source": {
+        "bytes": 3842,
+        "sha256": "0220a9f161232d76bdd243637fb6794628d6dd110498ee89f98a950b45a163ed"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_equilibrio_2d/salidas/INFORME_EQUILIBRIO_CG.md",
+      "source": {
+        "bytes": 25350,
+        "sha256": "b601fde006268aa5f5db43467e7afd83007ea3701ebdfd40984d0a4d5d4fab9e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_equilibrio_2d/salidas/README.md",
+      "source": {
+        "bytes": 6863,
+        "sha256": "b273a25ac4f2e35b16d85204d17a1250da14487d18904e953078aa546ef1e084"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_potencia_sensibilidad/salidas/README.md",
+      "source": {
+        "bytes": 6286,
+        "sha256": "17aa08a53127feff6fbec094de2cab1c04cb54662c61b857cb4de2be2afcd5d3"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_potencia_sensibilidad/salidas/REPORTE_SENSIBILIDAD_ARRASTRE.md",
+      "source": {
+        "bytes": 30511,
+        "sha256": "9921d2704f8ad831d2d243faf41d2e861e06e7f38cd01334a05e33b04cd2b134"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/informe_tecnico_uiuc_avance.md",
+      "source": {
+        "bytes": 26569,
+        "sha256": "f7da70b585a5bc1c185e217cbe05a9001bb0e933ad1b554b9e40347c6f5c01c2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/INFORME.md",
+      "source": {
+        "bytes": 23947,
+        "sha256": "c3b4d46522abf9b34302f3b7bc4edcdec1efdcd9efda60f5be8ec4c639cad053"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_estatico/salidas/README.md",
+      "source": {
+        "bytes": 8834,
+        "sha256": "ccd7e69cc9faccc52646b9932b297e942d95b320abd2298a5d97678aa850e796"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/integridad_masa_incertidumbre/salidas/README.md",
+      "source": {
+        "bytes": 8541,
+        "sha256": "05ab9037afbc9fabe315c85e790527414e6b9313bd941f508014ba7e8cbf2525"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/integridad_masa_incertidumbre/salidas/REVISION_AUDITORIA_INCERTIDUMBRE.md",
+      "source": {
+        "bytes": 17207,
+        "sha256": "17b19f22b3fe23801573b54883a6fedf74711d7009aba471ba387fe161a0e22f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040247Z_bdf31d84/auditoria_geometria_a07/salidas/AUDITORIA_A07_VS_C02.md",
+      "source": {
+        "bytes": 37344,
+        "sha256": "98a0b735e09db27665dabc887d4a06d34f4786e1e9d1aa736f3343c5cb1e7c13"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040247Z_bdf31d84/entregable_escalado/salidas/INFORME_ESCALADO_2_5_10.md",
+      "source": {
+        "bytes": 21992,
+        "sha256": "f6f1677a67acc07404b4df5d622f11a48fc39e38f3ba9c8f7f91e12c7f205ead"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040247Z_bdf31d84/entregable_escalado/salidas/README.md",
+      "source": {
+        "bytes": 10705,
+        "sha256": "62c00e5055ea0ebaa580e582097b7ef7b14a1e018b192ce804bf6a6e99b51a82"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040247Z_bdf31d84/entregable_escalado/salidas/TABLA_ESTACIONARIO_COMPARADA.md",
+      "source": {
+        "bytes": 1773,
+        "sha256": "e9f18f66dfcb5c9a137d7afdd272701d03606389a0256a635a91e122308153be"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040247Z_bdf31d84/entregable_fuerza_inversa/salidas/INFORME_TECNICO.md",
+      "source": {
+        "bytes": 24374,
+        "sha256": "c48408b9be842328ba2c716b42a146aa807b14fb6e9a02b594f1809364d4cd3e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040247Z_bdf31d84/entregable_fuerza_inversa/salidas/README.md",
+      "source": {
+        "bytes": 15333,
+        "sha256": "670288036da79e96807239330add0bc9f8a8f7bcd586be7bf39ca8d717c474fb"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040247Z_bdf31d84/revision_reserva_control/salidas/INFORME_AUDITORIA_RESERVA_CONTROL.md",
+      "source": {
+        "bytes": 26181,
+        "sha256": "abf9af684aeecba03e4acc21930cbcff0a1ba9de7f0967ddd429330125a37057"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040808Z_57ad9241/qa_uiuc_avance/salidas/README.md",
+      "source": {
+        "bytes": 6320,
+        "sha256": "678275724ae0d97a5afc0f970e27a381fb87db0ad6e89c483506b298675e9d55"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040808Z_57ad9241/qa_uiuc_avance/salidas/dictamen_auditoria_uiuc_avance.md",
+      "source": {
+        "bytes": 16527,
+        "sha256": "38f81a393217c7ab719fcfbe1d7184643ff9a75c4b3c92e68f907aac9145a03f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040808Z_57ad9241/qa_uiuc_avance/salidas/prueba/README.md",
+      "source": {
+        "bytes": 6320,
+        "sha256": "678275724ae0d97a5afc0f970e27a381fb87db0ad6e89c483506b298675e9d55"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040808Z_57ad9241/qa_uiuc_avance/salidas/prueba/informe_tecnico_uiuc_avance.md",
+      "source": {
+        "bytes": 26569,
+        "sha256": "f7da70b585a5bc1c185e217cbe05a9001bb0e933ad1b554b9e40347c6f5c01c2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040808Z_57ad9241/qa_uiuc_estatico/salidas/prueba/INFORME.md",
+      "source": {
+        "bytes": 23947,
+        "sha256": "c3b4d46522abf9b34302f3b7bc4edcdec1efdcd9efda60f5be8ec4c639cad053"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040808Z_57ad9241/qa_uiuc_estatico/salidas/prueba/README.md",
+      "source": {
+        "bytes": 8834,
+        "sha256": "ccd7e69cc9faccc52646b9932b297e942d95b320abd2298a5d97678aa850e796"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T040808Z_57ad9241/sintesis_control_fuentes/salidas/SINTESIS_TRAZABILIDAD_CONTROL_FUENTES.md",
+      "source": {
+        "bytes": 13433,
+        "sha256": "80eaff183e1c0be8c89281456d49178bf76130718258d173004c7f15cfee1cd5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041107Z_69dce893/cargas_compuertas/salidas/INFORME_CARGAS_COMPUERTA.md",
+      "source": {
+        "bytes": 22297,
+        "sha256": "92f9d83c6578df44f1e2d1b07c8e943ca4a2b1f77148ec09ebdbb0706b4391a8"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041107Z_69dce893/cargas_compuertas/salidas/tablas_cargas_compuerta.md",
+      "source": {
+        "bytes": 6409,
+        "sha256": "b6ac24c020e89b361d7161abf8d179267479344bd4c51dbb5b80d601e516f673"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041107Z_69dce893/cinematica_compuertas/salidas/INFORME_PARAMETRIZACION_A07.md",
+      "source": {
+        "bytes": 29792,
+        "sha256": "db09791a1883818a3bf2451865663a0652849875d69de883f2d62aaa3a386683"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041107Z_69dce893/fallos_compuerta/salidas/README.md",
+      "source": {
+        "bytes": 19642,
+        "sha256": "20d64517297ebf019209dc2ae6d0ca10916845cea4358bdf573137e3215f81ea"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041107Z_69dce893/perfil_mecanismo_tiempo/salidas/REPORTE_PERFILES_TIEMPO.md",
+      "source": {
+        "bytes": 29533,
+        "sha256": "e8a094c07f5996df759e3ccd4a2ba52407e57251f7ca330cd595f2a458484df9"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/DOCUMENTACION_INTERFAZ.md",
+      "source": {
+        "bytes": 19219,
+        "sha256": "632e86682b8698f27b196bc5552f924054d2dd2c9e8bbacda0bebac9c14d8877"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/README.md",
+      "source": {
+        "bytes": 18446,
+        "sha256": "ff4386bca644a90840402630692f316826f8384ad14e6db9bc84f956bf57ada3"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/tests_dinamica_6dof/salidas/INFORME_PRUEBAS_INTEGRADOR_6DOF.md",
+      "source": {
+        "bytes": 15215,
+        "sha256": "aab56319bb7307f4e02733d2dcb62e880110a3109f95e08c534d33edebc34f9f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041409Z_d51e2e3e/reporte_uiuc_sin_excesos/salidas/INFORME.md",
+      "source": {
+        "bytes": 3691,
+        "sha256": "1ce463e6d716644af25fe010ca1e3268a6bbbe9d4e773600791cd47fbbccce0a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041409Z_d51e2e3e/reporte_uiuc_sin_excesos/salidas/README.md",
+      "source": {
+        "bytes": 3107,
+        "sha256": "10ea247b1ffebb785cee4220b5328a4647c5d9939216704ba0bde88bd0165d9a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041458Z_3109091f/reporte_uiuc_avance_corregido/salidas/INFORME.md",
+      "source": {
+        "bytes": 3837,
+        "sha256": "cc9f8f817d0c108d70444f7e70ef433964043c88dea55ccd44dddb638a047089"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041458Z_3109091f/reporte_uiuc_avance_corregido/salidas/README.md",
+      "source": {
+        "bytes": 3231,
+        "sha256": "5fd2bc9cad4b974693813e3e839448d4f64d80ca7d6d6f1b27b74eddc4756d1b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T041925Z_9122d0a5/revision_cinematica_compuertas/salidas/INFORME_PARAMETRIZACION_A07.md",
+      "source": {
+        "bytes": 19309,
+        "sha256": "b71f81e5145405d95484d8cdaad6639054f3e41a7da6fde79da8759367646e20"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T042446Z_7e84fc3e/qa_contrato_mapa/salidas/prueba/DOCUMENTACION_INTERFAZ.md",
+      "source": {
+        "bytes": 19219,
+        "sha256": "632e86682b8698f27b196bc5552f924054d2dd2c9e8bbacda0bebac9c14d8877"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T042446Z_7e84fc3e/qa_contrato_mapa/salidas/prueba/investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/DOCUMENTACION_INTERFAZ.md",
+      "source": {
+        "bytes": 19219,
+        "sha256": "632e86682b8698f27b196bc5552f924054d2dd2c9e8bbacda0bebac9c14d8877"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T042639Z_caa58002/recuperar_disco_avance/salidas/prueba/INFORME.md",
+      "source": {
+        "bytes": 6600,
+        "sha256": "d7b724afd7b48b7058a1d1969afa4b869f14629d709d72e30f3170f03ee1627a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_antigravity/sesiones_aisladas/20261108T042639Z_caa58002/recuperar_disco_avance/salidas/prueba/investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md",
+      "source": {
+        "bytes": 6600,
+        "sha256": "d7b724afd7b48b7058a1d1969afa4b869f14629d709d72e30f3170f03ee1627a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/LEEME.md",
+      "source": {
+        "bytes": 3063,
+        "sha256": "6ff684472f652aaee1558fc867b73c02f123b1d2097441646a4cdb8d5b52efa5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/REPARACION-PARAVIEW.md",
+      "source": {
+        "bytes": 3488,
+        "sha256": "bd5a7fd1306ce82995867603cd8f9ad70e5a94714cbcf9e9d7463d9bd27b5a48"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/INFORME.md",
+      "source": {
+        "bytes": 3583,
+        "sha256": "85763f630a6ce4a030a949c09ffa5a9206d3fa4983094a493ad4ae7186842b35"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/eigen-pinned/eigen-d71c30c47858effcbd39967097a2d99ee48db464/.gitlab/issue_templates/Bug Report.md",
+      "source": {
+        "bytes": 2744,
+        "sha256": "542b96e712dac08e655e2775e4c3cca4c00dda61a1f6985babd367e440076a52"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/eigen-pinned/eigen-d71c30c47858effcbd39967097a2d99ee48db464/.gitlab/issue_templates/Feature Request.md",
+      "source": {
+        "bytes": 201,
+        "sha256": "81a9010c7f75d172b16531d8534b56828266099ca3fd150b44c6f44f4b74b1bc"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/eigen-pinned/eigen-d71c30c47858effcbd39967097a2d99ee48db464/.gitlab/merge_request_templates/Merge Request Template.md",
+      "source": {
+        "bytes": 1394,
+        "sha256": "0ca2180211fd115e6df0a5ed6a5dd390236fe54760113441e08c1f145f8a0102"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/eigen-pinned/eigen-d71c30c47858effcbd39967097a2d99ee48db464/README.md",
+      "source": {
+        "bytes": 288,
+        "sha256": "bda5d099bcf2136910e5eee166d924f84ba9162902122b51bfc73600ca99fae2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/eigen-pinned/eigen-d71c30c47858effcbd39967097a2d99ee48db464/ci/README.md",
+      "source": {
+        "bytes": 565,
+        "sha256": "549fb18d7abc927f90e93a6b7339aec0356168dc1b4735105a641a9bdcaeabfe"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/eigen-pinned/eigen-d71c30c47858effcbd39967097a2d99ee48db464/unsupported/Eigen/CXX11/src/Tensor/README.md",
+      "source": {
+        "bytes": 62363,
+        "sha256": "66e49b4d0b0124b48c75b35a5b81a242f2f395effca6246c7ed4f4f4f2968168"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/.github/ISSUE_TEMPLATE/bug_report.md",
+      "source": {
+        "bytes": 1243,
+        "sha256": "3f17981a2f8bdb2c554efed09fe2b3f574781cbc48283284feca8e2475c3fe09"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/.github/ISSUE_TEMPLATE/feature_request.md",
+      "source": {
+        "bytes": 623,
+        "sha256": "e279fca6e1706f763b60a3ce376c720f0943fd31ad92041957ba82cf70f26c76"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/.github/pull_request_template.md",
+      "source": {
+        "bytes": 1073,
+        "sha256": "09da7f3e8084e7be9e9dc40bad3086d99d1d9e9c5420794523a44e474264390d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/AUTHORS.md",
+      "source": {
+        "bytes": 3429,
+        "sha256": "bd2b76eada1999265ae26e89cc71759ba347bc69af2260ee588003b543fb9955"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/CODE_OF_CONDUCT.md",
+      "source": {
+        "bytes": 3574,
+        "sha256": "79044d7093ad8d4d7e0df26a7330575a0d1ad5176c4059a01f39975801acf6da"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/Docs/Aeroacoustics.md",
+      "source": {
+        "bytes": 3091,
+        "sha256": "322068fee05d58710878d15b5b3d89e6bb7fc7d620f71c70c15eb2a152c1a25f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/LICENSE.md",
+      "source": {
+        "bytes": 33393,
+        "sha256": "46ae25afd571da3e3761ff82ace5dc26b0b66cf514243379ac026ce094ba32cf"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/README.md",
+      "source": {
+        "bytes": 4921,
+        "sha256": "4dc1a9961cfa55a0066776628c464a03b7af293aabd1d0bf057acd27397ba2ec"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/SU2_CFD/flamelet_python_bc.md",
+      "source": {
+        "bytes": 8480,
+        "sha256": "ef5eda0d2cc1da21bb1a2a9986e7398a31f5039336c91753320b1f7b72771c7c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/TestCases/coupled_cht/disc_adj_unsteadyCHT_cylinder/README.md",
+      "source": {
+        "bytes": 1767,
+        "sha256": "d176bcd55070131c103c35dda19461a2d4df3efd31b240a5eb26e58789efa87d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/TestCases/deformation/cst/Readme.md",
+      "source": {
+        "bytes": 183,
+        "sha256": "17c9655ac6495bd3bc1b3bc5250bd7618596f34fc69589a138458de50bd17407"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/TestCases/flamelet/README.md",
+      "source": {
+        "bytes": 568,
+        "sha256": "168bc3f4575e65825c10a8807780e269c6c971fc1beace1a028585c220bece81"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/TestCases/incomp_navierstokes/streamwise_periodic/README.md",
+      "source": {
+        "bytes": 1289,
+        "sha256": "beae30bbc652a40a3d3f716a5d30b76ec9caf28b5b4d150d05a6b5cfe63cd633"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/TestCases/incomp_navierstokes/streamwise_periodic/chtPinArray_2d/README.md",
+      "source": {
+        "bytes": 1756,
+        "sha256": "af312f94c6662198af36f16da3a52269f9133f5ec16365c9fd284b0ff9762aa3"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/TestCases/optimization_euler/equivalentarea_naca64206/README.md",
+      "source": {
+        "bytes": 2560,
+        "sha256": "e73f2c9fadd780ce346a9659eba432eb1e9c95aa7d92637f949182865d1e26e7"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/TestCases/solid_heat_conduction/periodic_pins/README.md",
+      "source": {
+        "bytes": 742,
+        "sha256": "499ee992f821471fe766738475408f92802c8e3e1d0723d4cb8f373c56b9891a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/TestCases/species_transport/passive_transport_validation/README.md",
+      "source": {
+        "bytes": 165,
+        "sha256": "3570c2362a77e5512f117789ea6beb741fae3253cc090b577eee8bb89e305090"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/TestCases/species_transport/venturi_primitive_3species/README.md",
+      "source": {
+        "bytes": 2474,
+        "sha256": "a550df140a2638feadf0a168e888c6e28aee9558f4a63e24603314d50766d937"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/eigen/.gitlab/issue_templates/Bug Report.md",
+      "source": {
+        "bytes": 2744,
+        "sha256": "542b96e712dac08e655e2775e4c3cca4c00dda61a1f6985babd367e440076a52"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/eigen/.gitlab/issue_templates/Feature Request.md",
+      "source": {
+        "bytes": 201,
+        "sha256": "81a9010c7f75d172b16531d8534b56828266099ca3fd150b44c6f44f4b74b1bc"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/eigen/.gitlab/merge_request_templates/Merge Request Template.md",
+      "source": {
+        "bytes": 1394,
+        "sha256": "0ca2180211fd115e6df0a5ed6a5dd390236fe54760113441e08c1f145f8a0102"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/eigen/README.md",
+      "source": {
+        "bytes": 288,
+        "sha256": "bda5d099bcf2136910e5eee166d924f84ba9162902122b51bfc73600ca99fae2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/eigen/ci/README.md",
+      "source": {
+        "bytes": 565,
+        "sha256": "549fb18d7abc927f90e93a6b7339aec0356168dc1b4735105a641a9bdcaeabfe"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/eigen/unsupported/Eigen/CXX11/src/Tensor/README.md",
+      "source": {
+        "bytes": 62363,
+        "sha256": "66e49b4d0b0124b48c75b35a5b81a242f2f395effca6246c7ed4f4f4f2968168"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/mel/README.md",
+      "source": {
+        "bytes": 4791,
+        "sha256": "d5898810cf00a4837ce83839f280d9c53de6e9381308d9ee6953127f9e49dd6d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/.github/ISSUE_TEMPLATE/bug_report.md",
+      "source": {
+        "bytes": 809,
+        "sha256": "5de7ecb1807afd3ebb08d545155cc642c42f412d4c3c10b8faec98475ba4c162"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/README.md",
+      "source": {
+        "bytes": 3339,
+        "sha256": "6011a491613e4a2f009fe009f63ae78116b54c27cbc5630306846dfc6167eae9"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/contributing.md",
+      "source": {
+        "bytes": 325,
+        "sha256": "72d7ef07d33b033b0c9335056b1ec79dbe8569cb5bea164fb1fef3ec499ae29f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/README.md",
+      "source": {
+        "bytes": 856,
+        "sha256": "16321478b30fea75e8cc636de539c80740677d36995a27d969710e5e871910b3"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/ARM-performance-test.md",
+      "source": {
+        "bytes": 3702,
+        "sha256": "199f3136a80dca034bb09b5696e10ac6f189cc59aa7e3ddbacaddc025042775e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Adding-arguments.md",
+      "source": {
+        "bytes": 2246,
+        "sha256": "c5b6030436b3caad7d243d1540d01d892246d3502ca780324cb70dcbc4c8d86f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Adding-new-projects-to-wrapdb.md",
+      "source": {
+        "bytes": 6354,
+        "sha256": "258a0706a721f1c47af43825072b45971d7a32a1181fd6cfe8eae1881363310e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Additional.md",
+      "source": {
+        "bytes": 183,
+        "sha256": "a4a212cb29f8414d2f36e96bff9b8e686e8da99c363bdb3360eb22ff585a3b8d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Build-options.md",
+      "source": {
+        "bytes": 9158,
+        "sha256": "b5cfab35799bf102f046bbabcfc3bf7cafef2e048cdf1aa00bad11145ab75e30"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Build-system-converters.md",
+      "source": {
+        "bytes": 1153,
+        "sha256": "75edb3317791057148b09cae9dc45b030d33539020c68a2ace766f9b597fa35c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Build-targets.md",
+      "source": {
+        "bytes": 3579,
+        "sha256": "141884f64df0eaaaf51c7d1f2972efc6d0be00b4577862283a0696860054a922"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Builtin-options.md",
+      "source": {
+        "bytes": 28936,
+        "sha256": "f05c85a7fd83534cf7a64a761624618eb789e1747afa5a34ab5deea8712a8d99"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/CMake-module.md",
+      "source": {
+        "bytes": 10098,
+        "sha256": "157dd31d62a72295979c48055ce35ded94c9163d70f4ea96da1ae249cfc3221a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Code-formatting.md",
+      "source": {
+        "bytes": 2136,
+        "sha256": "f0580aaae71691135f15c02cca606b1af248085e1e926a372d1ec0f20a1bda43"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Commands.md",
+      "source": {
+        "bytes": 15522,
+        "sha256": "1f32c35a9b30bbb9fbbb4e88c8cb0080898be14a3a2f770e845d9693719d9f85"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Comparisons.md",
+      "source": {
+        "bytes": 2113,
+        "sha256": "fcbe499862319fc3e9b0785b547a1234ae40f36b68a55bc25d880da6387d1e30"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Compiler-properties.md",
+      "source": {
+        "bytes": 8571,
+        "sha256": "375fbc5481b53106d1236e15eba28ee91de00287288c3bffbb940284a8ae4a2a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Conference-presentations.md",
+      "source": {
+        "bytes": 1181,
+        "sha256": "151116341172c46da93c21847665180ed6cb5e81db913c9d088cf718cb4f2140"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Configuration.md",
+      "source": {
+        "bytes": 5554,
+        "sha256": "d724533e23edde38ec836ebca5ce30a0eb88cf68d4dcb592daa078d042b790de"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Configuring-a-build-directory.md",
+      "source": {
+        "bytes": 10421,
+        "sha256": "49e833c179526146548221e400fe86d5660fd8785f40d5e9bfd0a26b4649708c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Contact-information.md",
+      "source": {
+        "bytes": 550,
+        "sha256": "7cd8910ab329f66233d68c7134aa4195e0e2d3baab2cec85a0f3f4c20e414384"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Continuous-Integration.md",
+      "source": {
+        "bytes": 8270,
+        "sha256": "32770e2d0cbde3a46a03c03a0d0f345fdeedee2b34c0be578060b1455a878e86"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Contributing.md",
+      "source": {
+        "bytes": 25711,
+        "sha256": "f336a18458423ddae3f9f5e3802a6eb1a0aadf79a25d81306e947b317e098636"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Creating-Linux-binaries.md",
+      "source": {
+        "bytes": 4691,
+        "sha256": "4752aece8377d312ea180a19a21bab8b87008bcc2f5265e6c89ab7066a034e9e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Creating-OSX-packages.md",
+      "source": {
+        "bytes": 6626,
+        "sha256": "dc451000abbd06ba5b74b7c69551a76234b67a71fb196c80259c5cf8f1d935f2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Creating-releases.md",
+      "source": {
+        "bytes": 4214,
+        "sha256": "961a1283fee65545aa3a7d253e9877ac675bcef16ce83a87d85e780c82170e7c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Cross-compilation.md",
+      "source": {
+        "bytes": 14979,
+        "sha256": "8b2ebd94f4d59896cee25a6ab54b9c0faf152d4e1c0cb941e10efd992d64e279"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Cuda-module.md",
+      "source": {
+        "bytes": 6877,
+        "sha256": "46fb6e513c83c30a4f114fcd9c11db62b33b0243c2a2eff37383d2f735ae15fc"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Custom-build-targets.md",
+      "source": {
+        "bytes": 1497,
+        "sha256": "096856257e9597f17da5452c40fa61d63b35b1c614aaefdd28275bd7a7b729c4"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Cython.md",
+      "source": {
+        "bytes": 1655,
+        "sha256": "767d7fc70ece21e90ea4f9836fea52bf9a512a7874dd5208b950b11f910f65c1"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/D.md",
+      "source": {
+        "bytes": 4648,
+        "sha256": "241a304f36a89bfaa31809d6a22daf10188cc503a6120acb3b725af11f14611a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Dependencies.md",
+      "source": {
+        "bytes": 29400,
+        "sha256": "0c7933cbde5242a3e1e86b5c15223a1bbb09cc63a4f575c57d0ca16d601e04cc"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Design-rationale.md",
+      "source": {
+        "bytes": 11368,
+        "sha256": "3ed995ad09f43392663f127d984cde54eb5043298cb89f46ecf00e6f70662dd5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Disabler.md",
+      "source": {
+        "bytes": 1611,
+        "sha256": "2cd7f1d6922b241a76bbf19b94b789a85d5435fa47ba6956dc579dd33f645c14"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Dlang-module.md",
+      "source": {
+        "bytes": 1482,
+        "sha256": "ade12b9b922ab6c617502af4195f76a296629895fc25c66acdd21b8469d87610"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Donating.md",
+      "source": {
+        "bytes": 701,
+        "sha256": "5b89ec76a69a10cd78c51ea9a32a867c3e7f8c4e3921205265da4690a947f199"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/External-Project-module.md",
+      "source": {
+        "bytes": 6130,
+        "sha256": "d5e34b3a4e0b3de1c0b642471a1bbf960ce4b4cbcedda1bc6b34d017f7d9e83a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/External-commands.md",
+      "source": {
+        "bytes": 1939,
+        "sha256": "c821eea47614e4e0255a125e1065d215b4439351ab3165738bd51144938fcc93"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/FAQ.md",
+      "source": {
+        "bytes": 29996,
+        "sha256": "16621339131519d969ccd480e80d7029c82db0b89eb77909e2b93cb623cfc875"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Feature-autodetection.md",
+      "source": {
+        "bytes": 1649,
+        "sha256": "23ca8ad9e30483c4d6b0818ef50c34745acc984a0768e917fc658f7f95d8eafb"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Fs-module.md",
+      "source": {
+        "bytes": 6716,
+        "sha256": "66bd69f7c1eb2017645e6dae1b0b6096be79df9bacbaa10056237223ded824f5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Generating-sources.md",
+      "source": {
+        "bytes": 7084,
+        "sha256": "43434d52dde40daec70404f32eb8c628cd8361fe3fbdefa3e8f21ca688a7b9a8"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Getting-meson.md",
+      "source": {
+        "bytes": 4676,
+        "sha256": "1c82f277e20a4ce48954cdf98e8dd04d14724b49ac00b9be4a2b1643b5fbc2dc"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Getting-meson_ptbr.md",
+      "source": {
+        "bytes": 4919,
+        "sha256": "b2405631c034a42a59bd8dc67994af6e4e962085472703def96617321c5f9710"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Getting-meson_zh.md",
+      "source": {
+        "bytes": 3490,
+        "sha256": "99695b2fdbff53d18ee1728fc910a71f4de88650716e8dd197189011b1dfb712"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Gnome-module.md",
+      "source": {
+        "bytes": 17945,
+        "sha256": "35cc2f2eb5145564684c147cb7cb73b576a64c7a591bac338ae939fda0b41cdb"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/GuiTutorial.md",
+      "source": {
+        "bytes": 5924,
+        "sha256": "ec10cdf177ad50c63971e5a783330243db40b10e9081dc2da16aaa09c239a9b3"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Hotdoc-module.md",
+      "source": {
+        "bytes": 2275,
+        "sha256": "9c16fa8112acbc2f56c35f7d81943fde39f17e086dceb896cee2d05a46544e24"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/IDE-integration.md",
+      "source": {
+        "bytes": 18109,
+        "sha256": "01e4994683e7c569fd666bfd1c562236d516e80f8529dc51e85b26d8352009ec"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Icestorm-module.md",
+      "source": {
+        "bytes": 956,
+        "sha256": "e5ff029ac5a8832452c7a521d524d63d304db173c355e8f3ec6d8280daf9c793"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/In-the-press.md",
+      "source": {
+        "bytes": 595,
+        "sha256": "d14c535de3983584b474f01c2d1c6b1e76cb3d91daf3d45b8fe86acb90c7d568"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Include-directories.md",
+      "source": {
+        "bytes": 1168,
+        "sha256": "2a1dfa730a2c1775ba213d00afc58191f1843dc0768d9395979a52cc341e3da9"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/IndepthTutorial.md",
+      "source": {
+        "bytes": 5864,
+        "sha256": "f7293ceb3ff6b82fb8af5939c59379fac590c313d5dc6fbd3f04bbec98a753ee"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Installing.md",
+      "source": {
+        "bytes": 7736,
+        "sha256": "c88fe38e5c81c592d501e58e6338a2eea6868fbd349ea8600f1f82da3fb4a502"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Java-module.md",
+      "source": {
+        "bytes": 2478,
+        "sha256": "8e8a06a3b57a432020ddbcb86c60be1c0b5bd09ae3157482033ac09baaccc557"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Java.md",
+      "source": {
+        "bytes": 823,
+        "sha256": "b5da05dc88d301abd901fa21e12dffe7fc866fcfb4b7546b32c82ffdc7ccac39"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Keyval-module.md",
+      "source": {
+        "bytes": 2011,
+        "sha256": "73c54d5a5f6f70977dd416e9a6496cbb68f9a548f782d944f9bbddb8b8bcfa72"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Localisation.md",
+      "source": {
+        "bytes": 2604,
+        "sha256": "ae64e254fe4bbdf81592d42339795788f9d5ef74e5eb7cd5efd4d73b61dcbe81"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Machine-files.md",
+      "source": {
+        "bytes": 10681,
+        "sha256": "5b66cf37ec1d3458c058d157c5b15b24629b6a76c68b3dcc7c2c1c5e823b9e1b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Manual.md",
+      "source": {
+        "bytes": 226,
+        "sha256": "0c1d4bd446d87d507cbfc847d18cb7d317946017bc9499362cf5ccd0b8a39223"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Meson-sample.md",
+      "source": {
+        "bytes": 2444,
+        "sha256": "dbaa94e936afcb8386d0cd8faa669abf8bd0699b37de70703c29d22b5034561e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/MesonCI.md",
+      "source": {
+        "bytes": 1629,
+        "sha256": "e422df4f14df17b0f24e6e80c654728d1e03c1f792b0238e3a9b43ddfc451740"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Mixing-build-systems.md",
+      "source": {
+        "bytes": 2790,
+        "sha256": "2e655d65b8466e99425b572a896c313ee9faa34366ca3d9b1306befbcdcbfbd1"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Modules.md",
+      "source": {
+        "bytes": 650,
+        "sha256": "92671a93c48ea75a2234834e24205acca7a620035a9d1151cbe9d9002beec551"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Native-environments.md",
+      "source": {
+        "bytes": 1806,
+        "sha256": "9478ecfbf29e948d36b494cb04be4148bc5074900baf1f38a8480330af5ef409"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Overview.md",
+      "source": {
+        "bytes": 2852,
+        "sha256": "3b3378af0a2ba8c6e00b1d3357f0d18ee067e80200b6be51ed3ee5e02830799b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Performance-comparison.md",
+      "source": {
+        "bytes": 216,
+        "sha256": "49dff639b7a43c61c3744d04b2a1e3dda24e8f89b6a93dce93691a195908df64"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Pkg-config-files.md",
+      "source": {
+        "bytes": 1277,
+        "sha256": "255352a09e281e374f05eac58df3851c1288e0c93e29f9a0149bb2a585955a37"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Pkgconfig-module.md",
+      "source": {
+        "bytes": 7505,
+        "sha256": "0787c9144754d4c6318acf2733bb0d150c43beaa764c5a3e0d47f1a2fc856e9c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Playground.md",
+      "source": {
+        "bytes": 1164,
+        "sha256": "3ca65afd7da4b9d9618e2fc826e81a5ea13704e124b8f73a397564589ae1cf7f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Porting-from-autotools.md",
+      "source": {
+        "bytes": 20776,
+        "sha256": "030ef4596be875448a7241075a6bb86fc89660da86bcde8ce7f61daacec10e51"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Precompiled-headers.md",
+      "source": {
+        "bytes": 4354,
+        "sha256": "0606aa4aed436aeb41e452b4f7f2d5d1e1124c2f84487ef446e65cac976788bf"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Project-templates.md",
+      "source": {
+        "bytes": 1429,
+        "sha256": "c0e9a6a4023aef55f75516061203a2335ca1f89692aa1f2a9dbed7bb3a8d2ded"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Python-3-module.md",
+      "source": {
+        "bytes": 1447,
+        "sha256": "056b116bee49d89ac69de09a2d99a72a78a7d5bf184fbbaebff6228c3e3e1133"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Python-module.md",
+      "source": {
+        "bytes": 9417,
+        "sha256": "428e996ad9e494370394dea9409fd2961fabf0d2598300a5a21e28f7008116d5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Qt4-module.md",
+      "source": {
+        "bytes": 170,
+        "sha256": "3f2412c25bae77a727dfc5cc89cbcee284e84496d42da06fae56e2ace5486f30"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Qt5-module.md",
+      "source": {
+        "bytes": 143,
+        "sha256": "4455f2f015a737f8cd0d4d01258daecf5444e681858ffc09317fd4aa43b7ff13"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Qt6-module.md",
+      "source": {
+        "bytes": 13996,
+        "sha256": "9d3a7a2766d35e5770339dd6d42388b5a9f43cf54c6e45d793be0bf7248b54de"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Quick-guide.md",
+      "source": {
+        "bytes": 5399,
+        "sha256": "034ec66421c93c4a19490ee0ccebf57aeb0f1b8498a229f1fda9180c6e1463c9"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Reference-tables.md",
+      "source": {
+        "bytes": 20032,
+        "sha256": "531362b8f3811cb621c738d57d06e9590fcc55fc433567502264b556d70dde2d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.37.0.md",
+      "source": {
+        "bytes": 5758,
+        "sha256": "65d48a2f64413883f9e4399c421c49347ca9da33a71e55b76bc0a50cb5c60ca0"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.38.0.md",
+      "source": {
+        "bytes": 3886,
+        "sha256": "e32af0b5da69bf499c50275c2c4bbe6971e549679558ec7eae4345376d1f732a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.39.0.md",
+      "source": {
+        "bytes": 367,
+        "sha256": "d588046f848f818b0b8b4329b5c168215d8573f592b0f4dc1ea4fb826a751784"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.40.0.md",
+      "source": {
+        "bytes": 5068,
+        "sha256": "0a2f6491d7fbff3461b633373a0d1016c3be2ccd29e06f6d909656bf2b023987"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.41.0.md",
+      "source": {
+        "bytes": 2977,
+        "sha256": "6a723ade0d01b61016a4e2a4f22fc99c7aa2b5fcd63350d67e922e3ee7204d00"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.42.0.md",
+      "source": {
+        "bytes": 5266,
+        "sha256": "2d75cc9b0c1f419f2140aae9448a62097332284b6bb99d3bebd937fc51e0c16b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.43.0.md",
+      "source": {
+        "bytes": 3702,
+        "sha256": "f16756da40b20dfebcf2a0bf3eef1a2dbb281c42276185d71cb590d2d4fa1e33"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.44.0.md",
+      "source": {
+        "bytes": 4788,
+        "sha256": "e0c0e787e139bf0ce3ac5daa41768ba419e010902ccf96ee34e4a4750b55c95b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.45.0.md",
+      "source": {
+        "bytes": 6271,
+        "sha256": "4894f15abb12947d08849732f82658d6e741ebf771527e6fbdcb84801d8c62ce"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.46.0.md",
+      "source": {
+        "bytes": 11473,
+        "sha256": "77a1001ebc472f2b2d53cff9124cf32c35672983ff08ee6dfe1f4b8367af4a7a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.47.0.md",
+      "source": {
+        "bytes": 10813,
+        "sha256": "36aee1a70624896c00aa2d9ee1fc004000a2a46c2e3ca547ec49763c8b35bc67"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.48.0.md",
+      "source": {
+        "bytes": 10664,
+        "sha256": "4b1d096d7d1f20b245a82309603c69a1b87586085223ba42ad66b94f435680d4"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.49.0.md",
+      "source": {
+        "bytes": 9646,
+        "sha256": "8a61ca8e69452aefb5af863052cc15bec8f40bf6fef65386713cb6b570f6c13a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.50.0.md",
+      "source": {
+        "bytes": 11302,
+        "sha256": "62a51098db60476b279a8396729794cb5917cd59fb94b16ba9f3af4c5375060c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.51.0.md",
+      "source": {
+        "bytes": 12310,
+        "sha256": "256bcf6f84b513d644ebb64cea5ece4958a2d761670d4c77c5a7e30e179a8a58"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.52.0.md",
+      "source": {
+        "bytes": 9454,
+        "sha256": "d00a6bfb3e49dfa503234fa32e6d5c3bf42a2f4020cf6786f677bdbdf924169f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.53.0.md",
+      "source": {
+        "bytes": 6216,
+        "sha256": "43ef24bec8e81d2d08a391690d6418eb9c4b1015fdefaf8bbff94b27e3324332"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.54.0.md",
+      "source": {
+        "bytes": 14624,
+        "sha256": "858225549b8f5be623ae27431aef65730c6b63cd26fd489e5059777be7743bc5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.55.0.md",
+      "source": {
+        "bytes": 11615,
+        "sha256": "89104b5f84158dcaa3013f23221cdd17568c4940b1adb0739a1c8c98e5940cad"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.56.0.md",
+      "source": {
+        "bytes": 13826,
+        "sha256": "fff9be177538a76286ffcb59dab6d98d4270f7df965e89573dbf7b96542053a8"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.57.0.md",
+      "source": {
+        "bytes": 14048,
+        "sha256": "9ce39df542a1b0300543bc1db8c3746f978b69e3107e2c5ca35e9ef1e7121ada"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.58.0.md",
+      "source": {
+        "bytes": 13721,
+        "sha256": "5d48c16882ecb3dca65a23ac81a08dc634e2ed821eb42c4580876b171efc9865"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.59.0.md",
+      "source": {
+        "bytes": 7410,
+        "sha256": "ab5cf114bb54c90ea508e0d1e24f2bbc8a943ed0f763dcb0075e5b73b527c7bf"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.60.0.md",
+      "source": {
+        "bytes": 14222,
+        "sha256": "f485c931834cd547ce40df931dcdc613e9562ed8b5f02ece1a22f26f807af9ad"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.61.0.md",
+      "source": {
+        "bytes": 4351,
+        "sha256": "fbfb20a015d0019c52f5c64096ff2713e15ab1aec8496b8f659e869267521156"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.62.0.md",
+      "source": {
+        "bytes": 14822,
+        "sha256": "997016ce364704a1cf7ed1883593c5fab6792e948bedfd705649d7f72ee20719"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.63.0.md",
+      "source": {
+        "bytes": 9180,
+        "sha256": "3577153848c6b65560e8245b4552bb7fdff5d481ade5240247c9af9ad5655b8b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-0.64.0.md",
+      "source": {
+        "bytes": 7002,
+        "sha256": "59e254964f02128143bed5ddf8a97b30beeaaa00e46f6afb868f56b2480d102f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-1.0.0.md",
+      "source": {
+        "bytes": 2968,
+        "sha256": "709bb69ee542c12d17f06312fb230d5d881caa07626c82b1d4f4ca32a5e85f43"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-1.1.0.md",
+      "source": {
+        "bytes": 7944,
+        "sha256": "f634d74cb4884ccb6e57b45705b82e25601faf0ba6f4d79617dcf18831487255"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-1.2.0.md",
+      "source": {
+        "bytes": 6678,
+        "sha256": "6025b92a453e6eca0714a421db9fef8a97552ea66f304918f9bd08bc96cda40c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-1.3.0.md",
+      "source": {
+        "bytes": 13419,
+        "sha256": "08fd4fa498a00716e3b136f98266b5c75502d1ea7b13bf2f136abc3e95832514"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-1.4.0.md",
+      "source": {
+        "bytes": 4176,
+        "sha256": "a9883e18bef76fbc1e96f842b99415e772555c7173015ef7e0d9ab1948b64e5a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-1.5.0.md",
+      "source": {
+        "bytes": 6987,
+        "sha256": "697eca2138775d82197a89d2dad2943f6548b7ae11e1310f17ffc437bc979450"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-1.6.0.md",
+      "source": {
+        "bytes": 7104,
+        "sha256": "339a257fce67181219c626f49a2bc529672c22e5d76a31d8a2ff7868f1e8f2e8"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes-for-1.7.0.md",
+      "source": {
+        "bytes": 6576,
+        "sha256": "4d9e9f3805e279781355942e16555a48dd15de1061301eaca88e6ff81bd9d6ae"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-notes.md",
+      "source": {
+        "bytes": 16,
+        "sha256": "67dd813bbaa3012d8dffe3a0555859cd323550f99d709830981dad5ba218b70f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Release-procedure.md",
+      "source": {
+        "bytes": 2750,
+        "sha256": "816d86a1611afb98b64b474a952cbf63573b18a3a7d54f1ea8dfe51213258324"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Releasing.md",
+      "source": {
+        "bytes": 1200,
+        "sha256": "752c709043cfb28ae0b332209769fa4168f991d0dbd259aabac05bc5551398f8"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Reproducible-builds.md",
+      "source": {
+        "bytes": 943,
+        "sha256": "c2005c650ae672cf657c873b53ac671a12c5629e6c258a85893b9bb9399b474c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Rewriter.md",
+      "source": {
+        "bytes": 6689,
+        "sha256": "bdde6a219e19fb175aa3a5e83eea4112d831aabce57ddeb7d5c1475fb7dcd5d7"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Run-targets.md",
+      "source": {
+        "bytes": 1708,
+        "sha256": "e1ed9c188f5c8d314890c285beccb76adec864d1a1df0f27f5a90179aac976b8"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Running-Meson.md",
+      "source": {
+        "bytes": 8190,
+        "sha256": "aa48ab9ddd9759d2fb74eef3130821e7a4fffc9f746ac32a711c4b6653823d41"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Rust-module.md",
+      "source": {
+        "bytes": 5961,
+        "sha256": "cc03b50bcbd8e7cae8883287fe904cac4eba9ed25c7ccce36f4e1093c64fe25c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Rust.md",
+      "source": {
+        "bytes": 3216,
+        "sha256": "0707a755ea49f0a87805d6f138bff45b8d39f694312968e97c12e09f7a7d063f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Shipping-prebuilt-binaries-as-wraps.md",
+      "source": {
+        "bytes": 3581,
+        "sha256": "a41baf3bd9dc007367ffd1507e03e79aed2b1a3a3a70fe86cdc264970e0de932"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Simd-module.md",
+      "source": {
+        "bytes": 2484,
+        "sha256": "0a4f80bcc88fa92fc98cfb1c5d1a20fb6b71b5d4f0b5ef1c474ad65a72d5e41e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Simple-comparison.md",
+      "source": {
+        "bytes": 3864,
+        "sha256": "f52a2b459cc443b32bf7ad2b9750a956184215f64d33cac32529b5718711251d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/SimpleStart.md",
+      "source": {
+        "bytes": 5129,
+        "sha256": "fa5c6e999b0e0426f9caabd5c8d3884bcad638d181f0dc279b3ce7696bf436aa"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/SourceSet-module.md",
+      "source": {
+        "bytes": 6017,
+        "sha256": "e9065d7918c9f118ca775fd9fa3f69ee27604c3fea5c8ed10e2fc60496779c8b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Style-guide.md",
+      "source": {
+        "bytes": 2823,
+        "sha256": "f98b87bfc5cc9af50604076c777171e0f2e764848f40658a6e59d6fe7dfb9dc5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Subprojects.md",
+      "source": {
+        "bytes": 15607,
+        "sha256": "045eb8b4b1300c76cc7e0c9931c1a20e538f6e2b57799170ebd061d9b323eff1"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Syntax.md",
+      "source": {
+        "bytes": 23188,
+        "sha256": "df7c0d681aac08918cb0e92daabd4ebc694e4b291bb43fa68fb8465cb29afbd1"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Threads.md",
+      "source": {
+        "bytes": 391,
+        "sha256": "416656ecfc7423716ffe3134c696053212fe6529485726cc0e3708131052dd4a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Tutorial.md",
+      "source": {
+        "bytes": 5884,
+        "sha256": "8ef3a14a736e07d6fbe0cfbe54bee339999fc3e52dd8968f6179f3dc28cd9997"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Unit-tests.md",
+      "source": {
+        "bytes": 10690,
+        "sha256": "3c966607b9893dacb61092fc4d4e3f1eb50c2759445c7789443b4bedca419d94"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Unity-builds.md",
+      "source": {
+        "bytes": 2299,
+        "sha256": "3ad20f8df40830f2a821201d5c1cac247ffa55478d6f58515f4b1050d5bedee2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Use-of-Python.md",
+      "source": {
+        "bytes": 2207,
+        "sha256": "bbee718a9425ebe3aa633255fe74b8577c0bb5c69d63546493bd36168d6d416b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Users.md",
+      "source": {
+        "bytes": 18810,
+        "sha256": "c621edd17ceeea07d9c0794d1d1082329002f3f4c289be115ebd5cbf8d7c617d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Using-multiple-build-directories.md",
+      "source": {
+        "bytes": 4058,
+        "sha256": "68d093e21b056946f514f99278181b8cee6900fe1704f5fb0b0f426ff948f62a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Using-the-WrapDB.md",
+      "source": {
+        "bytes": 2011,
+        "sha256": "9cc926dadae278c0b6fcb8c5f26a4c5ac225ad2b4375c605a95f611478aefc79"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Using-with-Visual-Studio.md",
+      "source": {
+        "bytes": 2356,
+        "sha256": "60041fff8cb0b6e9ae59dc06c4f4e9d924e349a45eb68a2c2ccf8743c3b2d526"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Using-wraptool.md",
+      "source": {
+        "bytes": 3046,
+        "sha256": "defbd69be4750113e46a57b60a3470801de37984507a791b893322b5fa16c5f2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Vala.md",
+      "source": {
+        "bytes": 11562,
+        "sha256": "551ca73fcd811dc0ee1c1ba197daf2820e183a7a634fbfff9f253d428d094e49"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Videos.md",
+      "source": {
+        "bytes": 1806,
+        "sha256": "2d620d91cbc8fb056ea303de072732940462614851a30a7ea44bf31b4c034cef"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Vs-External.md",
+      "source": {
+        "bytes": 2235,
+        "sha256": "edfab88cebd4dc7efdee1ea705167099ec4fb0466626451e59a91a8f07d71975"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Wayland-module.md",
+      "source": {
+        "bytes": 2297,
+        "sha256": "40965cc124723dccb32ab117cdef358d953602abb2db78f32fa3d3c39324bb67"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Windows-module.md",
+      "source": {
+        "bytes": 1814,
+        "sha256": "caf8db5b9843f7aee6aed4216c2b9a4f0b9dc37825cbeb9671890d42eb1563db"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Wrap-best-practices-and-tips.md",
+      "source": {
+        "bytes": 6210,
+        "sha256": "81ca015ed667822d75cd11a2e8b8993b5f10559003ce8ecbed8d8cbb810f3e95"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Wrap-dependency-system-manual.md",
+      "source": {
+        "bytes": 15270,
+        "sha256": "45abd500687d6bace1fcb24b7a3e1a3039b498f8677258a1774d140837b6c299"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Wrapdb-projects.md",
+      "source": {
+        "bytes": 689,
+        "sha256": "4090e184ce625b151a58e3c1718e9bcc1e7d35615035303ae2ae6823093268f0"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/Yaml-RefMan.md",
+      "source": {
+        "bytes": 6654,
+        "sha256": "bc183375bc072ab87257b747ee8b3a3e5bd64c9f2d6a8ca15432368be1e4bdf1"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/_Sidebar.md",
+      "source": {
+        "bytes": 383,
+        "sha256": "dfdf05dcbb3cc3a27cfe44406af7336dfd73e620e2afd714e343d3fc5f1e45a0"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/_include_qt_base.md",
+      "source": {
+        "bytes": 8822,
+        "sha256": "fca7a87272bc22191c6b81b3ae842d2f7909edb143cfcd92fcfc399aad6269c9"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/howtox.md",
+      "source": {
+        "bytes": 9866,
+        "sha256": "1b47e4d1c7fe77504202fbb1a98aabfdee93dbdc6d147d1cfaccc99e15333acb"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/i18n-module.md",
+      "source": {
+        "bytes": 5200,
+        "sha256": "fc7cbf2cd5e53de1edb1454543f72808041093eb40dce42d323dc7276e228d40"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/index.md",
+      "source": {
+        "bytes": 2670,
+        "sha256": "e8ceb50c4f7e31b7903dfcfb1be0e6e1d6a05c1f4e361c9b58f57a94ddfddc48"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/legal.md",
+      "source": {
+        "bytes": 940,
+        "sha256": "78b49c95035c716b9c7fe979a6a2f4910c4cb23dbb96cc7773761591d03e6681"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/android-exe-type.md",
+      "source": {
+        "bytes": 429,
+        "sha256": "c8db8c7915573f63074c4e7e8293fbe18d240733488ee557e2e318554d2258b6"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/b_sanitizer_changes.md",
+      "source": {
+        "bytes": 722,
+        "sha256": "d4d220045755cd27ccad03c446c0dd4a3528fd4dd2b30b0d1f00b4b20cb95dea"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/c2y.md",
+      "source": {
+        "bytes": 168,
+        "sha256": "9d2c2866c70b660e80ff65bb6b8488a088ff631404f286432e151876c6f2378a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/i18n_xgettext.md",
+      "source": {
+        "bytes": 485,
+        "sha256": "9cd416e681f668c899acd354dfdd2a7c06eb068935b4433bd02f484ab352c739"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/multiple_version_compare.md",
+      "source": {
+        "bytes": 216,
+        "sha256": "4fc5f7e64e567f03ea4653ebc306fc920597462e5a412c1dce897f70c86b22a2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/objc-cpp.md",
+      "source": {
+        "bytes": 312,
+        "sha256": "ccfcfc6d32f8809355a3fef137e022e07bc61ce3646888bfe17e4c4558e23533"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/optionrefactor.md",
+      "source": {
+        "bytes": 719,
+        "sha256": "f449e436020f2fef2fd5fb6d33612eec29083909d5dd4ce30e552e29766916a7"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/rust-objects.md",
+      "source": {
+        "bytes": 148,
+        "sha256": "b620ab0870225c99551499bd07f3cb4107f879b0e5a8a1690be64b0aefc84e96"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/rust-test-link-whole.md",
+      "source": {
+        "bytes": 177,
+        "sha256": "b329b007ed18fa966f85ad1986ac57fec7baa5b41fe1f3873dfeddd9e39c44b7"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/rustdoc.md",
+      "source": {
+        "bytes": 261,
+        "sha256": "1304bc96ad39110f67cacec10fe0b3cd916ce1aac612a6596ae58f9c9243e7bb"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/stabilized-wayland.md",
+      "source": {
+        "bytes": 166,
+        "sha256": "fda31ce162c1bd89be5cdce4afe0fc5e90bdab3f9bc038b430332ee054e460cf"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/swift-std.md",
+      "source": {
+        "bytes": 152,
+        "sha256": "35cb88ecdc54ffc4f930d330cff3c77d95120c4361c02ac81f2bd6c8ad19583c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/test-slicing.md",
+      "source": {
+        "bytes": 301,
+        "sha256": "57535b49c01a397b7d32a4226b9e582e5ba0eba4af9389abc9de1284259eb431"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/docs/markdown/snippets/valgrind_test.md",
+      "source": {
+        "bytes": 317,
+        "sha256": "e4046facabc53fa17bd5a1829d527e99f893ecfb82daf1795e8e21b009bc4445"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/meson/test cases/frameworks/23 hotdoc/doc/index.md",
+      "source": {
+        "bytes": 15,
+        "sha256": "5ebf6fc735f0d9032701213d37d82b3d41c8854f1bf2df13501f56e55329181e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/ninja/CONTRIBUTING.md",
+      "source": {
+        "bytes": 1450,
+        "sha256": "f588ccbb140590580d593d43c55760a94ff911bd03761d2840082b1d0ee76e7c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/ninja/README.md",
+      "source": {
+        "bytes": 2781,
+        "sha256": "b31e9700c752fa214773c1b799d90efcbf3330c8062da9f45c6064e023b347b0"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/ninja/RELEASING.md",
+      "source": {
+        "bytes": 1547,
+        "sha256": "0c94d70ced5f00d7cf431d5e00d180c14fb2802bd5fa379d3d5509c720ad4d4f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/externals/ninja/doc/README.md",
+      "source": {
+        "bytes": 584,
+        "sha256": "12a964babb1e07861359ea0ad3cc0cb931eca74ad6914be29272b260a893fe92"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/v8.6.0_macos/bin/FADO/AUTHORS.md",
+      "source": {
+        "bytes": 491,
+        "sha256": "969ba16a5ca213b996026f67f8787f3b1d86800ab66ee4d44cb0e31878ae639a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "integracion_apps/SU2/v8.6.0_macos/bin/FADO/README.md",
+      "source": {
+        "bytes": 4697,
+        "sha256": "01a448aedeb7809b34dc30b2bcc15a20716956583b452e523a592649e9473896"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/ACLARACION-DESPLIEGUE.md",
+      "source": {
+        "bytes": 2209,
+        "sha256": "98f767af50a7370002b764140adb33bad018dc8d3d60c10cdc4595bbd392d364"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/CANDIDATO-EJES-REVISADOS.md",
+      "source": {
+        "bytes": 4508,
+        "sha256": "0b45e48dc2261a3e728de19f1af8f84a69e7567c020ed73b41f70e3ce61be49f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/CONTROL-DESDE-CAD.md",
+      "source": {
+        "bytes": 4589,
+        "sha256": "b36dc4e5f0424f68c0cc68af6613ce4412b752a859d8abb74740d4509040f252"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/DECISION-ARQUITECTURA.md",
+      "source": {
+        "bytes": 18362,
+        "sha256": "f208a3859320ef60ddaa3d66136340617961ba39bd0a44aac37c0bf756261a20"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/DOMINIO-ROTOR-Y-MANIOBRA.md",
+      "source": {
+        "bytes": 4262,
+        "sha256": "cc47f26b97f65117ecc4760e81155fc14a9b237cc1187961f69696d2b95e6214"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/INERCIA-Y-CARGAS-DE-GIRO.md",
+      "source": {
+        "bytes": 5215,
+        "sha256": "b6e5b2fb5b5508f7443734cf515bd02b37a5cb7fd33c431388f625bf67ce2474"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/INVERSION-PASO-REQUISITOS.md",
+      "source": {
+        "bytes": 4280,
+        "sha256": "dc093e7e4c1c584346db86dfd9e5d5e199649b3b6e3ba86e7f3f21f675f809ea"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/PROTOCOLO-MEDICIONES.md",
+      "source": {
+        "bytes": 5510,
+        "sha256": "cbac195b05e2617bf98bcab3cb539c17a6996b958cb9dfc5603efb57c4a64b92"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/REACCION-POTENCIA-CANDIDATO.md",
+      "source": {
+        "bytes": 4696,
+        "sha256": "2b9ea8a98b3593092b311286b0220a06b66d30afa4f2e4d62b655f538875374f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/VERIFICACION-GLOBAL-ASIGNACION.md",
+      "source": {
+        "bytes": 3169,
+        "sha256": "e9b81b24259da74f41d16ffb9cb2e252c5bb7f79b3515718f6259d8bd469ed6f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/aerodinamica_A/INFORME-AVANCE-Y-TAPAS.md",
+      "source": {
+        "bytes": 7979,
+        "sha256": "b8b6b39840f5b094794503357b2a98ccbb9e974ee4cb7b56b376dd3dea7afc52"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/arquitecturas_protegidas/LEEME.md",
+      "source": {
+        "bytes": 3020,
+        "sha256": "43ce25574013092aff63a494cb6bf4ba3c559a9044296be367b807d58ab565ab"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/diseno_industrial_v2/LEEME.md",
+      "source": {
+        "bytes": 708,
+        "sha256": "ac3e57a61ce2110d42bfbd7c98d070d2ddeb5b48e324e4e8e58c83b7d8f5dc4d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/empaquetado_axial_A/INFORME.md",
+      "source": {
+        "bytes": 5398,
+        "sha256": "268e9337e81b2dc069264b2a564c9f5f644ce1065ced2c8e25f6ddc9ec7c18f1"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/empaquetado_axial_A/REPRODUCIR.md",
+      "source": {
+        "bytes": 1603,
+        "sha256": "68c7bf5af642ea749221fcc7abbe0106ae9f35e3ef4fdbe537f19b67c170f160"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/empaquetado_axial_A/masa_y_agilidad/INFORME.md",
+      "source": {
+        "bytes": 6767,
+        "sha256": "2f5211ca9a08b24a58b23cf76f9d6b091971aecfd797b324e30d6b3e7e60b979"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/empaquetado_axial_A/masa_y_agilidad/REPRODUCIR.md",
+      "source": {
+        "bytes": 1342,
+        "sha256": "503554e4ed23a70f01a4fbb88188454cfd06e7928d460a76518fdd4b2d4ed0ff"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/INFORME.md",
+      "source": {
+        "bytes": 4287,
+        "sha256": "2aba9616d3e795382e4513e841007169becb347326b48d15c23bf7b396aa203a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/REPRODUCIR.md",
+      "source": {
+        "bytes": 1512,
+        "sha256": "932689000898ec804362c3183a498de89e62c0ded1746b48b419cffb6c315707"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/sensibilidad_cono/INFORME.md",
+      "source": {
+        "bytes": 3549,
+        "sha256": "f30d15e334c6d63f10725116451002a5d594719d240ad92b0065ac73ee0691fc"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/familia_deportiva/COMPARACION-Y-RIESGOS.md",
+      "source": {
+        "bytes": 10922,
+        "sha256": "6ffadd9e8c3b2b58d0d0db47852cb2b8a29b962e3ef313088ebfcc67f2293711"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/familia_deportiva/LEEME.md",
+      "source": {
+        "bytes": 895,
+        "sha256": "2d797c4dc09259f9634a9f6221b351f5d25d47d303ec5517685fa7bfd319944f"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_A03/LEEME.md",
+      "source": {
+        "bytes": 4334,
+        "sha256": "0f19d4ca09309b68ba81fdcd411bbcc847e777e8a2967e0f31c8609f1b66f15d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_A04/LEEME.md",
+      "source": {
+        "bytes": 718,
+        "sha256": "892b2967822a75edbb64a09fd3ed21852c530dc300f66dbfaf32152b7a074343"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_A05/LEEME.md",
+      "source": {
+        "bytes": 2637,
+        "sha256": "775ac5631900db19949ac99d2cfd05cbef6de4b4e94ecad4d6a72061b5edb9ce"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_A05/NOTA_DESPLIEGUE.md",
+      "source": {
+        "bytes": 540,
+        "sha256": "02ed397d6766b55e9e84e988a34c0d64f2b15bd51427708be4a119d2c8590e2e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_A06/LEEME.md",
+      "source": {
+        "bytes": 2864,
+        "sha256": "deeaf57ee771af82fe6845c588d1e3cc930f82e8e82e123b0387cfbc7d223dc3"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_A07/LEEME.md",
+      "source": {
+        "bytes": 3664,
+        "sha256": "77b1a31cee7536b77e800f94e6f99550f749b00b4fdab344a8b9f6948b4285b8"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_A08_candidato/LEEME.md",
+      "source": {
+        "bytes": 1428,
+        "sha256": "90bc0ff9e2a76188f56d1f227e5f7028e8475d9bafcc85bc16627293060bfaf8"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C03/LEEME.md",
+      "source": {
+        "bytes": 5168,
+        "sha256": "77003f66195a47e05a778cb937922026661574d152d5bd0bfdc56c8e75401609"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C04_estudio_bisagra/LEEME.md",
+      "source": {
+        "bytes": 527,
+        "sha256": "b33ef43150107530aedb9bbf341a57c8801a9b9cc769190e9c27b28eba23c833"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C04_estudio_bisagra_v2/LEEME.md",
+      "source": {
+        "bytes": 3961,
+        "sha256": "b8d77d175926b9bc23f9b700e1a482dcfa882622044f5a3adc1f5986873764e5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C05_alojamiento/LEEME.md",
+      "source": {
+        "bytes": 6805,
+        "sha256": "6ab85e8902ae8a1b131cfa9d5d4eb189e12968c27ad515d317fec14a208a938d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C06_busqueda_eje/LEEME.md",
+      "source": {
+        "bytes": 5244,
+        "sha256": "8f2cb9c75d4dee0453fc31575cfba7a9ef00fd3e0fef3bdf3d746575cbe705ba"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C07_deslizante/LEEME.md",
+      "source": {
+        "bytes": 5429,
+        "sha256": "51b2a9f11d9b149e8dd0a097ae9443fff97b1742b7a563ec112a1321d43a4941"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C08_guias/LEEME.md",
+      "source": {
+        "bytes": 6594,
+        "sha256": "150d9f9a148825533181550b6250ddab4224043cc7e7065890bdb4631bd18401"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C09_paso_sellado/LEEME.md",
+      "source": {
+        "bytes": 2386,
+        "sha256": "c9e8ecef1fa772e97bbf043f00c00942fbf398e3100cee37fd38595ebb445d50"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C10_enlace_variable/LEEME.md",
+      "source": {
+        "bytes": 3782,
+        "sha256": "e0f6068f2dfab4e2419dfc291349eb763c2d68c865a772d9d80ad38a12563a38"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C11_laminas/LEEME.md",
+      "source": {
+        "bytes": 5746,
+        "sha256": "55c07c8edf8aafd5b3a2e7ff4c510a168aa93697d4cbf7689d43ca35fe5dc53a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C12_ejes/LEEME.md",
+      "source": {
+        "bytes": 3478,
+        "sha256": "73f920d7b581bdaa3fc18bdcee2f4b2e8a335ce7b973a02a9a9d1bc27c28967a"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C13_ejes_cinematicos/LEEME.md",
+      "source": {
+        "bytes": 3567,
+        "sha256": "423a887aa8ff5a4ba39f918476742cbd731927ddd53290465c7a81c0ba74762b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C14_ejes_cortos/LEEME.md",
+      "source": {
+        "bytes": 4181,
+        "sha256": "7cfc3a5900b5165b4dc31c934f5fc6743776f64e99c1cdeac134b69a8d60f373"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C15_apoyos/LEEME.md",
+      "source": {
+        "bytes": 3420,
+        "sha256": "5116a4e6662310acac3535408539098ec6ce8c3436429df3a0e3b97327851720"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C16_vastagos/LEEME.md",
+      "source": {
+        "bytes": 3033,
+        "sha256": "309eee16836e04f6b4d91de600495c952c1458da81e82e20a73b9f1c62a617dd"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C17_vastagos_radiales/LEEME.md",
+      "source": {
+        "bytes": 3698,
+        "sha256": "1cab5260e08154d9d787677638d9e34c2cf2566fbbc21eb5393b21b2c394024d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C18_revision_giro/LEEME.md",
+      "source": {
+        "bytes": 3374,
+        "sha256": "438e80ba7bc7e5a015adea963cd84e357870babbabffc6648ab17755c5a563b5"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C19_barras/LEEME.md",
+      "source": {
+        "bytes": 2905,
+        "sha256": "1435236529ff5d83717bb03123741d9c4dfdc896feee7773a535ab06fb307ebe"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C20_orientaciones/LEEME.md",
+      "source": {
+        "bytes": 1653,
+        "sha256": "5edd88b1bc3bd4bfc59c1b1665dc4851656a228e24688038fd68102831110d9d"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_C21_barras_desviadas/LEEME.md",
+      "source": {
+        "bytes": 2772,
+        "sha256": "68927a57ba2bbd01508fbfc0c0bfb33e874de168b242fcff314664ad12f9b8d2"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/producto_conceptual_detallado/LEEME.md",
+      "source": {
+        "bytes": 2608,
+        "sha256": "3e68df3205b96f6950811c116f22f22d97e8f16b8ab9bfb37710a3f9a9629778"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/renders/LEEME.md",
+      "source": {
+        "bytes": 1378,
+        "sha256": "dabf0af5b889792283bebdd270789bc6ac33cedf6680c13998260ac38ce8be41"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/vectorizacion_A/CAD_doble_flujo/LEEME.md",
+      "source": {
+        "bytes": 2182,
+        "sha256": "8b36e903c923848ca4b02d360432006b71f2df476339a3d536899fb21d3c6b5e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/vectorizacion_A/CAD_integracion_coherente/LEEME.md",
+      "source": {
+        "bytes": 1403,
+        "sha256": "d883668ee06c6d8b6216ac416c0dcb247ddcf380e5e573f3091b0f570417ce1b"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/vectorizacion_A/CAD_modulo/LEEME.md",
+      "source": {
+        "bytes": 4770,
+        "sha256": "d842274c6fed51418d38772d937b31639057a519a0c97d62e0e65682228e2508"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/vectorizacion_A/INFORME.md",
+      "source": {
+        "bytes": 6616,
+        "sha256": "af54de1c19a4b2c53830d139e2d4198ce604ec34411728e02f1f24933faf097c"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/vectorizacion_A/area_y_escala/INFORME.md",
+      "source": {
+        "bytes": 3593,
+        "sha256": "1366a6837c0da212d5510d50b890172f5a402cff26a1d811b2aded4c3788dc6e"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/vectorizacion_A/reversibilidad_6DOF/INFORME.md",
+      "source": {
+        "bytes": 18585,
+        "sha256": "43ff1753b949790a6b2c20c16310b0826e7ffd4afcfaa3729322defc0cceea43"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/vectorizacion_A/reversibilidad_6DOF/REPRODUCIR.md",
+      "source": {
+        "bytes": 2055,
+        "sha256": "7a35d602182cb3f719ad49ea2e942acc1b1d8cf9286a09117a72bb1f832d98c8"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/vectorizacion_A/reversibilidad_6DOF/auditoria_error_centro_original/LEEME.md",
+      "source": {
+        "bytes": 512,
+        "sha256": "eb134b620aeb6a1a33fcc0599a2dcf704a8dd59f43eda6f8ef8f5409c9eadecd"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "modelos_integrados/vectorizacion_A/sensibilidad_angulo/INFORME.md",
+      "source": {
+        "bytes": 4663,
+        "sha256": "9963d36306bc2aae913d64c77598ebbdac02cd369314f9acb1671bc89a1d7311"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "plan_maestro/PLAN-MAESTRO.md",
+      "source": {
+        "bytes": 32703,
+        "sha256": "8ba16760bd5b3aa2e40794f3d0804679d7e780a85acf41706f2aadaa0bcbd748"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "simulacion_vuelo_A/INFORME.md",
+      "source": {
+        "bytes": 6295,
+        "sha256": "59847b07281255504a19a84698e45060ac5777c2ba1e0864dc2dfded974d0985"
+      },
+      "comparison": "missing"
+    },
+    {
+      "path": "vuelo_rapido_visual/INFORME.md",
+      "source": {
+        "bytes": 6666,
+        "sha256": "c41fcc2fc840ff5d782cc73de3acd1a5de0dc5482092d7d5bb30152349425ef7"
+      },
+      "comparison": "missing"
+    }
+  ]
+}

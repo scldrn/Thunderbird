@@ -1,0 +1,81 @@
+{
+  "scope": "Una tapa dividida en cuatro hojas, juntas nominales 0.3mm, ejes ideales sin soportes, rotor envolvente nominal; no sella ni certifica mecanismo o flujo",
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C03/5kg/C03_5kg_cerrado.FCStd",
+  "source_sha256": "fe15cb8d9613e4c06e1e5d336ecae4153fac9e8a50ec3f065b7b65b7b6fa9e8d",
+  "closed_original_volume_mm3": 7212.242710544527,
+  "closed_leaves_volume_mm3": 7130.567707003298,
+  "kerf_mm": 0.3,
+  "movement": "elevacion vertical sin giro",
+  "axes": [
+    {
+      "index": 0,
+      "y_mm": -110.42500007639262,
+      "z_mm": 78.60778276499595,
+      "bounds_y_mm": [
+        -121.80000010090522,
+        -99.05000005188
+      ]
+    },
+    {
+      "index": 1,
+      "y_mm": -87.4500000273674,
+      "z_mm": 90.63637734658818,
+      "bounds_y_mm": [
+        -98.75000005188,
+        -76.1500000028548
+      ]
+    },
+    {
+      "index": 2,
+      "y_mm": -64.54999997834217,
+      "z_mm": 102.62570556945593,
+      "bounds_y_mm": [
+        -75.85000000285478,
+        -53.249999953829565
+      ]
+    },
+    {
+      "index": 3,
+      "y_mm": -41.57499992931696,
+      "z_mm": 105.63200110202852,
+      "bounds_y_mm": [
+        -52.94999995382957,
+        -30.199999904804358
+      ]
+    }
+  ],
+  "angles": [
+    {
+      "lift_mm": 5,
+      "checked_pairs": 1282,
+      "boolean_count": 15,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 10,
+      "checked_pairs": 1282,
+      "boolean_count": 12,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 15,
+      "checked_pairs": 1282,
+      "boolean_count": 9,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    },
+    {
+      "lift_mm": 20,
+      "checked_pairs": 1282,
+      "boolean_count": 8,
+      "collisions": [],
+      "errors": [],
+      "screened_ok": true
+    }
+  ]
+}

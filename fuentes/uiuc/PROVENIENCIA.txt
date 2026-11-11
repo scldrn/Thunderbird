@@ -1,0 +1,2 @@
+Datos producidos por UIUC Low-Speed Airfoil Test program. Summary of Low-Speed Airfoil Data, Vol. 1. Fuente: https://m-selig.ae.illinois.edu/pd.html
+SD8020.DRG y SD8020.LFT originales sin modificar. Consultar GPL.TXT y MANIFEST.html.

@@ -1,0 +1,23 @@
+{
+  "revision": "C03",
+  "status": "conceptual",
+  "archives": [
+    {
+      "mass_target_kg": 5,
+      "file": "C03_5kg_kit_CAD.zip",
+      "sha256": "cdcf4b80abfbedfca73f292a1c8b19a80f79d42f7cf128f1535675287c9756be",
+      "size_bytes": 53205725,
+      "entries": 16
+    },
+    {
+      "mass_target_kg": 10,
+      "file": "C03_10kg_kit_CAD.zip",
+      "sha256": "b25fac40f3cae37516809f383675e08f1d42a052ee5781720122524a03944f23",
+      "size_bytes": 54154338,
+      "entries": 16
+    }
+  ],
+  "audit": "AUDITORIA.json preserves STEP/FCStd volume discrepancies; see LEEME.md",
+  "ten_kg_is_geometric_scale_only": true,
+  "antigravity_review_task": "2840c029; independent recommendations, not physical validation"
+}

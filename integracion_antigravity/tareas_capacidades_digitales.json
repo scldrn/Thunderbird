@@ -1,0 +1,45 @@
+{
+  "descripcion": "Control condicional, trazabilidad ML y recuperación de energía",
+  "tareas": [
+    {
+      "id": "salvaguarda_asignador",
+      "entradas": [
+        "investigacion-aeronautica/simulacion_vuelo_A/simular.py",
+        "investigacion-aeronautica/simulacion_vuelo_A/verificar.py",
+        "investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md"
+      ],
+      "instruccion": "Crea un módulo independiente de comprobación y selección de comandos para el asignador vectorial ideal de simular.py; NO alteres el simulador original. Lee las restricciones realmente implementadas: límite de norma T, cono con z positiva y límites de componentes. Acepta solución numérica solo si solver informa éxito Y todas las componentes son finitas y cumplen límites dentro de tolerancia; si falla, propón usar comando previo SOLO si se verifica factible; si tampoco lo es devuelve estado SIN_COMANDO_FACTIBLE y no inventes uno. Conserva explícitamente que el recurso numérico no garantiza seguridad o control real. Python estándar, pruebas unitarias adversariales: fallo con previo viable/no viable, éxito con violación o NaN, límites, cono. Documenta interfaz y limitaciones."
+    },
+    {
+      "id": "datos_ml_trazables",
+      "entradas": [
+        "investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json",
+        "investigacion-aeronautica/simulacion_vuelo_A/INFORME.md"
+      ],
+      "instruccion": "Prepara infraestructura mínima de trazabilidad para futuros datos de entrenamiento/validación/prueba de ML, sin entrenar ni afirmar autonomía. Contrato con identificadores de episodio, semilla, familia de escenario, hash de geometría y versión/modelo de planta, parámetros supuestos o medidos, acciones, métricas, simulador y partición. Implementa Python estándar para detectar IDs repetidos, fuga de la misma familia o semilla entre particiones, referencias ausentes y datos reales mal etiquetados; ejemplos son sintéticos. Añade pruebas y README que declare ausencia de garantía de sim-to-real y necesidad de controlador base y datos físicos."
+    },
+    {
+      "id": "protocolo_banco_modulo",
+      "entradas": [
+        "investigacion-aeronautica/fuentes/uiuc_propdb/NOTA-NASA-EDF.md",
+        "investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md",
+        "investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json"
+      ],
+      "instruccion": "Prepara especificación digital de ensayo para futuro módulo interno, sin compra ni construcción: magnitudes y unidades para fuerza y momento vectoriales, régimen, caudal si medible, tensión/corriente, temperaturas, mando y orientación, incertidumbres, presión/densidad, procedencia y calibración. Matriz de escenarios sin asignar capacidades de sensores inventadas; pruebas sucesivas estático y transitorios, fases fuera de alcance de datos actuales. Cita solo nota NASA suministrada como referencia secundaria e identifica qué necesitará evidencia primaria; haz CSV + validador de completitud y tests. No tratar la fuente NASA como medición C02."
+    },
+    {
+      "id": "recuperar_disco_avance",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/potencia_disco_avance/salidas/modelo_disco.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/potencia_disco_avance/salidas/generar_tablas.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/potencia_disco_avance/salidas/test_analitico_convergencia.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/potencia_disco_avance/salidas/comparacion_escenarios.csv",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/potencia_disco_avance/salidas/convergencia.csv",
+        "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md"
+      ],
+      "instruccion": "Audita y recupera el análisis parcial adjunto de disco actuador ideal abierto axial. Primero copia todos los archivos desde entradas a salidas/prueba con shutil.copyfile, jamás ejecutes en entradas. Verifica vi=(sqrt(V²+2T/(rho A))-V)/2 y P=T*(V+vi), límite estático y V>0, integración numérica y unidades. La eficiencia propulsiva constante y la potencia ideal son magnitudes distintas; evita sumarlas dos veces. Si faltan datos o hay pruebas fallidas consérvalas e informa. Informe máximo 600 palabras y tests en copia; no apliques modelo incompresible como validación transónica o de ducto."
+    }
+  ]
+}

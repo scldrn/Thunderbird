@@ -1,0 +1,27 @@
+{
+  "hover_test": {
+    "tau_s": 0.07,
+    "lag_compensation": false,
+    "initial_pitch_deg": 90,
+    "dt_s": 0.002,
+    "reference_duration_s": 0.8,
+    "position_RMSE_m": 1.7733992754152593e-15,
+    "position_max_error_m": 2.799009325859934e-15,
+    "attitude_max_error_deg": 8.653048703072471e-14,
+    "command_saturated_fraction": 0.0,
+    "max_unclipped_command_ratio": 0.3064270545647,
+    "max_translational_accel_g": 1.3364761460813314e-15,
+    "final_error_m": 9.310696977804519e-16,
+    "status": "ideal_first_order_plant_not_actuator_validation"
+  },
+  "max_position_difference_dt_halving_m": 0.0007778302110404735,
+  "not_verified": [
+    "rotor_reversal",
+    "variable_pitch_dynamics",
+    "rotor_gyro",
+    "aerodynamics",
+    "flexibility",
+    "sensing",
+    "retraction"
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "revision": "C04_estudio_local_v2",
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C03/5kg/C03_5kg_cerrado.FCStd",
+  "source_sha256": "fe15cb8d9613e4c06e1e5d336ecae4153fac9e8a50ec3f065b7b65b7b6fa9e8d",
+  "scope": "Una compuerta, disposicion mecanica exploratoria; no demuestra integracion, cargas ni vuelo",
+  "door": "compuerta_C02_0_superior",
+  "axis_mm": [
+    -160.0,
+    -124.0,
+    67.9767683408146
+  ],
+  "states": [
+    {
+      "estado": "cerrado",
+      "elevacion_mm": 0.0,
+      "angulo_deg": 0.0,
+      "partes": 14,
+      "comprobaciones": [
+        {
+          "elemento": "guia_fija_0",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 58.35616260541298,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_0",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.2538742044990645,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_0",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 23.20953353849258,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_1",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 57.690685942944725,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_1",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 1.173358097769717,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_1",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 23.20953354520753,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_2",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 70.95778803637563,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_2",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 8.329365899182513,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_2",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 21.509533545207532,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_3",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 67.74973463631935,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_3",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 0.0,
+          "interseccion_mm3": 22.056907568709217
+        },
+        {
+          "elemento": "puente_reserva_3",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 9.011791141216879,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_4",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 66.67900316099957,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_4",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 0.0,
+          "interseccion_mm3": 27.22698904493073
+        },
+        {
+          "elemento": "cojinete_reserva_4",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 6.311529493745269,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_5",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 70.44008183216859,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_5",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 6.203914999881134,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_5",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 21.50953354520752,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_6",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 68.23546457482425,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_6",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 1.4210854715202004e-14,
+          "interseccion_mm3": 22.083039505620974
+        },
+        {
+          "elemento": "puente_reserva_6",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 9.011791141216879,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_7",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 67.1535060847435,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_7",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.1776437161565096e-14,
+          "interseccion_mm3": 0.48877527593699804
+        },
+        {
+          "elemento": "cojinete_reserva_7",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 6.311529493745269,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "pasador_8",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 66.63439901864552,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "pasador_8",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.1776437161565096e-14,
+          "interseccion_mm3": 1.5644618945064637
+        },
+        {
+          "elemento": "pasador_8",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 3.0000000000000004,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 68.80822603184984,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 2.842170943040401e-14,
+          "interseccion_mm3": 20.110842774088667
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 1.5333304950488718,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "compuerta",
+          "distancia_mm": 0.0,
+          "interseccion_mm3": 1.4159440717755765
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 67.63377757722661,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 1.4210854715202004e-14,
+          "interseccion_mm3": 7.048013224483
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 0.09071428407393321,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "compuerta",
+          "distancia_mm": 1.4210854715202004e-14,
+          "interseccion_mm3": 11.796390225757209
+        }
+      ],
+      "fcstd": "C04_cerrado.FCStd",
+      "fcstd_sha256": "7c9afc4f2761d2a788c4d0628cf5498c434f299849ecc673b2ccbb9715a6023f",
+      "step": "C04_cerrado.step",
+      "step_sha256": "d7dde50b370b59a75f48a258b331af9fe494aa334caccc4d2c8e7584644044c8"
+    },
+    {
+      "estado": "elevado",
+      "elevacion_mm": 10.0,
+      "angulo_deg": 0.0,
+      "partes": 14,
+      "comprobaciones": [
+        {
+          "elemento": "guia_fija_0",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 58.35616260541298,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_0",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.2538742044990645,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_0",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 23.20953353849258,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_1",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 57.690685942944725,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_1",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 1.173358097769717,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_1",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 23.20953354520753,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_2",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 80.06996661739223,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_2",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 12.59542063523587,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_2",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 21.59056986465043,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_3",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 77.4313936188827,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_3",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 4.561072090118865,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_3",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 9.462099247552045,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_4",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 76.37727046450999,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_4",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.3363480125634966,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_4",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 7.399880283220532,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_5",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 79.61135939131583,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_5",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 10.442608855844544,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_5",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 21.511350622307777,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_6",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 77.85966604228012,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_6",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 2.4264942797281566,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_6",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 9.069607019745622,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_7",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 76.79658063396552,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_7",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 1.1970929574553537,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_7",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 6.685140071660343,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "pasador_8",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 76.58699320819069,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "pasador_8",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.1802023541982436,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "pasador_8",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 6.102831320663429,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 78.15148178006555,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 4.314143079127315,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 6.951171563832041,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "compuerta",
+          "distancia_mm": 0.0,
+          "interseccion_mm3": 1.4159440717755423
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 77.44994105503183,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 2.8907585325465837,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 5.570423112392215,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "compuerta",
+          "distancia_mm": 1.4210854715202004e-14,
+          "interseccion_mm3": 11.796390225757115
+        }
+      ],
+      "fcstd": "C04_elevado.FCStd",
+      "fcstd_sha256": "82c79424573e0e33eb877aa298df4235632bf6c85afa9244f38307e07ee3dbf8",
+      "step": "C04_elevado.step",
+      "step_sha256": "b16c8eac5ca2f9b546166d7c1979eb6556d2c601dabee3d0aa975c95b47e47e0"
+    },
+    {
+      "estado": "abierto",
+      "elevacion_mm": 10.0,
+      "angulo_deg": 110.0,
+      "partes": 14,
+      "comprobaciones": [
+        {
+          "elemento": "guia_fija_0",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 58.35616260541298,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_0",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.2538742044990645,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_0",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 23.20953353849258,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_1",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 57.690685942944725,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_1",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 1.173358097769717,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "guia_fija_1",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 23.20953354520753,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_2",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 80.06996661739223,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_2",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 12.59542063523587,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_2",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 21.59056986465043,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_3",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 77.4313936188827,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_3",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 4.561072090118865,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_3",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 9.462099247552045,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_4",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 76.37727046450999,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_4",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.3363480125634966,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_4",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 7.399880283220532,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_5",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 79.61135939131583,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_5",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 10.442608855844544,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "patin_movil_5",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 21.511350622307777,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_6",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 77.85966604228012,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_6",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 2.4264942797281566,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "puente_reserva_6",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 9.069607019745622,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_7",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 76.79658063396552,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_7",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 1.1970929574553537,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "cojinete_reserva_7",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 6.685140071660343,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "pasador_8",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 76.58699320819069,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "pasador_8",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.1802023541982436,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "pasador_8",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 6.102831320663429,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 77.88097593913047,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 4.560956804040575,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 8.124641659431855,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_9",
+          "obstaculo": "compuerta",
+          "distancia_mm": 0.0,
+          "interseccion_mm3": 1.4159440717753746
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "rotor_C03",
+          "distancia_mm": 76.82307568100515,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "carroceria_superior_C03",
+          "distancia_mm": 3.1426683844485748,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "camisa_C03",
+          "distancia_mm": 6.908820810992859,
+          "interseccion_mm3": 0.0
+        },
+        {
+          "elemento": "brazo_tapa_reserva_10",
+          "obstaculo": "compuerta",
+          "distancia_mm": 2.842170943040401e-14,
+          "interseccion_mm3": 11.796390225757076
+        }
+      ],
+      "fcstd": "C04_abierto.FCStd",
+      "fcstd_sha256": "eb34d7bcdd34866ced02eb3afb3f138483b78ac803c0e6b8feb8bc593042552f",
+      "step": "C04_abierto.step",
+      "step_sha256": "1e2ab016979edb33319fe94cf086584c7d844266b03496655d294930f902c9bc"
+    }
+  ]
+}

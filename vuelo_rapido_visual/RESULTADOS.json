@@ -1,0 +1,32 @@
+[
+  {
+    "speed_kmh": 600,
+    "Mach_assumed": 0.4897639337839161,
+    "dynamic_pressure_Pa": 17013.888888888887,
+    "ten_g_lateral_radius_m": 283.2545036049801,
+    "max_required_normal_force_N": 500.03883628637976,
+    "max_assumed_drag_N": 86.24065501739696,
+    "max_assumed_thrust_N": 87.70956117709119,
+    "max_assumed_useful_power_kW": 14.618260196181863,
+    "max_required_torque_Nm": 0.9143451958696042,
+    "max_bank_deg": 107.35365088438081,
+    "force_reconstruction_residual_N": 5.684341886080802e-14,
+    "distance_m": 2000.0,
+    "minimum_height_m": 149.9999999999962
+  },
+  {
+    "speed_kmh": 1000,
+    "Mach_assumed": 0.8162732229731935,
+    "dynamic_pressure_Pa": 47260.80246913581,
+    "ten_g_lateral_radius_m": 786.8180655693891,
+    "max_required_normal_force_N": 500.0414990572545,
+    "max_assumed_drag_N": 153.88650499633954,
+    "max_assumed_thrust_N": 154.77858935141012,
+    "max_assumed_useful_power_kW": 42.994052597613916,
+    "max_required_torque_Nm": 0.9113139498851861,
+    "max_bank_deg": 107.34456567197283,
+    "force_reconstruction_residual_N": 1.4210854715202004e-14,
+    "distance_m": 3333.333333333333,
+    "minimum_height_m": 149.99999999999682
+  }
+]

@@ -1,0 +1,43 @@
+test_asymptotic_limit_t_infinity (__main__.TestAnalyticalLimitsAndProperties)
+Verifica que cuando t -> inf, ambas respuestas tienden asintóticamente a 1. ... ok
+test_initial_curvature (__main__.TestAnalyticalLimitsAndProperties)
+Verifica la segunda derivada inicial en t=0+: ... ok
+test_initial_derivatives (__main__.TestAnalyticalLimitsAndProperties)
+Verifica el contraste fundamental de pendiente inicial en t=0+: ... ok
+test_initial_values (__main__.TestAnalyticalLimitsAndProperties)
+Verifica que ambas respuestas parten de reposo en t=0: y(0) = 0. ... ok
+test_limit_tau_zero_and_infinity (__main__.TestAnalyticalLimitsAndProperties)
+Control de límites físicos para tau -> 0+ (actuador infinitamente rápido) ... ok
+test_second_order_inflection_point (__main__.TestAnalyticalLimitsAndProperties)
+Verifica que el 2do orden tiene punto de inflexión en t = tau: ... ok
+test_first_order_exact_formula (__main__.TestCharacteristicTimesAndAccuracy)
+Verifica la fórmula analítica t = -tau * ln(1 - p) y residuales < 1e-15. ... ok
+test_known_analytical_values (__main__.TestCharacteristicTimesAndAccuracy)
+Verifica valores analíticos conocidos contra la teoría. ... ok
+test_second_order_solver_residual (__main__.TestCharacteristicTimesAndAccuracy)
+Verifica que el método de Halley resuelve 1 - (1+t/tau)exp(-t/tau) = p ... ok
+test_first_order_leads_second_order (__main__.TestMonotonicityAndOrdering)
+Verifica que para todo t > 0, y_1(t) > y_2(t), es decir, ... ok
+test_strict_temporal_ordering (__main__.TestMonotonicityAndOrdering)
+Verifica t_10 < t_50 < t_90 para todos los modelos y tau. ... ok
+test_rk4_convergence_rate (__main__.TestNumericalRK4Convergence)
+Verifica que el error global de RK4 decrece como O(dt^4). ... ok
+test_rate_limit_desaturation_continuity (__main__.TestSlewRateLimitingAndRamps)
+Verifica la continuidad exacta en el punto de desaturación p = 1 - R*tau. ... ok
+test_rate_limit_inactive_when_R_large (__main__.TestSlewRateLimitingAndRamps)
+Si la cota R >= 1/tau, el límite de rampa nunca se activa en 1er orden. ... ok
+test_rate_limit_pure_ramp_phase (__main__.TestSlewRateLimitingAndRamps)
+En régimen de rampa pura (p <= 1 - R*tau), t(p) = p / R exactamente. ... ok
+test_rate_limited_matches_simulation (__main__.TestSlewRateLimitingAndRamps)
+Verifica que la fórmula analítica de 1er orden con rampa coincide ... ok
+test_second_order_rate_limit_thresholds (__main__.TestSlewRateLimitingAndRamps)
+Para 2do orden, la tasa máxima natural es 1/(e*tau). ... ok
+test_relative_delay_factors (__main__.TestUniversalDimensionlessScaling)
+Verifica los factores adimensionales universales de retardo de 2do orden vs 1er orden: ... ok
+test_scaling_invariance (__main__.TestUniversalDimensionlessScaling)
+El tiempo normalizado u_p = t_p / tau debe ser estrictamente idéntico ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.048s
+
+OK

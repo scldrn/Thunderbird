@@ -1,0 +1,62 @@
+{
+  "scope": "Mesh geometry/topology verification only, no flow validation",
+  "criteria_not_relaxed": true,
+  "volume_closure_with_independent_polygon_integration": true,
+  "source_and_rejected_cases_preserved": true,
+  "cases": [
+    {
+      "case": "piloto_r1",
+      "cells": 23552,
+      "max_aspect": 640398.999999,
+      "max_nonorth_deg": 89.9860109935,
+      "max_skewness": 0.346655253475,
+      "min_determinant": 2.46883681772e-11,
+      "min_interpolation_weight": 0.392226268727,
+      "min_volume_ratio": 0.650833615912,
+      "checkMesh_OK": false,
+      "checkMesh_log_sha256": "081ce6cb43f9f5497b27455408f6ec305679893b7f6425cacf772f451fc614e2",
+      "mesh_sha256": "0543e912d14f11eea5aaa2405d4e95e78d42098e2fef4c5661e40301dcc841f1"
+    },
+    {
+      "case": "piloto_r2_hibrido",
+      "cells": 113966,
+      "max_aspect": 1180.30938124,
+      "max_nonorth_deg": 63.7179886761,
+      "max_skewness": 0.438767559119,
+      "min_determinant": 6.14878524263e-05,
+      "min_interpolation_weight": 0.000718772779036,
+      "min_volume_ratio": 0.000536657064269,
+      "checkMesh_OK": false,
+      "checkMesh_log_sha256": "fd96b4a3b733609dbfe8dd109a0d4e1aa81b4c8a852e451c996d48a778d2e29e",
+      "mesh_sha256": "ba4c86e033c73d055f8d2c739dfc66c69820bba477a001cbf3417517a4971f39"
+    },
+    {
+      "case": "piloto_r3_hibrido_cap",
+      "cells": 117660,
+      "max_aspect": 1180.30938124,
+      "max_nonorth_deg": 45.3774042166,
+      "max_skewness": 0.529980823614,
+      "min_determinant": 6.14878524263e-05,
+      "min_interpolation_weight": 0.0443587173637,
+      "min_volume_ratio": 0.0348075002288,
+      "checkMesh_OK": false,
+      "checkMesh_log_sha256": "6ae96ff46e17f1069a5a72bc19e6239967efae626a5d5f03573f5453af6fd683",
+      "mesh_sha256": "e842dda28cca25e448056db4f4f2c1573fd5692ab072ea356224a4afc5b65bc7"
+    },
+    {
+      "case": "piloto_r4_hibrido_resuelto",
+      "cells": 365478,
+      "max_aspect": 98.6389792345,
+      "max_nonorth_deg": 36.5787880817,
+      "max_skewness": 0.61741943706,
+      "min_determinant": 0.00708666611557,
+      "min_interpolation_weight": 0.0514114007515,
+      "min_volume_ratio": 0.0406415528461,
+      "checkMesh_OK": true,
+      "checkMesh_log_sha256": "27a55956f736b086606e1eb0911dadcacbafa78ed2a6b58d4f7c5ab0ae8235c7",
+      "mesh_sha256": "d88e1f4b101121aab2d39653fa0da149d515fe979433faf25617de8f727a741e"
+    }
+  ],
+  "warning": "Small-edge warnings remain because the wall spacing is intentionally micrometric. Mesh OK does not demonstrate grid independence or physical accuracy.",
+  "physical_validation_accepted": false
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "file": "A_internos_seccion.step",
+    "valid_solids": true,
+    "components": 33,
+    "bounds_mm": [
+      1400.0000508299277,
+      524.0,
+      524.0
+    ]
+  },
+  {
+    "file": "B_retractiles_desplegado.step",
+    "valid_solids": true,
+    "components": 21,
+    "bounds_mm": [
+      1400.0000506684628,
+      865.0,
+      420.0000001999938
+    ]
+  },
+  {
+    "file": "B_retractiles_guardado.step",
+    "valid_solids": true,
+    "components": 17,
+    "bounds_mm": [
+      1400.0000506684628,
+      420.0000001999938,
+      420.0000001999938
+    ]
+  },
+  {
+    "file": "C_conductos_exteriores.step",
+    "valid_solids": true,
+    "components": 17,
+    "bounds_mm": [
+      1400.0000506684628,
+      650.0,
+      420.0000001999938
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-03",
+  "goal_status": "active",
+  "plan_completed": false,
+  "scope": "G0/G1 progress and application repair; not physical vehicle validation",
+  "tasks_tracked": 48,
+  "file_sha256": {
+    "configuraciones/A07_BASE.json": "8513ab8f28f5285bc4b97ed22cfe2a57d8fe95a15684927c6fdb832a0cd99b5f",
+    "configuraciones/ESCENARIOS_INVESTIGACION.json": "4ebd4623455aef072a3cf7e11778c003069550143b8eb300887b568024a0e08e",
+    "integracion_apps/ESTADO_APLICACIONES.json": "39fbba3069fa9ddde4e0e6e1aa2f0d2512b99e3bb68227c0d3669dfb46000ca3",
+    "integracion_apps/paraview/PRUEBA.json": "dfb05b8d46338b2a8e03034c43e0dc2be36c8f76eb68c93a75f1a64562ae38bb",
+    "integracion_apps/REPARACION-PARAVIEW.md": "df539e61389b609845082c832ec7636b8362d5dfaa0e0cf3319bf709f73d173d",
+    "ejecucion/ESTADO-TAREAS.csv": "548394430a53ad457ef64c01ed3535ac14e9e883b65c21d1a6ca7a511d07e3ec",
+    "ejecucion/INFORME-AVANCE-2026-11-03.md": "faf2d7319ac7dd045a01c9e7f08f76ca6a82afd4eaffee785e22f507a530cfd6",
+    "ejecucion/G0/AUDITORIA-POISEUILLE.json": "bb3a13a751bee793b9a76d2fa5f94cbf0e020612eb26a009ebb4390c9ff8ae4a",
+    "ejecucion/G1/METROLOGIA_BASE.json": "b5fc4f4a1be2a9239957fdce72c269b2944daa6ef559bcdd46885aad13207aba",
+    "ejecucion/G1/CLASIFICACION_RESUMEN.json": "9234dc43a2bdd1ff83c16a30632b2c5c7b04819410c2fb72992b566a9edfdfaa",
+    "ejecucion/G1/CRIBADO_RESUMEN.json": "c5a7ab17cbecdff98149d3b190100962747d5004fb6678150721dbf95835ccd7",
+    "modelos_integrados/producto_A08_candidato/CORRECCIONES.json": "0e415f6cc593ce7c62a667b1d91487ce0a3f7211c916489fb4308e8608e9c20f",
+    "fuentes/benchmark_compresible/CALIFICACION.json": "36041e5d72f0a37cc520eea7159d4b8a3ce3b59056abf1089dbdde52a8f342ec"
+  }
+}

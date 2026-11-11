@@ -1,0 +1,1547 @@
+{
+  "scope": "Sampled width adequacy for conservative module envelopes; not optimal body, actual engine or final skins/doors",
+  "positive_Y_counterparts": "mirror symmetry of hull and inward drive layout; cross-module interactions require separate check",
+  "component_enclosure_checks": [
+    {
+      "component": "alabe_integral_inferior_X_0",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_inferior_X_1",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_inferior_X_2",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_inferior_Y_0",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_inferior_Y_1",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_inferior_Y_2",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_superior_X_0",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_superior_X_1",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_superior_X_2",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_superior_Y_0",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_superior_Y_1",
+      "neutral_outside_enclosure_mm3": 0.0
+    },
+    {
+      "component": "alabe_integral_superior_Y_2",
+      "neutral_outside_enclosure_mm3": 0.0
+    }
+  ],
+  "records": [
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        -200.0,
+        -73.0
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        200.0,
+        -73.0
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 2.0954204151632316
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        200.0,
+        -73.0
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        -160.0,
+        -73.0
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        160.0,
+        -73.0
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -200.0,
+        -76.0
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        200.0,
+        -76.0
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 8.516585722023224
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 41.402535111854064
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 8.66706094117708
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        200.0,
+        -76.0
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -160.0,
+        -76.0
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D82_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        160.0,
+        -76.0
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        -200.0,
+        -83.5
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 7.907387073484811
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 17.312947609536206
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 231.6009157488682
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 38.69410346451598
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 601.4119698177253
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 10.980495948653301
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 23.693506890647498
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        -200.0,
+        -83.5
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 0.005051284325412103
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.562664069389534
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 72.54398515603825
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 30.268848675227872
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        -200.0,
+        -83.5
+      ],
+      "width_multiplier": 1.1,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        200.0,
+        -83.5
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_superior_Y_2_-1",
+          "outside_mm3": 18.034894305325324
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 393.79911401799734
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 336.26241462773237
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 3134.2762592867753
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 75.47474325983568
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_0",
+          "outside_mm3": 70.0628884776447
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 1299.1509611249885
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_2",
+          "outside_mm3": 25.44910270926056
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        200.0,
+        -83.5
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 18.904314435586134
+        },
+        {
+          "enclosure": "casquillo_superior_Y_0_-1",
+          "outside_mm3": 18.09434753230522
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 328.3474478575517
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 78.3991544772711
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 1563.306649052093
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 31.623991390803575
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_0",
+          "outside_mm3": 25.92679835633746
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 140.28809131073922
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        200.0,
+        -83.5
+      ],
+      "width_multiplier": 1.1,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 5.68891143259332
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 167.35092742690026
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 36.80580795069519
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 368.8632469272198
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 8.442575441335153
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        200.0,
+        -83.5
+      ],
+      "width_multiplier": 1.15,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 0.2787466126788814
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 15.115047965480402
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 65.21852436876108
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 0.11979056249179032
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 20.73469405317512
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        200.0,
+        -83.5
+      ],
+      "width_multiplier": 1.2,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        -160.0,
+        -83.5
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 13.182853866628017
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 1.0151124026916192
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 4.964393342339712
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 158.0322322635517
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 17.159361887541756
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 271.27227201918276
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 0.9071332111058499
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 7.601664233333269
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        -160.0,
+        -83.5
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 8.743739918222523
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 39.7975700624492
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 11.918138668813596
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        -160.0,
+        -83.5
+      ],
+      "width_multiplier": 1.1,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        160.0,
+        -83.5
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_superior_Y_2_-1",
+          "outside_mm3": 0.6743954877749098
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 343.8571393958571
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 86.58770069181266
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 2045.959211958965
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 49.472828105413726
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_0",
+          "outside_mm3": 36.5830421471114
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 384.43806744264873
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_2",
+          "outside_mm3": 0.7611270169944558
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        160.0,
+        -83.5
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 3.3590733407293776
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 16.75626103978795
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 219.48860433845695
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 43.29777249084931
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 592.139676660604
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 4.411009280894816
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 22.555308820627033
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        160.0,
+        -83.5
+      ],
+      "width_multiplier": 1.1,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 1.560318424604783
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.812888708075306
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 84.05206878458367
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 1.4861759748957828
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 34.59589693915783
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        160.0,
+        -83.5
+      ],
+      "width_multiplier": 1.15,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 0.5897149117985081
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 40.0,
+      "station_CAD_mm": [
+        160.0,
+        -83.5
+      ],
+      "width_multiplier": 1.2,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -200.0,
+        -86.5
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 18.920001359448186
+        },
+        {
+          "enclosure": "casquillo_superior_Y_0_-1",
+          "outside_mm3": 4.956872951598674
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 294.60452340447307
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 59.89988214756043
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 1224.2315294819145
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 32.186274635307406
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_0",
+          "outside_mm3": 7.564455878103601
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 60.741204920472434
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -200.0,
+        -86.5
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 10.860746429398155
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 0.035851252598659324
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 114.80550133004098
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 14.295845960611274
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 168.45435501203076
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 0.02921386629066336
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -200.0,
+        -86.5
+      ],
+      "width_multiplier": 1.1,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 3.448528951437848
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 24.981640492330545
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 4.3053917652958384
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -200.0,
+        -86.5
+      ],
+      "width_multiplier": 1.15,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        200.0,
+        -86.5
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_superior_Y_2_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 399.1319187498847
+        },
+        {
+          "enclosure": "barrido_rotor_completo",
+          "outside_mm3": 8.769569869865052
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_X_0",
+          "outside_mm3": 0.7621011129004379
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 789.0712857014585
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 3912.823134692778
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 105.13823880063956
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_0",
+          "outside_mm3": 91.26866717021075
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 2077.6978359904174
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_2",
+          "outside_mm3": 46.654881403008844
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        200.0,
+        -86.5
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_superior_Y_2_-1",
+          "outside_mm3": 1.0635009115664755
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 345.9513719376093
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 125.90687872568563
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 2341.8460365364617
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 52.82976982200496
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_0",
+          "outside_mm3": 47.13257704918631
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 525.3445211765094
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_2",
+          "outside_mm3": 1.242894034494707
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        200.0,
+        -86.5
+      ],
+      "width_multiplier": 1.1,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 6.335566979151361
+        },
+        {
+          "enclosure": "casquillo_superior_Y_0_-1",
+          "outside_mm3": 2.3344739908334384
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.87388377139199
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 249.50025995291298
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 58.011586633956
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 852.1590299627472
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 8.987450204754115
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_0",
+          "outside_mm3": 3.1820539634714673
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 29.64835412758724
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        200.0,
+        -86.5
+      ],
+      "width_multiplier": 1.15,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 12.490112818430092
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 113.16179007842707
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 16.42955722858589
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 99.16099118031295
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        200.0,
+        -86.5
+      ],
+      "width_multiplier": 1.2,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 1.4662155268963741
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 16.343293393934417
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 1.2271317223441478
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -160.0,
+        -86.5
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 15.124406290297987
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.84821846509887
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 253.2136251471134
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 38.365140571518054
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 715.6744390925614
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 20.207634193995347
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 28.80744292715202
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -160.0,
+        -86.5
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 71.76401737160796
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 37.519751661090154
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -160.0,
+        -86.5
+      ],
+      "width_multiplier": 1.1,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 0.2653915105820338
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        -160.0,
+        -86.5
+      ],
+      "width_multiplier": 1.15,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        160.0,
+        -86.5
+      ],
+      "width_multiplier": 1.0,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_superior_Y_2_-1",
+          "outside_mm3": 15.805470657620969
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 386.96115303603113
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 177.69136521376402
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 2824.506086971885
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 70.67860678929459
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_0",
+          "outside_mm3": 57.788820840263554
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 989.9008679759958
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_2",
+          "outside_mm3": 20.589392727675623
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        160.0,
+        -86.5
+      ],
+      "width_multiplier": 1.05,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 18.920241756244582
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_2_-1",
+          "outside_mm3": 17.50834992276674
+        },
+        {
+          "enclosure": "casquillo_superior_Y_0_-1",
+          "outside_mm3": 8.78582874695375
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 298.87372824819397
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 64.50354979087048
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 1206.0017759564028
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_2",
+          "outside_mm3": 25.506862295765455
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_0",
+          "outside_mm3": 11.96568453724301
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 57.84055388109444
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        160.0,
+        -86.5
+      ],
+      "width_multiplier": 1.1,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_0_-1",
+          "outside_mm3": 15.486465922142626
+        },
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 18.92024175624458
+        },
+        {
+          "enclosure": "casquillo_superior_Y_1_-1",
+          "outside_mm3": 0.19714728817807856
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 129.26838502420335
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_0",
+          "outside_mm3": 21.22445559987389
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 191.15325251018376
+        },
+        {
+          "enclosure": "barrido_alabe_integral_superior_Y_1",
+          "outside_mm3": 0.1569932804439744
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        160.0,
+        -86.5
+      ],
+      "width_multiplier": 1.15,
+      "all_conservative_enclosures_inside": false,
+      "outside_enclosures": [
+        {
+          "enclosure": "casquillo_inferior_Y_1_-1",
+          "outside_mm3": 5.590142615581303
+        },
+        {
+          "enclosure": "soportes_sin_piel_ducto",
+          "outside_mm3": 31.91011479891846
+        },
+        {
+          "enclosure": "barrido_alabe_integral_inferior_Y_1",
+          "outside_mm3": 7.782497583217103
+        }
+      ],
+      "checked_enclosures": 58
+    },
+    {
+      "module": "C02_D102.5_neutro",
+      "axial_corridor_OD_mm_ASSUMED": 60.0,
+      "station_CAD_mm": [
+        160.0,
+        -86.5
+      ],
+      "width_multiplier": 1.2,
+      "all_conservative_enclosures_inside": true,
+      "outside_enclosures": [],
+      "checked_enclosures": 58
+    }
+  ],
+  "component_enclosure_checks_by_module": {
+    "C02_D82_neutro": [
+      {
+        "component": "alabe_integral_inferior_X_0",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_X_1",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_X_2",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_Y_0",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_Y_1",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_Y_2",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_X_0",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_X_1",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_X_2",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_Y_0",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_Y_1",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_Y_2",
+        "neutral_outside_enclosure_mm3": 0.0
+      }
+    ],
+    "C02_D102.5_neutro": [
+      {
+        "component": "alabe_integral_inferior_X_0",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_X_1",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_X_2",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_Y_0",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_Y_1",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_inferior_Y_2",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_X_0",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_X_1",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_X_2",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_Y_0",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_Y_1",
+        "neutral_outside_enclosure_mm3": 0.0
+      },
+      {
+        "component": "alabe_integral_superior_Y_2",
+        "neutral_outside_enclosure_mm3": 0.0
+      }
+    ]
+  }
+}

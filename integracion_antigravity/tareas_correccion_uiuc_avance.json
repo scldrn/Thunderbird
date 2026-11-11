@@ -1,0 +1,17 @@
+{
+  "descripcion": "Corrección de informe UIUC de avance",
+  "tareas": [
+    {
+      "id": "reporte_uiuc_avance_corregido",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/test_procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/uiuc_mi_3.2x2.2_20051_procesado.csv",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/informe_tecnico_uiuc_avance.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_0544rd_20051.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt"
+      ],
+      "instruccion": "Redacta NUEVOS README.md e INFORME.md de máximo 600 palabras cada uno para el procesamiento UIUC de avance. Limita datos a los archivos entregados y fórmulas comprobables. El texto viejo inventa una incertidumbre porcentual, rotura instantánea a 600 km/h y conclusiones aeroelásticas no sustentadas: ELIMÍNALAS. A 20051 rpm y D=.08128m, para J max=.448667 se calcula V≈12.19m/s; no extrapolar a 600 km/h porque datos no cubren ese dominio, no porque se haya demostrado falla física. Distingue mediciones adimensionales de magnitudes dimensionalizadas con densidad supuesta y no transfieras a C02 entubado. Cita la base https://m-selig.web.engr.illinois.edu/props/volume-2/propDB-volume-2.html y usa comandos reproducibles, sin acceder a red."
+    }
+  ]
+}

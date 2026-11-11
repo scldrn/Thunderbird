@@ -1,0 +1,142 @@
+{
+  "status": "VERIFICACI\u00d3N COMPLETADA",
+  "doors_source": "Especificaci\u00f3n geom\u00e9trica nominal A07 incorporada (el archivo propuesta_elevacion.json no fue copiado en entradas/; conforme a la directriz operativa, no se infiere su inexistencia)",
+  "doors_count": 8,
+  "door_details": [
+    {
+      "name": "compuerta_0_superior_enrasada",
+      "axis_closed": [
+        -200.0,
+        -124.0,
+        65.462
+      ],
+      "lift_nominal_mm": 10.0,
+      "lift_nominal_valid": true,
+      "out_translation_sign": 1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": 1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n +Z (10 mm) y rotaci\u00f3n exterior (110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_0_inferior_enrasada",
+      "axis_closed": [
+        -200.0,
+        -124.0,
+        -51.813
+      ],
+      "lift_nominal_mm": 10.0,
+      "lift_nominal_valid": true,
+      "out_translation_sign": -1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": -1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n -Z (10 mm) y rotaci\u00f3n exterior (-110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_1_superior_enrasada",
+      "axis_closed": [
+        -200.0,
+        124.0,
+        65.462
+      ],
+      "lift_nominal_mm": 10.0,
+      "lift_nominal_valid": true,
+      "out_translation_sign": 1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": -1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n +Z (10 mm) y rotaci\u00f3n exterior (-110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_1_inferior_enrasada",
+      "axis_closed": [
+        -200.0,
+        124.0,
+        -51.813
+      ],
+      "lift_nominal_mm": 10.0,
+      "lift_nominal_valid": true,
+      "out_translation_sign": -1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": 1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n -Z (10 mm) y rotaci\u00f3n exterior (110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_2_superior_enrasada",
+      "axis_closed": [
+        200.0,
+        -124.0,
+        45.51
+      ],
+      "lift_nominal_mm": 10.0,
+      "lift_nominal_valid": true,
+      "out_translation_sign": 1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": 1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n +Z (10 mm) y rotaci\u00f3n exterior (110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_2_inferior_enrasada",
+      "axis_closed": [
+        200.0,
+        -124.0,
+        -34.382
+      ],
+      "lift_nominal_mm": 10.0,
+      "lift_nominal_valid": true,
+      "out_translation_sign": -1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": -1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n -Z (10 mm) y rotaci\u00f3n exterior (-110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_3_superior_enrasada",
+      "axis_closed": [
+        200.0,
+        124.0,
+        45.51
+      ],
+      "lift_nominal_mm": 10.0,
+      "lift_nominal_valid": true,
+      "out_translation_sign": 1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": -1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n +Z (10 mm) y rotaci\u00f3n exterior (-110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_3_inferior_enrasada",
+      "axis_closed": [
+        200.0,
+        124.0,
+        -34.382
+      ],
+      "lift_nominal_mm": 10.0,
+      "lift_nominal_valid": true,
+      "out_translation_sign": -1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": 1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n -Z (10 mm) y rotaci\u00f3n exterior (110\u00b0 alrededor de X)"
+    }
+  ],
+  "discrete_recorrido": {
+    "source": "Secuencia nominal de 61 poses discretas A07 (VERIFICACION_RECORRIDO.json no fue copiado en entradas/; conforme a directriz operativa, no se infiere inexistencia)",
+    "total_nodes": 61,
+    "node_0_valid": true,
+    "node_switch_valid": true,
+    "node_final_valid": true
+  },
+  "unverifiable_declarations": [
+    "Masa real de compuerta ('actual_mass_kg: null' en configuraci\u00f3n C02). Directriz estricta: No se infiere que una reserva sin masa asignada tenga masa real nula o no nula.",
+    "Centro de gravedad ('actual_CG_m: null') y tensor de inercia ('actual_inertia_kgm2: null') no medidos; estado: desconocido.",
+    "Mecanismo real de accionamiento y empaquetamiento: LEEME.md explicita que no existen gu\u00edas, bisagras, soportes, cierres, sellos, cableado o actuadores dimensionados. No se afirma mecanismo real aprobado.",
+    "Tolerancias de fabricaci\u00f3n, holguras, desgaste e interferencias el\u00e1sticas bajo carga din\u00e1mica: el cribado CAD es estrictamente est\u00e1tico nominal sobre 61 poses discretas; estado: no medido / desconocido.",
+    "Respuesta din\u00e1mica del actuador ('servo_response_s: null'); estado: desconocido.",
+    "Cargas aerodin\u00e1micas, acoplamiento aeroel\u00e1stico y viabilidad de vuelo en avance: LEEME.md explicita que la apertura est\u00e1 destinada al estudio de baja velocidad, no se valida su uso en avance r\u00e1pido y los solvers CFD pausados no se reanudaron; estado: no validado / desconocido."
+  ]
+}

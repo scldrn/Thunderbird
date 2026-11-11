@@ -1,0 +1,42 @@
+{
+  "config_id": "A07_RESEARCH_BASE_2026-11-03_r1",
+  "design_cases": 15,
+  "operating_cases": 45,
+  "battery_sensitivities": 243,
+  "radial_quadrature_checks": [
+    {
+      "case_id": "m5_d1_k0.85",
+      "relative_T_difference_64_to_128": 0.0006312627533979764,
+      "relative_P_difference_64_to_128": 0.000781159349438787
+    }
+  ],
+  "source_polar_sha256": "1c1aec6cbca84a719aa26523f67b529436dcd32c38da246368f1c0327397fa30",
+  "algorithm_sha256": {
+    "bem_hover.py": "a1ed2fa80886a8a1f239544fb94802f2e8a34af00e7555e7a4dc3a706387b763",
+    "dimensionar_modulo.py": "671fb9b4c804eae63ff5666764309b0bc81539ee2790c19d306acd658670f353"
+  },
+  "installed_performance_validated": false,
+  "unknown_hardware_mass_is_not_zero": true,
+  "assumptions": {
+    "blades": 8,
+    "root_ratio": 0.3,
+    "inverse_design_alpha_deg": 6,
+    "electrical_efficiency": 0.9,
+    "force_transfer_factors": [
+      0.7,
+      0.85,
+      1.0
+    ],
+    "nonphysical_hardware_approval": false
+  },
+  "limitations": [
+    "Each candidate is a theoretical isolated free rotor, not an installed fan map.",
+    "Mach >.3 contribution flagged; no compressible polar/cascade/rotating correction validated.",
+    "Endpoint polar extension is flagged, not accepted experimental coverage.",
+    "High local solidity requires cascade/interblade and 3D validation.",
+    "Force transfer factor is a sensitivity, not measured duct/vane efficiency or a universal upper bound.",
+    "No motor/ESC/battery/thermal/RPM/structure approval; no negative-thrust map.",
+    "Body forces/moments, CG offset, gyro, ground/crosswind effects and transition not included.",
+    "Enlarged rotors require new ducts, doors, support/axial-route CAD and mass/aero reanalysis."
+  ]
+}

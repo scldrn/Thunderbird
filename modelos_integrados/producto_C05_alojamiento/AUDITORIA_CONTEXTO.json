@@ -1,0 +1,11 @@
+{
+  "scope": "reapertura/reimportacion basica, sin equivalencia por pieza ni validacion fisica",
+  "FCStd": {
+    "count": 16,
+    "invalid": []
+  },
+  "STEP": {
+    "count": 16,
+    "invalid": []
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "status": "moved_paths_require_reconnection",
+  "files": [
+    {
+      "from": "ALA-ANULAR-CONTRASTE.md",
+      "to": "legacy/reports/ALA-ANULAR-CONTRASTE.md",
+      "sha256": "43486e219f9328b58bdd09b6406fbbd9a13a96b91fb5d98524d46852656d2a51"
+    },
+    {
+      "from": "AVANCE-A-TRANSONICO-EVIDENCIA-Y-MALLA.md",
+      "to": "legacy/reports/AVANCE-A-TRANSONICO-EVIDENCIA-Y-MALLA.md",
+      "sha256": "b98df1ccef6d62b8def73d988590da33c3df94fe7a587624c69bf39f7808e4a7"
+    },
+    {
+      "from": "CANDIDATOS-CONCRETOS.md",
+      "to": "legacy/reports/CANDIDATOS-CONCRETOS.md",
+      "sha256": "d3b32582404b88e4a616865c9c732c23c7befc96cb75179a10eea53373e54b78"
+    },
+    {
+      "from": "COMPARACION-INTEGRADA.md",
+      "to": "legacy/reports/COMPARACION-INTEGRADA.md",
+      "sha256": "32ac845695c4d3ea3450a5b89bffc4e742963caec1c87d26f7f14ca758ccc4d1"
+    },
+    {
+      "from": "COMPONENTES-5KG.md",
+      "to": "legacy/reports/COMPONENTES-5KG.md",
+      "sha256": "a22c4a59eb400f12155da56609db33eca6c82611df4647a7dac0154a38e1e343"
+    },
+    {
+      "from": "CONTRASTE-NASA-TRANSONICO.md",
+      "to": "legacy/reports/CONTRASTE-NASA-TRANSONICO.md",
+      "sha256": "41a1c3a7e4368dc086b1eb7b102f414e74d88335d661e73c0a00e510754bc99c"
+    },
+    {
+      "from": "DATOS-PARA-CERRAR-VALIDACION.md",
+      "to": "legacy/reports/DATOS-PARA-CERRAR-VALIDACION.md",
+      "sha256": "9629a4127b9a2f162cdf910c1ba93f578473354c76502575c1ce9522c7009faa"
+    },
+    {
+      "from": "ESTRUCTURA-PRELIMINAR.md",
+      "to": "legacy/reports/ESTRUCTURA-PRELIMINAR.md",
+      "sha256": "ade0fc94a18aed62479cce306c0b4ff673aec915c5310c99d54089af2fdca586"
+    },
+    {
+      "from": "ETAPA-2-CONTROL.md",
+      "to": "legacy/reports/ETAPA-2-CONTROL.md",
+      "sha256": "d61e08938cc1bbf59f39b51a2a14562ac18377b9698253f8c2f99249d6fa7a8a"
+    },
+    {
+      "from": "ETAPA-3-DINAMICA.md",
+      "to": "legacy/reports/ETAPA-3-DINAMICA.md",
+      "sha256": "6b7e09d69372568e41f39fe04232984a4765f1663dc140650cea10916e021f79"
+    },
+    {
+      "from": "EVALUACION-INTEGRADA-ROTOR.md",
+      "to": "legacy/reports/EVALUACION-INTEGRADA-ROTOR.md",
+      "sha256": "2e14db8ec1434ff3b3a6c755047bfb89f0535aff6e8d1f821818de256721d033"
+    },
+    {
+      "from": "FAMILIA-ESCALABLE.md",
+      "to": "legacy/reports/FAMILIA-ESCALABLE.md",
+      "sha256": "266c9e4ed9307496ce6f135b4b76d818f55b4eb32e0cd852fa3e7fd21bc9b07b"
+    },
+    {
+      "from": "INFORME-CONSOLIDADO-VIABILIDAD.md",
+      "to": "legacy/reports/INFORME-CONSOLIDADO-VIABILIDAD.md",
+      "sha256": "59dd48b5260c4ea6f0f22516b0f1dd39455a52ff14d35818f4c1e0cda281db5d"
+    },
+    {
+      "from": "LEEME.md",
+      "to": "legacy/reports/LEEME.md",
+      "sha256": "10f952e3898072f70a8ff5852506284d4735f46f7b7bf23d077d15da9d41e3a0"
+    },
+    {
+      "from": "PALA-DE-REFERENCIA.md",
+      "to": "legacy/reports/PALA-DE-REFERENCIA.md",
+      "sha256": "126f3e42e181c62fb7a99c5730ae18109720b118c43ca443f24ee2c116e181ee"
+    },
+    {
+      "from": "PREDIMENSIONADO-PALAS-Y-BUJE.md",
+      "to": "legacy/reports/PREDIMENSIONADO-PALAS-Y-BUJE.md",
+      "sha256": "33cd3b5d29a35077dce053ad188d63630f9623598e54f28ca3ab2c7a94812a2f"
+    },
+    {
+      "from": "REQUISITOS-MODULO-REVERSIBLE.md",
+      "to": "legacy/reports/REQUISITOS-MODULO-REVERSIBLE.md",
+      "sha256": "9801031257601441450b8d90f13b76369308ccf762804255eee96afcd433afb9"
+    },
+    {
+      "from": "REVISION-CON-POLARES-EXPERIMENTALES.md",
+      "to": "legacy/reports/REVISION-CON-POLARES-EXPERIMENTALES.md",
+      "sha256": "d2d086e65a00fa53168680a889caa1c1400422852aa04d3cc4e65b6fa29c85cb"
+    },
+    {
+      "from": "REVISION-POTENCIA-Y-ESPACIO.md",
+      "to": "legacy/reports/REVISION-POTENCIA-Y-ESPACIO.md",
+      "sha256": "5b29bd6a8d12313b5e342a3064d598db107052611a7821bfd0632db0ebd23038"
+    },
+    {
+      "from": "TOMAS-Y-EMPUJE-INSTALADO.md",
+      "to": "legacy/reports/TOMAS-Y-EMPUJE-INSTALADO.md",
+      "sha256": "1b325add32c5b62b624de88de0b9b6778f0f453e48712630b7b30b565d7bb9d5"
+    },
+    {
+      "from": "TRANSICION-Y-SUSTENTACION.md",
+      "to": "legacy/reports/TRANSICION-Y-SUSTENTACION.md",
+      "sha256": "a6b9b8a5cf0c7c1d5ac08bdc18687ad17cc807ae92e084581bcbad247cdc8215"
+    },
+    {
+      "from": "TRIMADO-Y-GEOMETRIA-VARIABLE.md",
+      "to": "legacy/reports/TRIMADO-Y-GEOMETRIA-VARIABLE.md",
+      "sha256": "f66af5a4c7aee2dc0d5d67e6758f400b3eb8947aae275be06b59dfa8d23f3047"
+    },
+    {
+      "from": "ala_anular.py",
+      "to": "legacy/scripts/ala_anular.py",
+      "sha256": "172ab5ab3d844c6ecb8ac14c0d42abd4b4f68243c35051fc17ac9cde3996140d"
+    },
+    {
+      "from": "auditoria_masa_consolidada.py",
+      "to": "legacy/scripts/auditoria_masa_consolidada.py",
+      "sha256": "01d7928c5971b6d7e71bb77c286460595129a26e09f59c79546a29943d56609c"
+    },
+    {
+      "from": "calcular.py",
+      "to": "legacy/scripts/calcular.py",
+      "sha256": "7497fa4ddb152913121ed844fac3bd211a3d22dfd66472900f656088d7fd0af3"
+    },
+    {
+      "from": "cargas_pala_buje.py",
+      "to": "legacy/scripts/cargas_pala_buje.py",
+      "sha256": "89ae1e20d6315775099a126830c8797c35dade9c09d9e1b974e7f7cfa7803502"
+    },
+    {
+      "from": "cierre_masa.py",
+      "to": "legacy/scripts/cierre_masa.py",
+      "sha256": "01b3310afd72ede16d2503b699446ddfd71c789704b98356e3ead11d5fc97c24"
+    },
+    {
+      "from": "comparacion_integrada.py",
+      "to": "legacy/scripts/comparacion_integrada.py",
+      "sha256": "5de9b13893b9e9ca70c079c605ca454ec2832b73385ff9c74ea6648d231d807c"
+    },
+    {
+      "from": "comparar_candidatos.py",
+      "to": "legacy/scripts/comparar_candidatos.py",
+      "sha256": "7e13376b07f6dd15e26f4e5438a3015a7d0ac520a1064b3c92e002ee9e0636dc"
+    },
+    {
+      "from": "componentes_5kg.py",
+      "to": "legacy/scripts/componentes_5kg.py",
+      "sha256": "7fc46113973f30103d1a0ec01451fd0ffd3ddb69878c44152ba7071851397897"
+    },
+    {
+      "from": "contraste_nasa_presiones.py",
+      "to": "legacy/scripts/contraste_nasa_presiones.py",
+      "sha256": "8c8abaaa34cf3986fbeb5bf30ac05302b9993d0d65b35861e90a975ad5fa8606"
+    },
+    {
+      "from": "control.py",
+      "to": "legacy/scripts/control.py",
+      "sha256": "de47909eb00e11e3958c94d13597ea5f279e267d0374faa4ecf6199362be3cdb"
+    },
+    {
+      "from": "dibujar_estado_actual.py",
+      "to": "legacy/scripts/dibujar_estado_actual.py",
+      "sha256": "1f2c7919292c85cbc93d0b00a9f8fe257b19a594257efef59d7580b7d310b290"
+    },
+    {
+      "from": "dibujar_palas.py",
+      "to": "legacy/scripts/dibujar_palas.py",
+      "sha256": "378d7ea47d74c37d973062cfa3dd35bbc152498dccf9175e7a8b997bc34bae25"
+    },
+    {
+      "from": "dinamica.py",
+      "to": "legacy/scripts/dinamica.py",
+      "sha256": "42358d743a07ba53a97aa17d1db24ea142cfc75f4bae047fbcd14ff0bcd11de5"
+    },
+    {
+      "from": "energia_control.py",
+      "to": "legacy/scripts/energia_control.py",
+      "sha256": "3a38be99dc92936f9324ede3e866f9e95c5ef5dc82d1d8001e87e1136b6303d1"
+    },
+    {
+      "from": "espacio_rotores.py",
+      "to": "legacy/scripts/espacio_rotores.py",
+      "sha256": "893c2c0ffeede0e90577479d142e5b6fe8ad24a6dcb9bb9dcda89ace945545ba"
+    },
+    {
+      "from": "estructura_preliminar.py",
+      "to": "legacy/scripts/estructura_preliminar.py",
+      "sha256": "2e0ffbdda13ad247c32b427a7de6e1fa92cfdb82d8bd8629531a661a32bd08be"
+    },
+    {
+      "from": "evaluacion_rotor_completo.py",
+      "to": "legacy/scripts/evaluacion_rotor_completo.py",
+      "sha256": "b372852eff9b3264e6d4c292b1ff79b284ce828df37bc599cb3b93b906f20286"
+    },
+    {
+      "from": "familia.py",
+      "to": "legacy/scripts/familia.py",
+      "sha256": "d33e689ca1ae06a68c39da8cdec24a9982030d4774b66a1c08ef621beee87b96"
+    },
+    {
+      "from": "limite_cobertura.py",
+      "to": "legacy/scripts/limite_cobertura.py",
+      "sha256": "aae1e22cce027b2ede4b1b0a9ad220d05a2774696d10f5888e0028956f0e34de"
+    },
+    {
+      "from": "modulo_reversible.py",
+      "to": "legacy/scripts/modulo_reversible.py",
+      "sha256": "e6f98dac059519d2830c0528f13c204185709161a08c21298e8d42af11220260"
+    },
+    {
+      "from": "optimizar_potencia_5kg.py",
+      "to": "legacy/scripts/optimizar_potencia_5kg.py",
+      "sha256": "541103b04571b8ea052659d630abf530c5e99109cd19201652487134dce10df0"
+    },
+    {
+      "from": "pala_referencia.py",
+      "to": "legacy/scripts/pala_referencia.py",
+      "sha256": "09b373cc08447c54fb6350fd57ee4e10fab0889dd811a751b66b5fb86d992f5f"
+    },
+    {
+      "from": "polar_experimental.py",
+      "to": "legacy/scripts/polar_experimental.py",
+      "sha256": "c583d71b83360972136a09b06e593753129aacb4c7b036483f60a568da36f7f7"
+    },
+    {
+      "from": "reaccion_rotores.py",
+      "to": "legacy/scripts/reaccion_rotores.py",
+      "sha256": "16ade98c810cff9bf1c2006491fccdd6a4e0da9f4ba800373d9020197d0c41d2"
+    },
+    {
+      "from": "robustez.py",
+      "to": "legacy/scripts/robustez.py",
+      "sha256": "ec1f5e03c8ed8ca0661623238687372ccee873e0ab24d20330a4e031b7a09ede"
+    },
+    {
+      "from": "tomas_y_empuje.py",
+      "to": "legacy/scripts/tomas_y_empuje.py",
+      "sha256": "101590e7b7597731e2137fffd10b6d0a65f3f823862611971a05cedf293424ef"
+    },
+    {
+      "from": "transicion_sustentacion.py",
+      "to": "legacy/scripts/transicion_sustentacion.py",
+      "sha256": "373ce366054a87ecaa8a20899d0ad606320e7d8fd4c066d6c06160ccf7b97357"
+    },
+    {
+      "from": "trimado_superficies.py",
+      "to": "legacy/scripts/trimado_superficies.py",
+      "sha256": "419dd98ac1f307aed28433e1d99c65f027a36c29b6b6904d26357934d943a0bb"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "blender_version": "5.2.3 LTS",
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_A07/5kg/A07_cerrado.step",
+  "source_sha256": "49cc51974b5ae56dc10c77dc07da25c9025f9906ce34954303e322e02d62f3e2",
+  "mesh_parts": 208,
+  "units": "m",
+  "frames": {
+    "closed": 1,
+    "lifted": 40,
+    "open": 100
+  },
+  "render_engine": "CYCLES",
+  "render_device": "CPU",
+  "scope": "CAD import and conceptual cover animation; no flight/CFD validation"
+}

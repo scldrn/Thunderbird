@@ -1,0 +1,1682 @@
+[
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.682676122835026
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863227
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.28681481591102
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 0,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.192023801104746
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911015
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863227
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.682676122835026
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.9549206627005
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129312
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129312
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.68267612283501
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863225
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 0,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.192023801104725
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863225
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.68267612283501
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.8273744312931
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.8273744312931
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.9549206627005
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.682676122835026
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863227
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911015
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 0,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.192023801104746
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.28681481591102
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863227
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.682676122835026
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129312
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129312
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.68267612283501
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863225
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 0,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.192023801104725
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863225
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.68267612283501
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.8273744312931
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.8273744312931
+  },
+  {
+    "x_mm": -280.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.682676122835026
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863227
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.28681481591102
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 0,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.192023801104746
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911015
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863227
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.682676122835026
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.9549206627005
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129312
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129312
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.68267612283501
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863225
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 0,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.192023801104725
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863225
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.68267612283501
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129308
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129308
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": -65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": -22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.9549206627005
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.682676122835026
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863227
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": -15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911015
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 0,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.192023801104746
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.28681481591102
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863227
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 0,
+    "angle_deg": 45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.682676122835026
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.50845680429392
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.827374431293116
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "X",
+    "offset_mm": 22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700495
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129312
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129312
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": -22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.68267612283501
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863225
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": -15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 0,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.192023801104725
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 15,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.286814815911
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 30,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.46668960863225
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 0,
+    "angle_deg": 45,
+    "span_mm": 76.36931797585073,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 38.68267612283501
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129308
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": -15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 0,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 34.111891500693254
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 15,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 35.508456804293935
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 30,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 36.82737443129308
+  },
+  {
+    "x_mm": 285.0,
+    "y_mm": 65.0,
+    "row": "Y",
+    "offset_mm": 22.0,
+    "angle_deg": 45,
+    "span_mm": 50.83536728519107,
+    "outside_envelope_mm3": 0.0,
+    "max_radius_mm": 37.954920662700516
+  }
+]

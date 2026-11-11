@@ -1,0 +1,15 @@
+# Presupuesto de Masa e Incertidumbre: C02 5 kg Desglosada por 10 Roles
+# Objetivo de Masa de Diseno: 5.0 kg (HIPOTETICO - mass_targets_are_actual_masses: false)
+# Sin mediciones reales en hardware ni marcas/piezas comerciales inventadas.
+componente,masa medida,masa supuesta,intervalo inferior,intervalo superior,evidencia,estado
+bushing_material_sensitivity_96_piezas,,0.013356,0.001821,0.013356,"CAD C02 (96 casquillos, V=1.517,77 mm3); sensibilidad material latón/bronce (8800 kg/m3) vs PTFE (1200 kg/m3)",CALCULADO_HIPOTESIS_GEOMETRICA
+integral_vane_linkage_material_sensitivity_80_piezas,,0.236184,0.104971,0.236184,"CAD C02 (80 álabes y bielas, V=87.475,54 mm3); sensibilidad aluminio (2700 kg/m3) vs compuesto (1200 kg/m3)",CALCULADO_HIPOTESIS_GEOMETRICA
+envelope_material_sensitivity_42_piezas,,1.770835,1.328126,2.988284,"CAD C02 (42 piezas piel aerodinámica, V=1.106.771,98 mm3); sensibilidad compuesto (1600 kg/m3) vs ligero (1200) vs aluminio (2700)",CALCULADO_HIPOTESIS_GEOMETRICA
+seal_or_clamp_density_assumption_11_piezas,,0.006032,0.005026,0.007539,"CAD C02 (11 abrazaderas/sellos, V=5.026,40 mm3); sensibilidad polimérica (1000 a 1500 kg/m3)",CALCULADO_HIPOTESIS_GEOMETRICA
+frame_support_density_assumption_11_piezas,,0.121208,0.053870,0.121208,"CAD C02 (11 cuadernas soporte, V=44.891,89 mm3); sensibilidad compuesto (1200 kg/m3) vs aluminio (2700 kg/m3)",CALCULADO_HIPOTESIS_GEOMETRICA
+steel_density_assumption_10_piezas,,0.018709,0.010794,0.018709,"CAD C02 (10 piezas tornillería encastrada, V=2.398,65 mm3); sensibilidad titanio (4500 kg/m3) vs acero (7800 kg/m3)",CALCULADO_HIPOTESIS_GEOMETRICA
+rotor_or_carrier_material_sensitivity_8_piezas,,0.610768,0.458076,1.030672,"CAD C02 (8 cubos y alojamientos rotor, V=381.730,29 mm3); sensibilidad compuesto (1600 kg/m3) vs aluminio (2700 kg/m3)",CALCULADO_HIPOTESIS_GEOMETRICA
+shaft_steel_density_assumption_4_piezas,,0.006897,0.003979,0.006897,"CAD C02 (4 ejes de aletas posteriores, V=884,17 mm3); sensibilidad titanio (4500 kg/m3) vs acero (7800 kg/m3)",CALCULADO_HIPOTESIS_GEOMETRICA
+unknown_device_or_interface_44_reservas_modulos,,,0.000000,0.450000,"44 reservas CAD (V=52.501,18 mm3); volúmenes reservados pueden estar vacíos (m=0) o alojar motores y servos (m>0)",RESERVA_VOLUMETRICA_INCIERTA
+unknown_hardware_or_empty_interface_10_reservas_vehiculares,,,0.000000,0.600000,"10 reservas vehiculares CAD (V=316.437,25 mm3; incluye tubo axial OD60); no prueba masa cero ni positiva",RESERVA_VOLUMETRICA_INCIERTA
+reserva_provisional_y_remanente_bateria_sistemas,,2.216010,0.000000,2.500000,"Presupuesto para equipos no calificados (0,75 kg) y remanente de energía (1,466 kg) para balance de 5,0 kg",PRESUPUESTO_ASIGNADO_NO_CERRADO

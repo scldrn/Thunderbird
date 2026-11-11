@@ -1,0 +1,15 @@
+{
+  "motor_requirement_rows": 12,
+  "thermal_sensitivity_rows": 108,
+  "rated_motor_hardware_selected": false,
+  "limits": [
+    "Envelope dimensions are available space, not evidence that a motor delivers the specified torque, speed or heat rejection.",
+    "Airgap radius and active stack length are assumed fractions, not an electromagnetic design.",
+    "DC current is input power/assumed voltage, not phase or winding current; no bus sag/R/L/back-EMF/control model.",
+    "Loss split between motor and ESC is unknown; both heat-share scenarios are assumptions.",
+    "Thermal estimate assumes direct exposure despite the motor being inside a cup. It is deliberately optimistic, not validated or a rigorous bound.",
+    "Continuous equilibrium at a peak operating point is not the temperature of a 3-s maneuver.",
+    "The 80-K rise is a sensitivity reference, not a material/component temperature rating.",
+    "Missing: cooling paths/contact, coil/core/magnet losses, saturation, winding geometry, torque-speed map, bearings and rotor retention."
+  ]
+}

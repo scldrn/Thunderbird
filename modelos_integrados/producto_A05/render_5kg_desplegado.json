@@ -1,0 +1,13 @@
+{
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_A05/5kg/A05_compuertas_abiertas.step",
+  "source_sha256": "969fac8f00a679a56706820bf2c2b988af6f65e9ca659375201bd37eb335164c",
+  "renderer": "Mitsuba3 scalar CPU path tracing from actual STEP",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "requested_samples_per_pixel": 64,
+  "samples_per_pixel": 64,
+  "view": "hero",
+  "no_AI_image_generator": true
+}

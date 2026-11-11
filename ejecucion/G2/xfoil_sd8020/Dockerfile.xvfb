@@ -1,0 +1,6 @@
+FROM codex-aero-xfoil-6.99-noble:latest
+
+# Keep Ubuntu's original numerical checks and provide an isolated virtual X display.
+RUN apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends xvfb xauth xfonts-base \
+    && rm -rf /var/lib/apt/lists/*

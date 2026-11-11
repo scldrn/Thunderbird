@@ -1,0 +1,8 @@
+{
+  "tareas": [
+    {
+      "id": "lectura_integracion",
+      "instruccion": "Para comprobar el acceso al espacio de trabajo, lee únicamente el archivo investigacion-aeronautica/integracion_antigravity/LEEME.md y reproduce su primer encabezado. No consultes otros archivos ni describas el proyecto."
+    }
+  ]
+}

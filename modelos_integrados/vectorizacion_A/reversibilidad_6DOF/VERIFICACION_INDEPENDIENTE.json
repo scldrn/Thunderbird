@@ -1,0 +1,130 @@
+{
+  "status": "completed",
+  "CAD_coordinates_source_sha256": "184ce7421fe41e47068d3c2db8b3792460d9dccbc1a587c5ab69cad8bff1381a",
+  "base_vane_neutral_step_sha256": "13f1494440ff331c81de6997270a6f8bd175d611898a65d13bbd7eecbff3c2dd",
+  "base_vane_centers_z_m_from_STEP": {
+    "X": -0.012000000000000002,
+    "Y": -0.039999999999999994
+  },
+  "checks": [
+    {
+      "name": "doble_salida_refinada",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 5.742620601267845e-09,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.00000000000001,
+      "npz_sha256": "1103c442f3bd2df4790644b6434e1539ca3b2e370288caf3898990dcf0ab3eac",
+      "geometry_bridge_checked": true
+    },
+    {
+      "name": "doble_salida_inverso_0p6",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 2.7719195827557996e-09,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.00000000000001,
+      "npz_sha256": "22e73381ca85bd6b166d8650f5ac0c6035aeeee74bbdd879fee396706009846c",
+      "geometry_bridge_checked": true
+    },
+    {
+      "name": "doble_salida_2kg",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 3.991473818132363e-10,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.00000000000001,
+      "npz_sha256": "45bf3c2738cd46d22b91293e183266ba83d886a1f1e61b247923f896fc306424",
+      "geometry_bridge_checked": true
+    },
+    {
+      "name": "doble_salida_10kg",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 1.4165124184728484e-08,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.00000000000001,
+      "npz_sha256": "39b9bcd3593c5e3ebde994db0bebb9790bcf322f4d43d1673ad3647633ff6c5e",
+      "geometry_bridge_checked": true
+    },
+    {
+      "name": "base_horizontal_5kg",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 1.2559539186440816e-08,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.0,
+      "npz_sha256": "7dbc9bb2a193e36e1ba2b415dd5f52705d2655344a30ff8aa11cf4c8d963b709",
+      "geometry_bridge_checked": true
+    },
+    {
+      "name": "base_horizontal_2kg",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 2.919799513279031e-09,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.00000000000001,
+      "npz_sha256": "dc9a7608867a0d4c6aecd5dff839f49848f60e4b9c02d42509d2b8cf73df504a",
+      "geometry_bridge_checked": true
+    },
+    {
+      "name": "base_horizontal_10kg",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 2.176969360334624e-08,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.00000000000001,
+      "npz_sha256": "e11ea455ea4d57a5f1af1034ead29bf78cb914513c57e16ce005809dc302b56e",
+      "geometry_bridge_checked": true
+    },
+    {
+      "name": "reversible_horizontal_1g",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 7.526793410761456e-09,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.0,
+      "npz_sha256": "dc2945129eab1ce4c70bf3ebcc546131642d2c56d5828a317747a30f4818ec97",
+      "geometry_bridge_checked": true
+    },
+    {
+      "name": "reversible_horizontal_2g",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 4.057568503412767e-09,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.00000000000001,
+      "npz_sha256": "8d5cad8c482cab2c5da3c02867874a36684dbc205f267a502deaa8460b95be92",
+      "geometry_bridge_checked": true
+    },
+    {
+      "name": "reversible_horizontal_5g",
+      "joint_vertices_checked": 1536,
+      "wrench_equilibrium_max_error_N_or_Nm": 5.7625015870144125e-09,
+      "reconstructed_force_hull_min_facet_distance_in_unit_radius": 1.0000000000009996,
+      "max_force_direction_angle_deg": 45.00000000000001,
+      "npz_sha256": "a36c9f293b2212b2d210ef4f25d6d9b6575b6e413cdb5431ace1ea1685512a89",
+      "geometry_bridge_checked": true
+    }
+  ],
+  "trajectory_checks": [
+    {
+      "file": "BASE_HORIZONTAL_TRANSITORIOS_100ms.npz",
+      "trajectory_states_checked": 12012,
+      "max_equilibrium_residual_N_or_Nm": 4.263256414560601e-14,
+      "sha256": "b094a08664665817d22d890fd8548114ccb4acac851d11de52fed0d1e0cee3bd"
+    },
+    {
+      "file": "TRANSITORIOS_100ms.npz",
+      "trajectory_states_checked": 12012,
+      "max_equilibrium_residual_N_or_Nm": 4.263256414560601e-14,
+      "sha256": "1134d11c495f296a9867935bbfebebfc01a1b71f618d483c3f84a3f9b9061da5"
+    },
+    {
+      "file": "TRANSITORIOS_100ms_precarga_3p0.npz",
+      "trajectory_states_checked": 12012,
+      "max_equilibrium_residual_N_or_Nm": 5.684341886080802e-14,
+      "sha256": "2d47bd4ff07ed9a9ebe5cee1acc1ecbc554cdabd71dcbf51223445ff467a8c47"
+    },
+    {
+      "file": "TRANSITORIOS_100ms_precarga_5p0.npz",
+      "trajectory_states_checked": 12012,
+      "max_equilibrium_residual_N_or_Nm": 5.684341886080802e-14,
+      "sha256": "4805b9a7289e276bff27572d9160c4c6cb12ffa597cdc342432e5f474cfc328c"
+    }
+  ],
+  "ideal_model_checks_passed": true,
+  "physical_flight_validated": false,
+  "scope": "Saved arrays satisfy ideal constraints and a continuous sufficient-domain construction with assumed CAD-centered lateral lever arms. A numerical tolerance check is not formal interval verification, and CAD row centers are not measured aerodynamic centers of pressure."
+}

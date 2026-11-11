@@ -1,0 +1,27 @@
+{
+  "case_id": "m5_d1_k0.85",
+  "fused_volume_mm3": 10201.07249965487,
+  "expected_union_from_parts_mm3": 10196.98203864057,
+  "relative_difference": 0.00040114427963100496,
+  "blade_volume_mm3": 282.21955334127694,
+  "hub_volume_mm3": 7958.363611858813,
+  "hub_blade_intersection_mm3": 2.3922499935573054,
+  "pair_checks": [
+    {
+      "relative_angle_deg": 45,
+      "overlap_mm3": 0.0
+    },
+    {
+      "relative_angle_deg": 90,
+      "overlap_mm3": 0.0
+    },
+    {
+      "relative_angle_deg": 135,
+      "overlap_mm3": 0.0
+    },
+    {
+      "relative_angle_deg": 180,
+      "overlap_mm3": 0.0
+    }
+  ]
+}

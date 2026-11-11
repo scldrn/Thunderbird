@@ -1,0 +1,11 @@
+{
+  "step_sha256": "e096821bad298bae06a83db13cceb079d7fa145211150c1202f856df8572c1fd",
+  "object_count": 13,
+  "leaf_center_errors_mm": [
+    3.3792989919447343e-10,
+    4.74039862879667e-11,
+    9.803238516267752e-11,
+    6.136011132667898e-11
+  ],
+  "scope": "reimport validity and center positions only; no global collision or mechanism"
+}

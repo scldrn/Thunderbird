@@ -1,0 +1,9 @@
+# Presupuesto de Masa e Incertidumbre: Candidata C02 5 kg (Integración x160)
+# Objetivo de Masa de Diseno: 5.0 kg (HIPOTETICO - mass_targets_are_actual_masses: false)
+# Sin mediciones reales en hardware ni marcas/piezas comerciales inventadas.
+componente,masa medida,masa supuesta,intervalo inferior,intervalo superior,evidencia,estado
+C02_CAD_Estructura_asignada_262_piezas,,2.783990,2.045841,4.421342,Integración CAD C02 (V=1.630.697 mm3); sensibilidades de densidad 1200 a 2700 kg/m3,CALCULADO_HIPOTESIS_GEOMETRICA
+C02_CAD_Reservas_internas_modulos_44_piezas,,,0.000000,0.450000,44 reservas CAD (V=52.501 mm3); volúmenes pueden estar vacíos o alojar hardware no calificado,RESERVA_VOLUMETRICA_INCIERTA
+C02_CAD_Reservas_interfaces_vehiculares_10_piezas,,,0.000000,0.600000,10 reservas CAD (V=316.437 mm3; incluye tubo axial OD60); no prueba masa cero ni positiva,RESERVA_VOLUMETRICA_INCIERTA
+C02_Reserva_provisional_equipos_no_calificados,,0.750000,0.400000,1.100000,"Reserva provisional en JSON para motores anulares, servos de ciclo y cojinetes",SUPUESTO_HIPOTETICO_RESERVA
+C02_Remanente_energia_bateria_y_avionica,,1.466010,0.000000,2.204159,Saldo para energía; informe G1 indica que 50 N de arrastre exige 3.04-6.40 kg de batería,SALDO_CALCULADO_NO_CERRADO

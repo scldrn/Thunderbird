@@ -1,0 +1,62 @@
+{
+  "updated_UTC": "2026-11-05T02:07:10.602716+00:00",
+  "previous_goal_turn_classification": "progress",
+  "this_goal_turn_classification": "progress",
+  "global_goal_complete": false,
+  "physical_product_validated": false,
+  "completed_evidence": [
+    "SU2 original r3 terminal200 and complete field comparison with originalr2",
+    "Direct native conversion of NASA23952nodes/23552quads, same source profile and M/alpha/Re/T/chord",
+    "NASA1200+4000+1000steps completed with finite positive thermodynamics; all-fields1000-step stability measured",
+    "Independent WLS/fullTau wall-force reconstruction agrees with native coefficients within1e-8; affine/linear-pressure references passed",
+    "Roe/characteristic boundary reconstruction and four analytic checks; net mass relative2.45e-11, remaining momentum coefficient defect1.866e-4",
+    "Full103pointCp comparison RMS0.122101; no points discarded; physical validation remains pending",
+    "Scientific PNG/SVG generated from saved CFD and visually inspected",
+    "Refined NASA1200step case terminal exit0: yPlusmax0.976, force extraction verified; same polygon/conditions/binary explicitly verified; provisional CDdifference-3.438percent not settled grid uncertainty",
+    "C02r8 immutable780/800 snapshots audited without stopping source; CVdefect0.02089/0.01892percent, all fields finite, volume-weightedRMSdeltaU0.01222m_s but localchanges remain; passive loads not accepted",
+    "FineR2terminal1800 audited: same polygon/conditions/binary verified, yPlusmax0.97625, CD0.01259316 (-3.424percent versuscoarse), all103CpRMS0.123145; krelativeL2change0.004789 means late-state probe remains justified",
+    "FineR3late600probe terminal exit0: CL0.67880791/CD0.01259346, deltaCL9.57e-6/deltaCD2.99e-7; latekL2change0.000888, force reconstruction remains verified; no experimental or whole-vehicle acceptance",
+    "R8 terminal1000: CVdefect0.00679percent, continuity/load drift pass but first residual screens fail",
+    "SA-noft2 matched model runs1800+600 complete; CL+4.8049percent/CD+5.3832percent versusSST; full force reconstruction verified; no physical acceptance",
+    "Passive r8 nominal mechanicalflux21.5632W/drop194.593Pa/K0.79426; uniform-inlet independent crosscheck uses triangulated mesh area; no shaft-power or full RANS energy acceptance",
+    "Four actuator cell bands measured on original mesh; positive unit-axial-force kernels with zero spurious local transverse moments verified; no source applied or rotor performance accepted",
+    "Uniform coded source completed as UID1000; all80 velocity vectors at4s exactly equal original semiImplicitSource. Root-loading failure preserved. Generated C02 source algebra passes32 force/density/band cases; not applied to C02 or physically validated.",
+    "Generated zero-source channel and rigidly rotated nonzero channel both terminal exit0 with exact velocity agreement. Nonzero source work2.58316347127W equals independent reference. Four saved-field postprocessing fixtures crosscheck CSV work and reject modified source dictionary; not installed flow validation.",
+    "R9 terminal1200/exit0/reconstruct0: all five unchanged startup screens pass; CVfinal1.69343e-5, nominal mean mechanical loss21.564149W. Max local deltaU0.94448m_s retained; no physical acceptance. Same-CAD finer mesh1283005cells generated and checkMesh passed; missing-controlDict conversion failure preserved separately.",
+    "Forced1N terminal1200 audited: source integral-1N, source work22.649994W, CV0.346214percent; first residual screens fail, no physical acceptance. Matched comparison21common inputs preserved. Same-source continuation1400 UID1000 and independently solved fine-grid100 active. Fine mapped seed all fields finite, nonnegative turbulence, no inherited convergence.",
+    "Local blade law:9 vector-work cases/64 frozen annuli reproduced/4 unsupported cases rejected.42 disk-velocity prescribed points retain all extrapolations; hub0.315R area-1.01374percent versus BEM0.30R; no accepted fan law.8 quadrature checks64/128/256. Free-Q transient boundary fields match analytic final solution but linear iteration-limit criterion fails; benchmark stays partial. ASCII compact reader extension reproduces5coarse fields exactly.",
+    "Forced1400 terminal0/reconstruct0: CV0.00187422percent, p/k first residuals narrowly fail. Fine100 terminal0/reconstruct0: residuals fail and maxlocaldeltaU12.0086m_s retained. Separate continuations1500/200 live; no physical acceptance.",
+    "Forced1500 audited: only pressure screen fails (1.13191e-4 vs1e-4), CV1.42258e-5, volume-weightedRMSdeltaU0.00193708m_s; localized changes retained. Pressure relaxation0.3to0.2 numerical branch1600 active. Reservoir seed guard rejects failed parent before creating case; four real581786cell patch fixtures preserve internal data and all text outside inlet. No free-Q case started.",
+    "R4 terminal1600: p first residual1.05376e-4 fails, CV7.76789e-6; fine200 residuals fail, local deltaU10.2676m_s. Two initial continuations failed after zero-byte copies; source hashes verified. Runner now streams copies and verifies source/local/container; new r5b/r3b actual four-rank processes started with17/16 critical hashes matching.",
+    "Forced r5b terminal1700 exit0/reconstruct0; p first residual1.0406357e-4 fails and max local deltaU2.41489m/s; all-boundary-triangle analysis locates peaks near different vanes, no causal inference; 12 vane load drifts independently audited. Fine mapping forensic hashes match; three copy paths hardened; no physical acceptance.",
+    "Fine r3b terminal300 exit0/reconstruct0; all first residual screens fail; p2.91848e-4; maxdeltaU1.84764m/s and volumeRMS0.0152644m/s, CV5.87925e-4. Fixed mesh auditor owner-label assumption and verified all tetrahedra and mesh volume; r4 fine400 separated running. No physical or grid acceptance.",
+    "Fine r4 terminal400 exit0/reconstruct0; all six first residual limits fail p1.46497e-4, maxdeltaU1.44154m/s, CV3.34726e-4; r5 independent continuation600 live. SD8020 DRG/LFT domain and order-preserving lift branches audited; chord/Re/M screening yields conditional impossible annular region, no fan performance. Both reservoir boundary patches verified on real fields, failed-parent gate still rejects.",
+    "XFOIL Ubuntu 6.99 failed SIGFPE for SD8020 and NACA0012; MIT6.996 double-precision separate build generated exploratory output without FPE traps. Ten UIUC points retain all marching warnings, final RMS below EPS1, strict acceptance0/10. Panel/initialization sensitivity and transition-header order audited; no physical polar accepted. Fine600 terminal exit0/reconstruct0, postprocessing running.",
+    "Fine600 terminal audited: p/Uz/omega pass, Ux/Uy/k first residuals fail, maxdeltaU0.344632m/s, volumeRMS0.00429881m/s, CV1.01797e-4. Fine800 started and four actual ranks verified. XFOIL original MIT6.996 test output vs all10 UIUC points: all final RMS<1e-4 but all marching warnings; strict screen0/10; per-side polar headers misordered, CL/CD logged match. Selected160/240/320 panel and one warm-start sequence studied; not validated."
+  ],
+  "active_jobs": [
+    {
+      "case": "neutro_fino_r6_mpi4_800",
+      "container": "codex-aero-c02-neutro-fino-r6-mpi4",
+      "local_exec_session": 66849,
+      "target_counter": 800,
+      "last_verified_counter": 609.0,
+      "observation_UTC": "2026-11-05T02:05:36.360491+00:00",
+      "actual_solver_process_verified": true,
+      "critical_files_verified": 16,
+      "observation_is_not_future_liveness": true
+    }
+  ],
+  "next_required": [
+    "Observe fine r6 handle66849; after terminal audit780/800 and CV without changing thresholds.",
+    "Investigate XFOIL marching warnings, trap failure and experimental Ncrit/Mach; all current data are exploratory.",
+    "Free-Q seed remains gated; installed rotor/exterior/power and the full plan remain open."
+  ],
+  "historical_solvers_resumed": false,
+  "native_SU2_r2_terminal": "exit0/1085steps; density criterion reached, full turbulence/traction/physical validation pending; CpRMS0.103901 over103points with declared mesh/condition differences",
+  "corrective_action": "Inspect specific postprocessing sessions17243/46775/41838; no result acceptance while incomplete.",
+  "current_report": "G2/xfoil_sd8020/INFORME-XFOIL-INICIAL.md",
+  "latest_manifest": "G2/MANIFIESTO-XFOIL-Y-FINA600.json",
+  "latest_refined_terminal_case": "su2_nasa_fina_r3_sonda",
+  "native_SU2_solver_currently_active": false
+}

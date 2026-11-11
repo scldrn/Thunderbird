@@ -1,0 +1,27 @@
+{
+  "stage": "failed_preconfigure_running",
+  "source_dir": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3",
+  "version": "8.6.0",
+  "started_UTC": "2026-11-03T22:39:54.206586+00:00",
+  "architecture_target": "arm64",
+  "global_system_settings_changed": false,
+  "compiler_jobs": 2,
+  "flow_solver_executed": false,
+  "command": [
+    "/Users/sam/Documents/ChatGPT/New project/.venv-cad/bin/python",
+    "preconfigure.py",
+    "--with-own-meson",
+    "--no-codi",
+    "--no-medi",
+    "--no-opdi",
+    "--no-mpp",
+    "--no-coolprop",
+    "--no-mel",
+    "--no-fado",
+    "--no-mlpcpp",
+    "--no-eigen"
+  ],
+  "active_pid": 29341,
+  "last_exit_code": 1,
+  "last_stage_wall_s": 0.1713467079680413
+}

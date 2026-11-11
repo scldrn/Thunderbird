@@ -1,0 +1,100 @@
+Estudio_ID,Nombre_Estudio,Rama_o_Caso,Dimension,Parametro,Tipo_Dato,Valor,Unidad,Archivo_Fuente,Cita_Referencia,Estado_o_Evaluacion,Notas_Metodologicas
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Geometría,Tipo de dominio,Supuesto,Conducto cerrado 3D (banco C02),adimensional,INFORME-FINA-800.md,Línea 3,Definido,Banco interno pasivo aislado
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Geometría,Topología de malla,Cálculo,Tetraedros volumétricos no estructurados,adimensional,INFORME-FINA-800.md,Línea 7,Conforme,Comprobaciones tetraédricas superadas
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Geometría,Celda de gradiente crítico,Cálculo,"Celda 82708 en (-0,005803; -0,011252; -0,011185)",m,INFORME-FINA-800.md,Línea 34,Alerta,Foco de variación máxima DeltaU
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Geometría,Volumen celdas con DeltaU > 1 m/s,Cálculo,"2,65e-8",fracción de volumen,INFORME-FINA-800.md,Línea 34,Monitoreado,No despreciable numéricamente
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Geometría,Resolución de pared y+ en walls (rango),Cálculo,"0,161 - 40,73",adimensional,INFORME-FINA-800.md,Línea 36,Abierto,Abarca subcapa y ley logarítmica sin uniformidad
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Geometría,Resolución de pared y+ en walls (media),Cálculo,"16,41",adimensional,INFORME-FINA-800.md,Línea 36,Abierto,Discretización de pared no concluida
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Condiciones,Velocidad axial de entrada impuesta,Supuesto,20,m/s,INFORME-FINA-800.md,Línea 3,Impuesto,Entrada forzada fija
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Condiciones,Densidad de fluido de referencia,Supuesto,"1,225",kg/m^3,INFORME-FINA-800.md,Línea 30,Impuesto,Flujo incompresible
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Condiciones,Modelo de turbulencia,Supuesto,k-omega estacionario,adimensional,INFORME-FINA-800.md,Líneas 19-20,Configurado,RANS con funciones de pared
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Iteraciones del algoritmo,Cálculo,800,pasos iterativos,INFORME-FINA-800.md,"Línea 3, 7",Monitoreado,NO es tiempo físico; pasos estacionarios
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Residuo inicial p (máx últimas 20),Cálculo,"7,74984e-5",adimensional,INFORME-FINA-800.md,Línea 15,Pasa,Umbral 1e-4
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Residuo inicial Ux (máx últimas 20),Cálculo,"1,52738e-5",adimensional,INFORME-FINA-800.md,Línea 16,Falla,Umbral 1e-5 superado
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Residuo inicial Uy (máx últimas 20),Cálculo,"1,74918e-5",adimensional,INFORME-FINA-800.md,Línea 17,Falla,Umbral 1e-5 superado
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Residuo inicial Uz (máx últimas 20),Cálculo,"6,29585e-6",adimensional,INFORME-FINA-800.md,Línea 18,Pasa,Umbral 1e-5
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Residuo inicial k (máx últimas 20),Cálculo,"3,38576e-5",adimensional,INFORME-FINA-800.md,Línea 19,Falla,Umbral 1e-5 superado
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Residuo inicial omega (máx últimas 20),Cálculo,"7,74914e-6",adimensional,INFORME-FINA-800.md,Línea 20,Pasa,Umbral 1e-5
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Continuidad relativa máxima (últimas 20),Cálculo,"4,69164e-11",adimensional,INFORME-FINA-800.md,Línea 22,Pasa,Excelente conservación de masa
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Deriva normalizada de fuerza Z,Cálculo,"5,42159e-6",adimensional,INFORME-FINA-800.md,Línea 22,Pasa,Criterio de fuerza estabilizado
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Deriva normalizada de momento,Cálculo,"1,28190e-5",adimensional,INFORME-FINA-800.md,Línea 22,Pasa,Criterio de momento estabilizado
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,DeltaU máximo local (580-600),Cálculo,"0,344632",m/s,INFORME-FINA-800.md,Línea 28,Monitoreado,Ventana previa
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,DeltaU máximo local (780-800),Cálculo,"1,141586",m/s,INFORME-FINA-800.md,"Línea 28, 34",Falla,"Aumento de 3,31 veces"
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,DeltaU RMS ponderado volumen (780-800),Cálculo,"0,00324681",m/s,INFORME-FINA-800.md,Línea 29,Mejora,"Disminuyó desde 0,00429881 m/s"
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Convergencia,Máximo cambio local de k,Cálculo,"1,59773",m^2/s^2,INFORME-FINA-800.md,Línea 34,Alerta,No interpretar como frecuencia física
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Validación experimental,Existencia de datos experimentales,Evaluación,Inexistente,adimensional,INFORME-FINA-800.md,"Líneas 7, 40",No validado,Sin contraste físico local
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Significado de carga,Diferencia de presión estática (780-800),Cálculo,"194,2659",Pa,INFORME-FINA-800.md,Línea 31,Pérdida,Entrada menos salida
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Significado de carga,Diferencia nominal de flujo de energía mecánica,Cálculo,"20,7445",W,INFORME-FINA-800.md,"Línea 32, 36",Disipación,NO es potencia de eje ni consumo eléctrico
+EST-01,C02 Conducto Pasivo,neutro_fino_r6_mpi4_800,Significado de carga,Defecto CV / (rho*20^2*A),Cálculo,"8,54939e-5",adimensional,INFORME-FINA-800.md,Línea 30,Conforme,"0,00854939 %; balance de momento CV"
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Geometría,Espesor de banda actuadora h,Supuesto,4,mm,INFORME-F1N-PRELIMINAR.md,Línea 5,Impuesto,Banda axial de aplicación
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Geometría,Volumen de celdas de la fuente,Cálculo,6000,tetraedros,INFORME-F1N-PRELIMINAR.md,Línea 5,Discretizado,Subconjunto de malla
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Geometría,Caudal real de malla,Cálculo,"0,1108118473",m^3/s,INFORME-F1N-PRELIMINAR.md,Línea 5,Calculado,Con velocidad de entrada 20 m/s
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Condiciones,Fuerza axial prescrita sobre fluido,Supuesto,-1,N,INFORME-F1N-PRELIMINAR.md,Línea 5,Impuesto,En dirección Z vía constant/fvModels
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Condiciones,Densidad de fluido de referencia,Supuesto,"1,225",kg/m^3,INFORME-F1N-PRELIMINAR.md,Línea 5,Impuesto,Referencia estándar
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Condiciones,Fuerza integrada en posproceso,Cálculo,"-0,999999999999998",N,INFORME-F1N-PRELIMINAR.md,Línea 22,Conforme,Momento integrado ~ 1e-18 N*m
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Convergencia,Iteraciones acumuladas,Cálculo,1200,pasos iterativos,INFORME-F1N-PRELIMINAR.md,Línea 5,Completado,Pasos de relajación estacionaria
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Convergencia,Residuo inicial p (1200),Cálculo,"2,61391e-4",adimensional,INFORME-F1N-PRELIMINAR.md,Línea 28,Falla,Umbral 1e-4 superado
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Convergencia,Residuo inicial Uz (1200),Cálculo,"1,16666e-4",adimensional,INFORME-F1N-PRELIMINAR.md,Línea 28,Falla,Umbral 1e-5 superado
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Convergencia,Defecto CV / (rho*U^2*A) (1200),Cálculo,"0,346214",%,INFORME-F1N-PRELIMINAR.md,"Línea 16, 28",Transitorio,"0,454460 % en 1180; pasivo r9: 0,001693 %"
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Significado de carga,Delta p estática entrada-salida (1200),Cálculo,"-0,4999",Pa,INFORME-F1N-PRELIMINAR.md,Línea 14,Inversión,"Frente a +200,5090 Pa en pasivo r9"
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Significado de carga,Fuerza Z sobre paredes (1200),Cálculo,"-0,986409",N,INFORME-F1N-PRELIMINAR.md,Línea 15,Fricción,"Frente a -1,088964 N pasivo r9"
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Significado de carga,Reacción neta Z banco (paredes + reacción fuente),Cálculo,"+0,0135914",N,INFORME-F1N-PRELIMINAR.md,Línea 24,Residual,NO es empuje del vehículo ni módulo
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Significado de carga,Trabajo de fuente sobre flujo medio (1200),Cálculo,"22,649994",W,INFORME-F1N-PRELIMINAR.md,Línea 18,Potencia,NO es potencia de eje
+EST-02,C02 Fuente Prescrita -1 N,actuador_r1_h4_F1N,Significado de carga,Flujo mecánico nominal entrada-salida (1200),Cálculo,"-0,655892",W,INFORME-F1N-PRELIMINAR.md,Línea 17,Ganancia,"Frente a +21,564149 W pasivo r9"
+EST-02,C02 Fuente Prescrita -1 N,actuador_r2_h4_F1N_1400,Convergencia,Iteraciones acumuladas,Cálculo,1400,pasos iterativos,INFORME-F1N-PRELIMINAR.md,"Líneas 30, 36",Completado,Pasos de relajación estacionaria
+EST-02,C02 Fuente Prescrita -1 N,actuador_r2_h4_F1N_1400,Convergencia,Residuo inicial p (1400),Cálculo,"1,03901e-4",adimensional,INFORME-F1N-PRELIMINAR.md,Línea 36,Falla,Supera 1e-4 ligeramente
+EST-02,C02 Fuente Prescrita -1 N,actuador_r2_h4_F1N_1400,Convergencia,Residuo inicial k (1400),Cálculo,"1,12067e-5",adimensional,INFORME-F1N-PRELIMINAR.md,Línea 36,Falla,Supera 1e-5 ligeramente
+EST-02,C02 Fuente Prescrita -1 N,actuador_r2_h4_F1N_1400,Convergencia,Defecto CV / (rho*U^2*A) (1400),Cálculo,"0,00187422",%,INFORME-F1N-PRELIMINAR.md,Línea 38,Excelente,BALANCE.json en 1380-1400
+EST-02,C02 Fuente Prescrita -1 N,actuador_r2_h4_F1N_1400,Convergencia,DeltaU máximo local (1380-1400),Cálculo,"0,557023",m/s,INFORME-F1N-PRELIMINAR.md,Línea 38,Monitoreado,Variación local inter-iteración
+EST-02,C02 Fuente Prescrita -1 N,actuador_r2_h4_F1N_1400,Convergencia,DeltaU RMS aritmético (1380-1400),Cálculo,"0,00190983",m/s,INFORME-F1N-PRELIMINAR.md,Línea 38,Estable,Promedio de cambio nodal
+EST-02,C02 Fuente Prescrita -1 N,actuador_r2_h4_F1N_1400,Significado de carga,Delta p estática entrada-salida (1400),Cálculo,"+0,920094",Pa,INFORME-F1N-PRELIMINAR.md,Línea 38,Calculado,Ajuste respecto a iter 1200
+EST-02,C02 Fuente Prescrita -1 N,actuador_r2_h4_F1N_1400,Significado de carga,Flujo mecánico nominal entrada-salida (1400),Cálculo,"-0,470726",W,INFORME-F1N-PRELIMINAR.md,Línea 38,Calculado,BALANCE.json
+EST-02,C02 Fuente Prescrita -1 N,actuador_r2_h4_F1N_1400,Significado de carga,Trabajo de fuente sobre flujo medio (1400),Cálculo,"22,650112",W,INFORME-F1N-PRELIMINAR.md,Línea 38,Potencia,NO es potencia de eje
+EST-02,C02 Fuente Prescrita -1 N,actuador_r3_h4_F1N_1500,Convergencia,Iteraciones objetivo,Supuesto,1500,pasos iterativos,INFORME-F1N-PRELIMINAR.md,Línea 40,En curso,Auditoría en 1480-1500 pendiente
+EST-03,RAE2822 Perfil Transónico,General,Geometría,Cuerda del perfil c,Dato medido,"0,3048 (1 ft)",m,INFORME-NASA-SU2.md,"Líneas 7, 11",Benchmark,Geometría experimental NASA estudio 4
+EST-03,RAE2822 Perfil Transónico,General,Condiciones,Número de Mach M_inf,Dato medido,"0,729",adimensional,INFORME-NASA-SU2.md,Línea 7,Benchmark,Condición de ensayo transónico
+EST-03,RAE2822 Perfil Transónico,General,Condiciones,Ángulo de ataque alpha,Dato medido,"2,31",grados,INFORME-NASA-SU2.md,Línea 7,Benchmark,NASA Caso 4 / AGARD Caso 9
+EST-03,RAE2822 Perfil Transónico,General,Condiciones,Número de Reynolds Re,Dato medido,"6,5e6",adimensional,INFORME-NASA-SU2.md,Línea 7,Benchmark,Basado en cuerda c
+EST-03,RAE2822 Perfil Transónico,General,Condiciones,Temperatura de referencia T_inf,Dato medido,"255,55556 (460 R)",K,INFORME-NASA-SU2.md,"Líneas 7, 11",Benchmark,Temperatura estática freestream
+EST-03,RAE2822 Perfil Transónico,General,Condiciones,Presión estática freestream p_inf,Supuesto,"108987,77",Pa,INFORME-NASA-SU2.md,Línea 11,Calibrado,Fijada para casar Sutherland con Re
+EST-03,RAE2822 Perfil Transónico,General,Condiciones,Densidad calculada rho_inf,Cálculo,"1,48570",kg/m^3,INFORME-NASA-SU2.md,Línea 11,Gas ideal,rho = p / (R*T)
+EST-03,RAE2822 Perfil Transónico,General,Condiciones,Velocidad calculada U_inf,Cálculo,"233,62276",m/s,INFORME-NASA-SU2.md,Línea 11,Gas ideal,U = M * sqrt(gamma*R*T)
+EST-03,RAE2822 Perfil Transónico,General,Condiciones,Modelo de turbulencia,Supuesto,SST-2003m SU2 completamente turbulento,adimensional,INFORME-NASA-SU2.md,Línea 13,Supuesto,"Sin transición; I=0,1%, nut/nu=1"
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA,Geometría,Nodos de malla gruesa,Cálculo,23952,nodos,INFORME-NASA-SU2.md,Línea 9,Convertido,Malla C 369x65 con 33 nodos de estela unidos
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA,Geometría,Elementos cuadriláteros gruesos,Cálculo,23552,cuadriláteros,INFORME-NASA-SU2.md,Línea 9,Convertido,Dual-volume SU2
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA,Geometría,Relación máx áreas de cara (vol dual),Cálculo,"561,541",adimensional,INFORME-NASA-SU2.md,Línea 9,Monitoreado,Distorsión local de volúmenes duales
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Geometría,Rango y+ en pared,Cálculo,"0,750 - 3,308",adimensional,INFORME-NASA-SU2.md,Línea 29,Abierto,Pared no totalmente en subcapa en toda la cuerda
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r1,Convergencia,CL calculado (1200 pasos),Cálculo,"0,6924411",adimensional,INFORME-NASA-SU2.md,Línea 21,Iterativo,Solución preliminar
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r1,Convergencia,CD calculado (1200 pasos),Cálculo,"0,01136997",adimensional,INFORME-NASA-SU2.md,Línea 21,Iterativo,Solución preliminar
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r1,Validación experimental,RMS Cp 103 puntos (1200 pasos),Cálculo,"0,117546",adimensional,INFORME-NASA-SU2.md,Línea 21,Aparente,Parece mejor que r3 pero cargas aún cambiaban
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r2,Convergencia,CL calculado (+4000 pasos),Cálculo,"0,6787502",adimensional,INFORME-NASA-SU2.md,Línea 22,Estabilizado,5200 pasos totales
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r2,Convergencia,CD calculado (+4000 pasos),Cálculo,"0,01303965",adimensional,INFORME-NASA-SU2.md,Línea 22,Estabilizado,5200 pasos totales
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Convergencia,CL calculado (+1000 pasos),Cálculo,"0,6787504",adimensional,INFORME-NASA-SU2.md,Línea 23,Convergido cargas,6200 pasos totales
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Convergencia,CD calculado (+1000 pasos),Cálculo,"0,01303966",adimensional,INFORME-NASA-SU2.md,Línea 23,Convergido cargas,6200 pasos totales
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Convergencia,Delta CL entre r2 y r3,Cálculo,"2,53e-7",adimensional,INFORME-NASA-SU2.md,Línea 27,Excelente,Cargas asintóticas
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Convergencia,Delta CD entre r2 y r3,Cálculo,"6,08e-9",adimensional,INFORME-NASA-SU2.md,Línea 27,Excelente,Cargas asintóticas
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Convergencia,Diferencia L2 máx de campos conservados,Cálculo,"< 4,57e-5",adimensional,INFORME-NASA-SU2.md,Línea 27,Excelente,Corresponde al campo k
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Convergencia,Residuo log10 rho (últimas 20),Cálculo,"-10,91",adimensional,INFORME-NASA-SU2.md,Línea 29,Excelente,Caída de más de 10 órdenes
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Convergencia,Residuo log10 k (últimas 20),Cálculo,"-4,73",adimensional,INFORME-NASA-SU2.md,Línea 29,Estabilizado,Escala dimensional propia
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Convergencia,Residuo log10 omega (últimas 20),Cálculo,"-2,50",adimensional,INFORME-NASA-SU2.md,Línea 29,Estabilizado,Escala dimensional propia
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Significado de carga,Consistencia tracción de superficie vs solver,Cálculo,"7,5e-12",coeficiente,INFORME-NASA-SU2.md,Línea 35,Pasa,reconstruir_traccion_su2.py
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Convergencia,Flujo de masa neto exterior Roe,Cálculo,"2,59e-9",kg/(m s),INFORME-NASA-SU2.md,Línea 39,Pasa,"2,45e-11 de rho_inf*U_inf*c"
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Significado de carga,Defecto de momento en arrastre Roe,Cálculo,"~ 1,25",% de CD,INFORME-NASA-SU2.md,Línea 39,Abierto,"Norma 1,8657e-4 normalizada por q_inf*c"
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Validación experimental,Incertidumbre experimental NASA en Cp,Dato medido,"~ 0,0026",adimensional,INFORME-NASA-SU2.md,Línea 54,Benchmark,Tolerancia experimental citada
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Validación experimental,RMS Cp global (103 puntos),Cálculo,"0,12210",adimensional,INFORME-NASA-SU2.md,Línea 49,Provisional,"WIND Spalart-Allmaras publicado: 0,10683"
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Validación experimental,"RMS Cp borde de ataque (x/c < 0,02, 27 ptos)",Cálculo,"0,19654",adimensional,INFORME-NASA-SU2.md,Línea 50,Alto error,"WIND publicado: 0,18988"
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Validación experimental,"RMS Cp onda de choque (0,4 <= x/c <= 0,65, 22 ptos)",Cálculo,"0,14167",adimensional,INFORME-NASA-SU2.md,Línea 51,Discrepancia,"WIND publicado: 0,08781"
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Validación experimental,RMS Cp restante (54 ptos),Cálculo,"0,03075",adimensional,INFORME-NASA-SU2.md,Línea 52,Buen ajuste,"WIND publicado: 0,02447"
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Validación experimental,"Cp experimental en x/c = 0,0002",Dato medido,"-0,4219",adimensional,INFORME-NASA-SU2.md,Línea 45,Medición física,Extradós cercano al borde de ataque
+EST-03,RAE2822 Perfil Transónico,Malla Gruesa NASA r3,Validación experimental,"Cp calculado SU2 r3 en x/c = 0,0002",Cálculo,"+0,56997",adimensional,INFORME-NASA-SU2.md,Línea 45,Error crítico,"WIND publicado: +0,53392"
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Geometría,Nodos de malla fina,Cálculo,97956,nodos,INFORME-NASA-SU2.md,Línea 58,Refinado,Refinamiento anisótropo
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Geometría,Elementos cuadriláteros finos,Cálculo,97152,cuadriláteros,INFORME-NASA-SU2.md,Línea 58,Refinado,Dual-volume SU2
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Geometría,Discrepancia vértice pared vs grueso,Cálculo,"<= 1,01e-17",m,INFORME-NASA-SU2.md,Línea 62,Exacto,Conservación del polígono geométrico
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Geometría,Rango y+ en pared,Cálculo,"0,117 - 0,976",adimensional,INFORME-NASA-SU2.md,Línea 60,Totalmente resuelto,y+ < 1 en toda la pared
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Convergencia,Iteraciones acumuladas,Cálculo,1200,pasos iterativos,INFORME-NASA-SU2.md,Línea 60,"Completado en 395,07 s",Desde semilla interpolada r3
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Convergencia,CL calculado en malla fina,Cálculo,"0,6787052",adimensional,INFORME-NASA-SU2.md,Línea 60,Cálculo fino,"Delta CL relativo vs r3: -0,00665 %"
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Convergencia,CD calculado en malla fina,Cálculo,"0,01259130",adimensional,INFORME-NASA-SU2.md,Línea 60,Cálculo fino,"Delta CD vs r3: -3,438 %"
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Validación experimental,RMS Cp 103 puntos en malla fina,Cálculo,"0,123190",adimensional,INFORME-NASA-SU2.md,Línea 60,Provisional,"RMS dif Cp inter-mallas: 0,01093"
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Significado de carga,Consistencia tracción de superficie vs solver,Cálculo,"3,2e-11",coeficiente,INFORME-NASA-SU2.md,Línea 60,Pasa,reconstruir_traccion_su2.py
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Convergencia,Deriva media 20 iteraciones en CL,Cálculo,"2,81e-6",adimensional,INFORME-NASA-SU2.md,Línea 64,Baja deriva,En malla fina
+EST-03,RAE2822 Perfil Transónico,Malla Fina NASA fina_r1,Convergencia,Deriva media 20 iteraciones en CD,Cálculo,"6,13e-8",adimensional,INFORME-NASA-SU2.md,Línea 64,Baja deriva,En malla fina

@@ -1,0 +1,74 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : gmshToFoam fluid.msh
+Date   : Nov 01 2026
+Time   : 18:36:40
+Host   : "4ac79d672e87"
+PID    : 7
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Starting to read mesh format at line 2
+Read format version 2.2  ascii 0
+
+Starting to read physical names at line 5
+Physical names:5
+    Surface 1	inlet
+    Surface 2	outlet
+    Surface 3	farfield
+    Surface 4	hull
+    Volume 5	fluid
+
+Starting to read points at line 13
+Vertices to be read:63394
+Vertices read:63394
+
+Starting to read cells at line 63410
+Cells to be read:360299
+
+Mapping region 4 to Foam patch 0
+Mapping region 1 to Foam patch 1
+Mapping region 3 to Foam patch 2
+Mapping region 2 to Foam patch 3
+Mapping region 5 to Foam cellZone 0
+Cells:
+    total:326013
+    hex  :0
+    prism:0
+    pyr  :0
+    tet  :326013
+
+CellZones:
+Zone	Size
+    0	326013
+
+Skipping tag  at line 423712
+Patch 0 gets name hull
+Patch 1 gets name inlet
+Patch 2 gets name farfield
+Patch 3 gets name outlet
+
+Finding faces of patch 0
+Finding faces of patch 1
+Finding faces of patch 2
+Finding faces of patch 3
+
+FaceZones:
+Zone	Size
+
+Writing zone 0 to cellZone fluid and cellSet
+End
+

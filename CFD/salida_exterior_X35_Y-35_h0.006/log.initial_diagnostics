@@ -1,0 +1,223 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamPostProcess -case /case -solver incompressibleFluid -time 0
+Date   : Nov 01 2026
+Time   : 18:14:59
+Host   : "89db4d1e8028"
+PID    : 408
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+forcesBase force_vaneX0:
+    Not including porosity effects
+forces force_vaneX0:
+    Not including porosity effects
+forcesBase force_vaneX1:
+    Not including porosity effects
+forces force_vaneX1:
+    Not including porosity effects
+forcesBase force_vaneX2:
+    Not including porosity effects
+forces force_vaneX2:
+    Not including porosity effects
+forcesBase force_vaneY0:
+    Not including porosity effects
+forces force_vaneY0:
+    Not including porosity effects
+forcesBase force_vaneY1:
+    Not including porosity effects
+forces force_vaneY1:
+    Not including porosity effects
+forcesBase force_vaneY2:
+    Not including porosity effects
+forces force_vaneY2:
+    Not including porosity effects
+forcesBase force_walls:
+    Not including porosity effects
+forces force_walls:
+    Not including porosity effects
+forcesBase force_all_solids:
+    Not including porosity effects
+forces force_all_solids:
+    Not including porosity effects
+forcesBase force_all_boundary:
+    Not including porosity effects
+forces force_all_boundary:
+    Not including porosity effects
+surfaceFieldValue flow_inlet read:
+    number of faces = 5776
+    area = 0.005540594099
+    operation = sum
+
+surfaceFieldValue momentum_flux_inlet read:
+    number of faces = 5776
+    area = 0.005540594099
+    operation = sum
+    weight field = phi
+
+surfaceFieldValue flow_farfield read:
+    number of faces = 8149
+    area = 2.071137523
+    operation = sum
+
+surfaceFieldValue momentum_flux_farfield read:
+    number of faces = 8149
+    area = 2.071137523
+    operation = sum
+    weight field = phi
+
+volFieldValue volume_velocity read:
+    number of cells = 1263510
+    volume = 0.2297117887
+    operation = volIntegrate
+
+volFieldValue maxVelocityDiagnostic read:
+    number of cells = 1263510
+    volume = 0.2297117887
+    operation = maxMag
+
+volFieldValue minScalarsDiagnostic read:
+    number of cells = 1263510
+    volume = 0.2297117887
+    operation = min
+
+Time = 0s
+Selecting solver incompressibleFluid
+Selecting viscosity model constant
+Selecting turbulence model type RAS
+    Selecting RAS turbulence model kOmegaSST
+No MRF models present
+
+Selecting patchDistMethod meshWave
+Courant Number mean: 3.583059073e-05 max: 0.06534418755
+forces force_vaneX0 write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (-8.551498472e-05 0.001389977914 -0.003114824489)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (3.061443026e-08 -3.412686219e-07 -1.420286914e-07)
+        porous   : (0 0 0)
+
+forces force_vaneX1 write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (-0.0001135917792 0.002127137507 -0.004584358862)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (-1.231169076e-07 -1.206393808e-06 -1.102523466e-07)
+        porous   : (0 0 0)
+
+forces force_vaneX2 write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (-9.621901618e-05 0.001390933216 -0.003125700451)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (-1.88120092e-07 -8.360739252e-07 -2.958510392e-07)
+        porous   : (0 0 0)
+
+forces force_vaneY0 write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (0.001336807021 -8.335539583e-05 -0.003075676468)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (-1.455482023e-06 -1.465293729e-07 -4.692686872e-07)
+        porous   : (0 0 0)
+
+forces force_vaneY1 write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (0.00208987561 -0.0001329508028 -0.004533902574)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (-2.642894368e-06 2.085324667e-08 -9.166677008e-07)
+        porous   : (0 0 0)
+
+forces force_vaneY2 write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (0.001437039083 -9.533882464e-05 -0.003153417403)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (-8.929508258e-07 7.941622425e-08 -3.097800591e-07)
+        porous   : (0 0 0)
+
+forces force_walls write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (-0.0006226833386 -0.0008619817956 -0.08216035728)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (-4.055458245e-06 6.221215009e-06 -6.070126297e-07)
+        porous   : (0 0 0)
+
+forces force_all_solids write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (0.003945712596 0.003734421819 -0.1037482375)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (3.686410353e-05 -0.0001855034399 -2.879007896e-06)
+        porous   : (0 0 0)
+
+forces force_all_boundary write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (0.003667288772 0.003513793951 -0.1038807002)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (5.448185688e-05 -0.0002080460492 -2.789138746e-06)
+        porous   : (0 0 0)
+
+surfaceFieldValue flow_inlet write:
+    sum(inlet) of phi = -0.221623764
+
+surfaceFieldValue momentum_flux_inlet write:
+    sum(inlet) of U = (0 0 8.864950559)
+
+surfaceFieldValue flow_farfield write:
+    sum(farfield) of phi = 0.2216237995
+
+surfaceFieldValue momentum_flux_farfield write:
+    sum(farfield) of U = (0.0001109637693 5.071859026e-07 0.04073856309)
+
+volFieldValue volume_velocity write:
+    volIntegrate(all) of U = (0.0001943143044 6.154323435e-05 -0.03856760338)
+
+volFieldValue maxVelocityDiagnostic write:
+    maxMag(all) of U = 226.929295 at location (-0.027480075 0.01711465 -0.033871) in cell 169652
+
+volFieldValue minScalarsDiagnostic write:
+    min(all) of p = 0 at location (0.019964475 -0.03561735 0.074498425) in cell 0
+    min(all) of k = 1e-06 at location (0.019964475 -0.03561735 0.074498425) in cell 0
+    min(all) of omega = 10 at location (0.019964475 -0.03561735 0.074498425) in cell 0
+
+
+End
+

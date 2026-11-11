@@ -1,0 +1,76 @@
+{
+  "statement_on_fit_and_manufacturability": "DECLARACI\u00d3N EXPL\u00cdCITA: Ninguno de los dos conceptos mec\u00e1nicos ha sido sometido a estudio de empaquetamiento volum\u00e9trico en el espacio interior de las camisas o el fuselaje, ni se afirma su fabricabilidad, viabilidad de tolerancias o aptitud para vuelo.",
+  "concept_1": {
+    "nombre": "Carro lineal + Bisagra transportada (Cadena serial PR)",
+    "topologia": "Par prism\u00e1tico (P) exterior seguido de par revoluta (R) sobre el carro",
+    "descripcion": "Un carro lineal o par de correderas gu\u00eda el desplazamiento puramente normal de 10 mm. Al finalizar la carrera, el eje de rotaci\u00f3n (f\u00edsicamente montado sobre el carro) gira los 110 grados hacia el exterior.",
+    "opciones_actuacion": [
+      "Accionamiento dual: actuador lineal (solenoide / husillo) + servo rotativo.",
+      "Accionamiento \u00fanico: servo rotativo con enlace de ranura deslizante y tope secuencial."
+    ],
+    "ventajas": [
+      "Desacoplamiento cinem\u00e1tico natural e independiente de ambos grados de libertad.",
+      "Menores concentraciones de tensiones de contacto (superficies cil\u00edndricas y correderas prism\u00e1ticas est\u00e1ndar).",
+      "Facilidad de ajuste de carrera y \u00e1ngulo mediante calibraci\u00f3n electr\u00f3nica o topes.",
+      "Capacidad de reconfigurar o sostener la compuerta en posici\u00f3n solo elevada (lift 10 mm) sin girar."
+    ],
+    "desventajas_y_desafios": [
+      "Mayor n\u00famero de piezas m\u00f3viles y mayor masa no suspendida sobre el carro m\u00f3vil.",
+      "Susceptibilidad a encallamiento o bloqueo por ladeo ('cocking/binding') si el momento de vuelco aerodin\u00e1mico o por fricci\u00f3n supera la rigidez de la corredera.",
+      "Dificultad de estanqueidad y protecci\u00f3n contra polvo/suciedad en los carriles lineales.",
+      "Mayor volumen global requerido si se emplean dos actuadores independientes."
+    ]
+  },
+  "concept_2": {
+    "nombre": "Ranura / Cam con guiado de seguidor (Mecanismo de leva de ranura)",
+    "topologia": "Par cinem\u00e1tico superior (leva de ranura plana/espacial con rodillo o perno seguidor)",
+    "descripcion": "Una placa con ranura mecanizada contiene dos tramos tangentes: un tramo rectil\u00edneo de 10 mm normal al fuselaje y un tramo circular/helicoidal de 110 grados de radio constante centrado en el eje transportado. Un \u00fanico actuador empuja el seguidor.",
+    "opciones_actuacion": [
+      "Accionador \u00fanico: biela o actuador lineal que empuja el pasador seguidor a lo largo de la pista."
+    ],
+    "ventajas": [
+      "Sincronizaci\u00f3n cinem\u00e1tica intr\u00ednseca: la geometr\u00eda de la ranura impide f\u00edsicamente cualquier rotaci\u00f3n antes de completar la traslaci\u00f3n de 10 mm.",
+      "Actuador \u00fanico y est\u00e1tico: el actuador permanece fijo en la estructura del fuselaje.",
+      "Menor conteo de piezas estructurales y reducci\u00f3n potencial de peso.",
+      "Menor volumen de mecanismos auxiliares si la pista se integra en las costillas del conducto."
+    ],
+    "desventajas_y_desafios": [
+      "Contacto lineal o puntual de Hertz: elevadas tensiones de contacto en las paredes de la ranura, riesgo de desgaste acelerado, deformaci\u00f3n pl\u00e1stica local o picado ('pitting').",
+      "\u00c1ngulo de presi\u00f3n cr\u00edtico en la transici\u00f3n ('rodilla') entre el tramo recto y curvo: si el \u00e1ngulo de presi\u00f3n excede el l\u00edmite de autoenclavamiento por fricci\u00f3n, el mecanismo se traba.",
+      "Rigidez nula de sintonizaci\u00f3n: el perfil es inmutable; cualquier cambio de trayectoria exige reemplazar las placas de levas completas.",
+      "Sensibilidad a vibraciones y holguras que pueden provocar traqueteo de la compuerta en vuelo."
+    ]
+  },
+  "tabla_comparativa": [
+    {
+      "criterio": "Grados de libertad activos",
+      "carro_bisagra": "2 independientes (o 1 con secuencia)",
+      "ranura_cam": "1 grado de libertad cinem\u00e1tico acoplado"
+    },
+    {
+      "criterio": "Sincronizaci\u00f3n de fases",
+      "carro_bisagra": "Por control o mecanismo de enclavamiento",
+      "ranura_cam": "Geom\u00e9trica intr\u00ednseca por la ranura"
+    },
+    {
+      "criterio": "Tensiones de contacto",
+      "carro_bisagra": "Bajas / moderadas (contacto superficial)",
+      "ranura_cam": "Altas (contacto lineal Hertziano en seguidor)"
+    },
+    {
+      "criterio": "Riesgo de bloqueo",
+      "carro_bisagra": "Ladeo de corredera por momentos laterales",
+      "ranura_cam": "\u00c1ngulo de presi\u00f3n excesivo en codo de transici\u00f3n"
+    },
+    {
+      "criterio": "Flexibilidad de recorrido",
+      "carro_bisagra": "Alta (ajustable por software o topes)",
+      "ranura_cam": "Nula (r\u00edgidamente grabada en la ranura)"
+    },
+    {
+      "criterio": "Masa de actuadores en movimiento",
+      "carro_bisagra": "Alta si el actuador rotativo viaja en carro",
+      "ranura_cam": "Nula (actuador montado r\u00edgidamente al fuselaje)"
+    }
+  ]
+}

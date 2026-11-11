@@ -1,0 +1,84 @@
+{
+  "source": "https://ntrs.nasa.gov/citations/20230017299",
+  "pdf_sha256": "f489c575cfac7ac849b926a3af2a33c8960a700e958e3114b89e2a07b8496fdd",
+  "scope": "Modelo NASA 2F sin viento; referencia de software, no mapa C02 ni prueba de vuelo",
+  "rpm_gate_provisional": [
+    8000.0,
+    24000.0
+  ],
+  "assumptions": [
+    "4 ventiladores NASA iguales",
+    "empuje vertical igual y sin perdidas de instalacion",
+    "masa total hipotetica y gravedad estandar",
+    "sin control, reserva, sustentacion adicional ni transicion"
+  ],
+  "illustrative_model_points": [
+    {
+      "rpm": 8000,
+      "thrust_N": 9.10345197274203,
+      "dc_power_W": 228.19885800256097
+    },
+    {
+      "rpm": 10000,
+      "thrust_N": 14.513326908754896,
+      "dc_power_W": 438.49766859767215
+    },
+    {
+      "rpm": 17156.4,
+      "thrust_N": 43.61926115924446,
+      "dc_power_W": 1998.0
+    },
+    {
+      "rpm": 20000,
+      "thrust_N": 59.414897671398045,
+      "dc_power_W": 3144.656454906561
+    },
+    {
+      "rpm": 24000,
+      "thrust_N": 85.70655081499208,
+      "dc_power_W": 5463.474622763451
+    }
+  ],
+  "hypothetical_hover": [
+    {
+      "mass_kg": 2,
+      "fans": 4,
+      "thrust_per_fan_N": 4.903325,
+      "motor_mass_kg": 4.4,
+      "mass_left_before_other_components_kg": -2.4000000000000004,
+      "status": "fuera_intervalo_exploratorio",
+      "rpm": null,
+      "per_fan_power_W": null,
+      "total_power_W": null
+    },
+    {
+      "mass_kg": 5,
+      "fans": 4,
+      "thrust_per_fan_N": 12.258312499999999,
+      "motor_mass_kg": 4.4,
+      "mass_left_before_other_components_kg": 0.5999999999999996,
+      "status": "modelo_condicional",
+      "rpm": 9218.702163885693,
+      "per_fan_power_W": 348.53348580212435,
+      "total_power_W": 1394.1339432084974
+    },
+    {
+      "mass_kg": 10,
+      "fans": 4,
+      "thrust_per_fan_N": 24.516624999999998,
+      "motor_mass_kg": 4.4,
+      "mass_left_before_other_components_kg": 5.6,
+      "status": "modelo_condicional",
+      "rpm": 12911.632059797827,
+      "per_fan_power_W": 889.3316755631505,
+      "total_power_W": 3557.326702252602
+    }
+  ],
+  "geometry_comparison_mm": {
+    "NASA_rotor_diameter": 129.794,
+    "C02_rotor_nominal": 82,
+    "NASA_motor_diameter": 56,
+    "C02_motor_envelope_diameter": 21.8
+  },
+  "interpretation": "Modelo ajustado no equivale a mediciones puntuales ni a un ventilador instalado; evitar extrapolacion"
+}

@@ -1,0 +1,81 @@
+{
+  "scenarios": 108,
+  "lp_checks": 1080,
+  "max_residual": 8.526512829121202e-14,
+  "selected": [
+    {
+      "target_mass_kg": 5,
+      "mass_budget_scenario_kg": 5.49822125556345,
+      "additional_missing_mass_kg": 0,
+      "allowance_distribution": "en_CG",
+      "angular_acceleration_rad_s2": 2,
+      "additional_translation_g": 0,
+      "min_symmetric_signed_thrust_per_rotor_N": 19.37581194636241,
+      "max_principal_inertia_kgm2": 0.4996063475379553,
+      "validation_residual": 7.105427357601002e-15
+    },
+    {
+      "target_mass_kg": 5,
+      "mass_budget_scenario_kg": 5.49822125556345,
+      "additional_missing_mass_kg": 0,
+      "allowance_distribution": "en_CG",
+      "angular_acceleration_rad_s2": 2,
+      "additional_translation_g": 0.5,
+      "min_symmetric_signed_thrust_per_rotor_N": 28.51996402490659,
+      "max_principal_inertia_kgm2": 0.4996063475379553,
+      "validation_residual": 1.4210854715202004e-14
+    },
+    {
+      "target_mass_kg": 5,
+      "mass_budget_scenario_kg": 5.49822125556345,
+      "additional_missing_mass_kg": 0,
+      "allowance_distribution": "en_CG",
+      "angular_acceleration_rad_s2": 2,
+      "additional_translation_g": 1,
+      "min_symmetric_signed_thrust_per_rotor_N": 37.851986714086785,
+      "max_principal_inertia_kgm2": 0.4996063475379553,
+      "validation_residual": 1.7763568394002505e-14
+    },
+    {
+      "target_mass_kg": 10,
+      "mass_budget_scenario_kg": 10.685219203993478,
+      "additional_missing_mass_kg": 0,
+      "allowance_distribution": "en_CG",
+      "angular_acceleration_rad_s2": 2,
+      "additional_translation_g": 0,
+      "min_symmetric_signed_thrust_per_rotor_N": 38.73292969870845,
+      "max_principal_inertia_kgm2": 1.5371859795387959,
+      "validation_residual": 1.4210854715202004e-14
+    },
+    {
+      "target_mass_kg": 10,
+      "mass_budget_scenario_kg": 10.685219203993478,
+      "additional_missing_mass_kg": 0,
+      "allowance_distribution": "en_CG",
+      "angular_acceleration_rad_s2": 2,
+      "additional_translation_g": 0.5,
+      "min_symmetric_signed_thrust_per_rotor_N": 55.7973321390163,
+      "max_principal_inertia_kgm2": 1.5371859795387959,
+      "validation_residual": 2.842170943040401e-14
+    },
+    {
+      "target_mass_kg": 10,
+      "mass_budget_scenario_kg": 10.685219203993478,
+      "additional_missing_mass_kg": 0,
+      "allowance_distribution": "en_CG",
+      "angular_acceleration_rad_s2": 2,
+      "additional_translation_g": 1,
+      "min_symmetric_signed_thrust_per_rotor_N": 73.70576037758329,
+      "max_principal_inertia_kgm2": 1.5371859795387959,
+      "validation_residual": 4.263256414560601e-14
+    }
+  ],
+  "limits": [
+    "Signed symmetric thrust assumed, including reverse",
+    "Rotors have no reaction torque or delay in this model",
+    "No aerodynamic/gyroscopic loads or power/thermal limits",
+    "CAD inertia is provisional, not physically measured",
+    "10kg module hardware not selected",
+    "Missing mechanisms not designed; added mass is sensitivity only"
+  ]
+}

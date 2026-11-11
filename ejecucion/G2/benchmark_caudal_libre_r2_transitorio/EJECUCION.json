@@ -1,0 +1,27 @@
+{
+  "container": "codex-aero-benchmark-caudal-libre-r2",
+  "container_id": "bb5735ce26cad4e690bd6a9418c5c0a16a37ed9f2b5e27d6b9cb93738e3c775f",
+  "stage": "solver_exited",
+  "cases": [
+    {
+      "name": "nx4_Uinicial0.5",
+      "exit_code": 0
+    },
+    {
+      "name": "nx4_Uinicial2",
+      "exit_code": 0
+    },
+    {
+      "name": "nx20_Uinicial0.5",
+      "exit_code": 0
+    },
+    {
+      "name": "nx20_Uinicial2",
+      "exit_code": 0
+    }
+  ],
+  "vehicle_solver_started": false,
+  "active_case": "nx20_Uinicial2",
+  "container_stopped": true,
+  "exit_code": 0
+}

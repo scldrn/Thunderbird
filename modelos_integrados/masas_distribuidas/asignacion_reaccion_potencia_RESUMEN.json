@@ -1,0 +1,62 @@
+[
+  {
+    "domain": "full",
+    "force_level_weight": 1,
+    "solved": 182,
+    "total": 182,
+    "min_power_W": 987.6076057215778,
+    "max_power_W": 1282.3322586336167,
+    "max_rotor_W": 371.0917727622681,
+    "max_reaction_norm_Nm": 0.21292430184122857
+  },
+  {
+    "domain": "full",
+    "force_level_weight": 1.5,
+    "solved": 182,
+    "total": 182,
+    "min_power_W": 1422.7090983243158,
+    "max_power_W": 1966.9942114808937,
+    "max_rotor_W": 624.9094802452386,
+    "max_reaction_norm_Nm": 0.3472164925117051
+  },
+  {
+    "domain": "full",
+    "force_level_weight": 2,
+    "solved": 182,
+    "total": 182,
+    "min_power_W": 1966.113501982049,
+    "max_power_W": 2809.2378579398132,
+    "max_rotor_W": 636.3627253096105,
+    "max_reaction_norm_Nm": 0.6073421209341051
+  },
+  {
+    "domain": "coverage5percent",
+    "force_level_weight": 1,
+    "solved": 182,
+    "total": 182,
+    "min_power_W": 987.607605988561,
+    "max_power_W": 1282.3322578081354,
+    "max_rotor_W": 369.36235273051557,
+    "max_reaction_norm_Nm": 0.20612636233256518
+  },
+  {
+    "domain": "coverage5percent",
+    "force_level_weight": 1.5,
+    "solved": 182,
+    "total": 182,
+    "min_power_W": 1422.7088523815687,
+    "max_power_W": 1966.994205005849,
+    "max_rotor_W": 587.8239958943677,
+    "max_reaction_norm_Nm": 0.3982567889851424
+  },
+  {
+    "domain": "coverage5percent",
+    "force_level_weight": 2,
+    "solved": 122,
+    "total": 182,
+    "min_power_W": 2035.498646541653,
+    "max_power_W": 3392.9951156822644,
+    "max_rotor_W": 587.8239958943677,
+    "max_reaction_norm_Nm": 0.6902547102023342
+  }
+]

@@ -1,0 +1,427 @@
+{
+  "profiles_checked": 9,
+  "profiles": [
+    {
+      "axial_reserve_outer_mm": 38.0,
+      "duration_s": 1.175265263084832,
+      "force_vector_slew_limit_N_s": 20,
+      "source_file": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/D38_S20_T1.175265_N81.npz",
+      "source_sha256": "7b4ccb75d6dcf063b7f345b5038acea44e1de409875eb67c0b445e04c31459a3",
+      "max_direct_nodal_wrench_error": 6.039613253960852e-14,
+      "maximum_force_N": 18.215516375739046,
+      "maximum_vector_slew_N_s": 16.329931618554816,
+      "maximum_force_angle_deg": 33.75,
+      "cone_checks": [
+        {
+          "cone_deg": 30.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.959316452781537
+        },
+        {
+          "cone_deg": 33.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.1919948562042153
+        },
+        {
+          "cone_deg": 33.75,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": -8.881784197001252e-16
+        },
+        {
+          "cone_deg": 35.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.19610369582818254
+        },
+        {
+          "cone_deg": 40.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.9786527170741985
+        },
+        {
+          "cone_deg": 45.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 1.7537536002166116
+        }
+      ],
+      "retained_forward_position_drift_m": 0.000924011930675021,
+      "retained_forward_attitude_error_deg": 0.023434570312424078,
+      "interpretation": "Same force function as independently integrated source; no recomputation of a different physical plant."
+    },
+    {
+      "axial_reserve_outer_mm": 38.0,
+      "duration_s": 0.783510175389888,
+      "force_vector_slew_limit_N_s": 50,
+      "source_file": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/D38_S50_T0.783510_N81.npz",
+      "source_sha256": "e97a61466d997da61de1519f4e0df8928d2a2d8f089b116cee4dda49fd1e4f85",
+      "max_direct_nodal_wrench_error": 2.842170943040401e-14,
+      "maximum_force_N": 21.0,
+      "maximum_vector_slew_N_s": 40.82482904638691,
+      "maximum_force_angle_deg": 33.75,
+      "cone_checks": [
+        {
+          "cone_deg": 30.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -1.0727241255306872
+        },
+        {
+          "cone_deg": 33.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.21469194407213976
+        },
+        {
+          "cone_deg": 33.75,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": -8.881784197001252e-16
+        },
+        {
+          "cone_deg": 35.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.13743389062073996
+        },
+        {
+          "cone_deg": 40.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.6858618849891966
+        },
+        {
+          "cone_deg": 45.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 1.229070056278156
+        }
+      ],
+      "retained_forward_position_drift_m": 0.0004106708775443233,
+      "retained_forward_attitude_error_deg": 0.02343448932594256,
+      "interpretation": "Same force function as independently integrated source; no recomputation of a different physical plant."
+    },
+    {
+      "axial_reserve_outer_mm": 38.0,
+      "duration_s": 0.587632631542416,
+      "force_vector_slew_limit_N_s": 100,
+      "source_file": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/D38_S100_T0.587633_N81.npz",
+      "source_sha256": "6cb7b1d3e9337ef0c741b2436f819ab41ca7ef9838ac96aaef83909e7295639f",
+      "max_direct_nodal_wrench_error": 6.394884621840902e-14,
+      "maximum_force_N": 21.0,
+      "maximum_vector_slew_N_s": 81.64965809277354,
+      "maximum_force_angle_deg": 33.75,
+      "cone_checks": [
+        {
+          "cone_deg": 30.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -1.0692992280756313
+        },
+        {
+          "cone_deg": 33.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.21400649487287726
+        },
+        {
+          "cone_deg": 33.75,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": -8.881784197001252e-16
+        },
+        {
+          "cone_deg": 35.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.11260915462453047
+        },
+        {
+          "cone_deg": 40.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.561974391534581
+        },
+        {
+          "cone_deg": 45.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 1.0070626639956375
+        }
+      ],
+      "retained_forward_position_drift_m": 0.00023111302164938746,
+      "retained_forward_attitude_error_deg": 0.023481397777596703,
+      "interpretation": "Same force function as independently integrated source; no recomputation of a different physical plant."
+    },
+    {
+      "axial_reserve_outer_mm": 60.0,
+      "duration_s": 1.3324725104085178,
+      "force_vector_slew_limit_N_s": 20,
+      "source_file": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/D60_S20_T1.332473_N81.npz",
+      "source_sha256": "470000aa113735570374a3de60dbeffac5a1dfe1bda8f49ac3a201ddea2fb008",
+      "max_direct_nodal_wrench_error": 1.4210854715202004e-14,
+      "maximum_force_N": 19.921807197578154,
+      "maximum_vector_slew_N_s": 16.329931618554657,
+      "maximum_force_angle_deg": 33.75,
+      "cone_checks": [
+        {
+          "cone_deg": 30.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -1.0727241255318232
+        },
+        {
+          "cone_deg": 33.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.21469194407236714
+        },
+        {
+          "cone_deg": 33.75,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": -8.881784197001252e-16
+        },
+        {
+          "cone_deg": 35.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.2538929150626945
+        },
+        {
+          "cone_deg": 40.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.9174585717077672
+        },
+        {
+          "cone_deg": 45.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 1.5256263710212723
+        }
+      ],
+      "retained_forward_position_drift_m": 0.001187742494788354,
+      "retained_forward_attitude_error_deg": 0.023434570312596336,
+      "interpretation": "Same force function as independently integrated source; no recomputation of a different physical plant."
+    },
+    {
+      "axial_reserve_outer_mm": 60.0,
+      "duration_s": 0.8883150069390119,
+      "force_vector_slew_limit_N_s": 50,
+      "source_file": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/D60_S50_T0.888315_N81.npz",
+      "source_sha256": "975a08f645fc49abb3758670088d430e3cee9a035e42ac491be4b5e98370d407",
+      "max_direct_nodal_wrench_error": 4.618527782440651e-14,
+      "maximum_force_N": 21.0,
+      "maximum_vector_slew_N_s": 40.824829046386775,
+      "maximum_force_angle_deg": 33.75,
+      "cone_checks": [
+        {
+          "cone_deg": 30.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -1.0545556616893883
+        },
+        {
+          "cone_deg": 33.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.2059872761282202
+        },
+        {
+          "cone_deg": 33.75,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": -8.881784197001252e-16
+        },
+        {
+          "cone_deg": 35.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.15301528141854837
+        },
+        {
+          "cone_deg": 40.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.7636205951229948
+        },
+        {
+          "cone_deg": 45.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 1.3684142950118336
+        }
+      ],
+      "retained_forward_position_drift_m": 0.0005278855532380168,
+      "retained_forward_attitude_error_deg": 0.02343457031250417,
+      "interpretation": "Same force function as independently integrated source; no recomputation of a different physical plant."
+    },
+    {
+      "axial_reserve_outer_mm": 60.0,
+      "duration_s": 0.6662362552042589,
+      "force_vector_slew_limit_N_s": 100,
+      "source_file": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/D60_S100_T0.666236_N81.npz",
+      "source_sha256": "06fc854c4f88fca6d27b8d26e30a5aba9c2f1ad04f88b524ce96ddff0c768c8d",
+      "max_direct_nodal_wrench_error": 1.4210854715202004e-14,
+      "maximum_force_N": 21.0,
+      "maximum_vector_slew_N_s": 81.64965809277315,
+      "maximum_force_angle_deg": 33.75000000000001,
+      "cone_checks": [
+        {
+          "cone_deg": 30.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -1.0613016374993256
+        },
+        {
+          "cone_deg": 33.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.2011885134561462
+        },
+        {
+          "cone_deg": 33.75,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": -8.881784197001252e-16
+        },
+        {
+          "cone_deg": 35.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.12436303486086997
+        },
+        {
+          "cone_deg": 40.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.6206319644114155
+        },
+        {
+          "cone_deg": 45.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 1.112177509964964
+        }
+      ],
+      "retained_forward_position_drift_m": 0.00029693562369609517,
+      "retained_forward_attitude_error_deg": 0.023434570312491666,
+      "interpretation": "Same force function as independently integrated source; no recomputation of a different physical plant."
+    },
+    {
+      "axial_reserve_outer_mm": 80.0,
+      "duration_s": 1.4305184588610718,
+      "force_vector_slew_limit_N_s": 20,
+      "source_file": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/D80_S20_T1.430518_N81.npz",
+      "source_sha256": "24ae30927f9ecc84ed6a56f0032aaac0d981c3ab5c16a1822b19b5a497615de6",
+      "max_direct_nodal_wrench_error": 8.171241461241152e-14,
+      "maximum_force_N": 18.46953134612814,
+      "maximum_vector_slew_N_s": 16.329931618554767,
+      "maximum_force_angle_deg": 33.75,
+      "cone_checks": [
+        {
+          "cone_deg": 30.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -1.0728059045987708
+        },
+        {
+          "cone_deg": 33.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.21470831110136324
+        },
+        {
+          "cone_deg": 33.75,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": -8.881784197001252e-16
+        },
+        {
+          "cone_deg": 35.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.15231626243394558
+        },
+        {
+          "cone_deg": 40.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.7601321507788978
+        },
+        {
+          "cone_deg": 45.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 1.3621629744760808
+        }
+      ],
+      "retained_forward_position_drift_m": 0.0013689661543655192,
+      "retained_forward_attitude_error_deg": 0.023434570312430222,
+      "interpretation": "Same force function as independently integrated source; no recomputation of a different physical plant."
+    },
+    {
+      "axial_reserve_outer_mm": 80.0,
+      "duration_s": 1.0728888441458038,
+      "force_vector_slew_limit_N_s": 50,
+      "source_file": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/D80_S50_T1.072889_N81.npz",
+      "source_sha256": "2914c15511cda223313c96a0b76451ded13dbf9e382a3d3ae20e17f9449e1ba0",
+      "max_direct_nodal_wrench_error": 4.618527782440651e-14,
+      "maximum_force_N": 21.0,
+      "maximum_vector_slew_N_s": 40.82482904638674,
+      "maximum_force_angle_deg": 33.75,
+      "cone_checks": [
+        {
+          "cone_deg": 30.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -1.072724125529814
+        },
+        {
+          "cone_deg": 33.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.2146919440719648
+        },
+        {
+          "cone_deg": 33.75,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": -8.881784197001252e-16
+        },
+        {
+          "cone_deg": 35.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.11382802378410473
+        },
+        {
+          "cone_deg": 40.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.5680571408154504
+        },
+        {
+          "cone_deg": 45.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 1.017963000002911
+        }
+      ],
+      "retained_forward_position_drift_m": 0.0007700434618307894,
+      "retained_forward_attitude_error_deg": 0.02343457031240543,
+      "interpretation": "Same force function as independently integrated source; no recomputation of a different physical plant."
+    },
+    {
+      "axial_reserve_outer_mm": 80.0,
+      "duration_s": 1.0728888441458038,
+      "force_vector_slew_limit_N_s": 100,
+      "source_file": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/empaquetado_axial_A/masa_y_agilidad/tasas/D80_S100_T1.072889_N81.npz",
+      "source_sha256": "0fb37a790ec3e25ebddc4b200dc2b024f84cc2590450a2d0bf574eae51f4be08",
+      "max_direct_nodal_wrench_error": 8.283373986728293e-12,
+      "maximum_force_N": 21.0,
+      "maximum_vector_slew_N_s": 81.64965809277352,
+      "maximum_force_angle_deg": 33.75,
+      "cone_checks": [
+        {
+          "cone_deg": 30.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -1.072724125529814
+        },
+        {
+          "cone_deg": 33.0,
+          "saved_profile_inside_continuously": false,
+          "minimum_distance_to_cone_side_N": -0.2146919440719648
+        },
+        {
+          "cone_deg": 33.75,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": -8.881784197001252e-16
+        },
+        {
+          "cone_deg": 35.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.09792859870759418
+        },
+        {
+          "cone_deg": 40.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.4887112851173616
+        },
+        {
+          "cone_deg": 45.0,
+          "saved_profile_inside_continuously": true,
+          "minimum_distance_to_cone_side_N": 0.8757745835554442
+        }
+      ],
+      "retained_forward_position_drift_m": 0.0007700434618306389,
+      "retained_forward_attitude_error_deg": 0.023434570312417934,
+      "interpretation": "Same force function as independently integrated source; no recomputation of a different physical plant."
+    }
+  ],
+  "mass_assumed_kg": 5,
+  "continuous_inclusion_method": "PWL interpolation of endpoint forces in a convex circular cone; cone-side distance is concave, so minimum on each segment is at an endpoint.",
+  "rates_remain_identical": true,
+  "ideal_rigid_body_trajectory_unchanged": true,
+  "minimum_duration_proven": false,
+  "physical_actuator_response_validated": false,
+  "source_results_sha256": "02f2bb2ca52a0ab552361a94ae5197081be49225301c554f5fec7520800ade80",
+  "source_forward_verification_sha256": "06702a6007d956df114b3083aaf2d3b012e2fe312020dea765395694df824d7a"
+}

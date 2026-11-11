@@ -1,0 +1,23 @@
+{
+  "observed_UTC": "2026-11-04T00:12:28.731295+00:00",
+  "case": "su2_nasa_fina_r3_sonda",
+  "numerical_fields_identical": [
+    "last_CL",
+    "last_CD",
+    "Cp_RMS_error_provisional",
+    "pressure_range_Pa",
+    "rho_range_kg_m3",
+    "temperature_range_K",
+    "reference_field_changes"
+  ],
+  "surface_force_reconstruction_unchanged": true,
+  "baseline_accepted_physical_validation": false,
+  "source_sha256": {
+    "investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/AUDITORIA_SU2_antes_extension_SA.json": "91a4935eca8059ba8fdaa1fb876b974ae44e31ccfcc163381e5e4ae73b215aa9",
+    "investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/AUDITORIA_SU2.json": "cf401fd31417de4b661f1c2339008c296a9fea73962d08902710888779a2ab44",
+    "investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/TRACCION_RECONSTRUIDA_antes_extension_SA.json": "fafae003bbd7b94d55f2495038abbe95c59e22a0a6ddef6a817f0e79b297f56a",
+    "investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/TRACCION_RECONSTRUIDA.json": "84c59414abb84d9ff567f9547cf6a1794d7eb7f7e120b2466699de0d91594849",
+    "investigacion-aeronautica/ejecucion/G4/RAE2822/auditar_su2.py": "dc110f1bde37e01452487057dd7df958ea69ec78572a3c731b9aa1e0e6b28575",
+    "investigacion-aeronautica/ejecucion/G4/RAE2822/reconstruir_traccion_su2.py": "c6370fc855916755ef02e46d0ebc329823326aeba0cbaa6232fd0395f57c337c"
+  }
+}

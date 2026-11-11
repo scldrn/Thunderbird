@@ -1,0 +1,13 @@
+{
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_A06/5kg/A06_integrado.step",
+  "source_sha256": "a3843ffbdbf689b194d7e5f36e262f1291041409fd5c71ce37b9f8199bc870bd",
+  "renderer": "Mitsuba3 scalar CPU path tracing from actual STEP",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "requested_samples_per_pixel": 64,
+  "samples_per_pixel": 64,
+  "view": "hero",
+  "no_AI_image_generator": true
+}

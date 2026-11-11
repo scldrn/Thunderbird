@@ -1,0 +1,13 @@
+{
+  "jobs": [
+    {
+      "container": "codex-aero-exterior-urans-v1",
+      "running": true,
+      "latest_deltaT_s": 6.591892956e-07,
+      "latest_max_velocity_ms": null,
+      "runaway_reasons": []
+    }
+  ],
+  "all_observed_terminal": false,
+  "not_an_accuracy_acceptance": true
+}

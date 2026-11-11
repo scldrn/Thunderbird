@@ -1,0 +1,46 @@
+id,frente,requisito_o_variable,estado_inicial,aceptacion,hitos
+R01,Arquitectura,Ventiladores internos; sin despliegue de rotores,confirmado,Inspección CAD y decisiones,G0
+R02,Familia de masas,2/5/10 kg objetivo; presupuesto independiente,confirmado_objetivo,BOM completa por variante y margen,G1;G7
+R03,Configuración de referencia,A07; 5 kg como ancla de integración propuesta,propuesta,Configuración única con huella y unidades,G0
+R04,Apariencia,Deportiva profesional/agresiva compatible con prestaciones,confirmado,Revisión visual y geométrica de configuración factible,G3;G7
+R05,Velocidad,600 km/h intermedio; 1000 km/h extensión a investigar,objetivo_no_demostrado,Equilibrio instalado; control; estructura; ensayo posterior,G4;G6;F
+R06,Estacionario,Altitud y orientación controladas; límites de error por fijar,pendiente_cuantificar,Control cerrado con planta y potencia identificadas,G1;G6
+R07,Traslación omnidireccional,XYZ con orientación independiente dentro de dominio declarado,confirmado_objetivo,Dominio simultáneo de fuerza/momento; gravedad y saturación,G2;G6
+R08,Actitud arbitraria,Separar reorientación de vuelo invertido; no imponer este último,alcance_por_fijar,Envolvente de actitud y reversibilidad,G1;G6
+R09,Agilidad,"Aceleración neta, jerk, velocidad angular y giro 30/90°",pendiente_cuantificar,Métricas y tolerancias trazadas a maniobras,G1;G6
+R10,Radio de giro,Derivado de velocidad y aceleración; no giro instantáneo,restriccion_fisica,Integración dinámica y radio de trayectoria,G6
+R11,Autonomía,Matriz inicial 30/120/300 s por modo; misión final pendiente,escenarios_propuestos,Energía/potencia y masas simultáneas,G1;G3
+R12,Carga útil,Definir masa y volumen de equipos/carga deportiva,pendiente,BOM sin partidas desconocidas iguales a cero,G1;G3
+R13,Entorno,"Altitud/densidad, temperatura, viento/ráfaga por delimitar",pendiente,Envolvente de operación y perturbaciones,G1;G6
+R14,Contaminación y clima,Agua/polvo/hielo/corrosión según dominio declarado,pendiente,Análisis de ingestión/atasco y ensayo aplicable,G5;F
+R15,Ruido y calor,Límites y zonas sensibles por definir,pendiente,Evaluación acústica/térmica e integración,G1;G5;F
+R16,Geometría funcional,Nariz/cola/secciones/tomas/salidas/puertas coherentes,abierto,"STEP, dominio fluido y metrología de la misma revisión",G3;G4
+R17,Número y área de módulos,Cuatro como base; disposición y área optimizables dentro de A,propuesta_no_congelada,"Alojamiento, potencia y dominio de fuerzas",G2;G7
+R18,Rotor,"Paso/RPM/perfil/solidez/holgura, Reynolds y Mach locales",abierto,Mapa de fuerza/par/potencia con procedencia,G2
+R19,Vectorización,Mapa instalado; no sustituir por cono supuesto de 35/45°,abierto_critico,Seis cargas incluyendo reacción de paredes,G2
+R20,Reversibilidad,Definir estados que requieren fuerza descendente/inversión,abierto,Mapa bidireccional y respuesta si lo exige la misión,G2;G6
+R21,Actuación,"Par, tasa, retardo, tensión, calor y vida bajo carga",abierto_critico,Curvas de actuador y acoplamiento con flujo,G2;G5
+R22,Empuje axial,Motor e instalación no seleccionados; tubo vacío,abierto_critico,Empuje neto instalado frente a demanda,G3;G4
+R23,Tomas y escape,"Área de captura/paso, pérdidas, distorsión y temperatura",abierto_critico,Mapa conjunto motor-admisión-escape,G3;G4
+R24,Potencia y energía,"Tensión mínima, corriente, combustible, refrigeración y reserva",abierto_critico,Balance por modo y transición; fuentes identificadas,G1;G3
+R25,Masa/CG/inercia,Equipos completos y estados de carga; margen propuesto 15%,abierto_critico,Cierre iterativo y tensor de configuración,G3;G7
+R26,Compuertas,Recorrido A07 candidato; requiere mecanismo y cierres,abierto_critico,"Recorrido, tolerancias y cargas con herrajes",G3;G5
+R27,Aletas en X,Candidata A05-A07; dimensiones/deflexiones por justificar,propuesta_no_validada,"Fuerzas/momentos, trimado, cargas y actuadores",G4;G5
+R28,Aerodinámica,Coeficientes del conjunto frente a Mach/Re/incidencia/deriva,abierto_critico,CFD contrastada y datos de incertidumbre,G4
+R29,Mach crítico/arrastre,Separar aparición sónica de divergencia; sin tabla universal,abierto,Presiones y curvas de arrastre con criterio definido,G4
+R30,Transición,"Transferencia de control, puertas y flujo oblicuo bajo carga",abierto_critico,Trayectoria con autoridad y potencia continuas,G4;G6
+R31,Estructura,"Materiales, laminados, aberturas, uniones, fatiga y márgenes",abierto_critico,FEM verificada y ensayos correlacionados,G5;F
+R32,Aeroelasticidad,"Modos libres, flutter/divergencia, holgura y temperatura",abierto_critico,Modelo acoplado y dominio de validez,G5;F
+R33,Control robusto,Reserva simultánea de fuerza/momento/potencia bajo incertidumbre,abierto_critico,Pruebas fuera de ajuste y límites de saturación,G6
+R34,Fallos,Definir tolerancia a fallo de módulo/tapa/sensor/alimentación,pendiente,Autoridad remanente y recuperación demostradas en dominio,G1;G6;F
+R35,Autonomía,"Estimación de estado, navegación y modos supervisados",objetivo_posterior,SIL/HIL y ensayos separados de entrenamiento,G8;F
+R36,Machine Learning,Solo con función/ventaja frente a controlador base,opcional_condicionado,"Separación de datos, incertidumbre y restricciones duras",G8
+R37,Optimalidad,Frontera de Pareto y dominio estudiado; no óptimo global garantizado,criterio_de_investigacion,Comparación homogénea y confirmación de finalistas,G7
+R38,Trazabilidad,"Geometría, entradas, versión, unidades, fuentes y alcance por resultado",obligatorio_metodologico,Manifiestos y reproducción,G0;G8
+R39,Verificación/validación,Separar chequeo numérico de contraste experimental,obligatorio_metodologico,"Benchmarks, sensibilidad e incertidumbre",G2;G4;G5;G6;F
+R40,Presentación,CAD y videos derivados de la configuración/estados identificados,confirmado,Huellas y etiquetas de alcance,G8
+R41,Fabricación/mantenimiento,"Tolerancias, montaje, acceso, reparabilidad y repetibilidad",abierto,Planos/BOM/procedimientos contrastados,G3;F
+R42,Recursos/plazo,Benchmark local; concurrencia y cómputo remoto por coste real,pendiente_medir,Calendario recalibrado con coste por caso,G0
+R43,Investigación pausada,El plan no reanuda solvers ni crea objetivo persistente,confirmado_estado,Autorización de ejecución y auditoría antes de reanudar,G0
+R44,Aviónica/comunicación,"Sensores, cómputo, enlace/telemetría, latencia, EMC y pérdida de localización",abierto,"Presupuesto eléctrico/datos; vibración, observabilidad y modos degradados",G3;G6;G8;F
+R45,Integridad del rotor,Retención de pala/buje y evaluación de fragmentos; conducto no garantiza contención,abierto_critico,Cargas centrífugas/fatiga y evidencia de protección en dominio declarado,G5;F

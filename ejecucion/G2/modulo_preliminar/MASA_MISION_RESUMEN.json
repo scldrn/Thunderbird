@@ -1,0 +1,14 @@
+{
+  "cases": 54,
+  "scope": "Partial conditional mass-energy-power comparison, 5 kg target",
+  "all_original_unknown_hardware_still_pending": true,
+  "no_real_battery_or_material_selected": true,
+  "large_rotor_and_duct_mass_not_a_complete_redesign": true,
+  "limitations": [
+    "The 3-s peak is an analysis scenario, not a user-fixed mission or demonstrated maneuver.",
+    "Specific energy and specific power are simultaneous hypothetical pack requirements, not independently selectable measured battery properties.",
+    "No battery qualification, temperature, voltage sag, discharge history, ESC, motor or axial propulsion mass.",
+    "Duct increment excludes door/support/actuator/body changes; fixed geometry contains unapproved density and nominal overlaps.",
+    "Negative remainder rejects only this combined hypothesis; positive remainder does not demonstrate feasibility."
+  ]
+}

@@ -1,0 +1,1254 @@
+{
+  "model": "Static convex reference-power endpoint allocations plus ray-LP slew comparisons and raised-cosine feasible ramps; no motor, pitch, servo, flow or body dynamics is simulated.",
+  "source": "base_horizontal_5kg.npz",
+  "selected_endpoint_preload_signed_vertical_N": 1.0,
+  "full_domain_certificate_preload_N": 1,
+  "endpoints": {
+    "hover": {
+      "target_wrench_N_Nm": [
+        0.0,
+        0.0,
+        49.033249999999995,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "force_vectors_N": [
+        [
+          1.632088582039999e-15,
+          7.182800717094888e-16,
+          12.366795324622814
+        ],
+        [
+          6.979485495267662e-16,
+          6.379628133143687e-16,
+          12.366790958563024
+        ],
+        [
+          4.2290132701488816e-15,
+          3.0620509239032766e-15,
+          12.149829675377186
+        ],
+        [
+          -6.556819366760226e-15,
+          -4.407454106842892e-15,
+          12.149834041436977
+        ]
+      ],
+      "allocation": "Convex numerical minimization of isolated-free-rotor equal-area power reference on circular cones; not installed power.",
+      "dimensionless_KKT_stationarity_max_residual": 1.030908944876785e-07,
+      "dimensionless_KKT_complementarity_max_residual": 0.0,
+      "force_cancellation_fraction": 0.0,
+      "isolated_free_rotor_equal_area_power_reference_W": 1508.8560347149491
+    },
+    "x_plus": {
+      "target_wrench_N_Nm": [
+        24.516624999999998,
+        0.0,
+        49.033249999999995,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "force_vectors_N": [
+        [
+          6.346344454765601,
+          -5.4910067469279915e-08,
+          13.234638231726104
+        ],
+        [
+          6.346344456803316,
+          6.595737924742753e-08,
+          13.234638316946457
+        ],
+        [
+          5.911968093247716,
+          -1.346322497092599e-06,
+          11.281986768273896
+        ],
+        [
+          5.911967995183368,
+          1.33527518531446e-06,
+          11.28198668305354
+        ]
+      ],
+      "allocation": "Convex numerical minimization of isolated-free-rotor equal-area power reference on circular cones; not installed power.",
+      "dimensionless_KKT_stationarity_max_residual": 1.2467712251349542e-07,
+      "dimensionless_KKT_complementarity_max_residual": 0.0,
+      "force_cancellation_fraction": 0.00015711789606520643,
+      "isolated_free_rotor_equal_area_power_reference_W": 1787.4559489406524
+    },
+    "x_minus": {
+      "target_wrench_N_Nm": [
+        -24.516624999999998,
+        0.0,
+        49.033249999999995,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "force_vectors_N": [
+        [
+          -5.960302581095927,
+          -3.4983036406917416e-07,
+          11.498948489623647
+        ],
+        [
+          -5.960301410605111,
+          2.734748045829025e-07,
+          11.498947528075467
+        ],
+        [
+          -6.298010250757079,
+          8.535559442130192e-08,
+          13.017676510376358
+        ],
+        [
+          -6.2980107575418804,
+          -9.000034935028848e-09,
+          13.017677471924534
+        ]
+      ],
+      "allocation": "Convex numerical minimization of isolated-free-rotor equal-area power reference on circular cones; not installed power.",
+      "dimensionless_KKT_stationarity_max_residual": 4.7019956150862185e-08,
+      "dimensionless_KKT_complementarity_max_residual": 0.0,
+      "force_cancellation_fraction": 9.492967877533509e-05,
+      "isolated_free_rotor_equal_area_power_reference_W": 1785.964780406116
+    },
+    "y_plus": {
+      "target_wrench_N_Nm": [
+        0.0,
+        24.516624999999998,
+        49.033249999999995,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "force_vectors_N": [
+        [
+          -0.005961410435503879,
+          6.4349174692042945,
+          13.503371139306928
+        ],
+        [
+          0.0059668634765641885,
+          5.929143326748951,
+          11.230215143878908
+        ],
+        [
+          -0.00591378407538126,
+          6.327016167809305,
+          13.276326937616147
+        ],
+        [
+          0.005908331034320952,
+          5.825548036237449,
+          11.023336779198017
+        ]
+      ],
+      "allocation": "Convex numerical minimization of isolated-free-rotor equal-area power reference on circular cones; not installed power.",
+      "dimensionless_KKT_stationarity_max_residual": 4.7213510645516266e-07,
+      "dimensionless_KKT_complementarity_max_residual": 0.0,
+      "force_cancellation_fraction": 0.0002113681093809383,
+      "isolated_free_rotor_equal_area_power_reference_W": 1788.804079628836
+    },
+    "y_minus": {
+      "target_wrench_N_Nm": [
+        0.0,
+        -24.516624999999998,
+        49.033249999999995,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "force_vectors_N": [
+        [
+          0.005962366287298918,
+          -5.929149245345196,
+          11.23021697823649
+        ],
+        [
+          -0.005962947939573993,
+          -6.434911635585372,
+          13.503369304949349
+        ],
+        [
+          0.0059124588990574645,
+          -5.825551091625296,
+          11.023334944840434
+        ],
+        [
+          -0.005911877246782391,
+          -6.3270130274441305,
+          13.276328771973727
+        ]
+      ],
+      "allocation": "Convex numerical minimization of isolated-free-rotor equal-area power reference on circular cones; not installed power.",
+      "dimensionless_KKT_stationarity_max_residual": 2.757488308434636e-07,
+      "dimensionless_KKT_complementarity_max_residual": 0.0,
+      "force_cancellation_fraction": 0.00021137413282057427,
+      "isolated_free_rotor_equal_area_power_reference_W": 1788.804079628685
+    },
+    "z_low": {
+      "target_wrench_N_Nm": [
+        0.0,
+        0.0,
+        24.516624999999998,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "force_vectors_N": [
+        [
+          -2.4264953813745755e-15,
+          -1.4468832247432764e-15,
+          6.183397080606658
+        ],
+        [
+          -1.6161399578464688e-15,
+          -2.691242971128783e-15,
+          6.183396060986261
+        ],
+        [
+          -1.5564641914788828e-14,
+          -8.667777087636975e-15,
+          6.074915419393342
+        ],
+        [
+          1.9607904732591088e-14,
+          1.2805376599541694e-14,
+          6.074916439013739
+        ]
+      ],
+      "allocation": "Convex numerical minimization of isolated-free-rotor equal-area power reference on circular cones; not installed power.",
+      "dimensionless_KKT_stationarity_max_residual": 3.404741566459535e-08,
+      "dimensionless_KKT_complementarity_max_residual": 0.0,
+      "force_cancellation_fraction": 0.0,
+      "isolated_free_rotor_equal_area_power_reference_W": 533.4611669905877
+    },
+    "z_high": {
+      "target_wrench_N_Nm": [
+        0.0,
+        0.0,
+        73.54987499999999,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "force_vectors_N": [
+        [
+          -4.838199486584937e-16,
+          1.140245859843847e-15,
+          18.55018966320143
+        ],
+        [
+          3.6940968735086183e-16,
+          -1.3130559530098732e-15,
+          18.550189761577318
+        ],
+        [
+          -2.656665619238316e-16,
+          -4.867142245343436e-15,
+          18.224747836798564
+        ],
+        [
+          3.8000710338910665e-16,
+          5.039629034514371e-15,
+          18.22474773842268
+        ]
+      ],
+      "allocation": "Convex numerical minimization of isolated-free-rotor equal-area power reference on circular cones; not installed power.",
+      "dimensionless_KKT_stationarity_max_residual": 1.8965915504765007e-09,
+      "dimensionless_KKT_complementarity_max_residual": 0.0,
+      "force_cancellation_fraction": 0.0,
+      "isolated_free_rotor_equal_area_power_reference_W": 2771.9455352780415
+    }
+  },
+  "ramps": [
+    {
+      "start": "x_minus",
+      "end": "x_plus",
+      "duration_s": 0.05,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        390.4510329592687,
+        390.45100120353385,
+        387.44408972476754,
+        387.44410706551207
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        131.0515666908273,
+        131.05158926087216,
+        131.09245112450395,
+        131.09248352819327
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        1801.4568610027604,
+        1801.456762377622,
+        1819.5661057528503,
+        1819.566111299275
+      ],
+      "max_commanded_acceleration_jerk_ms3": 308.0849959632634,
+      "max_equilibrium_residual_N_or_Nm": 2.1316282072803006e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "x_minus",
+      "end": "x_plus",
+      "duration_s": 0.1,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        195.22551647963434,
+        195.22550060176692,
+        193.72204486238377,
+        193.72205353275604
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        65.52578334541364,
+        65.52579463043608,
+        65.54622556225198,
+        65.54624176409664
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        900.7284305013802,
+        900.728381188811,
+        909.7830528764251,
+        909.7830556496375
+      ],
+      "max_commanded_acceleration_jerk_ms3": 154.0424979816317,
+      "max_equilibrium_residual_N_or_Nm": 2.1316282072803006e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "x_minus",
+      "end": "x_plus",
+      "duration_s": 0.2,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        97.61275823981717,
+        97.61275030088346,
+        96.86102243119188,
+        96.86102676637802
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        32.76289167270682,
+        32.76289731521804,
+        32.77311278112599,
+        32.77312088204832
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        450.3642152506901,
+        450.3641905944055,
+        454.89152643821257,
+        454.89152782481875
+      ],
+      "max_commanded_acceleration_jerk_ms3": 77.02124899081585,
+      "max_equilibrium_residual_N_or_Nm": 2.1316282072803006e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "x_minus",
+      "end": "x_plus",
+      "duration_s": 0.5,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        39.04510329592687,
+        39.04510012035339,
+        38.74440897247675,
+        38.74441070655121
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        13.10515666908273,
+        13.105158926087217,
+        13.109245112450395,
+        13.109248352819334
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        180.14568610027604,
+        180.14567623776225,
+        181.956610575285,
+        181.9566111299275
+      ],
+      "max_commanded_acceleration_jerk_ms3": 30.80849959632634,
+      "max_equilibrium_residual_N_or_Nm": 2.1316282072803006e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "y_minus",
+      "end": "y_plus",
+      "duration_s": 0.05,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        394.9389548533931,
+        394.93859191269866,
+        388.2899271380575,
+        388.289735572647
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        145.29954912175324,
+        145.29940787684498,
+        143.32584117781087,
+        143.3257486259346
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        1817.2190347114654,
+        1817.2175865021188,
+        1818.3402409505795,
+        1818.3390369471615
+      ],
+      "max_commanded_acceleration_jerk_ms3": 308.0849959632634,
+      "max_equilibrium_residual_N_or_Nm": 1.4210854715202004e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "y_minus",
+      "end": "y_plus",
+      "duration_s": 0.1,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        197.46947742669656,
+        197.46929595634933,
+        194.14496356902876,
+        194.1448677863235
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        72.64977456087662,
+        72.64970393842249,
+        71.66292058890544,
+        71.6628743129673
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        908.6095173557327,
+        908.6087932510594,
+        909.1701204752898,
+        909.1695184735808
+      ],
+      "max_commanded_acceleration_jerk_ms3": 154.0424979816317,
+      "max_equilibrium_residual_N_or_Nm": 1.4210854715202004e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "y_minus",
+      "end": "y_plus",
+      "duration_s": 0.2,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        98.73473871334828,
+        98.73464797817466,
+        97.07248178451438,
+        97.07243389316174
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        36.32488728043831,
+        36.324851969211245,
+        35.83146029445272,
+        35.83143715648365
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        454.30475867786635,
+        454.3043966255297,
+        454.5850602376449,
+        454.5847592367904
+      ],
+      "max_commanded_acceleration_jerk_ms3": 77.02124899081585,
+      "max_equilibrium_residual_N_or_Nm": 1.4210854715202004e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "y_minus",
+      "end": "y_plus",
+      "duration_s": 0.5,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        39.493895485339316,
+        39.49385919126986,
+        38.82899271380575,
+        38.82897355726469
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        14.529954912175322,
+        14.529940787684499,
+        14.332584117781083,
+        14.332574862593457
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        181.72190347114653,
+        181.72175865021188,
+        181.83402409505794,
+        181.83390369471616
+      ],
+      "max_commanded_acceleration_jerk_ms3": 30.80849959632634,
+      "max_equilibrium_residual_N_or_Nm": 1.4210854715202004e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "x_plus",
+      "end": "y_plus",
+      "duration_s": 0.05,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        284.19203935311606,
+        279.8890015481262,
+        279.2836453068363,
+        260.7435505250673
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        50.67908153256878,
+        93.39802802618173,
+        92.89011283295993,
+        50.131221660090986
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        1153.483855632505,
+        1213.7769153533793,
+        1207.59679259082,
+        1254.9190124444212
+      ],
+      "max_commanded_acceleration_jerk_ms3": 217.84898982745366,
+      "max_equilibrium_residual_N_or_Nm": 1.4210854715202004e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "x_plus",
+      "end": "y_plus",
+      "duration_s": 0.1,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        142.09601967655803,
+        139.9445007740631,
+        139.64182265341816,
+        130.37177526253365
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        25.33954076628439,
+        46.69901401309087,
+        46.445056416479964,
+        25.065610830045493
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        576.7419278162525,
+        606.8884576766897,
+        603.79839629541,
+        627.4595062222106
+      ],
+      "max_commanded_acceleration_jerk_ms3": 108.92449491372683,
+      "max_equilibrium_residual_N_or_Nm": 1.4210854715202004e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "x_plus",
+      "end": "y_plus",
+      "duration_s": 0.2,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        71.04800983827901,
+        69.97225038703155,
+        69.82091132670908,
+        65.18588763126682
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        12.669770383142195,
+        23.349507006545434,
+        23.222528208239982,
+        12.532805415022747
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        288.37096390812627,
+        303.4442288383448,
+        301.899198147705,
+        313.7297531111053
+      ],
+      "max_commanded_acceleration_jerk_ms3": 54.462247456863416,
+      "max_equilibrium_residual_N_or_Nm": 1.4210854715202004e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "x_plus",
+      "end": "y_plus",
+      "duration_s": 0.5,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        28.419203935311604,
+        27.98890015481262,
+        27.928364530683634,
+        26.07435505250673
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        5.0679081532568775,
+        9.339802802618173,
+        9.289011283295993,
+        5.013122166009099
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        115.34838556325052,
+        121.37769153533792,
+        120.75967925908203,
+        125.49190124444216
+      ],
+      "max_commanded_acceleration_jerk_ms3": 21.784898982745368,
+      "max_equilibrium_residual_N_or_Nm": 1.4210854715202004e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "z_low",
+      "end": "z_high",
+      "duration_s": 0.05,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        388.5142472594848,
+        388.51428238237395,
+        381.6982426486736,
+        381.69820752578454
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        388.5142472594849,
+        388.51428238237395,
+        381.6982426486736,
+        381.69820752578454
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        1.0769272020407244e-12,
+        1.0534372486847237e-12,
+        6.40494800835548e-12,
+        8.450213904749963e-12
+      ],
+      "max_commanded_acceleration_jerk_ms3": 308.0849959632634,
+      "max_equilibrium_residual_N_or_Nm": 2.842170943040401e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "z_low",
+      "end": "z_high",
+      "duration_s": 0.1,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        194.2571236297424,
+        194.25714119118697,
+        190.8491213243368,
+        190.84910376289227
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        194.25712362974244,
+        194.25714119118697,
+        190.8491213243368,
+        190.84910376289227
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        5.384636010203622e-13,
+        5.267186243423618e-13,
+        3.20247400417774e-12,
+        4.2251069523749816e-12
+      ],
+      "max_commanded_acceleration_jerk_ms3": 154.0424979816317,
+      "max_equilibrium_residual_N_or_Nm": 2.842170943040401e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "z_low",
+      "end": "z_high",
+      "duration_s": 0.2,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        97.1285618148712,
+        97.12857059559349,
+        95.4245606621684,
+        95.42455188144613
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        97.12856181487122,
+        97.12857059559349,
+        95.4245606621684,
+        95.42455188144613
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        2.692318005101811e-13,
+        2.633593121711809e-13,
+        1.60123700208887e-12,
+        2.1125534761874908e-12
+      ],
+      "max_commanded_acceleration_jerk_ms3": 77.02124899081585,
+      "max_equilibrium_residual_N_or_Nm": 2.842170943040401e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    },
+    {
+      "start": "z_low",
+      "end": "z_high",
+      "duration_s": 0.5,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        38.85142472594848,
+        38.851428238237396,
+        38.16982426486736,
+        38.16982075257845
+      ],
+      "max_force_magnitude_slew_N_s_per_fan": [
+        38.85142472594848,
+        38.851428238237396,
+        38.16982426486736,
+        38.16982075257845
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        1.0769272020407243e-13,
+        1.0534372486847238e-13,
+        6.404948008355479e-13,
+        8.450213904749963e-13
+      ],
+      "max_commanded_acceleration_jerk_ms3": 30.80849959632634,
+      "max_equilibrium_residual_N_or_Nm": 2.842170943040401e-14,
+      "peak_rates_method": "10001 normalized-time samples of analytic raised-cosine interpolation; numerical maxima, not guaranteed hardware bandwidth.",
+      "physical_response_validated": false
+    }
+  ],
+  "slew_balanced_100ms": [
+    {
+      "start": "x_minus",
+      "end": "x_plus",
+      "duration_s": 0.1,
+      "start_force_vectors_N": [
+        [
+          -5.533474545798798,
+          6.776551890675852e-16,
+          8.281430006206131
+        ],
+        [
+          -6.095759812163082,
+          7.46515274233659e-16,
+          14.716466011492983
+        ],
+        [
+          -6.724837954201198,
+          8.235551275397132e-16,
+          16.235194993793872
+        ],
+        [
+          -6.162552687836921,
+          7.546950423736403e-16,
+          9.800158988507018
+        ]
+      ],
+      "end_force_vectors_N": [
+        [
+          6.724838077784325,
+          0.0,
+          16.235195292149932
+        ],
+        [
+          6.162552811420042,
+          0.0,
+          10.234081256522623
+        ],
+        [
+          5.533474422215671,
+          0.0,
+          8.281429707850062
+        ],
+        [
+          6.095759688579955,
+          0.0,
+          14.28254374347737
+        ]
+      ],
+      "optimal_Linf_cartesian_component_difference_N": 12.258312499999999,
+      "LP_primal_dual_gap_N": 0.0,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        229.5344699032095,
+        205.02232080069345,
+        229.53446664625497,
+        205.0223171543425
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        1024.5098131750872,
+        923.8970364992964,
+        1024.5098237568723,
+        959.1646582134424
+      ],
+      "endpoint_isolated_free_rotor_power_references_W": [
+        1828.6145425442558,
+        1824.4093643596507
+      ],
+      "scope": "Optimizes component difference in this fixed ray LP with fixed capacity. Not minimum mechanical angular rate, electrical power or globally fastest physical maneuver. Endpoint allocations are specific to this transition."
+    },
+    {
+      "start": "y_minus",
+      "end": "y_plus",
+      "duration_s": 0.1,
+      "start_force_vectors_N": [
+        [
+          -1.4756122722156106e-15,
+          -8.032859070021873,
+          15.972163424659257
+        ],
+        [
+          -7.778686582783413e-16,
+          -4.23451974789751,
+          8.761422858526583
+        ],
+        [
+          0.43206994519651903,
+          -2.5592811313281096,
+          6.281388498417667
+        ],
+        [
+          -0.4320699451965205,
+          -9.689965050752505,
+          18.01827521839649
+        ]
+      ],
+      "end_force_vectors_N": [
+        [
+          -0.5108760959655368,
+          4.225453553561251,
+          8.802049654492684
+        ],
+        [
+          4.913156131114862e-16,
+          8.023792875685613,
+          15.931536628693149
+        ],
+        [
+          5.938943633218383e-16,
+          9.699030997922515,
+          17.977648422430388
+        ],
+        [
+          0.510876095965537,
+          2.5683475728306173,
+          6.322015294383769
+        ]
+      ],
+      "optimal_Linf_cartesian_component_difference_N": 12.258312499999999,
+      "LP_primal_dual_gap_N": 0.0,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        223.21770471861004,
+        223.07340925459343,
+        266.2281507249738,
+        266.5534786437577
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        951.8683764884645,
+        954.956267922752,
+        1057.6673414385484,
+        1056.5183903112159
+      ],
+      "endpoint_isolated_free_rotor_power_references_W": [
+        1900.4588822889073,
+        1899.5545982623184
+      ],
+      "scope": "Optimizes component difference in this fixed ray LP with fixed capacity. Not minimum mechanical angular rate, electrical power or globally fastest physical maneuver. Endpoint allocations are specific to this transition."
+    },
+    {
+      "start": "x_plus",
+      "end": "y_plus",
+      "duration_s": 0.1,
+      "start_force_vectors_N": [
+        [
+          6.173250962013083,
+          0.0,
+          14.90354619642474
+        ],
+        [
+          6.173250962013082,
+          0.020291217566754522,
+          11.565730352247824
+        ],
+        [
+          6.173250291257811,
+          0.0,
+          9.613078803575261
+        ],
+        [
+          5.996872784716023,
+          -0.020291217566754522,
+          12.95089464775217
+        ]
+      ],
+      "end_force_vectors_N": [
+        [
+          3.7800260154813204e-16,
+          6.173250962013082,
+          11.876151880498337
+        ],
+        [
+          3.7924508028032843e-16,
+          6.193542179579836,
+          12.857434402687497
+        ],
+        [
+          3.7800260154813204e-16,
+          6.173250962013083,
+          14.90354619642474
+        ],
+        [
+          3.6596003323070635e-16,
+          5.976580896393997,
+          9.39611752038942
+        ]
+      ],
+      "optimal_Linf_cartesian_component_difference_N": 6.173250899280573,
+      "LP_primal_dual_gap_N": 0.0,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        145.14631604800448,
+        138.62805257709513,
+        160.34983412704202,
+        144.44614511014402
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        571.0187993454049,
+        608.525742279737,
+        653.8882643879094,
+        665.9415994483805
+      ],
+      "endpoint_isolated_free_rotor_power_references_W": [
+        1799.8709896229086,
+        1800.2387891352648
+      ],
+      "scope": "Optimizes component difference in this fixed ray LP with fixed capacity. Not minimum mechanical angular rate, electrical power or globally fastest physical maneuver. Endpoint allocations are specific to this transition."
+    },
+    {
+      "start": "z_low",
+      "end": "z_high",
+      "duration_s": 0.1,
+      "start_force_vectors_N": [
+        [
+          0.0,
+          0.0,
+          4.155920737451517
+        ],
+        [
+          0.0,
+          0.0,
+          8.210872404141401
+        ],
+        [
+          0.0,
+          0.0,
+          8.102391762548482
+        ],
+        [
+          0.0,
+          0.0,
+          4.047440095858596
+        ]
+      ],
+      "end_force_vectors_N": [
+        [
+          0.0,
+          0.0,
+          16.52271400371236
+        ],
+        [
+          0.0,
+          0.0,
+          20.577665421066392
+        ],
+        [
+          0.0,
+          0.0,
+          20.252223496287627
+        ],
+        [
+          0.0,
+          0.0,
+          16.197272078933604
+        ]
+      ],
+      "optimal_Linf_cartesian_component_difference_N": 12.366793141592911,
+      "LP_primal_dual_gap_N": 5.329070518200751e-15,
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        194.25713436874392,
+        194.25713045218552,
+        190.84911058533518,
+        190.84911450189378
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "endpoint_isolated_free_rotor_power_references_W": [
+        555.5058612040187,
+        2784.5933225793724
+      ],
+      "scope": "Optimizes component difference in this fixed ray LP with fixed capacity. Not minimum mechanical angular rate, electrical power or globally fastest physical maneuver. Endpoint allocations are specific to this transition."
+    }
+  ],
+  "high_bias_100ms": [
+    {
+      "start": "x_minus",
+      "end": "x_plus",
+      "duration_s": 0.1,
+      "optimized_minimum_signed_axial_force_N": 11.281986725663717,
+      "start_force_vectors_N": [
+        [
+          -6.7763459158296255,
+          8.298630335735991e-16,
+          11.281986924019762
+        ],
+        [
+          -4.852888442132263,
+          5.943074297276462e-16,
+          11.71590909367935
+        ],
+        [
+          -5.481966584170375,
+          6.7134728303369995e-16,
+          13.234638075980227
+        ],
+        [
+          -7.405424057867735,
+          9.069028868796525e-16,
+          12.800715906320654
+        ]
+      ],
+      "end_force_vectors_N": [
+        [
+          5.4819667077534975,
+          0.0,
+          13.23463837433628
+        ],
+        [
+          7.40542418145086,
+          0.0,
+          13.234638174336288
+        ],
+        [
+          6.776345792246502,
+          0.0,
+          11.281986625663718
+        ],
+        [
+          4.852888318549141,
+          0.0,
+          11.281986825663713
+        ]
+      ],
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        194.98073797405297,
+        194.02531063803198,
+        194.98073413991355,
+        194.02530678501236
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        908.4416784600335,
+        878.5115793202202,
+        908.4416826082953,
+        910.3013680945207
+      ],
+      "endpoint_isolated_free_rotor_power_references_W": [
+        1792.8302018857785,
+        1793.45323004277
+      ],
+      "scope": "Higher counteracting bias under the same force capacity and component-change optimum; no direct optimization or guarantee of mechanical angular speed or electric power."
+    },
+    {
+      "start": "y_minus",
+      "end": "y_plus",
+      "duration_s": 0.1,
+      "optimized_minimum_signed_axial_force_N": 11.126775961538458,
+      "start_force_vectors_N": [
+        [
+          -9.328243122360845e-16,
+          -5.078059039202449,
+          11.12677606153846
+        ],
+        [
+          -1.323990175036084e-15,
+          -7.207466816597774,
+          13.606810221647375
+        ],
+        [
+          0.35320012671440276,
+          -4.574074291188779,
+          11.126775861538459
+        ],
+        [
+          -0.3532001267144043,
+          -7.657024853010995,
+          13.1728878552757
+        ]
+      ],
+      "end_force_vectors_N": [
+        [
+          -0.5897459144476644,
+          7.180253584380674,
+          13.606810421647376
+        ],
+        [
+          3.092751075255719e-16,
+          5.050845806985349,
+          11.126775861538459
+        ],
+        [
+          4.705238938826064e-16,
+          7.684238332394344,
+          13.1728876552757
+        ],
+        [
+          0.5897459144476648,
+          4.60128727623963,
+          11.126776061538461
+        ]
+      ],
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        196.67260718662328,
+        196.4543156746844,
+        195.29588380840278,
+        195.77815664449764
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        895.1770810638311,
+        894.1038150656811,
+        900.438258368942,
+        903.3631006494088
+      ],
+      "endpoint_isolated_free_rotor_power_references_W": [
+        1796.847067836351,
+        1797.6459994040683
+      ],
+      "scope": "Higher counteracting bias under the same force capacity and component-change optimum; no direct optimization or guarantee of mechanical angular speed or electric power."
+    },
+    {
+      "start": "x_plus",
+      "end": "y_plus",
+      "duration_s": 0.1,
+      "optimized_minimum_signed_axial_force_N": 11.12677596153846,
+      "start_force_vectors_N": [
+        [
+          6.173250291257806,
+          0.02029121756675312,
+          13.389849138461539
+        ],
+        [
+          6.173250962013082,
+          0.0,
+          13.079427410211022
+        ],
+        [
+          6.173250962013082,
+          0.0,
+          11.12677586153846
+        ],
+        [
+          5.996872784716028,
+          -0.02029121756675312,
+          11.437197589788973
+        ]
+      ],
+      "end_force_vectors_N": [
+        [
+          3.792450802803284e-16,
+          6.193542179579836,
+          13.606810221647374
+        ],
+        [
+          3.78002601548132e-16,
+          6.173250962013082,
+          11.126776061538463
+        ],
+        [
+          3.78002601548132e-16,
+          6.173250962013082,
+          13.1728878552757
+        ],
+        [
+          3.6596003323070645e-16,
+          5.9765808963939975,
+          11.12677586153846
+        ]
+      ],
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        137.17749006953306,
+        140.52342725279746,
+        140.85115210153006,
+        133.30622048605628
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        553.7349232795438,
+        617.5335427258104,
+        616.062738715168,
+        633.7386933993026
+      ],
+      "endpoint_isolated_free_rotor_power_references_W": [
+        1787.799356432024,
+        1789.1264145979817
+      ],
+      "scope": "Higher counteracting bias under the same force capacity and component-change optimum; no direct optimization or guarantee of mechanical angular speed or electric power."
+    },
+    {
+      "start": "z_low",
+      "end": "z_high",
+      "duration_s": 0.1,
+      "optimized_minimum_signed_axial_force_N": 6.07491592920354,
+      "start_force_vectors_N": [
+        [
+          0.0,
+          0.0,
+          6.183396470796461
+        ],
+        [
+          0.0,
+          0.0,
+          6.1833966707964585
+        ],
+        [
+          0.0,
+          0.0,
+          6.074916029203537
+        ],
+        [
+          0.0,
+          0.0,
+          6.0749158292035395
+        ]
+      ],
+      "end_force_vectors_N": [
+        [
+          0.0,
+          0.0,
+          18.550189487721447
+        ],
+        [
+          0.0,
+          0.0,
+          18.5501899370573
+        ],
+        [
+          0.0,
+          0.0,
+          18.224748012278543
+        ],
+        [
+          0.0,
+          0.0,
+          18.22474756294269
+        ]
+      ],
+      "max_useful_force_vector_slew_N_s_per_fan": [
+        194.25713045218546,
+        194.25713436874392,
+        190.84911450189372,
+        190.84911058533524
+      ],
+      "max_effective_force_direction_rate_deg_s_per_fan": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "endpoint_isolated_free_rotor_power_references_W": [
+        533.4611669905861,
+        2771.945535278041
+      ],
+      "scope": "Higher counteracting bias under the same force capacity and component-change optimum; no direct optimization or guarantee of mechanical angular speed or electric power."
+    }
+  ],
+  "notes": [
+    "These allocations and rates are feasible examples, not globally necessary or minimum rates.",
+    "A preload above 1 N is only checked at the selected endpoints and ramps, not recertified over the full wrench domain.",
+    "Acceleration reversal is not instantaneous velocity reversal.",
+    "Effective force direction rate is not mechanical vane angular speed.",
+    "One sign pattern is held throughout; only the optional mixed-sign mode requires a transition from all-positive operation.",
+    "Reference open-rotor powers are not installed electrical powers or universal shrouded-fan lower bounds.",
+    "Preload is a prescribed ideal useful-force margin, not a demonstrated rotor operating point."
+  ]
+}

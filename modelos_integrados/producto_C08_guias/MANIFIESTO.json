@@ -1,0 +1,53 @@
+{
+  "scope": "Dos envolventes de reserva para guias no construidas; una tapa C07, sin conexion ni actuacion",
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C03/5kg/C03_5kg_cerrado.FCStd",
+  "source_sha256": "fe15cb8d9613e4c06e1e5d336ecae4153fac9e8a50ec3f065b7b65b7b6fa9e8d",
+  "pair": {
+    "left_y_mm": -130,
+    "right_y_mm": -25,
+    "z_mm": 25,
+    "spacing_mm": 105
+  },
+  "states": [
+    {
+      "state": "cerrado",
+      "lift_mm": 0,
+      "dx_mm": 0,
+      "fcstd": "C08_local_cerrado.FCStd",
+      "fcstd_sha256": "9dd0056194af8aa65523ab024744bfffd89acf6986a0a86964ad8a9c74939155",
+      "step": "C08_local_cerrado.step",
+      "step_sha256": "94edd4b7f18b0964a6cf31183e4a2cea8e9932f9fba703ce34197e01e4df1a89",
+      "objects": 8,
+      "rail_door_distances": [
+        {
+          "rail": 0,
+          "distance_to_cover_mm": 45.21558815884137
+        },
+        {
+          "rail": 1,
+          "distance_to_cover_mm": 77.19908706893501
+        }
+      ]
+    },
+    {
+      "state": "abierto",
+      "lift_mm": 10,
+      "dx_mm": -100,
+      "fcstd": "C08_local_abierto.FCStd",
+      "fcstd_sha256": "73c08d5cfa06e9369ffd97f451e21a489342c6a606285fb93b62f63430181a5b",
+      "step": "C08_local_abierto.step",
+      "step_sha256": "c3836d07fe5d781b3e89a09eda0171694acb3a06bcc6c21b5132eabe9223b684",
+      "objects": 8,
+      "rail_door_distances": [
+        {
+          "rail": 0,
+          "distance_to_cover_mm": 55.08857513360677
+        },
+        {
+          "rail": 1,
+          "distance_to_cover_mm": 87.1327345345569
+        }
+      ]
+    }
+  ]
+}

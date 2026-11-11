@@ -1,0 +1,54 @@
+{
+  "end_time_s": 0.00025,
+  "flow_through_time_s": 0.0036249999999999998,
+  "discard_before_s": 0.01,
+  "initial_physical_age_s": 0,
+  "initial_dt": 1e-07,
+  "maxCo": 0.3,
+  "maxDeltaT": 1e-05,
+  "time_scheme": "Euler",
+  "momentum_advection": "Gauss upwind",
+  "outer_correctors": 2,
+  "rho_kg_m3": 1.225,
+  "inlet_velocity_m_s": [
+    0,
+    0,
+    -40
+  ],
+  "inlet_k_m2_s2": 6,
+  "inlet_omega_s1": 894.4271909999,
+  "ambient_k_m2_s2": 1e-06,
+  "ambient_omega_s1": 10,
+  "initialization": "Verified potential-flow U and phi; uniform initial p=0; not a developed viscous field",
+  "purpose": "Short startup stability diagnostic with exterior air, not a statistical load run",
+  "comparison_isolated_parameter": false,
+  "changes_from_old_channel": [
+    "exterior air and farfield boundaries",
+    "4 mm sleeve with exterior surfaces and lip",
+    "different mesh",
+    "potential initial field instead of old underdeveloped viscous fields",
+    "ambient turbulence assumptions"
+  ],
+  "limits": [
+    "not selected full CAD",
+    "no rotor, motor, shafts, hull or external flight velocity",
+    "incompressible model",
+    "no demonstrated yPlus or prism layers",
+    "domain/mesh/timestep/turbulence sensitivity unverified",
+    "no physical loads accepted"
+  ],
+  "configuration_sha256": {
+    "system/fvSchemes": "ef57594fab6a1b3aeec0edf14bea105ec423b3f6fb5fd10dcc90a943d071d8a4",
+    "system/fvSolution": "1b2ccccd1fe14a67baaaccb371460101cfeffc49e6a512716990ec9fc2a64534",
+    "system/controlDict": "5d4a513e0bcba3cab9347582663b22613d165304158f2ef86618dace722c4fea"
+  },
+  "initial_field_sha256": {
+    "U": "e1b275bacbae20a63c7ae1d458f4ba86b4b8393307e093e234308b5a5a55a29c",
+    "omega": "fd2d64c7aec75b60d2b99ba9bf2cc10346dd2f2de64da6637aea13248d9c178e",
+    "phi": "c277e7625b3e85d733ff3b69a945af2e82f3ca973fe833aea4d7f9eca12f37e0",
+    "k": "55c0419f975c0c867c8b0201f76580c19b66a3938b26757cec906e833af42dd6",
+    "nut": "4c4a2dad26dcc43c551b71b15d1ceb7b7453cbef5bad6ec4fb87aa0bf8626378",
+    "p": "314d1c08e870e891ed863674c4e727e3ac2834f0aadc4bc023650df37402bad0"
+  },
+  "diagnostic_logging_correction": "Enabled log true for maxVelocityDiagnostic and minScalarsDiagnostic during startup; no fluid/solver parameter changed."
+}

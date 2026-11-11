@@ -1,0 +1,155 @@
+{
+  "scope": "Tres puertas adicionales, movidas por separado; 6 muestras; obstaculos seleccionados; sin soportes ni simultaneidad",
+  "cases": [
+    {
+      "door": "compuerta_C02_0_inferior",
+      "lift_direction": -1,
+      "dx_direction": -1,
+      "obstacles": [
+        "modulo_C02_0_rotor_copa",
+        "junta_C02_0_inferior",
+        "aro_C02_0_inferior",
+        "modulo_C02_0_camisa_cuna_y_soportes",
+        "carroceria_C02_superior004",
+        "carroceria_C02_inferior003",
+        "modulo_C02_1_camisa_cuna_y_soportes",
+        "modulo_C02_2_camisa_cuna_y_soportes",
+        "modulo_C02_3_camisa_cuna_y_soportes",
+        "compuerta_C02_0_superior",
+        "compuerta_C02_1_superior",
+        "compuerta_C02_1_inferior",
+        "compuerta_C02_2_superior",
+        "compuerta_C02_2_inferior",
+        "compuerta_C02_3_superior",
+        "compuerta_C02_3_inferior"
+      ],
+      "checks": [
+        {
+          "lift_mm": -5,
+          "dx_mm": 0
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": 0
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": -25
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": -50
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": -75
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": -100
+        }
+      ],
+      "sampled_ok": true
+    },
+    {
+      "door": "compuerta_C02_2_superior",
+      "lift_direction": 1,
+      "dx_direction": 1,
+      "obstacles": [
+        "modulo_C02_2_rotor_copa",
+        "junta_C02_2_superior",
+        "aro_C02_2_superior",
+        "modulo_C02_2_camisa_cuna_y_soportes",
+        "carroceria_C02_superior004",
+        "carroceria_C02_inferior003",
+        "modulo_C02_0_camisa_cuna_y_soportes",
+        "modulo_C02_1_camisa_cuna_y_soportes",
+        "modulo_C02_3_camisa_cuna_y_soportes",
+        "compuerta_C02_0_superior",
+        "compuerta_C02_0_inferior",
+        "compuerta_C02_1_superior",
+        "compuerta_C02_1_inferior",
+        "compuerta_C02_2_inferior",
+        "compuerta_C02_3_superior",
+        "compuerta_C02_3_inferior"
+      ],
+      "checks": [
+        {
+          "lift_mm": 5,
+          "dx_mm": 0
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 25
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 50
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 75
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 100
+        }
+      ],
+      "sampled_ok": true
+    },
+    {
+      "door": "compuerta_C02_2_inferior",
+      "lift_direction": -1,
+      "dx_direction": 1,
+      "obstacles": [
+        "modulo_C02_2_rotor_copa",
+        "junta_C02_2_inferior",
+        "aro_C02_2_inferior",
+        "modulo_C02_2_camisa_cuna_y_soportes",
+        "carroceria_C02_superior004",
+        "carroceria_C02_inferior003",
+        "modulo_C02_0_camisa_cuna_y_soportes",
+        "modulo_C02_1_camisa_cuna_y_soportes",
+        "modulo_C02_3_camisa_cuna_y_soportes",
+        "compuerta_C02_0_superior",
+        "compuerta_C02_0_inferior",
+        "compuerta_C02_1_superior",
+        "compuerta_C02_1_inferior",
+        "compuerta_C02_2_superior",
+        "compuerta_C02_3_superior",
+        "compuerta_C02_3_inferior"
+      ],
+      "checks": [
+        {
+          "lift_mm": -5,
+          "dx_mm": 0
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": 0
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": 25
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": 50
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": 75
+        },
+        {
+          "lift_mm": -10,
+          "dx_mm": 100
+        }
+      ],
+      "sampled_ok": true
+    }
+  ]
+}

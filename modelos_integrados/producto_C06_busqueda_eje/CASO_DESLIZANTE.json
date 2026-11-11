@@ -1,0 +1,84 @@
+{
+  "source_results": "DESLIZAMIENTO_PARCIAL.json",
+  "status": "muestras_sin_interseccion_no_validado",
+  "chosen_case": {
+    "lift_max_mm": 10,
+    "direction_x": -1,
+    "target_dx_mm": -100,
+    "checks": [
+      {
+        "lift_mm": 5.0,
+        "dx_mm": 0.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": 0.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -10.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -20.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -30.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -40.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -50.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -60.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -70.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -80.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -90.0
+      },
+      {
+        "lift_mm": 10.0,
+        "dx_mm": -100.0
+      }
+    ],
+    "sampled_ok": true,
+    "display_mesh_x_bounds_mm": [
+      -305.79813672205387,
+      -214.2
+    ],
+    "sampled_projection_x_gap_mm": 12.199999999999989
+  },
+  "target": {
+    "lift_mm": 10.0,
+    "dx_mm": -100.0
+  },
+  "scope": "Posiciones geom\u00e9tricas de una sola tapa; no incluye guias, accionadores ni soportes",
+  "cerrado": {
+    "fcstd": "C06_deslizante_cerrado.FCStd",
+    "step": "C06_deslizante_cerrado.step",
+    "objects": 6,
+    "fcstd_sha256": "d25ddd9f4df409255eda694988c9032dcbf1a08c1b9a3a18b11ef0f46eeb869e",
+    "step_sha256": "98a46d74a4ae29380aa9f87c01af269fb5c13b82c7bf94397b4c906b12b23ac8"
+  },
+  "evaluacion": {
+    "fcstd": "C06_deslizante_evaluacion.FCStd",
+    "step": "C06_deslizante_evaluacion.step",
+    "objects": 6,
+    "fcstd_sha256": "e6f70c9713ef13535acfdf40db4980e9ea1962cbed30a1a7c0d77651fb88f5d4",
+    "step_sha256": "d17c299ef353194f9c539d737f79862ee5bc81a4e75be6a3a2018a336a2a196a"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "kind": "preliminary_rotor_geometry_not_installed_product",
+  "coordinate_units": "mm",
+  "spin_convention": "CCW viewed from +Z; intended thrust +Z",
+  "source_airfoil_sha256": "102c8b1d93c5b02ae547b27a50340ff326975e0c75ba13adfe737cc7812c3ea7",
+  "material_RPM_and_manufacturing_approved": false,
+  "canonical_configuration_changed": false,
+  "candidates": [
+    {
+      "design_source": "ejecucion/G2/modulo_preliminar/m5_d1_k0.85.json",
+      "source_sha256": "85287461615fd25fb381912cc4e89534e850680dfa40fddd3720b33518656f94",
+      "radius_mm": 41.0,
+      "hub_diameter_mm": 25.830000000000002,
+      "hub_height_mm": 15.58,
+      "bore_diameter_mm": 4.1000000000000005,
+      "loft_sections": 66,
+      "bounding_dimensions_mm": [
+        82.00000020000007,
+        82.00000020000007,
+        15.5800002
+      ],
+      "volume_mm3": 10197.015450592502,
+      "one_blade_volume_mm3": 282.22381614565,
+      "hub_blade_join_overlap_before_union_mm3": 2.392323696651154,
+      "blade_pair_checks_by_rotational_symmetry": [
+        {
+          "relative_angle_deg": 45,
+          "overlap_mm3": 0.0
+        },
+        {
+          "relative_angle_deg": 90,
+          "overlap_mm3": 0.0
+        },
+        {
+          "relative_angle_deg": 135,
+          "overlap_mm3": 0.0
+        },
+        {
+          "relative_angle_deg": 180,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "single_solid_after_fusion": true,
+      "material_density_sensitivity_kg_m3": 1600,
+      "nominal_rotor_mass_sensitivity_kg": 0.016315224720948002,
+      "one_blade_mass_sensitivity_kg": 0.00045155810583304005,
+      "one_blade_centrifugal_root_resultant_sensitivity_N": 269.36071912430356,
+      "performance_rpm_unapproved": 46231.48148400444,
+      "files": {
+        "CCW": {
+          "file": "rotor_8palas_D82mm_CCW.step",
+          "sha256": "25595624c9d54f0c221e63be35af5e1781f4055b40944117301e3c5c37ebb465"
+        },
+        "CW": {
+          "file": "rotor_8palas_D82mm_CW.step",
+          "sha256": "ed9a168c29bcf1afefa05aacb49975a9c0ee7659f13d49b7f5bb7b9313b5cdfd"
+        }
+      },
+      "limitations": [
+        "No root fillet, tolerances, retention, structural/FEM/fatigue or balancing design approved.",
+        "Smooth interpolating loft between airfoil wires; no identical continuous CFD/BEM geometry claim.",
+        "Bore/hub are layout assumptions, not a motor or bearing interface selection.",
+        "Candidate is a separate local component, not fitted into or substituted for A07."
+      ]
+    },
+    {
+      "design_source": "ejecucion/G2/modulo_preliminar/m5_d1.25_k0.85.json",
+      "source_sha256": "ec9e0d57084b42fb464cf4a4b7ae24f16431723fdc057fc1acf424e33630c0eb",
+      "radius_mm": 51.25000000000001,
+      "hub_diameter_mm": 32.2875,
+      "hub_height_mm": 19.475,
+      "bore_diameter_mm": 5.125000000000001,
+      "loft_sections": 66,
+      "bounding_dimensions_mm": [
+        102.50000020000009,
+        102.50000020000009,
+        19.4750002
+      ],
+      "volume_mm3": 19916.04579123033,
+      "one_blade_volume_mm3": 551.2183909081955,
+      "hub_blade_join_overlap_before_union_mm3": 4.672507218430617,
+      "blade_pair_checks_by_rotational_symmetry": [
+        {
+          "relative_angle_deg": 45,
+          "overlap_mm3": 0.0
+        },
+        {
+          "relative_angle_deg": 90,
+          "overlap_mm3": 0.0
+        },
+        {
+          "relative_angle_deg": 135,
+          "overlap_mm3": 0.0
+        },
+        {
+          "relative_angle_deg": 180,
+          "overlap_mm3": 0.0
+        }
+      ],
+      "single_solid_after_fusion": true,
+      "material_density_sensitivity_kg_m3": 1600,
+      "nominal_rotor_mass_sensitivity_kg": 0.03186567326596853,
+      "one_blade_mass_sensitivity_kg": 0.0008819494254531129,
+      "one_blade_centrifugal_root_resultant_sensitivity_N": 269.36071912120207,
+      "performance_rpm_unapproved": 29588.148149691046,
+      "files": {
+        "CCW": {
+          "file": "rotor_8palas_D102.5mm_CCW.step",
+          "sha256": "708c15b4370d009cb0c6c88a3354672d5f03e6b5752976ca4ee54e55a1775f64"
+        },
+        "CW": {
+          "file": "rotor_8palas_D102.5mm_CW.step",
+          "sha256": "0a4f67bc3ba45dd4103118a95f644f02079e45915a76d4b03dd2b9d0a6ba2ac6"
+        }
+      },
+      "limitations": [
+        "No root fillet, tolerances, retention, structural/FEM/fatigue or balancing design approved.",
+        "Smooth interpolating loft between airfoil wires; no identical continuous CFD/BEM geometry claim.",
+        "Bore/hub are layout assumptions, not a motor or bearing interface selection.",
+        "Candidate is a separate local component, not fitted into or substituted for A07."
+      ]
+    }
+  ]
+}

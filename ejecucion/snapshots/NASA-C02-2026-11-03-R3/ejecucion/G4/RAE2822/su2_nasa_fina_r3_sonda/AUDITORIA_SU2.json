@@ -1,0 +1,166 @@
+{
+  "scope": "Native benchmark field and force audit with provisional Cp comparison; not accepted physical validation",
+  "last_inner_iteration_index": 599,
+  "source_solver_convergence_message": false,
+  "convergence_message_does_not_cover_all_equations": true,
+  "actual_model": "SST-2003m; IDEAL_GAS/Sutherland/constantPr0.72/0.9",
+  "reconstructed_reference": {
+    "p_Pa": 108987.77275058624,
+    "rho_kg_m3": 1.4856980645128517,
+    "T_K": 255.55555555555554,
+    "U_m_s": 233.62276311273394,
+    "q_Pa": 40544.399656841015
+  },
+  "rho_range_kg_m3": [
+    0.7985540050751461,
+    1.912992824889398
+  ],
+  "pressure_range_Pa": [
+    62948.31297097986,
+    155233.22084194375
+  ],
+  "temperature_range_K": [
+    218.25566830118944,
+    282.7328486742745
+  ],
+  "maximum_local_Mach": 1.2152654332450759,
+  "CSV_VTU_coordinate_mapping_verified": true,
+  "retained_vs_recomputed_thermodynamics": {
+    "pressure_max_abs_Pa": 0.002267857824335806,
+    "pressure_max_relative": 1.9497598615430983e-08,
+    "temperature_max_abs_K": 5.2006083706146455e-06
+  },
+  "exact_thermodynamic_identity_not_asserted_due_segregated_update": true,
+  "Cp_reference_reconstruction_verified": true,
+  "pressure_and_tangential_shear_polygon_integrals_evaluated": true,
+  "complete_solver_force_identity_verified": false,
+  "incomplete_reconstruction_minus_solver_coeff_force": [
+    -3.5016565538489863e-07,
+    -1.3717389479861453e-07
+  ],
+  "incomplete_reconstruction_limit": "SurfaceCf is tangential only; full normal viscous stress and solver dual-area weights remain to reconstruct.",
+  "force_coeff_pressure": [
+    -0.020637882746360345,
+    0.6785402442015263
+  ],
+  "force_coeff_viscous": [
+    0.005860601290704961,
+    0.00022350872457903764
+  ],
+  "last_CL": 0.6788079117,
+  "last_CD": 0.01259345921,
+  "last20_log10_residual_max": {
+    "rms[Rho]": -8.717300146,
+    "rms[RhoU]": -5.675056741,
+    "rms[RhoV]": -6.413535125,
+    "rms[RhoE]": -3.330628267,
+    "rms[k]": -2.629496768,
+    "rms[w]": 0.06559623309
+  },
+  "adjacent20_force_coefficient_drift": {
+    "CD": 8.901499997174267e-09,
+    "CL": 2.8128499995894174e-07
+  },
+  "Cp_points": 103,
+  "Cp_RMS_error_provisional": 0.12314062853496796,
+  "Cp_max_abs_error_provisional": 0.9889693603577594,
+  "wall_reported_yPlus_range": [
+    0.11763258108724826,
+    0.9762496652123273
+  ],
+  "reference_field_changes": {
+    "Density": {
+      "max_abs": 0.0001445451606130188,
+      "arithmetic_RMS": 3.511739839970569e-06,
+      "relative_Linf_to_reference_Linf": 7.555969921390519e-05,
+      "relative_L2": 2.452621739574348e-06,
+      "max_change_node_ID": 44991,
+      "max_change_xy": [
+        0.1576426362,
+        0.035325847560000005
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": 1.132377620795755,
+      "current_value_at_max_change": 1.132233075635142
+    },
+    "Momentum_x": {
+      "max_abs": 0.05781473280970317,
+      "arithmetic_RMS": 0.0023130990129290683,
+      "relative_Linf_to_reference_Linf": 0.00015462742141155619,
+      "relative_L2": 7.776636102574878e-06,
+      "max_change_node_ID": 83709,
+      "max_change_xy": [
+        0.3229784244,
+        0.00010815172680000004
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": 156.8269275763543,
+      "current_value_at_max_change": 156.884742309164
+    },
+    "Momentum_y": {
+      "max_abs": 0.0073087690349895595,
+      "arithmetic_RMS": 0.0005620135321090907,
+      "relative_Linf_to_reference_Linf": 2.355269222005565e-05,
+      "relative_L2": 1.5219144213638027e-05,
+      "max_change_node_ID": 45408,
+      "max_change_xy": [
+        0.1610202393,
+        0.021438222300000004
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": -5.804439255760902,
+      "current_value_at_max_change": -5.797130486725912
+    },
+    "Energy": {
+      "max_abs": 27.55828521749936,
+      "arithmetic_RMS": 0.6901613706414044,
+      "relative_Linf_to_reference_Linf": 7.101130903076063e-05,
+      "relative_L2": 2.306406455962787e-06,
+      "max_change_node_ID": 44991,
+      "max_change_xy": [
+        0.1576426362,
+        0.035325847560000005
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": 246592.1106939601,
+      "current_value_at_max_change": 246564.5524087426
+    },
+    "Turb_Kin_Energy": {
+      "max_abs": 2.4193664357844966,
+      "arithmetic_RMS": 0.14699727587824918,
+      "relative_Linf_to_reference_Linf": 0.0030996037501076833,
+      "relative_L2": 0.0008880639973970585,
+      "max_change_node_ID": 82877,
+      "max_change_xy": [
+        0.31769837399999995,
+        -0.0025973847467999998
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": 162.9381099105254,
+      "current_value_at_max_change": 165.3574763463099
+    },
+    "Omega": {
+      "max_abs": 1431174.9466590881,
+      "arithmetic_RMS": 9335.8764598123,
+      "relative_Linf_to_reference_Linf": 4.793981696372168e-05,
+      "relative_L2": 5.783402600907179e-06,
+      "max_change_node_ID": 44658,
+      "max_change_xy": [
+        0.15519440639999998,
+        0.018856537344
+      ],
+      "max_change_is_airfoil_node": true,
+      "reference_value_at_max_change": 27266660615.92202,
+      "current_value_at_max_change": 27268091790.86868
+    }
+  },
+  "remaining": "Verify full-state convergence including turbulence, mesh/wall resolution and NASA geometry/conditions alignment; compare sensitivities before validation.",
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "source_sha256": {
+    "restart_flow.csv": "ff89ac13aa091500c0144ec1187be203ad9a6dadbaa8739aef6fc0f687c283ab",
+    "flow.vtu": "ca959c2e7bc065311c0df8e87529a6b1e90ffa70dec197e7b28211da89697560",
+    "history.csv": "7c9f9d1473ca37626c28ceca9665a5ab2146cb49ef1a4f3d3012625dbffef1cf",
+    "case.cfg": "942f68f90d9512f7bde056a433014a923e4940423060febd12b675e05651b675"
+  }
+}

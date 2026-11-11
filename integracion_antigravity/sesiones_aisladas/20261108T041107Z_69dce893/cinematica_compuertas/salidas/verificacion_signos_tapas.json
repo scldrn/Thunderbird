@@ -1,0 +1,162 @@
+{
+  "status": "VERIFICACI\u00d3N COMPLETADA EXITOSAMENTE",
+  "doors_count": 8,
+  "door_details": [
+    {
+      "name": "compuerta_0_superior_enrasada",
+      "axis_closed": [
+        -200,
+        -124,
+        65.46206952822472
+      ],
+      "lift_nominal_mm": 10,
+      "lift_nominal_valid": true,
+      "out_translation_sign": 1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": 1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n +Z (10 mm) y rotaci\u00f3n exterior (110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_0_inferior_enrasada",
+      "axis_closed": [
+        -200,
+        -124,
+        -51.813414341235344
+      ],
+      "lift_nominal_mm": 10,
+      "lift_nominal_valid": true,
+      "out_translation_sign": -1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": -1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n -Z (10 mm) y rotaci\u00f3n exterior (-110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_1_superior_enrasada",
+      "axis_closed": [
+        -200,
+        124,
+        65.46206952822584
+      ],
+      "lift_nominal_mm": 10,
+      "lift_nominal_valid": true,
+      "out_translation_sign": 1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": -1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n +Z (10 mm) y rotaci\u00f3n exterior (-110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_1_inferior_enrasada",
+      "axis_closed": [
+        -200,
+        124,
+        -51.81341434127446
+      ],
+      "lift_nominal_mm": 10,
+      "lift_nominal_valid": true,
+      "out_translation_sign": -1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": 1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n -Z (10 mm) y rotaci\u00f3n exterior (110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_2_superior_enrasada",
+      "axis_closed": [
+        200,
+        -124,
+        45.5103550762197
+      ],
+      "lift_nominal_mm": 10,
+      "lift_nominal_valid": true,
+      "out_translation_sign": 1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": 1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n +Z (10 mm) y rotaci\u00f3n exterior (110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_2_inferior_enrasada",
+      "axis_closed": [
+        200,
+        -124,
+        -34.38218584062672
+      ],
+      "lift_nominal_mm": 10,
+      "lift_nominal_valid": true,
+      "out_translation_sign": -1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": -1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n -Z (10 mm) y rotaci\u00f3n exterior (-110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_3_superior_enrasada",
+      "axis_closed": [
+        200,
+        124,
+        45.51035507660301
+      ],
+      "lift_nominal_mm": 10,
+      "lift_nominal_valid": true,
+      "out_translation_sign": 1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": -1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n +Z (10 mm) y rotaci\u00f3n exterior (-110\u00b0 alrededor de X)"
+    },
+    {
+      "name": "compuerta_3_inferior_enrasada",
+      "axis_closed": [
+        200,
+        124,
+        -34.382185838729896
+      ],
+      "lift_nominal_mm": 10,
+      "lift_nominal_valid": true,
+      "out_translation_sign": -1,
+      "out_translation_sign_valid": true,
+      "rotation_sign": 1,
+      "rotation_sign_valid": true,
+      "motion_description": "Traslaci\u00f3n -Z (10 mm) y rotaci\u00f3n exterior (110\u00b0 alrededor de X)"
+    }
+  ],
+  "discrete_verification": {
+    "total_nodes_json": 61,
+    "expected_nodes": 61,
+    "doors_tested": 8,
+    "boolean_pairs_tested": 488,
+    "max_overlap_mm3": 0,
+    "node_0_start": {
+      "pose": {
+        "lift_mm": 0.0,
+        "angle_deg": 0.0
+      },
+      "valid": true
+    },
+    "node_switch_phase": {
+      "pose": {
+        "lift_mm": 10.0,
+        "angle_deg": 0.0
+      },
+      "valid": true
+    },
+    "node_final_end": {
+      "pose": {
+        "lift_mm": 10.0,
+        "angle_deg": 110.0
+      },
+      "valid": true
+    }
+  },
+  "unverifiable_declarations": [
+    "Masa real de compuerta ('actual_mass_kg: null' en C02_CANDIDATA.json). No se asigna masa ni se infiere si es nula o no.",
+    "Centro de gravedad ('actual_CG_m: null') y tensor de inercia ('actual_inertia_kgm2: null') de compuerta no definidos.",
+    "Dimensiones y volumen de actuadores, servomotores, bielas y herrajes de bisagra (LEEME.md declara que no existen gu\u00edas ni actuadores dimensionados).",
+    "Tolerancias de fabricaci\u00f3n, holguras de mecanizado o interferencias el\u00e1sticas bajo carga aerodin\u00e1mica (VERIFICACION_RECORRIDO.json aclara que el barrido es geom\u00e9trico est\u00e1tico nominal).",
+    "Respuesta din\u00e1mica del actuador ('servo_response_s: null' en C02_CANDIDATA.json).",
+    "Fuerzas aerodin\u00e1micas durante la apertura en avance ('apertura destinada al estudio de baja velocidad; no se valida su uso en avance r\u00e1pido', LEEME.md)."
+  ]
+}

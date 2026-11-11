@@ -1,0 +1,661 @@
+{
+  "scope": "Barras rectas nominales en cerrado, candidatas muestreadas, contra registros C03 y barrido nominal de rotor 0; no conexion funcional ni barrido completo",
+  "selected_pair": {
+    "left_y_mm": -130,
+    "left_z_mm": 25,
+    "right_y_mm": -25,
+    "right_z_mm": 75
+  },
+  "nominal_radius_mm": 1.5,
+  "x_anchor_mm": -160,
+  "cases": [
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -160.7334411343204,
+        -121.79412696272546,
+        72.05503891043391
+      ],
+      "length_mm": 49.77081719066392,
+      "tested": 1,
+      "boolean_count": 1,
+      "door_contact_volume_mm3": 4.643990424622758,
+      "obstruction": {
+        "name": "carroceria_C02_superior004",
+        "volume_mm3": 0.007182673070130036,
+        "distance_mm": 1.4210854715202004e-14
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -163.94506632953534,
+        -117.4004034033203,
+        74.18667903241956
+      ],
+      "length_mm": 52.92781928358761,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.074799987822846,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 48.77708714381168,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -158.8389661081876,
+        -112.16581567036607,
+        77.17806061230687
+      ],
+      "length_mm": 57.153931316478854,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.377413326970386,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 43.732354189436734,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -159.3363678974108,
+        -107.41662075983734,
+        79.6425651757458
+      ],
+      "length_mm": 61.12917515455652,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.607415041886881,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 37.33428972510723,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -160.53018505961288,
+        -102.24678472695201,
+        82.29799190809088
+      ],
+      "length_mm": 65.66774639398844,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.847697310982571,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 36.18240199633603,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -156.96630335203224,
+        -95.87110849484067,
+        85.81851065543636
+      ],
+      "length_mm": 71.8059867709658,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 10.096351156691401,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 38.02706444593968,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -163.96784335915524,
+        -85.76163614725118,
+        90.62740779131036
+      ],
+      "length_mm": 81.24476809668843,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.832935639970303,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 37.280442578235935,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -163.63639908598378,
+        -82.44382267837261,
+        92.37495463698846
+      ],
+      "length_mm": 84.5481551101832,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.913203430134761,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 34.26652148065737,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -163.26574499017556,
+        -77.24679059805231,
+        95.1121109454536
+      ],
+      "length_mm": 89.80247316433741,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 10.093212536222307,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 28.794512289811273,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -163.2568480447777,
+        -72.14903504427573,
+        97.78115225500342
+      ],
+      "length_mm": 95.02922835894748,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 10.304688053205192,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 24.10297828357791,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -163.60932516553913,
+        -67.17512820012917,
+        100.37053634255767
+      ],
+      "length_mm": 100.1871147013986,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 10.560959981656405,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 21.23765307900772,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -156.3421480317417,
+        -57.54053192791381,
+        105.3030988191625
+      ],
+      "length_mm": 110.22357448482076,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.58166423593327,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 17.685455649434424,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -156.86566657655746,
+        -56.34830083348166,
+        105.2789545031206
+      ],
+      "length_mm": 110.99131787550206,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.144052145165528,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 16.79055499721478,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -159.4317365703255,
+        -51.485188103919995,
+        105.15895246550453
+      ],
+      "length_mm": 114.20675679641286,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.265825782331545,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 15.48097180799725,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -156.8062571209126,
+        -47.44895859724714,
+        105.27508627977105
+      ],
+      "length_mm": 117.19098882934125,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.349171521934174,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 17.055672281981483,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -162.45291274457642,
+        -42.240715215048915,
+        105.0121622365174
+      ],
+      "length_mm": 120.78406859786136,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.470856174532882,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 17.706320169734152,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -156.56401883984446,
+        -37.36851292846635,
+        105.28824783444904
+      ],
+      "length_mm": 124.63197423161124,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.56649340116202,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 18.07156446168039,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -130,
+      "target_mm": [
+        -163.81481001967362,
+        -30.359149592958484,
+        104.94757850321758
+      ],
+      "length_mm": 129.80636585809316,
+      "tested": 1,
+      "boolean_count": 1,
+      "door_contact_volume_mm3": 3.792836458608538,
+      "obstruction": {
+        "name": "carroceria_C02_superior004",
+        "volume_mm3": 1.271194084047486,
+        "distance_mm": 1.464821375527116e-14
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -161.96479067920052,
+        -30.242163527704903,
+        105.03778417305939
+      ],
+      "length_mm": 32.55501855492106,
+      "tested": 3,
+      "boolean_count": 3,
+      "door_contact_volume_mm3": 3.8152874930956866,
+      "obstruction": {
+        "name": "aro_C02_0_superior",
+        "volume_mm3": 1.1029120603177849,
+        "distance_mm": 3.552713678800501e-15
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -161.67450250763957,
+        -32.74810530676984,
+        105.0506760215159
+      ],
+      "length_mm": 33.07861360876635,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 7.290719697622847,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 17.086705651606835,
+        "distance_mm": 1.4210854715202004e-14
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -163.43050326338852,
+        -38.094122068020845,
+        104.96483538815679
+      ],
+      "length_mm": 34.8803245910329,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 7.71300567304023,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 36.018936574857875,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -161.68068181689713,
+        -42.755694145015994,
+        105.04882041862572
+      ],
+      "length_mm": 36.94311054402315,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 8.19669339913262,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 27.87237038899798,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -161.87771085350212,
+        -47.83173647162731,
+        105.04199448521243
+      ],
+      "length_mm": 39.78009291953542,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 8.733224297707013,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 23.43027725388462,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -158.71728089519524,
+        -52.708432784855425,
+        105.19264083755694
+      ],
+      "length_mm": 42.999977761462176,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.145698994639842,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 20.93113647096303,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -156.3421480317417,
+        -57.54053192791381,
+        105.3030988191625
+      ],
+      "length_mm": 46.61551184528983,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.552117556869964,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 19.436155762120187,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -163.93411692543583,
+        -64.37565114105661,
+        101.8223913112726
+      ],
+      "length_mm": 49.80543749847108,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 8.005951680442967,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 17.201825508132995,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -163.50809044332487,
+        -68.44688695097877,
+        99.70883338180317
+      ],
+      "length_mm": 52.10454202344721,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 8.324583743062107,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 16.327851280673823,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -163.2634790268078,
+        -72.76700590095805,
+        98.58623523478057
+      ],
+      "length_mm": 55.37272375147235,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 8.733870315270778,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 15.813887369550908,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -163.27693221653465,
+        -77.5124319419785,
+        94.97228780529414
+      ],
+      "length_mm": 58.27775824773219,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 8.82301344604525,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 15.165409760890423,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -163.68932481922258,
+        -82.79477600361716,
+        92.18835055870348
+      ],
+      "length_mm": 62.4093258186093,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.02594081917796,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 14.791361399945792,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -156.24068621853033,
+        -94.21764137820084,
+        86.72122678853295
+      ],
+      "length_mm": 72.30363771169306,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.819835075698377,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 14.370444916758899,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -157.75797890052047,
+        -97.50282896350978,
+        84.92380523323949
+      ],
+      "length_mm": 75.21317351836169,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 9.925970294631714,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 14.280810159299023,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -161.58685295739434,
+        -103.77031030055862,
+        81.44578123341178
+      ],
+      "length_mm": 81.04952866945942,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 10.135648906996149,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 14.190618650547968,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -159.34751470956465,
+        -107.51466118368882,
+        80.71847793529608
+      ],
+      "length_mm": 84.71514998601927,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 13.43138691450105,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 14.173517465527382,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -159.4269595742914,
+        -112.513257946375,
+        76.96764207297839
+      ],
+      "length_mm": 89.53725096806285,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 10.390725464123742,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 14.142965149356835,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    },
+    {
+      "rail_y_mm": -25,
+      "target_mm": [
+        -156.00870472233342,
+        -118.46603781255885,
+        74.02203969295371
+      ],
+      "length_mm": 95.55633099226564,
+      "tested": 2,
+      "boolean_count": 2,
+      "door_contact_volume_mm3": 10.655389376827868,
+      "obstruction": {
+        "name": "modulo_C02_0_camisa_cuna_y_soportes",
+        "volume_mm3": 14.909550695525395,
+        "distance_mm": 0.0
+      },
+      "clear_closed": false
+    }
+  ]
+}

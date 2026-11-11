@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-03",
+  "retrieval": "Official BYU FLOW Lab repository via raw.githubusercontent.com/byuflowlab/CCBlade.jl/master; files preserved by digest, branch URL can change",
+  "software_executed": "Own Python annular solver, not Julia runtime or CCBlade compiled code",
+  "reference_results": "17 non-tip alpha values published in the official rendered tutorial; tip zero is a sentinel and excluded",
+  "geometry_source": "https://m-selig.ae.illinois.edu/props/volume-1/data/apce_10x5_geom.txt",
+  "experimental_static_source": "https://m-selig.ae.illinois.edu/props/volume-1/data/apce_10x5_static_pg0819.txt",
+  "airfoil_data": "Computational/corrected single-polar NACA4412 at informational Re50000; no actual Re variation in AlphaAF",
+  "APC_geometry_archive_attempt": {
+    "url": "https://www.apcprop.com/wp-content/uploads/2026/02/PE0-FILES_WEB-202602.zipx",
+    "status": "HTTP403; no archive recovered"
+  },
+  "sources": [
+    "https://flow.byu.edu/CCBlade.jl/stable/tutorial/",
+    "https://flow.byu.edu/CCBlade.jl/stable/howto/",
+    "https://www.apcprop.com/technical-information/engineering/",
+    "https://doi.org/10.1007/s00158-021-02883-6"
+  ],
+  "files": {
+    "ejecucion/G2/benchmark_bem_publico/naca4412_CCBlade.dat": "4c73d618c69df184fa819d92114ecb0dc36e2543a7854bd664fdb51b2af0247a",
+    "ejecucion/G2/benchmark_bem_publico/CCBlade_reference.jl": "3a377560a80d2a7a4fc9fe0f68a7c8c19af2e1f0c2020a5881b3916ffc38ace6",
+    "ejecucion/G2/benchmark_bem_publico/airfoils_reference.jl": "1830c15d8d0c946916f1a8942de04af827591db4bd7ec4ff21739befc4548e89",
+    "ejecucion/G2/benchmark_bem_publico/LICENSE_CCBlade.md": "b72c0e118614427c6b92d21a9a1b64a540f0df9501b6a8014a3542e11434565d",
+    "ejecucion/G2/benchmark_bem_publico/tutorial_reference.md": "f93635c9f769435421badf4b34417453443227e48b4c7480024086e9456df753",
+    "ejecucion/G2/benchmark_apc/apce_10x5_static_pg0819.txt": "9d4f0434c5e31f6c53082e8551426d2dba40def4a60ee5aca5eeee60a514f2dd",
+    "ejecucion/G2/benchmark_apc/apce_10x5_geom.txt": "8f75a94d7fcac2cd4b6cdcb558e51f3c0dd4d6f46a01d4ab6095fbd511a666b2",
+    "ejecucion/G2/bem_anular.py": "6644cc24a583adfdd717959b4f62d39400580828a8eeec33465fbc55ae39b2e4",
+    "ejecucion/G2/contrastar_bem_publico.py": "0422b01ec1097ad09d9f102a6bff0cca7d63f181c3077a2603772dd3c5a566b5"
+  }
+}

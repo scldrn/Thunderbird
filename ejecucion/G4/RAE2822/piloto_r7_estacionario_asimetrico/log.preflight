@@ -1,0 +1,83 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamPostProcess -solver fluid -time 0
+Date   : Nov 03 2026
+Time   : 22:25:49
+Host   : "54f6b899e889"
+PID    : 202
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+volFieldValue max_velocity read:
+    number of cells = 365478
+    volume = 0.585458041651
+    operation = maxMag
+
+volFieldValue min_scalars read:
+    number of cells = 365478
+    volume = 0.585458041651
+    operation = min
+
+volFieldValue max_scalars read:
+    number of cells = 365478
+    volume = 0.585458041651
+    operation = max
+
+surfaceFieldValue mass_farfield read:
+    number of faces = 441
+    area = 0.112920539458
+    operation = sum
+
+surfaceFieldValue mass_outlet read:
+    number of faces = 69
+    area = 0.0476612197741
+    operation = sum
+
+Time = 0s
+Selecting solver fluid
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       sutherland;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting turbulence model type RAS
+    Selecting RAS turbulence model kOmegaSST
+No MRF models present
+
+Selecting patchDistMethod meshWave
+Selecting thermophysical transport type RAS
+Selecting default RAS thermophysical transport model unityLewisEddyDiffusivity
+volFieldValue max_velocity write:
+    maxMag(all) of U = 233.622763113 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+
+volFieldValue min_scalars write:
+    min(all) of p = 108987.772751 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of T = 255.555555556 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of rho = 1.48569717592 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of k = 0.0818693931666 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of omega = 7473.16909563 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+
+
+End
+

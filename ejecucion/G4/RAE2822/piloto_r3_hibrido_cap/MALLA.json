@@ -1,0 +1,36 @@
+{
+  "source": "NASA RAE2822 Study4 wall strip + own Gmsh exterior",
+  "source_URL": "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/raetaf04.html",
+  "source_grid_sha256": "2318157ce20050a3f7c1a5dc208cbfd3d821108b618afb2e43fd4792ee4238ed",
+  "gmsh_version": "4.15.2",
+  "source_strip": {
+    "jmax": 20,
+    "imin": 24,
+    "imax": 344
+  },
+  "wake_cap_extra_columns": 32,
+  "wall_and_first20_radial_rows_unchanged": true,
+  "original_farfield_polygon_unchanged": true,
+  "cells": 117660,
+  "hexahedra": 7040,
+  "prisms": 110620,
+  "points": 125514,
+  "chord_m": 0.3048,
+  "span_m": 0.003048,
+  "expected_internal_faces": 179603,
+  "expected_total_faces": 415737,
+  "boundary_faces": {
+    "airfoil": 304,
+    "farfield": 441,
+    "outlet": 69,
+    "frontAndBack": 235320
+  },
+  "planar_area_closure_relative": 8.57795763702169e-15,
+  "summed_cell_volume_m3": 0.5854580416510631,
+  "all_planar_cells_convex_positive": true,
+  "all_unpaired_edges_match_declared_boundaries": true,
+  "mesh_sha256": "e842dda28cca25e448056db4f4f2c1573fd5692ab072ea356224a4afc5b65bc7",
+  "checkMesh_accepted": false,
+  "physical_validation_accepted": false,
+  "limitation": "Own hybrid mesh is not the NASA supplied grid; must compare mesh/domain/scheme sensitivity and experimental Cp before acceptance."
+}

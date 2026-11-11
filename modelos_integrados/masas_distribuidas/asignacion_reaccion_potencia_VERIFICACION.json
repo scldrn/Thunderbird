@@ -1,0 +1,23 @@
+{
+  "recomputed_feasible_cases": 1032,
+  "max_force_residual_N": 6.732349788762804e-09,
+  "max_moment_residual_Nm": 4.2088311711833094e-09,
+  "hover_energy_quotients": [
+    {
+      "domain": "full",
+      "min_power_W": 988.3423547952875,
+      "max_power_W": 1275.6566572313766,
+      "assumed_usable_Wh": 78.144,
+      "min_energy_minutes": 3.6754717450195393,
+      "max_energy_minutes": 4.743943206775899
+    },
+    {
+      "domain": "coverage5percent",
+      "min_power_W": 988.3423662359482,
+      "max_power_W": 1275.656721220516,
+      "assumed_usable_Wh": 78.144,
+      "min_energy_minutes": 3.6754715606515433,
+      "max_energy_minutes": 4.743943151861887
+    }
+  ]
+}

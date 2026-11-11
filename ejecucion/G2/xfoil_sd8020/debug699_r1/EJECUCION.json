@@ -1,0 +1,27 @@
+{
+  "scope": "Debug build failure localization, not numerical or physical validation",
+  "image_id": "sha256:41c3413d7d962c8b6e1d09072539e99561ecbc2413a3365d65ba3298e300e0e3",
+  "optimization": "O0 instead of packaged build optimization",
+  "fpe_and_initialization_flags": "-fbounds-check -finit-real=inf -ffpe-trap=invalid,zero -fdefault-real-8",
+  "source_archive_sha256": "f5ece350981f35f7b5b4cef540c921ffad877b0942591efb88bad76cc08b597a",
+  "script_sha256": "e660aae7b6d99fd23bba32b5f32bc1e57c5326036e672e41e245b07c83a3cd48",
+  "created_UTC": "2026-11-05T02:17:26.389092+00:00",
+  "physical_acceptance": false,
+  "cases": {
+    "naca0012": {
+      "exit_code": 136,
+      "fpe_reported": true,
+      "source_lines_in_backtrace": true,
+      "log_sha256": "b99a5786873603ad84cbc7ed239c5d7cb2d2477260f29872096eab361f6e2a1f"
+    },
+    "sd8020_original": {
+      "exit_code": 136,
+      "fpe_reported": true,
+      "source_lines_in_backtrace": true,
+      "log_sha256": "5dfe08621cc58c4488cb8f730bc5828969c815dab1e42594227270fb0e41a105"
+    }
+  },
+  "container_id": "19ea1c21a7bf663325c5146137b7097da330ba2ec8451e922696445d091560f9",
+  "binary_sha256": "e88e3d1a2c2b562f17b46fc0993bfbaae49ec6b8a8b3428a7f4150b5af3e9c05",
+  "stop_exit_code": 0
+}

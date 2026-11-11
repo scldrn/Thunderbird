@@ -1,0 +1,9 @@
+{
+  "stage": "solver_process_exited",
+  "exit_code": 0,
+  "last_physical_time_s": 0.0015,
+  "target_physical_time_s": 0.0015,
+  "target_reached": true,
+  "results_audited": false,
+  "container": "codex-aero-pareado-backward-v1"
+}

@@ -1,0 +1,15 @@
+{
+  "purpose": "Saved-field integral momentum audit, not exact discrete residual or installed force calibration",
+  "rho_kg_m3": 1.225,
+  "requested_times_s": [
+    0,
+    0.00025,
+    0.0005
+  ],
+  "equation": "d(rho*integral U dV)/dt + rho*sum_open(phi U) + boundary_force_opposite_fluid = 0",
+  "limits": [
+    "coarse snapshot temporal quadrature",
+    "boundary viscous traction from reconstructed model",
+    "no rotor or external body"
+  ]
+}

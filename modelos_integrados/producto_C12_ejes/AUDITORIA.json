@@ -1,0 +1,60 @@
+{
+  "step_sha256": "853bc948935ba15bd2cf1ef0b0c2f17257125ed0eead342f0957ee2f0c641b92",
+  "objects": [
+    {
+      "name": "piel",
+      "valid": true,
+      "solids": 4,
+      "volume_mm3": 331625.32663971826
+    },
+    {
+      "name": "camisa",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 93180.4860836772
+    },
+    {
+      "name": "rotor",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4831.820775139369
+    },
+    {
+      "name": "aro",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 255.0663425624423
+    },
+    {
+      "name": "junta",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 63.03290033885315
+    },
+    {
+      "name": "probe_0",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 248.66951195005265
+    },
+    {
+      "name": "probe_1",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 287.76834433446066
+    },
+    {
+      "name": "probe_2",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 287.7683443341465
+    },
+    {
+      "name": "probe_3",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 248.6695119283755
+    }
+  ],
+  "scope": "STEP reimport and validity only; no mechanical or global collision validation"
+}

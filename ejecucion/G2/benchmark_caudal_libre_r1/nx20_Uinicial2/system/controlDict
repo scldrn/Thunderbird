@@ -1,0 +1,10 @@
+FoamFile { format ascii; class dictionary; object controlDict; }
+application foamRun; solver incompressibleFluid;
+startFrom startTime; startTime 0; stopAt endTime; endTime 200; deltaT 1;
+writeControl timeStep; writeInterval 200; writeFormat ascii; writePrecision 14;
+functions {
+flow_inlet { type surfaceFieldValue; libs ("libfieldFunctionObjects.so"); patch inlet;
+operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 1; }
+flow_outlet { type surfaceFieldValue; libs ("libfieldFunctionObjects.so"); patch outlet;
+operation sum; fields (phi); writeFields false; log false; writeControl timeStep; writeInterval 1; }
+}

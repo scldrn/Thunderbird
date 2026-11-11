@@ -1,0 +1,54 @@
+{
+  "source_sha256": "5e6d951919ad7420f8cb22c4711c16e867f3ce5168b259d4c76ca9d656b35791",
+  "selection": [
+    {
+      "bearing": 0,
+      "edge": 0,
+      "rail_x_mm": -215.0
+    },
+    {
+      "bearing": 0,
+      "edge": 1,
+      "rail_x_mm": -215.0
+    },
+    {
+      "bearing": 0,
+      "edge": 2,
+      "rail_x_mm": -215.0
+    }
+  ],
+  "missing": [
+    {
+      "bearing": 1,
+      "edge": 0
+    },
+    {
+      "bearing": 1,
+      "edge": 1
+    },
+    {
+      "bearing": 1,
+      "edge": 2
+    }
+  ],
+  "pairs_checked": 57,
+  "collisions": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "volume_mm3": 0.2617993875885407
+    }
+  ],
+  "errors": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "error": "ValueError('Null TopoDS_Shape object')"
+    }
+  ],
+  "scope": "local closed pose: dogleg rods vs other stems, bearings, shafts and rods; connections excluded"
+}

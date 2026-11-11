@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MinimalInstalledPlantInterface_6DOF",
+  "description": "Especificación de la mínima interfaz técnica para sustituir la planta hipotética puntual por mapas instalados con masa y CG reales, con unidades canónicas SI y trazabilidad rigurosa.",
+  "metadata": {
+    "version": "1.0.0",
+    "date": "2026-11-08",
+    "parent_configuration_id": "C02_COMPACTA_x160_5kg_2026-11-03_r2",
+    "parent_baseline_id": "A07_RESEARCH_BASE_2026-11-03_r1",
+    "canonical_units": {
+      "length": "m",
+      "mass": "kg",
+      "time": "s",
+      "force": "N",
+      "torque": "N m",
+      "angle": "rad",
+      "angular_rate": "rad/s",
+      "power": "W",
+      "temperature": "K",
+      "density": "kg/m^3",
+      "pressure": "Pa"
+    }
+  },
+  "coordinate_frames": {
+    "cad_frame": {
+      "definition": "CAD datum, nose at negative x, y lateral, z up",
+      "units": "m"
+    },
+    "flight_body_frame_flu": {
+      "name": "FLU",
+      "definition": "Body-fixed frame at real CG: x forward towards nose, y left, z up",
+      "R_flight_from_CAD": [
+        [-1, 0, 0],
+        [0, -1, 0],
+        [0, 0, 1]
+      ],
+      "rule": "Transform vectors, CG and inertia consistently; apply CAD-to-FLU before flight attitude"
+    }
+  },
+  "installed_mass_properties": {
+    "mass_total_kg": {
+      "type": "float",
+      "status": "pending_physical_measurement",
+      "nominal_target_kg": 5.0,
+      "source": "Physical scale measurement or CAD consolidated mass roll-up"
+    },
+    "cg_location_cad_m": {
+      "type": "array",
+      "items": "float",
+      "dimensions": [3],
+      "status": "pending_physical_measurement",
+      "description": "Center of gravity position [x_cg, y_cg, z_cg] in CAD datum frame"
+    },
+    "cg_location_flu_m": {
+      "type": "array",
+      "items": "float",
+      "dimensions": [3],
+      "status": "calculated",
+      "formula": "R_flight_from_CAD @ cg_location_cad_m"
+    },
+    "inertia_tensor_cg_kgm2": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": "float"
+      },
+      "dimensions": [3, 3],
+      "status": "pending_physical_measurement_or_detailed_cad",
+      "description": "Full 3x3 symmetric inertia tensor computed around actual CG in flight FLU frame, including cross-products Ixy, Ixz, Iyz"
+    },
+    "fan_reference_geometry": {
+      "count": 4,
+      "centres_cad_m": [
+        [-0.16, -0.076, 0.0],
+        [-0.16, 0.076, 0.0],
+        [0.16, -0.076, 0.0],
+        [0.16, 0.076, 0.0]
+      ],
+      "dynamic_lever_arm_calculation": "r_i_over_CG_FLU = (R_flight_from_CAD @ centres_cad_m[i]) - cg_location_flu_m"
+    }
+  },
+  "actuator_inputs": {
+    "count": 4,
+    "per_fan_command": {
+      "rotor_speed_cmd_rad_s": {
+        "type": "float",
+        "description": "Commanded rotor angular velocity",
+        "physical_bounds": [0.0, "omega_max_rad_s"]
+      },
+      "vane_angle_x_cmd_rad": {
+        "type": "float",
+        "description": "Commanded mechanical deflection of longitudinal vanes",
+        "physical_bounds_rad": [-0.785398, 0.785398],
+        "source": "C02_CANDIDATA.json actuator_kinematics vane_mechanical_range_deg [-45, 45]"
+      },
+      "vane_angle_y_cmd_rad": {
+        "type": "float",
+        "description": "Commanded mechanical deflection of lateral vanes",
+        "physical_bounds_rad": [-0.785398, 0.785398],
+        "source": "C02_CANDIDATA.json actuator_kinematics vane_mechanical_range_deg [-45, 45]"
+      }
+    }
+  },
+  "actuator_dynamics_model": {
+    "rotor_dynamics": {
+      "model": "first_order_lag",
+      "equation": "d_omega_i / dt = (omega_cmd_i - omega_i) / tau_motor",
+      "parameters": {
+        "tau_motor_s": "float (to be identified from motor dyno bench)",
+        "max_angular_accel_rad_s2": "float"
+      }
+    },
+    "vane_servo_dynamics": {
+      "model": "rate_limited_first_order_or_second_order",
+      "equation": "d_delta / dt = clip((delta_cmd - delta) / tau_servo, -rate_max, rate_max)",
+      "parameters": {
+        "tau_servo_s": "float (to be identified from servo testbench)",
+        "max_slew_rate_rad_s": "float",
+        "crank_radius_m": 0.006
+      }
+    }
+  },
+  "installed_propulsion_map": {
+    "status": "pending_wind_tunnel_or_validated_cfd_database",
+    "rotor_spin_configuration": {
+      "viewed_from_plus_Z": ["CCW", "CW", "CW", "CCW"],
+      "spin_direction_signs": [1, -1, -1, 1],
+      "source": "C02_CANDIDATA.json fan_reference spins_viewed_from_plus_Z"
+    },
+    "fan_outputs": {
+      "force_body_N": {
+        "type": "array",
+        "dimensions": [4, 3],
+        "description": "Vector force produced by each duct [F_x, F_y, F_z] in body FLU frame as a function of (omega_i, delta_x_i, delta_y_i, v_local_i, rho)"
+      },
+      "aerodynamic_duct_torque_Nm": {
+        "type": "array",
+        "dimensions": [4, 3],
+        "description": "Reaction and aerodynamic duct moment [M_x, M_y, M_z] as a function of (omega_i, delta_i, v_local_i, rho)"
+      },
+      "rotor_gyroscopic_torque_Nm": {
+        "type": "array",
+        "dimensions": [4, 3],
+        "formula": "M_gyro_i = I_rotor * cross(omega_body, [0, 0, spin_sign_i * omega_rotor_i])"
+      },
+      "electrical_power_W": {
+        "type": "array",
+        "dimensions": [4],
+        "description": "Electrical power consumed per motor module"
+      }
+    }
+  },
+  "installed_airframe_aerodynamics": {
+    "status": "pending_aerodynamic_identification",
+    "inputs": {
+      "v_rel_body_m_s": "v_body - R(q).inv() @ v_wind_world",
+      "omega_body_rad_s": "omega_body",
+      "rho_kg_m3": "ambient air density"
+    },
+    "outputs": {
+      "force_aero_body_N": {
+        "description": "Net aerodynamic force from fuselage, strakes, fins, and covers: 0.5 * rho * |v_rel|^2 * S_ref * [CX, CY, CZ]"
+      },
+      "moment_aero_body_Nm": {
+        "description": "Net aerodynamic moment around vehicle CG: 0.5 * rho * |v_rel|^2 * S_ref * [b*Cl, c*Cm, b*Cn]"
+      }
+    }
+  },
+  "dynamic_synthesis_equations": {
+    "total_force_inertial_m_s2": "acc_world = (R(q) @ (sum(force_body_N, axis=0) + force_aero_body_N)) / mass_total_kg - [0, 0, g]",
+    "total_torque_body_Nm": "tau_net = sum(cross(r_i_over_CG_FLU, force_body_N[i]) + aerodynamic_duct_torque_Nm[i] + rotor_gyroscopic_torque_Nm[i], axis=0) + moment_aero_body_Nm",
+    "angular_acceleration_body_rad_s2": "alpha_body = inv(inertia_tensor_cg_kgm2) @ (tau_net - cross(omega_body, inertia_tensor_cg_kgm2 @ omega_body))"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "scope": "illustrative bearing sleeves and local cutouts, 4 leaves, 5 fixed objects, no mounting or actuation",
+  "source_sha256": "b1a2c73a9b041be6ebb17f1ffffc65754830aa2bb17e055a3de4b35b13ad91c6",
+  "axes_sha256": "45a498c60aebf272719217ada7cddefefa1bf16fd46f4efedb8ed63140a58d93",
+  "assumptions_mm": {
+    "shaft_radius": 1.0,
+    "sleeve_inner_radius": 1.1,
+    "sleeve_outer_radius": 2.0,
+    "cutout_radius": 2.2,
+    "bearing_width": 2.0,
+    "travel": 20.0
+  },
+  "leaves": [
+    {
+      "leaf": 0,
+      "sweep_collisions": [],
+      "errors": [],
+      "checks": 16,
+      "leaf_before_mm3": 1440.2162675094319,
+      "leaf_after_mm3": 1421.9687434490027,
+      "removed_mm3": 18.247524060429214,
+      "cut_valid": true,
+      "cut_solids": 1,
+      "local_sweep_clear": true
+    },
+    {
+      "leaf": 1,
+      "sweep_collisions": [],
+      "errors": [],
+      "checks": 16,
+      "leaf_before_mm3": 2235.817462388874,
+      "leaf_after_mm3": 2217.5692686455113,
+      "removed_mm3": 18.248193743362663,
+      "cut_valid": true,
+      "cut_solids": 1,
+      "local_sweep_clear": true
+    },
+    {
+      "leaf": 2,
+      "sweep_collisions": [],
+      "errors": [],
+      "checks": 16,
+      "leaf_before_mm3": 2178.0899539078223,
+      "leaf_after_mm3": 2159.8413634400013,
+      "removed_mm3": 18.248590467821032,
+      "cut_valid": true,
+      "cut_solids": 1,
+      "local_sweep_clear": true
+    },
+    {
+      "leaf": 3,
+      "sweep_collisions": [],
+      "errors": [],
+      "checks": 16,
+      "leaf_before_mm3": 1276.4440549177493,
+      "leaf_after_mm3": 1258.1972530331404,
+      "removed_mm3": 18.246801884608885,
+      "cut_valid": true,
+      "cut_solids": 1,
+      "local_sweep_clear": true
+    }
+  ]
+}

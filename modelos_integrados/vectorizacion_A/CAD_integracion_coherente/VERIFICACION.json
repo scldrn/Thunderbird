@@ -1,0 +1,67 @@
+{
+  "source_step": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/vectorizacion_A/CAD_modulo/integracion_preliminar.step",
+  "source_sha256": "b9caf0cd29084485a54f77f88420e9c752fb555a3d89108087b29b4aad170969",
+  "export_step": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/vectorizacion_A/CAD_integracion_coherente/A_integracion_conductos_coherentes.step",
+  "valid_reimported_parts": 101,
+  "source_parts": 105,
+  "checks": [
+    {
+      "x_mm": -279.99999999999886,
+      "y_mm": -65.0,
+      "blade_tip_radial_extent_mm": 41.01219330885693,
+      "bore_radius_mm": 42,
+      "geometric_blade_tip_radial_gap_mm": 0.9878066911430707,
+      "original_sleeve_rotor_overlap_mm3": 0.004215032400693484,
+      "corrected_duct_rotor_overlap_mm3": 0.0,
+      "solid_inside_nominal_bore_mm3": 0.0,
+      "duct_volume_mm3": 74071.80535748893,
+      "duct_solids": 1
+    },
+    {
+      "x_mm": -279.99999999999886,
+      "y_mm": 65.0,
+      "blade_tip_radial_extent_mm": 41.01219330885534,
+      "bore_radius_mm": 42,
+      "geometric_blade_tip_radial_gap_mm": 0.9878066911446624,
+      "original_sleeve_rotor_overlap_mm3": 0.004215032108483662,
+      "corrected_duct_rotor_overlap_mm3": 0.0,
+      "solid_inside_nominal_bore_mm3": 0.0,
+      "duct_volume_mm3": 74071.78812826323,
+      "duct_solids": 1
+    },
+    {
+      "x_mm": 285.0000000000008,
+      "y_mm": -65.0,
+      "blade_tip_radial_extent_mm": 41.01219330882687,
+      "bore_radius_mm": 42,
+      "geometric_blade_tip_radial_gap_mm": 0.9878066911731267,
+      "original_sleeve_rotor_overlap_mm3": 0.004215032407873843,
+      "corrected_duct_rotor_overlap_mm3": 0.0,
+      "solid_inside_nominal_bore_mm3": 0.0,
+      "duct_volume_mm3": 72113.84816351198,
+      "duct_solids": 1
+    },
+    {
+      "x_mm": 285.00000000000085,
+      "y_mm": 65.0,
+      "blade_tip_radial_extent_mm": 41.01219330882783,
+      "bore_radius_mm": 42,
+      "geometric_blade_tip_radial_gap_mm": 0.9878066911721675,
+      "original_sleeve_rotor_overlap_mm3": 0.00421503211876689,
+      "corrected_duct_rotor_overlap_mm3": 0.0,
+      "solid_inside_nominal_bore_mm3": 0.0,
+      "duct_volume_mm3": 72113.82518351273,
+      "duct_solids": 1
+    }
+  ],
+  "scope": "Local geometry correction: four original sleeves and four lower ducts consolidated into four single solids with 42 mm bore.",
+  "not_validated": [
+    "Running/tolerance clearance",
+    "Rotor deformation and overspeed containment",
+    "Blade aerodynamics and installed thrust",
+    "Motor bearings, fixation and transmission",
+    "Complete multi-part interference sweep",
+    "Mass, composite layup, structural or thermal adequacy",
+    "CFD installation model including rotor and grilles"
+  ]
+}

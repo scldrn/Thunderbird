@@ -1,0 +1,43 @@
+{
+  "source_sha256": "5e6d951919ad7420f8cb22c4711c16e867f3ce5168b259d4c76ca9d656b35791",
+  "axes_sha256": "45a498c60aebf272719217ada7cddefefa1bf16fd46f4efedb8ed63140a58d93",
+  "code_sha256": "ad2ef2dcb24dcec31205bb3ba0b2fc53a7b719ae144632d3311b24e30784e3b3",
+  "scope": "local C17 raised 20 mm, 5 sampled angles; bearings versus leaves only",
+  "states": [
+    {
+      "angle_deg": 0,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 15,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 30,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 45,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "angle_deg": 60,
+      "checks": 32,
+      "booleans": 8,
+      "collisions": [],
+      "errors": []
+    }
+  ]
+}

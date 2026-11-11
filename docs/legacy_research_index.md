@@ -1,0 +1,14 @@
+# Historical root research index
+
+These documents and scripts are historical evidence, not necessarily the selected aircraft configuration. They have been moved into `legacy/reports/` and `legacy/scripts/`; old references and file-relative inputs/outputs are not yet reconnected. See `legacy/move_manifest.json` before using them. Consult the global audit and architecture decision before reusing any result.
+
+| Topic | Reports | Related scripts |
+|---|---|---|
+| Global scope and historical status | `ESTADO-VERIFICACION-GLOBAL.md`, `legacy/reports/INFORME-CONSOLIDADO-VIABILIDAD.md`, `legacy/reports/DATOS-PARA-CERRAR-VALIDACION.md`, `legacy/reports/LEEME.md` | `legacy/scripts/calcular.py` |
+| Mass, family and components | `legacy/reports/FAMILIA-ESCALABLE.md`, `legacy/reports/CANDIDATOS-CONCRETOS.md`, `legacy/reports/COMPONENTES-5KG.md`, `legacy/reports/REVISION-POTENCIA-Y-ESPACIO.md` | `legacy/scripts/familia.py`, `legacy/scripts/cierre_masa.py`, `legacy/scripts/componentes_5kg.py`, `legacy/scripts/comparar_candidatos.py`, `legacy/scripts/auditoria_masa_consolidada.py`, `legacy/scripts/optimizar_potencia_5kg.py`, `legacy/scripts/espacio_rotores.py` |
+| Rotor and reversible mechanism | `legacy/reports/EVALUACION-INTEGRADA-ROTOR.md`, `legacy/reports/REQUISITOS-MODULO-REVERSIBLE.md`, `legacy/reports/PALA-DE-REFERENCIA.md`, `legacy/reports/PREDIMENSIONADO-PALAS-Y-BUJE.md`, `legacy/reports/REVISION-CON-POLARES-EXPERIMENTALES.md` | `legacy/scripts/evaluacion_rotor_completo.py`, `legacy/scripts/modulo_reversible.py`, `legacy/scripts/pala_referencia.py`, `legacy/scripts/cargas_pala_buje.py`, `legacy/scripts/polar_experimental.py`, `legacy/scripts/reaccion_rotores.py`, `legacy/scripts/limite_cobertura.py`, `legacy/scripts/dibujar_palas.py` |
+| Control and dynamics | `legacy/reports/ETAPA-2-CONTROL.md`, `legacy/reports/ETAPA-3-DINAMICA.md` | `legacy/scripts/control.py`, `legacy/scripts/energia_control.py`, `legacy/scripts/dinamica.py`, `legacy/scripts/robustez.py`, `legacy/scripts/dibujar_estado_actual.py` |
+| Aerodynamics and transition | `legacy/reports/ALA-ANULAR-CONTRASTE.md`, `legacy/reports/AVANCE-A-TRANSONICO-EVIDENCIA-Y-MALLA.md`, `legacy/reports/CONTRASTE-NASA-TRANSONICO.md`, `legacy/reports/TOMAS-Y-EMPUJE-INSTALADO.md`, `legacy/reports/TRANSICION-Y-SUSTENTACION.md`, `legacy/reports/TRIMADO-Y-GEOMETRIA-VARIABLE.md` | `legacy/scripts/ala_anular.py`, `legacy/scripts/contraste_nasa_presiones.py`, `legacy/scripts/tomas_y_empuje.py`, `legacy/scripts/transicion_sustentacion.py`, `legacy/scripts/trimado_superficies.py` |
+| Structure and integrated comparison | `legacy/reports/ESTRUCTURA-PRELIMINAR.md`, `legacy/reports/COMPARACION-INTEGRADA.md` | `legacy/scripts/estructura_preliminar.py`, `legacy/scripts/comparacion_integrada.py` |
+
+Historical outputs are under `resultados/`. Do not run these moved scripts until imports, paths and outputs have been reconnected and verified.

@@ -1,0 +1,19 @@
+{
+  "escenarios": 24,
+  "eficiencia_supuesta": 0.7,
+  "energia_util_pack_Wh_kg_supuesta": 150.0,
+  "potencia_pack_W_kg_supuesta": 5000.0,
+  "alcance": "Cinemática horizontal ideal; no predice prestaciones del vehículo.",
+  "omite": [
+    "arrastre",
+    "sustentación",
+    "estacionario",
+    "transición",
+    "frenado",
+    "viento",
+    "potencia estática",
+    "temperatura",
+    "masa real y hardware"
+  ],
+  "validacion_fisica": false
+}

@@ -1,0 +1,27 @@
+{
+  "nx": 20,
+  "initial_U_m_s": 0.5,
+  "L_m": 0.2,
+  "area_m2": 0.04,
+  "acceleration_m_s2": 5.0,
+  "rho_kg_m3": 1.225,
+  "U_expected_m_s": 1.4142135623730951,
+  "volume_flow_expected_m3_s": 0.05656854249492381,
+  "predeclared_relative_U_p_Q_tolerance": 0.0002,
+  "physical_time": true,
+  "dt_s": 0.01,
+  "end_s": 4.0,
+  "PIMPLE_outer_correctors": 10,
+  "imposed_volume_flow": false,
+  "input_sha256": {
+    "0/U": "1ac36b4d24b3b68af90bd07010fc438692ecd6635c5ea56c5ad9a78ebce1000b",
+    "0/p": "f1cbc71e6be5332898704a3f8bf364827783ce1df2e61b31d4cb43d251cc30a7",
+    "system/fvSchemes": "ea1e1aa233831292b3d9f9337fa26c74e943a6a9d9f11021d0fe768c3e954580",
+    "system/fvSolution": "5876bad20f2458398c2fabbba8982f5ae5daf2e0c7b9f34377111b022747e4d2",
+    "system/blockMeshDict": "fa7eb117debc5174a78e2f2c8fa59eddce14f95ec12ed15480971c6410ce9e80",
+    "system/controlDict": "94ac87590c74b6be8654406f0a2f9e72b2619f5a58d3ef68163cc6d0a73b2e1a",
+    "constant/fvModels": "6db4abf80a9846559748b8fcf1ec3997f452bba083542511f3d553919dad8c47",
+    "constant/momentumTransport": "822100fa430c8853f62d896844709a15b49b798e6153855d06e29eb055d19545",
+    "constant/physicalProperties": "92d9f6699716747dbdbff070e1355fb116d98f42921f9bbc3a1a6a51db2cd9f5"
+  }
+}

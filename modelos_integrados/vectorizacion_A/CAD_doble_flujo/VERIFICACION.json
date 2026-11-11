@@ -1,0 +1,541 @@
+{
+  "source_step": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/vectorizacion_A/CAD_integracion_coherente/A_integracion_conductos_coherentes.step",
+  "source_sha256": "62b43a4d3dcf566b40c7694f32567307f9ec6d27b72beecaeb136176a7c073eb",
+  "rows": [
+    {
+      "name": "inferior_X",
+      "axis": "X",
+      "z_mm": -21.0
+    },
+    {
+      "name": "inferior_Y",
+      "axis": "Y",
+      "z_mm": -39.0
+    },
+    {
+      "name": "superior_X",
+      "axis": "X",
+      "z_mm": 19.0
+    },
+    {
+      "name": "superior_Y",
+      "axis": "Y",
+      "z_mm": 37.0
+    }
+  ],
+  "rotor_blade_plane_z_mm": 7,
+  "motor_center_z_mm": -1,
+  "mechanical_angle_range_deg": [
+    -45,
+    45
+  ],
+  "row_to_row_full_sweep_gap_mm": 1.9298413200118034,
+  "row_to_motor_axial_gap_mm": 1.9649206600059017,
+  "max_rotor_motor_volume_outside_envelope_mm3": 0.0,
+  "max_rotor_duct_overlap_mm3": 0.0,
+  "geometric_checks": [
+    {
+      "channel": 0,
+      "row": "inferior_X",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "inferior_X",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "inferior_X",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "inferior_Y",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "inferior_Y",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "inferior_Y",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "superior_X",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "superior_X",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "superior_X",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "superior_Y",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "superior_Y",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 0,
+      "row": "superior_Y",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "inferior_X",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "inferior_X",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "inferior_X",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "inferior_Y",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "inferior_Y",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "inferior_Y",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "superior_X",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "superior_X",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "superior_X",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "superior_Y",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "superior_Y",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 1,
+      "row": "superior_Y",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "inferior_X",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "inferior_X",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "inferior_X",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "inferior_Y",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "inferior_Y",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "inferior_Y",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "superior_X",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "superior_X",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "superior_X",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "superior_Y",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "superior_Y",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 2,
+      "row": "superior_Y",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "inferior_X",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "inferior_X",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "inferior_X",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "inferior_Y",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "inferior_Y",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "inferior_Y",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "superior_X",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "superior_X",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "superior_X",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "superior_Y",
+      "offset_mm": -22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "superior_Y",
+      "offset_mm": 0,
+      "span_mm": 76.36931797585073,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    },
+    {
+      "channel": 3,
+      "row": "superior_Y",
+      "offset_mm": 22.0,
+      "span_mm": 50.83536728519107,
+      "full_rotation_swept_box_outside_envelope_mm3": 0.0,
+      "swept_box_intersection_with_rotor_or_motor_mm3": 0.0,
+      "shaft_volume_outside_envelope_mm3": 0.0
+    }
+  ],
+  "max_shaft_duct_overlap_mm3": 0.0,
+  "exports": [
+    {
+      "file": "neutro.step",
+      "valid_reimported_parts": 149
+    },
+    {
+      "file": "omni_diagonal.step",
+      "valid_reimported_parts": 149
+    }
+  ],
+  "component_geometric_volumes": {
+    "vanes_mm3": 68367.38017775345,
+    "shafts_mm3": 17162.321887964303,
+    "ducts_mm3": 291296.21941550414
+  },
+  "assumed_material_densities": {
+    "ducts_kgm3": 1600,
+    "vanes_kgm3": 1600,
+    "shafts_kgm3": 7850
+  },
+  "component_material_mass_scenarios": {
+    "ducts_kg": 0.4660739510648066,
+    "vanes_kg": 0.10938780828440553,
+    "shafts_kg": 0.1347242268205198
+  },
+  "total_three_component_material_mass_scenario_kg": 0.7101859861697319,
+  "row_vanes_and_shafts_only_assumed_inertia_kgm2": 1.5319488963113027e-07,
+  "row_inertial_demands": [
+    {
+      "stroke_deg": 90,
+      "duration_s": 0.05,
+      "bang_bang_peak_speed_deg_s": 3600.0,
+      "bang_bang_acceleration_rad_s2": 2513.274122871834,
+      "vanes_and_shafts_only_inertial_torque_Nm": 0.00038502075186612635
+    },
+    {
+      "stroke_deg": 90,
+      "duration_s": 0.1,
+      "bang_bang_peak_speed_deg_s": 1800.0,
+      "bang_bang_acceleration_rad_s2": 628.3185307179585,
+      "vanes_and_shafts_only_inertial_torque_Nm": 9.625518796653159e-05
+    },
+    {
+      "stroke_deg": 90,
+      "duration_s": 0.2,
+      "bang_bang_peak_speed_deg_s": 900.0,
+      "bang_bang_acceleration_rad_s2": 157.07963267948963,
+      "vanes_and_shafts_only_inertial_torque_Nm": 2.4063796991632897e-05
+    },
+    {
+      "stroke_deg": 90,
+      "duration_s": 0.5,
+      "bang_bang_peak_speed_deg_s": 360.0,
+      "bang_bang_acceleration_rad_s2": 25.132741228718345,
+      "vanes_and_shafts_only_inertial_torque_Nm": 3.850207518661264e-06
+    }
+  ],
+  "actuated_rows": 16,
+  "assumed_actuators_if_one_per_row": 16,
+  "mechanical_flight_validation": false,
+  "excluded": [
+    "Actual reversible rotor/pitch hub and electrical power",
+    "Actuator, linkage, bearing and seal installation and mass",
+    "Aerodynamic hinge moments, pitch moments and transient flow",
+    "Mapping of mechanical vane angle to net force cone",
+    "Flow interaction of inactive inlet banks and neighbouring opposite jets",
+    "Full assembly interference audit and actual thin-wall structure",
+    "Manufacturing tolerances, deflection, fatigue and aeroelastic loads",
+    "High-speed doors and transition logic"
+  ]
+}

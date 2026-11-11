@@ -1,0 +1,70 @@
+{
+  "balanced_spin_patterns": 9,
+  "chosen_spin_directions": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "max_reaction_without_compensation_Nm": 0.5815640035345684,
+  "summary": [
+    {
+      "level": 1,
+      "solved": 182,
+      "total": 182,
+      "max_power_W": 1201.7882525138787,
+      "outside_max": 0.00453069208340375,
+      "worst": {
+        "level": 1.0,
+        "direction": 13,
+        "torque_case": 5,
+        "solver_feasible": true,
+        "residual": 7.093238441058247e-09,
+        "power_W": 1201.7882525138787,
+        "outside_max": 0.004351102974330227
+      }
+    },
+    {
+      "level": 1.5,
+      "solved": 182,
+      "total": 182,
+      "max_power_W": 1795.7142570896162,
+      "outside_max": 0.9773742766384769,
+      "worst": {
+        "level": 1.5,
+        "direction": 13,
+        "torque_case": 5,
+        "solver_feasible": true,
+        "residual": 2.3284443262383547e-09,
+        "power_W": 1795.7142570896162,
+        "outside_max": 0.004530692077724348
+      }
+    },
+    {
+      "level": 2,
+      "solved": 182,
+      "total": 182,
+      "max_power_W": 2524.6452815608345,
+      "outside_max": 0.9773742766384769,
+      "worst": {
+        "level": 2.0,
+        "direction": 12,
+        "torque_case": 2,
+        "solver_feasible": true,
+        "residual": 2.254359143805118e-09,
+        "power_W": 2524.6452815608345,
+        "outside_max": 0.9773742766384769
+      }
+    }
+  ],
+  "notes": [
+    "gyro cancellation assumes equal rotor inertia and constant RPM",
+    "signed thrust asymmetry partly due to limited experimental domain",
+    "solver failure is not proof of physical infeasibility",
+    "fixed5kg not full hardware closure"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "scope": "proyeccion vertical XY de malla de tapa sobre circulo nominal D84, no caudal ni CFD; teselacion 0,4mm",
+  "center_mm": [
+    -160.0,
+    -76.0
+  ],
+  "diameter_mm": 84.0,
+  "results": {
+    "deslizante": [
+      {
+        "pixels": 336,
+        "aperture_pixels": 88620,
+        "overlap_pixels": 0,
+        "covered_fraction": 0.0,
+        "circle_raster_area_mm2": 5538.75,
+        "analytic_circle_area_mm2": 5541.769440932396
+      },
+      {
+        "pixels": 672,
+        "aperture_pixels": 354540,
+        "overlap_pixels": 0,
+        "covered_fraction": 0.0,
+        "circle_raster_area_mm2": 5539.6875,
+        "analytic_circle_area_mm2": 5541.769440932396
+      },
+      {
+        "pixels": 1344,
+        "aperture_pixels": 1418476,
+        "overlap_pixels": 0,
+        "covered_fraction": 0.0,
+        "circle_raster_area_mm2": 5540.921875,
+        "analytic_circle_area_mm2": 5541.769440932396
+      }
+    ],
+    "bisagra": [
+      {
+        "pixels": 336,
+        "aperture_pixels": 88620,
+        "overlap_pixels": 11837,
+        "covered_fraction": 0.13357030015797788,
+        "circle_raster_area_mm2": 5538.75,
+        "analytic_circle_area_mm2": 5541.769440932396
+      },
+      {
+        "pixels": 672,
+        "aperture_pixels": 354540,
+        "overlap_pixels": 46875,
+        "covered_fraction": 0.13221357251650026,
+        "circle_raster_area_mm2": 5539.6875,
+        "analytic_circle_area_mm2": 5541.769440932396
+      },
+      {
+        "pixels": 1344,
+        "aperture_pixels": 1418476,
+        "overlap_pixels": 186818,
+        "covered_fraction": 0.13170332102904808,
+        "circle_raster_area_mm2": 5540.921875,
+        "analytic_circle_area_mm2": 5541.769440932396
+      }
+    ]
+  }
+}

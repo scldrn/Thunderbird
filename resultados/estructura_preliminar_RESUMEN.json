@@ -1,0 +1,101 @@
+{
+  "checks": {
+    "prismatic_deflection_rel": 9.447820303876142e-11,
+    "prismatic_frequency_rel": 2.447672513561372e-07,
+    "taper_refinement_deflection_rel": 8.566456709435677e-05,
+    "taper_refinement_frequency_rel": 2.9235359922274995e-05
+  },
+  "beam_cases": 324,
+  "panel_cases": 27,
+  "selected": [
+    {
+      "mass_kg": 5,
+      "fineness": 4,
+      "distributed_mass_fraction": 0.6,
+      "thickness_mm": 0.5,
+      "acceleration_g": 20,
+      "stress_MPa": 3.223911939723824,
+      "tip_deflection_mm": 0.024628012585490036,
+      "frequency_central_clamp_Hz": 563.1031509229261,
+      "shell_mass_kg": 0.7138762730634701,
+      "shell_mass_consistent_with_distributed_budget": true,
+      "below_ASSUMED_100MPa": true,
+      "below_ASSUMED_05percent_length": true
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 6,
+      "distributed_mass_fraction": 0.6,
+      "thickness_mm": 0.5,
+      "acceleration_g": 20,
+      "stress_MPa": 5.535686871209402,
+      "tip_deflection_mm": 0.08311954247147885,
+      "frequency_central_clamp_Hz": 306.5145386023378,
+      "shell_mass_kg": 0.8063198493298849,
+      "shell_mass_consistent_with_distributed_budget": true,
+      "below_ASSUMED_100MPa": true,
+      "below_ASSUMED_05percent_length": true
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 8,
+      "distributed_mass_fraction": 0.6,
+      "thickness_mm": 0.5,
+      "acceleration_g": 20,
+      "stress_MPa": 8.12374903173091,
+      "tip_deflection_mm": 0.19702410070203497,
+      "frequency_central_clamp_Hz": 199.08701313431897,
+      "shell_mass_kg": 0.8829896944662993,
+      "shell_mass_consistent_with_distributed_budget": true,
+      "below_ASSUMED_100MPa": true,
+      "below_ASSUMED_05percent_length": true
+    },
+    {
+      "mass_kg": 5,
+      "fineness": 12,
+      "distributed_mass_fraction": 0.6,
+      "thickness_mm": 0.5,
+      "acceleration_g": 20,
+      "stress_MPa": 13.949056829326825,
+      "tip_deflection_mm": 0.664956339595042,
+      "frequency_central_clamp_Hz": 108.36925326341353,
+      "shell_mass_kg": 1.006934419204372,
+      "shell_mass_consistent_with_distributed_budget": true,
+      "below_ASSUMED_100MPa": true,
+      "below_ASSUMED_05percent_length": true
+    }
+  ],
+  "panel_selected": [
+    {
+      "deltaCp_ASSUMED": 0.05,
+      "pressure_Pa": 2363.0401234567903,
+      "bay_span_mm": 50.0,
+      "thickness_mm": 0.5,
+      "flat_strip_stress_MPa": 17.722800925925934,
+      "flat_strip_deflection_mm": 0.2637321566358026,
+      "deflection_over_thickness": 0.5274643132716051,
+      "small_deflection_filter": false
+    },
+    {
+      "deltaCp_ASSUMED": 0.2,
+      "pressure_Pa": 9452.160493827161,
+      "bay_span_mm": 50.0,
+      "thickness_mm": 0.5,
+      "flat_strip_stress_MPa": 70.89120370370374,
+      "flat_strip_deflection_mm": 1.0549286265432103,
+      "deflection_over_thickness": 2.1098572530864206,
+      "small_deflection_filter": false
+    },
+    {
+      "deltaCp_ASSUMED": 1.0,
+      "pressure_Pa": 47260.80246913581,
+      "bay_span_mm": 50.0,
+      "thickness_mm": 0.5,
+      "flat_strip_stress_MPa": 354.45601851851865,
+      "flat_strip_deflection_mm": 5.274643132716052,
+      "deflection_over_thickness": 10.549286265432103,
+      "small_deflection_filter": false
+    }
+  ],
+  "limitations": "Central clamp is an inertial-load-path idealization; frequency is NOT a free-flight mode. Uniform mass includes shell. No local shell buckling, joints, openings, aerodynamic stiffness/damping or flutter."
+}

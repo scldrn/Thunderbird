@@ -1,0 +1,66 @@
+{
+  "descripcion": "Reintentos limpios en nuevos espacios aislados tras avisos del lote anterior.",
+  "tareas": [
+    {
+      "id": "reintento_revisar_uiuc_estatico",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/test_analizar.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_estatico/salidas/INFORME.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt"
+      ],
+      "instruccion": "Revisa el cálculo UIUC estático ya producido; la sesión anterior terminó con error de red después de crear archivos. Copia script y test a salidas/, ejecútalos contra las entradas copiadas y audita dimensionalmente CT, CP, diámetro, Mach, Reynolds y figura de mérito. Crea salidas/REVISION.md con errores precisos, evidencias y límites; corrige solo las copias si es necesario. No atribuyas sus datos de hélice abierta al ventilador C02. Para evitar problemas de permisos, copia archivos con shutil.copyfile y escribe únicamente en salidas/; no ejecutes rm, git ni intentes ninguna acción que sea denegada. Si una prueba requiere eliminar algo, rediseña la prueba con una carpeta temporal nueva. Mantén los reportes breves y trazables."
+    },
+    {
+      "id": "reintento_revisar_uiuc_avance",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/test_procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/uiuc_avance/salidas/informe_tecnico_uiuc_avance.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_0544rd_20051.txt",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt"
+      ],
+      "instruccion": "Audita el análisis UIUC en avance: J, V, CT/CP, eficiencia, rango medido y advertencias contra extrapolación. Copia script y pruebas a salidas/, ejecútalos si es posible y entrega REVISION.md con fallos concretos y correcciones de las copias cuando haga falta. Para evitar problemas de permisos, copia archivos con shutil.copyfile y escribe únicamente en salidas/; no ejecutes rm, git ni intentes ninguna acción que sea denegada. Si una prueba requiere eliminar algo, rediseña la prueba con una carpeta temporal nueva. Mantén los reportes breves y trazables."
+    },
+    {
+      "id": "reintento_revisar_energia",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/sensibilidad_ley_arrastre.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/test_sensibilidad.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/REPORTE_SENSIBILIDAD_ARRASTRE.md",
+        "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/calcular_r2.py",
+        "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md"
+      ],
+      "instruccion": "Verifica independientemente la generalización D(v)=Dfin*(v/V)^p y la integral Dfin*V*t/(p+2), energía, potencia y comparación p=2. Copia código y test a salidas/ y ejecútalos; documenta en REVISION.md cualquier defecto o supuesto no físico y corrige solo copias si procede. Para evitar problemas de permisos, copia archivos con shutil.copyfile y escribe únicamente en salidas/; no ejecutes rm, git ni intentes ninguna acción que sea denegada. Si una prueba requiere eliminar algo, rediseña la prueba con una carpeta temporal nueva. Mantén los reportes breves y trazables."
+    },
+    {
+      "id": "reintento_revisar_cg",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/equilibrio_cg.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/test_equilibrio.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/INFORME_EQUILIBRIO_CG.md"
+      ],
+      "instruccion": "Audita las condiciones analíticas de factibilidad 2D de cuatro fuerzas verticales limitadas, incluidos signos, límites, casos en bordes y construcción explícita de fuerzas. Copia código y pruebas a salidas/, ejecútalas y entrega REVISION.md. No presentes el CG supuesto como medido. Para evitar problemas de permisos, copia archivos con shutil.copyfile y escribe únicamente en salidas/; no ejecutes rm, git ni intentes ninguna acción que sea denegada. Si una prueba requiere eliminar algo, rediseña la prueba con una carpeta temporal nueva. Mantén los reportes breves y trazables."
+    },
+    {
+      "id": "reintento_recuperar_jerk",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/trayectoria_jerk/salidas/trayectoria_jerk.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/trayectoria_jerk/salidas/test_trayectoria_jerk.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/trayectoria_jerk/salidas/resumen_comparativo.csv"
+      ],
+      "instruccion": "La sesión anterior acabó por timeout; recupera el estudio 1D de jerk. Copia código y tests a salidas/, ejecútalos y verifica las dos ramas de tiempo mínimo por derivación independiente y convergencia numérica. Produce INFORME-REVISADO.md con cifras, unidades y limitaciones; corrige copias si hay errores. No llames capacidad real a una cinemática ideal. Para evitar problemas de permisos, copia archivos con shutil.copyfile y escribe únicamente en salidas/; no ejecutes rm, git ni intentes ninguna acción que sea denegada. Si una prueba requiere eliminar algo, rediseña la prueba con una carpeta temporal nueva. Mantén los reportes breves y trazables."
+    },
+    {
+      "id": "reintento_revisar_estructura",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/estructura_rotor/salidas/comprobaciones_centrifugas.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/estructura_rotor/salidas/test_comprobaciones_centrifugas.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/estructura_rotor/salidas/INFORME_AUDITORIA_C02.md",
+        "investigacion-aeronautica/ejecucion/G5/rotor_C02/INFORME.md"
+      ],
+      "instruccion": "Audita dimensionalmente velocidad periférica, Mach y escalado de fuerza centrífuga del estudio, con cuidado de no equiparar un anillo ideal con esfuerzo real de pala. Copia código y test a salidas/, ejecútalos y entrega REVISION.md con errores o límites. Para evitar problemas de permisos, copia archivos con shutil.copyfile y escribe únicamente en salidas/; no ejecutes rm, git ni intentes ninguna acción que sea denegada. Si una prueba requiere eliminar algo, rediseña la prueba con una carpeta temporal nueva. Mantén los reportes breves y trazables."
+    }
+  ]
+}

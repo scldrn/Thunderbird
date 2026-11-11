@@ -1,0 +1,13 @@
+{
+  "config_id": "A07_RESEARCH_BASE_2026-11-03_r1",
+  "material_cases": 3,
+  "mass_sensitivity_cases": 18,
+  "hover_reference_cases": 9,
+  "hover_energy_sensitivity_cases": 243,
+  "fast_energy_sensitivity_cases": 216,
+  "unidentified_hardware_groups": 12,
+  "cad_to_flight_rotation_verified": true,
+  "provisional_reserve_mass_fraction": 0.15,
+  "actual_mass_or_energy_closed": false,
+  "statement": "Numerical references and conditional scenarios only. Neither feasibility nor impossibility of the entire architecture is established."
+}

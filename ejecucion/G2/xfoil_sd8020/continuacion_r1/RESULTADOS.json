@@ -1,0 +1,37 @@
+{
+  "scope": "Warm-start history sensitivity diagnostic; no physical acceptance",
+  "image_id": "sha256:54f41a5d5e16486edb4c92ebce9bb9fc2ec8108dbd3fed9f9b917886c8b9bdf3",
+  "geometry_sha256": "102c8b1d93c5b02ae547b27a50340ff326975e0c75ba13adfe737cc7812c3ea7",
+  "script_sha256": "9e372f86390a08edb7248cb4c2bef168c82ed68d37521fe3d824a8452b678268",
+  "created_UTC": "2026-11-05T01:54:48.301091+00:00",
+  "physical_fan_acceptance": false,
+  "same_sequence_is_not_independent_cases": true,
+  "FPE_traps_disabled_in_MIT_default_build": true,
+  "container_id": "8b7350c22b7be78d61cda161e877857519acfd36f120ae381f72ed2c6df50566",
+  "exit_code": 0,
+  "polar_copy_exit_code": 0,
+  "rows": [
+    {
+      "alpha_deg": 0.0,
+      "cl": -0.0,
+      "cd": 0.01596
+    },
+    {
+      "alpha_deg": 1.17,
+      "cl": 0.0138,
+      "cd": 0.01702
+    },
+    {
+      "alpha_deg": 2.72,
+      "cl": 0.4003,
+      "cd": 0.01772
+    },
+    {
+      "alpha_deg": 5.89,
+      "cl": 0.6621,
+      "cd": 0.02452
+    }
+  ],
+  "polar_sha256": "0eb3b6df92e79431abda4d251dee6621b2d103831cc6096b77746ac6454bb4e7",
+  "stop_exit_code": 0
+}

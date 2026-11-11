@@ -1,0 +1,15 @@
+{
+  "completed_logged_steps": 903,
+  "last_completed_physical_time_s": 0.001,
+  "clock_time_s_last": 536.0,
+  "target_physical_time_s": 0.001,
+  "elapsed_flow_through_times": 0.2758620689655173,
+  "latest_deltaT_s": 1.0965336e-06,
+  "initial_to_latest_dt_ratio": 1.0908669374107642,
+  "dt_collapsed_by_factor_1000": false,
+  "max_reported_Courant": 0.501108672,
+  "latest_reported_Courant": 0.4988071,
+  "max_abs_global_continuity_error_last_100_corrections": 1.60536169e-11,
+  "mean_loads_ready": false,
+  "note": "Progress audit only. Check the live exec handle and docker top/ps for running state. A collapsed timestep flags numerical pathology despite small continuity errors. Completion requires physical-time span, force statistics and sensitivity audits."
+}

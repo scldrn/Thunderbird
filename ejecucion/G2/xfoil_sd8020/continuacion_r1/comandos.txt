@@ -1,0 +1,19 @@
+PLOP
+G
+
+LOAD /tmp/sd8020.dat
+PANE
+OPER
+VISC 61400
+MACH 0
+ITER 200
+PACC
+/tmp/secuencia.txt
+
+ALFA 0
+ALFA 1.17
+ALFA 2.72
+ALFA 5.89
+PACC
+
+QUIT

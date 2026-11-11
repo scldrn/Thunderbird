@@ -1,0 +1,219 @@
+{
+  "scope": "Midpoint radial quadrature sensitivity only; not physical model accuracy",
+  "cases": [
+    {
+      "hub_ratio": 0.3,
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 20.0,
+      "quadratures": [
+        {
+          "annuli": 64,
+          "T_N": 4.592551484650149,
+          "P_estimate_W": 104.49285392229659
+        },
+        {
+          "annuli": 128,
+          "T_N": 4.597106987194687,
+          "P_estimate_W": 104.58874392279078
+        },
+        {
+          "annuli": 256,
+          "T_N": 4.596677940353923,
+          "P_estimate_W": 104.58008047186632
+        }
+      ],
+      "relative_change_128_to_256": {
+        "T_N": 9.333846015122178e-05,
+        "P_estimate_W": 8.2840354352085e-05
+      }
+    },
+    {
+      "hub_ratio": 0.3,
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 40.0,
+      "quadratures": [
+        {
+          "annuli": 64,
+          "T_N": -4.642248390700437,
+          "P_estimate_W": -168.33581575057724
+        },
+        {
+          "annuli": 128,
+          "T_N": -4.6404594399477626,
+          "P_estimate_W": -168.28420671061437
+        },
+        {
+          "annuli": 256,
+          "T_N": -4.642828655887536,
+          "P_estimate_W": -168.35680238670162
+        }
+      ],
+      "relative_change_128_to_256": {
+        "T_N": 0.0005102957949501489,
+        "P_estimate_W": 0.00043120132396254546
+      }
+    },
+    {
+      "hub_ratio": 0.3,
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 20.0,
+      "quadratures": [
+        {
+          "annuli": 64,
+          "T_N": 22.619311419467486,
+          "P_estimate_W": 603.6799816326635
+        },
+        {
+          "annuli": 128,
+          "T_N": 22.620399130274492,
+          "P_estimate_W": 603.741254767081
+        },
+        {
+          "annuli": 256,
+          "T_N": 22.620396137478764,
+          "P_estimate_W": 603.7415394051862
+        }
+      ],
+      "relative_change_128_to_256": {
+        "T_N": 1.3230518645139675e-07,
+        "P_estimate_W": 4.71456884480648e-07
+      }
+    },
+    {
+      "hub_ratio": 0.3,
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 40.0,
+      "quadratures": [
+        {
+          "annuli": 64,
+          "T_N": 17.083807429670653,
+          "P_estimate_W": 777.4260097992654
+        },
+        {
+          "annuli": 128,
+          "T_N": 17.105496563250536,
+          "P_estimate_W": 778.4270285990477
+        },
+        {
+          "annuli": 256,
+          "T_N": 17.10318609635072,
+          "P_estimate_W": 778.3314955224135
+        }
+      ],
+      "relative_change_128_to_256": {
+        "T_N": 0.00013508985324733934,
+        "P_estimate_W": 0.000122740859368747
+      }
+    },
+    {
+      "hub_ratio": 0.315,
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 20.0,
+      "quadratures": [
+        {
+          "annuli": 64,
+          "T_N": 4.576749402030204,
+          "P_estimate_W": 104.14940986824062
+        },
+        {
+          "annuli": 128,
+          "T_N": 4.578510646455606,
+          "P_estimate_W": 104.19004025531774
+        },
+        {
+          "annuli": 256,
+          "T_N": 4.578455088869138,
+          "P_estimate_W": 104.18837155249199
+        }
+      ],
+      "relative_change_128_to_256": {
+        "T_N": 1.2134570589829514e-05,
+        "P_estimate_W": 1.601620987916944e-05
+      }
+    },
+    {
+      "hub_ratio": 0.315,
+      "rpm": 23115.74074200222,
+      "axial_disk_velocity_m_s": 40.0,
+      "quadratures": [
+        {
+          "annuli": 64,
+          "T_N": -4.614894294362871,
+          "P_estimate_W": -167.3361586254765
+        },
+        {
+          "annuli": 128,
+          "T_N": -4.615687326534114,
+          "P_estimate_W": -167.37297225359228
+        },
+        {
+          "annuli": 256,
+          "T_N": -4.617255513470208,
+          "P_estimate_W": -167.420111953345
+        }
+      ],
+      "relative_change_128_to_256": {
+        "T_N": 0.0003396361608143586,
+        "P_estimate_W": 0.0002815653340733042
+      }
+    },
+    {
+      "hub_ratio": 0.315,
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 20.0,
+      "quadratures": [
+        {
+          "annuli": 64,
+          "T_N": 22.542728341292495,
+          "P_estimate_W": 601.9651533533953
+        },
+        {
+          "annuli": 128,
+          "T_N": 22.546093951931404,
+          "P_estimate_W": 602.0790666512667
+        },
+        {
+          "annuli": 256,
+          "T_N": 22.545606993739487,
+          "P_estimate_W": 602.0656156481723
+        }
+      ],
+      "relative_change_128_to_256": {
+        "T_N": 2.1598806013631495e-05,
+        "P_estimate_W": 2.234142383281449e-05
+      }
+    },
+    {
+      "hub_ratio": 0.315,
+      "rpm": 46231.48148400444,
+      "axial_disk_velocity_m_s": 40.0,
+      "quadratures": [
+        {
+          "annuli": 64,
+          "T_N": 17.021444690542765,
+          "P_estimate_W": 774.7185041960541
+        },
+        {
+          "annuli": 128,
+          "T_N": 17.03047525521378,
+          "P_estimate_W": 775.205104460619
+        },
+        {
+          "annuli": 256,
+          "T_N": 17.03024740355807,
+          "P_estimate_W": 775.1964390354888
+        }
+      ],
+      "relative_change_128_to_256": {
+        "T_N": 1.337923344911439e-05,
+        "P_estimate_W": 1.1178360340600312e-05
+      }
+    }
+  ],
+  "all_128_results_reproduce_frozen_screen": true,
+  "maximum_relative_change_128_to_256": {
+    "T_N": 0.0005102957949501489,
+    "P_estimate_W": 0.00043120132396254546
+  },
+  "model_extrapolation_and_compressibility_not_resolved": true
+}

@@ -1,0 +1,8 @@
+{
+  "completed_nodes": 61,
+  "total_nodes": 61,
+  "boolean_pairs_tested": 808,
+  "failures": [],
+  "actual_guide_hinge_lock_and_actuator_designed": false,
+  "scope": "Discrete nominal two-coordinate door paths vs reference body, fins, new module hardware and simultaneously posed doors; not continuous loaded clearance"
+}

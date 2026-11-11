@@ -1,0 +1,48 @@
+{
+  "source": "NASA NPARC RAE2822 Study4 supplied C-grid",
+  "grid_dimensions": [
+    369,
+    65
+  ],
+  "chord_m": 0.3048,
+  "span_m": 0.0030480000000000004,
+  "two_dimensional_empty_direction": "z",
+  "hexahedra": 23552,
+  "points": 47904,
+  "conformal_wake_duplicate_nodes_removed": 33,
+  "conformal_wake_internal_faces": 32,
+  "expected_internal_faces": 46704,
+  "expected_total_faces": 94608,
+  "all_quads_convex_and_positive": true,
+  "min_volume_m3": 2.7906962130066987e-12,
+  "summed_cell_volume_m3": 0.5854580416510581,
+  "first_wall_point_gap_m": [
+    3.042234593070162e-06,
+    3.0549962744966097e-06
+  ],
+  "boundary_faces": {
+    "airfoil": 304,
+    "farfield": 368,
+    "outlet": 128,
+    "frontAndBack": 47104
+  },
+  "experimental_Cp_points": 103,
+  "source_sha256": {
+    "run.sst.dat": "d0a917efadbf893a00ccb4e9b7e0463be26dbe9777996d5c99bed707920d1737",
+    "geom.txt": "0bef162c8778247a4746f02a1b487f33083a1ae80fdc82ea58afc259c87da736",
+    "cp.exp.gen": "739bbec6bd8775240bcf571fc8356701cab4c773c4e3d3b21deea5a3f627f001",
+    "raetaf.x.fmt": "2318157ce20050a3f7c1a5dc208cbfd3d821108b618afb2e43fd4792ee4238ed"
+  },
+  "mesh_sha256": "0543e912d14f11eea5aaa2405d4e95e78d42098e2fef4c5661e40301dcc841f1",
+  "mesh_provenance_URL": "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/raetaf04.html",
+  "experimental_condition_from_file": "Mach0.729, alpha2.31deg",
+  "distinctions": [
+    "NASA overview lists nominal case6 Mach0.725/alpha2.92; this study and its Cp file specify0.729/2.31. Do not mix.",
+    "NASA computational grid has sharp TE and is scaled to1ft; measured geometry/transition not fully identical.",
+    "One supplied mesh is not a mesh-convergence study.",
+    "This is a solver benchmark, not the C02 vehicle or its transonic capability."
+  ],
+  "checkMesh_accepted": false,
+  "own_solver_executed": false,
+  "physical_validation_accepted": false
+}

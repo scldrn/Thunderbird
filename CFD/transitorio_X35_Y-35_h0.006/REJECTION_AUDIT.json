@@ -1,0 +1,40 @@
+{
+  "physical_loads_accepted": false,
+  "classification": "Rejected numerical run",
+  "termination": "Requested orderly stopAt writeNow after observed timestep collapse and force blow-up; process returned 0.",
+  "last_physical_time_s": 0.0005561922108,
+  "requested_end_time_s": 0.03,
+  "target_reached": false,
+  "completed_time_fraction": 0.01853974036,
+  "initial_dt_s": 1.91570881e-06,
+  "final_dt_s": 1.04933487e-09,
+  "dt_collapse_factor": 1825.6410463134616,
+  "fields_at_final_write": {
+    "U": {
+      "min_component": -134060.297,
+      "max_component": 698720.019,
+      "max_magnitude_ms": 698772.7342547382
+    },
+    "p": {
+      "min_component": -20204892800.0,
+      "max_component": 32120186600.0,
+      "units": "kinematic pressure, m^2/s^2, not Pa"
+    },
+    "k": {
+      "min_component": 5.43102037,
+      "max_component": 491927601.0
+    },
+    "omega": {
+      "min_component": 829.10251,
+      "max_component": 336936713.0
+    }
+  },
+  "vaneX0_force_norm_first_N": 2.225373219520355,
+  "vaneX0_force_norm_final_N": 277826.96958166664,
+  "force_parsing": {
+    "discarded_rows": 0,
+    "overwritten_duplicate_times": 0
+  },
+  "root_cause": "Not isolated. Subsequent first-order/upwind/more-corrector diagnostic changes multiple controls and cannot attribute causation to one setting.",
+  "acceptance_note": "Small continuity errors and exit code zero do not validate this run. No means, effectiveness, servo loads or thrust maps accepted."
+}

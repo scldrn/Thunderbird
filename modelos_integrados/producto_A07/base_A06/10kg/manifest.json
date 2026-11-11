@@ -1,0 +1,2306 @@
+{
+  "architecture": "A_internal_fans_user_confirmed",
+  "rotor_deployment": false,
+  "target_mass_kg": 10,
+  "mass_closed": false,
+  "scale": 1.2599210498948732,
+  "parts": [
+    {
+      "name": "compuerta_0_superior_enrasada",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "closed_cover_opening_kinematics_pending",
+      "volume_mm3": 14421.5257431421
+    },
+    {
+      "name": "aro_0_superior_cobre",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 509.8194629898778
+    },
+    {
+      "name": "junta_0_superior",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 125.97777816989387
+    },
+    {
+      "name": "compuerta_0_inferior_enrasada",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "closed_cover_opening_kinematics_pending",
+      "volume_mm3": 13707.332542223157
+    },
+    {
+      "name": "aro_0_inferior_cobre",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 548.3403962845387
+    },
+    {
+      "name": "junta_0_inferior",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 134.75982891962758
+    },
+    {
+      "name": "compuerta_1_superior_enrasada",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "closed_cover_opening_kinematics_pending",
+      "volume_mm3": 14421.53447774304
+    },
+    {
+      "name": "aro_1_superior_cobre",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 509.7950455644115
+    },
+    {
+      "name": "junta_1_superior",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 125.97584597314142
+    },
+    {
+      "name": "compuerta_1_inferior_enrasada",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "closed_cover_opening_kinematics_pending",
+      "volume_mm3": 13707.342107633667
+    },
+    {
+      "name": "aro_1_inferior_cobre",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 548.3781029466816
+    },
+    {
+      "name": "junta_1_inferior",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 134.7125559234443
+    },
+    {
+      "name": "compuerta_2_superior_enrasada",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "closed_cover_opening_kinematics_pending",
+      "volume_mm3": 15228.264734619741
+    },
+    {
+      "name": "aro_2_superior_cobre",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 632.0607711170537
+    },
+    {
+      "name": "junta_2_superior",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 155.36198583028917
+    },
+    {
+      "name": "compuerta_2_inferior_enrasada",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "closed_cover_opening_kinematics_pending",
+      "volume_mm3": 14628.879229052483
+    },
+    {
+      "name": "aro_2_inferior_cobre",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 597.291289969724
+    },
+    {
+      "name": "junta_2_inferior",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 147.17975666213732
+    },
+    {
+      "name": "compuerta_3_superior_enrasada",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "closed_cover_opening_kinematics_pending",
+      "volume_mm3": 15228.144217449404
+    },
+    {
+      "name": "aro_3_superior_cobre",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 632.1373646689158
+    },
+    {
+      "name": "junta_3_superior",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 155.42002615130383
+    },
+    {
+      "name": "compuerta_3_inferior_enrasada",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "closed_cover_opening_kinematics_pending",
+      "volume_mm3": 14628.898380607881
+    },
+    {
+      "name": "aro_3_inferior_cobre",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 597.3613451223715
+    },
+    {
+      "name": "junta_3_inferior",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 147.1828361181765
+    },
+    {
+      "name": "panel_sensor_nariz",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "flush_cover_equipment_reservation",
+      "volume_mm3": 8230.317194337376
+    },
+    {
+      "name": "cubierta_lateral_-1",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "flush_cover_equipment_reservation",
+      "volume_mm3": 24799.478020826038
+    },
+    {
+      "name": "cubierta_lateral_1",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "flush_cover_equipment_reservation",
+      "volume_mm3": 24799.47801908326
+    },
+    {
+      "name": "carroceria_superior",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 662317.4984982725
+    },
+    {
+      "name": "carroceria_inferior",
+      "color": [
+        0.055,
+        0.07,
+        0.08
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 707137.0271407127
+    },
+    {
+      "name": "canal_0_base_motor_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "representative_rotor_motor",
+      "volume_mm3": 18095.57368467721
+    },
+    {
+      "name": "canal_0_base_rotor_representativo_4",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "representative_rotor_motor",
+      "volume_mm3": 4136.999999988299
+    },
+    {
+      "name": "canal_0_alabe_0_inferior_X_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_0_alabe_0_inferior_X_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628432
+    },
+    {
+      "name": "canal_0_alabe_0_inferior_X_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_0_alabe_0_inferior_Y_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848
+    },
+    {
+      "name": "canal_0_alabe_0_inferior_Y_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628398396
+    },
+    {
+      "name": "canal_0_alabe_0_inferior_Y_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848
+    },
+    {
+      "name": "canal_0_alabe_0_superior_X_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_0_alabe_0_superior_X_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628432
+    },
+    {
+      "name": "canal_0_alabe_0_superior_X_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_0_alabe_0_superior_Y_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848
+    },
+    {
+      "name": "canal_0_alabe_0_superior_Y_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628398396
+    },
+    {
+      "name": "canal_0_alabe_0_superior_Y_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848
+    },
+    {
+      "name": "canal_0_eje_0_inferior_X_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565529
+    },
+    {
+      "name": "canal_0_eje_0_inferior_X_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834585
+    },
+    {
+      "name": "canal_0_eje_0_inferior_X_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565527
+    },
+    {
+      "name": "canal_0_eje_0_inferior_Y_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_0_eje_0_inferior_Y_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834599
+    },
+    {
+      "name": "canal_0_eje_0_inferior_Y_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_0_eje_0_superior_X_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565529
+    },
+    {
+      "name": "canal_0_eje_0_superior_X_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834585
+    },
+    {
+      "name": "canal_0_eje_0_superior_X_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565527
+    },
+    {
+      "name": "canal_0_eje_0_superior_Y_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_0_eje_0_superior_Y_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834599
+    },
+    {
+      "name": "canal_0_eje_0_superior_Y_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_1_base_motor_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "representative_rotor_motor",
+      "volume_mm3": 18095.57368467721
+    },
+    {
+      "name": "canal_1_base_rotor_representativo_4",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "representative_rotor_motor",
+      "volume_mm3": 4136.99999998771
+    },
+    {
+      "name": "canal_1_alabe_0_inferior_X_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_1_alabe_0_inferior_X_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628432
+    },
+    {
+      "name": "canal_1_alabe_0_inferior_X_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_1_alabe_0_inferior_Y_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.09762968912
+    },
+    {
+      "name": "canal_1_alabe_0_inferior_Y_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628398396
+    },
+    {
+      "name": "canal_1_alabe_0_inferior_Y_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.09762968912
+    },
+    {
+      "name": "canal_1_alabe_0_superior_X_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_1_alabe_0_superior_X_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628432
+    },
+    {
+      "name": "canal_1_alabe_0_superior_X_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_1_alabe_0_superior_Y_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.09762968912
+    },
+    {
+      "name": "canal_1_alabe_0_superior_Y_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628398396
+    },
+    {
+      "name": "canal_1_alabe_0_superior_Y_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.09762968912
+    },
+    {
+      "name": "canal_1_eje_0_inferior_X_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565527
+    },
+    {
+      "name": "canal_1_eje_0_inferior_X_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834585
+    },
+    {
+      "name": "canal_1_eje_0_inferior_X_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565529
+    },
+    {
+      "name": "canal_1_eje_0_inferior_Y_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_1_eje_0_inferior_Y_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834599
+    },
+    {
+      "name": "canal_1_eje_0_inferior_Y_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_1_eje_0_superior_X_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565527
+    },
+    {
+      "name": "canal_1_eje_0_superior_X_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834585
+    },
+    {
+      "name": "canal_1_eje_0_superior_X_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565529
+    },
+    {
+      "name": "canal_1_eje_0_superior_Y_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_1_eje_0_superior_Y_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834599
+    },
+    {
+      "name": "canal_1_eje_0_superior_Y_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_2_base_motor_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "representative_rotor_motor",
+      "volume_mm3": 18095.57368467721
+    },
+    {
+      "name": "canal_2_base_rotor_representativo_4",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "representative_rotor_motor",
+      "volume_mm3": 4136.999999988299
+    },
+    {
+      "name": "canal_2_alabe_0_inferior_X_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_2_alabe_0_inferior_X_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628432
+    },
+    {
+      "name": "canal_2_alabe_0_inferior_X_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_2_alabe_0_inferior_Y_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848
+    },
+    {
+      "name": "canal_2_alabe_0_inferior_Y_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628398396
+    },
+    {
+      "name": "canal_2_alabe_0_inferior_Y_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848
+    },
+    {
+      "name": "canal_2_alabe_0_superior_X_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_2_alabe_0_superior_X_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628432
+    },
+    {
+      "name": "canal_2_alabe_0_superior_X_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_2_alabe_0_superior_Y_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848
+    },
+    {
+      "name": "canal_2_alabe_0_superior_Y_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628398396
+    },
+    {
+      "name": "canal_2_alabe_0_superior_Y_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848
+    },
+    {
+      "name": "canal_2_eje_0_inferior_X_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565529
+    },
+    {
+      "name": "canal_2_eje_0_inferior_X_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834585
+    },
+    {
+      "name": "canal_2_eje_0_inferior_X_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565527
+    },
+    {
+      "name": "canal_2_eje_0_inferior_Y_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_2_eje_0_inferior_Y_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834599
+    },
+    {
+      "name": "canal_2_eje_0_inferior_Y_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_2_eje_0_superior_X_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565529
+    },
+    {
+      "name": "canal_2_eje_0_superior_X_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834585
+    },
+    {
+      "name": "canal_2_eje_0_superior_X_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565527
+    },
+    {
+      "name": "canal_2_eje_0_superior_Y_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_2_eje_0_superior_Y_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834599
+    },
+    {
+      "name": "canal_2_eje_0_superior_Y_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_3_base_motor_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "representative_rotor_motor",
+      "volume_mm3": 18095.57368467721
+    },
+    {
+      "name": "canal_3_base_rotor_representativo_4",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "representative_rotor_motor",
+      "volume_mm3": 4136.999999987708
+    },
+    {
+      "name": "canal_3_alabe_0_inferior_X_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_3_alabe_0_inferior_X_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628432
+    },
+    {
+      "name": "canal_3_alabe_0_inferior_X_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_3_alabe_0_inferior_Y_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.09762968912
+    },
+    {
+      "name": "canal_3_alabe_0_inferior_Y_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628398396
+    },
+    {
+      "name": "canal_3_alabe_0_inferior_Y_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.09762968912
+    },
+    {
+      "name": "canal_3_alabe_0_superior_X_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_3_alabe_0_superior_X_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628432
+    },
+    {
+      "name": "canal_3_alabe_0_superior_X_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.0976296848003
+    },
+    {
+      "name": "canal_3_alabe_0_superior_Y_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.09762968912
+    },
+    {
+      "name": "canal_3_alabe_0_superior_Y_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 3665.7272628398396
+    },
+    {
+      "name": "canal_3_alabe_0_superior_Y_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 2440.09762968912
+    },
+    {
+      "name": "canal_3_eje_0_inferior_X_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565527
+    },
+    {
+      "name": "canal_3_eje_0_inferior_X_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834585
+    },
+    {
+      "name": "canal_3_eje_0_inferior_X_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565529
+    },
+    {
+      "name": "canal_3_eje_0_inferior_Y_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_3_eje_0_inferior_Y_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834599
+    },
+    {
+      "name": "canal_3_eje_0_inferior_Y_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_3_eje_0_superior_X_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565527
+    },
+    {
+      "name": "canal_3_eje_0_superior_X_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834585
+    },
+    {
+      "name": "canal_3_eje_0_superior_X_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903565529
+    },
+    {
+      "name": "canal_3_eje_0_superior_Y_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "canal_3_eje_0_superior_Y_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 787.1574552834599
+    },
+    {
+      "name": "canal_3_eje_0_superior_Y_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "vane_or_shaft_geometry",
+      "volume_mm3": 679.0663903559208
+    },
+    {
+      "name": "conducto_0_84mm_con_taladros",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "designed_geometry",
+      "volume_mm3": 177553.019444366
+    },
+    {
+      "name": "alojamiento_actuador_0_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691832
+    },
+    {
+      "name": "alojamiento_actuador_0_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.6842936918342
+    },
+    {
+      "name": "alojamiento_actuador_0_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.6842936918342
+    },
+    {
+      "name": "alojamiento_actuador_0_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691832
+    },
+    {
+      "name": "conducto_1_84mm_con_taladros",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "designed_geometry",
+      "volume_mm3": 177552.99177845987
+    },
+    {
+      "name": "alojamiento_actuador_1_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691832
+    },
+    {
+      "name": "alojamiento_actuador_1_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691835
+    },
+    {
+      "name": "alojamiento_actuador_1_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691835
+    },
+    {
+      "name": "alojamiento_actuador_1_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691832
+    },
+    {
+      "name": "conducto_2_84mm_con_taladros",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "designed_geometry",
+      "volume_mm3": 164628.239655331
+    },
+    {
+      "name": "alojamiento_actuador_2_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691832
+    },
+    {
+      "name": "alojamiento_actuador_2_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.6842936918347
+    },
+    {
+      "name": "alojamiento_actuador_2_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.6842936918342
+    },
+    {
+      "name": "alojamiento_actuador_2_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691832
+    },
+    {
+      "name": "conducto_3_84mm_con_taladros",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "designed_geometry",
+      "volume_mm3": 164628.2732410566
+    },
+    {
+      "name": "alojamiento_actuador_3_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691832
+    },
+    {
+      "name": "alojamiento_actuador_3_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.6842936918356
+    },
+    {
+      "name": "alojamiento_actuador_3_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.6842936918347
+    },
+    {
+      "name": "alojamiento_actuador_3_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "actuator_package_motion_transmission_pending",
+      "volume_mm3": 3750.684293691832
+    },
+    {
+      "name": "canal_axial_60_exterior_56_interior",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "empty_axial_packaging_interface_not_propulsor",
+      "volume_mm3": 583079.5965062785
+    },
+    {
+      "name": "abrazadera_axial_-350",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "designed_geometry",
+      "volume_mm3": 2984.5130209103663
+    },
+    {
+      "name": "abrazadera_axial_0",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "designed_geometry",
+      "volume_mm3": 2984.5130209103663
+    },
+    {
+      "name": "abrazadera_axial_350",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": false,
+      "scope": "designed_geometry",
+      "volume_mm3": 2984.5130209103663
+    },
+    {
+      "name": "cuaderna_-400",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 15519.184655155379
+    },
+    {
+      "name": "cuaderna_-350",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 16654.00553704172
+    },
+    {
+      "name": "cuaderna_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 20605.595432386574
+    },
+    {
+      "name": "cuaderna_350",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 15390.36347784385
+    },
+    {
+      "name": "cuaderna_400",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 14114.69540016085
+    },
+    {
+      "name": "soporte_canal_axial_-350_-1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 1207.429404184459
+    },
+    {
+      "name": "soporte_canal_axial_-350_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 1207.429404184459
+    },
+    {
+      "name": "soporte_canal_axial_0_-1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 1401.547503177519
+    },
+    {
+      "name": "soporte_canal_axial_0_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 1401.5475031775604
+    },
+    {
+      "name": "soporte_canal_axial_350_-1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 1164.2627660717758
+    },
+    {
+      "name": "soporte_canal_axial_350_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "support_geometry_not_structural_validation",
+      "volume_mm3": 1164.2627660717167
+    },
+    {
+      "name": "inserto_terminal",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 25715.35712157748
+    },
+    {
+      "name": "interfaz_posterior_reservada",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": true,
+      "scope": "rear_interface_not_sized_nozzle",
+      "volume_mm3": 3015.9289474462666
+    },
+    {
+      "name": "tapa_interior_interfaz",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 651.4406526483796
+    },
+    {
+      "name": "vis_encastree_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 14.153087577778008
+    },
+    {
+      "name": "vis_encastree_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 14.153087577777127
+    },
+    {
+      "name": "vis_encastree_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 14.153087577725888
+    },
+    {
+      "name": "vis_encastree_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 14.153087577778035
+    },
+    {
+      "name": "vis_encastree_4",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 14.153087577778006
+    },
+    {
+      "name": "vis_encastree_5",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 14.153087577777065
+    },
+    {
+      "name": "signature_dorsale_cuivre",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "designed_geometry",
+      "volume_mm3": 724.2986286703762
+    },
+    {
+      "name": "sculpture_capot_-1",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 6800.009770495217
+    },
+    {
+      "name": "signature_optique_-1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 1682.0162419758203
+    },
+    {
+      "name": "epaule_arriere_-1",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 17572.056550598238
+    },
+    {
+      "name": "lame_laterale_-1",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 8329.214713567042
+    },
+    {
+      "name": "signature_arriere_-1",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 1215.5440552619727
+    },
+    {
+      "name": "sculpture_capot_1",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 6800.009769938151
+    },
+    {
+      "name": "signature_optique_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 1682.0162387774103
+    },
+    {
+      "name": "epaule_arriere_1",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 17572.05652080455
+    },
+    {
+      "name": "lame_laterale_1",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 8329.21471605472
+    },
+    {
+      "name": "signature_arriere_1",
+      "color": [
+        0.32,
+        0.34,
+        0.37
+      ],
+      "exterior": true,
+      "scope": "flush_styling_insert_not_aerodynamic_device",
+      "volume_mm3": 1215.5440547120456
+    },
+    {
+      "name": "aleta_movil_0",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "concept_all_moving_fin",
+      "volume_mm3": 58645.6045993441
+    },
+    {
+      "name": "carenado_raiz_0",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "mount_fairing_not_structurally_sized",
+      "volume_mm3": 87980.32132388512
+    },
+    {
+      "name": "eje_control_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "shaft_geometry_not_load_sized",
+      "volume_mm3": 1178.097245096168
+    },
+    {
+      "name": "cojinete_0",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "bearing_envelope_not_selected_hardware",
+      "volume_mm3": 1134.7432664766316
+    },
+    {
+      "name": "actuador_reserva_0",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "direct_drive_actuator_package_unselected",
+      "volume_mm3": 10560.0
+    },
+    {
+      "name": "aleta_movil_1",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "concept_all_moving_fin",
+      "volume_mm3": 58645.60459934411
+    },
+    {
+      "name": "carenado_raiz_1",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "mount_fairing_not_structurally_sized",
+      "volume_mm3": 87980.32132388512
+    },
+    {
+      "name": "eje_control_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "shaft_geometry_not_load_sized",
+      "volume_mm3": 1178.097245096168
+    },
+    {
+      "name": "cojinete_1",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "bearing_envelope_not_selected_hardware",
+      "volume_mm3": 1134.7432664766316
+    },
+    {
+      "name": "actuador_reserva_1",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "direct_drive_actuator_package_unselected",
+      "volume_mm3": 10560.0
+    },
+    {
+      "name": "aleta_movil_2",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "concept_all_moving_fin",
+      "volume_mm3": 58645.60459934414
+    },
+    {
+      "name": "carenado_raiz_2",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "mount_fairing_not_structurally_sized",
+      "volume_mm3": 87980.32132388714
+    },
+    {
+      "name": "eje_control_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "shaft_geometry_not_load_sized",
+      "volume_mm3": 1178.0972450961683
+    },
+    {
+      "name": "cojinete_2",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "bearing_envelope_not_selected_hardware",
+      "volume_mm3": 1134.743266476632
+    },
+    {
+      "name": "actuador_reserva_2",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "direct_drive_actuator_package_unselected",
+      "volume_mm3": 10560.000000000004
+    },
+    {
+      "name": "aleta_movil_3",
+      "color": [
+        0.065,
+        0.068,
+        0.075
+      ],
+      "exterior": true,
+      "scope": "concept_all_moving_fin",
+      "volume_mm3": 58645.60459934413
+    },
+    {
+      "name": "carenado_raiz_3",
+      "color": [
+        0.018,
+        0.025,
+        0.032
+      ],
+      "exterior": true,
+      "scope": "mount_fairing_not_structurally_sized",
+      "volume_mm3": 87980.32132388368
+    },
+    {
+      "name": "eje_control_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "shaft_geometry_not_load_sized",
+      "volume_mm3": 1178.097245096168
+    },
+    {
+      "name": "cojinete_3",
+      "color": [
+        0.43,
+        0.49,
+        0.54
+      ],
+      "exterior": false,
+      "scope": "bearing_envelope_not_selected_hardware",
+      "volume_mm3": 1134.743266476632
+    },
+    {
+      "name": "actuador_reserva_3",
+      "color": [
+        0.16,
+        0.24,
+        0.27
+      ],
+      "exterior": false,
+      "scope": "direct_drive_actuator_package_unselected",
+      "volume_mm3": 10560.0
+    }
+  ],
+  "assembly_dimensions_mm": [
+    1689.554128009025,
+    405.4692696864176,
+    305.5782605221365
+  ],
+  "valid_parts": 208,
+  "fin_root_chord_mm": 195.28776273370534,
+  "fin_tip_chord_mm": 119.69249974001295,
+  "fin_exposed_span_mm": 88.19447349264112
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "A_internos_detallado.step",
+    "parts": 279,
+    "valid": true,
+    "sha256": "14c5f5c3bc04a316e230ef125d7aeef4b300f4bf5b302e8e078980d0b0f2d099"
+  },
+  {
+    "file": "B_retractil_guardado_detallado.step",
+    "parts": 143,
+    "valid": true,
+    "sha256": "164b875e644f03ba31bf91b1a86e575c01233f5b4a8eed236ecda3c49c6ced74"
+  },
+  {
+    "file": "B_retractil_desplegado_detallado.step",
+    "parts": 163,
+    "valid": true,
+    "sha256": "f4e3974321cea028136bdb300e701aa595937b47fcd1a01e3f87af6d76f02678"
+  },
+  {
+    "file": "C_conductos_detallado.step",
+    "parts": 135,
+    "valid": true,
+    "sha256": "b4aa7ca6502f32599520f65f873394919e87edc9a20326574415630493e2c25b"
+  }
+]

@@ -1,0 +1,98 @@
+{
+  "label": "C02_D102.5_neutro",
+  "parts": 58,
+  "valid": true,
+  "boolean_pairs_tested": 106,
+  "intersections": [],
+  "inside_reference_inset_hull": false,
+  "outside_reference_inset_hull": [
+    {
+      "part": "casquillo_inferior_Y_0_-1",
+      "outside_inset_hull_mm3": 18.920241756244582
+    },
+    {
+      "part": "casquillo_inferior_Y_1_-1",
+      "outside_inset_hull_mm3": 18.92024175624458
+    },
+    {
+      "part": "casquillo_inferior_Y_2_-1",
+      "outside_inset_hull_mm3": 18.920001359448186
+    },
+    {
+      "part": "casquillo_superior_Y_0_-1",
+      "outside_inset_hull_mm3": 4.956872951598674
+    },
+    {
+      "part": "casquillo_superior_Y_1_-1",
+      "outside_inset_hull_mm3": 18.92024175624458
+    },
+    {
+      "part": "camisa_cuna_y_soportes",
+      "outside_inset_hull_mm3": 402.4842411646783
+    },
+    {
+      "part": "alabe_integral_inferior_Y_0",
+      "outside_inset_hull_mm3": 59.89980163152249
+    },
+    {
+      "part": "alabe_integral_inferior_Y_1",
+      "outside_inset_hull_mm3": 207.21254121099284
+    },
+    {
+      "part": "alabe_integral_inferior_Y_2",
+      "outside_inset_hull_mm3": 32.186231718869465
+    },
+    {
+      "part": "alabe_integral_superior_Y_0",
+      "outside_inset_hull_mm3": 7.564445790562929
+    },
+    {
+      "part": "alabe_integral_superior_Y_1",
+      "outside_inset_hull_mm3": 46.41982294615439
+    }
+  ],
+  "continuous_partial_enclosures": {
+    "vane_half_enclosing_cross_radius_mm": 8.054744331758767,
+    "upper_row_vertical_enclosure_gap_mm": 1.890511336482465,
+    "lower_row_vertical_enclosure_gap_mm": 1.890511336482465,
+    "lower_X_to_motor_seat_gap_mm": 1.7452556682412332,
+    "rotor_bottom_to_strut_top_gap_mm": 1.5625,
+    "rotor_top_to_upper_X_enclosure_gap_mm": 1.7077556682412318,
+    "motor_to_cup_radial_gap_mm": 0.5,
+    "motor_to_cup_axial_gap_mm": 0.5,
+    "rotor_swept_cylinder_to_bore_gap_mm": 0.625
+  },
+  "pin_alignment": [
+    {
+      "row": "inferior_X",
+      "angles": 181,
+      "pins": 3,
+      "max_pin_hole_axis_error_mm": 3.552713678800501e-15,
+      "exact_identity": "delta=(+/-6sin(a),6(cos(a)-1)); common angles are a kinematic constraint, not servo performance"
+    },
+    {
+      "row": "inferior_Y",
+      "angles": 181,
+      "pins": 3,
+      "max_pin_hole_axis_error_mm": 7.105427357601002e-15,
+      "exact_identity": "delta=(+/-6sin(a),6(cos(a)-1)); common angles are a kinematic constraint, not servo performance"
+    },
+    {
+      "row": "superior_X",
+      "angles": 181,
+      "pins": 3,
+      "max_pin_hole_axis_error_mm": 3.552713678800501e-15,
+      "exact_identity": "delta=(+/-6sin(a),6(cos(a)-1)); common angles are a kinematic constraint, not servo performance"
+    },
+    {
+      "row": "superior_Y",
+      "angles": 181,
+      "pins": 3,
+      "max_pin_hole_axis_error_mm": 7.105427357601002e-15,
+      "exact_identity": "delta=(+/-6sin(a),6(cos(a)-1)); common angles are a kinematic constraint, not servo performance"
+    }
+  ],
+  "geometric_interference_free_neutral": true,
+  "all_motion_and_installed_hardware_approved": false,
+  "scope": "Neutral local nominal pairs; partial analytic motion enclosures and pin alignment; not all 4DOF collision states, aircraft interactions or loaded tolerances"
+}

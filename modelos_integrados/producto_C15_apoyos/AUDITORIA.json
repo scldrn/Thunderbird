@@ -1,0 +1,63 @@
+{
+  "step_sha256": "2860f583542939c5fc87af4b292f46c19737448f2885dcabfe0931354ded3fee",
+  "object_count": 21,
+  "checks": [
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "shaft_overlap_mm3": 0.0,
+      "leaf_overlap_mm3": 0.0,
+      "intentional_shaft_leaf_overlap_mm3": 11.243875779370477
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "shaft_overlap_mm3": 0.0,
+      "leaf_overlap_mm3": 0.0,
+      "intentional_shaft_leaf_overlap_mm3": 11.243875779370477
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "shaft_overlap_mm3": 0.0,
+      "leaf_overlap_mm3": 0.0,
+      "intentional_shaft_leaf_overlap_mm3": 11.243944162946335
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "shaft_overlap_mm3": 0.0,
+      "leaf_overlap_mm3": 0.0,
+      "intentional_shaft_leaf_overlap_mm3": 11.243944162946335
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "shaft_overlap_mm3": 0.0,
+      "leaf_overlap_mm3": 0.0,
+      "intentional_shaft_leaf_overlap_mm3": 11.24384712765758
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "shaft_overlap_mm3": 0.0,
+      "leaf_overlap_mm3": 0.0,
+      "intentional_shaft_leaf_overlap_mm3": 11.24384712765758
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "shaft_overlap_mm3": 0.0,
+      "leaf_overlap_mm3": 0.0,
+      "intentional_shaft_leaf_overlap_mm3": 11.24303547109913
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "shaft_overlap_mm3": 0.0,
+      "leaf_overlap_mm3": 0.0,
+      "intentional_shaft_leaf_overlap_mm3": 11.24303547109913
+    }
+  ],
+  "scope": "local STEP validity and selected cutout overlaps; no attachment or mechanism"
+}

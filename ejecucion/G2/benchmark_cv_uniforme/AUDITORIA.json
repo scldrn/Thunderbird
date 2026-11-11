@@ -1,0 +1,95 @@
+{
+  "scope": "Manufactured saved-field postprocessing operator test; not rotor or vehicle validation",
+  "cells": 64,
+  "independent_uniform_states_m_s": [
+    3.0,
+    6.0
+  ],
+  "pressure_kinematic_m2_s2": 5.0,
+  "density_kg_m3": 1.225,
+  "verified": true,
+  "force_and_flux_checks": {
+    "inlet": {
+      "flux_m3_s": [
+        -3.0,
+        -6.0
+      ],
+      "momentum_unscaled": [
+        [
+          -9.0,
+          0.0,
+          0.0
+        ],
+        [
+          -36.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "pressure_force_N": [
+        [
+          -6.125,
+          0.0,
+          0.0
+        ],
+        [
+          -6.125,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    "outlet": {
+      "flux_m3_s": [
+        3.0,
+        6.0
+      ],
+      "momentum_unscaled": [
+        [
+          9.0,
+          0.0,
+          0.0
+        ],
+        [
+          36.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "pressure_force_N": [
+        [
+          6.125,
+          0.0,
+          0.0
+        ],
+        [
+          6.125,
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  },
+  "field_reload_across_saved_states_verified": true,
+  "physical_acceleration_inferred": false,
+  "all_boundary_force_and_moment_zero_verified": true,
+  "case_sha256": {
+    "0/U": "372df3db4efada3de4b2f8c7cea57c07314355b21c1ab38b36762aaf6036fe7e",
+    "0/phi": "a860f43a034791677bef953724d97eb29068ec6b60f760e03312258403f7bd2d",
+    "0/p": "dd7e43f020ca7821f0f4dcd292124d48842ed109a906fe9123aeac7592e388d5",
+    "1/U": "3eb9494ccb9cc841dd812f54999c74116d7982f825705c8c4256133f63e12089",
+    "1/phi": "8ed40abf1e7c3308659dad93824cb89d116c62ea9f180ad7d6957d6373823586",
+    "1/p": "dd7e43f020ca7821f0f4dcd292124d48842ed109a906fe9123aeac7592e388d5",
+    "constant/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+    "constant/physicalProperties": "d6d9cace34023d97b513158c9d75adbc0a05d240bdd4ad88f414ade47c8e4477",
+    "constant/polyMesh/owner": "5ab985b60ef4853a028cbe430e2e4d70867d7460c862e9e5fad3171a2da9d6fc",
+    "constant/polyMesh/boundary": "fa8d684f00503a80fdf74b3e6fdb0c6f8c8ef10ea4d9e18b418f5a470cf2117e",
+    "constant/polyMesh/neighbour": "fb37a6b51f8b7b445203e93181ba39522d6adc2341cae5ccc7d6c0e9beaa44f3",
+    "constant/polyMesh/points": "ff4c58667e6870faac7d5f9d61c74342b7742cc829e17e412209773c37518804",
+    "constant/polyMesh/faces": "7d4bb8947e5b8357956757059ece9f46967e9c58b5e8388ce63c9d511fcdd8e5",
+    "system/fvSchemes": "011126108010484e4c6286fdf65b427abb3d3a5f48df55c5f0636f350beab498",
+    "system/fvSolution": "f57618533fb98553ff63097520c0633f3b44a8c38c078fb91387cefead66f2c4",
+    "system/blockMeshDict": "0a1789413d63c1a4d0760433c18e3de706d11727a73ced20b95e91f8e09d4b14",
+    "system/controlDict": "74962ee95190ab31a8c67ea5ebb596a7cbe631374f8f714468395166e783d1e8"
+  }
+}

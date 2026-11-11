@@ -1,0 +1,57 @@
+{
+  "version_esquema": "1.0.0",
+  "id_contrato": "SINTETICO_PSD_PERO_NO_FISICO_006",
+  "fecha": "2026-11-08",
+  "descripcion": "Ejemplo sintético que demuestra por qué la condición PSD es necesaria pero no suficiente para aceptar una medición física ni demuestra todas las restricciones de un cuerpo físico.",
+  "unidades_canonicas": {
+    "masa": "kg",
+    "longitud": "m",
+    "inercia": "kg m^2",
+    "angulo": "rad"
+  },
+  "masa": {
+    "valor_kg": 5.0,
+    "unidad": "kg",
+    "trazabilidad": {
+      "naturaleza": "medido",
+      "fuente": "ensayo_sintetico_con_error_calibracion",
+      "metodo": "pendulo_con_friccion_o_acoplamiento_espurio",
+      "fecha": "2026-11-08",
+      "incertidumbre": "±0.05 kg m^2",
+      "notas": "Medición aparente con sesgo experimental no corregido."
+    }
+  },
+  "posicion_cg": {
+    "valor_m": [0.0, 0.0, 0.0],
+    "unidad": "m",
+    "marco_referencia": "CAD",
+    "origen_referencia": "CAD_DATUM",
+    "trazabilidad": {
+      "naturaleza": "medido",
+      "fuente": "ensayo_sintetico_con_error_calibracion",
+      "metodo": "banco_estatico",
+      "fecha": "2026-11-08",
+      "incertidumbre": null,
+      "notas": "CG medido nominal."
+    }
+  },
+  "tensor_inercia_cg": {
+    "valor_kg_m2": [
+      [0.200, 0.000, 0.000],
+      [0.000, 0.050, 0.000],
+      [0.000, 0.000, 0.050]
+    ],
+    "unidad": "kg m^2",
+    "marco_referencia": "CAD",
+    "respecto_al_cg": true,
+    "trazabilidad": {
+      "naturaleza": "medido",
+      "fuente": "ensayo_sintetico_con_error_calibracion",
+      "metodo": "pendulo_con_friccion_o_acoplamiento_espurio",
+      "fecha": "2026-11-08",
+      "incertidumbre": null,
+      "notas": "Tensor estrictamente PSD (todos sus menores principales son estrictamente positivos: M00=0.2, M11=0.05, M22=0.05, M01=0.01, det=0.0005 > 0). Sin embargo, viola la desigualdad triangular física: I_yy + I_zz = 0.100 < 0.200 = I_xx. Ningún cuerpo físico real tridimensional puede poseer esta distribución de inercia."
+    }
+  },
+  "notas_adicionales": "Demuestra que la energía cinética T >= 0 (garantizada por PSD) es solo un requisito cinético mínimo, insuficiente por sí mismo para validar que los datos corresponden a un cuerpo físico rígido real."
+}

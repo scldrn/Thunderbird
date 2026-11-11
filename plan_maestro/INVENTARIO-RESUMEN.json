@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-02",
+  "timezone": "America/Bogota",
+  "total": 547,
+  "by_type": {
+    ".md": 76,
+    ".json": 322,
+    ".py": 149
+  },
+  "by_group": {
+    "informes_y_scripts_raiz": 51,
+    "CFD": 130,
+    "fuentes": 1,
+    "integracion_apps": 8,
+    "modelos_integrados": 291,
+    "resultados": 40,
+    "simulacion_vuelo_A": 15,
+    "vuelo_rapido_visual": 11
+  },
+  "targeted_review_count": 16,
+  "json_parse_errors": [],
+  "note": "Exhaustive index of selected text types outside excluded caches/plan. Lexical flags are not evidence grades. Targeted sections reviewed; not every source scientifically revalidated."
+}

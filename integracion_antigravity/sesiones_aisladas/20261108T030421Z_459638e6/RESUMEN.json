@@ -1,0 +1,14 @@
+{
+  "inicio_utc": "2026-11-08T03:04:21.924664+00:00",
+  "estado": "completado",
+  "tareas": [
+    "prueba_escritura"
+  ],
+  "trabajadores": 1,
+  "workspace_temporal": "/private/tmp/aero_20261108T030421Z_459638e6_ig8whjn2",
+  "fin_utc": "2026-11-08T03:04:44.531953+00:00",
+  "recolectadas": 1,
+  "requieren_revision": [
+    "prueba_escritura"
+  ]
+}

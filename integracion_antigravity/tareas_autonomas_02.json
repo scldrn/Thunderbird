@@ -1,0 +1,30 @@
+{
+  "descripcion": "Cinco frentes independientes adicionales, con fuentes locales y sin red.",
+  "tareas": [
+    {
+      "id": "reversibilidad_necesaria",
+      "entradas": ["investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME-VERTICAL.md", "investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md"],
+      "instruccion": "Deriva condiciones de fuerza descendente para actitud fija y gravedad, con cuatro módulos ideales que pueden ejercer una fuerza descendente limitada R por módulo. Para masas 2,5,10 kg y aceleraciones descendentes netas 1.2g,2g,5g, calcula la condición R>=m*g*(n-1)/4 para el caso simétrico sin otras fuerzas. Añade pruebas dimensionales y de equilibrio, tabla y reporte en salidas/. No afirmes que la arquitectura actual dispone de reversa ni que una condición estática valida dinámica; declara omisiones y no cambies la selección de ventiladores internos."
+    },
+    {
+      "id": "potencia_disco_avance",
+      "entradas": ["investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md"],
+      "instruccion": "Investiga un modelo de referencia de disco actuador aislado en flujo axial incompresible, no ductado: vi=(sqrt(V^2+2T/(rho*A))-V)/2 y potencia ideal en disco T*(V+vi). Implementa integración temporal con aceleración constante y D(v)=Dfinal*(v/V)^2, para T=mVfinal/t+D(v), masas y áreas claramente supuestas. Demuestra potencia finita en V=0 y compara trabajo para escenarios hipotéticos con el modelo previo; incluye tests analíticos y convergencia numérica, tabla e informe en salidas/. No lo llames modelo validado de reactor, ducto ni cota universal transónica; Mach alto invalida la aproximación incompresible."
+    },
+    {
+      "id": "escalado_2_5_10",
+      "entradas": ["investigacion-aeronautica/configuraciones/C02_CANDIDATA.json", "investigacion-aeronautica/ejecucion/G1/REFERENCIA_DISCO.csv"],
+      "instruccion": "Construye una comparación condicional 2,5,10 kg de escalado geométrico semejante partiendo de rotor D82 del caso de referencia de 5 kg: D proporcional a m^(1/3), cuatro discos abiertos ideales, área y potencia de estacionario por teoría de cantidad de movimiento a rho=1.225. Separa resultados matemáticos de diseño real, compara con los diámetros del CSV previo y explica cualquier diferencia de base D82 vs D84. Entrega script, pruebas ejecutadas, tabla e informe en salidas/. No llames a ese escalado diseño de las variantes ni cota universal de un ventilador entubado."
+    },
+    {
+      "id": "contraste_nasa_edf",
+      "entradas": ["investigacion-aeronautica/fuentes/uiuc_propdb/NOTA-NASA-EDF.md", "investigacion-aeronautica/ejecucion/G3/C02/INFORME-C02.md"],
+      "instruccion": "Compara de forma trazable la nota NASA y el C02: convierte 5.11 pulgadas a mm, 21.25 lbf a N y compara diámetros y masas reportadas, sin suponer que extremos de empuje y potencia NASA sean el mismo punto. Distingue fuente primaria NASA https://ntrs.nasa.gov/api/citations/20230017299/downloads/Weinstein_SciTech2024_Final.pdf?attachment=true de la nota copiada; la sesión no dispone del PDF completo. Produce script de conversiones, pruebas, tabla e informe en salidas/. No afirmes que el motor NASA quepa en C02 ni escales su curva como medición C02."
+    },
+    {
+      "id": "margen_control_estatico",
+      "entradas": ["investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME.md", "investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME-VERTICAL.md"],
+      "instruccion": "Calcula una sensibilidad estática ilustrativa de reservar 0%,10%,20% del límite nominal de fuerza por módulo para maniobras/perturbaciones, tratando la reserva como reducción conservadora del límite utilizable y no como garantía dinámica. Usa 5 kg, xcg=0,0.04,0.08,0.096 m, x de módulos ±0.16 m y Fmax nominal=20.58/25 N. Verifica equilibrio y límites analíticos; entrega script, tests ejecutados, CSV e informe en salidas/. No equipares reserva de fuerza escalar con márgenes simultáneos de momento, potencia o dinámica."
+    }
+  ]
+}

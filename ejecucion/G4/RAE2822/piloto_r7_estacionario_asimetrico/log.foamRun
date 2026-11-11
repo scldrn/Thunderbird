@@ -1,0 +1,142 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamRun
+Date   : Nov 03 2026
+Time   : 22:25:57
+Host   : "54f6b899e889"
+PID    : 402
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting solver fluid
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       sutherland;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting turbulence model type RAS
+    Selecting RAS turbulence model kOmegaSST
+No MRF models present
+
+Selecting patchDistMethod meshWave
+Selecting thermophysical transport type RAS
+Selecting default RAS thermophysical transport model unityLewisEddyDiffusivity
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: Operating solver in steady-state mode with 1 outer corrector
+PIMPLE: Operating solver in SIMPLE mode
+
+
+
+Starting time loop
+
+volFieldValue max_velocity read:
+    number of cells = 365478
+    volume = 0.585458041651
+    operation = maxMag
+
+volFieldValue min_scalars read:
+    number of cells = 365478
+    volume = 0.585458041651
+    operation = min
+
+volFieldValue max_scalars read:
+    number of cells = 365478
+    volume = 0.585458041651
+    operation = max
+
+surfaceFieldValue mass_farfield read:
+    number of faces = 441
+    area = 0.112920539458
+    operation = sum
+
+surfaceFieldValue mass_outlet read:
+    number of faces = 69
+    area = 0.0476612197741
+    operation = sum
+
+volFieldValue max_velocity write:
+    maxMag(all) of U = 233.622763113 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+
+volFieldValue min_scalars write:
+    min(all) of p = 108987.772751 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of T = 255.555555556 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of rho = 1.48569717592 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of k = 0.0818693931666 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of omega = 7473.16909563 at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+
+Time = 1s
+
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.999999449878, Final residual = 0.0118465525099, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.999998930023, Final residual = 0.0406274145472, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.999999248179, Final residual = 0.00841206023735, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.999999998625, Final residual = 7.7637330413e+26, No Iterations 500
+GAMG:  Solving for p, Initial residual = 0.526805937483, Final residual = 1.46169012783e+28, No Iterations 500
+time step continuity errors : sum local = 3.01255205947e+54, global = -8.96632717948e+53, cumulative = -8.96632717948e+53
+DILUPBiCGStab:  Solving for omega, Initial residual = 1, Final residual = 0.0348419968449, No Iterations 1
+DILUPBiCGStab:  Solving for k, Initial residual = 0.999999999998, Final residual = 5.09439441623e-17, No Iterations 1
+bounding k, min: -0.433907783783 max: 0.597646570116 average: 0.592861298
+ExecutionTime = 52.486859 s  ClockTime = 78 s
+
+volFieldValue max_velocity write:
+    maxMag(all) of U = 1.86586322873e+55 at location (0.000230727023455 0.00111061917265 -3.05331700301e-20) in cell 3426
+
+volFieldValue min_scalars write:
+    min(all) of p = -3.33059904248e+58 at location (0.00023389204804 0.00110933133294 3.50404514582e-21) in cell 1144
+    min(all) of T = 249.332446522 at location (0.30466412596 6.83838424553e-05 -2.5321345156e-19) in cell 6801
+    min(all) of rho = -4.52193912406e+51 at location (0.00023389204804 0.00110933133294 3.50404514582e-21) in cell 1144
+    min(all) of k = 2.22044604925e-16 at location (-0.453619426458 6.88983807634 3.0746155582e-20) in cell 364950
+    min(all) of omega = -1.41250473234e+52 at location (0.000169481028204 0.000909998825312 -4.68711988795e-20) in cell 3425
+
+Time = 2s
+
+DILUPBiCGStab:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 500
+DILUPBiCGStab:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 500
+DILUPBiCGStab:  Solving for h, Initial residual = nan, Final residual = nan, No Iterations 500
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 500
+GAMG:  Solving for p, Initial residual = nan, Final residual = nan, No Iterations 500
+time step continuity errors : sum local = nan, global = -nan, cumulative = -nan
+DILUPBiCGStab:  Solving for omega, Initial residual = nan, Final residual = nan, No Iterations 500
+DILUPBiCGStab:  Solving for k, Initial residual = nan, Final residual = nan, No Iterations 500
+ExecutionTime = 127.511 s  ClockTime = 156 s
+
+regIOobject::readIfModified() : 
+    Re-reading object controlDict from file "//case/system/controlDict"
+volFieldValue max_velocity write:
+    maxMag(all) of U = -nan at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+
+volFieldValue min_scalars write:
+    min(all) of p = nan at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of T = -nan at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of rho = nan at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of k = nan at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+    min(all) of omega = nan at location (0.312819856727 -0.00164091528028 -1.38250588551e-20) in cell 0
+
+Time = 3s
+
+DILUPBiCGStab:  Solving for Ux, Initial residual = nan, Final residual = nan, No Iterations 500
+DILUPBiCGStab:  Solving for Uy, Initial residual = nan, Final residual = nan, No Iterations 500
+DILUPBiCGStab:  Solving for h, Initial residual = nan, Final residual = nan, No Iterations 500

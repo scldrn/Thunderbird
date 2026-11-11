@@ -1,0 +1,842 @@
+{
+  "variants": [
+    {
+      "variant": "C03_5kg_cerrado",
+      "step_records": 316,
+      "native_records": 316,
+      "invalid_shapes": [],
+      "doors": {
+        "compuerta_C02_0_superior": {
+          "center_mm": [
+            -159.9969672616459,
+            -76.90507278315313,
+            94.51664426275637
+          ],
+          "volume_mm3": 7212.242340401592
+        },
+        "compuerta_C02_0_inferior": {
+          "center_mm": [
+            -160.00412957787898,
+            -76.49265323308018,
+            -75.47489594077577
+          ],
+          "volume_mm3": 6805.5026885015595
+        },
+        "compuerta_C02_1_superior": {
+          "center_mm": [
+            -159.99696685134757,
+            76.90507143128096,
+            94.51664470268537
+          ],
+          "volume_mm3": 7212.240857683994
+        },
+        "compuerta_C02_1_inferior": {
+          "center_mm": [
+            -160.00412991633178,
+            76.4926537524034,
+            -75.47488753741509
+          ],
+          "volume_mm3": 6805.508245635758
+        },
+        "compuerta_C02_2_superior": {
+          "center_mm": [
+            160.08673218623076,
+            -77.54053819664622,
+            89.2362003840629
+          ],
+          "volume_mm3": 7407.8730757793255
+        },
+        "compuerta_C02_2_inferior": {
+          "center_mm": [
+            160.14759066226057,
+            -78.12969531001517,
+            -71.21458151678429
+          ],
+          "volume_mm3": 7128.1481911956635
+        },
+        "compuerta_C02_3_superior": {
+          "center_mm": [
+            160.0867312366258,
+            77.54053742249025,
+            89.23623298015552
+          ],
+          "volume_mm3": 7407.860116597882
+        },
+        "compuerta_C02_3_inferior": {
+          "center_mm": [
+            160.14757439431142,
+            78.12964756341428,
+            -71.21447070125967
+          ],
+          "volume_mm3": 7128.189151224453
+        }
+      },
+      "rotors": {
+        "0": {
+          "center_mm": [
+            -160.00013961151637,
+            -75.99995226768431,
+            0.7101200844082907
+          ],
+          "volume_mm3": 4831.820775133805
+        },
+        "1": {
+          "center_mm": [
+            -160.00013967673704,
+            75.9999522174566,
+            0.7101108490831335
+          ],
+          "volume_mm3": 4831.822573679653
+        },
+        "2": {
+          "center_mm": [
+            159.99986032323434,
+            -76.00004778254063,
+            0.7101108490753089
+          ],
+          "volume_mm3": 4831.822573692342
+        },
+        "3": {
+          "center_mm": [
+            159.99986038845384,
+            76.000047732309,
+            0.7101200844014461
+          ],
+          "volume_mm3": 4831.820775145962
+        }
+      },
+      "door_rotor_intersections": [
+        {
+          "door": "compuerta_C02_0_superior",
+          "rotor": "0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_0_inferior",
+          "rotor": "0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_1_superior",
+          "rotor": "1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_1_inferior",
+          "rotor": "1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_2_superior",
+          "rotor": "2",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_2_inferior",
+          "rotor": "2",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_3_superior",
+          "rotor": "3",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_3_inferior",
+          "rotor": "3",
+          "overlap_mm3": 0.0
+        }
+      ],
+      "door_center_error_mm": {},
+      "rotor_center_motion_mm": {},
+      "step_native_volume_differences": [
+        {
+          "part": "aro_C02_0_inferior",
+          "relative_volume_error": 6.85736829455137e-05
+        },
+        {
+          "part": "aro_C02_1_inferior",
+          "relative_volume_error": 2.637256198102007e-05
+        },
+        {
+          "part": "aro_C02_2_superior",
+          "relative_volume_error": 4.602001996915266e-05
+        },
+        {
+          "part": "junta_C02_0_inferior",
+          "relative_volume_error": 0.0003348257747873262
+        },
+        {
+          "part": "junta_C02_1_inferior",
+          "relative_volume_error": 0.00012249971890459688
+        },
+        {
+          "part": "junta_C02_2_superior",
+          "relative_volume_error": 0.00011260022319435086
+        },
+        {
+          "part": "modulo_C02_0_rotor_copa",
+          "relative_volume_error": 2.5613968844399557e-05
+        },
+        {
+          "part": "modulo_C02_1_camisa_cuna_y_soportes",
+          "relative_volume_error": 2.818112657032114e-05
+        },
+        {
+          "part": "modulo_C02_1_rotor_copa",
+          "relative_volume_error": 2.1245474065916335e-05
+        },
+        {
+          "part": "modulo_C02_2_rotor_copa",
+          "relative_volume_error": 2.124547757066667e-05
+        },
+        {
+          "part": "modulo_C02_3_camisa_cuna_y_soportes",
+          "relative_volume_error": 2.876426837767636e-05
+        },
+        {
+          "part": "modulo_C02_3_rotor_copa",
+          "relative_volume_error": 2.5613965953266996e-05
+        }
+      ]
+    },
+    {
+      "variant": "C03_5kg_abierto",
+      "step_records": 316,
+      "native_records": 316,
+      "invalid_shapes": [],
+      "doors": {
+        "compuerta_C02_0_superior": {
+          "center_mm": [
+            -159.99696726164584,
+            -165.0467393169645,
+            113.1543517562411
+          ],
+          "volume_mm3": 7212.242340401584
+        },
+        "compuerta_C02_0_inferior": {
+          "center_mm": [
+            -160.00412957787887,
+            -158.63975769946518,
+            -103.85171761897264
+          ],
+          "volume_mm3": 6805.502688501552
+        },
+        "compuerta_C02_1_superior": {
+          "center_mm": [
+            -159.99696685134757,
+            165.04674019276013,
+            113.15435287615071
+          ],
+          "volume_mm3": 7212.240857683993
+        },
+        "compuerta_C02_1_inferior": {
+          "center_mm": [
+            -160.00412991633183,
+            158.63974962523014,
+            -103.85172000508695
+          ],
+          "volume_mm3": 6805.508245635754
+        },
+        "compuerta_C02_2_superior": {
+          "center_mm": [
+            160.08673218623056,
+            -172.14827960898106,
+            96.82431860113243
+          ],
+          "volume_mm3": 7407.873075779373
+        },
+        "compuerta_C02_2_inferior": {
+          "center_mm": [
+            160.1475906622605,
+            -167.43553448942916,
+            -84.69179372546799
+          ],
+          "volume_mm3": 7128.148191195674
+        },
+        "compuerta_C02_3_superior": {
+          "center_mm": [
+            160.0867312366257,
+            172.14831050397586,
+            96.82430818022064
+          ],
+          "volume_mm3": 7407.860116597865
+        },
+        "compuerta_C02_3_inferior": {
+          "center_mm": [
+            160.14757439431148,
+            167.43544668765765,
+            -84.69187649303811
+          ],
+          "volume_mm3": 7128.189151224439
+        }
+      },
+      "rotors": {
+        "0": {
+          "center_mm": [
+            -160.00013961151637,
+            -75.99995226768431,
+            0.7101200844082907
+          ],
+          "volume_mm3": 4831.820775133805
+        },
+        "1": {
+          "center_mm": [
+            -160.00013967673704,
+            75.9999522174566,
+            0.7101108490831335
+          ],
+          "volume_mm3": 4831.822573679653
+        },
+        "2": {
+          "center_mm": [
+            159.99986032323434,
+            -76.00004778254063,
+            0.7101108490753089
+          ],
+          "volume_mm3": 4831.822573692342
+        },
+        "3": {
+          "center_mm": [
+            159.99986038845384,
+            76.000047732309,
+            0.7101200844014461
+          ],
+          "volume_mm3": 4831.820775145962
+        }
+      },
+      "door_rotor_intersections": [
+        {
+          "door": "compuerta_C02_0_superior",
+          "rotor": "0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_0_inferior",
+          "rotor": "0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_1_superior",
+          "rotor": "1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_1_inferior",
+          "rotor": "1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_2_superior",
+          "rotor": "2",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_2_inferior",
+          "rotor": "2",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_3_superior",
+          "rotor": "3",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_3_inferior",
+          "rotor": "3",
+          "overlap_mm3": 0.0
+        }
+      ],
+      "door_center_error_mm": {
+        "compuerta_C02_0_superior": 8.001174116800646e-11,
+        "compuerta_C02_0_inferior": 3.8235125272040903e-11,
+        "compuerta_C02_1_superior": 3.5096104564136654e-11,
+        "compuerta_C02_1_inferior": 8.153189305219691e-11,
+        "compuerta_C02_2_superior": 4.233889434730993e-11,
+        "compuerta_C02_2_inferior": 6.675477872183726e-11,
+        "compuerta_C02_3_superior": 3.5871586576276485e-11,
+        "compuerta_C02_3_inferior": 1.1380907062659645e-10
+      },
+      "rotor_center_motion_mm": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "step_native_volume_differences": [
+        {
+          "part": "aro_C02_0_inferior",
+          "relative_volume_error": 6.85736829455137e-05
+        },
+        {
+          "part": "aro_C02_1_inferior",
+          "relative_volume_error": 2.637256198102007e-05
+        },
+        {
+          "part": "aro_C02_2_superior",
+          "relative_volume_error": 4.602001996915266e-05
+        },
+        {
+          "part": "junta_C02_0_inferior",
+          "relative_volume_error": 0.0003348257747873262
+        },
+        {
+          "part": "junta_C02_1_inferior",
+          "relative_volume_error": 0.00012249971890459688
+        },
+        {
+          "part": "junta_C02_2_superior",
+          "relative_volume_error": 0.00011260022319435086
+        },
+        {
+          "part": "modulo_C02_0_rotor_copa",
+          "relative_volume_error": 2.5613968844399557e-05
+        },
+        {
+          "part": "modulo_C02_1_camisa_cuna_y_soportes",
+          "relative_volume_error": 2.818112657032114e-05
+        },
+        {
+          "part": "modulo_C02_1_rotor_copa",
+          "relative_volume_error": 2.1245474065916335e-05
+        },
+        {
+          "part": "modulo_C02_2_rotor_copa",
+          "relative_volume_error": 2.124547757066667e-05
+        },
+        {
+          "part": "modulo_C02_3_camisa_cuna_y_soportes",
+          "relative_volume_error": 2.876426837767636e-05
+        },
+        {
+          "part": "modulo_C02_3_rotor_copa",
+          "relative_volume_error": 2.5613965953266996e-05
+        }
+      ]
+    },
+    {
+      "variant": "C03_10kg_cerrado",
+      "step_records": 316,
+      "native_records": 316,
+      "invalid_shapes": [],
+      "doors": {
+        "compuerta_C02_0_superior": {
+          "center_mm": [
+            -201.58354697214247,
+            -96.89432004304734,
+            119.08350967212164
+          ],
+          "volume_mm3": 14424.484680512898
+        },
+        "compuerta_C02_0_inferior": {
+          "center_mm": [
+            -201.59257092676054,
+            -96.37470397296558,
+            -95.09241013385225
+          ],
+          "volume_mm3": 13611.00537586273
+        },
+        "compuerta_C02_1_superior": {
+          "center_mm": [
+            -201.5835464552281,
+            96.89431833994738,
+            119.08351022631314
+          ],
+          "volume_mm3": 14424.481715366559
+        },
+        "compuerta_C02_1_inferior": {
+          "center_mm": [
+            -201.59257135288837,
+            96.374704627314,
+            -95.09239954751479
+          ],
+          "volume_mm3": 13611.016492960702
+        },
+        "compuerta_C02_2_superior": {
+          "center_mm": [
+            201.69664369035482,
+            -97.69495629462673,
+            112.43056727646618
+          ],
+          "volume_mm3": 14815.746151312163
+        },
+        "compuerta_C02_2_inferior": {
+          "center_mm": [
+            201.77332056521325,
+            -98.437247743117,
+            -89.72475031239779
+          ],
+          "volume_mm3": 14256.296382293724
+        },
+        "compuerta_C02_3_superior": {
+          "center_mm": [
+            201.6966424939385,
+            97.6949553186907,
+            112.43060834494204
+          ],
+          "volume_mm3": 14815.720233182677
+        },
+        "compuerta_C02_3_inferior": {
+          "center_mm": [
+            201.77330006904543,
+            98.43718758577418,
+            -89.72461069354853
+          ],
+          "volume_mm3": 14256.37830234164
+        }
+      },
+      "rotors": {
+        "0": {
+          "center_mm": [
+            -201.5875438826242,
+            -95.75393965305409,
+            0.8946952423004544
+          ],
+          "volume_mm3": 9663.64155026597
+        },
+        "1": {
+          "center_mm": [
+            -201.58754396480052,
+            95.75393958977807,
+            0.8946836065201762
+          ],
+          "volume_mm3": 9663.64514735467
+        },
+        "2": {
+          "center_mm": [
+            201.58719200147056,
+            -95.75405999423339,
+            0.8946836065097984
+          ],
+          "volume_mm3": 9663.645147380852
+        },
+        "3": {
+          "center_mm": [
+            201.58719208365002,
+            95.75405993094778,
+            0.8946952422918923
+          ],
+          "volume_mm3": 9663.641550290544
+        }
+      },
+      "door_rotor_intersections": [
+        {
+          "door": "compuerta_C02_0_superior",
+          "rotor": "0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_0_inferior",
+          "rotor": "0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_1_superior",
+          "rotor": "1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_1_inferior",
+          "rotor": "1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_2_superior",
+          "rotor": "2",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_2_inferior",
+          "rotor": "2",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_3_superior",
+          "rotor": "3",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_3_inferior",
+          "rotor": "3",
+          "overlap_mm3": 0.0
+        }
+      ],
+      "door_center_error_mm": {},
+      "rotor_center_motion_mm": {},
+      "step_native_volume_differences": [
+        {
+          "part": "aro_C02_0_inferior",
+          "relative_volume_error": 6.857281409707357e-05
+        },
+        {
+          "part": "aro_C02_1_inferior",
+          "relative_volume_error": 2.6380031326792944e-05
+        },
+        {
+          "part": "aro_C02_2_superior",
+          "relative_volume_error": 4.602034922446104e-05
+        },
+        {
+          "part": "junta_C02_0_inferior",
+          "relative_volume_error": 0.00033482417403904257
+        },
+        {
+          "part": "junta_C02_1_inferior",
+          "relative_volume_error": 0.00012245093989338986
+        },
+        {
+          "part": "junta_C02_2_superior",
+          "relative_volume_error": 0.00011260016319421048
+        },
+        {
+          "part": "modulo_C02_0_rotor_copa",
+          "relative_volume_error": 2.561396901737862e-05
+        },
+        {
+          "part": "modulo_C02_1_camisa_cuna_y_soportes",
+          "relative_volume_error": 2.8181123265751295e-05
+        },
+        {
+          "part": "modulo_C02_1_rotor_copa",
+          "relative_volume_error": 2.124547358497805e-05
+        },
+        {
+          "part": "modulo_C02_2_rotor_copa",
+          "relative_volume_error": 2.124547717311612e-05
+        },
+        {
+          "part": "modulo_C02_3_camisa_cuna_y_soportes",
+          "relative_volume_error": 2.8764268865667622e-05
+        },
+        {
+          "part": "modulo_C02_3_rotor_copa",
+          "relative_volume_error": 2.5613966098200503e-05
+        }
+      ]
+    },
+    {
+      "variant": "C03_10kg_abierto",
+      "step_records": 316,
+      "native_records": 316,
+      "invalid_shapes": [],
+      "doors": {
+        "compuerta_C02_0_superior": {
+          "center_mm": [
+            -201.58354697212394,
+            -207.94586108212803,
+            142.5655496650054
+          ],
+          "volume_mm3": 14424.484680492056
+        },
+        "compuerta_C02_0_inferior": {
+          "center_mm": [
+            -201.5925709266448,
+            -199.87357007407053,
+            -130.84496509241808
+          ],
+          "volume_mm3": 13611.00537428298
+        },
+        "compuerta_C02_1_superior": {
+          "center_mm": [
+            -201.58354645533115,
+            207.94586218543577,
+            142.56555107592382
+          ],
+          "volume_mm3": 14424.481715361462
+        },
+        "compuerta_C02_1_inferior": {
+          "center_mm": [
+            -201.5925713496454,
+            199.87355990292664,
+            -130.84496810524155
+          ],
+          "volume_mm3": 13611.016489305866
+        },
+        "compuerta_C02_2_superior": {
+          "center_mm": [
+            201.6966436902864,
+            -216.8932411825051,
+            121.9909971472826
+          ],
+          "volume_mm3": 14815.746151565112
+        },
+        "compuerta_C02_2_inferior": {
+          "center_mm": [
+            201.77332056518358,
+            -210.95555440455954,
+            -106.70497366948702
+          ],
+          "volume_mm3": 14256.296382962355
+        },
+        "compuerta_C02_3_superior": {
+          "center_mm": [
+            201.69664249379977,
+            216.89328010778098,
+            121.99098401734263
+          ],
+          "volume_mm3": 14815.720233466618
+        },
+        "compuerta_C02_3_inferior": {
+          "center_mm": [
+            201.77330006186705,
+            210.95544378600385,
+            -106.70507794804823
+          ],
+          "volume_mm3": 14256.378313584855
+        }
+      },
+      "rotors": {
+        "0": {
+          "center_mm": [
+            -201.5875438826242,
+            -95.75393965305409,
+            0.8946952423004544
+          ],
+          "volume_mm3": 9663.64155026597
+        },
+        "1": {
+          "center_mm": [
+            -201.58754396480052,
+            95.75393958977807,
+            0.8946836065201762
+          ],
+          "volume_mm3": 9663.64514735467
+        },
+        "2": {
+          "center_mm": [
+            201.58719200147056,
+            -95.75405999423339,
+            0.8946836065097984
+          ],
+          "volume_mm3": 9663.645147380852
+        },
+        "3": {
+          "center_mm": [
+            201.58719208365002,
+            95.75405993094778,
+            0.8946952422918923
+          ],
+          "volume_mm3": 9663.641550290544
+        }
+      },
+      "door_rotor_intersections": [
+        {
+          "door": "compuerta_C02_0_superior",
+          "rotor": "0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_0_inferior",
+          "rotor": "0",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_1_superior",
+          "rotor": "1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_1_inferior",
+          "rotor": "1",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_2_superior",
+          "rotor": "2",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_2_inferior",
+          "rotor": "2",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_3_superior",
+          "rotor": "3",
+          "overlap_mm3": 0.0
+        },
+        {
+          "door": "compuerta_C02_3_inferior",
+          "rotor": "3",
+          "overlap_mm3": 0.0
+        }
+      ],
+      "door_center_error_mm": {
+        "compuerta_C02_0_superior": 5.0684674368821175e-11,
+        "compuerta_C02_0_inferior": 1.5803471788657593e-09,
+        "compuerta_C02_1_superior": 1.1283030612852924e-10,
+        "compuerta_C02_1_inferior": 6.2856662874201425e-09,
+        "compuerta_C02_2_superior": 4.3648310929253737e-10,
+        "compuerta_C02_2_inferior": 1.7752287234978196e-09,
+        "compuerta_C02_3_superior": 5.521979145671897e-10,
+        "compuerta_C02_3_inferior": 9.181007893086716e-09
+      },
+      "rotor_center_motion_mm": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0
+      },
+      "step_native_volume_differences": [
+        {
+          "part": "aro_C02_0_inferior",
+          "relative_volume_error": 6.857281409707357e-05
+        },
+        {
+          "part": "aro_C02_1_inferior",
+          "relative_volume_error": 2.6380031326792944e-05
+        },
+        {
+          "part": "aro_C02_2_superior",
+          "relative_volume_error": 4.602034922446104e-05
+        },
+        {
+          "part": "junta_C02_0_inferior",
+          "relative_volume_error": 0.00033482417403904257
+        },
+        {
+          "part": "junta_C02_1_inferior",
+          "relative_volume_error": 0.00012245093989338986
+        },
+        {
+          "part": "junta_C02_2_superior",
+          "relative_volume_error": 0.00011260016319421048
+        },
+        {
+          "part": "modulo_C02_0_rotor_copa",
+          "relative_volume_error": 2.561396901737862e-05
+        },
+        {
+          "part": "modulo_C02_1_camisa_cuna_y_soportes",
+          "relative_volume_error": 2.8181123265751295e-05
+        },
+        {
+          "part": "modulo_C02_1_rotor_copa",
+          "relative_volume_error": 2.124547358497805e-05
+        },
+        {
+          "part": "modulo_C02_2_rotor_copa",
+          "relative_volume_error": 2.124547717311612e-05
+        },
+        {
+          "part": "modulo_C02_3_camisa_cuna_y_soportes",
+          "relative_volume_error": 2.8764268865667622e-05
+        },
+        {
+          "part": "modulo_C02_3_rotor_copa",
+          "relative_volume_error": 2.5613966098200503e-05
+        }
+      ]
+    }
+  ],
+  "errors": [
+    "C03_5kg_cerrado: labels absent in native document ['carroceria_C02_inferior006', 'carroceria_C02_superior008']",
+    "C03_5kg_cerrado: STEP/FCStd volume differences [{'part': 'aro_C02_0_inferior', 'relative_volume_error': 6.85736829455137e-05}, {'part': 'aro_C02_1_inferior', 'relative_volume_error': 2.637256198102007e-05}, {'part': 'aro_C02_2_superior', 'relative_volume_error': 4.602001996915266e-05}, {'part': 'junta_C02_0_inferior', 'relative_volume_error': 0.0003348257747873262}, {'part': 'junta_C02_1_inferior', 'relative_volume_error': 0.00012249971890459688}]",
+    "C03_5kg_abierto: labels absent in native document ['carroceria_C02_inferior006', 'carroceria_C02_superior008']",
+    "C03_5kg_abierto: STEP/FCStd volume differences [{'part': 'aro_C02_0_inferior', 'relative_volume_error': 6.85736829455137e-05}, {'part': 'aro_C02_1_inferior', 'relative_volume_error': 2.637256198102007e-05}, {'part': 'aro_C02_2_superior', 'relative_volume_error': 4.602001996915266e-05}, {'part': 'junta_C02_0_inferior', 'relative_volume_error': 0.0003348257747873262}, {'part': 'junta_C02_1_inferior', 'relative_volume_error': 0.00012249971890459688}]",
+    "C03_10kg_cerrado: labels absent in native document ['carroceria_C02_inferior006', 'carroceria_C02_superior008']",
+    "C03_10kg_cerrado: STEP/FCStd volume differences [{'part': 'aro_C02_0_inferior', 'relative_volume_error': 6.857281409707357e-05}, {'part': 'aro_C02_1_inferior', 'relative_volume_error': 2.6380031326792944e-05}, {'part': 'aro_C02_2_superior', 'relative_volume_error': 4.602034922446104e-05}, {'part': 'junta_C02_0_inferior', 'relative_volume_error': 0.00033482417403904257}, {'part': 'junta_C02_1_inferior', 'relative_volume_error': 0.00012245093989338986}]",
+    "C03_10kg_abierto: labels absent in native document ['carroceria_C02_inferior006', 'carroceria_C02_superior008']",
+    "C03_10kg_abierto: STEP/FCStd volume differences [{'part': 'aro_C02_0_inferior', 'relative_volume_error': 6.857281409707357e-05}, {'part': 'aro_C02_1_inferior', 'relative_volume_error': 2.6380031326792944e-05}, {'part': 'aro_C02_2_superior', 'relative_volume_error': 4.602034922446104e-05}, {'part': 'junta_C02_0_inferior', 'relative_volume_error': 0.00033482417403904257}, {'part': 'junta_C02_1_inferior', 'relative_volume_error': 0.00012245093989338986}]"
+  ]
+}

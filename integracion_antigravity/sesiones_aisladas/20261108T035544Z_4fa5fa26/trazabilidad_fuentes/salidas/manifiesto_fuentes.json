@@ -1,0 +1,205 @@
+{
+  "manifiesto_version": "1.0.0",
+  "descripcion": "Manifiesto reproducible de trazabilidad de fuentes para las tres tablas publicas UIUC y la nota técnica NASA EDF.",
+  "politica_integridad": {
+    "reglas_estrictas": [
+      "No inventar licencias ausentes o no declaradas.",
+      "No inventar fechas de descarga no registradas.",
+      "No inventar mediciones ausentes ni autores o marcas no documentados.",
+      "No llamar a la nota NASA una fuente primaria (es un resumen derivado secundario).",
+      "Distinguir formalmente datos medidos, supuestos y calculos conservando unidades y fuentes.",
+      "No inferir la inexistencia de un archivo no copiado (como NASA_EDF_20230017299.pdf).",
+      "No asumir que una reserva sin masa asignada tenga masa real nula o no nula."
+    ]
+  },
+  "archivos": [
+    {
+      "nombre": "mi_3.2x2.2_geom.txt",
+      "ruta_relativa_referencia": "entradas/investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt",
+      "tamano_bytes": 416,
+      "sha256": "a709e55616905f8e626f4d83fa05d97f2e316e684afa418de972c38301ec3b61",
+      "naturaleza": "Medicion geometrica tabulada (definicion adimensional de pala)",
+      "naturaleza_tipo": "medicion_geometrica",
+      "es_fuente_primaria": true,
+      "es_resumen_derivado": false,
+      "fuente_primaria_referenciada": null,
+      "fuente_origen": "UIUC Applied Aerodynamics Group - UIUC Propeller Database",
+      "url_primaria": "https://m-selig.ae.illinois.edu/props/propDB.html",
+      "url_recurso_directo": "https://m-selig.ae.illinois.edu/props/volume-3/data/mi_3.2x2.2_geom.txt",
+      "licencia": "No declarada en el archivo de entrada (acceso publico academico UIUC sin licencia SPDX explicita)",
+      "fecha_descarga": "No registrada en las fuentes de entrada",
+      "limites_transferencia": {
+        "descripcion": "Tabulacion geometrica normalizada de cuerda local y angulo de paso para pala de helice mi_3.2x2.2.",
+        "restricciones_aplicabilidad": [
+          "Datos puramente geometricos y adimensionales; no incluye coeficientes aerodinamicos, empuje ni potencia.",
+          "No contiene coordenadas completas de perfiles aerodinamicos (airfoils) ni espesor relativo (t/c), impidiendo reconstruccion aerodinamica 3D cerrada sin supuestos de perfil.",
+          "No contiene propiedades de masa, centro de gravedad, momento de inercia, material ni elasticidad estructural.",
+          "No es directamente escalable a helices de dimensiones diferentes sin considerar variacion de numero de Reynolds, espesores relativos y aeroelasticidad.",
+          "No es transferible a rotores entubados (como ducted fans / EDF Jetfan 130 Pro o arquitectura D82)."
+        ]
+      },
+      "distincion_metodologica": {
+        "datos_medidos": "Coordenadas dimensionales discretizadas de pala: r/R, c/R y beta en 18 estaciones radiales (0.15 a 1.00).",
+        "datos_calculados": "Normalizaciones dimensionales r/R (radio fraccionario) y c/R (cuerda fraccionaria respecto al radio total R).",
+        "supuestos": "Geometria rigida simetrica nominal para todas las palas de la helice ensayada.",
+        "unidades": {
+          "r/R": "adimensional [-]",
+          "c/R": "adimensional [-]",
+          "beta": "grados [deg]"
+        }
+      },
+      "mediciones_ausentes": [
+        "Coordenadas de perfiles aerodinamicos de pala (airfoils)",
+        "Distribucion de espesores maximos (t/c)",
+        "Masa de la helice y masa por seccion",
+        "Material de fabricacion y rigidez torsional/flexural",
+        "Incertidumbre de medicion geometrica"
+      ]
+    },
+    {
+      "nombre": "mi_3.2x2.2_static_0519rd.txt",
+      "ruta_relativa_referencia": "entradas/investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt",
+      "tamano_bytes": 583,
+      "sha256": "bfba6a17672b48b81d3fb1268c6d2156dda8070d1fb08d6a265241a82fa3a184",
+      "naturaleza": "Experimental directa (ensayo estatico a punto fijo en banco / tunel)",
+      "naturaleza_tipo": "experimental_directa",
+      "es_fuente_primaria": true,
+      "es_resumen_derivado": false,
+      "fuente_primaria_referenciada": null,
+      "fuente_origen": "UIUC Applied Aerodynamics Group - UIUC Propeller Database",
+      "url_primaria": "https://m-selig.ae.illinois.edu/props/propDB.html",
+      "url_recurso_directo": "https://m-selig.ae.illinois.edu/props/volume-3/data/mi_3.2x2.2_static_0519rd.txt",
+      "licencia": "No declarada en el archivo de entrada (acceso publico academico UIUC sin licencia SPDX explicita)",
+      "fecha_descarga": "No registrada en las fuentes de entrada",
+      "limites_transferencia": {
+        "descripcion": "Ensayos de punto fijo (J = 0) para regimen estatico entre 2.950 y 19.923,333 RPM.",
+        "restricciones_aplicabilidad": [
+          "Valido exclusivamente para velocidad de avance nula (J = 0). No transferible a condiciones de vuelo con avance (J > 0).",
+          "No contiene medicion ni definicion de rendimiento propulsivo eta (eta = 0 a punto fijo).",
+          "Valido unicamente en el rango ensayado de rotacion (2.950 a 19.923,333 RPM); extrapolacion a RPM superiores o inferiores sufre desviaciones no lineales por Reynolds y compresibilidad de punta.",
+          "No transferible a ventiladores entubados (EDF) como Jetfan 130 Pro o modulo candidato D82.",
+          "No transferible a plantas motrices distintas (ej. motor C02) ni a otras helices sin ensayo de compatibilidad."
+        ]
+      },
+      "distincion_metodologica": {
+        "datos_medidos": "Velocidad de giro del eje en revoluciones por minuto (RPM) medida con tacometro/sensor; empuje T y par Q o potencia P brutos registrados por las celdas de carga.",
+        "datos_calculados": "CT = T / (rho * n^2 * D^4) [coeficiente de empuje estatico adimensional] y CP = P / (rho * n^3 * D^5) [coeficiente de potencia estatico adimensional], calculados a partir de las lecturas brutas y la densidad rho estimada/medida en el tunel.",
+        "supuestos": "Flujo incompresible libre de perturbaciones de recirculacion de pared; atmosfera local de ensayo considerada cuasiestacionaria.",
+        "unidades": {
+          "RPM": "revoluciones por minuto [rev/min]",
+          "CT": "adimensional [-]",
+          "CP": "adimensional [-]"
+        }
+      },
+      "mediciones_ausentes": [
+        "Valores directos dimensionales de empuje (N o lbf)",
+        "Valores directos dimensionales de potencia (W) o par (N*m)",
+        "Densidad ambiental rho del ensayo",
+        "Temperatura y presion atmosferica del recinto de ensayo",
+        "Incertidumbre o dispersion experimental por punto"
+      ]
+    },
+    {
+      "nombre": "mi_3.2x2.2_0544rd_20051.txt",
+      "ruta_relativa_referencia": "entradas/investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_0544rd_20051.txt",
+      "tamano_bytes": 795,
+      "sha256": "6f3b8d49f0a4595059ea44befe8d946a6044c2a7b97e5eeeeab9051d02e22300",
+      "naturaleza": "Experimental directa (ensayo dinamico en tunel de viento con corriente incidente)",
+      "naturaleza_tipo": "experimental_directa",
+      "es_fuente_primaria": true,
+      "es_resumen_derivado": false,
+      "fuente_primaria_referenciada": null,
+      "fuente_origen": "UIUC Applied Aerodynamics Group - UIUC Propeller Database",
+      "url_primaria": "https://m-selig.ae.illinois.edu/props/propDB.html",
+      "url_recurso_directo": "https://m-selig.ae.illinois.edu/props/volume-3/data/mi_3.2x2.2_0544rd_20051.txt",
+      "licencia": "No declarada en el archivo de entrada (acceso publico academico UIUC sin licencia SPDX explicita)",
+      "fecha_descarga": "No registrada en las fuentes de entrada",
+      "limites_transferencia": {
+        "descripcion": "Rendimiento aerodinamico en avance con rotacion nominal constante (~20.051 RPM) para coeficientes de avance J en [0.044195, 0.448667].",
+        "restricciones_aplicabilidad": [
+          "Valido unicamente para regimenes proximos a la velocidad de giro ensayada (~20.051 RPM); a RPM sustancialmente distintas, el numero de Reynolds varia y altera las curvas de CT, CP y eta.",
+          "Valido exclusivamente dentro del intervalo ensayado J en [0.044195, 0.448667]. Fuera de ese rango (punto fijo J=0 o molinete/freno aerodinamico J > 0.45) no hay datos medidos y no debe extrapolarse directamente.",
+          "No transferible a sistemas entubados (EDF Jetfan 130 Pro o arquitectura D82) cuyas condiciones de contorno y difusion ductal difieren radicalmente.",
+          "No transferible a plantas motrices distintas (como motor C02)."
+        ]
+      },
+      "distincion_metodologica": {
+        "datos_medidos": "Velocidad de corriente incidente en tunel V_inf, velocidad de rotacion n [rev/s], empuje y par dinamicamente medidos en la balanza.",
+        "datos_calculados": "J = V_inf / (n * D); CT = T / (rho * n^2 * D^4); CP = P / (rho * n^3 * D^5); eta = J * CT / CP.",
+        "supuestos": "Condiciones estacionarias de flujo; correcciones por bloqueo y efectos de pared de tunel aplicadas segun estandar UIUC.",
+        "unidades": {
+          "J": "adimensional [-]",
+          "CT": "adimensional [-]",
+          "CP": "adimensional [-]",
+          "eta": "adimensional [-]"
+        }
+      },
+      "mediciones_ausentes": [
+        "Velocidad lineal de corriente de aire V_inf en m/s o ft/s",
+        "RPM instantaneas exactas para cada medicion individual (nominal 20.051 RPM en denominacion de corrida)",
+        "Parametros termodinamicos del tunel (presion estatica, temperatura de remanso, densidad del aire rho)",
+        "Nivel de turbulencia libre del flujo del tunel",
+        "Incertidumbre instrumental tabulada"
+      ]
+    },
+    {
+      "nombre": "NOTA-NASA-EDF.md",
+      "ruta_relativa_referencia": "entradas/investigacion-aeronautica/fuentes/uiuc_propdb/NOTA-NASA-EDF.md",
+      "tamano_bytes": 1699,
+      "sha256": "6da4e76950f8fc94aec9e17216fde93f2749c0e0a224ec1398394b3b96b35643",
+      "naturaleza": "Resumen derivado (documento secundario / nota tecnica interna)",
+      "naturaleza_tipo": "resumen_derivado",
+      "es_fuente_primaria": false,
+      "es_resumen_derivado": true,
+      "fuente_primaria_referenciada": {
+        "cita": "Weinstein y colaboradores, NASA/AIAA, 2024, NTRS 20230017299",
+        "url_documento_primario": "https://ntrs.nasa.gov/api/citations/20230017299/downloads/Weinstein_SciTech2024_Final.pdf?attachment=true",
+        "url_citacion_ntrs": "https://ntrs.nasa.gov/citations/20230017299",
+        "archivo_original_conservado_mencionado": "NASA_EDF_20230017299.pdf"
+      },
+      "fuente_origen": "Resumen derivado secundario interno basado en publicacion NASA/AIAA SciTech 2024 (NTRS 20230017299)",
+      "url_primaria": "https://ntrs.nasa.gov/api/citations/20230017299/downloads/Weinstein_SciTech2024_Final.pdf?attachment=true",
+      "licencia": "No declarada en el archivo de entrada (el reporte de NASA NTRS es de acceso publico gubernamental de EE.UU., pero el archivo markdown local no declara licencia SPDX explicita)",
+      "fecha_descarga": "No registrada en las fuentes de entrada",
+      "limites_transferencia": {
+        "descripcion": "Nota tecnica derivada que resume los ensayos aislados del ventilador electrico Jetfan 130 Pro para el concepto SUSAN en el tunel de baja velocidad de 12 pies de NASA Langley.",
+        "restricciones_aplicabilidad": [
+          "NO ES FUENTE PRIMARIA: Es un resumen secundario local. Para cualquier valor cuantitativo, grafica o comprobacion adicional se requiere consultar el documento primario original (Weinstein et al., 2024, NTRS 20230017299).",
+          "El rotor ensayado (Jetfan 130 Pro: 10 palas, 7 alabes fijos, diametro de pala 5,11 pulgadas, diametro exterior de conducto 5,23 pulgadas) es mas grande y fisicamente distinto al modulo candidato D82.",
+          "NO se transfiere la curva de rendimiento, el empuje, la eficiencia, la masa ni la respuesta dinamica de esta unidad al vehiculo ni al modulo D82.",
+          "El motor indicado en el ensayo (1.100 g de masa, 56 mm de diametro, 7 kW de potencia continua maxima nominal) NO es el motor C02. No se transfiere su masa ni sus caracteristicas.",
+          "Los extremos tabulados en la Tabla 6 (velocidad 2.875 a 25.150 rpm, empuje estatico 0 a 21,25 lbf, potencia 190 a 6.420 W) describen la envolvente del conjunto de pruebas y NO se asumen medidos en un mismo punto de operacion simultaneo.",
+          "La potencia del modelo de la seccion G corresponde a potencia electrica de corriente continua suministrada al conjunto en ensayos de incidencia (0 a 30 deg) y presion dinamica (0 a 6 psf).",
+          "La respuesta de segundo orden ajustada en la Seccion VI.D para la velocidad del motor depende de la rampa del controlador y del escalon de ese ensayo especifico; ni la configuracion ni sus tiempos se transfieren al C02."
+        ]
+      },
+      "distincion_metodologica": {
+        "datos_medidos": "Dimensiones fisicas declaradas de pala (5,11 pulgadas) y conducto exterior (5,23 pulgadas); masa del motor ensayado (1.100 g); diametro exterior del motor (56 mm); potencia continua maxima nominal (7 kW); rangos de velocidad del ventilador (2.875-25.150 rpm); rango de empuje estatico (0-21,25 lbf); rango de potencia electrica CC (190-6.420 W); rango de angulos de incidencia (0 a 30 deg); rango de presion dinamica (0 a 6 psf).",
+        "datos_calculados": "Modelo de ajuste de respuesta dinamica de segundo orden ajustado para velocidad de motor por los autores del informe (Seccion VI.D).",
+        "supuestos": "Los extremos de la Tabla 6 no ocurren simultaneamente en una sola condicion de ensayo; no asumir que los valores de masa o respuesta del Jetfan 130 Pro apliquen a C02 o D82.",
+        "unidades": {
+          "diametro_pala": "pulgadas [in]",
+          "diametro_exterior_conducto": "pulgadas [in]",
+          "masa_motor": "gramos [g]",
+          "diametro_motor": "milimetros [mm]",
+          "potencia_continua_nominal": "kilovatios [kW]",
+          "velocidad_ventilador": "revoluciones por minuto [rpm]",
+          "empuje_estatico": "libras-fuerza [lbf]",
+          "potencia_electrica_cc": "vatios [W]",
+          "angulo_incidencia": "grados [deg]",
+          "presion_dinamica": "libras por pie cuadrado [psf]"
+        }
+      },
+      "mediciones_ausentes": [
+        "Puntos de operacion acoplados punto por punto para cada combinacion de empuje, RPM y potencia",
+        "Mediciones o caracteristicas del motor C02 (no figura en la prueba)",
+        "Mediciones o caracteristicas del modulo D82 (no figura en la prueba)"
+      ],
+      "restricciones_integridad": [
+        "No inferir que el archivo PDF original (NASA_EDF_20230017299.pdf) no existe por no encontrarse copiado en entradas/.",
+        "No asumir que reservas sin masa asignada tengan masa nula o no nula.",
+        "No clasificar este archivo como fuente primaria; es un resumen derivado secundario."
+      ]
+    }
+  ]
+}

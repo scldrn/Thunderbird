@@ -1,0 +1,68 @@
+[
+  {
+    "fineness": 7,
+    "Mach_freestream": 0.6,
+    "min_Cp_measured": -0.086,
+    "sonic_Cp": -1.294343590455283,
+    "local_Mach_isentropic": 0.6274227317441214
+  },
+  {
+    "fineness": 7,
+    "Mach_freestream": 0.8,
+    "min_Cp_measured": -0.107,
+    "sonic_Cp": -0.4346404791552307,
+    "local_Mach_isentropic": 0.8483609750683159
+  },
+  {
+    "fineness": 7,
+    "Mach_freestream": 0.9,
+    "min_Cp_measured": -0.135,
+    "sonic_Cp": -0.187857791836841,
+    "local_Mach_isentropic": 0.9714455337537518
+  },
+  {
+    "fineness": 7,
+    "Mach_freestream": 0.95,
+    "min_Cp_measured": -0.182,
+    "sonic_Cp": -0.08821384101550583,
+    "local_Mach_isentropic": 1.054572168017732
+  },
+  {
+    "fineness": 7,
+    "interpolated_sonic_crossing_estimate": 0.917519599078312,
+    "warning": "Linear Cp interpolation and measured taps only; not measured critical Mach or drag divergence"
+  },
+  {
+    "fineness": 10,
+    "Mach_freestream": 0.6,
+    "min_Cp_measured": -0.048,
+    "sonic_Cp": -1.294343590455283,
+    "local_Mach_isentropic": 0.6153613123237441
+  },
+  {
+    "fineness": 10,
+    "Mach_freestream": 0.8,
+    "min_Cp_measured": -0.069,
+    "sonic_Cp": -0.4346404791552307,
+    "local_Mach_isentropic": 0.8311595967120032
+  },
+  {
+    "fineness": 10,
+    "Mach_freestream": 0.9,
+    "min_Cp_measured": -0.085,
+    "sonic_Cp": -0.187857791836841,
+    "local_Mach_isentropic": 0.9447630347340481
+  },
+  {
+    "fineness": 10,
+    "Mach_freestream": 0.95,
+    "min_Cp_measured": -0.099,
+    "sonic_Cp": -0.08821384101550583,
+    "local_Mach_isentropic": 1.0061950762453555
+  },
+  {
+    "fineness": 10,
+    "interpolated_sonic_crossing_estimate": 0.9450090296494741,
+    "warning": "Linear Cp interpolation and measured taps only; not measured critical Mach or drag divergence"
+  }
+]

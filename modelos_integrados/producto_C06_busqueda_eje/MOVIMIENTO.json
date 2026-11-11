@@ -1,0 +1,803 @@
+{
+  "scope": "Cotas discretas de puerta y eje contra obstaculos listados. No soportes, holguras, cargas ni barrido continuo.",
+  "obstacles": [
+    "modulo_C02_0_rotor_copa",
+    "junta_C02_0_superior",
+    "aro_C02_0_superior",
+    "modulo_C02_0_camisa_cuna_y_soportes",
+    "carroceria_C02_superior004",
+    "carroceria_C02_inferior003",
+    "modulo_C02_1_camisa_cuna_y_soportes",
+    "modulo_C02_2_camisa_cuna_y_soportes",
+    "modulo_C02_3_camisa_cuna_y_soportes",
+    "compuerta_C02_0_inferior",
+    "compuerta_C02_1_superior",
+    "compuerta_C02_1_inferior",
+    "compuerta_C02_2_superior",
+    "compuerta_C02_2_inferior",
+    "compuerta_C02_3_superior",
+    "compuerta_C02_3_inferior"
+  ],
+  "threshold_mm3": 0.001,
+  "candidates": [
+    {
+      "y_mm": -100.0,
+      "z_mm": 55.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 6
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 44,
+          "collision": {
+            "obstacle": "carroceria_C02_superior004",
+            "overlap_mm3": 164.27110410570603
+          },
+          "checked": 4
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -100.0,
+      "z_mm": 65.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 6
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 44,
+          "collision": {
+            "obstacle": "junta_C02_0_superior",
+            "overlap_mm3": 1.3414939089742535
+          },
+          "checked": 1
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -100.0,
+      "z_mm": 75.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 6
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 44,
+          "collision": {
+            "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+            "overlap_mm3": 8.279511045356639
+          },
+          "checked": 3
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 55.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 6
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": {
+            "obstacle": "aro_C02_0_superior",
+            "overlap_mm3": 2.0767537721202816
+          },
+          "checked": 2
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 65.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 6
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": {
+            "obstacle": "junta_C02_0_superior",
+            "overlap_mm3": 2.9032683366832215
+          },
+          "checked": 1
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 75.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 6
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": {
+            "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+            "overlap_mm3": 41.99852959346173
+          },
+          "checked": 3
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 85.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 6
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 6
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 44,
+          "collision": {
+            "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+            "overlap_mm3": 1.556056844944601
+          },
+          "checked": 3
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 55.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 10
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": {
+            "obstacle": "junta_C02_0_superior",
+            "overlap_mm3": 2.43340841933493
+          },
+          "checked": 1
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 65.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 10
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": {
+            "obstacle": "junta_C02_0_superior",
+            "overlap_mm3": 1.6962121289387313
+          },
+          "checked": 1
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 75.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 10
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": {
+            "obstacle": "junta_C02_0_superior",
+            "overlap_mm3": 0.12117548106176732
+          },
+          "checked": 1
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 85.0,
+      "origin": "grilla_cubierta",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 2,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 4,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 6,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 8,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "collision": null,
+          "checked": 10
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": {
+            "obstacle": "modulo_C02_0_camisa_cuna_y_soportes",
+            "overlap_mm3": 10.707044526549767
+          },
+          "checked": 3
+        }
+      ],
+      "pin_sampled_ok": true,
+      "door_sampled_ok": false,
+      "selected_for_followup": false
+    },
+    {
+      "y_mm": -124.0,
+      "z_mm": 67.9767683408146,
+      "origin": "control_C04_no_seleccionable",
+      "pin_checks": [
+        {
+          "lift_mm": 0,
+          "collision": {
+            "obstacle": "carroceria_C02_superior004",
+            "overlap_mm3": 13.043792369226624
+          },
+          "checked": 4
+        }
+      ],
+      "door_checks": [
+        {
+          "lift_mm": 5,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 0,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 22,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 44,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 66,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 88,
+          "collision": null,
+          "checked": 10
+        },
+        {
+          "lift_mm": 10,
+          "angle_deg": 110,
+          "collision": null,
+          "checked": 6
+        }
+      ],
+      "pin_sampled_ok": false,
+      "door_sampled_ok": true,
+      "selected_for_followup": false
+    }
+  ]
+}

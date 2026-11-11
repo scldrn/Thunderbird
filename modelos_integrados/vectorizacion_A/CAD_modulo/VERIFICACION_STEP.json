@@ -1,0 +1,17 @@
+[
+  {
+    "file": "neutro.step",
+    "valid": true,
+    "parts": 52
+  },
+  {
+    "file": "desviado.step",
+    "valid": true,
+    "parts": 52
+  },
+  {
+    "file": "integracion_preliminar.step",
+    "valid": true,
+    "parts": 105
+  }
+]

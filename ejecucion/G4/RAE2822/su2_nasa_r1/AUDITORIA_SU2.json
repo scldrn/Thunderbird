@@ -1,0 +1,81 @@
+{
+  "scope": "Native benchmark field and force audit with provisional Cp comparison; not accepted physical validation",
+  "last_inner_iteration_index": 1199,
+  "source_solver_convergence_message": false,
+  "convergence_message_does_not_cover_all_equations": true,
+  "actual_model": "SST-2003m; IDEAL_GAS/Sutherland/constantPr0.72/0.9",
+  "reconstructed_reference": {
+    "p_Pa": 108987.77275058624,
+    "rho_kg_m3": 1.4856980645128517,
+    "T_K": 255.55555555555554,
+    "U_m_s": 233.62276311273394,
+    "q_Pa": 40544.399656841015
+  },
+  "rho_range_kg_m3": [
+    0.807793251139853,
+    1.910858724666761
+  ],
+  "pressure_range_Pa": [
+    62021.149025555176,
+    155084.9319195068
+  ],
+  "temperature_range_K": [
+    217.02803547513162,
+    286.3782347759062
+  ],
+  "maximum_local_Mach": 1.2319965480568695,
+  "CSV_VTU_coordinate_mapping_verified": true,
+  "retained_vs_recomputed_thermodynamics": {
+    "pressure_max_abs_Pa": 0.5808304449601565,
+    "pressure_max_relative": 6.311538292062185e-06,
+    "temperature_max_abs_K": 0.0016984000670277055
+  },
+  "exact_thermodynamic_identity_not_asserted_due_segregated_update": true,
+  "Cp_reference_reconstruction_verified": true,
+  "pressure_and_tangential_shear_polygon_integrals_evaluated": true,
+  "complete_solver_force_identity_verified": false,
+  "incomplete_reconstruction_minus_solver_coeff_force": [
+    -1.0907794175049612e-06,
+    1.7322443993661452e-06
+  ],
+  "incomplete_reconstruction_limit": "SurfaceCf is tangential only; full normal viscous stress and solver dual-area weights remain to reconstruct.",
+  "force_coeff_pressure": [
+    -0.021930767504745513,
+    0.6920919905449419
+  ],
+  "force_coeff_viscous": [
+    0.005380748025328008,
+    0.00024644709945752913
+  ],
+  "last_CL": 0.6924411199,
+  "last_CD": 0.01136997017,
+  "last20_log10_residual_max": {
+    "rms[Rho]": -4.10361919,
+    "rms[RhoU]": -1.73095796,
+    "rms[RhoV]": -1.964356778,
+    "rms[RhoE]": 1.268199735,
+    "rms[k]": -0.9688736286,
+    "rms[w]": 3.167024074
+  },
+  "adjacent20_force_coefficient_drift": {
+    "CD": 3.144983650000058e-05,
+    "CL": 0.0037159977149999746
+  },
+  "Cp_points": 103,
+  "Cp_RMS_error_provisional": 0.1175459742936908,
+  "Cp_max_abs_error_provisional": 0.9743199945803518,
+  "wall_reported_yPlus_range": [
+    0.5397649409798887,
+    3.3150954111868938
+  ],
+  "reference_field_changes": null,
+  "remaining": "Verify full-state convergence including turbulence, mesh/wall resolution and NASA geometry/conditions alignment; compare sensitivities before validation.",
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "source_sha256": {
+    "restart_flow.csv": "09892507e9ab47059a0935d4dc32203f4ed9001b82c179567b3f2acc55c179fb",
+    "flow.vtu": "bbbd3bf4187d9be6529fc8c9ab53294435c8ae50a4cf4dc7e4d87c3c93c99fa8",
+    "history.csv": "03f1b04c30be9570039ab1e6329720d6be0f2a4da944f15fd89887abf8a8490c",
+    "case.cfg": "e896018901bb86f3068cccf7d5cb3613b2092eb7b5bbb32613a3a9b1e703e99e"
+  }
+}

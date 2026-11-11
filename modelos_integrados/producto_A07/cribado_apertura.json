@@ -1,0 +1,618 @@
+[
+  {
+    "name": "compuerta_0_superior_enrasada",
+    "angle_deg": 0,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      -124,
+      110.25027905518141
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_0_superior_enrasada",
+    "angle_deg": 5,
+    "overlap_mm3": 341.19822532973393,
+    "axis": [
+      -200,
+      -124,
+      110.25027905518141
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_0_superior_enrasada",
+    "angle_deg": 15,
+    "overlap_mm3": 358.0613557789501,
+    "axis": [
+      -200,
+      -124,
+      110.25027905518141
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_0_superior_enrasada",
+    "angle_deg": 30,
+    "overlap_mm3": 161.81117456409604,
+    "axis": [
+      -200,
+      -124,
+      110.25027905518141
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_0_superior_enrasada",
+    "angle_deg": 60,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      -124,
+      110.25027905518141
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_0_superior_enrasada",
+    "angle_deg": 90,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      -124,
+      110.25027905518141
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_0_superior_enrasada",
+    "angle_deg": 110,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      -124,
+      110.25027905518141
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_0_inferior_enrasada",
+    "angle_deg": 0,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      -124,
+      -86.72092068573195
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_0_inferior_enrasada",
+    "angle_deg": 5,
+    "overlap_mm3": 186.13635682392385,
+    "axis": [
+      -200,
+      -124,
+      -86.72092068573195
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_0_inferior_enrasada",
+    "angle_deg": 15,
+    "overlap_mm3": 152.9998059990585,
+    "axis": [
+      -200,
+      -124,
+      -86.72092068573195
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_0_inferior_enrasada",
+    "angle_deg": 30,
+    "overlap_mm3": 74.46687941361503,
+    "axis": [
+      -200,
+      -124,
+      -86.72092068573195
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_0_inferior_enrasada",
+    "angle_deg": 60,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      -124,
+      -86.72092068573195
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_0_inferior_enrasada",
+    "angle_deg": 90,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      -124,
+      -86.72092068573195
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_0_inferior_enrasada",
+    "angle_deg": 110,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      -124,
+      -86.72092068573195
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_1_superior_enrasada",
+    "angle_deg": 0,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      124,
+      110.25027905518142
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_1_superior_enrasada",
+    "angle_deg": 5,
+    "overlap_mm3": 341.19830213994146,
+    "axis": [
+      -200,
+      124,
+      110.25027905518142
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_1_superior_enrasada",
+    "angle_deg": 15,
+    "overlap_mm3": 358.06145456064473,
+    "axis": [
+      -200,
+      124,
+      110.25027905518142
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_1_superior_enrasada",
+    "angle_deg": 30,
+    "overlap_mm3": 161.81116657716822,
+    "axis": [
+      -200,
+      124,
+      110.25027905518142
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_1_superior_enrasada",
+    "angle_deg": 60,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      124,
+      110.25027905518142
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_1_superior_enrasada",
+    "angle_deg": 90,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      124,
+      110.25027905518142
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_1_superior_enrasada",
+    "angle_deg": 110,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      124,
+      110.25027905518142
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_1_inferior_enrasada",
+    "angle_deg": 0,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      124,
+      -86.72092068573197
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_1_inferior_enrasada",
+    "angle_deg": 5,
+    "overlap_mm3": 186.13657130187943,
+    "axis": [
+      -200,
+      124,
+      -86.72092068573197
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_1_inferior_enrasada",
+    "angle_deg": 15,
+    "overlap_mm3": 152.9999906584037,
+    "axis": [
+      -200,
+      124,
+      -86.72092068573197
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_1_inferior_enrasada",
+    "angle_deg": 30,
+    "overlap_mm3": 74.46690058117372,
+    "axis": [
+      -200,
+      124,
+      -86.72092068573197
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_1_inferior_enrasada",
+    "angle_deg": 60,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      124,
+      -86.72092068573197
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_1_inferior_enrasada",
+    "angle_deg": 90,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      124,
+      -86.72092068573197
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_1_inferior_enrasada",
+    "angle_deg": 110,
+    "overlap_mm3": 0.0,
+    "axis": [
+      -200,
+      124,
+      -86.72092068573197
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_2_superior_enrasada",
+    "angle_deg": 0,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      -124,
+      107.06081394275743
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_2_superior_enrasada",
+    "angle_deg": 5,
+    "overlap_mm3": 787.6122799639697,
+    "axis": [
+      200,
+      -124,
+      107.06081394275743
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_2_superior_enrasada",
+    "angle_deg": 15,
+    "overlap_mm3": 782.8149171031839,
+    "axis": [
+      200,
+      -124,
+      107.06081394275743
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_2_superior_enrasada",
+    "angle_deg": 30,
+    "overlap_mm3": 562.9695937520504,
+    "axis": [
+      200,
+      -124,
+      107.06081394275743
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_2_superior_enrasada",
+    "angle_deg": 60,
+    "overlap_mm3": 124.91702537352118,
+    "axis": [
+      200,
+      -124,
+      107.06081394275743
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_2_superior_enrasada",
+    "angle_deg": 90,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      -124,
+      107.06081394275743
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_2_superior_enrasada",
+    "angle_deg": 110,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      -124,
+      107.06081394275743
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_2_inferior_enrasada",
+    "angle_deg": 0,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      -124,
+      -84.15003845191362
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_2_inferior_enrasada",
+    "angle_deg": 5,
+    "overlap_mm3": 1014.5997661218089,
+    "axis": [
+      200,
+      -124,
+      -84.15003845191362
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_2_inferior_enrasada",
+    "angle_deg": 15,
+    "overlap_mm3": 862.5759441990132,
+    "axis": [
+      200,
+      -124,
+      -84.15003845191362
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_2_inferior_enrasada",
+    "angle_deg": 30,
+    "overlap_mm3": 609.1328814768061,
+    "axis": [
+      200,
+      -124,
+      -84.15003845191362
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_2_inferior_enrasada",
+    "angle_deg": 60,
+    "overlap_mm3": 61.91693345760238,
+    "axis": [
+      200,
+      -124,
+      -84.15003845191362
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_2_inferior_enrasada",
+    "angle_deg": 90,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      -124,
+      -84.15003845191362
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_2_inferior_enrasada",
+    "angle_deg": 110,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      -124,
+      -84.15003845191362
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_3_superior_enrasada",
+    "angle_deg": 0,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      124,
+      107.06081394275743
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_3_superior_enrasada",
+    "angle_deg": 5,
+    "overlap_mm3": 787.608758683766,
+    "axis": [
+      200,
+      124,
+      107.06081394275743
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_3_superior_enrasada",
+    "angle_deg": 15,
+    "overlap_mm3": 782.8121493406659,
+    "axis": [
+      200,
+      124,
+      107.06081394275743
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_3_superior_enrasada",
+    "angle_deg": 30,
+    "overlap_mm3": 562.9713001941514,
+    "axis": [
+      200,
+      124,
+      107.06081394275743
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_3_superior_enrasada",
+    "angle_deg": 60,
+    "overlap_mm3": 124.91684561068396,
+    "axis": [
+      200,
+      124,
+      107.06081394275743
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_3_superior_enrasada",
+    "angle_deg": 90,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      124,
+      107.06081394275743
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_3_superior_enrasada",
+    "angle_deg": 110,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      124,
+      107.06081394275743
+    ],
+    "sign": -1
+  },
+  {
+    "name": "compuerta_3_inferior_enrasada",
+    "angle_deg": 0,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      124,
+      -84.15003845191413
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_3_inferior_enrasada",
+    "angle_deg": 5,
+    "overlap_mm3": 1014.5974582192736,
+    "axis": [
+      200,
+      124,
+      -84.15003845191413
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_3_inferior_enrasada",
+    "angle_deg": 15,
+    "overlap_mm3": 862.5789426564965,
+    "axis": [
+      200,
+      124,
+      -84.15003845191413
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_3_inferior_enrasada",
+    "angle_deg": 30,
+    "overlap_mm3": 609.133866150152,
+    "axis": [
+      200,
+      124,
+      -84.15003845191413
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_3_inferior_enrasada",
+    "angle_deg": 60,
+    "overlap_mm3": 61.916947064916684,
+    "axis": [
+      200,
+      124,
+      -84.15003845191413
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_3_inferior_enrasada",
+    "angle_deg": 90,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      124,
+      -84.15003845191413
+    ],
+    "sign": 1
+  },
+  {
+    "name": "compuerta_3_inferior_enrasada",
+    "angle_deg": 110,
+    "overlap_mm3": 0.0,
+    "axis": [
+      200,
+      124,
+      -84.15003845191413
+    ],
+    "sign": 1
+  }
+]

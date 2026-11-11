@@ -1,0 +1,7 @@
+{
+  "source_sha256": "5e6d951919ad7420f8cb22c4711c16e867f3ce5168b259d4c76ca9d656b35791",
+  "pairs_checked": 88,
+  "collisions": [],
+  "errors": [],
+  "scope": "only closed pose, stems vs shafts and other bearings, own bearing excluded intentionally"
+}

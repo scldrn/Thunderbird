@@ -1,0 +1,6 @@
+{
+  "container": "codex-aero-rae2822-r7",
+  "container_id": "54f6b899e889c368365f6c56777302c13c8cb500d19fba18a4d3e9daed9fce72",
+  "stage": "steady_baseline_same_checked_mesh_no_solver",
+  "own_solver_started": false
+}

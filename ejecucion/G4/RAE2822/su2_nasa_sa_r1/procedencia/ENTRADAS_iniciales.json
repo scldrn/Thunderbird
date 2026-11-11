@@ -1,0 +1,99 @@
+{
+  "scope": "Matched-eddy-viscosity SA-noft2 model sensitivity; not experimental or vehicle validation",
+  "source_SU2_version": "8.6.0",
+  "iteration_limit": 1800,
+  "counter_is_physical_time": false,
+  "declared_conditions": {
+    "Mach": 0.729,
+    "alpha_deg": 2.31,
+    "Reynolds": 6500000.0,
+    "chord": 0.3048,
+    "T_freestream_K": 255.55555555555554,
+    "turbulence_intensity": 0.001,
+    "eddy_to_molecular_viscosity_ratio": 1.0,
+    "gas_model": "IDEAL_GAS",
+    "gas_R_J_kg_K": 287.05287,
+    "gamma": 1.4,
+    "mu_reference_Pas": 1.716040346944096e-05,
+    "mu_reference_temperature_K": 273.15,
+    "Sutherland_K": 110.4,
+    "turbulence_model": "SA",
+    "SA_options": "NONE",
+    "freestream_nu_factor": 4.622838269107444,
+    "turbulence_intensity_not_transported_by_SA": true
+  },
+  "target_reference": {
+    "p_Pa": 108987.77275058624,
+    "rho_kg_m3": 1.4856980645128517,
+    "U_m_s": 233.62276311273394,
+    "mu_Pas": 1.6275986454205707e-05
+  },
+  "geometry": {
+    "points": 97956,
+    "quadrilaterals": 97152,
+    "positive_convex_cells": true,
+    "minimum_area_m2": 1.1432354170359349e-10,
+    "boundary_edges": {
+      "AIRFOIL": 608,
+      "FARFIELD": 736,
+      "OUTFLOW": 264
+    },
+    "identical_source_vertices_verified": true,
+    "conformal_wake_merged_nodes": 65,
+    "refinement": "i2; first2 jintervals4, remaining jintervals2",
+    "planar_geometry_unchanged_by_bilinear_subdivision": true,
+    "sharp_TE": true,
+    "quality_not_accepted_from_other_solver": true
+  },
+  "source_grid_sha256": "2318157ce20050a3f7c1a5dc208cbfd3d821108b618afb2e43fd4792ee4238ed",
+  "source_URL": "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/raetaf04.html",
+  "numerical_note": "Official SU2 JST/implicit/MG3; startCFL5/adaptive1..50; all1200steps forced; residual export added.",
+  "distinctions_from_NASA_WIND": [
+    "Same supplied vertices/connectivity and freestream M/alpha/Re/T/chord; native node-centred scheme differs.",
+    "Transport reference chosen to reproduce stated p/Re simultaneously; not measured viscosity.",
+    "SST2003m fully turbulent versus legacy WIND/experiment transition, not identical.",
+    "I0.001 and viscosityRatio1 are assumptions, not stated NASA experimental values.",
+    "Native characteristic farfield/static-pressure outlet may differ from WIND implementation.",
+    "Single highly stretched source C-grid; no mesh independence or full force budget accepted."
+  ],
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "restart_seed": {
+    "source": "su2_nasa_fina_r3_sonda",
+    "energy_formula": "rhoE_SA=rhoE_SST-rho*k_SST",
+    "initial_mu_t_preserved_by_inverse_fv1": true,
+    "maximum_pressure_conversion_difference_Pa": 2.9103830456733704e-11,
+    "maximum_mut_conversion_difference_Pas": 6.938893903907228e-18,
+    "native_primitive_stage_lag_from_SST_preserved_in_report": {
+      "pressure_max_abs_Pa": 0.002267857824335806,
+      "pressure_max_relative": 1.9497598615430983e-08,
+      "temperature_max_abs_K": 5.2006083706146455e-06
+    }
+  },
+  "inputs_sha256": {
+    "case.cfg": "b03948aaebac4f05f1ec3ad9a860905db61f51bd0a7d3d955ef9af279cda7aa4",
+    "ORIGINAL_turb_SST_RAE2822.cfg": "68a8dcdd171b3ae1cfc38d7a946bd682164d099169eee25ff576c2f1503b3da7",
+    "solution_flow.csv": "ac9a540e5380c617c339a3a767431eb1f17d5248c763bc92af7716a42ad9357a",
+    "mesh_RAE2822_turb.su2": "d6247af7602ecf7eb76067985b948e62bb38cfa869d542c81c925401995c34e9"
+  },
+  "parent": "su2_nasa_fina_r3_sonda",
+  "changes_from_parent": [
+    "SA-noft2 model",
+    "Mean energy excludes SST rho*k contribution",
+    "Nu_Tilde from inversion of source eddy viscosity",
+    "FREESTREAM_NU_FACTOR=4.62283826911 for mu_t/mu=1.0",
+    "1800 forced additional iterations; SA residual output"
+  ],
+  "physical_models_geometry_freestream_and_schemes_unchanged": false,
+  "source_audit_sha256": "4dc44d816d68c32a3f71fb47556bf51aa8cbcb166df565df20878f0a9c4c996d",
+  "turbulence_model": "SA",
+  "actual_model_expected": "Spalart-Allmaras-noft2; no corrections, fully turbulent",
+  "geometry_and_mean_conditions_unchanged": true,
+  "model_change": "SST2003m to SA-noft2; preserve mean pressure and initial eddy viscosity, not the SST transported variables",
+  "source_inputs_sha256": {
+    "restart_flow.csv": "ff89ac13aa091500c0144ec1187be203ad9a6dadbaa8739aef6fc0f687c283ab",
+    "flow.vtu": "ca959c2e7bc065311c0df8e87529a6b1e90ffa70dec197e7b28211da89697560",
+    "AUDITORIA_SU2.json": "91a4935eca8059ba8fdaa1fb876b974ae44e31ccfcc163381e5e4ae73b215aa9",
+    "case.cfg": "942f68f90d9512f7bde056a433014a923e4940423060febd12b675e05651b675"
+  }
+}

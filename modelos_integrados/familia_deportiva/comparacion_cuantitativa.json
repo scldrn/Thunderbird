@@ -1,0 +1,141 @@
+{
+  "rows": [
+    {
+      "variant": "A",
+      "step": "A_integracion_interna/diseno_industrial_v2.step",
+      "bounds_mm": [
+        1345.0000000999999,
+        322.00675890306707,
+        194.11032572001517
+      ],
+      "reference_duct_or_rotor_radius_mm": 40,
+      "rotor_radius_mm": 41.01219330884058,
+      "total_disk_area_m2": 0.02113663537337359,
+      "force_rank": 1,
+      "wrench_rank_no_reaction": 3,
+      "illustrative_rank_with_alternating_reaction": 4,
+      "ideal_static_hover_power_W": [
+        {
+          "mass_kg": 2,
+          "power_W": 381.7025285839796
+        },
+        {
+          "mass_kg": 5,
+          "power_W": 1508.811723713626
+        },
+        {
+          "mass_kg": 10,
+          "power_W": 4267.564005486674
+        }
+      ]
+    },
+    {
+      "variant": "B_guardado",
+      "step": "B_retractil_guardado/B_retractil_guardado.step",
+      "bounds_mm": [
+        1345.0000000999999,
+        322.00675890306707,
+        194.11032572001517
+      ],
+      "reference_duct_or_rotor_radius_mm": 52,
+      "rotor_radius_mm": 49.01020301939739,
+      "total_disk_area_m2": 0.030184422215722765,
+      "force_rank": 1,
+      "wrench_rank_no_reaction": 3,
+      "illustrative_rank_with_alternating_reaction": 4,
+      "ideal_static_hover_power_W": [
+        {
+          "mass_kg": 2,
+          "power_W": 319.4122228500799
+        },
+        {
+          "mass_kg": 5,
+          "power_W": 1262.5876708794144
+        },
+        {
+          "mass_kg": 10,
+          "power_W": 3571.1372156854513
+        }
+      ]
+    },
+    {
+      "variant": "B_desplegado",
+      "step": "B_retractil_desplegado/B_retractil_desplegado.step",
+      "bounds_mm": [
+        1345.0000000999999,
+        645.2286971338401,
+        194.11032572001517
+      ],
+      "reference_duct_or_rotor_radius_mm": 52,
+      "rotor_radius_mm": 49.01020301939274,
+      "total_disk_area_m2": 0.03018442221571704,
+      "force_rank": 1,
+      "wrench_rank_no_reaction": 3,
+      "illustrative_rank_with_alternating_reaction": 4,
+      "ideal_static_hover_power_W": [
+        {
+          "mass_kg": 2,
+          "power_W": 319.4122228501102
+        },
+        {
+          "mass_kg": 5,
+          "power_W": 1262.5876708795342
+        },
+        {
+          "mass_kg": 10,
+          "power_W": 3571.13721568579
+        }
+      ]
+    },
+    {
+      "variant": "C",
+      "step": "C_conductos_integrados/C_conductos_integrados.step",
+      "bounds_mm": [
+        1345.0000000999999,
+        446.00000019992,
+        194.11032572001517
+      ],
+      "reference_duct_or_rotor_radius_mm": 57,
+      "rotor_radius_mm": 54.00925846561979,
+      "total_disk_area_m2": 0.03665610308216264,
+      "force_rank": 1,
+      "wrench_rank_no_reaction": 3,
+      "illustrative_rank_with_alternating_reaction": 4,
+      "ideal_static_hover_power_W": [
+        {
+          "mass_kg": 2,
+          "power_W": 289.84767303784486
+        },
+        {
+          "mass_kg": 5,
+          "power_W": 1145.723526624207
+        },
+        {
+          "mass_kg": 10,
+          "power_W": 3240.5955001637703
+        }
+      ]
+    }
+  ],
+  "load_examples": [
+    {
+      "speed_kmh": 600,
+      "q_Pa": 17013.888888888887,
+      "force_N_on_0_01m2_at_delta_Cp_1": 170.13888888888889,
+      "turn_radius_m_at_10g_lateral": 283.2545036049801
+    },
+    {
+      "speed_kmh": 1000,
+      "q_Pa": 47260.80246913581,
+      "force_N_on_0_01m2_at_delta_Cp_1": 472.6080246913581,
+      "turn_radius_m_at_10g_lateral": 786.8180655693891
+    }
+  ],
+  "assumptions": [
+    "4 identical vertical fixed-axis rotors as illustrated; no hidden vectoring",
+    "Ideal disk theory: isolated non-overlapping free-air disks; no duct augmentation, blockage, profile losses, electric losses or ground effect",
+    "Not an installed lower bound if a duct changes effective streamtube: only a common bare-disk comparator",
+    "CAD bounding box is not frontal area or drag coefficient",
+    "Reaction coefficient0.02m is illustrative for rank, not a measured rotor map"
+  ]
+}

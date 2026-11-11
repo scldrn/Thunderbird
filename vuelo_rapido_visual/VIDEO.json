@@ -1,0 +1,18 @@
+{
+  "frames": 360,
+  "fps": 15,
+  "duration_s": 24,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "scenario_physical_seconds": 12,
+  "scenarios_kmh": [
+    600,
+    1000
+  ],
+  "playback_rate": 1,
+  "display_body_orientation": "Bank relative to velocity-aligned chase frame; orbital camera not vehicle yaw",
+  "rendering": "Matplotlib actual CAD tessellation, no CFD or generative imagery",
+  "type": "Inverse-demand kinematic reconstruction, not forward validated aircraft simulation"
+}

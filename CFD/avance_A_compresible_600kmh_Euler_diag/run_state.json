@@ -1,0 +1,12 @@
+{
+  "container": "codex-aero-avance-compresible-600-euler-v1",
+  "stage": "failed_dictionary_before_time_loop",
+  "last_counter_value": null,
+  "target_counter_value": 0.0001,
+  "target_reached": false,
+  "physical_loads_accepted": false,
+  "solver_exit_code_not_preserved": true,
+  "launcher_exit_code": 1,
+  "postProcessing_available": false,
+  "note": "Undefined forward reference $p in pFinal. Preserved failed input/logs; corrected explicit pFinal in a new v2 case. No physical time advanced."
+}

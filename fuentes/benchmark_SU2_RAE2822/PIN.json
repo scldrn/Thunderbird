@@ -1,0 +1,5 @@
+{
+  "repository": "https://github.com/su2code/TestCases",
+  "commit": "4d2b3728e93f657199c9eec1919c4a752e1159cb",
+  "selection": "Official RAE2822 RANS regression case; not own physical validation"
+}

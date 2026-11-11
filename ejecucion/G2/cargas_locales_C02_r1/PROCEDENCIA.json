@@ -1,0 +1,38 @@
+{
+  "scope": "Local blade law with prescribed uniform disk velocity; not a physical fan curve",
+  "operating_points": 42,
+  "annuli_per_point": 128,
+  "original_BEM_hub_ratio": 0.3,
+  "C02_sealed_hub_ratio": 0.315,
+  "relative_active_area_change": -0.010137362637362646,
+  "source_C01_BEM_design_point": {
+    "rpm": 46231.48148400444,
+    "shaft_estimate_W": 667.9818779841188,
+    "outside_polar_abs_torque_fraction": 0.02034269440664318,
+    "Mach_gt_0p3_abs_torque_fraction": 0.8703899813177289
+  },
+  "points_with_any_polar_extrapolation": 42,
+  "no_points_discarded": true,
+  "CFD_or_CAD_changed": false,
+  "local_velocity_not_far_field_velocity": true,
+  "induced_velocity_added": false,
+  "original_C01_predictions_frozen": true,
+  "physical_validation": false,
+  "limitations": [
+    "Nominal chord/twist interpolation; not exact continuous BRep section recovery.",
+    "Uniform axial disk velocity and zero disk swirl are prescribed, not solved operating states.",
+    "C02 hub uses sealed-envelope assumption; real cavities/tip leakage are unresolved.",
+    "2D polar endpoint extension remains flagged; no compressibility/cascade/rotation correction.",
+    "No tip/root force multiplier or installed CFD coupling is introduced here.",
+    "Annular Q excludes bypass gap; it is not total duct flow.",
+    "Do not assign this shaft estimate to the CAD motor reserve or accepted vehicle power."
+  ],
+  "input_sha256": {
+    "ejecucion/G2/modulo_preliminar/m5_d1_k0.85.json": "85287461615fd25fb381912cc4e89534e850680dfa40fddd3720b33518656f94",
+    "ejecucion/G3/C02/salida/C02_D82_neutro/MANIFIESTO.json": "05ef0b4bced79aea87526c633885a03a100a9c004315b5d5b60370044609449d",
+    "ejecucion/G2/modulo_preliminar/CAD/rotor_8palas_D82mm_CCW.step": "25595624c9d54f0c221e63be35af5e1781f4055b40944117301e3c5c37ebb465",
+    "ejecucion/G2/flujo_C02_conducto/neutro_r1/GEOMETRIA.json": "093fb274c44e8dcc95596b2e79f2b5717ad9c0ed0e6353263b3cd746b871853d",
+    "fuentes/uiuc/SD8020.DRG": "1c1aec6cbca84a719aa26523f67b529436dcd32c38da246368f1c0327397fa30",
+    "ejecucion/G2/ley_elemento_rotor.py": "5d9aa4028a53af2313ace632801c20d0dd11fc97f9bf5ee6b4306714c742f403"
+  }
+}

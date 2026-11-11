@@ -1,0 +1,21 @@
+{
+  "descripcion": "Revisiones independientes de los cálculos y el coordinador creados el 7 de noviembre; solo lectura.",
+  "tareas": [
+    {
+      "id": "revision_energia",
+      "instruccion": "Lee solo investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/calcular.py e investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md. Revisa con rigor unidades, integración de arrastre, energía cinética, coincidencia de potencias, búsqueda del mínimo y significado de umbrales. Señala solo errores concretos o supuestos mal declarados, citando función o línea. No ejecutes código ni leas otros archivos."
+    },
+    {
+      "id": "revision_brazo",
+      "instruccion": "Lee solo investigacion-aeronautica/ejecucion/G6/autoridad_C02/sensibilidad_brazo_vertical.py e investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME.md. Audita signos de momentos, restricciones LP, simetría entre direcciones y validez de las conclusiones. Señala defectos concretos o límites omitidos con función o línea. No ejecutes código ni leas otros archivos."
+    },
+    {
+      "id": "revision_vertical",
+      "instruccion": "Lee solo investigacion-aeronautica/ejecucion/G6/autoridad_C02/envolvente_vertical.py e investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME-VERTICAL.md. Revisa la ley de fuerza vertical, el límite analítico para CG desplazado, la imposibilidad de acelerar hacia abajo más de g bajo los supuestos y el etiquetado de inviabilidad LP. Señala errores concretos con función o línea. No ejecutes código ni leas otros archivos."
+    },
+    {
+      "id": "revision_coordinador",
+      "instruccion": "Lee solo investigacion-aeronautica/integracion_antigravity/orquestar.py e investigacion-aeronautica/integracion_antigravity/LEEME.md. Audita concurrencia, cancelación, manejo de errores, registro de respuestas y coherencia de permisos. Señala defectos concretos y priorízalos; no propongas cambiar configuraciones globales ni acceder a otros archivos."
+    }
+  ]
+}

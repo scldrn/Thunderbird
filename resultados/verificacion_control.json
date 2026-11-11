@@ -1,0 +1,10 @@
+{
+  "random_feasibility_checks": 150,
+  "violations": 0,
+  "max_equality_residual": 4.263256414560601e-14,
+  "limiting_facet_force_N": 218.40831297467687,
+  "independent_LP_force_N": 218.40831297467685,
+  "outside_point_rejected": true,
+  "optimization": "bounded stochastic search, seed42; not proof of optimal axes",
+  "physical_validation": false
+}

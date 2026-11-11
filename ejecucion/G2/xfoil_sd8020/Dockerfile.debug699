@@ -1,0 +1,9 @@
+FROM codex-aero-xfoil-ubuntu-source-6.99:latest
+
+# Rebuild the Ubuntu source with its own checks and FPE traps, but add
+# symbols and use O0 for an intelligible diagnostic stack.
+RUN cd /opt/xfoil-ubuntu-source/xfoil-6.99.dfsg+1/plotlib \
+    && make FFLAGS="-g -O0 -fbounds-check -finit-real=inf -ffpe-trap=invalid,zero -fdefault-real-8 -fallow-argument-mismatch" \
+    && cd ../bin \
+    && make xfoil FFLAGS="-g -O0 -fbounds-check -finit-real=inf -ffpe-trap=invalid,zero -fdefault-real-8 -fallow-argument-mismatch" \
+    && sha256sum xfoil > /opt/xfoil-ubuntu-source/XFOIL_DEBUG_SHA256

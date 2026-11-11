@@ -1,0 +1,21 @@
+{
+  "inicio_utc": "2026-11-08T03:51:14.831135+00:00",
+  "estado": "completado",
+  "tareas": [
+    "reversibilidad_necesaria",
+    "potencia_disco_avance",
+    "escalado_2_5_10",
+    "contraste_nasa_edf",
+    "margen_control_estatico"
+  ],
+  "trabajadores": 5,
+  "workspace_temporal": "/private/tmp/aero_20261108T035114Z_cbb84ad9_k38ahalr",
+  "fin_utc": "2026-11-08T04:01:17.545692+00:00",
+  "recolectadas": 5,
+  "requieren_revision": [
+    "reversibilidad_necesaria",
+    "contraste_nasa_edf",
+    "margen_control_estatico",
+    "potencia_disco_avance"
+  ]
+}

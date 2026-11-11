@@ -1,0 +1,14 @@
+{
+  "descripcion": "Reparación puntual del registro JSON del nuevo test 6DOF",
+  "tareas": [
+    {
+      "id": "corregir_serializacion_6dof",
+      "entradas": [
+        "investigacion-aeronautica/ejecucion/G6/verificacion_6dof_antigravity_r1/test_integrador_rigido.py",
+        "investigacion-aeronautica/ejecucion/G6/verificacion_6dof_antigravity_r1/simular.py",
+        "investigacion-aeronautica/ejecucion/G6/verificacion_6dof_antigravity_r1/FALLO_SERIALIZACION.log"
+      ],
+      "instruccion": "Copia test_integrador_rigido.py y simular.py desde entradas a salidas ANTES de ejecutar cualquier script. Se ejecutó la prueba con numpy/scipy y los tres casos arrojaron APROBADO pero falló el proceso al serializar numpy.bool_ en JSON, como muestra FALLO_SERIALIZACION.log. Corrige en copia solo la serialización de escalares numpy a tipos JSON nativos (o conversiones bool explícitas), conservando los cálculos, tolerancias, criterios de aprobación y el código de salida ante fallo. No ejecutes ni modifiques los archivos de entradas, tampoco el simulador original. Dado que aquí puede faltar numpy/scipy, declara si no se pudo ejecutar; realiza pruebas de sintaxis o independientes disponibles. Entrega script corregido y explicación de cambios, sin afirmar que el vehículo está validado."
+    }
+  ]
+}

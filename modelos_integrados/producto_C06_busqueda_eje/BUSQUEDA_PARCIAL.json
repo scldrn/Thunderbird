@@ -1,0 +1,1852 @@
+{
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_C03/5kg/C03_5kg_cerrado.FCStd",
+  "source_sha256": "fe15cb8d9613e4c06e1e5d336ecae4153fac9e8a50ec3f065b7b65b7b6fa9e8d",
+  "scope": "Eje aislado en cerrado, sin soportes ni trayectoria, contra seis objetos C03; no prueba de instalacion ni flujo",
+  "pin_envelope_mm": {
+    "start_x": -188.0,
+    "length": 56.0,
+    "radius": 1.5,
+    "allowance_hypothesis": 0.5
+  },
+  "intersection_reject_threshold_mm3": 1e-05,
+  "obstacles": [
+    "modulo_C02_0_rotor_copa",
+    "junta_C02_0_superior",
+    "aro_C02_0_superior",
+    "compuerta_C02_0_superior",
+    "modulo_C02_0_camisa_cuna_y_soportes",
+    "carroceria_C02_superior004"
+  ],
+  "candidates": [
+    {
+      "y_mm": -140.0,
+      "z_mm": 55.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 57.466229241156135
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.6252665775462
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 21.703891488103203
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 23.440629416522864
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.5
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 3.4893809861029665
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -140.0,
+      "z_mm": 65.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 66.78564219334446
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 17.183992948805628
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 16.23144885680051
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.025045109826646
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.5
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 7.7266748272049774
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -140.0,
+      "z_mm": 75.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 76.27429953779303
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 16.0842505648172
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.30415509700645
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 16.786624920398257
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.73704427400204
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 11.963831430468169
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -140.0,
+      "z_mm": 85.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 85.8770817058526
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 19.743996723810437
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 19.31133237563885
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.15286489280482
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.378515268502365
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 17.248070414376816
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -140.0,
+      "z_mm": 95.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 95.56012129741096
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.576794339944904
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.385428227538167
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.766135474543443
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 28.94711707212908
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 25.207902257509378
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -140.0,
+      "z_mm": 105.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 105.30159121054805
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 34.67397087413373
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 34.58224412583654
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 34.76304147516007
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 36.86799833357098
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 34.03016329907867
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -140.0,
+      "z_mm": 115.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 115.0868458443829
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 43.166675033893306
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 43.10795547024667
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 43.221654588571006
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 45.29276602268651
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 42.87519000268544
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -130.0,
+      "z_mm": 55.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 54.330244410360386
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 16.728039009745682
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.981281774109473
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 17.402730248864966
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 8.50000000000017
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 9.348312225054894,
+          "distance_mm": 4.5496934130773415e-14
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -130.0,
+      "z_mm": 65.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 64.09671432135504
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 8.493409396394796
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 7.564945924641393
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.317116226116815
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 8.500000000000156
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 47.25225751459315,
+          "distance_mm": 0.0
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -130.0,
+      "z_mm": 75.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 73.92441029662979
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 6.25600900779296
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 5.591217925545302
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 6.888869415450679
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 8.962938598245476
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 3.1170787468183185
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -130.0,
+      "z_mm": 85.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 83.79214108240602
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 12.52999587623989
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 12.390289605896015
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 12.678235361242699
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 14.83912043194892
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 11.685231105982886
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -130.0,
+      "z_mm": 95.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 93.6873076437096
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.878755663219454
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.81165851591636
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.94288742755106
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 23.02387630445658
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.530409413509393
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -130.0,
+      "z_mm": 105.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 103.60218601430441
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 29.47477027874832
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 29.427272661427683
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 29.518692275120333
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 31.57903822829513
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 29.375439663361423
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -130.0,
+      "z_mm": 115.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 113.31272283592963
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 38.222226587496756
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 38.22577995050286
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 38.22084383163926
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 40.243636630054894
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 38.24942452955534
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -120.0,
+      "z_mm": 55.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 52.87449332706295
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.23368276798629
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 14.919663037799229
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.54559866514524
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 49.099894306732196,
+          "distance_mm": 0.0
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -120.0,
+      "z_mm": 65.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 62.860978065209686
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 5.395766619996224
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 5.191027766913951
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 5.623996052040607
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 49.09994665553599,
+          "distance_mm": 0.0
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -120.0,
+      "z_mm": 75.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 72.55039719677404
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 1.5219256806409502,
+          "distance_mm": 0.0
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -120.0,
+      "z_mm": 85.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 81.7325737016464
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 7.161121916313492
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 7.109540734136938
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 7.2093429880966715
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.27413917470998
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 7.030974510772247
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -120.0,
+      "z_mm": 95.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 91.08434708415888
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.884380818804328
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.8949553146281
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.876110420919296
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 17.913560951272096
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.957283296123975
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -120.0,
+      "z_mm": 105.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 100.55910701647355
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 24.982249258810988
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 25.02127420342861
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 24.720892966326666
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.72016214059892
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 25.163975853741317
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -120.0,
+      "z_mm": 115.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 110.12554064818677
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 34.18125775837644
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 34.23146326383301
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 33.56562620669903
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 35.655021422188426
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 34.404893556516065
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -110.0,
+      "z_mm": 55.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 50.204558067930535
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.16006010046989
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.05775945218413
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.254591199185434
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 41.53699664826263,
+          "distance_mm": 0.0
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -110.0,
+      "z_mm": 65.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 59.47180762450791
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 8.931626562482679
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 8.846058678852579
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.009647553484728
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 41.53700093613648,
+          "distance_mm": 0.0
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -110.0,
+      "z_mm": 75.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 68.93977090394317
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 1.1568985088536679
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 1.395285373825811
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.00515141681229721,
+          "distance_mm": 4.263256414560601e-14
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -110.0,
+      "z_mm": 85.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 78.53724960916635
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 4.1727247739584685
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 4.375859201776254
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 2.3769069457307515
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 4.376137478045906
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 5.056305535400156
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -110.0,
+      "z_mm": 95.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 88.22269124920406
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.011027771485205
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.142572000357346
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 11.221794333188873
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.50524926048885
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.587625271947829
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -110.0,
+      "z_mm": 105.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 97.97040426679686
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.097707768899646
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.206732473813005
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.066529518031018
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.700424155638373
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.571813013922448
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -110.0,
+      "z_mm": 115.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 107.76372373756992
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 31.13036852752859
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 31.226446548175893
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 28.91111175767848
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 31.817829648774502
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 31.545955476177582
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -100.0,
+      "z_mm": 55.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 46.99393080582353
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.29351215371503
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.304427956379072
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.27983289932634
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 4.128506763001802
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.360641648516662
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -100.0,
+      "z_mm": 65.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 56.774019296767236
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 14.108974822170369
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 14.191947760647425
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.424877253478224
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 4.128506763001802
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 14.486331057457475
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -100.0,
+      "z_mm": 75.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 66.6179956032178
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 8.781679253560908
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.002729790380913
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 4.5701906019070675
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 4.128506763001802
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.723723081766778
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -100.0,
+      "z_mm": 85.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 76.50167514226858
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 8.75835399324976
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.018506107133643
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 103.59067404729078,
+          "distance_mm": 0.0
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -100.0,
+      "z_mm": 95.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 86.41166774097736
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.399411213118777
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.620617571574238
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 6.56777242942608
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 11.593752129074172
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 14.336007437497095
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -100.0,
+      "z_mm": 105.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 96.33997815310467
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.67123454995491
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.841101059765933
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.412355699080006
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 19.95930954567788
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 21.395842031879557
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -100.0,
+      "z_mm": 115.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 106.28154445451224
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 28.684291037951613
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 28.82016191959984
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 24.256784014218823
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 28.539516283091537
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 29.26541644993338
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 55.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 45.7224663163626
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 27.679799608295504
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 27.74348368782815
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.888975442576463
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.996093988389482
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 27.96295268376242
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 65.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 55.72028770462448
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.465364057995558
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.589842783494166
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.034370392883414
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.996093988389482
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 21.004950524769836
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 75.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 65.71875724081784
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.454458637742272
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.662347283549522
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.180035917492265
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.996093988389482
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 16.337259557935113
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 85.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 75.71762315041819
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 14.369002726200902
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 14.616145454147182
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 0.3259718418171271
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 9.996093988389482
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.408516267564359
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 95.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 85.71674910818449
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.60498720512727
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.854405484220706
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 1.9139496105899914
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 12.18205138901389
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 16.653223188007402
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 105.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 95.71605487263922
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 19.98511657920677
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.196977358085327
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 10.758377962679738
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 17.977261255276527
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.880762470020738
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -90.0,
+      "z_mm": 115.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 105.71549013552098
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.23884310136454
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.40640769825431
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 19.6026493693332
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 25.27785528557978
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.951334753775107
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 55.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 45.71
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 33.43082681284987
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 33.51839455001782
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 31.49765275913062
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.464933853239451
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 33.810354425766626
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 65.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 55.71
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.44518329177007
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 26.57843891268458
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 22.643404796065678
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.464933853239451
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 27.016738255919165
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 75.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 65.71
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.913638176790652
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 21.10522134574036
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.789428923638727
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.464933853239451
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 21.726866674770143
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 85.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 75.71
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.00964381329191
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.252026756203847
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 4.935724922933405
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 13.464933853239451
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 19.029368835005684
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 95.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 85.71
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 17.819901430227763
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 18.07014688847926
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 123.24481044005185,
+          "distance_mm": 0.0
+        }
+      ],
+      "passed_closed": false
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 105.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 95.71
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 19.157354602394353
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 19.39480152486774
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 6.104602836736673
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 15.955636307309533
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 20.156721091463385
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -80.0,
+      "z_mm": 115.0,
+      "origin": "grilla",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 105.71
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 23.166519558911663
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 23.359149380804524
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 14.94871428915589
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 21.44363731636936
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 0.0,
+          "distance_mm": 23.9828599644227
+        }
+      ],
+      "passed_closed": true
+    },
+    {
+      "y_mm": -124.0,
+      "z_mm": 67.9767683408146,
+      "origin": "referencia_C04",
+      "checked": [
+        {
+          "name": "modulo_C02_0_rotor_copa",
+          "overlap_mm3": 0.0,
+          "distance_mm": 66.13439901864486
+        },
+        {
+          "name": "junta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 2.4335101259324063
+        },
+        {
+          "name": "aro_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 1.7483980605049725
+        },
+        {
+          "name": "compuerta_C02_0_superior",
+          "overlap_mm3": 0.0,
+          "distance_mm": 3.1163122791603133
+        },
+        {
+          "name": "modulo_C02_0_camisa_cuna_y_soportes",
+          "overlap_mm3": 0.0,
+          "distance_mm": 2.50000000000042
+        },
+        {
+          "name": "carroceria_C02_superior004",
+          "overlap_mm3": 13.043792369226624,
+          "distance_mm": 1.4210854715202004e-14
+        }
+      ],
+      "passed_closed": false
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "scope": "Selected XFOIL panel-count sensitivity only, not uncertainty or physical acceptance",
+  "image_id": "sha256:54f41a5d5e16486edb4c92ebce9bb9fc2ec8108dbd3fed9f9b917886c8b9bdf3",
+  "geometry_sha256": "102c8b1d93c5b02ae547b27a50340ff326975e0c75ba13adfe737cc7812c3ea7",
+  "script_sha256": "2109828e84269e4f6a67f27b788dab7cc49cc06cba5fa097d7553f97ec217c64",
+  "Re": 61400,
+  "Mach": 0.0,
+  "Ncrit": 9.0,
+  "FPE_traps_disabled_in_MIT_default_build": true,
+  "independent_zero_history_per_point": true,
+  "physical_fan_acceptance": false,
+  "created_UTC": "2026-11-05T01:53:52.326211+00:00",
+  "points": [
+    {
+      "requested_panels": 160,
+      "alpha_deg": -0.29,
+      "strict_accepted": true,
+      "exit_code": 0,
+      "observed_panel_nodes": [
+        240,
+        160,
+        160
+      ],
+      "final_rms": 6.348e-06,
+      "marching_warning_count": 0,
+      "final_viscal_failure": false,
+      "polar_copy_exit_code": 0,
+      "polar_rows": 1,
+      "cl": 0.0024,
+      "cd": 0.01604
+    },
+    {
+      "requested_panels": 160,
+      "alpha_deg": 1.17,
+      "strict_accepted": true,
+      "exit_code": 0,
+      "observed_panel_nodes": [
+        240,
+        160,
+        160
+      ],
+      "final_rms": 5.496e-05,
+      "marching_warning_count": 0,
+      "final_viscal_failure": false,
+      "polar_copy_exit_code": 0,
+      "polar_rows": 1,
+      "cl": 0.0134,
+      "cd": 0.01703
+    },
+    {
+      "requested_panels": 160,
+      "alpha_deg": 2.72,
+      "strict_accepted": false,
+      "exit_code": 0,
+      "observed_panel_nodes": [
+        240,
+        160,
+        160
+      ],
+      "final_rms": 1.164e-05,
+      "marching_warning_count": 4,
+      "final_viscal_failure": false,
+      "polar_copy_exit_code": 0,
+      "polar_rows": 1,
+      "cl": 0.4012,
+      "cd": 0.0177
+    },
+    {
+      "requested_panels": 160,
+      "alpha_deg": 5.89,
+      "strict_accepted": false,
+      "exit_code": 0,
+      "observed_panel_nodes": [
+        240,
+        160,
+        160
+      ],
+      "final_rms": 2.508e-06,
+      "marching_warning_count": 54,
+      "final_viscal_failure": false,
+      "polar_copy_exit_code": 0,
+      "polar_rows": 1,
+      "cl": 0.6622,
+      "cd": 0.02461
+    },
+    {
+      "requested_panels": 320,
+      "alpha_deg": -0.29,
+      "strict_accepted": false,
+      "exit_code": 0,
+      "observed_panel_nodes": [
+        240,
+        320,
+        320
+      ],
+      "final_rms": 4.146e-05,
+      "marching_warning_count": 1,
+      "final_viscal_failure": false,
+      "polar_copy_exit_code": 0,
+      "polar_rows": 1,
+      "cl": 0.0022,
+      "cd": 0.01602
+    },
+    {
+      "requested_panels": 320,
+      "alpha_deg": 1.17,
+      "strict_accepted": false,
+      "exit_code": 0,
+      "observed_panel_nodes": [
+        240,
+        320,
+        320
+      ],
+      "final_rms": 2.827e-05,
+      "marching_warning_count": 4,
+      "final_viscal_failure": false,
+      "polar_copy_exit_code": 0,
+      "polar_rows": 1,
+      "cl": 0.014,
+      "cd": 0.01701
+    },
+    {
+      "requested_panels": 320,
+      "alpha_deg": 2.72,
+      "strict_accepted": false,
+      "exit_code": 0,
+      "observed_panel_nodes": [
+        240,
+        320,
+        320
+      ],
+      "final_rms": 4.361e-06,
+      "marching_warning_count": 22,
+      "final_viscal_failure": false,
+      "polar_copy_exit_code": 0,
+      "polar_rows": 1,
+      "cl": 0.4003,
+      "cd": 0.01771
+    },
+    {
+      "requested_panels": 320,
+      "alpha_deg": 5.89,
+      "strict_accepted": false,
+      "exit_code": 0,
+      "observed_panel_nodes": [
+        240,
+        320,
+        320
+      ],
+      "final_rms": 4.145e-05,
+      "marching_warning_count": 112,
+      "final_viscal_failure": false,
+      "polar_copy_exit_code": 0,
+      "polar_rows": 1,
+      "cl": 0.6622,
+      "cd": 0.02451
+    }
+  ],
+  "container_id": "a0afbbeffac22f0771abe004868c65648211379487f9826d2e2f3d724ae2fc3f",
+  "stop_exit_code": 0
+}

@@ -1,0 +1,39 @@
+{
+  "process_exit_code": 0,
+  "target_reached": true,
+  "last_physical_time_s": 0.001,
+  "all_internal_fields_finite": true,
+  "fields_at_final_write": {
+    "U": {
+      "all_finite": true,
+      "min_component": -86.6643185,
+      "max_component": 58.0437997,
+      "max_magnitude_ms": 96.13592413397598
+    },
+    "p": {
+      "all_finite": true,
+      "min_component": -6094.31514,
+      "max_component": 2781.36004,
+      "units": "kinematic pressure, m^2/s^2, not Pa"
+    },
+    "k": {
+      "all_finite": true,
+      "min_component": 4.94385441,
+      "max_component": 324.632851
+    },
+    "omega": {
+      "all_finite": true,
+      "min_component": 815.296033,
+      "max_component": 261028.269
+    }
+  },
+  "dt_initial_s": 1.19617225e-06,
+  "dt_final_s": 1.0965336e-06,
+  "initial_to_final_dt_ratio": 1.0908669374107642,
+  "dt_collapsed_by_factor_1000": false,
+  "exceeded_previous_run_failure_time": true,
+  "force_statistics_withheld": true,
+  "max_abs_relative_flux_imbalance": 4.7007450831749535e-05,
+  "physical_loads_accepted": false,
+  "scope": "Short first-order stability diagnostic; cannot establish root cause, numerical accuracy, physical stationarity, installed performance or grid/time-step independence."
+}

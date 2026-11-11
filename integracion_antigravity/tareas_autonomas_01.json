@@ -1,0 +1,65 @@
+{
+  "descripcion": "Tareas independientes editables en carpetas aisladas; los resultados son candidatos pendientes de revisión.",
+  "tareas": [
+    {
+      "id": "uiuc_estatico",
+      "entradas": ["investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.txt", "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt", "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_geom.png"],
+      "instruccion": "Analiza la hélice abierta Micro Invent 3.2x2.2 de UIUC: el gráfico fuente identifica diámetro real 3.2 pulgadas, dos palas según el catálogo, y las tablas contienen CT y CP experimentales. Con rho=1.225 kg/m3, a=340.3 m/s y viscosidad cinemática 1.46e-5 m2/s supuestos, calcula por punto empuje, potencia de eje, Mach de punta, Re a 0.75R y figura de mérito ideal. Usa CT=T/(rho*n^2*D^4), CP=P/(rho*n^3*D^5), n en rev/s y D=0.08128 m. Genera salidas/analizar.py, salidas/test_analizar.py, salidas/puntos.csv y salidas/INFORME.md; ejecuta las pruebas. Fuente primaria https://m-selig.web.engr.illinois.edu/props/volume-2/propDB-volume-2.html y https://m-selig.ae.illinois.edu/pubs/DetersAnandaSelig-2014-AIAA-2014-2151.pdf. La hélice abierta de dos palas no valida el ventilador entubado de ocho palas C02 ni su potencia eléctrica; no extrapoles RPM."
+    },
+    {
+      "id": "uiuc_avance",
+      "entradas": ["investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_0544rd_20051.txt", "investigacion-aeronautica/fuentes/uiuc_propdb/mi_3.2x2.2_static_0519rd.txt"],
+      "instruccion": "Procesa independientemente el ensayo UIUC de hélice abierta Micro Invent 3.2x2.2 a 20.051 rpm. Para D=0.08128 m y rho=1.225 kg/m3 supuestos transforma cada J en V=J*n*D, CT en empuje y CP en potencia de eje; compara eta registrada contra J*CT/CP sin suponer error de medición igual al redondeo. Identifica rango medido y diferencia con 600 km/h; no extrapoles ni transfieras los datos al ventilador C02. Genera script estándar Python, CSV, pruebas ejecutadas y un informe breve en salidas/. Fuente https://m-selig.web.engr.illinois.edu/props/volume-2/propDB-volume-2.html."
+    },
+    {
+      "id": "energia_ley_arrastre",
+      "entradas": ["investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/calcular_r2.py", "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md"],
+      "instruccion": "Construye una sensibilidad independiente del trabajo de aceleración para D(v)=D_final*(v/V)^p con p=1,2,4 bajo aceleración constante, manteniendo misión y supuestos del informe de entrada. Verifica analíticamente la integral D_final*V*t/(p+2), compara energía, potencia pico y masa mínima de pack para 600 y 1000 km/h, 50 N, 60 s y apoyo de 0/1000 W. Implementa y ejecuta pruebas Python estándar, genera tabla y reporte en salidas/. No afirmes que alguna p prediga arrastre transónico y no cambies C02."
+    },
+    {
+      "id": "cg_bidimensional",
+      "entradas": ["investigacion-aeronautica/configuraciones/C02_CANDIDATA.json", "investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME-VERTICAL.md"],
+      "instruccion": "Deriva y programa un chequeo analítico de equilibrio de cuatro fuerzas verticales 0<=fi<=Fmax ubicadas en x=±0.160 m, y=±0.076 m, con Σfi=mg y CG arbitrario (xcg,ycg). Obtén una condición de intersección de intervalos para la cuarta variable, construye y comprueba fuerzas cuando sea factible, e incluye pruebas de simetría, masa 5 kg CG centrado, CG en borde y falta de fuerza total. Genera matriz CSV de posiciones hipotéticas para 5 kg y Fmax=20.58/25 N, script y pruebas ejecutadas en salidas/. Declara modelo estático ideal, no mapa instalado; ejes CAD y sin fuerzas horizontales."
+    },
+    {
+      "id": "trayectoria_jerk",
+      "entradas": ["investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME.md"],
+      "instruccion": "Desarrolla y verifica una comparación 1D de desplazamiento de 5 m de reposo a reposo con límite de aceleración A y jerk J; compara con el perfil ideal sin jerk t=sqrt(4d/A). Para perfil simétrico con cuatro rampas de jerk, verifica ramas triangular y con meseta, continuidad, unidades, y simula por integración numérica independiente. Usa A=0.5g y 1g, J=1,5,20 m/s3 como hipótesis. Entrega código Python estándar, pruebas ejecutadas, CSV y reporte en salidas/. No lo presentes como capacidad real, ni incluyas límite de velocidad no modelado."
+    },
+    {
+      "id": "termica_motor",
+      "entradas": ["investigacion-aeronautica/ejecucion/G3/C02/INFORME-C02.md"],
+      "instruccion": "Construye un modelo térmico concentrado de sensibilidad, no diseño: C dT/dt=P_loss-(T-Tamb)/R. Usa Tamb=25 C, pérdida constante hipotética 74.2 W vinculada explícitamente al escenario no validado C01/C02 del informe, C=10,50,100 J/K, R=1,3,10 K/W y tiempos 10,30,120 s; incluye soluciones y tests analíticos. Compara con 80 C solo como umbral ilustrativo de la fuente NASA https://ntrs.nasa.gov/api/citations/20230017299/downloads/Weinstein_SciTech2024_Final.pdf?attachment=true, no como límite de todo motor. Entrega código, CSV, tests y reporte en salidas/, sin extrapolar la disipación real."
+    },
+    {
+      "id": "respuesta_ventilador",
+      "entradas": ["investigacion-aeronautica/simulacion_vuelo_A/INFORME.md"],
+      "instruccion": "Compara respuestas normalizadas de primer orden 1-exp(-t/tau) y segundo orden críticamente amortiguado 1-(1+t/tau)exp(-t/tau), usando tau supuestos 0.08,0.2,0.5 s. Calcula tiempos 10/50/90%, controla límites e incluye tests numéricos. El artículo NASA https://ntrs.nasa.gov/api/citations/20230017299/downloads/Weinstein_SciTech2024_Final.pdf?attachment=true describe un EDF distinto de 130 mm y destaca efecto de rampas de ESC; no tomes sus tiempos ni estos tau como mediciones C02. Entrega script, tabla, pruebas ejecutadas e informe en salidas/."
+    },
+    {
+      "id": "auditoria_bom",
+      "entradas": ["investigacion-aeronautica/ejecucion/G3/C02/integracion_x160/BOM_GEOMETRICA_PARCIAL.csv", "investigacion-aeronautica/ejecucion/G3/C02/integracion_x160/MASA_INERCIA_PARCIAL.json", "investigacion-aeronautica/ejecucion/G3/C02/INFORME-C02.md"],
+      "instruccion": "Audita la BOM parcial C02: cuenta registros, clasifica los roles y detecta filas sin masa asignada sin tratarlas como masa física cero. Reconcilia sumas de la hipótesis mixta contra JSON y explica cualquier discrepancia o límite. Produce script reproducible de solo Python estándar, pruebas ejecutadas, CSV agrupado e informe en salidas/. No concluyas masa, CG o hardware reales ni alteres el original."
+    },
+    {
+      "id": "dependencias_plan",
+      "entradas": ["investigacion-aeronautica/plan_maestro/TRABAJO.csv", "investigacion-aeronautica/ejecucion/ESTADO-TAREAS.csv", "investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md"],
+      "instruccion": "Cruza las 48 tareas del plan con su estado y dependencias. Crea un script Python estándar y CSV reproducible que identifique tareas computacionales con dependencias abiertas, pasos paralelizables de preparación y tareas físicas, sin declarar cierres ni modificar archivos canónicos. Incluye tests para dependencias inexistentes o ciclos y un informe de prioridades P0. Entrega todo en salidas/."
+    },
+    {
+      "id": "auditoria_cfd",
+      "entradas": ["investigacion-aeronautica/ejecucion/G2/flujo_C02_conducto/INFORME-FINA-800.md", "investigacion-aeronautica/ejecucion/G2/flujo_C02_conducto/INFORME-F1N-PRELIMINAR.md", "investigacion-aeronautica/ejecucion/G4/RAE2822/INFORME-NASA-SU2.md"],
+      "instruccion": "Prepara una matriz de verificación de los tres estudios CFD locales: geometría, condiciones, convergencia, validación experimental, significado de carga y siguiente dato faltante. No lances ni reanudes solver o contenedores; no compares directamente mallas físicas incompatibles ni interpretes iteraciones como tiempo físico. Entrega informe y tabla CSV en salidas/, con citas de archivo y sin inventar cifras."
+    },
+    {
+      "id": "estructura_rotor",
+      "entradas": ["investigacion-aeronautica/ejecucion/G5/rotor_C02/INFORME.md", "investigacion-aeronautica/ejecucion/G5/rotor_C02/RESULTADOS.json"],
+      "instruccion": "Audita el cribado estructural previo del rotor C02 y prepara comprobaciones analíticas independientes de escalado centrífugo: velocidad periférica, Mach de punta y carga radial proporcional a omega^2 para masas/radios supuestos. Genera script estándar Python, tests ejecutados, tabla reproducible e informe en salidas/. No lo presentes como tensión de la pala real, análisis aeroelástico ni aprobación de fabricación."
+    },
+    {
+      "id": "cobertura_reynolds",
+      "entradas": ["investigacion-aeronautica/ejecucion/G2/INFORME-COBERTURA-POLAR-C02.md", "investigacion-aeronautica/fuentes/uiuc/SD8020.DRG"],
+      "instruccion": "Calcula una matriz de sensibilidad para la condición cinemática c_min=Re_min*nu/(M_lim*a), con nu=1.46e-5 m2/s, a=340.3 m/s, Reynolds de los bloques combinados DRG y límites de Mach 0.2,0.3,0.4. Reproduce el ejemplo 61400/0.3=8.781 mm y verifica unidades. Distingue que límites Mach son elecciones y que una condición cinemática no valida perfil giratorio ni Cd extrapolado. Entrega código, tests ejecutados, CSV e informe en salidas/."
+    }
+  ]
+}

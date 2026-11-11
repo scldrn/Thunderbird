@@ -1,0 +1,17 @@
+{
+  "tetrahedra": 326013,
+  "all_tetrahedra_positive": true,
+  "hull_triangles": 31546,
+  "hull_mesh_closed_edge_incidence_two": true,
+  "hull_volume_m3": 0.040086292368251654,
+  "CAD_hull_volume_m3": 0.04008790710269946,
+  "relative_hull_volume_error": 4.0279839096268866e-05,
+  "hull_mesh_area_m2": 0.8303997591812216,
+  "CAD_hull_area_m2": 0.830423568166444,
+  "relative_hull_area_error": 2.8670892945670268e-05,
+  "fluid_tetra_volume_m3": 779.5376100566963,
+  "box_partition_closure_error_m3": 2.2737367544323206e-13,
+  "flow_computed": false,
+  "drag_and_Mach_critical_validated": false,
+  "note": "Geometric audit only; body-relative errors prevent the farfield volume from hiding hull discretization errors."
+}

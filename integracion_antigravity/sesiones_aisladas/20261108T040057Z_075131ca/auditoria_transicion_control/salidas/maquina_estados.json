@@ -1,0 +1,1091 @@
+{
+  "metadatos": {
+    "titulo": "Especificacion Tecnica Verificable de Maquina de Estados de Transicion Estacionario - Avance",
+    "arquitectura_base": "A: Ventiladores internos con carroceria deportiva (DECISION-ARQUITECTURA.md, lineas 9, 98)",
+    "referencia_geometrica": "A07 (5 kg referencia de integracion; 2 kg y 10 kg escalables; PLAN-MAESTRO.md, lineas 4, 17, 24)",
+    "fecha_especificacion": "2026-11-08",
+    "version": "1.0.0",
+    "declaracion_estado_construccion": "No se declara que las tapas o controladores esten construidos ni que exista un mapa experimental instalado. Los mecanismos de compuertas y enlaces cinematicos continuos no han sido fabricados ni sintetizados. Los dos contenedores CFD permanecen en pausa (docker pause) y no se reanudan.",
+    "citas_fuentes_hechos": {
+      "arquitectura_seleccionada": "entradas/investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md:9,98",
+      "geometria_referencia_loft": "entradas/investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md:11,37",
+      "dimensiones_loft_cerrado": "entradas/investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md:37",
+      "ruta_axial_tubo_interior": "entradas/investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md:41",
+      "cinematica_tapas_A07": "entradas/investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md:103",
+      "aletas_posteriores_X": "entradas/investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md:98; entradas/investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md:29",
+      "posicion_canales_ventiladores": "entradas/investigacion-aeronautica/simulacion_vuelo_A/INFORME.md:18",
+      "limites_supuestos_actuadores": "entradas/investigacion-aeronautica/simulacion_vuelo_A/INFORME.md:20",
+      "saturacion_angulo_simulada": "entradas/investigacion-aeronautica/simulacion_vuelo_A/INFORME.md:34,37; entradas/investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md:79",
+      "estimacion_friccion_1000kmh": "entradas/investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md:39",
+      "presion_dinamica_1000kmh": "entradas/investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md:153",
+      "cfd_pausado": "entradas/investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md:25,93,103,119; entradas/investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md:218"
+    }
+  },
+  "taxonomia_datos": {
+    "datos_medidos": {
+      "longitud_loft_cerrado_m": {
+        "valor": 1.340,
+        "unidad": "m",
+        "fuente": "DECISION-ARQUITECTURA.md:37",
+        "naturaleza": "Medicion geometrica CAD del loft exterior de referencia"
+      },
+      "superficie_loft_cerrado_m2": {
+        "valor": 0.8304,
+        "unidad": "m^2",
+        "fuente": "DECISION-ARQUITECTURA.md:37",
+        "naturaleza": "Medicion geometrica CAD del loft exterior de referencia"
+      },
+      "volumen_bruto_loft_cerrado_l": {
+        "valor": 40.09,
+        "unidad": "litros",
+        "fuente": "DECISION-ARQUITECTURA.md:37",
+        "naturaleza": "Medicion geometrica CAD del volumen exterior de referencia"
+      },
+      "radio_taladro_conductos_mm": {
+        "valor": 42.0,
+        "unidad": "mm",
+        "fuente": "DECISION-ARQUITECTURA.md:21",
+        "naturaleza": "Medicion geometrica CAD en conductos inferiores de 4 solidos"
+      },
+      "separacion_radial_minima_rotor_conducto_mm": {
+        "valor": 0.988,
+        "unidad": "mm",
+        "fuente": "DECISION-ARQUITECTURA.md:21",
+        "naturaleza": "Calculo de holgura geometrica local CAD, no holgura aeroelastica"
+      },
+      "recuento_piezas_A07": {
+        "valor": 208,
+        "unidad": "piezas",
+        "fuente": "PLAN-MAESTRO.md:53",
+        "naturaleza": "Conteo de piezas STEP en ensamblaje de referencia A07"
+      },
+      "posiciones_discretas_cribadas_tapas_A07": {
+        "valor": 61,
+        "unidad": "posiciones",
+        "fuente": "DECISION-ARQUITECTURA.md:103",
+        "naturaleza": "Cribado cinematico discreto de colisiones CAD sin solape detectado"
+      }
+    },
+    "datos_supuestos": {
+      "masa_referencia_ancla_kg": {
+        "valor": 5.0,
+        "unidad": "kg",
+        "fuente": "DECISION-ARQUITECTURA.md:13,113; INFORME.md:16",
+        "naturaleza": "Masa nominal propuesta como ancla; variantes de 2 kg y 10 kg abiertas"
+      },
+      "centro_gravedad_supuesto_m": {
+        "valor": [0.0, 0.0, 0.0],
+        "unidad": "m",
+        "fuente": "INFORME.md:16",
+        "naturaleza": "Hipotesis sin estimacion detallada desde la lista real de componentes"
+      },
+      "tensor_inercia_elipsoide_homogeneo_kgm2": {
+        "valor": [0.03531, 0.45899, 0.47546],
+        "unidad": "kg*m^2",
+        "fuente": "INFORME.md:16",
+        "naturaleza": "Tensor diagonal de elipsoide de 1.341 x 0.321821 x 0.194110 m; no de A07"
+      },
+      "estaciones_canales_5kg_m": {
+        "valor": [[-0.200, -0.076], [-0.200, 0.076], [0.200, -0.076], [0.200, 0.076]],
+        "unidad": "m",
+        "fuente": "INFORME.md:18; DECISION-ARQUITECTURA.md:89",
+        "naturaleza": "Posiciones longitudinales y laterales de los 4 ejes de ventiladores"
+      },
+      "brazos_efectivos_empuje_lateral_m": {
+        "valor": {"Fx_brazo_m": -0.039, "Fy_brazo_m": -0.021},
+        "unidad": "m",
+        "fuente": "INFORME.md:18",
+        "naturaleza": "Brazos hipoteticos de par de fuerza lateral; no centros de presion medidos"
+      },
+      "fuerza_maxima_modulo_ventilador_N": {
+        "valor": 21.0,
+        "unidad": "N",
+        "fuente": "INFORME.md:20; DECISION-ARQUITECTURA.md:29,49",
+        "naturaleza": "Cota supuesta por modulo para masa de 5 kg; escala linealmente con masa"
+      },
+      "fuerza_minima_vertical_modulo_Fz_N": {
+        "valor": 1.0,
+        "unidad": "N",
+        "fuente": "INFORME.md:20",
+        "naturaleza": "Limite inferior de empuje axial en modulacion por ventilador"
+      },
+      "semicono_efectivo_empuje_deg": {
+        "valor": 35.0,
+        "unidad": "deg",
+        "fuente": "INFORME.md:20; DECISION-ARQUITECTURA.md:77,79",
+        "naturaleza": "Cota supuesta de direccion de empuje; no deducida del alabe instalado"
+      },
+      "constante_tiempo_actuador_tau_s": {
+        "valor": 0.08,
+        "unidad": "s",
+        "fuente": "INFORME.md:20",
+        "naturaleza": "Constante de respuesta de primer orden supuesta para el modulo propulsor"
+      },
+      "tasa_maxima_cambio_fuerza_Ns": {
+        "valor": 50.0,
+        "unidad": "N/s",
+        "fuente": "INFORME.md:20; DECISION-ARQUITECTURA.md:63",
+        "naturaleza": "Limite de rapidez vectorial de empuje por ventilador a 5 kg"
+      },
+      "cinematica_nominal_tapas_A07": {
+        "elevacion_vertical_mm": 10.0,
+        "abatimiento_angular_deg": 110.0,
+        "unidad_longitud": "mm",
+        "unidad_angulo": "deg",
+        "fuente": "DECISION-ARQUITECTURA.md:103; PLAN-MAESTRO.md:147-148",
+        "naturaleza": "Paso cinematico prescrito para estudio geometrico; mecanismo no sintetizado"
+      }
+    },
+    "datos_calculados": {
+      "friccion_turbulenta_placa_lisa_1000kmh_N": {
+        "valor": 96.0,
+        "unidad": "N",
+        "fuente": "DECISION-ARQUITECTURA.md:39",
+        "naturaleza": "Calculo de placa lisa para 5 kg supuestos a 1000 km/h; sin onda/base/forma"
+      },
+      "potencia_friccion_placa_lisa_1000kmh_kW": {
+        "valor": 26.7,
+        "unidad": "kW",
+        "fuente": "DECISION-ARQUITECTURA.md:39",
+        "naturaleza": "Calculo ideal de potencia aerodinamica de placa lisa"
+      },
+      "presion_dinamica_1000kmh_kPa": {
+        "valor": 47.0,
+        "unidad": "kPa",
+        "fuente": "PLAN-MAESTRO.md:153",
+        "naturaleza": "Calculo de presion dinamica aproximada a nivel de referencia a 1000 km/h"
+      },
+      "angulo_vectorial_maximo_simulado_deg": {
+        "valor": 34.920,
+        "unidad": "deg",
+        "fuente": "INFORME.md:34,37",
+        "naturaleza": "Maximo angulo registrado en simulacion 6DOF de 5 kg; margen 0.08 deg a 35 deg"
+      },
+      "angulo_vectorial_maximo_trayectorias_LP_deg": {
+        "valor": 33.75,
+        "unidad": "deg",
+        "fuente": "DECISION-ARQUITECTURA.md:79",
+        "naturaleza": "Maximo angulo en 9 trayectorias evaluadas con margen 1.25 deg a 35 deg"
+      },
+      "reaccion_lateral_conducto_euler_N": {
+        "valor_alabes": 6.976,
+        "valor_solidos_totales": 2.110,
+        "unidad": "N",
+        "fuente": "DECISION-ARQUITECTURA.md:73",
+        "naturaleza": "Integracion numerica en campo de Euler no desarrollado"
+      }
+    },
+    "propuestas_tecnicas": {
+      "velocidad_minima_control_aerodinamico_ms": {
+        "valor_propuesto": 28.0,
+        "unidad": "m/s",
+        "naturaleza": "[PROPUESTA] Velocidad umbral estimada donde las 4 aletas en X generan par suficiente"
+      },
+      "velocidad_maxima_apertura_tapas_ms": {
+        "valor_propuesto": 32.0,
+        "unidad": "m/s",
+        "naturaleza": "[PROPUESTA] Limite superior de velocidad para iniciar apertura de compuertas sin fallo estructural"
+      },
+      "presion_dinamica_maxima_tapas_abiertas_Pa": {
+        "valor_propuesto": 650.0,
+        "unidad": "Pa",
+        "naturaleza": "[PROPUESTA] Presion dinamica maxima admisible sobre las tapas durante la maniobra de transicion"
+      },
+      "tiempo_maximo_cierre_tapas_s": {
+        "valor_propuesto": 1.5,
+        "unidad": "s",
+        "naturaleza": "[PROPUESTA] Tiempo limite para la secuencia de abatimiento y descenso de las 8 compuertas"
+      },
+      "tiempo_maximo_apertura_tapas_s": {
+        "valor_propuesto": 1.5,
+        "unidad": "s",
+        "naturaleza": "[PROPUESTA] Tiempo limite para la secuencia de elevacion y rotacion de las 8 compuertas"
+      },
+      "tiempo_maximo_despierte_axial_s": {
+        "valor_propuesto": 3.0,
+        "unidad": "s",
+        "naturaleza": "[PROPUESTA] Temporizador de guardia para ignicion y estabilizacion a ralenti del empuje axial"
+      }
+    }
+  },
+  "parametros_referencia": {
+    "masa_ancla_kg": 5.0,
+    "gravedad_ms2": 9.80665,
+    "frecuencia_muestreo_control_Hz": 50.0,
+    "paso_tiempo_nominal_s": 0.020,
+    "limite_empuje_modulo_N": 21.0,
+    "limite_inferior_Fz_modulo_N": 1.0,
+    "limite_cono_vectorial_deg": 35.0,
+    "umbral_advertencia_cono_deg": 33.75,
+    "tasa_maxima_cambio_fuerza_Ns": 50.0,
+    "velocidad_inicio_transicion_ms": 3.5,
+    "velocidad_transferencia_aero_ms": 28.0,
+    "velocidad_crucero_minima_ms": 166.7,
+    "presion_dinamica_apertura_tapas_max_Pa": 650.0,
+    "deflexion_maxima_aletas_deg": 20.0
+  },
+  "estados": [
+    {
+      "id": "ESTACIONARIO_ACTIVO",
+      "tipo": "ESTABLE",
+      "descripcion": "Vuelo estacionario omnidireccional sustentado exclusivamente por los cuatro ventiladores internos.",
+      "naturaleza": "HECHO_CON_PROPUESTA_CONTROL",
+      "citas_origen": "INFORME.md:3-12,20-22; DECISION-ARQUITECTURA.md:9,29",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "ACTIVO_6DOF_SLSQP",
+          "empuje_individual_N": {"min": 1.0, "max": 21.0},
+          "angulo_vectorial_deg": {"max": 35.0},
+          "tasa_variacion_Ns": {"max": 50.0}
+        },
+        "propulsion_axial": {
+          "modo": "APAGADO",
+          "empuje_N": 0.0
+        },
+        "tapas": {
+          "posicion": "ABIERTA_COMPLETA",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0,
+          "enclavamiento": "DESENCLAVADO_MECANICO"
+        },
+        "aletas_posteriores_X": {
+          "modo": "DESACTIVADO_O_TRIM_NEUTRO",
+          "deflexion_deg": 0.0
+        }
+      },
+      "precondiciones_entrada": {
+        "velocidad_aire_ms": {"max": 5.0},
+        "tapas_confirmadas_abiertas": true,
+        "salud_ventiladores_ok": true
+      },
+      "criterios_saturacion": {
+        "fuerza_modulo_limite_N": 21.0,
+        "angulo_vectorial_limite_deg": 35.0,
+        "tasa_cambio_limite_Ns": 50.0
+      },
+      "politica_saturacion": {
+        "prioridad_1": "Momento de actitud (Roll, Pitch, Yaw)",
+        "prioridad_2": "Fuerza de sustentacion Z (mantener altitud)",
+        "prioridad_3": "Aceleracion de traslacion horizontal saturada a 0.5 g (INFORME.md:22)"
+      },
+      "tiempo_maximo_permanencia_s": null,
+      "transiciones_salida": [
+        {
+          "evento": "COMANDO_TRANSICION_AVANCE",
+          "destino": "PREPARACION_TRANSICION_AVANCE",
+          "condicion_guarda": "orden_operador == true && salud_general == true && energia_reserva >= 0.30",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "ANOMALIA_SATURACION_CRITICA",
+          "destino": "CONTINGENCIA_SATURACION_CRITICA",
+          "condicion_guarda": "tiempo_saturado_s > 0.5",
+          "tipo_transicion": "EMERGENCIA"
+        }
+      ]
+    },
+    {
+      "id": "PREPARACION_TRANSICION_AVANCE",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Verificacion de precondiciones de vuelo, alineacion de rumbo y comprobacion de reservas antes de ignicion axial.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:147,186",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "ACTIVO_6DOF_ESTABILIZACION",
+          "empuje_individual_N": {"min": 1.0, "max": 21.0},
+          "angulo_vectorial_deg": {"max": 33.75}
+        },
+        "propulsion_axial": {
+          "modo": "PREPARACION_SISTEMA",
+          "empuje_N": 0.0
+        },
+        "tapas": {
+          "posicion": "ABIERTA_COMPLETA",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "AUTOCHEQUEO_RANGO",
+          "deflexion_deg": {"min": -20.0, "max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "actitud_pitch_deg": {"min": -5.0, "max": 5.0},
+        "actitud_roll_deg": {"min": -5.0, "max": 5.0},
+        "tasas_angulares_degs": {"p_max": 10.0, "q_max": 10.0, "r_max": 10.0},
+        "conducto_axial_despejado": true,
+        "reserva_bateria_combustible_ok": true
+      },
+      "criterios_saturacion": {
+        "angulo_vectorial_limite_deg": 33.75
+      },
+      "politica_saturacion": {
+        "accion": "Suspender preparacion y retornar a estacionario puro si se detecta saturacion"
+      },
+      "tiempo_maximo_permanencia_s": 2.0,
+      "transiciones_salida": [
+        {
+          "evento": "PRECONDICIONES_VALIDADAS",
+          "destino": "DESPIERTE_PROPULSION_AXIAL",
+          "condicion_guarda": "autochequeo_ok == true && sensores_ok == true",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "TIMEOUT_O_FALLO_PRECONDICION",
+          "destino": "ESTACIONARIO_ACTIVO",
+          "condicion_guarda": "tiempo_estado > 2.0 || fallo_autochequeo == true",
+          "tipo_transicion": "ABORT_RECUPERACION"
+        }
+      ]
+    },
+    {
+      "id": "DESPIERTE_PROPULSION_AXIAL",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Arranque y aceleracion del propulsor axial hasta empuje de ralenti; los ventiladores compensan momentos de cabeceo inducidos.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:30,147; DECISION-ARQUITECTURA.md:41,49",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "COMPENSACION_MOMENTO_Y_SUSTENTACION",
+          "empuje_individual_N": {"min": 1.0, "max": 21.0},
+          "reserva_cabeceo_Nm": {"min": 0.5}
+        },
+        "propulsion_axial": {
+          "modo": "IGNICION_Y_RALENTI",
+          "empuje_objetivo_N": 5.0
+        },
+        "tapas": {
+          "posicion": "ABIERTA_COMPLETA",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "DEFLEXION_TRIM_ESTELA",
+          "deflexion_deg": {"max": 5.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "presion_conducto_axial_normal": true,
+        "reserva_momento_cabeceo_ventiladores_Nm": {"min": 0.5}
+      },
+      "criterios_saturacion": {
+        "desviacion_cabeceo_deg": {"max": 3.0},
+        "empuje_axial_medido_N": {"min": 4.0, "max": 8.0}
+      },
+      "politica_saturacion": {
+        "accion": "Si la reserva de cabeceo de los ventiladores cae bajo 0.5 Nm, cortar de inmediato el empuje axial"
+      },
+      "tiempo_maximo_permanencia_s": 3.0,
+      "transiciones_salida": [
+        {
+          "evento": "PROPULSOR_AXIAL_ESTABLE",
+          "destino": "ACELERACION_MIXTA",
+          "condicion_guarda": "empuje_axial_estable == true && tiempo_estado <= 3.0",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "FALLO_ARRANQUE_AXIAL",
+          "destino": "CONTINGENCIA_ABORT_A_ESTACIONARIO",
+          "condicion_guarda": "tiempo_estado > 3.0 || perdida_encendido == true",
+          "tipo_transicion": "ABORT_RECUPERACION"
+        }
+      ]
+    },
+    {
+      "id": "ACELERACION_MIXTA",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Propulsion axial empuja para ganar velocidad longitudinal; ventiladores soportan peso y control de actitud bajo flujo oblicuo creciente.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:147; INFORME.md:20,34; DECISION-ARQUITECTURA.md:79",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "DESCARGA_PROGRESIVA_SUSTENTACION",
+          "empuje_colectivo_Z_N": "m*g - sustentacion_cuerpo_aletas(q)",
+          "angulo_vectorial_deg": {"max": 33.75},
+          "tasa_variacion_Ns": {"max": 50.0}
+        },
+        "propulsion_axial": {
+          "modo": "RAMPA_ACELERACION",
+          "tasa_aumento_empuje_Ns": 15.0
+        },
+        "tapas": {
+          "posicion": "ABIERTA_COMPLETA_EN_ESPERA",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "ENTRADA_PROGRESIVA_AUTORIDAD",
+          "deflexion_activa_deg": {"max": 15.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "empuje_axial_activo": true,
+        "aceleracion_X_ms2": {"min": 1.0}
+      },
+      "criterios_saturacion": {
+        "angulo_vectorial_limite_deg": 35.0,
+        "tasa_fuerza_limite_Ns": 50.0,
+        "presion_dinamica_tapas_Pa": 650.0
+      },
+      "politica_saturacion": {
+        "prioridad": "Si el cono vectorial supera 33.75 deg, limitar la aceleracion axial X para no comprometer la estabilidad en cabeceo"
+      },
+      "tiempo_maximo_permanencia_s": 6.0,
+      "transiciones_salida": [
+        {
+          "evento": "VELOCIDAD_TRANSICION_ALCANZADA",
+          "destino": "TRANSFERENCIA_AUTORIDAD_AERODINAMICA",
+          "condicion_guarda": "velocidad_aire_ms >= 28.0 && presion_dinamica_Pa >= 470.0",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "ANOMALIA_SATURACION_O_EMPUJE_INSUFICIENTE",
+          "destino": "CONTINGENCIA_ABORT_A_ESTACIONARIO",
+          "condicion_guarda": "tiempo_estado > 6.0 || angulo_vector_excedido == true",
+          "tipo_transicion": "ABORT_RECUPERACION"
+        }
+      ]
+    },
+    {
+      "id": "TRANSFERENCIA_AUTORIDAD_AERODINAMICA",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Transferencia del control de momentos hacia las 4 aletas en X y descarga completa de sustentacion hacia la carroceria deportiva.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:29,147; DECISION-ARQUITECTURA.md:98",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "DESCONEXION_MOMENTOS_RALENTI",
+          "empuje_individual_N": {"min": 1.0, "max": 2.0},
+          "angulo_vectorial_deg": 0.0
+        },
+        "propulsion_axial": {
+          "modo": "MANTENIMIENTO_EMPUJE_CRUCERO",
+          "empuje_N": {"min": 15.0, "max": 40.0}
+        },
+        "tapas": {
+          "posicion": "ABIERTA_PREPARADA_CIERRE",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "CONTROL_TOTAL_3_EJES",
+          "deflexion_deg": {"max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "velocidad_aire_ms": {"min": 28.0},
+        "sustentacion_aerodinamica_suficiente": true,
+        "autoridad_aletas_verificada": true
+      },
+      "criterios_saturacion": {
+        "deflexion_aletas_deg": 18.0,
+        "error_actitud_deg": 4.0
+      },
+      "politica_saturacion": {
+        "accion": "Si las aletas demandan mas de 18 deg o el error de actitud crece, reactivar vectorizacion de ventiladores antes de desacoplarlos"
+      },
+      "tiempo_maximo_permanencia_s": 2.5,
+      "transiciones_salida": [
+        {
+          "evento": "AUTORIDAD_AERO_CONFIRMADA",
+          "destino": "CIERRE_TAPAS_VENTILADORES",
+          "condicion_guarda": "aletas_efectivas == true && error_actitud <= 2.0 && tiempo_estado >= 0.5",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "PERDIDA_CONTROL_AERODINAMICO",
+          "destino": "CONTINGENCIA_ABORT_A_ESTACIONARIO",
+          "condicion_guarda": "error_actitud > 5.0 || stall_aletas == true",
+          "tipo_transicion": "ABORT_RECUPERACION"
+        }
+      ]
+    },
+    {
+      "id": "CIERRE_TAPAS_VENTILADORES",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Apagado de ventiladores internos y ejecucion cinematica de cierre de las 8 compuertas: abatimiento 110 deg a 0 deg, seguido de descenso 10 mm a enrase.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "DECISION-ARQUITECTURA.md:103; PLAN-MAESTRO.md:54,147,151",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "APAGADO_FRENO_PARADA",
+          "empuje_N": 0.0,
+          "rpm": 0.0
+        },
+        "propulsion_axial": {
+          "modo": "EMPUJE_AVANCE_CONTINUO",
+          "empuje_N": {"min": 20.0}
+        },
+        "tapas": {
+          "secuencia": "ROTACION_110_A_0_LUEGO_DESCENSO_10_A_0",
+          "corriente_actuador_A": {"max": 4.0},
+          "meta_final": "ENRASE_0MM_SOLAPE_CERO"
+        },
+        "aletas_posteriores_X": {
+          "modo": "CONTROL_TOTAL_CON_COMPENSACION_TRANSITORIA_TAPAS",
+          "deflexion_deg": {"max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "ventiladores_apagados": true,
+        "velocidad_aire_ms": {"min": 28.0, "max": 40.0},
+        "sensores_carrera_actuadores_ok": true
+      },
+      "criterios_saturacion": {
+        "corriente_actuador_tapas_A": 4.0,
+        "tiempo_movimiento_s": 1.5
+      },
+      "politica_saturacion": {
+        "accion": "Si la corriente del actuador de tapa supera el umbral (sobrecarga por presion dinamica o atascamiento), abortar cierre y reabrir de inmediato"
+      },
+      "tiempo_maximo_permanencia_s": 2.0,
+      "transiciones_salida": [
+        {
+          "evento": "TAPAS_ENRASADAS_Y_ENCLAVADAS",
+          "destino": "AVANCE_PURO",
+          "condicion_guarda": "todas_tapas_enrasadas == true && cerrojos_enclavados == true",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "ATASCAMIENTO_O_FALLO_CIERRE_TAPAS",
+          "destino": "CONTINGENCIA_TAPA_TRABADA",
+          "condicion_guarda": "tiempo_estado > 1.8 || fallo_cierre == true",
+          "tipo_transicion": "EMERGENCIA"
+        }
+      ]
+    },
+    {
+      "id": "AVANCE_PURO",
+      "tipo": "ESTABLE",
+      "descripcion": "Vuelo de crucero aerodinamico a alta velocidad con carroceria deportiva enrasada, propulsion axial y aletas posteriores en X.",
+      "naturaleza": "HECHO_CON_PROPUESTA_CONTROL",
+      "citas_origen": "DECISION-ARQUITECTURA.md:37,83,98; PLAN-MAESTRO.md:28,29,143",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "INACTIVO_PROTEGIDO",
+          "empuje_N": 0.0,
+          "tapas_cerradas": true
+        },
+        "propulsion_axial": {
+          "modo": "CRUCERO_MODULADO",
+          "empuje_N": {"min": 20.0, "max": 120.0}
+        },
+        "tapas": {
+          "posicion": "CERRADA_ENRASADA_BLOQUEADA",
+          "elevacion_mm": 0.0,
+          "rotacion_deg": 0.0,
+          "solape_nominal": "CERO"
+        },
+        "aletas_posteriores_X": {
+          "modo": "CONTROL_AERODINAMICO_CRUCERO",
+          "deflexion_deg": {"max": 15.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "todas_tapas_enrasadas": true,
+        "velocidad_aire_ms": {"min": 35.0}
+      },
+      "criterios_saturacion": {
+        "deflexion_aletas_deg": 20.0,
+        "empuje_axial_maximo_N": 120.0,
+        "temperatura_conducto_axial_C": 650.0
+      },
+      "politica_saturacion": {
+        "accion": "Limitar velocidad maxima y factor de carga si las aletas o temperaturas alcanzan umbrales criticos"
+      },
+      "tiempo_maximo_permanencia_s": null,
+      "transiciones_salida": [
+        {
+          "evento": "COMANDO_RETORNO_ESTACIONARIO",
+          "destino": "PREPARACION_RETORNO",
+          "condicion_guarda": "orden_retorno == true && velocidad_aire_ms <= 60.0",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "FALLO_PROPULSION_AXIAL",
+          "destino": "PREPARACION_RETORNO",
+          "condicion_guarda": "empuje_axial_perdido == true",
+          "tipo_transicion": "EMERGENCIA"
+        }
+      ]
+    },
+    {
+      "id": "PREPARACION_RETORNO",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Desaceleracion mediante modulacion de empuje axial y trimado de aletas en X hasta alcanzar la ventana de apertura de tapas.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:147; DECISION-ARQUITECTURA.md:103",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "PREPARACION_ARRANQUE",
+          "freno_desactivado": true
+        },
+        "propulsion_axial": {
+          "modo": "REDUCCION_EMPUJE_DESACELERACION",
+          "empuje_N": {"min": 0.0, "max": 15.0}
+        },
+        "tapas": {
+          "posicion": "CERRADA_ENRASADA_PREPARADA_DESENCLAVE",
+          "cerrojos_listos": true
+        },
+        "aletas_posteriores_X": {
+          "modo": "CONTROL_Y_FRENADO_AERODINAMICO",
+          "deflexion_deg": {"max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "reserva_electrica_ventiladores_ok": true
+      },
+      "criterios_saturacion": {
+        "angulo_ataque_deg": 12.0
+      },
+      "politica_saturacion": {
+        "accion": "Mantener margen suficiente frente a entrada en perdida del cuerpo/aletas durante la desaceleracion"
+      },
+      "tiempo_maximo_permanencia_s": 8.0,
+      "transiciones_salida": [
+        {
+          "evento": "VENTANA_APERTURA_ALCANZADA",
+          "destino": "APERTURA_TAPAS_VENTILADORES",
+          "condicion_guarda": "velocidad_aire_ms <= 32.0 && presion_dinamica_Pa <= 650.0",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "TIMEOUT_DESACELERACION",
+          "destino": "CONTINGENCIA_ABORT_A_AVANCE",
+          "condicion_guarda": "tiempo_estado > 8.0 && velocidad_aire_ms > 32.0",
+          "tipo_transicion": "ABORT_RECUPERACION"
+        }
+      ]
+    },
+    {
+      "id": "APERTURA_TAPAS_VENTILADORES",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Apertura cinematica de las 8 compuertas bajo baja presion dinamica: elevacion 10 mm seguida de rotacion 110 deg.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "DECISION-ARQUITECTURA.md:103; PLAN-MAESTRO.md:147,151",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "PREPARADOS_SIN_GIRO",
+          "empuje_N": 0.0
+        },
+        "propulsion_axial": {
+          "modo": "EMPUJE_MINIMO_MANTENIMIENTO",
+          "empuje_N": 10.0
+        },
+        "tapas": {
+          "secuencia": "ELEVACION_10MM_LUEGO_ROTACION_110DEG",
+          "corriente_maxima_A": 4.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "COMPENSACION_PERTURBACION_AERODINAMICA_TAPAS",
+          "deflexion_deg": {"max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "velocidad_aire_ms": {"max": 32.0},
+        "presion_dinamica_Pa": {"max": 650.0}
+      },
+      "criterios_saturacion": {
+        "tiempo_apertura_s": 1.5,
+        "asimetria_tapas_deg": 5.0
+      },
+      "politica_saturacion": {
+        "accion": "Si una compuerta se retrasa mas de 0.3 s o 5 deg respecto a sus pares, detener secuencia y abortar a planeo/avance"
+      },
+      "tiempo_maximo_permanencia_s": 2.0,
+      "transiciones_salida": [
+        {
+          "evento": "TAPAS_TOTALMENTE_ABIERTAS",
+          "destino": "ARRANQUE_VENTILADORES",
+          "condicion_guarda": "todas_tapas_abiertas_110deg == true && elevacion_10mm_ok == true",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "FALLO_APERTURA_TAPAS",
+          "destino": "CONTINGENCIA_ABORT_A_AVANCE",
+          "condicion_guarda": "tiempo_estado > 1.8 || fallo_mecanismo_tapa == true",
+          "tipo_transicion": "EMERGENCIA"
+        }
+      ]
+    },
+    {
+      "id": "ARRANQUE_VENTILADORES",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Puesta en marcha y aceleracion de los 4 rotores internos hasta regimen de ralenti (Fz >= 1 N) y sincronizacion de sensores.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "INFORME.md:20; PLAN-MAESTRO.md:147",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "ARRANQUE_A_RALENTI",
+          "empuje_individual_N": {"min": 1.0, "max": 3.0},
+          "angulo_vectorial_deg": 0.0
+        },
+        "propulsion_axial": {
+          "modo": "EMPUJE_MINIMO",
+          "empuje_N": 8.0
+        },
+        "tapas": {
+          "posicion": "ABIERTA_CONFIRMADA",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "CONTROL_PRIMARIO_VUELO",
+          "deflexion_deg": {"max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "tapas_abiertas_confirmadas": true
+      },
+      "criterios_saturacion": {
+        "tiempo_arranque_s": 1.0,
+        "desbalance_rpm_porcentaje": 10.0
+      },
+      "politica_saturacion": {
+        "accion": "Si algun ventilador no responde en 1.0 s, abortar a planeo y reintentar encendido en vuelo o aterrizaje de emergencia"
+      },
+      "tiempo_maximo_permanencia_s": 1.5,
+      "transiciones_salida": [
+        {
+          "evento": "VENTILADORES_LISTOS",
+          "destino": "DESACELERACION_MIXTA",
+          "condicion_guarda": "cuatro_ventiladores_ralenti == true && tiempo_estado >= 0.4",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "FALLO_ARRANQUE_VENTILADORES",
+          "destino": "CONTINGENCIA_ABORT_A_AVANCE",
+          "condicion_guarda": "tiempo_estado > 1.2 || motor_ventilador_error == true",
+          "tipo_transicion": "EMERGENCIA"
+        }
+      ]
+    },
+    {
+      "id": "DESACELERACION_MIXTA",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Corte gradual de propulsion axial y rampa ascendente de empuje/vectorizacion de ventiladores internos conforme disminuye la velocidad.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:147; INFORME.md:20; DECISION-ARQUITECTURA.md:29",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "RAMPA_SUSTENTACION_Y_CONTROL",
+          "empuje_colectivo_Z_N": "m*g - sustentacion_cuerpo_aletas(q)",
+          "angulo_vectorial_deg": {"max": 33.75},
+          "tasa_variacion_Ns": {"max": 50.0}
+        },
+        "propulsion_axial": {
+          "modo": "RAMPA_DESCENDENTE_A_CORTE",
+          "tasa_reduccion_empuje_Ns": 20.0
+        },
+        "tapas": {
+          "posicion": "ABIERTA_CONFIRMADA",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "SALIDA_PROGRESIVA_AUTORIDAD",
+          "deflexion_deg": {"max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "cuatro_ventiladores_activos": true
+      },
+      "criterios_saturacion": {
+        "fuerza_modulo_ventilador_N": 21.0,
+        "angulo_vectorial_deg": 35.0,
+        "tasa_cambio_fuerza_Ns": 50.0
+      },
+      "politica_saturacion": {
+        "prioridad": "Si se satura el empuje vertical de ventiladores, mantener actitud y permitir descenso suave controlado"
+      },
+      "tiempo_maximo_permanencia_s": 5.0,
+      "transiciones_salida": [
+        {
+          "evento": "VELOCIDAD_BAJA_ALCANZADA",
+          "destino": "REESTABLECIMIENTO_ESTACIONARIO",
+          "condicion_guarda": "velocidad_aire_ms <= 4.0 && empuje_axial_N <= 1.0",
+          "tipo_transicion": "NOMINAL"
+        },
+        {
+          "evento": "DESESTABILIZACION_TRANSICION_RETORNO",
+          "destino": "CONTINGENCIA_SATURACION_CRITICA",
+          "condicion_guarda": "error_actitud > 6.0 || saturacion_continua == true",
+          "tipo_transicion": "EMERGENCIA"
+        }
+      ]
+    },
+    {
+      "id": "REESTABLECIMIENTO_ESTACIONARIO",
+      "tipo": "TRANSITORIO",
+      "descripcion": "Apagado final de propulsion axial, recentrado de aletas posteriores y transicion al controlador puro de hover SLSQP.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "INFORME.md:20-22; DECISION-ARQUITECTURA.md:9",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "ACTIVO_6DOF_SLSQP",
+          "empuje_individual_N": {"min": 1.0, "max": 21.0}
+        },
+        "propulsion_axial": {
+          "modo": "CORTE_TOTAL_Y_ENFRIAMIENTO",
+          "empuje_N": 0.0
+        },
+        "tapas": {
+          "posicion": "ABIERTA_COMPLETA",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "NEUTRALIZADAS",
+          "deflexion_deg": 0.0
+        }
+      },
+      "precondiciones_entrada": {
+        "velocidad_aire_ms": {"max": 4.0}
+      },
+      "criterios_saturacion": {
+        "error_posicion_m": 0.5,
+        "error_actitud_deg": 3.0
+      },
+      "politica_saturacion": {
+        "accion": "Restriccion de aceleracion a 0.5 g y limites de momento de mando (INFORME.md:22)"
+      },
+      "tiempo_maximo_permanencia_s": 2.0,
+      "transiciones_salida": [
+        {
+          "evento": "ESTACIONARIO_CONSOLIDADO",
+          "destino": "ESTACIONARIO_ACTIVO",
+          "condicion_guarda": "velocidad_aire_ms <= 1.0 && estabilidad_ok == true",
+          "tipo_transicion": "NOMINAL"
+        }
+      ]
+    },
+    {
+      "id": "CONTINGENCIA_ABORT_A_ESTACIONARIO",
+      "tipo": "CONTINGENCIA",
+      "descripcion": "Procedimiento de aborto rapido hacia vuelo estacionario ante fallas durante la rampa de aceleracion de avance.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:147,186",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "RECUPERACION_PRIORIDAD_ACTITUD_Y_ALTURA",
+          "empuje_individual_N": {"max": 21.0},
+          "angulo_vectorial_deg": {"max": 35.0}
+        },
+        "propulsion_axial": {
+          "modo": "CORTE_DE_EMERGENCIA",
+          "empuje_N": 0.0
+        },
+        "tapas": {
+          "posicion": "MANTENER_ABIERTA",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "TRIM_FRENADO",
+          "deflexion_deg": {"max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "ventiladores_operativos": true
+      },
+      "criterios_saturacion": {
+        "fuerza_modulo_N": 21.0
+      },
+      "politica_saturacion": {
+        "accion": "Priorizar nivelacion de alas y freno de traslacion longitudinal"
+      },
+      "tiempo_maximo_permanencia_s": 4.0,
+      "transiciones_salida": [
+        {
+          "evento": "FRENO_COMPLETO",
+          "destino": "ESTACIONARIO_ACTIVO",
+          "condicion_guarda": "velocidad_aire_ms <= 2.0 && estabilidad_ok == true",
+          "tipo_transicion": "ABORT_RECUPERACION"
+        }
+      ]
+    },
+    {
+      "id": "CONTINGENCIA_ABORT_A_AVANCE",
+      "tipo": "CONTINGENCIA",
+      "descripcion": "Aborto hacia vuelo de avance / planeo controlado ante fallas de apertura de tapas o de reencendido de ventiladores.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:147",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "CORTE_TOTAL_DESACTIVADO",
+          "empuje_N": 0.0
+        },
+        "propulsion_axial": {
+          "modo": "POTENCIA_EMERGENCIA_AVANCE",
+          "empuje_N": {"min": 30.0, "max": 80.0}
+        },
+        "tapas": {
+          "posicion": "CERRAR_Y_ENCLAVAR_EMERGENCIA",
+          "meta": "ENRASE_0MM"
+        },
+        "aletas_posteriores_X": {
+          "modo": "CONTROL_TOTAL_PLANEACION",
+          "deflexion_deg": {"max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "velocidad_aire_ms": {"min": 25.0}
+      },
+      "criterios_saturacion": {
+        "deflexion_aletas_deg": 20.0
+      },
+      "politica_saturacion": {
+        "accion": "Acelerar por encima de velocidad de stall y buscar pista de aterrizaje o despliegue de paracaidas balistico"
+      },
+      "tiempo_maximo_permanencia_s": 5.0,
+      "transiciones_salida": [
+        {
+          "evento": "VELOCIDAD_SEGURA_RECUPERADA",
+          "destino": "AVANCE_PURO",
+          "condicion_guarda": "velocidad_aire_ms >= 35.0 && tapas_cerradas == true",
+          "tipo_transicion": "ABORT_RECUPERACION"
+        }
+      ]
+    },
+    {
+      "id": "CONTINGENCIA_TAPA_TRABADA",
+      "tipo": "CONTINGENCIA",
+      "descripcion": "Gestion de asimetria aerodinamica o atasco mecanico en alguna de las 8 compuertas.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:147,151",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "COMPENSACION_ASIMETRIA",
+          "empuje_individual_N": {"max": 21.0}
+        },
+        "propulsion_axial": {
+          "modo": "EMPUJE_LIMITADO_BAJA_VELOCIDAD",
+          "empuje_N": {"max": 15.0}
+        },
+        "tapas": {
+          "posicion": "RETENCION_POSICION_ACTUAL",
+          "inhibir_comando_motor": true
+        },
+        "aletas_posteriores_X": {
+          "modo": "COMPENSACION_MOMENTO_RESIDUAL_TAPA",
+          "deflexion_deg": {"max": 20.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "sensor_asimetria_tapas_disparado": true
+      },
+      "criterios_saturacion": {
+        "deflexion_aletas_deg": 20.0
+      },
+      "politica_saturacion": {
+        "accion": "Reducir de inmediato la velocidad para minimizar el momento aerodinamico asimetrico de la compuerta trabada"
+      },
+      "tiempo_maximo_permanencia_s": 6.0,
+      "transiciones_salida": [
+        {
+          "evento": "DESACELERACION_Y_NIVELACION",
+          "destino": "CONTINGENCIA_ABORT_A_ESTACIONARIO",
+          "condicion_guarda": "velocidad_aire_ms <= 10.0",
+          "tipo_transicion": "EMERGENCIA"
+        }
+      ]
+    },
+    {
+      "id": "CONTINGENCIA_SATURACION_CRITICA",
+      "tipo": "CONTINGENCIA",
+      "descripcion": "Manejador de degradacion severa cuando actuadores de vectorizacion o empuje operan en su cota maxima prolongada.",
+      "naturaleza": "[PROPUESTA]",
+      "citas_origen": "PLAN-MAESTRO.md:186,248; INFORME.md:37",
+      "configuracion_actuadores": {
+        "ventiladores_internos": {
+          "modo": "SATURACION_GESTIONADA_CONEXA",
+          "angulo_vectorial_deg": {"max": 35.0},
+          "tasa_variacion_Ns": {"max": 50.0}
+        },
+        "propulsion_axial": {
+          "modo": "DESCARGA_DEMANDA",
+          "empuje_N": {"max": 10.0}
+        },
+        "tapas": {
+          "posicion": "ABIERTA_CONFIRMADA",
+          "elevacion_mm": 10.0,
+          "rotacion_deg": 110.0
+        },
+        "aletas_posteriores_X": {
+          "modo": "AMORTIGUAMIENTO_PASIVO",
+          "deflexion_deg": {"max": 10.0}
+        }
+      },
+      "precondiciones_entrada": {
+        "alerta_saturacion_actuadores": true
+      },
+      "criterios_saturacion": {
+        "tiempo_en_limite_s": 0.8
+      },
+      "politica_saturacion": {
+        "accion": "Degradar comandos de traslacion horizontal, priorizar estrictamente actitud vertical y descender suavemente a tierra"
+      },
+      "tiempo_maximo_permanencia_s": 5.0,
+      "transiciones_salida": [
+        {
+          "evento": "ESTABILIZACION_LOGRADA",
+          "destino": "ESTACIONARIO_ACTIVO",
+          "condicion_guarda": "saturacion_activa == false && error_actitud <= 2.0",
+          "tipo_transicion": "ABORT_RECUPERACION"
+        }
+      ]
+    }
+  ],
+  "variables_desconocidas": [
+    {
+      "id": "VAR_DESC_01",
+      "parametro": "Aerodinamica del cuerpo y compuertas en flujo oblicuo transitorio",
+      "descripcion": "Fuerzas normales, momento de cabeceo y arrastre transitorio durante los 1.5 s de abatimiento/elevacion de tapas en velocidades de 20 a 40 m/s.",
+      "estado_actual": "DESCONOCIDO_SIN_MEDIR",
+      "impacto_transicion": "Puede inducir momentos de cabeceo superiores a la autoridad residual de los ventiladores o las aletas.",
+      "requisito_para_cierre": "CFD con malla movil o ensayo en tunel de viento en hito G4 / F1 (PLAN-MAESTRO.md:78,83)"
+    },
+    {
+      "id": "VAR_DESC_02",
+      "parametro": "Par de bisagra y cargas aerodinamicas sobre mecanismo de tapas",
+      "descripcion": "Momento aerodinamico que debe vencer el actuador de compuerta frente a presiones de hasta 650 Pa (a baja velocidad) o 47 kPa (a 1000 km/h).",
+      "estado_actual": "DESCONOCIDO_SOLO_ESTUDIO_DISCRETO_CAD",
+      "impacto_transicion": "Determina la potencia, masa y reversibilidad del actuador para evitar atascos bajo carga.",
+      "requisito_para_cierre": "Sintesis cinematica, analisis de cargas y ensayo de banco en hito G5 / F1 (PLAN-MAESTRO.md:79,83,151)"
+    },
+    {
+      "id": "VAR_DESC_03",
+      "parametro": "Mapa de reaccion instalada de conductos con flujo cruzado",
+      "descripcion": "Variacion del cono efectivo de empuje (supuesto en 35 deg) y de la perdida de carga al ingresar aire oblicuo en los 4 conductos.",
+      "estado_actual": "SUPUESTO_NO_VALIDADO",
+      "impacto_transicion": "La reaccion de Euler mostro caida de 6.98 N a 2.11 N en estatico (DECISION-ARQUITECTURA.md:73); con viento relativo puede degradarse mas.",
+      "requisito_para_cierre": "Calculo de conducto con flujo cruzado y banco de ensayo en hito G2 / F1 (PLAN-MAESTRO.md:76,83,116-124)"
+    },
+    {
+      "id": "VAR_DESC_04",
+      "parametro": "Eficacia y derivadas aerodinamicas de las 4 aletas en X",
+      "descripcion": "Sustentacion, resistencia y momentos producidos por las aletas posteriores en funcion de Mach, deflexion y angulo de ataque.",
+      "estado_actual": "CANDIDATA_GEOMETRICA_NO_APROBADA",
+      "impacto_transicion": "Fija la velocidad minima real de transferencia de autoridad aero (propuesta en 28 m/s).",
+      "requisito_para_cierre": "Cribado aerodinamico con deflexiones en hito G4 (PLAN-MAESTRO.md:78,141-143)"
+    },
+    {
+      "id": "VAR_DESC_05",
+      "parametro": "Masa real de la planta axial, tensor de inercia y centro de gravedad",
+      "descripcion": "Distribucion de masas de la BOM completa (tubo axial, motor, cableado, combustible/bateria).",
+      "estado_actual": "SUPUESTO_HOMOGENEO_ELIPSOIDE",
+      "impacto_transicion": "La reserva longitudinal de CG se estrecha a +-61 mm con reserva axial de 80 mm (DECISION-ARQUITECTURA.md:49).",
+      "requisito_para_cierre": "BOM unificada con margen del 15% y medicion física en hitos G1, G3 y F1 (PLAN-MAESTRO.md:75,77,83,129-132)"
+    },
+    {
+      "id": "VAR_DESC_06",
+      "parametro": "Dinamica de respuesta temporal y retardo del propulsor axial",
+      "descripcion": "Tiempo de respuesta entre orden de empuje y generacion efectiva de fuerza en rampa de aceleracion.",
+      "estado_actual": "DESCONOCIDO_MOTOR_NO_SELECCIONADO",
+      "impacto_transicion": "Un retardo excesivo prolonga la fase mixta y satura las baterias de los ventiladores internos.",
+      "requisito_para_cierre": "Seleccion de motor EDF/microturborreactor y caracterizacion en banco en hitos G2 / F1 (PLAN-MAESTRO.md:30,76,83,133)"
+    }
+  ]
+}

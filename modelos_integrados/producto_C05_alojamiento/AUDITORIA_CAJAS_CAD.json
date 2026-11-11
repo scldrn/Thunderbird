@@ -1,0 +1,7 @@
+{
+  "scope": "vertices de teselacion en 11 poses; no demuestra por si sola cobertura continua de superficies",
+  "shape_pose_checks": 121,
+  "vertices_tested": 36212,
+  "max_outside_mm": 0,
+  "failures": []
+}

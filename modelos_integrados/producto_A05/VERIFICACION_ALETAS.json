@@ -1,0 +1,222 @@
+{
+  "checks": [
+    {
+      "fin": 0,
+      "angle_deg": -20,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 0,
+      "angle_deg": -15,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 0,
+      "angle_deg": -10,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 0,
+      "angle_deg": -5,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 0,
+      "angle_deg": 0,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 0,
+      "angle_deg": 5,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 0,
+      "angle_deg": 10,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 0,
+      "angle_deg": 15,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 0,
+      "angle_deg": 20,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 1,
+      "angle_deg": -20,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 1,
+      "angle_deg": -15,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 1,
+      "angle_deg": -10,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 1,
+      "angle_deg": -5,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 1,
+      "angle_deg": 0,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 1,
+      "angle_deg": 5,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 1,
+      "angle_deg": 10,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 1,
+      "angle_deg": 15,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 1,
+      "angle_deg": 20,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 2,
+      "angle_deg": -20,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 2,
+      "angle_deg": -15,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 2,
+      "angle_deg": -10,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 2,
+      "angle_deg": -5,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 2,
+      "angle_deg": 0,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 2,
+      "angle_deg": 5,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 2,
+      "angle_deg": 10,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 2,
+      "angle_deg": 15,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 2,
+      "angle_deg": 20,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 3,
+      "angle_deg": -20,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 3,
+      "angle_deg": -15,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 3,
+      "angle_deg": -10,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 3,
+      "angle_deg": -5,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 3,
+      "angle_deg": 0,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 3,
+      "angle_deg": 5,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 3,
+      "angle_deg": 10,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 3,
+      "angle_deg": 15,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    },
+    {
+      "fin": 3,
+      "angle_deg": 20,
+      "fin_mount_overlap_mm3": 0.0,
+      "fin_hull_overlap_mm3": 0.0
+    }
+  ],
+  "physical_performance_validated": false,
+  "note": "Local geometric screening only: hull and own fairing at sampled angles. Not full tolerance, loads, flutter or actuator validation."
+}

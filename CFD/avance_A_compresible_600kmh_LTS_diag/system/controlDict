@@ -1,0 +1,16 @@
+FoamFile
+{version 2.0; format ascii; class dictionary; object controlDict;}
+application foamRun; solver fluid; startFrom startTime; startTime 0; stopAt endTime; endTime 200; deltaT 1; writeControl timeStep; writeInterval 25; purgeWrite 3; writeFormat ascii; writePrecision 10; timePrecision 8; runTimeModifiable true;
+functions {
+force_hull {type forces; libs ("libforces.so"); patches (hull); rho rho; pRef 101325.0; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+maxVelocityDiagnostic {type volFieldValue; log true; libs ("libfieldFunctionObjects.so"); cellZone all; operation maxMag; writeFields false; fields (U); writeControl timeStep; writeInterval 1;}
+minScalarsDiagnostic {type volFieldValue; log true; libs ("libfieldFunctionObjects.so"); cellZone all; operation min; writeFields false; fields (p T rho); writeControl timeStep; writeInterval 1;}
+maxScalarsDiagnostic {type volFieldValue; log true; libs ("libfieldFunctionObjects.so"); cellZone all; operation max; writeFields false; fields (p T rho); writeControl timeStep; writeInterval 1;}
+mass_flux_inlet {type surfaceFieldValue; libs ("libfieldFunctionObjects.so"); patch inlet; operation sum; writeFields false; fields (phi); writeControl timeStep; writeInterval 1;}
+mass_flux_outlet {type surfaceFieldValue; libs ("libfieldFunctionObjects.so"); patch outlet; operation sum; writeFields false; fields (phi); writeControl timeStep; writeInterval 1;}
+mass_flux_farfield {type surfaceFieldValue; libs ("libfieldFunctionObjects.so"); patch farfield; operation sum; writeFields false; fields (phi); writeControl timeStep; writeInterval 1;}
+hull_pressure_min {type surfaceFieldValue; libs ("libfieldFunctionObjects.so"); patch hull; operation min; writeFields false; fields (p); writeControl timeStep; writeInterval 1;}
+hull_pressure_max {type surfaceFieldValue; libs ("libfieldFunctionObjects.so"); patch hull; operation max; writeFields false; fields (p); writeControl timeStep; writeInterval 1;}
+}
+
+adjustTimeStep no;

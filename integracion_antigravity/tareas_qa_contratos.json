@@ -1,0 +1,47 @@
+{
+  "descripcion": "Revisión independiente de contratos físicos del simulador",
+  "tareas": [
+    {
+      "id": "qa_contrato_mapa",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/ejemplo_sintetico_mapa.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/esquema_contrato_v1.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/contrato_mapa_ventilador.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/test_contrato_mapa.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/DOCUMENTACION_INTERFAZ.md"
+      ],
+      "instruccion": "Haz una revisión crítica independiente del contrato de mapa instalado adjunto: coordenadas, punto de aplicación, unidades, NaN, datos desconocidos, rango y extrapolación, unicidad de puntos y procedencia sintética. Antes de correr cualquier test copia TODOS los archivos mediante shutil.copyfile desde entradas a salidas/prueba/; JAMÁS ejecutes tests directamente en entradas porque escriben archivos protegidos. Ejecuta pruebas únicamente en salidas/prueba/, añade dos pruebas adversariales útiles si faltan. Reporta evidencia, defectos y límites de integración; no aceptes datos sintéticos como mediciones."
+    },
+    {
+      "id": "qa_contrato_masa",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/contrato.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/esquema_contrato_v1.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/test_contrato.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/README.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/ejemplos_sinteticos/01_sintetico_medido_completo.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/ejemplos_sinteticos/02_sintetico_supuesto_diseno.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/ejemplos_sinteticos/03_sintetico_reserva_no_asignada.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/ejemplos_sinteticos/04_sintetico_invalido_no_simetrico.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/ejemplos_sinteticos/05_sintetico_invalido_no_psd.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/ejemplos_sinteticos/06_sintetico_psd_pero_no_fisico.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/ejemplos_sinteticos/07_sintetico_cad_para_conversion.json"
+      ],
+      "instruccion": "Audita críticamente el contrato masa/CG: transformaciones de CAD a FLU, valores desconocidos vs cero, tensor simétrico y prueba PSD, signos y trazabilidad. Antes de correr cualquier test copia TODOS los archivos desde entradas a salidas/prueba/ con shutil.copyfile y recrea subdirectorios; JAMÁS ejecutes pruebas directamente en entradas. Verifica específicamente que una matriz PSD no siempre es físicamente admisible como inercia, y que el ejemplo marcado medido es realmente sintético. Añade pruebas adversariales mínimas e informa defectos sin calificar el vehículo."
+    },
+    {
+      "id": "qa_integracion_6dof",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/DOCUMENTACION_INTERFAZ.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/contrato_mapa_ventilador.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_mapa_instalado/salidas/esquema_contrato_v1.json",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/README.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/contrato.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T041236Z_b586a83a/contrato_masa_cg/salidas/esquema_contrato_v1.json",
+        "investigacion-aeronautica/simulacion_vuelo_A/simular.py",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json"
+      ],
+      "instruccion": "Analiza por lectura la integración futura de contratos de masa y mapa instalados con simular.py. Señala las incompatibilidades reales con evidencia de líneas y define una interfaz mínima para transformar ejes y combinar momento referido al ventilador con r×F en el CG. Distingue salida mecánica de entrada eléctrica y simulación de medición. No agregues mapas sintéticos al simulador ni ejecutes ensayos CFD. Escribe reporte breve y una lista ordenada de cambios y pruebas."
+    }
+  ]
+}

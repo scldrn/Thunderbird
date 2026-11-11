@@ -1,0 +1,181 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamRun
+Date   : Nov 01 2026
+Time   : 18:43:20
+Host   : "aaa645b074f4"
+PID    : 195
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Selecting solver fluid
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+No MRF models present
+
+Selecting thermophysical transport type laminar
+Selecting default laminar thermophysical transport model unityLewisFourier
+
+PIMPLE: No convergence criteria found
+
+
+PIMPLE: Operating solver in steady-state mode with 1 outer corrector
+PIMPLE: Operating solver in SIMPLE mode
+
+
+
+Starting time loop
+
+volFieldValue maxVelocityDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = maxMag
+
+volFieldValue minScalarsDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = min
+
+volFieldValue maxScalarsDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = max
+
+surfaceFieldValue mass_flux_inlet read:
+    number of faces = 342
+    area = 64.6416
+    operation = sum
+
+surfaceFieldValue mass_flux_outlet read:
+    number of faces = 344
+    area = 64.6416
+    operation = sum
+
+surfaceFieldValue mass_flux_farfield read:
+    number of faces = 2054
+    area = 387.8496
+    operation = sum
+
+surfaceFieldValue hull_pressure_min read:
+    number of faces = 31546
+    area = 0.8303997457
+    operation = min
+
+surfaceFieldValue hull_pressure_max read:
+    number of faces = 31546
+    area = 0.8303997457
+    operation = max
+
+volFieldValue maxVelocityDiagnostic write:
+    maxMag(all) of U = 166.6666667 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+
+volFieldValue minScalarsDiagnostic write:
+    min(all) of p = 101325 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    min(all) of T = 288.15 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    min(all) of rho = 1.224999285 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+
+volFieldValue maxScalarsDiagnostic write:
+    max(all) of p = 101325 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    max(all) of T = 288.15 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    max(all) of rho = 1.224999285 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+
+Time = 1s
+
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.9761094271, Final residual = 0.02027968846, No Iterations 3
+DILUPBiCGStab:  Solving for Uy, Initial residual = 1, Final residual = 0.01687811546, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 1, Final residual = 0.01524056827, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.999944204, Final residual = 0.008489799462, No Iterations 2
+GAMG:  Solving for p, Initial residual = 1, Final residual = 0.009105056337, No Iterations 26
+GAMG:  Solving for p, Initial residual = 0.002321142825, Final residual = 1.398133987e-05, No Iterations 3
+time step continuity errors : sum local = 0.001016383953, global = 0.0001156444704, cumulative = 0.0001156444704
+ExecutionTime = 2.452095 s  ClockTime = 2 s
+
+volFieldValue maxVelocityDiagnostic write:
+    maxMag(all) of U = 852.5683373 at location (0.662344 0.00046751175 -0.01113002) in cell 16037
+
+volFieldValue minScalarsDiagnostic write:
+    min(all) of p = 83164.59207 at location (0.65131175 0.029384075 0.0045567) in cell 170855
+    min(all) of T = 286.2125236 at location (0.6610735 0.009094015 0.015248075) in cell 266761
+    min(all) of rho = 1.20304372 at location (0.65131175 0.029384075 0.0045567) in cell 170855
+
+volFieldValue maxScalarsDiagnostic write:
+    max(all) of p = 392483.8087 at location (-0.680491 0.000420122 0.0004084445) in cell 217151
+    max(all) of T = 288.1541287 at location (0.6613705 -0.0110015775 -0.017149425) in cell 323093
+    max(all) of rho = 1.577002303 at location (-0.680491 0.000420122 0.0004084445) in cell 217151
+
+Time = 2s
+
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.0139805547, Final residual = 0.000149971322, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.3047948025, Final residual = 0.002787345239, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.08012259742, Final residual = 0.0007771447844, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.3013189291, Final residual = 0.005902876142, No Iterations 1
+GAMG:  Solving for p, Initial residual = 0.003861313685, Final residual = 3.40752112e-05, No Iterations 20
+GAMG:  Solving for p, Initial residual = 0.001872840609, Final residual = 1.20075673e-05, No Iterations 3
+time step continuity errors : sum local = 0.0007935543646, global = 4.726143846e-05, cumulative = 0.0001629059089
+ExecutionTime = 4.109575 s  ClockTime = 4 s
+
+volFieldValue maxVelocityDiagnostic write:
+    maxMag(all) of U = 8478.195494 at location (0.66147275 -0.01047448 0.0120174125) in cell 165502
+
+volFieldValue minScalarsDiagnostic write:
+    min(all) of p = 64374.71818 at location (0.66461275 -0.01841445 0.001224522) in cell 278456
+    min(all) of T = -1666.36273 at location (-0.680491 0.0008727485 0.00150089425) in cell 289268
+    min(all) of rho = 1.087166159 at location (0.66218675 -0.023915875 0.0044645325) in cell 195867
+
+volFieldValue maxScalarsDiagnostic write:
+    max(all) of p = 348476.9179 at location (-0.680491 0.000420122 0.0004084445) in cell 217151
+    max(all) of T = 13625.14731 at location (0.66308575 -0.02134515 0.0010165235) in cell 56158
+    max(all) of rho = 1.903323161 at location (-0.680491 5.912475e-05 -0.0001936555) in cell 218760
+
+Time = 3s
+
+DILUPBiCGStab:  Solving for Ux, Initial residual = 0.008797531817, Final residual = 0.0001236587461, No Iterations 1
+DILUPBiCGStab:  Solving for Uy, Initial residual = 0.2340966316, Final residual = 0.002457021431, No Iterations 1
+DILUPBiCGStab:  Solving for Uz, Initial residual = 0.06761914031, Final residual = 0.0008076183684, No Iterations 1
+DILUPBiCGStab:  Solving for h, Initial residual = 0.00353107818, Final residual = 4.366114189e-05, No Iterations 1
+
+
+--> FOAM FATAL ERROR: 
+Negative initial temperature T0: -1600.485591
+
+    From function static Foam::scalar Foam::species::thermo<Thermo, Type>::T(const ThermoType&, Foam::scalar, Foam::scalar, Foam::scalar, FType, dFdTType, LimitType, bool) [with ThermoType = Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleEnthalpy>; FType = double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const; dFdTType = double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const; LimitType = double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double) const; Thermo = Foam::hConstThermo<Foam::perfectGas<Foam::specie> >; Type = Foam::sensibleEnthalpy; Foam::scalar = double]
+    in file /home/ubuntu/OpenFOAM/OpenFOAM-13/src/thermophysicalModels/specie/lnInclude/thermoI.H at line 212.
+
+FOAM aborting
+
+#0  Foam::error::printStack(Foam::Ostream&) at ??:?
+#1  Foam::error::abort() at ??:?
+#2  double Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleEnthalpy>::T<Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleEnthalpy>, double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const, double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const, double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double) const>(Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleEnthalpy> const&, double, double, double, double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const, double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double, double) const, double (Foam::hConstThermo<Foam::perfectGas<Foam::specie> >::*)(double) const, bool) at ??:?
+#3  Foam::PsiThermo<Foam::BasicThermo<Foam::pureMixture<Foam::constTransport<Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleEnthalpy> > >, Foam::psiThermo::composite> >::calculate() at ??:?
+#4  virtual thunk to Foam::PsiThermo<Foam::BasicThermo<Foam::pureMixture<Foam::constTransport<Foam::species::thermo<Foam::hConstThermo<Foam::perfectGas<Foam::specie> >, Foam::sensibleEnthalpy> > >, Foam::psiThermo::composite> >::correct() at ??:?
+#5  Foam::solvers::fluid::thermophysicalPredictor() at ??:?
+#6  ? in "/opt/openfoam13/platforms/linuxArm64GccDPInt32Opt/bin/foamRun"
+#7  ? in "/lib/aarch64-linux-gnu/libc.so.6"
+#8  __libc_start_main in "/lib/aarch64-linux-gnu/libc.so.6"
+#9  ? in "/opt/openfoam13/platforms/linuxArm64GccDPInt32Opt/bin/foamRun"

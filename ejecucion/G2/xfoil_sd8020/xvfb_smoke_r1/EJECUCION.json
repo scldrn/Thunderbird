@@ -1,0 +1,28 @@
+{
+  "scope": "Virtual-display diagnostics, not physical validation",
+  "image_id": "sha256:d9876c5eb24d777d67f2d13ac66144568e2b5546c57a2c84f364e1a216e80e81",
+  "geometry_sha256": "102c8b1d93c5b02ae547b27a50340ff326975e0c75ba13adfe737cc7812c3ea7",
+  "script_sha256": "2f24d18e1cedc5bd60f208e08a590088ec132ff593bf21e69a45090c0840b7a9",
+  "source_or_binary_modified": false,
+  "packaged_FPE_checks_retained": true,
+  "physical_acceptance": false,
+  "created_UTC": "2026-11-05T02:20:44.664619+00:00",
+  "cases": {
+    "naca0012": {
+      "exit_code": 1,
+      "polar_copy_exit_code": 0,
+      "fpe_signal_reported": false,
+      "convergence_warning_reported": false,
+      "polar_sha256": "036310e9505e69fb3b627fec076627a3c6713c3162b432c564ce72c16be0b1db"
+    },
+    "sd8020_viscoso": {
+      "exit_code": 1,
+      "polar_copy_exit_code": 1,
+      "fpe_signal_reported": false,
+      "convergence_warning_reported": false
+    }
+  },
+  "container_id": "0c7971a59b8f4b25dbb0b60c407f13c96d5ffb66a985dadab5397ce6239376d0",
+  "binary_identification": "xfoil\t6.99.dfsg+1-3\n9d7db6a2dae0f4ed6101bfb84f71ec636c60dd974a0aea996dac0f38bf6e2684  /usr/bin/xfoil",
+  "stop_exit_code": 0
+}

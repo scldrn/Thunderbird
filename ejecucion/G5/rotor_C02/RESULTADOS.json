@@ -1,0 +1,4018 @@
+{
+  "scope": "Centrifugal body-force resultants and linear section-normal stress screening only",
+  "geometric_sources": [
+    {
+      "diameter_factor": 1.0,
+      "path": "ejecucion/G3/C02/salida/C02_D82_x-160_neutro/modulo.step",
+      "SHA256": "76fac72ce73e7e46becac086a0a1f2d53f216a91b985f200a95dcdb554edc251",
+      "reference_only_not_installed": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "path": "ejecucion/G3/C02/salida/C02_D102.5_neutro/modulo.step",
+      "SHA256": "0d460f72b8fb8a3ea35d7da00e4d0b4847ce8f35cf5cd5afd658e01833176caa",
+      "reference_only_not_installed": true
+    }
+  ],
+  "sections": [
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "area_mm2": 6.357522458543406,
+      "centroid_m": [
+        0.013530008147471564,
+        -0.00136416660998936,
+        -0.0008101649734939375
+      ],
+      "area_moments_m4": [
+        [
+          2.37252930389231e-11,
+          1.3883489331613553e-11
+        ],
+        [
+          1.3883489331613553e-11,
+          8.593654611701737e-12
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "area_mm2": 11.56352791594119,
+      "centroid_m": [
+        0.016400003668811034,
+        -0.0018760261184374931,
+        -0.0010291759646918646
+      ],
+      "area_moments_m4": [
+        [
+          8.156666809899422e-11,
+          4.4115277346264686e-11
+        ],
+        [
+          4.4115277346264686e-11,
+          2.535391493707844e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "area_mm2": 12.29081013113477,
+      "centroid_m": [
+        0.020500000396575097,
+        -0.0019819527806799334,
+        -0.0009687685239070998
+      ],
+      "area_moments_m4": [
+        [
+          9.669838627678575e-11,
+          4.662989905716286e-11
+        ],
+        [
+          4.662989905716286e-11,
+          2.4094521751591055e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "area_mm2": 12.897691638506984,
+      "centroid_m": [
+        0.024600000385837543,
+        -0.0020612395844550914,
+        -0.000926412693527154
+      ],
+      "area_moments_m4": [
+        [
+          1.0971018075232812e-10,
+          4.8664921970365635e-11
+        ],
+        [
+          4.8664921970365635e-11,
+          2.3305976093836786e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "area_mm2": 12.067024548133492,
+      "centroid_m": [
+        0.02869999850044458,
+        -0.0020174680838863867,
+        -0.0008413455035621573
+      ],
+      "area_moments_m4": [
+        [
+          9.830125219028055e-11,
+          4.0471820169786544e-11
+        ],
+        [
+          4.0471820169786544e-11,
+          1.8133021975923017e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "area_mm2": 9.942062769535589,
+      "centroid_m": [
+        0.032799998346120886,
+        -0.0018529361523455905,
+        -0.000709415905150798
+      ],
+      "area_moments_m4": [
+        [
+          6.829893888978157e-11,
+          2.5823187726173968e-11
+        ],
+        [
+          2.5823187726173968e-11,
+          1.0738608690403535e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "area_mm2": 6.220070989468767,
+      "centroid_m": [
+        0.036899993496352805,
+        -0.0014833104224655515,
+        -0.0005125248860217935
+      ],
+      "area_moments_m4": [
+        [
+          2.73746033742923e-11,
+          9.343620290078635e-12
+        ],
+        [
+          9.343620290078635e-12,
+          3.5619349438916363e-12
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "area_mm2": 3.9806859789496727,
+      "centroid_m": [
+        0.03894999188790116,
+        -0.0011898595238085579,
+        -0.0004005279190670297
+      ],
+      "area_moments_m4": [
+        [
+          1.1272212111268561e-11,
+          3.748516536289605e-12
+        ],
+        [
+          3.748516536289605e-12,
+          1.3983889247800108e-12
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "area_mm2": 9.933623079230077,
+      "centroid_m": [
+        0.016912506518001646,
+        -0.00170520733025097,
+        -0.0010127056829751855
+      ],
+      "area_moments_m4": [
+        [
+          5.792295740589698e-11,
+          3.3895178339144945e-11
+        ],
+        [
+          3.3895178339144945e-11,
+          2.0980567151314032e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "area_mm2": 18.0680427957357,
+      "centroid_m": [
+        0.020500002935098714,
+        -0.002345034302552188,
+        -0.0012864713217345795
+      ],
+      "area_moments_m4": [
+        [
+          1.991379773725089e-10,
+          1.0770368102011273e-10
+        ],
+        [
+          1.0770368102011273e-10,
+          6.189943881641431e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "area_mm2": 19.204390825992416,
+      "centroid_m": [
+        0.025625000317260078,
+        -0.002477440978490766,
+        -0.0012109606499926514
+      ],
+      "area_moments_m4": [
+        [
+          2.3608004440393977e-10,
+          1.138425268520674e-10
+        ],
+        [
+          1.138425268520674e-10,
+          5.882451533072406e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "area_mm2": 20.152643229520468,
+      "centroid_m": [
+        0.03075000030867015,
+        -0.0025765494856622873,
+        -0.001158015862969019
+      ],
+      "area_moments_m4": [
+        [
+          2.678471219624717e-10,
+          1.1881084472996554e-10
+        ],
+        [
+          1.1881084472996554e-10,
+          5.689935538222152e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "area_mm2": 18.85472578354862,
+      "centroid_m": [
+        0.03587499880035551,
+        -0.002521835088378693,
+        -0.001051681847000237
+      ],
+      "area_moments_m4": [
+        [
+          2.399932855854174e-10,
+          9.880814915317876e-11
+        ],
+        [
+          9.880814915317876e-11,
+          4.427006907980191e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "area_mm2": 15.534472957824063,
+      "centroid_m": [
+        0.04099999867689665,
+        -0.0023161701647618155,
+        -0.0008867698467955532
+      ],
+      "area_moments_m4": [
+        [
+          1.6674544972713195e-10,
+          6.30448872251079e-11
+        ],
+        [
+          6.30448872251079e-11,
+          2.621730348845522e-11
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "area_mm2": 9.718859873669922,
+      "centroid_m": [
+        0.046124994797082264,
+        -0.0018541376430543026,
+        -0.0006406558810482291
+      ],
+      "area_moments_m4": [
+        [
+          6.683248199144878e-11,
+          2.2811552869918186e-11
+        ],
+        [
+          2.2811552869918186e-11,
+          8.696121069203784e-12
+        ]
+      ]
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "area_mm2": 6.21982055905246,
+      "centroid_m": [
+        0.04868749351031582,
+        -0.0014873238709143387,
+        -0.0005006596709111522
+      ],
+      "area_moments_m4": [
+        [
+          2.7520015997549877e-11,
+          9.151640211016104e-12
+        ],
+        [
+          9.151640211016104e-12,
+          3.414031037920158e-12
+        ]
+      ]
+    }
+  ],
+  "results": [
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        199.56384028849436,
+        -14.600805844010841,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.025554577414155698,
+        0.00022609187387516498,
+        -0.0746893054536963
+      ],
+      "mass_outboard_kg": 0.0003306261333020141,
+      "area_mm2": 6.357522458543406,
+      "mean_axial_Pa": 31390190.375232607,
+      "sampled_min_normal_Pa": -19917266.211139984,
+      "sampled_max_normal_Pa": 87562094.35029325,
+      "sampled_abs_normal_max_Pa": 87562094.35029325,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        266.08512038465915,
+        -19.46774112534779,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.034072769885540935,
+        0.0003014558318335533,
+        -0.0995857406049284
+      ],
+      "mass_outboard_kg": 0.0004408348444026855,
+      "area_mm2": 6.357522458543406,
+      "mean_axial_Pa": 41853587.16697681,
+      "sampled_min_normal_Pa": -26556354.94818665,
+      "sampled_max_normal_Pa": 116749459.13372433,
+      "sampled_abs_normal_max_Pa": 116749459.13372433,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        449.01864064911234,
+        -32.851813149024395,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.05749779918185032,
+        0.0005087067162191213,
+        -0.16805093727081669
+      ],
+      "mass_outboard_kg": 0.0007439087999295317,
+      "area_mm2": 6.357522458543406,
+      "mean_axial_Pa": 70627928.34427337,
+      "sampled_min_normal_Pa": -44813848.97506495,
+      "sampled_max_normal_Pa": 197014712.2881598,
+      "sampled_abs_normal_max_Pa": 197014712.2881598,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        223.2779052008456,
+        -16.335811830350707,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.028591214245412003,
+        0.0002529582508975754,
+        -0.08356459586315582
+      ],
+      "mass_outboard_kg": 0.0003306261333020141,
+      "area_mm2": 6.357522458543406,
+      "mean_axial_Pa": 35120269.988318935,
+      "sampled_min_normal_Pa": -22284024.352919362,
+      "sampled_max_normal_Pa": 97967051.41206609,
+      "sampled_abs_normal_max_Pa": 97967051.41206609,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        297.70387360112744,
+        -21.781082440467607,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.03812161899388267,
+        0.00033727766786343386,
+        -0.1114194611508744
+      ],
+      "mass_outboard_kg": 0.0004408348444026855,
+      "area_mm2": 6.357522458543406,
+      "mean_axial_Pa": 46827026.65109191,
+      "sampled_min_normal_Pa": -29712032.470559157,
+      "sampled_max_normal_Pa": 130622735.21608809,
+      "sampled_abs_normal_max_Pa": 130622735.21608809,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        502.37528670190255,
+        -36.75557661828908,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.064330232052177,
+        0.0005691560645195446,
+        -0.18802034069210055
+      ],
+      "mass_outboard_kg": 0.0007439087999295317,
+      "area_mm2": 6.357522458543406,
+      "mean_axial_Pa": 79020607.4737176,
+      "sampled_min_normal_Pa": -50139054.79406856,
+      "sampled_max_normal_Pa": 220425865.67714867,
+      "sampled_abs_normal_max_Pa": 220425865.67714867,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        399.0607131246745,
+        -29.19671210918168,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.05110057950253135,
+        0.0004521078783104531,
+        -0.14935354748661397
+      ],
+      "mass_outboard_kg": 0.0003306261333020141,
+      "area_mm2": 6.357522458543406,
+      "mean_axial_Pa": 62769847.17347026,
+      "sampled_min_normal_Pa": -39827848.80377829,
+      "sampled_max_normal_Pa": 175094805.57000804,
+      "sampled_abs_normal_max_Pa": 175094805.57000804,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        532.0809508328994,
+        -38.928949478908905,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.06813410600337513,
+        0.0006028105044139375,
+        -0.19913806331548528
+      ],
+      "mass_outboard_kg": 0.0004408348444026855,
+      "area_mm2": 6.357522458543406,
+      "mean_axial_Pa": 83693129.56462702,
+      "sampled_min_normal_Pa": -53103798.40503767,
+      "sampled_max_normal_Pa": 233459740.7600107,
+      "sampled_abs_normal_max_Pa": 233459740.7600107,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.33,
+      "x_mm": 13.530000000000001,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        897.8866045305176,
+        -65.69260224565878,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.11497630388069553,
+        0.0010172427261985195,
+        -0.3360454818448814
+      ],
+      "mass_outboard_kg": 0.0007439087999295317,
+      "area_mm2": 6.357522458543406,
+      "mean_axial_Pa": 141232156.14030808,
+      "sampled_min_normal_Pa": -89612659.80850112,
+      "sampled_max_normal_Pa": 393963312.5325181,
+      "sampled_abs_normal_max_Pa": 393963312.5325181,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        188.71961249784664,
+        -13.410386024478425,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.02029598328028823,
+        0.04280617205643082,
+        -0.13411254210574466
+      ],
+      "mass_outboard_kg": 0.00030000217265192396,
+      "area_mm2": 11.56352791594119,
+      "mean_axial_Pa": 16320245.332540989,
+      "sampled_min_normal_Pa": 1459537.9197059236,
+      "sampled_max_normal_Pa": 34879725.10897972,
+      "sampled_abs_normal_max_Pa": 34879725.10897972,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        251.62614999712886,
+        -17.88051469930457,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.027061311040384308,
+        0.05707489607524109,
+        -0.17881672280765953
+      ],
+      "mass_outboard_kg": 0.000400002896869232,
+      "area_mm2": 11.56352791594119,
+      "mean_axial_Pa": 21760327.110054653,
+      "sampled_min_normal_Pa": 1946050.559607897,
+      "sampled_max_normal_Pa": 46506300.1453063,
+      "sampled_abs_normal_max_Pa": 46506300.1453063,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        424.619128120155,
+        -30.17336855507646,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.045665962380648524,
+        0.09631388712696935,
+        -0.30175321973792546
+      ],
+      "mass_outboard_kg": 0.000675004888466829,
+      "area_mm2": 11.56352791594119,
+      "mean_axial_Pa": 36720551.998217225,
+      "sampled_min_normal_Pa": 3283960.3193383254,
+      "sampled_max_normal_Pa": 78479381.49520437,
+      "sampled_abs_normal_max_Pa": 78479381.49520437,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        211.14506359428822,
+        -15.003935057331468,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.022707744169800936,
+        0.04789280669589261,
+        -0.1500490640951916
+      ],
+      "mass_outboard_kg": 0.00030000217265192396,
+      "area_mm2": 11.56352791594119,
+      "mean_axial_Pa": 18259571.398034062,
+      "sampled_min_normal_Pa": 1632974.0337830484,
+      "sampled_max_normal_Pa": 39024464.27697517,
+      "sampled_abs_normal_max_Pa": 39024464.27697517,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        281.5267514590509,
+        -20.00524674310862,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.030276992226401244,
+        0.06385707559452347,
+        -0.20006541879358877
+      ],
+      "mass_outboard_kg": 0.000400002896869232,
+      "area_mm2": 11.56352791594119,
+      "mean_axial_Pa": 24346095.197378747,
+      "sampled_min_normal_Pa": 2177298.7117107213,
+      "sampled_max_normal_Pa": 52032619.0359669,
+      "sampled_abs_normal_max_Pa": 52032619.0359669,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        475.07639308714846,
+        -33.7588538789958,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0510924243820521,
+        0.10775881506575836,
+        -0.33761039421418104
+      ],
+      "mass_outboard_kg": 0.000675004888466829,
+      "area_mm2": 11.56352791594119,
+      "mean_axial_Pa": 41084035.64557664,
+      "sampled_min_normal_Pa": 3674191.5760118514,
+      "sampled_max_normal_Pa": 87805044.62319414,
+      "sampled_abs_normal_max_Pa": 87805044.62319414,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        377.37589653081494,
+        -26.816271938188734,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.040585155856340024,
+        0.08559797968550949,
+        -0.26818008019044415
+      ],
+      "mass_outboard_kg": 0.00030000217265192396,
+      "area_mm2": 11.56352791594119,
+      "mean_axial_Pa": 32635014.09553169,
+      "sampled_min_normal_Pa": 2918586.0636293404,
+      "sampled_max_normal_Pa": 69747745.66103876,
+      "sampled_abs_normal_max_Pa": 69747745.66103876,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        503.16786204108655,
+        -35.75502925091831,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0541135411417867,
+        0.1141306395806793,
+        -0.3575734402539255
+      ],
+      "mass_outboard_kg": 0.000400002896869232,
+      "area_mm2": 11.56352791594119,
+      "mean_axial_Pa": 43513352.12737558,
+      "sampled_min_normal_Pa": 3891448.0848390907,
+      "sampled_max_normal_Pa": 92996994.21471836,
+      "sampled_abs_normal_max_Pa": 92996994.21471836,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.4,
+      "x_mm": 16.400000000000002,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        849.0957671943335,
+        -60.33661186092465,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.09131660067676506,
+        0.19259545429239633,
+        -0.6034051804284993
+      ],
+      "mass_outboard_kg": 0.000675004888466829,
+      "area_mm2": 11.56352791594119,
+      "mean_axial_Pa": 73428781.71494628,
+      "sampled_min_normal_Pa": 6566818.643165953,
+      "sampled_max_normal_Pa": 156932427.73733717,
+      "sampled_abs_normal_max_Pa": 156932427.73733717,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        163.17903411351165,
+        -10.731833436997372,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.01574052438547504,
+        0.032145024953844754,
+        -0.1034105506955161
+      ],
+      "mass_outboard_kg": 0.0002409952625330116,
+      "area_mm2": 12.29081013113477,
+      "mean_axial_Pa": 13276507.599783894,
+      "sampled_min_normal_Pa": 4644895.024456082,
+      "sampled_max_normal_Pa": 24254359.742100336,
+      "sampled_abs_normal_max_Pa": 24254359.742100336,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        217.57204548468218,
+        -14.30911124932983,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.02098736584730005,
+        0.042860033271793004,
+        -0.13788073426068814
+      ],
+      "mass_outboard_kg": 0.00032132701671068215,
+      "area_mm2": 12.29081013113477,
+      "mean_axial_Pa": 17702010.13304519,
+      "sampled_min_normal_Pa": 6193193.365941439,
+      "sampled_max_normal_Pa": 32339146.322800454,
+      "sampled_abs_normal_max_Pa": 32339146.322800454,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        367.1528267554012,
+        -24.146625233244087,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.035416179867318834,
+        0.0723263061461507,
+        -0.23267373906491126
+      ],
+      "mass_outboard_kg": 0.0005422393406992761,
+      "area_mm2": 12.29081013113477,
+      "mean_axial_Pa": 29872142.099513758,
+      "sampled_min_normal_Pa": 10451013.805026185,
+      "sampled_max_normal_Pa": 54572309.41972575,
+      "sampled_abs_normal_max_Pa": 54572309.41972575,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        182.5695118759587,
+        -12.007091491691009,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0176109625194175,
+        0.03596480115810421,
+        -0.11569877138855536
+      ],
+      "mass_outboard_kg": 0.0002409952625330116,
+      "area_mm2": 12.29081013113477,
+      "mean_axial_Pa": 14854147.93069484,
+      "sampled_min_normal_Pa": 5196845.427704357,
+      "sampled_max_normal_Pa": 27136492.39950063,
+      "sampled_abs_normal_max_Pa": 27136492.39950063,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        243.42601583461158,
+        -16.009455322254677,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.023481283359223327,
+        0.047953068210805604,
+        -0.1542650285180738
+      ],
+      "mass_outboard_kg": 0.00032132701671068215,
+      "area_mm2": 12.29081013113477,
+      "mean_axial_Pa": 19805530.574259784,
+      "sampled_min_normal_Pa": 6929127.23693914,
+      "sampled_max_normal_Pa": 36181989.86600083,
+      "sampled_abs_normal_max_Pa": 36181989.86600083,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        410.781401720907,
+        -27.015955856304767,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.039624665668689364,
+        0.08092080260573445,
+        -0.26032223562424955
+      ],
+      "mass_outboard_kg": 0.0005422393406992761,
+      "area_mm2": 12.29081013113477,
+      "mean_axial_Pa": 33421832.844063383,
+      "sampled_min_normal_Pa": 11692902.212334793,
+      "sampled_max_normal_Pa": 61057107.89887641,
+      "sampled_abs_normal_max_Pa": 61057107.89887641,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        326.3033103902835,
+        -21.46006560262766,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.03147576673781892,
+        0.06427926303155693,
+        -0.20678640000869525
+      ],
+      "mass_outboard_kg": 0.0002409952625330116,
+      "area_mm2": 12.29081013113477,
+      "mean_axial_Pa": 26548560.01425815,
+      "sampled_min_normal_Pa": 9288231.365808029,
+      "sampled_max_normal_Pa": 48500580.47125578,
+      "sampled_abs_normal_max_Pa": 48500580.47125578,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        435.071080520378,
+        -28.613420803503548,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.04196768898375856,
+        0.0857056840420759,
+        -0.27571520001159366
+      ],
+      "mass_outboard_kg": 0.00032132701671068215,
+      "area_mm2": 12.29081013113477,
+      "mean_axial_Pa": 35398080.019010864,
+      "sampled_min_normal_Pa": 12384308.487744033,
+      "sampled_max_normal_Pa": 64667440.628341034,
+      "sampled_abs_normal_max_Pa": 64667440.628341034,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.5,
+      "x_mm": 20.5,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        734.182448378138,
+        -48.285147605912236,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.07082047516009257,
+        0.14462834182100306,
+        -0.4652694000195643
+      ],
+      "mass_outboard_kg": 0.0005422393406992761,
+      "area_mm2": 12.29081013113477,
+      "mean_axial_Pa": 59734260.032080844,
+      "sampled_min_normal_Pa": 20898520.573068053,
+      "sampled_max_normal_Pa": 109126306.06032553,
+      "sampled_abs_normal_max_Pa": 109126306.06032553,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        130.40789167958587,
+        -7.793640775650338,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.010655542201418042,
+        0.025820196949466013,
+        -0.07707834236721665
+      ],
+      "mass_outboard_kg": 0.00017903757756188805,
+      "area_mm2": 12.897691638506984,
+      "mean_axial_Pa": 10110948.170775285,
+      "sampled_min_normal_Pa": 5124432.95622482,
+      "sampled_max_normal_Pa": 15896105.768793076,
+      "sampled_abs_normal_max_Pa": 15896105.768793076,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        173.87718890611453,
+        -10.391521034200451,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.014207389601890722,
+        0.034426929265954684,
+        -0.10277112315628888
+      ],
+      "mass_outboard_kg": 0.0002387167700825174,
+      "area_mm2": 12.897691638506984,
+      "mean_axial_Pa": 13481264.227700382,
+      "sampled_min_normal_Pa": 6832577.27496643,
+      "sampled_max_normal_Pa": 21194807.691724107,
+      "sampled_abs_normal_max_Pa": 21194807.691724107,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        293.41775627906827,
+        -17.535691745213263,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.023974969953190595,
+        0.058095443136298525,
+        -0.17342627032623747
+      ],
+      "mass_outboard_kg": 0.0004028345495142481,
+      "area_mm2": 12.897691638506984,
+      "mean_axial_Pa": 22749633.384244394,
+      "sampled_min_normal_Pa": 11529974.151505843,
+      "sampled_max_normal_Pa": 35766237.97978443,
+      "sampled_abs_normal_max_Pa": 35766237.97978443,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        145.90419203090192,
+        -8.719754960415179,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.011921734609198108,
+        0.028888397208712235,
+        -0.08623752076140989
+      ],
+      "mass_outboard_kg": 0.00017903757756188805,
+      "area_mm2": 12.897691638506984,
+      "mean_axial_Pa": 11312426.759785023,
+      "sampled_min_normal_Pa": 5733366.596644016,
+      "sampled_max_normal_Pa": 17785031.555698242,
+      "sampled_abs_normal_max_Pa": 17785031.555698242,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        194.5389227078692,
+        -11.626339947220236,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.015895646145597474,
+        0.03851786294494964,
+        -0.11498336101521318
+      ],
+      "mass_outboard_kg": 0.0002387167700825174,
+      "area_mm2": 12.897691638506984,
+      "mean_axial_Pa": 15083235.679713361,
+      "sampled_min_normal_Pa": 7644488.79552535,
+      "sampled_max_normal_Pa": 23713375.407597654,
+      "sampled_abs_normal_max_Pa": 23713375.407597654,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        328.28443206952926,
+        -19.619448660934147,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.02682390287069574,
+        0.06499889371960252,
+        -0.19403442171317226
+      ],
+      "mass_outboard_kg": 0.0004028345495142481,
+      "area_mm2": 12.897691638506984,
+      "mean_axial_Pa": 25452960.209516294,
+      "sampled_min_normal_Pa": 12900074.842449017,
+      "sampled_max_normal_Pa": 40016321.00032104,
+      "sampled_abs_normal_max_Pa": 40016321.00032104,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        260.7720225042252,
+        -15.584666246512782,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.021307508732447984,
+        0.051631729439451504,
+        -0.15413081962675915
+      ],
+      "mass_outboard_kg": 0.00017903757756188805,
+      "area_mm2": 12.897691638506984,
+      "mean_axial_Pa": 20218503.420074925,
+      "sampled_min_normal_Pa": 10247146.311247658,
+      "sampled_max_normal_Pa": 31786877.29615487,
+      "sampled_abs_normal_max_Pa": 31786877.29615487,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        347.6960300056336,
+        -20.779554995350374,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.028410011643263976,
+        0.06884230591926867,
+        -0.2055077595023455
+      ],
+      "mass_outboard_kg": 0.0002387167700825174,
+      "area_mm2": 12.897691638506984,
+      "mean_axial_Pa": 26958004.560099896,
+      "sampled_min_normal_Pa": 13662861.748330195,
+      "sampled_max_normal_Pa": 42382503.06153983,
+      "sampled_abs_normal_max_Pa": 42382503.06153983,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.6,
+      "x_mm": 24.599999999999998,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        586.7370506345068,
+        -35.06549905465376,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.04794189464800796,
+        0.1161713912387659,
+        -0.34679434416020805
+      ],
+      "mass_outboard_kg": 0.0004028345495142481,
+      "area_mm2": 12.897691638506984,
+      "mean_axial_Pa": 45491632.695168585,
+      "sampled_min_normal_Pa": 23056079.200307213,
+      "sampled_max_normal_Pa": 71520473.91634846,
+      "sampled_abs_normal_max_Pa": 71520473.91634846,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        90.97844349032246,
+        -4.731684176029065,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.005689079125932185,
+        0.017008777487949114,
+        -0.0477467773067753
+      ],
+      "mass_outboard_kg": 0.00011586136947648299,
+      "area_mm2": 12.067024548133492,
+      "mean_axial_Pa": 7539426.403536641,
+      "sampled_min_normal_Pa": 4107626.9449088722,
+      "sampled_max_normal_Pa": 10540235.135806195,
+      "sampled_abs_normal_max_Pa": 10540235.135806195,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        121.30459132042995,
+        -6.308912234705419,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.007585438834576247,
+        0.02267836998393215,
+        -0.06366236974236707
+      ],
+      "mass_outboard_kg": 0.00015448182596864397,
+      "area_mm2": 12.067024548133492,
+      "mean_axial_Pa": 10052568.538048854,
+      "sampled_min_normal_Pa": 5476835.926545161,
+      "sampled_max_normal_Pa": 14053646.847741596,
+      "sampled_abs_normal_max_Pa": 14053646.847741596,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        204.70149785322553,
+        -10.646289396065393,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.012800428033347418,
+        0.038269749347885504,
+        -0.10743024894024442
+      ],
+      "mass_outboard_kg": 0.00026068808132208673,
+      "area_mm2": 12.067024548133492,
+      "mean_axial_Pa": 16963709.407957442,
+      "sampled_min_normal_Pa": 9242160.62604496,
+      "sampled_max_normal_Pa": 23715529.05556394,
+      "sampled_abs_normal_max_Pa": 23715529.05556394,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        101.78936350186011,
+        -5.293947687960326,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.006365109370132876,
+        0.01902992146295919,
+        -0.0534205014382192
+      ],
+      "mass_outboard_kg": 0.00011586136947648299,
+      "area_mm2": 12.067024548133492,
+      "mean_axial_Pa": 8435332.429783175,
+      "sampled_min_normal_Pa": 4595734.068255847,
+      "sampled_max_normal_Pa": 11792725.666358309,
+      "sampled_abs_normal_max_Pa": 11792725.666358309,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        135.71915133581345,
+        -7.058596917280434,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0084868124935105,
+        0.025373228617278917,
+        -0.07122733525095892
+      ],
+      "mass_outboard_kg": 0.00015448182596864397,
+      "area_mm2": 12.067024548133492,
+      "mean_axial_Pa": 11247109.906377563,
+      "sampled_min_normal_Pa": 6127645.424341125,
+      "sampled_max_normal_Pa": 15723634.221811075,
+      "sampled_abs_normal_max_Pa": 15723634.221811075,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        229.0260678791852,
+        -11.911382297910732,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.014321496082798967,
+        0.042817323291658174,
+        -0.12019612823599318
+      ],
+      "mass_outboard_kg": 0.00026068808132208673,
+      "area_mm2": 12.067024548133492,
+      "mean_axial_Pa": 18979497.96701214,
+      "sampled_min_normal_Pa": 10340401.653575653,
+      "sampled_max_normal_Pa": 26533632.74930619,
+      "sampled_abs_normal_max_Pa": 26533632.74930619,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        181.92635742896238,
+        -9.461780545199101,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.011376249172872272,
+        0.0340118473562528,
+        -0.09547753227188877
+      ],
+      "mass_outboard_kg": 0.00011586136947648299,
+      "area_mm2": 12.067024548133492,
+      "mean_axial_Pa": 15076322.808765847,
+      "sampled_min_normal_Pa": 8213875.497263463,
+      "sampled_max_normal_Pa": 21076933.294709075,
+      "sampled_abs_normal_max_Pa": 21076933.294709075,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        242.56847657194982,
+        -12.6157073935988,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.015168332230496363,
+        0.04534912980833707,
+        -0.12730337636251834
+      ],
+      "mass_outboard_kg": 0.00015448182596864397,
+      "area_mm2": 12.067024548133492,
+      "mean_axial_Pa": 20101763.745021127,
+      "sampled_min_normal_Pa": 10951833.99635128,
+      "sampled_max_normal_Pa": 28102577.726278763,
+      "sampled_abs_normal_max_Pa": 28102577.726278763,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.7,
+      "x_mm": 28.7,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        409.33430421516533,
+        -21.28900622669798,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.02559656063896261,
+        0.0765266565515688,
+        -0.21482444761174974
+      ],
+      "mass_outboard_kg": 0.00026068808132208673,
+      "area_mm2": 12.067024548133492,
+      "mean_axial_Pa": 33921726.31972316,
+      "sampled_min_normal_Pa": 18481219.868842788,
+      "sampled_max_normal_Pa": 47423099.91309543,
+      "sampled_abs_normal_max_Pa": 47423099.91309543,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        52.100441351431364,
+        -2.275105983411567,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0023799133767731626,
+        0.007517995810644455,
+        -0.021915318840079197
+      ],
+      "mass_outboard_kg": 6.180333999702839e-05,
+      "area_mm2": 9.942062769535589,
+      "mean_axial_Pa": 5240405.593804661,
+      "sampled_min_normal_Pa": 3141446.4292821945,
+      "sampled_max_normal_Pa": 6891606.09880485,
+      "sampled_abs_normal_max_Pa": 6891606.09880485,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        69.46725513524181,
+        -3.0334746445487557,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00317321783569755,
+        0.010023994414192605,
+        -0.029220425120105597
+      ],
+      "mass_outboard_kg": 8.240445332937119e-05,
+      "area_mm2": 9.942062769535589,
+      "mean_axial_Pa": 6987207.458406215,
+      "sampled_min_normal_Pa": 4188595.2390429256,
+      "sampled_max_normal_Pa": 9188808.131739799,
+      "sampled_abs_normal_max_Pa": 9188808.131739799,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        117.22599304072057,
+        -5.118988462676025,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.005354805097739616,
+        0.01691549057395002,
+        -0.04930946739017819
+      ],
+      "mass_outboard_kg": 0.00013905751499331388,
+      "area_mm2": 9.942062769535589,
+      "mean_axial_Pa": 11790912.586060489,
+      "sampled_min_normal_Pa": 7068254.465884937,
+      "sampled_max_normal_Pa": 15506113.722310916,
+      "sampled_abs_normal_max_Pa": 15506113.722310916,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        58.291509063818054,
+        -2.5454556163666466,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.002662717216491743,
+        0.008411355250945253,
+        -0.02451950451217901
+      ],
+      "mass_outboard_kg": 6.180333999702839e-05,
+      "area_mm2": 9.942062769535589,
+      "mean_axial_Pa": 5863120.201014478,
+      "sampled_min_normal_Pa": 3514742.836261425,
+      "sampled_max_normal_Pa": 7710531.983079068,
+      "sampled_abs_normal_max_Pa": 7710531.983079068,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        77.72201208509073,
+        -3.393940821822195,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0035502896219889906,
+        0.011215140334593669,
+        -0.03269267268290534
+      ],
+      "mass_outboard_kg": 8.240445332937119e-05,
+      "area_mm2": 9.942062769535589,
+      "mean_axial_Pa": 7817493.601352635,
+      "sampled_min_normal_Pa": 4686323.781681899,
+      "sampled_max_normal_Pa": 10280709.310772087,
+      "sampled_abs_normal_max_Pa": 10280709.310772087,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        131.1558953935906,
+        -5.727275136824954,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.005991113737106421,
+        0.018925549314626817,
+        -0.05516888515240276
+      ],
+      "mass_outboard_kg": 0.00013905751499331388,
+      "area_mm2": 9.942062769535589,
+      "mean_axial_Pa": 13192020.452282572,
+      "sampled_min_normal_Pa": 7908171.381588205,
+      "sampled_max_normal_Pa": 17348696.9619279,
+      "sampled_abs_normal_max_Pa": 17348696.9619279,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        104.18339940620585,
+        -4.549448511623868,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.004759028128227527,
+        0.015033468814425603,
+        -0.04382328357699395
+      ],
+      "mass_outboard_kg": 6.180333999702839e-05,
+      "area_mm2": 9.942062769535589,
+      "mean_axial_Pa": 10479052.669577185,
+      "sampled_min_normal_Pa": 6281838.6863073,
+      "sampled_max_normal_Pa": 13780899.587759525,
+      "sampled_abs_normal_max_Pa": 13780899.587759525,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        138.91119920827447,
+        -6.065931348831822,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0063453708376367025,
+        0.020044625085900804,
+        -0.05843104476932527
+      ],
+      "mass_outboard_kg": 8.240445332937119e-05,
+      "area_mm2": 9.942062769535589,
+      "mean_axial_Pa": 13972070.226102913,
+      "sampled_min_normal_Pa": 8375784.915076399,
+      "sampled_max_normal_Pa": 18374532.783679366,
+      "sampled_abs_normal_max_Pa": 18374532.783679366,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.8,
+      "x_mm": 32.800000000000004,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        234.41264866396315,
+        -10.236259151153702,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.010707813288511937,
+        0.0338253048324576,
+        -0.0986023880482364
+      ],
+      "mass_outboard_kg": 0.00013905751499331388,
+      "area_mm2": 9.942062769535589,
+      "mean_axial_Pa": 23577868.506548665,
+      "sampled_min_normal_Pa": 14134137.044191424,
+      "sampled_max_normal_Pa": 31007024.072458934,
+      "sampled_abs_normal_max_Pa": 31007024.072458934,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        18.105469405486378,
+        -0.5780982255981781,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00045432289139615996,
+        0.0014916192631207648,
+        -0.005524210707963248
+      ],
+      "mass_outboard_kg": 2.000337069995586e-05,
+      "area_mm2": 6.220070989468767,
+      "mean_axial_Pa": 2910813.9498955617,
+      "sampled_min_normal_Pa": 1864659.3734132964,
+      "sampled_max_normal_Pa": 3924013.055356907,
+      "sampled_abs_normal_max_Pa": 3924013.055356907,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        24.140625873981836,
+        -0.7707976341309041,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0006057638551948799,
+        0.0019888256841610196,
+        -0.00736561427728433
+      ],
+      "mass_outboard_kg": 2.667116093327448e-05,
+      "area_mm2": 6.220070989468767,
+      "mean_axial_Pa": 3881085.2665274157,
+      "sampled_min_normal_Pa": 2486212.497884395,
+      "sampled_max_normal_Pa": 5232017.407142543,
+      "sampled_abs_normal_max_Pa": 5232017.407142543,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        40.73730616234435,
+        -1.3007210075959008,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00102222650564136,
+        0.0033561433420217206,
+        -0.012429474092917307
+      ],
+      "mass_outboard_kg": 4.5007584074900686e-05,
+      "area_mm2": 6.220070989468767,
+      "mean_axial_Pa": 6549331.387265014,
+      "sampled_min_normal_Pa": 4195483.590179918,
+      "sampled_max_normal_Pa": 8829029.374553042,
+      "sampled_abs_normal_max_Pa": 8829029.374553042,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        20.256932697281165,
+        -0.646793330020563,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0005083098387417347,
+        0.001668867586158767,
+        -0.0061806497258172196
+      ],
+      "mass_outboard_kg": 2.000337069995586e-05,
+      "area_mm2": 6.220070989468767,
+      "mean_axial_Pa": 3256704.422116448,
+      "sampled_min_normal_Pa": 2086235.8541856823,
+      "sampled_max_normal_Pa": 4390301.43794729,
+      "sampled_abs_normal_max_Pa": 4390301.43794729,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        27.009243596374883,
+        -0.8623911066940839,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0006777464516556463,
+        0.0022251567815450225,
+        -0.008240866301089625
+      ],
+      "mass_outboard_kg": 2.667116093327448e-05,
+      "area_mm2": 6.220070989468767,
+      "mean_axial_Pa": 4342272.56282193,
+      "sampled_min_normal_Pa": 2781647.8055809103,
+      "sampled_max_normal_Pa": 5853735.250596384,
+      "sampled_abs_normal_max_Pa": 5853735.250596384,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        45.578098568882616,
+        -1.4552849925462665,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.001143697137168903,
+        0.0037549520688572252,
+        -0.013906461883088743
+      ],
+      "mass_outboard_kg": 4.5007584074900686e-05,
+      "area_mm2": 6.220070989468767,
+      "mean_axial_Pa": 7327584.949762007,
+      "sampled_min_normal_Pa": 4694030.671917785,
+      "sampled_max_normal_Pa": 9878178.235381398,
+      "sampled_abs_normal_max_Pa": 9878178.235381398,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        36.20486317544036,
+        -1.1560024593123572,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0009084933260821222,
+        0.0029827379849524387,
+        -0.011046567661676105
+      ],
+      "mass_outboard_kg": 2.000337069995586e-05,
+      "area_mm2": 6.220070989468767,
+      "mean_axial_Pa": 5820651.120660679,
+      "sampled_min_normal_Pa": 3728693.0248145764,
+      "sampled_max_normal_Pa": 7846709.333301708,
+      "sampled_abs_normal_max_Pa": 7846709.333301708,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        48.27315090058714,
+        -1.541336612416476,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.001211324434776163,
+        0.003976983979936585,
+        -0.014728756882234807
+      ],
+      "mass_outboard_kg": 2.667116093327448e-05,
+      "area_mm2": 6.220070989468767,
+      "mean_axial_Pa": 7760868.160880905,
+      "sampled_min_normal_Pa": 4971590.699752767,
+      "sampled_max_normal_Pa": 10462279.111068944,
+      "sampled_abs_normal_max_Pa": 10462279.111068944,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.9,
+      "x_mm": 36.9,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        81.46094214474081,
+        -2.6010055334528035,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.002044109983684775,
+        0.006711160466142987,
+        -0.024854777238771237
+      ],
+      "mass_outboard_kg": 4.5007584074900686e-05,
+      "area_mm2": 6.220070989468767,
+      "mean_axial_Pa": 13096465.021486528,
+      "sampled_min_normal_Pa": 8389559.305832798,
+      "sampled_max_normal_Pa": 17655095.999928847,
+      "sampled_abs_normal_max_Pa": 17655095.999928847,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        7.065182996919409,
+        -0.18469694522879565,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00013937825583500678,
+        8.033542907899852e-05,
+        -0.0012126307579531327
+      ],
+      "mass_outboard_kg": 7.558547768756305e-06,
+      "area_mm2": 3.9806859789496727,
+      "mean_axial_Pa": 1774865.6975910468,
+      "sampled_min_normal_Pa": 942177.1415935332,
+      "sampled_max_normal_Pa": 2778066.681696279,
+      "sampled_abs_normal_max_Pa": 2778066.681696279,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        9.420243995892546,
+        -0.2462625936383942,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0001858376744466757,
+        0.0001071139054386647,
+        -0.001616841010604177
+      ],
+      "mass_outboard_kg": 1.0078063691675073e-05,
+      "area_mm2": 3.9806859789496727,
+      "mean_axial_Pa": 2366487.5967880622,
+      "sampled_min_normal_Pa": 1256236.1887913772,
+      "sampled_max_normal_Pa": 3704088.9089283724,
+      "sampled_abs_normal_max_Pa": 3704088.9089283724,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 46231.48148400444,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        15.896661743068671,
+        -0.4155681267647902,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00031360107562876524,
+        0.00018075471542774668,
+        -0.0027284192053945487
+      ],
+      "mass_outboard_kg": 1.7006732479701685e-05,
+      "area_mm2": 3.9806859789496727,
+      "mean_axial_Pa": 3993447.819579855,
+      "sampled_min_normal_Pa": 2119898.568585449,
+      "sampled_max_normal_Pa": 6250650.033816628,
+      "sampled_abs_normal_max_Pa": 6250650.033816628,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        7.904734931600467,
+        -0.20664438491494785,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00015594049978392825,
+        8.988164535338435e-05,
+        -0.0013567270254294616
+      ],
+      "mass_outboard_kg": 7.558547768756305e-06,
+      "area_mm2": 3.9806859789496727,
+      "mean_axial_Pa": 1985772.0436632326,
+      "sampled_min_normal_Pa": 1054135.54980207,
+      "sampled_max_normal_Pa": 3108182.8666992793,
+      "sampled_abs_normal_max_Pa": 3108182.8666992793,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        10.53964657546729,
+        -0.2755258465532638,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00020792066637857098,
+        0.00011984219380451246,
+        -0.0018089693672392819
+      ],
+      "mass_outboard_kg": 1.0078063691675073e-05,
+      "area_mm2": 3.9806859789496727,
+      "mean_axial_Pa": 2647696.0582176433,
+      "sampled_min_normal_Pa": 1405514.0664027603,
+      "sampled_max_normal_Pa": 4144243.822265705,
+      "sampled_abs_normal_max_Pa": 4144243.822265705,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 48901.22727238509,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        17.78565359610105,
+        -0.4649498660586326,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0003508661245138385,
+        0.00020223370204511476,
+        -0.0030526358072162883
+      ],
+      "mass_outboard_kg": 1.7006732479701685e-05,
+      "area_mm2": 3.9806859789496727,
+      "mean_axial_Pa": 4467987.098242273,
+      "sampled_min_normal_Pa": 2371804.987054657,
+      "sampled_max_normal_Pa": 6993411.450073377,
+      "sampled_abs_normal_max_Pa": 6993411.450073377,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        14.127995136950352,
+        -0.3693319118754278,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00027870974063830874,
+        0.00016064390007276372,
+        -0.0024248545945304264
+      ],
+      "mass_outboard_kg": 7.558547768756305e-06,
+      "area_mm2": 3.9806859789496727,
+      "mean_axial_Pa": 3549135.8051503743,
+      "sampled_min_normal_Pa": 1884038.1176797785,
+      "sampled_max_normal_Pa": 5555201.1301394645,
+      "sampled_abs_normal_max_Pa": 5555201.1301394645,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        18.837326849267136,
+        -0.49244254916723706,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.000371612987517745,
+        0.00021419186676368496,
+        -0.0032331394593739017
+      ],
+      "mass_outboard_kg": 1.0078063691675073e-05,
+      "area_mm2": 3.9806859789496727,
+      "mean_axial_Pa": 4732181.073533832,
+      "sampled_min_normal_Pa": 2512050.823573038,
+      "sampled_max_normal_Pa": 7406934.840185951,
+      "sampled_abs_normal_max_Pa": 7406934.840185951,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.0,
+      "x_over_R": 0.95,
+      "x_mm": 38.949999999999996,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 65375.70291706148,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        31.787989058138287,
+        -0.8309968017197125,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0006270969164361947,
+        0.00036144877516371837,
+        -0.005455922837693459
+      ],
+      "mass_outboard_kg": 1.7006732479701685e-05,
+      "area_mm2": 3.9806859789496727,
+      "mean_axial_Pa": 7985555.56158834,
+      "sampled_min_normal_Pa": 4239085.764779499,
+      "sampled_max_normal_Pa": 12499202.542813795,
+      "sampled_abs_normal_max_Pa": 12499202.542813795,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        199.56384026031145,
+        -14.600805844576968,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.031943229571416175,
+        0.00028250825742138434,
+        -0.09336149925043224
+      ],
+      "mass_outboard_kg": 0.000645754166474424,
+      "area_mm2": 9.933623079230077,
+      "mean_axial_Pa": 20089733.49085226,
+      "sampled_min_normal_Pa": -12729247.191352326,
+      "sampled_max_normal_Pa": 56031073.39672534,
+      "sampled_abs_normal_max_Pa": 56031073.39672534,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        266.0851203470819,
+        -19.46774112610262,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.04259097276188823,
+        0.0003766776765618458,
+        -0.12448199900057631
+      ],
+      "mass_outboard_kg": 0.000861005555299232,
+      "area_mm2": 9.933623079230077,
+      "mean_axial_Pa": 26786311.32113634,
+      "sampled_min_normal_Pa": -16972329.58846978,
+      "sampled_max_normal_Pa": 74708097.86230046,
+      "sampled_abs_normal_max_Pa": 74708097.86230046,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        449.0186405857008,
+        -32.85181315029818,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.07187226653568639,
+        0.0006356435791981148,
+        -0.21006337331347255
+      ],
+      "mass_outboard_kg": 0.001452946874567454,
+      "area_mm2": 9.933623079230077,
+      "mean_axial_Pa": 45201900.354417585,
+      "sampled_min_normal_Pa": -28640806.18054273,
+      "sampled_max_normal_Pa": 126069915.14263204,
+      "sampled_abs_normal_max_Pa": 126069915.14263204,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        223.27790517038437,
+        -16.335811831062436,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.03573902653797001,
+        0.0003160785632712997,
+        -0.10445559650992853
+      ],
+      "mass_outboard_kg": 0.000645754166474424,
+      "area_mm2": 9.933623079230077,
+      "mean_axial_Pa": 22476985.827782173,
+      "sampled_min_normal_Pa": -14241856.859307919,
+      "sampled_max_normal_Pa": 62689216.02305393,
+      "sampled_abs_normal_max_Pa": 62689216.02305393,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        297.70387356051253,
+        -21.781082441416586,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.04765203538396001,
+        0.00042143808436173293,
+        -0.1392741286799047
+      ],
+      "mass_outboard_kg": 0.000861005555299232,
+      "area_mm2": 9.933623079230077,
+      "mean_axial_Pa": 29969314.4370429,
+      "sampled_min_normal_Pa": -18989142.47907722,
+      "sampled_max_normal_Pa": 83585621.3640719,
+      "sampled_abs_normal_max_Pa": 83585621.3640719,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        502.37528663336485,
+        -36.75557661989048,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.08041280971043252,
+        0.0007111767673604242,
+        -0.2350250921473392
+      ],
+      "mass_outboard_kg": 0.001452946874567454,
+      "area_mm2": 9.933623079230077,
+      "mean_axial_Pa": 50573218.11250989,
+      "sampled_min_normal_Pa": -32044177.933442816,
+      "sampled_max_normal_Pa": 141050736.0518713,
+      "sampled_abs_normal_max_Pa": 141050736.0518713,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        399.0607486129082,
+        -29.19671471088335,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.06387574567244116,
+        0.0005649217641274602,
+        -0.1866916858981215
+      ],
+      "mass_outboard_kg": 0.000645754166474424,
+      "area_mm2": 9.933623079230077,
+      "mean_axial_Pa": 40172729.06672819,
+      "sampled_min_normal_Pa": -25454225.108285107,
+      "sampled_max_normal_Pa": 112043354.47802493,
+      "sampled_abs_normal_max_Pa": 112043354.47802493,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        532.0809981505442,
+        -38.928952947844465,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0851676608965882,
+        0.0007532290188366136,
+        -0.24892224786416198
+      ],
+      "mass_outboard_kg": 0.000861005555299232,
+      "area_mm2": 9.933623079230077,
+      "mean_axial_Pa": 53563638.75563759,
+      "sampled_min_normal_Pa": -33938966.8110468,
+      "sampled_max_normal_Pa": 149391139.3040333,
+      "sampled_abs_normal_max_Pa": 149391139.3040333,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.33,
+      "x_mm": 16.9125,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        897.8866843790435,
+        -65.69260809948753,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.14372042776299257,
+        0.0012710739692867856,
+        -0.4200562932707734
+      ],
+      "mass_outboard_kg": 0.001452946874567454,
+      "area_mm2": 9.933623079230077,
+      "mean_axial_Pa": 90388640.40013844,
+      "sampled_min_normal_Pa": -57272006.493641526,
+      "sampled_max_normal_Pa": 252097547.57555616,
+      "sampled_abs_normal_max_Pa": 252097547.57555616,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        188.71961245352654,
+        -13.410386019049598,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.025369960764612603,
+        0.053507972878481996,
+        -0.1676410120165512
+      ],
+      "mass_outboard_kg": 0.0005859417432770991,
+      "area_mm2": 18.0680427957357,
+      "mean_axial_Pa": 10444939.420780368,
+      "sampled_min_normal_Pa": 935969.7795150969,
+      "sampled_max_normal_Pa": 22321623.761847958,
+      "sampled_abs_normal_max_Pa": 22321623.761847958,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        251.62614993803535,
+        -17.880514692066132,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0338266143528168,
+        0.07134396383797599,
+        -0.22352134935540158
+      ],
+      "mass_outboard_kg": 0.0007812556577027988,
+      "area_mm2": 18.0680427957357,
+      "mean_axial_Pa": 13926585.894373823,
+      "sampled_min_normal_Pa": 1247959.7060201354,
+      "sampled_max_normal_Pa": 29762165.015797265,
+      "sampled_abs_normal_max_Pa": 29762165.015797265,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        424.6191280204347,
+        -30.1733685428616,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.057082411720378354,
+        0.12039293897658448,
+        -0.3771922770372402
+      ],
+      "mass_outboard_kg": 0.001318368922373473,
+      "area_mm2": 18.0680427957357,
+      "mean_axial_Pa": 23501113.696755826,
+      "sampled_min_normal_Pa": 2105932.0039089695,
+      "sampled_max_normal_Pa": 50223653.464157894,
+      "sampled_abs_normal_max_Pa": 50223653.464157894,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        211.14506354571404,
+        -15.003935051329483,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.028384659697812457,
+        0.05986629681327699,
+        -0.187561704238976
+      ],
+      "mass_outboard_kg": 0.0005859417432770991,
+      "area_mm2": 18.0680427957357,
+      "mean_axial_Pa": 11686106.012298526,
+      "sampled_min_normal_Pa": 1047190.5701970924,
+      "sampled_max_normal_Pa": 24974090.431642547,
+      "sampled_abs_normal_max_Pa": 24974090.431642547,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        281.5267513942854,
+        -20.005246735105978,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.03784621293041661,
+        0.07982172908436933,
+        -0.25008227231863467
+      ],
+      "mass_outboard_kg": 0.0007812556577027988,
+      "area_mm2": 18.0680427957357,
+      "mean_axial_Pa": 15581474.683064703,
+      "sampled_min_normal_Pa": 1396254.093596127,
+      "sampled_max_normal_Pa": 33298787.242190067,
+      "sampled_abs_normal_max_Pa": 33298787.242190067,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        475.0763929778566,
+        -33.75885386549134,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.06386548432007802,
+        0.13469916782987323,
+        -0.422013834537696
+      ],
+      "mass_outboard_kg": 0.001318368922373473,
+      "area_mm2": 18.0680427957357,
+      "mean_axial_Pa": 26293738.527671687,
+      "sampled_min_normal_Pa": 2356178.782943465,
+      "sampled_max_normal_Pa": 56191703.471195735,
+      "sampled_abs_normal_max_Pa": 56191703.471195735,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        377.37593005529925,
+        -26.816274315875198,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.050731412673761175,
+        0.10699799966664005,
+        -0.33522579875335806
+      ],
+      "mass_outboard_kg": 0.0005859417432770991,
+      "area_mm2": 18.0680427957357,
+      "mean_axial_Pa": 20886375.70331442,
+      "sampled_min_normal_Pa": 1871625.64322849,
+      "sampled_max_normal_Pa": 44635761.052901804,
+      "sampled_abs_normal_max_Pa": 44635761.052901804,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        503.16790674039896,
+        -35.75503242116693,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0676418835650149,
+        0.14266399955552006,
+        -0.44696773167114406
+      ],
+      "mass_outboard_kg": 0.0007812556577027988,
+      "area_mm2": 18.0680427957357,
+      "mean_axial_Pa": 27848500.93775256,
+      "sampled_min_normal_Pa": 2495500.857637994,
+      "sampled_max_normal_Pa": 59514348.07053572,
+      "sampled_abs_normal_max_Pa": 59514348.07053572,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.4,
+      "x_mm": 20.5,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        849.0958426244234,
+        -60.3366172107192,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.11414567851596263,
+        0.2407454992499401,
+        -0.7542580471950556
+      ],
+      "mass_outboard_kg": 0.001318368922373473,
+      "area_mm2": 18.0680427957357,
+      "mean_axial_Pa": 46994345.33245745,
+      "sampled_min_normal_Pa": 4211157.6972641125,
+      "sampled_max_normal_Pa": 100430462.36902906,
+      "sampled_abs_normal_max_Pa": 100430462.36902906,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        163.17903412982994,
+        -10.731833441600815,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.01967565553834126,
+        0.04018128038400875,
+        -0.1292631906379809
+      ],
+      "mass_outboard_kg": 0.0004706938721980323,
+      "area_mm2": 19.204390825992416,
+      "mean_axial_Pa": 8496964.866439465,
+      "sampled_min_normal_Pa": 2973591.619134091,
+      "sampled_max_normal_Pa": 15522556.598636575,
+      "sampled_abs_normal_max_Pa": 15522556.598636575,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        217.5720455064399,
+        -14.30911125546775,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.026234207384455015,
+        0.05357504051201167,
+        -0.17235092085064116
+      ],
+      "mass_outboard_kg": 0.0006275918295973764,
+      "area_mm2": 19.204390825992416,
+      "mean_axial_Pa": 11329286.488585953,
+      "sampled_min_normal_Pa": 3964788.8255121224,
+      "sampled_max_normal_Pa": 20696742.13151543,
+      "sampled_abs_normal_max_Pa": 20696742.13151543,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        367.15282679211737,
+        -24.146625243601832,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.04427022496126784,
+        0.09040788086401969,
+        -0.29084217893545694
+      ],
+      "mass_outboard_kg": 0.0010590612124455727,
+      "area_mm2": 19.204390825992416,
+      "mean_axial_Pa": 19118170.949488796,
+      "sampled_min_normal_Pa": 6690581.143051706,
+      "sampled_max_normal_Pa": 34925752.34693229,
+      "sampled_abs_normal_max_Pa": 34925752.34693229,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        182.56951189509158,
+        -12.007091496899053,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.02201370321258846,
+        0.04495600054349911,
+        -0.14462346677454826
+      ],
+      "mass_outboard_kg": 0.0004706938721980323,
+      "area_mm2": 19.204390825992416,
+      "mean_axial_Pa": 9506654.678574374,
+      "sampled_min_normal_Pa": 3326941.9283895846,
+      "sampled_max_normal_Pa": 17367093.73657797,
+      "sampled_abs_normal_max_Pa": 17367093.73657797,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        243.42601586012208,
+        -16.009455329198737,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.02935160428345128,
+        0.05994133405799881,
+        -0.19283128903273103
+      ],
+      "mass_outboard_kg": 0.0006275918295973764,
+      "area_mm2": 19.204390825992416,
+      "mean_axial_Pa": 12675539.571432495,
+      "sampled_min_normal_Pa": 4435922.571186106,
+      "sampled_max_normal_Pa": 23156124.98210396,
+      "sampled_abs_normal_max_Pa": 23156124.98210396,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        410.78140176395607,
+        -27.015955868022868,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.04953083222832403,
+        0.101151001222873,
+        -0.3254028002427336
+      ],
+      "mass_outboard_kg": 0.0010590612124455727,
+      "area_mm2": 19.204390825992416,
+      "mean_axial_Pa": 21389973.02679234,
+      "sampled_min_normal_Pa": 7485619.338876564,
+      "sampled_max_normal_Pa": 39075960.90730043,
+      "sampled_abs_normal_max_Pa": 39075960.90730043,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        326.3033394869568,
+        -21.46006752329461,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.039344712039707685,
+        0.08034908432986611,
+        -0.2584830275705239
+      ],
+      "mass_outboard_kg": 0.0004706938721980323,
+      "area_mm2": 19.204390825992416,
+      "mean_axial_Pa": 16991079.927685995,
+      "sampled_min_normal_Pa": 5946185.922524134,
+      "sampled_max_normal_Pa": 31039907.072133437,
+      "sampled_abs_normal_max_Pa": 31039907.072133437,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        435.0711193159424,
+        -28.613423364392816,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.052459616052943574,
+        0.10713211243982147,
+        -0.34464403676069855
+      ],
+      "mass_outboard_kg": 0.0006275918295973764,
+      "area_mm2": 19.204390825992416,
+      "mean_axial_Pa": 22654773.236914657,
+      "sampled_min_normal_Pa": 7928247.896698842,
+      "sampled_max_normal_Pa": 41386542.762844585,
+      "sampled_abs_normal_max_Pa": 41386542.762844585,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.5,
+      "x_mm": 25.625,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        734.1825138456529,
+        -48.28515192741288,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.08852560208934229,
+        0.18078543974219874,
+        -0.5815868120336788
+      ],
+      "mass_outboard_kg": 0.0010590612124455727,
+      "area_mm2": 19.204390825992416,
+      "mean_axial_Pa": 38229929.83729349,
+      "sampled_min_normal_Pa": 13378918.325679313,
+      "sampled_max_normal_Pa": 69839790.91230023,
+      "sampled_abs_normal_max_Pa": 69839790.91230023,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        130.40789170815574,
+        -7.793640781622545,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.013319427788756721,
+        0.032275245645109044,
+        -0.09634792986639433
+      ],
+      "mass_outboard_kg": 0.0003496827687678523,
+      "area_mm2": 20.152643229520468,
+      "mean_axial_Pa": 6471006.816472025,
+      "sampled_min_normal_Pa": 3280032.912014137,
+      "sampled_max_normal_Pa": 10173411.096628781,
+      "sampled_abs_normal_max_Pa": 10173411.096628781,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        173.87718894420766,
+        -10.391521042163394,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.017759237051675626,
+        0.04303366086014539,
+        -0.12846390648852576
+      ],
+      "mass_outboard_kg": 0.00046624369169046974,
+      "area_mm2": 20.152643229520468,
+      "mean_axial_Pa": 8628009.088629365,
+      "sampled_min_normal_Pa": 4373377.216018854,
+      "sampled_max_normal_Pa": 13564548.128838371,
+      "sampled_abs_normal_max_Pa": 13564548.128838371,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        293.41775634335045,
+        -17.535691758650724,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.02996871252470262,
+        0.07261930270149534,
+        -0.21678284219938723
+      ],
+      "mass_outboard_kg": 0.0007867862297276677,
+      "area_mm2": 20.152643229520468,
+      "mean_axial_Pa": 14559765.337062055,
+      "sampled_min_normal_Pa": 7380074.052031809,
+      "sampled_max_normal_Pa": 22890174.96741476,
+      "sampled_abs_normal_max_Pa": 22890174.96741476,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        145.90419206356634,
+        -8.71975496713887,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.014902168302948072,
+        0.03611049590496727,
+        -0.10779690308630496
+      ],
+      "mass_outboard_kg": 0.0003496827687678523,
+      "area_mm2": 20.152643229520468,
+      "mean_axial_Pa": 7239953.111949083,
+      "sampled_min_normal_Pa": 3669797.4769835183,
+      "sampled_max_normal_Pa": 11382312.121922845,
+      "sampled_abs_normal_max_Pa": 11382312.121922845,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        194.53892275142178,
+        -11.626339956185161,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.019869557737264096,
+        0.04814732787328969,
+        -0.14372920411507328
+      ],
+      "mass_outboard_kg": 0.00046624369169046974,
+      "area_mm2": 20.152643229520468,
+      "mean_axial_Pa": 9653270.81593211,
+      "sampled_min_normal_Pa": 4893063.302644687,
+      "sampled_max_normal_Pa": 15176416.162563793,
+      "sampled_abs_normal_max_Pa": 15176416.162563793,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        328.2844321430243,
+        -19.61944867606246,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.03352987868163316,
+        0.08124861578617634,
+        -0.24254303194418617
+      ],
+      "mass_outboard_kg": 0.0007867862297276677,
+      "area_mm2": 20.152643229520468,
+      "mean_axial_Pa": 16289894.501885438,
+      "sampled_min_normal_Pa": 8257044.323212912,
+      "sampled_max_normal_Pa": 25610202.274326403,
+      "sampled_abs_normal_max_Pa": 25610202.274326403,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        260.77204578848426,
+        -15.584667646591269,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.026634388361857504,
+        0.06453966646463762,
+        -0.19266354550821818
+      ],
+      "mass_outboard_kg": 0.0003496827687678523,
+      "area_mm2": 20.152643229520468,
+      "mean_axial_Pa": 12939843.315763861,
+      "sampled_min_normal_Pa": 6558965.730645217,
+      "sampled_max_normal_Pa": 20343410.123156212,
+      "sampled_abs_normal_max_Pa": 20343410.123156212,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        347.6960610513123,
+        -20.77955686212169,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.03551251781581,
+        0.0860528886195168,
+        -0.2568847273442909
+      ],
+      "mass_outboard_kg": 0.00046624369169046974,
+      "area_mm2": 20.152643229520468,
+      "mean_axial_Pa": 17253124.421018478,
+      "sampled_min_normal_Pa": 8745287.640860286,
+      "sampled_max_normal_Pa": 27124546.830874946,
+      "sampled_abs_normal_max_Pa": 27124546.830874946,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.6,
+      "x_mm": 30.75,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        586.7371030240895,
+        -35.06550220483035,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.05992737381417938,
+        0.14521424954543463,
+        -0.4334929773934909
+      ],
+      "mass_outboard_kg": 0.0007867862297276677,
+      "area_mm2": 20.152643229520468,
+      "mean_axial_Pa": 29114647.460468683,
+      "sampled_min_normal_Pa": 14757672.89395174,
+      "sampled_max_normal_Pa": 45772672.77710147,
+      "sampled_abs_normal_max_Pa": 45772672.77710147,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        90.97844348378938,
+        -4.73168417798766,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.007111349062013895,
+        0.021260968895059445,
+        -0.0596834668545295
+      ],
+      "mass_outboard_kg": 0.0002262917372426114,
+      "area_mm2": 18.85472578354862,
+      "mean_axial_Pa": 4825232.916575807,
+      "sampled_min_normal_Pa": 2628973.3727843985,
+      "sampled_max_normal_Pa": 6745736.846721347,
+      "sampled_abs_normal_max_Pa": 6745736.846721347,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        121.30459131171916,
+        -6.308912237316879,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00948179874935186,
+        0.02834795852674592,
+        -0.07957795580603932
+      ],
+      "mass_outboard_kg": 0.0003017223163234819,
+      "area_mm2": 18.85472578354862,
+      "mean_axial_Pa": 6433643.888767743,
+      "sampled_min_normal_Pa": 3505297.8303791983,
+      "sampled_max_normal_Pa": 8994315.795628462,
+      "sampled_abs_normal_max_Pa": 8994315.795628462,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        204.7014978385261,
+        -10.646289400472234,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.016000535389531265,
+        0.04783718001388375,
+        -0.13428780042269137
+      ],
+      "mass_outboard_kg": 0.0005091564087958756,
+      "area_mm2": 18.85472578354862,
+      "mean_axial_Pa": 10856774.062295567,
+      "sampled_min_normal_Pa": 5915190.088764899,
+      "sampled_max_normal_Pa": 15177907.90512303,
+      "sampled_abs_normal_max_Pa": 15177907.90512303,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        101.78936349503878,
+        -5.2939476901770455,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.007956386885673785,
+        0.023787398511621354,
+        -0.06677562145127573
+      ],
+      "mass_outboard_kg": 0.0002262917372426114,
+      "area_mm2": 18.85472578354862,
+      "mean_axial_Pa": 5398612.775575522,
+      "sampled_min_normal_Pa": 2941372.879266842,
+      "sampled_max_normal_Pa": 7547329.165453823,
+      "sampled_abs_normal_max_Pa": 7547329.165453823,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        135.7191513267184,
+        -7.058596920236061,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.010608515847565048,
+        0.03171653134882847,
+        -0.0890341619350343
+      ],
+      "mass_outboard_kg": 0.0003017223163234819,
+      "area_mm2": 18.85472578354862,
+      "mean_axial_Pa": 7198150.36743403,
+      "sampled_min_normal_Pa": 3921830.5056891227,
+      "sampled_max_normal_Pa": 10063105.553938432,
+      "sampled_abs_normal_max_Pa": 10063105.553938432,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        229.0260678638373,
+        -11.911382302898355,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.01790187049276602,
+        0.053521646651148044,
+        -0.1502451482653704
+      ],
+      "mass_outboard_kg": 0.0005091564087958756,
+      "area_mm2": 18.85472578354862,
+      "mean_axial_Pa": 12146878.745044928,
+      "sampled_min_normal_Pa": 6618088.978350397,
+      "sampled_max_normal_Pa": 16981490.622271106,
+      "sampled_abs_normal_max_Pa": 16981490.622271106,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        181.92637362019408,
+        -9.461781391882411,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.014220313041847949,
+        0.042514807053377436,
+        -0.11934691641388974
+      ],
+      "mass_outboard_kg": 0.0002262917372426114,
+      "area_mm2": 18.85472578354862,
+      "mean_axial_Pa": 9648847.493657582,
+      "sampled_min_normal_Pa": 5257065.011668797,
+      "sampled_max_normal_Pa": 13489211.234294266,
+      "sampled_abs_normal_max_Pa": 13489211.234294266,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        242.56849816025874,
+        -12.615708522509879,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.018960417389130596,
+        0.056686409404503244,
+        -0.1591292218851863
+      ],
+      "mass_outboard_kg": 0.0003017223163234819,
+      "area_mm2": 18.85472578354862,
+      "mean_axial_Pa": 12865129.99154344,
+      "sampled_min_normal_Pa": 7009420.015558394,
+      "sampled_max_normal_Pa": 17985614.97905902,
+      "sampled_abs_normal_max_Pa": 17985614.97905902,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.7,
+      "x_mm": 35.875,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        409.3343406454366,
+        -21.28900813173542,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.03199570434415788,
+        0.09565831587009922,
+        -0.2685305619312519
+      ],
+      "mass_outboard_kg": 0.0005091564087958756,
+      "area_mm2": 18.85472578354862,
+      "mean_axial_Pa": 21709906.860729553,
+      "sampled_min_normal_Pa": 11828396.276254794,
+      "sampled_max_normal_Pa": 30350725.277162094,
+      "sampled_abs_normal_max_Pa": 30350725.277162094,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        52.10044133835966,
+        -2.2751059826300013,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.002974891796513834,
+        0.009397492973623437,
+        -0.027394145521202104
+      ],
+      "mass_outboard_kg": 0.0001207096484004951,
+      "area_mm2": 15.534472957824063,
+      "mean_axial_Pa": 3353859.6050095703,
+      "sampled_min_normal_Pa": 2010542.0141913302,
+      "sampled_max_normal_Pa": 4410624.584072793,
+      "sampled_abs_normal_max_Pa": 4410624.584072793,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        69.46725511781288,
+        -3.0334746435066684,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.003966522395351778,
+        0.012529990631497914,
+        -0.036525527361602805
+      ],
+      "mass_outboard_kg": 0.0001609461978673268,
+      "area_mm2": 15.534472957824063,
+      "mean_axial_Pa": 4471812.806679427,
+      "sampled_min_normal_Pa": 2680722.68558844,
+      "sampled_max_normal_Pa": 5880832.7787637245,
+      "sampled_abs_normal_max_Pa": 5880832.7787637245,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        117.22599301130924,
+        -5.118988460917503,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.006693506542156126,
+        0.02114435919065273,
+        -0.06163682742270473
+      ],
+      "mass_outboard_kg": 0.000271596708901114,
+      "area_mm2": 15.534472957824063,
+      "mean_axial_Pa": 7546184.111271533,
+      "sampled_min_normal_Pa": 4523719.531930493,
+      "sampled_max_normal_Pa": 9923905.314163785,
+      "sampled_abs_normal_max_Pa": 9923905.314163785,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        58.291509049472566,
+        -2.5454556155044137,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.003328396605155275,
+        0.010514192061382877,
+        -0.030649377251551632
+      ],
+      "mass_outboard_kg": 0.0001207096484004951,
+      "area_mm2": 15.534472957824063,
+      "mean_axial_Pa": 3752396.956609563,
+      "sampled_min_normal_Pa": 2249453.651523878,
+      "sampled_max_normal_Pa": 4934736.755617665,
+      "sampled_abs_normal_max_Pa": 4934736.755617665,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        77.72201206596341,
+        -3.3939408206725514,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.004437862140207033,
+        0.014018922748510501,
+        -0.040865836335402174
+      ],
+      "mass_outboard_kg": 0.0001609461978673268,
+      "area_mm2": 15.534472957824063,
+      "mean_axial_Pa": 5003195.942146083,
+      "sampled_min_normal_Pa": 2999271.53536517,
+      "sampled_max_normal_Pa": 6579649.007490219,
+      "sampled_abs_normal_max_Pa": 6579649.007490219,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        131.15589536131327,
+        -5.7272751348849305,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.007488892361599368,
+        0.023656932138111472,
+        -0.06896109881599116
+      ],
+      "mass_outboard_kg": 0.000271596708901114,
+      "area_mm2": 15.534472957824063,
+      "mean_axial_Pa": 8442893.152371516,
+      "sampled_min_normal_Pa": 5061270.715928726,
+      "sampled_max_normal_Pa": 11103157.700139744,
+      "sampled_abs_normal_max_Pa": 11103157.700139744,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        104.18340865974808,
+        -4.549448915283254,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.005948785841215888,
+        0.0187918341130687,
+        -0.054779103293674
+      ],
+      "mass_outboard_kg": 0.0001207096484004951,
+      "area_mm2": 15.534472957824063,
+      "mean_axial_Pa": 6706594.355830737,
+      "sampled_min_normal_Pa": 4020409.710768934,
+      "sampled_max_normal_Pa": 8819769.884537693,
+      "sampled_abs_normal_max_Pa": 8819769.884537693,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        138.91121154633078,
+        -6.0659318870443375,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.007931714454954516,
+        0.02505577881742493,
+        -0.07303880439156532
+      ],
+      "mass_outboard_kg": 0.0001609461978673268,
+      "area_mm2": 15.534472957824063,
+      "mean_axial_Pa": 8942125.807774317,
+      "sampled_min_normal_Pa": 5360546.281025247,
+      "sampled_max_normal_Pa": 11759693.179383589,
+      "sampled_abs_normal_max_Pa": 11759693.179383589,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.8,
+      "x_mm": 41.0,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        234.41266948443317,
+        -10.23626005938732,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.013384768142735747,
+        0.04228162675440457,
+        -0.12325298241076649
+      ],
+      "mass_outboard_kg": 0.000271596708901114,
+      "area_mm2": 15.534472957824063,
+      "mean_axial_Pa": 15089837.300619159,
+      "sampled_min_normal_Pa": 9045921.8492301,
+      "sampled_max_normal_Pa": 19844482.24020981,
+      "sampled_abs_normal_max_Pa": 19844482.24020981,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        18.105469396809262,
+        -0.5780982257300384,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0005679037461572958,
+        0.0018645199690017474,
+        -0.006905254699791221
+      ],
+      "mass_outboard_kg": 3.906908337938593e-05,
+      "area_mm2": 9.718859873669922,
+      "mean_axial_Pa": 1862921.127802256,
+      "sampled_min_normal_Pa": 1193450.700154788,
+      "sampled_max_normal_Pa": 2511298.782284903,
+      "sampled_abs_normal_max_Pa": 2511298.782284903,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        24.140625862412346,
+        -0.7707976343067179,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0007572049948763943,
+        0.002486026625335663,
+        -0.009207006266388294
+      ],
+      "mass_outboard_kg": 5.2092111172514576e-05,
+      "area_mm2": 9.718859873669922,
+      "mean_axial_Pa": 2483894.8370696744,
+      "sampled_min_normal_Pa": 1591267.6002063835,
+      "sampled_max_normal_Pa": 3348398.3763798703,
+      "sampled_abs_normal_max_Pa": 3348398.3763798703,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        40.737306142820835,
+        -1.3007210078925864,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0012777834288539155,
+        0.0041951699302539315,
+        -0.015536823074530247
+      ],
+      "mass_outboard_kg": 8.790543760361835e-05,
+      "area_mm2": 9.718859873669922,
+      "mean_axial_Pa": 4191572.5375550757,
+      "sampled_min_normal_Pa": 2685264.0753482725,
+      "sampled_max_normal_Pa": 5650422.260141032,
+      "sampled_abs_normal_max_Pa": 5650422.260141032,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        20.256932687670087,
+        -0.6467933301711937,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0006353874460173552,
+        0.002086079884432118,
+        -0.007725802440092456
+      ],
+      "mass_outboard_kg": 3.906908337938593e-05,
+      "area_mm2": 9.718859873669922,
+      "mean_axial_Pa": 2084291.053783956,
+      "sampled_min_normal_Pa": 1335267.8115790118,
+      "sampled_max_normal_Pa": 2809715.0798166106,
+      "sampled_abs_normal_max_Pa": 2809715.0798166106,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        27.009243583560117,
+        -0.862391106894925,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0008471832613564735,
+        0.0027814398459094906,
+        -0.010301069920123274
+      ],
+      "mass_outboard_kg": 5.2092111172514576e-05,
+      "area_mm2": 9.718859873669922,
+      "mean_axial_Pa": 2779054.738378608,
+      "sampled_min_normal_Pa": 1780357.0821053493,
+      "sampled_max_normal_Pa": 3746286.773088814,
+      "sampled_abs_normal_max_Pa": 3746286.773088814,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        45.578098547257696,
+        -1.4552849928851859,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0014296217535390491,
+        0.004693679739972266,
+        -0.017383055490208025
+      ],
+      "mass_outboard_kg": 8.790543760361835e-05,
+      "area_mm2": 9.718859873669922,
+      "mean_axial_Pa": 4689654.871013901,
+      "sampled_min_normal_Pa": 3004352.5760527775,
+      "sampled_max_normal_Pa": 6321858.9295873735,
+      "sampled_abs_normal_max_Pa": 6321858.9295873735,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        36.20486638287909,
+        -1.1560025625419035,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.001135617022532696,
+        0.0037284145948635015,
+        -0.013808193439588336
+      ],
+      "mass_outboard_kg": 3.906908337938593e-05,
+      "area_mm2": 9.718859873669922,
+      "mean_axial_Pa": 3725217.4487014012,
+      "sampled_min_normal_Pa": 2386501.1277350415,
+      "sampled_max_normal_Pa": 5021755.297663533,
+      "sampled_abs_normal_max_Pa": 5021755.297663533,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        48.273155177172114,
+        -1.5413367500558712,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0015141560300435946,
+        0.004971219459818002,
+        -0.01841092458611778
+      ],
+      "mass_outboard_kg": 5.2092111172514576e-05,
+      "area_mm2": 9.718859873669922,
+      "mean_axial_Pa": 4966956.598268535,
+      "sampled_min_normal_Pa": 3182001.503646722,
+      "sampled_max_normal_Pa": 6695673.730218044,
+      "sampled_abs_normal_max_Pa": 6695673.730218044,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.9,
+      "x_mm": 46.125,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        81.46094936147796,
+        -2.601005765719283,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0025551383006985656,
+        0.00838893283844288,
+        -0.031068435239073756
+      ],
+      "mass_outboard_kg": 8.790543760361835e-05,
+      "area_mm2": 9.718859873669922,
+      "mean_axial_Pa": 8381739.2595781535,
+      "sampled_min_normal_Pa": 5369627.537403843,
+      "sampled_max_normal_Pa": 11298949.41974295,
+      "sampled_abs_normal_max_Pa": 11298949.41974295,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        7.065183002114374,
+        -0.18469694557817382,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00017422286213994136,
+        0.00010041767255195573,
+        -0.0015157839922104468
+      ],
+      "mass_outboard_kg": 1.4762788622039994e-05,
+      "area_mm2": 6.21982055905246,
+      "mean_axial_Pa": 1135914.2816156577,
+      "sampled_min_normal_Pa": 603123.1502621024,
+      "sampled_max_normal_Pa": 1777827.2865688598,
+      "sampled_abs_normal_max_Pa": 1777827.2865688598,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        9.420244002819164,
+        -0.24626259410423174,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00023229714951992182,
+        0.0001338902300692743,
+        -0.002021045322947262
+      ],
+      "mass_outboard_kg": 1.968371816271999e-05,
+      "area_mm2": 6.21982055905246,
+      "mean_axial_Pa": 1514552.3754875434,
+      "sampled_min_normal_Pa": 804164.2003494694,
+      "sampled_max_normal_Pa": 2370436.382091813,
+      "sampled_abs_normal_max_Pa": 2370436.382091813,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "operating_scenario": "hover",
+      "rpm_ASSUMED": 29588.148149691046,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        15.896661754757341,
+        -0.41556812755089106,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00039200143981486807,
+        0.00022593976324190038,
+        -0.0034105139824735053
+      ],
+      "mass_outboard_kg": 3.3216274399589986e-05,
+      "area_mm2": 6.21982055905246,
+      "mean_axial_Pa": 2555807.13363523,
+      "sampled_min_normal_Pa": 1357027.0880897304,
+      "sampled_max_normal_Pa": 4000111.3947799345,
+      "sampled_abs_normal_max_Pa": 4000111.3947799345,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        7.904734937450651,
+        -0.20664438530683332,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00019492567210900228,
+        0.00011235025112886295,
+        -0.0016959037971512655
+      ],
+      "mass_outboard_kg": 1.4762788622039994e-05,
+      "area_mm2": 6.21982055905246,
+      "mean_axial_Pa": 1270894.371051578,
+      "sampled_min_normal_Pa": 674791.9531646068,
+      "sampled_max_normal_Pa": 1989085.5566923441,
+      "sampled_abs_normal_max_Pa": 1989085.5566923441,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        10.539646583267535,
+        -0.27552584707577776,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00025990089614533635,
+        0.00014980033483848393,
+        -0.0022612050628683543
+      ],
+      "mass_outboard_kg": 1.968371816271999e-05,
+      "area_mm2": 6.21982055905246,
+      "mean_axial_Pa": 1694525.828068771,
+      "sampled_min_normal_Pa": 899722.604219476,
+      "sampled_max_normal_Pa": 2652114.0755897923,
+      "sampled_abs_normal_max_Pa": 2652114.0755897923,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "operating_scenario": "lateral_0_5g_fixed_attitude",
+      "rpm_ASSUMED": 31296.785454325553,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        17.785653609263964,
+        -0.464949866940375,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0004385827622452551,
+        0.00025278806503994163,
+        -0.0038157835435903473
+      ],
+      "mass_outboard_kg": 3.3216274399589986e-05,
+      "area_mm2": 6.21982055905246,
+      "mean_axial_Pa": 2859512.3348660506,
+      "sampled_min_normal_Pa": 1518281.8946203655,
+      "sampled_max_normal_Pa": 4475442.502557774,
+      "sampled_abs_normal_max_Pa": 4475442.502557774,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1200.0,
+      "force_N": [
+        14.127996405727995,
+        -0.3693319454706938,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.00034838729150711524,
+        0.00020080166592443985,
+        -0.003031059604174504
+      ],
+      "mass_outboard_kg": 1.4762788622039994e-05,
+      "area_mm2": 6.21982055905246,
+      "mean_axial_Pa": 2271447.587851358,
+      "sampled_min_normal_Pa": 1206044.0184726003,
+      "sampled_max_normal_Pa": 3555058.3059396036,
+      "sampled_abs_normal_max_Pa": 3555058.3059396036,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 1600.0,
+      "force_N": [
+        18.83732854097066,
+        -0.49244259396092516,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0004645163886761536,
+        0.0002677355545659198,
+        -0.004041412805566005
+      ],
+      "mass_outboard_kg": 1.968371816271999e-05,
+      "area_mm2": 6.21982055905246,
+      "mean_axial_Pa": 3028596.7838018104,
+      "sampled_min_normal_Pa": 1608058.6912967996,
+      "sampled_max_normal_Pa": 4740077.741252804,
+      "sampled_abs_normal_max_Pa": 4740077.741252804,
+      "material_and_structural_approval": false
+    },
+    {
+      "diameter_factor": 1.25,
+      "x_over_R": 0.95,
+      "x_mm": 48.6875,
+      "operating_scenario": "vertical_up_1g",
+      "rpm_ASSUMED": 41840.45173019543,
+      "density_ASSUMED_kg_m3": 2700.0,
+      "force_N": [
+        31.78799191288799,
+        -0.8309968773090611,
+        0.0
+      ],
+      "moment_Nm": [
+        -0.0007838714058910093,
+        0.00045180374832998963,
+        -0.006819884109392633
+      ],
+      "mass_outboard_kg": 3.3216274399589986e-05,
+      "area_mm2": 6.21982055905246,
+      "mean_axial_Pa": 5110757.072665555,
+      "sampled_min_normal_Pa": 2713599.04156335,
+      "sampled_max_normal_Pa": 7998881.188364107,
+      "sampled_abs_normal_max_Pa": 7998881.188364107,
+      "material_and_structural_approval": false
+    }
+  ],
+  "slice_sensitivity": [
+    {
+      "factor": 1.0,
+      "ratio": 0.33,
+      "slice_mm": [
+        0.02,
+        0.04
+      ],
+      "relative_A_change": 4.8275214230564245e-06,
+      "normalized_area_tensor_change": 1.7453983944682954e-05
+    },
+    {
+      "factor": 1.0,
+      "ratio": 0.6,
+      "slice_mm": [
+        0.02,
+        0.04
+      ],
+      "relative_A_change": -1.51776193835218e-08,
+      "normalized_area_tensor_change": 2.7134281681609378e-08
+    },
+    {
+      "factor": 1.25,
+      "ratio": 0.33,
+      "slice_mm": [
+        0.02,
+        0.04
+      ],
+      "relative_A_change": 3.0896827267756777e-06,
+      "normalized_area_tensor_change": 1.1170981287133263e-05
+    },
+    {
+      "factor": 1.25,
+      "ratio": 0.6,
+      "slice_mm": [
+        0.02,
+        0.04
+      ],
+      "relative_A_change": -9.713707060932109e-09,
+      "normalized_area_tensor_change": 1.736573739171849e-08
+    }
+  ],
+  "physical_stress_validation_accepted": false,
+  "assumptions": [
+    "Homogeneous density; linear section stress with uniform longitudinal elastic modulus over each section; no selected material.",
+    "Undeformed rigid CAD rotating at hypothetical C01 operating speeds.",
+    "Stress assumes linear section traction; no 3D fillet, notch, laminate or interface concentration.",
+    "No aerodynamic load, torsional/shear stress, gyroscopic, impact, fatigue, thermal, elastic or modal approval.",
+    "A positive geometry or conditional stress does not prove rotor retention or containment.",
+    "Large diameter is a prototype not installed in the same exterior."
+  ],
+  "formula": "F=rho*Omega^2*integral(x,y,0)dV; M=integral((r-r0) cross f)dV; sigma=N/A+[y-yc,z-zc] dot inverse(S) dot[-Mz,My]",
+  "source_theory": "https://ocw.mit.edu/courses/16-20-structural-mechanics-fall-2002/resources/unit14/",
+  "metadata_amendment": "Clarified a misleading constant-section-modulus label; no numbers were changed. Source generator wording corrected during computation.",
+  "similarity_verification": {
+    "section_case_pairs": 72,
+    "expected_stress_ratio_for_C01_speed_scaling": 0.64,
+    "calculated_ratio_min": 0.6399010189565857,
+    "calculated_ratio_max": 0.6399995753812466,
+    "conditional_not_total_stress": true
+  }
+}

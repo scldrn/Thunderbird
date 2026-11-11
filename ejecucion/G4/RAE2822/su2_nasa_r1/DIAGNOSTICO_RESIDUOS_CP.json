@@ -1,0 +1,133 @@
+{
+  "scope": "Residual location and complete-data diagnostic; not convergence/validation acceptance",
+  "residual_fields": {
+    "Residual_Density": {
+      "arithmetic_RMS_per_component": [
+        1.0927732698754005e-05
+      ],
+      "maximum_vector_magnitude": 0.0002031698733573293,
+      "values_at_maximum": [
+        0.0002031698733573293
+      ],
+      "maximum_node_ID": 11109,
+      "xy_over_chord": [
+        0.5216907,
+        0.06146744
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 2.2344325901668192e-05
+    },
+    "Residual_Momentum": {
+      "arithmetic_RMS_per_component": [
+        0.007274058662331418,
+        0.001064567088459339,
+        0.0
+      ],
+      "maximum_vector_magnitude": 0.05094179634494045,
+      "values_at_maximum": [
+        0.05078789281673757,
+        -0.003956836878740969,
+        0.0
+      ],
+      "maximum_node_ID": 11573,
+      "xy_over_chord": [
+        0.5712568,
+        0.059694199999999996
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 0.0006160720750042196
+    },
+    "Residual_Energy": {
+      "arithmetic_RMS_per_component": [
+        2.431672695364632
+      ],
+      "maximum_vector_magnitude": 50.039976903769755,
+      "values_at_maximum": [
+        50.039976903769755
+      ],
+      "maximum_node_ID": 11109,
+      "xy_over_chord": [
+        0.5216907,
+        0.06146744
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 2.2344325901668192e-05
+    },
+    "Residual_TKE": {
+      "arithmetic_RMS_per_component": [
+        0.09665284683717772
+      ],
+      "maximum_vector_magnitude": 1.2381454439272126,
+      "values_at_maximum": [
+        1.2381454439272126
+      ],
+      "maximum_node_ID": 21155,
+      "xy_over_chord": [
+        1.165725,
+        0.008851928
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 0.16596123720410486
+    },
+    "Residual_Omega": {
+      "arithmetic_RMS_per_component": [
+        1060.9378164703285
+      ],
+      "maximum_vector_magnitude": 96947.27134399116,
+      "values_at_maximum": [
+        -96947.27134399116
+      ],
+      "maximum_node_ID": 11218,
+      "xy_over_chord": [
+        0.5341697,
+        0.060976899999999994
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 9.998004800958086e-06
+    }
+  },
+  "residual_export_not_assumed_identical_to_history_stage_or_normalization": true,
+  "Cp_regions": {
+    "all_103": {
+      "points": 103,
+      "own_RMS": 0.1175459742936908,
+      "published_WIND_SA_RMS": 0.10682682210129264
+    },
+    "leading_edge_x_lt_0p02": {
+      "points": 27,
+      "own_RMS": 0.19183814823523515,
+      "published_WIND_SA_RMS": 0.18987861433942396
+    },
+    "mid_chord_0p4_to_0p65": {
+      "points": 22,
+      "own_RMS": 0.13510097865946258,
+      "published_WIND_SA_RMS": 0.08781143678196186
+    },
+    "remaining_points": {
+      "points": 54,
+      "own_RMS": 0.022753147818094583,
+      "published_WIND_SA_RMS": 0.024471924722553048
+    }
+  },
+  "points_removed": 0,
+  "worst_own_Cp_point": {
+    "index": 52,
+    "x_over_c": 0.0002,
+    "branch": "upper",
+    "experimental": -0.4219,
+    "own": 0.5524199945803517,
+    "published_WIND_SA": 0.5339172634990897
+  },
+  "published_WIND_is_SA_not_SST": true,
+  "interpretation": "Similar error against the published computation is context, not an experimental acceptance test or proof of the cause.",
+  "experimental_Cp_error_reported_approximately": 0.0026,
+  "experimental_error_is_not_own_acceptance_tolerance": true,
+  "physical_validation_accepted": false,
+  "source_URL": "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/raetaf04.html",
+  "source_sha256": {
+    "flow.vtu": "bbbd3bf4187d9be6529fc8c9ab53294435c8ae50a4cf4dc7e4d87c3c93c99fa8",
+    "Cp_CONTRASTE_PROVISIONAL.csv": "e5a96794b8f25f166508cac3566684b7593089690de3311e3a4f9cf2749cf39c",
+    "cp.wind.gen": "eb4371990d743e1fd66c97efde5f66d78109d72a771d23b967a2712d84f02d6c",
+    "cp.exp.gen": "739bbec6bd8775240bcf571fc8356701cab4c773c4e3d3b21deea5a3f627f001"
+  }
+}

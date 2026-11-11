@@ -1,0 +1,307 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://aero-investigacion.local/schemas/contrato_mapa_ventilador_v1.json",
+  "title": "ContratoMapaInstaladoFanV1",
+  "description": "Esquema formal versionado para mapas instalados de módulos de ventilador interno (fan modules).",
+  "type": "object",
+  "required": [
+    "contrato_version",
+    "mapa_id",
+    "descripcion",
+    "unidades",
+    "marcos_referencia",
+    "punto_aplicacion",
+    "metadatos_origen",
+    "geometria_referencia",
+    "dominio_validez",
+    "muestras"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "contrato_version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+    },
+    "mapa_id": {
+      "type": "string",
+      "minLength": 3
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "unidades": {
+      "type": "object",
+      "required": [
+        "longitud",
+        "fuerza",
+        "momento",
+        "velocidad",
+        "densidad",
+        "potencia",
+        "angulo",
+        "velocidad_rotacion",
+        "presion",
+        "temperatura"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "longitud": { "type": "string", "enum": ["m", "mm"] },
+        "fuerza": { "type": "string", "enum": ["N", "kN"] },
+        "momento": { "type": "string", "enum": ["N*m", "N m", "Nm"] },
+        "velocidad": { "type": "string", "enum": ["m/s", "m_s"] },
+        "densidad": { "type": "string", "enum": ["kg/m^3", "kg/m3", "kg_m3"] },
+        "potencia": { "type": "string", "enum": ["W", "kW"] },
+        "angulo": { "type": "string", "enum": ["deg", "rad"] },
+        "velocidad_rotacion": { "type": "string", "enum": ["rpm", "rad/s"] },
+        "presion": { "type": "string", "enum": ["Pa", "kPa", "bar"] },
+        "temperatura": { "type": "string", "enum": ["K", "degC"] }
+      }
+    },
+    "marcos_referencia": {
+      "type": "object",
+      "required": ["marco_primario", "definiciones"],
+      "properties": {
+        "marco_primario": {
+          "type": "string",
+          "enum": ["MODULO_LOCAL", "CAD_VEHICULO", "FLU_CUERPO"]
+        },
+        "definiciones": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["eje_x", "eje_y", "eje_z"],
+            "properties": {
+              "eje_x": { "type": "string", "minLength": 1 },
+              "eje_y": { "type": "string", "minLength": 1 },
+              "eje_z": { "type": "string", "minLength": 1 },
+              "matriz_rotacion_a_FLU": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "items": { "type": "number" },
+                  "minItems": 3,
+                  "maxItems": 3
+                },
+                "minItems": 3,
+                "maxItems": 3
+              }
+            }
+          }
+        }
+      }
+    },
+    "punto_aplicacion": {
+      "type": "object",
+      "required": ["marco_referencia", "coordenadas_m", "descripcion"],
+      "additionalProperties": false,
+      "properties": {
+        "marco_referencia": {
+          "type": "string",
+          "enum": ["MODULO_LOCAL", "CAD_VEHICULO", "FLU_CUERPO"]
+        },
+        "coordenadas_m": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "descripcion": { "type": "string", "minLength": 1 }
+      }
+    },
+    "metadatos_origen": {
+      "type": "object",
+      "required": [
+        "categoria",
+        "es_sintetico",
+        "fuente_tipo",
+        "instalacion_o_herramienta",
+        "codigo_o_metodo",
+        "referencia_caso",
+        "fecha"
+      ],
+      "properties": {
+        "categoria": {
+          "type": "string",
+          "enum": ["medido", "calculo", "supuesto"]
+        },
+        "es_sintetico": { "type": "boolean" },
+        "fuente_tipo": { "type": "string", "minLength": 1 },
+        "instalacion_o_herramienta": { "type": "string", "minLength": 1 },
+        "codigo_o_metodo": { "type": "string", "minLength": 1 },
+        "referencia_caso": { "type": "string", "minLength": 1 },
+        "fecha": { "type": "string" },
+        "nivel_resolucion": { "type": ["string", "null"] },
+        "notas": { "type": "string" }
+      }
+    },
+    "geometria_referencia": {
+      "type": "object",
+      "required": [
+        "geometria_id",
+        "modulo_id",
+        "diametro_paso_nominal_m",
+        "radio_pala_nominal_m",
+        "escala_geom",
+        "sentido_giro",
+        "estados_compuertas_soportados"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "geometria_id": { "type": "string", "minLength": 1 },
+        "modulo_id": { "type": "string", "minLength": 1 },
+        "diametro_paso_nominal_m": { "type": "number", "exclusiveMinimum": 0 },
+        "radio_pala_nominal_m": { "type": "number", "exclusiveMinimum": 0 },
+        "escala_geom": { "type": "number", "exclusiveMinimum": 0 },
+        "sentido_giro": { "type": "string", "enum": ["CW", "CCW"] },
+        "estados_compuertas_soportados": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["abierto", "cerrado", "transicion", "corte"] },
+          "minItems": 1
+        }
+      }
+    },
+    "dominio_validez": {
+      "type": "object",
+      "required": [
+        "densidad_kg_m3",
+        "velocidad_modulo_m_s",
+        "rpm",
+        "deflexion_alabes_deg",
+        "politica_extrapolacion"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "densidad_kg_m3": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "velocidad_modulo_m_s": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "rpm": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "deflexion_alabes_deg": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "politica_extrapolacion": {
+          "type": "string",
+          "enum": ["RECHAZAR", "ADVERTIR"]
+        }
+      }
+    },
+    "muestras": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id_muestra",
+          "flujo_local",
+          "mando_estado",
+          "fuerza_vectorial_N",
+          "momento_vectorial_Nm",
+          "potencia_electrica_W",
+          "potencia_mecanica_W",
+          "incertidumbre"
+        ],
+        "properties": {
+          "id_muestra": { "type": "string" },
+          "flujo_local": {
+            "type": "object",
+            "required": ["velocidad_vectorial_m_s", "densidad_kg_m3"],
+            "properties": {
+              "velocidad_vectorial_m_s": {
+                "type": "array",
+                "items": { "type": "number" },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "densidad_kg_m3": { "type": "number", "exclusiveMinimum": 0 },
+              "temperatura_K": { "type": ["number", "null"] },
+              "presion_estatica_Pa": { "type": ["number", "null"] }
+            }
+          },
+          "mando_estado": {
+            "type": "object",
+            "required": ["rpm", "mando_normalizado", "deflexion_alabes_deg", "estado_compuerta"],
+            "properties": {
+              "rpm": { "type": "number", "minimum": 0 },
+              "mando_normalizado": { "type": "number", "minimum": -1.0, "maximum": 1.0 },
+              "deflexion_alabes_deg": {
+                "type": "array",
+                "items": { "type": "number" },
+                "minItems": 1
+              },
+              "estado_compuerta": {
+                "type": "string",
+                "enum": ["abierto", "cerrado", "transicion", "corte"]
+              }
+            }
+          },
+          "fuerza_vectorial_N": {
+            "type": "array",
+            "items": { "type": "number" },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "momento_vectorial_Nm": {
+            "type": "array",
+            "items": { "type": "number" },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "potencia_electrica_W": {
+            "type": ["number", "null", "object"]
+          },
+          "potencia_mecanica_W": {
+            "type": ["number", "null", "object"]
+          },
+          "incertidumbre": {
+            "type": "object",
+            "required": ["fuerza_vectorial_N", "momento_vectorial_Nm", "tipo_incertidumbre"],
+            "properties": {
+              "fuerza_vectorial_N": {
+                "type": "array",
+                "items": { "type": "number", "minimum": 0 },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "momento_vectorial_Nm": {
+                "type": "array",
+                "items": { "type": "number", "minimum": 0 },
+                "minItems": 3,
+                "maxItems": 3
+              },
+              "potencia_electrica_W": { "type": ["number", "null"] },
+              "potencia_mecanica_W": { "type": ["number", "null"] },
+              "tipo_incertidumbre": {
+                "type": "string",
+                "enum": ["EXPANDIDA_K2", "ESTANDAR_1SIGMA", "INTERVALO_TOLERANCIA"]
+              },
+              "nivel_confianza_pct": { "type": "number" },
+              "metodo_evaluacion": { "type": "string" }
+            }
+          },
+          "es_extrapolacion": { "type": "boolean" },
+          "marcas_datos_faltantes": {
+            "type": "object",
+            "additionalProperties": { "type": "string" }
+          },
+          "notas": { "type": "string" }
+        }
+      }
+    }
+  }
+}

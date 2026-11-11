@@ -1,0 +1,437 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamPostProcess -solver incompressibleFluid -time 0,1,2,3
+Date   : Nov 03 2026
+Time   : 16:49:32
+Host   : "4eee8fdcd75f"
+PID    : 1140
+I/O    : uncollated
+Case   : /case/ny32
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+forcesBase force_inlet:
+    Not including porosity effects
+forces force_inlet:
+    Not including porosity effects
+forcesBase force_outlet:
+    Not including porosity effects
+forces force_outlet:
+    Not including porosity effects
+forcesBase force_bottom:
+    Not including porosity effects
+forces force_bottom:
+    Not including porosity effects
+forcesBase force_top:
+    Not including porosity effects
+forces force_top:
+    Not including porosity effects
+forcesBase force_side_min:
+    Not including porosity effects
+forces force_side_min:
+    Not including porosity effects
+forcesBase force_side_max:
+    Not including porosity effects
+forces force_side_max:
+    Not including porosity effects
+forcesBase force_all:
+    Not including porosity effects
+forces force_all:
+    Not including porosity effects
+surfaceFieldValue momentum_inlet read:
+    number of faces = 64
+    area = 1
+    operation = sum
+    weight field = phi
+
+surfaceFieldValue flow_inlet read:
+    number of faces = 64
+    area = 1
+    operation = sum
+
+surfaceFieldValue momentum_outlet read:
+    number of faces = 64
+    area = 1
+    operation = sum
+    weight field = phi
+
+surfaceFieldValue flow_outlet read:
+    number of faces = 64
+    area = 1
+    operation = sum
+
+Time = 0s
+Selecting solver incompressibleFluid
+Selecting viscosity model constant
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+No MRF models present
+
+forces force_inlet write:
+    sum of forces:
+        pressure : (-6.125 0 0)
+        viscous  : (0 0.3675 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 -3.0625 3.0625)
+        viscous  : (-0.18375 0 0)
+        porous   : (0 0 0)
+
+forces force_outlet write:
+    sum of forces:
+        pressure : (6.125 0 0)
+        viscous  : (0 -0.3675 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 3.0625 -3.0625)
+        viscous  : (0.18375 0 -0.3675)
+        porous   : (0 0 0)
+
+forces force_bottom write:
+    sum of forces:
+        pressure : (0 -6.125 0)
+        viscous  : (0.3675 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (3.0625 0 -3.0625)
+        viscous  : (0 0.18375 0)
+        porous   : (0 0 0)
+
+forces force_top write:
+    sum of forces:
+        pressure : (0 6.125 0)
+        viscous  : (-0.3675 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (-3.0625 0 3.0625)
+        viscous  : (0 -0.18375 0.3675)
+        porous   : (0 0 0)
+
+forces force_side_min write:
+    sum of forces:
+        pressure : (0 0 -6.125)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (-3.0625 3.0625 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forces force_side_max write:
+    sum of forces:
+        pressure : (0 0 6.125)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (3.0625 -3.0625 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forces force_all write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (0 0 2.7755575615629e-16)
+        porous   : (0 0 0)
+
+surfaceFieldValue momentum_inlet write:
+    sum(inlet) of U = (-12.999267578125 0 0)
+
+surfaceFieldValue flow_inlet write:
+    sum(inlet) of phi = -3.5
+
+surfaceFieldValue momentum_outlet write:
+    sum(outlet) of U = (12.999267578125 0 0)
+
+surfaceFieldValue flow_outlet write:
+    sum(outlet) of phi = 3.5
+
+
+Time = 1s
+Selecting solver incompressibleFluid
+Selecting viscosity model constant
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+No MRF models present
+
+forces force_inlet write:
+    sum of forces:
+        pressure : (-6.125 0 0)
+        viscous  : (0 0.735 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 -3.0625 3.0625)
+        viscous  : (-0.3675 0 0)
+        porous   : (0 0 0)
+
+forces force_outlet write:
+    sum of forces:
+        pressure : (6.125 0 0)
+        viscous  : (0 -0.735 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 3.0625 -3.0625)
+        viscous  : (0.3675 0 -0.735)
+        porous   : (0 0 0)
+
+forces force_bottom write:
+    sum of forces:
+        pressure : (0 -6.125 0)
+        viscous  : (0.735 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (3.0625 0 -3.0625)
+        viscous  : (0 0.3675 0)
+        porous   : (0 0 0)
+
+forces force_top write:
+    sum of forces:
+        pressure : (0 6.125 0)
+        viscous  : (-0.735 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (-3.0625 0 3.0625)
+        viscous  : (0 -0.3675 0.735)
+        porous   : (0 0 0)
+
+forces force_side_min write:
+    sum of forces:
+        pressure : (0 0 -6.125)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (-3.0625 3.0625 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forces force_side_max write:
+    sum of forces:
+        pressure : (0 0 6.125)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (3.0625 -3.0625 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forces force_all write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (0 0 5.5511151231258e-16)
+        porous   : (0 0 0)
+
+surfaceFieldValue momentum_inlet write:
+    sum(inlet) of U = (-27.9970703125 0 0)
+
+surfaceFieldValue flow_inlet write:
+    sum(inlet) of phi = -5
+
+surfaceFieldValue momentum_outlet write:
+    sum(outlet) of U = (27.9970703125 0 0)
+
+surfaceFieldValue flow_outlet write:
+    sum(outlet) of phi = 5
+
+
+Time = 2s
+Selecting solver incompressibleFluid
+Selecting viscosity model constant
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+No MRF models present
+
+forces force_inlet write:
+    sum of forces:
+        pressure : (-6.125 0 0)
+        viscous  : (0 -6.9388939039072e-18 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 -3.0625 3.0625)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forces force_outlet write:
+    sum of forces:
+        pressure : (4.655 0 0)
+        viscous  : (0 6.9388939039072e-18 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 2.3275 -2.3275)
+        viscous  : (0 0 6.9388939039072e-18)
+        porous   : (0 0 0)
+
+forces force_bottom write:
+    sum of forces:
+        pressure : (0 -5.39 0)
+        viscous  : (0.723515625 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (2.695 0 -2.58015625)
+        viscous  : (0 0.3617578125 0)
+        porous   : (0 0 0)
+
+forces force_top write:
+    sum of forces:
+        pressure : (0 5.39 0)
+        viscous  : (0.723515625 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (-2.695 0 2.58015625)
+        viscous  : (0 0.3617578125 -0.723515625)
+        porous   : (0 0 0)
+
+forces force_side_min write:
+    sum of forces:
+        pressure : (0 0 -5.39)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (-2.695 2.58015625 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forces force_side_max write:
+    sum of forces:
+        pressure : (0 0 5.39)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (2.695 -2.58015625 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forces force_all write:
+    sum of forces:
+        pressure : (-1.47 0 0)
+        viscous  : (1.44703125 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 -0.735 0.735)
+        viscous  : (0 0.723515625 -0.723515625)
+        porous   : (0 0 0)
+
+surfaceFieldValue momentum_inlet write:
+    sum(inlet) of U = (-1.200001001358 0 0)
+
+surfaceFieldValue flow_inlet write:
+    sum(inlet) of phi = -1.00048828125
+
+surfaceFieldValue momentum_outlet write:
+    sum(outlet) of U = (1.200001001358 0 0)
+
+surfaceFieldValue flow_outlet write:
+    sum(outlet) of phi = 1.00048828125
+
+
+Time = 3s
+Selecting solver incompressibleFluid
+Selecting viscosity model constant
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+No MRF models present
+
+forces force_inlet write:
+    sum of forces:
+        pressure : (-6.125 0 0)
+        viscous  : (0 -6.9388939039072e-18 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 -3.0625 3.0625)
+        viscous  : (3.4694469519536e-18 0 0)
+        porous   : (0 0 0)
+
+forces force_outlet write:
+    sum of forces:
+        pressure : (4.655 0 0)
+        viscous  : (0 6.9388939039072e-18 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 2.3275 -2.3275)
+        viscous  : (-3.4694469519536e-18 0 6.9388939039072e-18)
+        porous   : (0 0 0)
+
+forces force_bottom write:
+    sum of forces:
+        pressure : (0 -5.39 0)
+        viscous  : (0.735 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (2.695 0 -2.58015625)
+        viscous  : (0 0.3675 0)
+        porous   : (0 0 0)
+
+forces force_top write:
+    sum of forces:
+        pressure : (0 5.39 0)
+        viscous  : (0.735 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (-2.695 0 2.58015625)
+        viscous  : (0 0.3675 -0.735)
+        porous   : (0 0 0)
+
+forces force_side_min write:
+    sum of forces:
+        pressure : (0 0 -5.39)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (-2.695 2.58015625 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forces force_side_max write:
+    sum of forces:
+        pressure : (0 0 5.39)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (2.695 -2.58015625 0)
+        viscous  : (0 0 0)
+        porous   : (0 0 0)
+
+forces force_all write:
+    sum of forces:
+        pressure : (-1.47 0 0)
+        viscous  : (1.47 0 0)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 -0.735 0.735)
+        viscous  : (0 0.735 -0.735)
+        porous   : (0 0 0)
+
+surfaceFieldValue momentum_inlet write:
+    sum(inlet) of U = (-1.2029342651367 0 0)
+
+surfaceFieldValue flow_inlet write:
+    sum(inlet) of phi = -1.001953125
+
+surfaceFieldValue momentum_outlet write:
+    sum(outlet) of U = (1.2029342651367 0 0)
+
+surfaceFieldValue flow_outlet write:
+    sum(outlet) of phi = 1.001953125
+
+
+End
+

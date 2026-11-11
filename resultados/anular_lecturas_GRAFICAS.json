@@ -1,0 +1,47 @@
+{
+  "url": "https://ntrs.nasa.gov/citations/19930084906",
+  "report": "NACA TN4117",
+  "mach": 0.13,
+  "Re_chord_range": [
+    704000.0,
+    2110000.0
+  ],
+  "method": "Manual approximate readings of figures10,11,12 (printed18,19,20); no exact tabulated coefficients.",
+  "reading_uncertainty_NOT_measurement_error": {
+    "slope_per_degree": 0.002,
+    "CD0": 0.004,
+    "LDmax": 0.2
+  },
+  "readings": [
+    {
+      "aspect_ratio": 0.3333333333333333,
+      "slope_per_degree": 0.018,
+      "CD0": 0.024,
+      "LDmax": 4.7
+    },
+    {
+      "aspect_ratio": 0.6666666666666666,
+      "slope_per_degree": 0.034,
+      "CD0": 0.017,
+      "LDmax": 6.7
+    },
+    {
+      "aspect_ratio": 1.0,
+      "slope_per_degree": 0.049,
+      "CD0": 0.012,
+      "LDmax": 9.7
+    },
+    {
+      "aspect_ratio": 1.5,
+      "slope_per_degree": 0.069,
+      "CD0": 0.028,
+      "LDmax": 11.0
+    },
+    {
+      "aspect_ratio": 3.0,
+      "slope_per_degree": 0.102,
+      "CD0": 0.035,
+      "LDmax": 12.3
+    }
+  ]
+}

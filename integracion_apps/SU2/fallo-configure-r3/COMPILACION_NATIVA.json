@@ -1,0 +1,30 @@
+{
+  "stage": "failed_configure_running",
+  "source_dir": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3",
+  "version": "8.6.0",
+  "started_UTC": "2026-11-03T22:41:51.194934+00:00",
+  "architecture_target": "arm64",
+  "global_system_settings_changed": false,
+  "compiler_jobs": 2,
+  "flow_solver_executed": false,
+  "command": [
+    "/Users/sam/Documents/ChatGPT/New project/.venv-cad/bin/python",
+    "externals/meson/meson.py",
+    "setup",
+    "build-native",
+    "--buildtype=release",
+    "--prefix=/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/native-v8.6.0",
+    "-Dwith-mpi=disabled",
+    "-Dwith-omp=false",
+    "-Denable-autodiff=false",
+    "-Denable-directdiff=false",
+    "-Denable-pywrapper=false",
+    "-Denable-cgns=false",
+    "-Denable-tecio=false",
+    "-Denable-mixedprec=false",
+    "-Denable-singleprec=false"
+  ],
+  "active_pid": 30120,
+  "last_exit_code": 1,
+  "last_stage_wall_s": 2.902900832996238
+}

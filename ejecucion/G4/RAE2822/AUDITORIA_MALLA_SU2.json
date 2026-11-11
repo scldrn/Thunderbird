@@ -1,0 +1,27 @@
+{
+  "scope": "Official SU2 mesh integrity and geometric comparison only, not flow validation",
+  "source_URL": "https://github.com/su2code/TestCases/tree/4d2b3728e93f657199c9eec1919c4a752e1159cb/rans/rae2822",
+  "source_mesh_sha256": "60fc63b5cab8eb1aeb3a3fe661a0f0c6a210fadb907f031f02efdb054883f11f",
+  "points": 13937,
+  "cells": 22842,
+  "triangles": 18042,
+  "quadrilaterals": 4800,
+  "boundary_edges": {
+    "AIRFOIL": 192,
+    "FARFIELD": 40
+  },
+  "all_cells_nonzero_signed_area": true,
+  "orientation_counts": {
+    "-1": 0,
+    "1": 22842
+  },
+  "all_boundary_edges_match_markers": true,
+  "airfoil_is_single_closed_loop": true,
+  "minimum_planar_cell_area": 1.1628958559994906e-10,
+  "summed_cell_area": 31286.816310366623,
+  "chord_mesh_units": 1.0,
+  "maximum_one_way_airfoil_vertex_distance_to_NASA_polygon_chords": 0.0015089480985099784,
+  "geometry_not_assumed_identical_to_NASA": true,
+  "distinction": "SU2 uses a node-centred dual control volume and this official mesh is not the previously audited OpenFOAM mesh; quality and model acceptance do not transfer.",
+  "physical_validation_accepted": false
+}

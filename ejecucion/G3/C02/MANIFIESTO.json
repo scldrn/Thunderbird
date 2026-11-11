@@ -1,0 +1,387 @@
+{
+  "date": "2026-11-03",
+  "configuration_id": "C02_COMPACTA_x160_5kg_2026-11-03_r2",
+  "canonical_reference_unchanged": "A07",
+  "scope": "Delivery/provenance snapshot; fingerprints do not establish physical validity",
+  "candidate_accepted_for_predictive_flight": false,
+  "continuation_classification": "progress",
+  "global_goal_complete": false,
+  "visual_review": "Both native CAD renders inspected after completion",
+  "records": [
+    {
+      "path": "ejecucion/G3/C02/INFORME-C02.md",
+      "bytes": 10825,
+      "sha256": "2a3982a7315456faf143d1f0208cd6654668a2d72ff42c1649886b034dac5db1"
+    },
+    {
+      "path": "ejecucion/G3/C02/analizar_envolvente.log",
+      "bytes": 2674,
+      "sha256": "a112a01394e58aece819e2897e3f241a69890f6640b9407e30a54b91ca4254c7"
+    },
+    {
+      "path": "ejecucion/G3/C02/analizar_envolvente.py",
+      "bytes": 5369,
+      "sha256": "a28f2c90355790b29299f939fd87106eadf0019d1fcc5bc01c9ca9029114d888"
+    },
+    {
+      "path": "ejecucion/G3/C02/auditar_integracion.log",
+      "bytes": 2074,
+      "sha256": "c7c450660ae12d7dd9c5845cbf42398260778ce7ab4131be88094810177b4157"
+    },
+    {
+      "path": "ejecucion/G3/C02/auditar_integracion.py",
+      "bytes": 4181,
+      "sha256": "253e4819d62a6c0b5d5e7c6715b090c0a5ab8264c9a710b9164e92ade9c47890"
+    },
+    {
+      "path": "ejecucion/G3/C02/auditar_modulo.log",
+      "bytes": 259,
+      "sha256": "70273e1033def01ce2388ed035bcbb404c78df71a515ec0ba42ae4457d4e0ad4"
+    },
+    {
+      "path": "ejecucion/G3/C02/auditar_modulo.py",
+      "bytes": 4692,
+      "sha256": "2b7f53cb6adcd53557b49bd3b875fa86bc18a72aa1917adde082c1a30c876dc1"
+    },
+    {
+      "path": "ejecucion/G3/C02/contabilizar_geometria.log",
+      "bytes": 776,
+      "sha256": "7ae8dc1163736e3707d2798e30b5ef22b3aaa420536f48d2637f75a31459e826"
+    },
+    {
+      "path": "ejecucion/G3/C02/contabilizar_geometria.py",
+      "bytes": 5465,
+      "sha256": "ba05cf74d7d4c08e4a7725e538391525e7d48c9a39ec058aee4871912c3438ce"
+    },
+    {
+      "path": "ejecucion/G3/C02/crear_modulo.log",
+      "bytes": 619,
+      "sha256": "3ddc6b3f7ab112cc11b885cdc924f461cfe4bd071bf140169f6e468671981ca0"
+    },
+    {
+      "path": "ejecucion/G3/C02/crear_modulo.py",
+      "bytes": 13046,
+      "sha256": "5e91b22e6d3eefcb45df2b9c9189d23fa7a0fe667da99f2eccf7f4cd1bae69fd"
+    },
+    {
+      "path": "ejecucion/G3/C02/especificar_motores.log",
+      "bytes": 1212,
+      "sha256": "7661d6fc7777f69ab7aec8ef382aee6ac339b1959f19ce9a4a232df296e5bbbc"
+    },
+    {
+      "path": "ejecucion/G3/C02/especificar_motores.py",
+      "bytes": 5333,
+      "sha256": "ff5a8a8ccbf65de276f47c800cfa1174c5808f4311475cd92ec4e914d1e39766"
+    },
+    {
+      "path": "ejecucion/G3/C02/exportar_render.log",
+      "bytes": 183,
+      "sha256": "917c8dae0bcdfc880ae4d4ab3d12e2908828aed49d6e72fb018ac26e7003b220"
+    },
+    {
+      "path": "ejecucion/G3/C02/exportar_render.py",
+      "bytes": 1685,
+      "sha256": "afcfd69bf0de0f0be599786ac15ae409743c4b42d76994a9e0998262adf6c76a"
+    },
+    {
+      "path": "ejecucion/G3/C02/importar_freecad.log",
+      "bytes": 3116,
+      "sha256": "e9e03f9a80aaa702f6f3a9ba53874a8c0789f9d963fdc38ef2a889c66780239e"
+    },
+    {
+      "path": "ejecucion/G3/C02/importar_freecad.py",
+      "bytes": 2024,
+      "sha256": "92906f2658dccf0c3a6fd792639dd76124f8d6fa443012bd017aae46f20e1e5e"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/AUDITORIA_INTERFACES.json",
+      "bytes": 40948,
+      "sha256": "a46d47158fb1c5f42047d05b0325bc875abcc9fe8593f760347371a73a7968c7"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/AUDITORIA_TAPAS.json",
+      "bytes": 322,
+      "sha256": "a0624c9640c5e594ab4745dd341737b3df8f05ce27cafb775bbb6a9859c55b07"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/BOM_GEOMETRICA_PARCIAL.csv",
+      "bytes": 70773,
+      "sha256": "36f5b043aed553d7484421bb45f9aa0e19c64d6989141d587f1fb4d1f0e9840b"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/C02_cerrado.png",
+      "bytes": 1707737,
+      "sha256": "6ea6e305ab51dcc22ba4ade8d6da39211ca2feae94209f9a25a978305b8cd228"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/C02_cerrado_CANDIDATA.blend",
+      "bytes": 7651195,
+      "sha256": "e12238388eff5b86e3731ae178fb4b783457927e8d832aad8b23497573401ef2"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/C02_inspeccion.png",
+      "bytes": 1818961,
+      "sha256": "7f55da21c064d810733df66b15184f184137052d9291f627be8cf161607d8b64"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/C02_inspeccion_CANDIDATA.blend",
+      "bytes": 6952789,
+      "sha256": "85b644adbbe4a65b1adcc3b14dbfbc79f2221e9c86843dc731908922f5da6d10"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/C02_integracion_x160_5kg_CANDIDATA.FCStd",
+      "bytes": 13693484,
+      "sha256": "740dcd2dc8939b724c0e80dc4e6b4c278b4041cbce43a316294e64999a8a8f83"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/C02_integracion_x160_5kg_cerrado_CANDIDATA.step",
+      "bytes": 70550427,
+      "sha256": "c587381e42e5eba78454f9bc263a9db51b75114875ab281eaa4fbb33666b439e"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/C02_integracion_x160_5kg_corte_CANDIDATA.step",
+      "bytes": 46407724,
+      "sha256": "d982b0342190f94439bba9d874ce690efafc705d70aa30cb8288cd8fae89cc1d"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/FREECAD.json",
+      "bytes": 640,
+      "sha256": "0477e8dcc6fced48c2370e48d85ee00a262622315deb5a04c5a14deb98955f9b"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/INTEGRACION.json",
+      "bytes": 6646,
+      "sha256": "9294f77085033e5d75dc68a547a0834c59e31f05a31c1ab6dcd57caaf018bd6d"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/MASA_INERCIA_PARCIAL.json",
+      "bytes": 12542,
+      "sha256": "4b8df67e7161d2eed06bb21e97973f966a9ee34648a9f73661e915cf41be18f6"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/REGLAS_TAPAS_CONCEPTUALES.json",
+      "bytes": 2295,
+      "sha256": "616e5a65220f1b1727efb45faac165fd58af6e7e1cd65368025f12895bc56c5a"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160/mallas_C02.json.gz",
+      "bytes": 7579329,
+      "sha256": "26290fca1bf65d1aa481ffdeafe089613a83bf8beb4bd3e8158002376d750435"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160_r1_completa/C02_integracion_x160_5kg_cerrado_CANDIDATA.step",
+      "bytes": 60858051,
+      "sha256": "7e38d07d0d2b9df5a7bfea3327c4922d89b5d70ca8bf820675f8d571be6b0e1d"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160_r1_completa/C02_integracion_x160_5kg_corte_CANDIDATA.step",
+      "bytes": 45530477,
+      "sha256": "b114cdc9710073a596b9a843cd0fde062956afd83b5b28e4697712a30704aebe"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160_r1_completa/GENERADOR_UTILIZADO.txt",
+      "bytes": 7227,
+      "sha256": "118df0e9b8593df16512a6a4abef990e6c3495b0ee464170ac4405a6c2b76d10"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160_r1_completa/INTEGRACION.json",
+      "bytes": 6646,
+      "sha256": "1ed3fa2d77e4fc0ea00a22367b9bfce703ad05817fbb1f6c89a5cba8298c1e98"
+    },
+    {
+      "path": "ejecucion/G3/C02/integracion_x160_r1_completa/REGLAS_TAPAS_CONCEPTUALES.json",
+      "bytes": 2295,
+      "sha256": "0d5f62cbed19e13ec6f3a5ec61b5c07d3bd5a1005e3bef949cdabaccaf52cdcd"
+    },
+    {
+      "path": "ejecucion/G3/C02/integrar_x160.log",
+      "bytes": 669,
+      "sha256": "17c1bd6338d792ebfbcf39ce1eeb74ad8d234df0438b2be646dcf6545b6e5cd8"
+    },
+    {
+      "path": "ejecucion/G3/C02/integrar_x160.py",
+      "bytes": 8071,
+      "sha256": "139b115957601c79ddea85472951614e72b444edb2eea59689ca37a8b73fd13d"
+    },
+    {
+      "path": "ejecucion/G3/C02/integrar_x160_r1_completa.log",
+      "bytes": 614,
+      "sha256": "bd665cca6000b990f516ca29eb2fa8313d1ba97872e21fbf37d4a76fdfcbab10"
+    },
+    {
+      "path": "ejecucion/G3/C02/integrar_x160_reconstruccion_completa.txt",
+      "bytes": 7227,
+      "sha256": "118df0e9b8593df16512a6a4abef990e6c3495b0ee464170ac4405a6c2b76d10"
+    },
+    {
+      "path": "ejecucion/G3/C02/rechazo_barrido_radio_nominal.log",
+      "bytes": 822,
+      "sha256": "6847ac2cf46492a69b64a723ed5f584393f2ae96418a3032657165647677f16e"
+    },
+    {
+      "path": "ejecucion/G3/C02/rechazo_envolvente_compound_solapado.log",
+      "bytes": 920,
+      "sha256": "aebc978a4736ccb81f573ba10672c5a84adf64681869b63d329af8296b9c6a33"
+    },
+    {
+      "path": "ejecucion/G3/C02/renderizar_blender.log",
+      "bytes": 1651,
+      "sha256": "bb4ac4c59fec5a2ad94db8492a7144daa779ded48a2b84a6372e5de321bfdf45"
+    },
+    {
+      "path": "ejecucion/G3/C02/renderizar_blender.py",
+      "bytes": 6159,
+      "sha256": "df12d237edd81ca09ffe28ba04dfc244b66dc2781f96b371dbd1dd982733cb69"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/AUDITORIA_RESUMEN.json",
+      "bytes": 5592,
+      "sha256": "3c04efa33ddf0d3e3212f585465f03e91f4394eb96a5b61b495e796094127864"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D102.5_desviado/modulo.step",
+      "bytes": 9333428,
+      "sha256": "00170d31c5055b648f1502ce30e1f7de797c59c363457dd65fdba96134a56961"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D102.5_neutro/AUDITORIA.json",
+      "bytes": 3235,
+      "sha256": "21e48bf4ba660e690be00d33bf1b0b77996a036c612f66879b7ab7b6b9e0baaf"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D102.5_neutro/PARES_STATICOS.ndjson",
+      "bytes": 9386,
+      "sha256": "632dad9fc334a82c712185a0c0ec22d19132349e521649a86e9b2f449f21fb29"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D102.5_neutro/modulo.step",
+      "bytes": 9272834,
+      "sha256": "0d460f72b8fb8a3ea35d7da00e4d0b4847ce8f35cf5cd5afd658e01833176caa"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D82_desviado/modulo.step",
+      "bytes": 9915843,
+      "sha256": "25ab461cb94580027a386dc1734932ed64410d7e0ecdf9fdec4bad8a800d50c8"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D82_neutro/AUDITORIA.json",
+      "bytes": 2050,
+      "sha256": "4cf2eb730ecc4b5e4c56bd3c694d13ebd1bcbc7ad20de67b3e0a8c2df0fa9e7b"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D82_neutro/PARES_STATICOS.ndjson",
+      "bytes": 9386,
+      "sha256": "632dad9fc334a82c712185a0c0ec22d19132349e521649a86e9b2f449f21fb29"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D82_neutro/modulo.step",
+      "bytes": 9852164,
+      "sha256": "e49111aee635a06b4093f9981fc74c92993dba8aca4368e4a60565b049d1ca6f"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D82_x-160_neutro/modulo.step",
+      "bytes": 9864252,
+      "sha256": "76fac72ce73e7e46becac086a0a1f2d53f216a91b985f200a95dcdb554edc251"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/C02_D82_x160_neutro/modulo.step",
+      "bytes": 9909088,
+      "sha256": "0f2e4cf727b9c0a70be3b0687e9dfb36e430a8be1cf2ed8e98130f6bd1887a02"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/CRIBADO_ENSANCHAMIENTO.json",
+      "bytes": 42989,
+      "sha256": "7d74e0daaf9bece1ec8464706191c546665a4c99831601e634e92f8e99dd8862"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/CRIBADO_TERMICO_OPTIMISTA.csv",
+      "bytes": 19822,
+      "sha256": "c9e0f686c598d13ce81e63f4aa5a895eff80b09b0bafba751f7dc7b781d6b091"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/REQUISITOS_MOTOR.csv",
+      "bytes": 3165,
+      "sha256": "3b3bcc4e473f4e88592f7e682a722ad54fe557620c3bd9ea2709676e5ca81a13"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida/REQUISITOS_MOTOR.json",
+      "bytes": 1059,
+      "sha256": "842599f6a8c20d0fd7701553a8edbd0c95ebfe3efd18309d1b592c67b2166886"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/AUDITORIA_RESUMEN.json",
+      "bytes": 5590,
+      "sha256": "2534741767e2c4f712248ddce9a5896084ebbaafe6abc21b5c67cf321325b37b"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/C02_D102.5_desviado/modulo.step",
+      "bytes": 9305278,
+      "sha256": "0ad0085683272c37ef628f0f22c869bba8e5472bee890bce2bcf99cc134326cb"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/C02_D102.5_neutro/AUDITORIA.json",
+      "bytes": 3234,
+      "sha256": "3d1bfe75079fd1d577fd53e54b9a818eaa396e5ab924adeb6db59407db453fe3"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/C02_D102.5_neutro/PARES_STATICOS.ndjson",
+      "bytes": 8210,
+      "sha256": "1442960043158e166e0c489f54b6f08a6f2d695b22221b3b54544ace2732d9b9"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/C02_D102.5_neutro/modulo.step",
+      "bytes": 9244680,
+      "sha256": "47f03bfe107f2f073b658aab24e11ababbf8ba75bd27110cadf2070a685785e6"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/C02_D82_desviado/modulo.step",
+      "bytes": 9887701,
+      "sha256": "5a401a0dc3119934899c0fff0ef100fab7eab5f64a8657336a95407236280308"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/C02_D82_neutro/AUDITORIA.json",
+      "bytes": 2049,
+      "sha256": "f87e373e96fe68e4f8d7f7ef736f0e0e2d294d7d55e7cb2abed3f225fa39676d"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/C02_D82_neutro/PARES_STATICOS.ndjson",
+      "bytes": 8210,
+      "sha256": "1442960043158e166e0c489f54b6f08a6f2d695b22221b3b54544ace2732d9b9"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/C02_D82_neutro/modulo.step",
+      "bytes": 9824024,
+      "sha256": "fc40621dcab4413f8f9550c4f1b70a8e6fb13e8a7bc12fa182af011deda22397"
+    },
+    {
+      "path": "ejecucion/G3/C02/salida_r1_preliminar/GENERADOR_UTILIZADO.txt",
+      "bytes": 12700,
+      "sha256": "80d7f670473726bcafa87d506721a22539ed7a40431196537a8c74536fef9c1f"
+    },
+    {
+      "path": "configuraciones/C02_CANDIDATA.json",
+      "bytes": 3505,
+      "sha256": "4529d8530f0edd2faa8dddf1cd7c142d72969e5dc6166c232063b3c4db0d4bf3"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_salto/AUDITORIA.json",
+      "bytes": 10758,
+      "sha256": "089dc328764e63e2d0b5030ba26e7aeaa50deab19dc2aeb30f3199659c7aaaea"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_salto/LEEME.md",
+      "bytes": 2097,
+      "sha256": "948c51fd0902411936cb1a0eca8a4ef0ce65b3fa79869d6d74f6f9aebcc4f04a"
+    },
+    {
+      "path": "ejecucion/G2/auditar_benchmark_salto.py",
+      "bytes": 5646,
+      "sha256": "3fa1149f806a3df4a0eaf424de4fd54091fcc8dad2db5af65bc1b669dcd9f959"
+    },
+    {
+      "path": "ejecucion/G2/preparar_benchmark_salto.py",
+      "bytes": 2108,
+      "sha256": "12f4d03662ed16cf090c1dc9bd068f37d295e6df4c7f39f97cdcb960a6314890"
+    }
+  ]
+}

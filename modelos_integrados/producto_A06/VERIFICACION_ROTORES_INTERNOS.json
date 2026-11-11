@@ -1,0 +1,22 @@
+{
+  "reference": "5kg, shared geometrical scaling for 2 and 10kg",
+  "results": [
+    {
+      "part": "canal_0_base_rotor_representativo_4",
+      "volume_outside_hull_mm3": 0.0
+    },
+    {
+      "part": "canal_1_base_rotor_representativo_4",
+      "volume_outside_hull_mm3": 0.0
+    },
+    {
+      "part": "canal_2_base_rotor_representativo_4",
+      "volume_outside_hull_mm3": 0.0
+    },
+    {
+      "part": "canal_3_base_rotor_representativo_4",
+      "volume_outside_hull_mm3": 0.0
+    }
+  ],
+  "scope": "Static representative rotor geometry inside reference envelope; not blade deformation, swept tolerances, duct performance or safety clearance validation."
+}

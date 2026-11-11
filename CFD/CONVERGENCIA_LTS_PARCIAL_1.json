@@ -1,0 +1,165 @@
+{
+  "case": "avance_A_compresible_600kmh_LTS_diag",
+  "source_post_processing": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/snapshot_avance_LTS_1",
+  "counter_kind": "local_pseudo_iterations",
+  "common_iterations": [
+    1.0,
+    122.0
+  ],
+  "iteration_count": 122,
+  "parsing": {
+    "force_hull": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "inlet": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "outlet": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "farfield": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    }
+  },
+  "complete_blocks": [
+    {
+      "first_iteration": 1.0,
+      "last_iteration": 25.0,
+      "pressure_force_Cmean": [
+        1.1312761224617598,
+        0.0013607549992583309,
+        -0.05051972717210826
+      ],
+      "pressure_moment_Cmean": [
+        -7.173928571854198e-05,
+        -0.0953977213474015,
+        -0.0009188819369528957
+      ]
+    },
+    {
+      "first_iteration": 26.0,
+      "last_iteration": 50.0,
+      "pressure_force_Cmean": [
+        0.9892890453563765,
+        0.001129882144347643,
+        -0.03982744304363649
+      ],
+      "pressure_moment_Cmean": [
+        -0.0001363669611055408,
+        -0.0797898910355827,
+        -0.0003875238220389097
+      ]
+    },
+    {
+      "first_iteration": 51.0,
+      "last_iteration": 75.0,
+      "pressure_force_Cmean": [
+        0.8437214134337186,
+        0.0007442613503862796,
+        -0.028714839071529864
+      ],
+      "pressure_moment_Cmean": [
+        -0.00010257755061195772,
+        -0.06003680124326328,
+        -0.0008945676724393339
+      ]
+    },
+    {
+      "first_iteration": 76.0,
+      "last_iteration": 100.0,
+      "pressure_force_Cmean": [
+        0.6770344617557893,
+        0.004858612205773524,
+        -0.018842089004172037
+      ],
+      "pressure_moment_Cmean": [
+        -6.219240447294143e-05,
+        -0.03995599347106745,
+        -0.0020199646105451756
+      ]
+    }
+  ],
+  "screen_tail_iterations": [
+    76.0,
+    77.0,
+    78.0,
+    79.0,
+    80.0,
+    81.0,
+    82.0,
+    83.0,
+    84.0,
+    85.0,
+    86.0,
+    87.0,
+    88.0,
+    89.0,
+    90.0,
+    91.0,
+    92.0,
+    93.0,
+    94.0,
+    95.0,
+    96.0,
+    97.0,
+    98.0,
+    99.0,
+    100.0
+  ],
+  "last_block_first_outer_initial_residual_max": {
+    "p": 0.002295651922,
+    "Ux": 0.0008251194407,
+    "Uy": 0.006469994256,
+    "Uz": 0.004244402984,
+    "h": 0.001583427638
+  },
+  "last_two_complete_block_force_Cmean_change_max": 0.16668695167792935,
+  "last_two_complete_block_moment_Cmean_change_max": 0.020080807772195827,
+  "last_complete_block_force_Cpeak_to_peak_max": 0.16031241641812677,
+  "last_complete_block_moment_Cpeak_to_peak_max": 0.01839776321568651,
+  "max_mass_imbalance_relative_domain_inlet": 5.342046910692902e-06,
+  "last_complete_block_mass_imbalance_relative_body": 0.0001487999947693634,
+  "body_mass_flow_reference_kg_s": 10.162344467635318,
+  "criteria": {
+    "scope": "Chosen numerical screening targets for the slip-wall pressure diagnostic; not a standard, physical uncertainty or product acceptance.",
+    "tail_iterations": 25,
+    "required_complete_blocks": 4,
+    "first_outer_initial_residual_max": {
+      "p": 1e-05,
+      "Ux": 1e-05,
+      "Uy": 1e-05,
+      "Uz": 1e-05,
+      "h": 1e-05
+    },
+    "force_coefficient_adjacent_block_mean_change_max": 0.0001,
+    "force_coefficient_last_block_peak_to_peak_max": 0.0002,
+    "moment_coefficient_adjacent_block_mean_change_max": 1e-05,
+    "moment_coefficient_last_block_peak_to_peak_max": 2e-05,
+    "mass_imbalance_relative_to_rho_U_body_area_max": 0.001,
+    "required_before_physical_acceptance": [
+      "field-change audit",
+      "mesh and domain sensitivity",
+      "scheme sensitivity",
+      "external validation",
+      "viscous and installed geometry closure"
+    ]
+  },
+  "screens": {
+    "enough_complete_blocks": true,
+    "first_outer_initial_residuals": false,
+    "force_mean_drift": false,
+    "moment_mean_drift": false,
+    "force_last_block_range": false,
+    "moment_last_block_range": false,
+    "mass_body_scale": true
+  },
+  "all_chosen_screens_passed": false,
+  "steady_convergence_proven": false,
+  "physical_drag_accepted": false,
+  "physical_time_statistics": false,
+  "note": "First-outer initial residuals are screened; tiny final linear residuals alone do not prove convergence. LTS counters are algorithmic. Field changes and sensitivities remain required."
+}

@@ -9,9 +9,20 @@ __pycache__/
 *.log
 *.tmp
 *.swp
+/simulacion_vuelo_A/frames/
+/vuelo_rapido_visual/frames/
 
-# Archivos voluminosos o redistribución pendiente de revisión.
+# Large files or material awaiting redistribution review.
 *.zip
 *.deb
 *.msh
 investigacion-aeronautica/fuentes/**/*.pdf
+/fuentes/**/*.pdf
+
+# Third-party source and binaries; review before publishing.
+investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/
+investigacion-aeronautica/integracion_apps/SU2/eigen-pinned/
+investigacion-aeronautica/integracion_apps/SU2/v8.6.0_macos/
+integracion_apps/SU2/source-v8.6.0/
+integracion_apps/SU2/eigen-pinned/
+integracion_apps/SU2/v8.6.0_macos/

@@ -1,0 +1,62 @@
+{
+  "previous_peak_W": 5248.328500323363,
+  "previous_motor_limits_N": [
+    39.232074205643535,
+    39.232074205643556,
+    39.23207420564356,
+    39.23207420564352,
+    33.175589853641576,
+    33.17558985364154,
+    33.17558985364154,
+    33.17558985364157
+  ],
+  "packs": [
+    {
+      "series": 6,
+      "parallel": 8,
+      "cell_current_A": 40,
+      "loaded_voltage_per_cell_assumed": 3.0,
+      "cell_mass_kg": 3.4079999999999995,
+      "pack_mass_assumed_kg": 3.919199999999999,
+      "cells": 48,
+      "nominal_Wh": 864
+    },
+    {
+      "series": 6,
+      "parallel": 5,
+      "cell_current_A": 60,
+      "loaded_voltage_per_cell_assumed": 3.0,
+      "cell_mass_kg": 2.13,
+      "pack_mass_assumed_kg": 2.4494999999999996,
+      "cells": 30,
+      "nominal_Wh": 540
+    },
+    {
+      "series": 12,
+      "parallel": 4,
+      "cell_current_A": 40,
+      "loaded_voltage_per_cell_assumed": 3.0,
+      "cell_mass_kg": 3.4079999999999995,
+      "pack_mass_assumed_kg": 3.919199999999999,
+      "cells": 48,
+      "nominal_Wh": 864
+    },
+    {
+      "series": 12,
+      "parallel": 3,
+      "cell_current_A": 60,
+      "loaded_voltage_per_cell_assumed": 3.0,
+      "cell_mass_kg": 2.5559999999999996,
+      "pack_mass_assumed_kg": 2.939399999999999,
+      "cells": 36,
+      "nominal_Wh": 648
+    }
+  ],
+  "engine_motor_fuel_cells_subtotal_kg": 4.816,
+  "optimistic_total_replacing_only_battery_kg": 6.952350533904667,
+  "rotor_diameter_m": 0.4572,
+  "pair_sphere_clearance_m": -0.09153748021273334,
+  "deployed_radial_envelope_m": 1.3713562994681665,
+  "ideal_symmetric_thrust_only_acceleration_g": 1.3976288490662228,
+  "warning": "No reverse-thrust evidence. Battery power frozen at old value; not a new equilibrium."
+}

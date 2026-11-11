@@ -1,0 +1,18 @@
+{
+  "observed_UTC": "2026-11-03T22:26:23.753351+00:00",
+  "container": "codex-aero-rae2822-r7",
+  "container_id": "54f6b899e889c368365f6c56777302c13c8cb500d19fba18a4d3e9daed9fce72",
+  "container_status": "running",
+  "paused": false,
+  "foamRun_process_verified_live": true,
+  "observed_processes": [
+    "44623               01:51               /sbin/docker-init -- sleep infinity",
+    "44773               01:51               sleep infinity",
+    "95504               00:26               /bin/bash -c source /opt/openfoam13/etc/bashrc && foamRun > log.foamRun 2>&1",
+    "96012               00:26               foamRun"
+  ],
+  "snapshot_does_not_prove_future_liveness": true,
+  "physical_validation_accepted": false,
+  "last_completed_counter": null,
+  "last_reported_max_speed_m_s": 233.622763113
+}

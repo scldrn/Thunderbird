@@ -1,0 +1,47 @@
+{
+  "time_interval_s": [
+    0.0,
+    0.0005
+  ],
+  "snapshot_count": 3,
+  "rho_kg_m3": 1.225,
+  "accumulation_mean_N": [
+    -0.3155048749999998,
+    -0.2327261615,
+    -0.0014455000000041657
+  ],
+  "convective_outward_mean_N": [
+    2.3260312249999995,
+    -0.041352462812500004,
+    -4.10965205
+  ],
+  "opposite_fluid_boundary_traction_mean_N": [
+    -2.0205486450000003,
+    0.25901741875,
+    4.1111375500000005
+  ],
+  "integral_residual_mean_N": [
+    -0.010022295000000625,
+    -0.015061205562500013,
+    3.9999999995821156e-05
+  ],
+  "residual_norm_N": 0.018091100299951868,
+  "normalization_scale_N": 4.72243276902116,
+  "normalized_residual": 0.0038308857287769693,
+  "quadrature_three_vs_two_points_change_N": [
+    0.03401562199999919,
+    0.044588359812500034,
+    -0.0008183750000001488
+  ],
+  "maximum_relative_volume_flux_imbalance": 0.0,
+  "physical_loads_accepted": false,
+  "exact_discrete_momentum_residual": false,
+  "interpretation": "Sparse-time integral audit; nonzero closure error requires diagnosis, not force calibration.",
+  "limitations": [
+    "temporal quadrature not converged",
+    "reconstructed model tractions may differ from assembled discrete operators",
+    "PIMPLE iterations and pressure/velocity consistency not verified",
+    "domain excludes rotor and exterior",
+    "all snapshots remain within initial physical transient"
+  ]
+}

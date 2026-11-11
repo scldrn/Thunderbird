@@ -1,0 +1,45 @@
+{
+  "updated_UTC": "2026-11-04T07:36:00.362729+00:00",
+  "classification_previous_goal_turn": "progress",
+  "classification_this_turn": "progress",
+  "global_goal_complete": false,
+  "physical_loads_accepted": false,
+  "historical_solvers_resumed": false,
+  "completed_passive_case": "neutro_r9_mpi4",
+  "completed_passive_status": "terminal1200/reconstruct0/all5startup screens pass; CVfinal0.001693percent; no mesh/physical acceptance",
+  "completed_forced_case": "actuador_r2_h4_F1N_1400",
+  "completed_forced_status": "terminal1400/reconstruct0; p/k residuals fail; source-aware CV0.00187422percent; no physical acceptance",
+  "active_jobs": [
+    {
+      "case": "actuador_r3_h4_F1N_1500",
+      "container": "codex-aero-c02-actuador-r3-h4-f1n",
+      "local_exec_session": 40070,
+      "target_counter": 1500,
+      "last_verified_counter": 1416.0,
+      "observation_UTC": "2026-11-04T07:33:00.926566+00:00",
+      "actual_solver_process_verified": true
+    },
+    {
+      "case": "neutro_fino_r2_mpi4_200",
+      "container": "codex-aero-c02-neutro-fino-r2-mpi4",
+      "local_exec_session": 78427,
+      "target_counter": 200,
+      "last_verified_counter": 106.0,
+      "observation_UTC": "2026-11-04T07:32:59.245405+00:00",
+      "actual_solver_process_verified": true
+    }
+  ],
+  "latest_reports": [
+    "INFORME-R9-TERMINADO.md",
+    "INFORME-F1N-PRELIMINAR.md",
+    "INFORME-MALLA-FINA-R1.md"
+  ],
+  "fine_seed": "neutro_fino_inicializacion_r1/INICIALIZACION_VERIFICADA.json",
+  "fine_mesh_cells": 1283005,
+  "next_action": "Inspect actual two handles; audit forced1480/1500 and fine180/200 after terminal. No accepted rotor law or free-Q vehicle map; local 2D polar screening remains conditional.",
+  "completed_fine_case": "neutro_fino_r1_mpi4",
+  "completed_fine_status": "terminal100/reconstruct0; first residuals and local evolution remain; no mesh sensitivity acceptance",
+  "latest_local_rotor_law": "../INFORME-LEY-LOCAL-C02.md",
+  "free_Q_boundary_benchmark": "../INFORME-CAUDAL-LIBRE.md",
+  "free_Q_benchmark_fully_accepted": false
+}

@@ -1,0 +1,25 @@
+{
+  "tarea": "corregir_bom_incertidumbre",
+  "inicio_utc": "2026-11-08T03:54:19.235905+00:00",
+  "workspace_temporal": "/private/tmp/aero_20261108T035419Z_55aa97fb_2gsxg2ve/corregir_bom_incertidumbre",
+  "entradas_sha256": {
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_bom/salidas/REVISION.md": "24b81ff5c31a1d6f453a4e30efb11a53bd264bba79db430b5b2a841165601d95",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/INFORME_AUDITORIA_BOM.md": "9bd05035bb299ea4c8a1bc5a77c90407e2ca8507d8d197ae850b2a8a49e31795",
+    "investigacion-aeronautica/ejecucion/G3/C02/integracion_x160/BOM_GEOMETRICA_PARCIAL.csv": "36f5b043aed553d7484421bb45f9aa0e19c64d6989141d587f1fb4d1f0e9840b",
+    "investigacion-aeronautica/ejecucion/G3/C02/integracion_x160/MASA_INERCIA_PARCIAL.json": "4b8df67e7161d2eed06bb21e97973f966a9ee34648a9f73661e915cf41be18f6"
+  },
+  "instruccion_sha256": "28c6afc6300b669662fb6938dcc572bfa2cc3022a5bd613aa3135442c7401c72",
+  "errores_locales": [
+    "[Errno 1] Operation not permitted"
+  ],
+  "entradas_modificadas": [],
+  "fin_utc": "2026-11-08T04:01:39.715364+00:00",
+  "duracion_real_s": 440.484,
+  "exito_tecnico": false,
+  "requiere_revision": true,
+  "entregables_sha256": {
+    "censo_54_reservas.csv": "74028bd348582e204888e8f0cdebcdbccee994a9d79e8eb8c68242fa8266beba",
+    "verificar_dictamen.py": "10c7905b5e94d952765f6d2b0451917b0823590da015a6dcd5db93f483658529",
+    "DICTAMEN.md": "aebf9cf847d11e22f3bb96d7d1236e67998c17cc1327fa68f9ccb3c21a39f0ed"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "tareas": [
+    {
+      "id": "prueba_nasa",
+      "entradas": [],
+      "fuentes_publicas": true,
+      "instruccion": "Lee únicamente la página pública https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/power/ y escribe en salidas/prueba.md una frase que resuma su explicación de potencia mecánica, junto con el enlace. Si no puedes acceder, informa el error sin inventar el contenido."
+    }
+  ]
+}

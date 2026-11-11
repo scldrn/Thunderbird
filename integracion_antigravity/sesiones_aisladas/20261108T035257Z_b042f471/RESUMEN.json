@@ -1,0 +1,22 @@
+{
+  "inicio_utc": "2026-11-08T03:52:57.097143+00:00",
+  "estado": "completado",
+  "tareas": [
+    "reintento_revisar_uiuc_estatico",
+    "reintento_revisar_uiuc_avance",
+    "reintento_revisar_energia",
+    "reintento_revisar_cg",
+    "reintento_recuperar_jerk",
+    "reintento_revisar_estructura"
+  ],
+  "trabajadores": 6,
+  "workspace_temporal": "/private/tmp/aero_20261108T035257Z_b042f471_ottqcod9",
+  "fin_utc": "2026-11-08T04:01:16.465472+00:00",
+  "recolectadas": 6,
+  "requieren_revision": [
+    "reintento_revisar_uiuc_estatico",
+    "reintento_revisar_estructura",
+    "reintento_revisar_cg",
+    "reintento_revisar_energia"
+  ]
+}

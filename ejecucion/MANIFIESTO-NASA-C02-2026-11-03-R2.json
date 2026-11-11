@@ -1,0 +1,123 @@
+{
+  "created_UTC": "2026-11-03T23:57:39.537789+00:00",
+  "kind": "Continuation checkpoint; parent report/code snapshots retained",
+  "parent_manifest": "ejecucion/MANIFIESTO-NASA-C02-2026-11-03.json",
+  "parent_manifest_sha256": "5c5cf5fe6567a8a4f5fed8d10908d3521a8bd8a5734960afcfdd3a1f60821071",
+  "parent_entries_verified_using_archives": true,
+  "files": 22,
+  "entries": {
+    "ejecucion/G4/RAE2822/INFORME-NASA-SU2-FINA-R2.md": {
+      "bytes": 3409,
+      "sha256": "2425f0c50cb6429c6740c91b6a948ce0b757d41eab7abc27e274ff7b399de643",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/INFORME-NASA-SU2-FINA-R2.md"
+    },
+    "ejecucion/G4/RAE2822/COMPARACION_MALLAS_SU2_r2.json": {
+      "bytes": 4036,
+      "sha256": "1a939ecf02f9f10b298fd7ebbafcf9831c0c44f366be51fd7718bb7c2501dd55",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/COMPARACION_MALLAS_SU2_r2.json"
+    },
+    "ejecucion/G4/RAE2822/CALIFICACION_ACTUAL_SU2.json": {
+      "bytes": 1260,
+      "sha256": "e6c7226e315d07f55d08f1832496a4d536ae89fdfc321b2e7c3205b153116456",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/CALIFICACION_ACTUAL_SU2.json"
+    },
+    "ejecucion/G2/flujo_C02_conducto/ESTADO_ACTUAL.json": {
+      "bytes": 1591,
+      "sha256": "e025bf5b983fa2148847e43930f02afb9ef5fa265aa9ef97c4675658de888b14",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G2/flujo_C02_conducto/ESTADO_ACTUAL.json"
+    },
+    "ejecucion/CONTINUACION-2026-11-03-GRADP-SU2.json": {
+      "bytes": 3539,
+      "sha256": "247ea6dc728d2eab45a0bbbd776eb125f49325cda5cb3af4cafbe4d16473be17",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/CONTINUACION-2026-11-03-GRADP-SU2.json"
+    },
+    "ejecucion/ESTADO-TAREAS.csv": {
+      "bytes": 12565,
+      "sha256": "43d21a9416846773d923638bfcb6a5169be14a32756e49281632ef235bb9be8a",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/ESTADO-TAREAS.csv"
+    },
+    "ESTADO-VERIFICACION-GLOBAL.md": {
+      "bytes": 47657,
+      "sha256": "003bda694b72827e7b001408fabc18737ed39615c8de1bc6a21513ea9c958b3c",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ESTADO-VERIFICACION-GLOBAL.md"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/EJECUCION.json": {
+      "bytes": 1496,
+      "sha256": "c1f4e207c1c737bcdd9b487f08e345254307848e3b757b9735f274307e1b6048",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r2/EJECUCION.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/ENTRADAS.json": {
+      "bytes": 3676,
+      "sha256": "8a701ce49178a82d23c64bd860b7fe947838dd9bba0a7abe9718497b839c3206",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r2/ENTRADAS.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/AUDITORIA_SU2.json": {
+      "bytes": 5959,
+      "sha256": "4dc44d816d68c32a3f71fb47556bf51aa8cbcb166df565df20878f0a9c4c996d",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r2/AUDITORIA_SU2.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/TRACCION_RECONSTRUIDA.json": {
+      "bytes": 5521,
+      "sha256": "f8605f7bf085096f259dde7e85c2558c3d2700ffcd8c65db3e76fd88a7b0c9a6",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r2/TRACCION_RECONSTRUIDA.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/DIAGNOSTICO_RESIDUOS_CP.json": {
+      "bytes": 4159,
+      "sha256": "ac3c262d6b586b9557a4a829eae40a13f0bfac47a6b65f2b8efb9f76a0ecfdcb",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r2/DIAGNOSTICO_RESIDUOS_CP.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/restart_flow.csv": {
+      "bytes": 18704254,
+      "sha256": "d3fdb1dd94ce3cbed7f6c3dac72325f9e35a615c949ad695c9ac6218615531fc"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/flow.vtu": {
+      "bytes": 26336330,
+      "sha256": "31ae327d823b079453e356f25289b6218c868601a68bbf800b5dc5b7a326a176"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/case.cfg": {
+      "bytes": 3964,
+      "sha256": "c8e8564bab1c1834fdc3d6bec986b677f6ccc2d3aac8ce3c855e6a5186e70a5d",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r2/case.cfg"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/history.csv": {
+      "bytes": 889694,
+      "sha256": "69894406426de2d5511ac64a8d93f7825c780402175293d3b54f8a710fa79fa9",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r2/history.csv"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/mesh_RAE2822_turb.su2": {
+      "bytes": 7534452,
+      "sha256": "d6247af7602ecf7eb76067985b948e62bb38cfa869d542c81c925401995c34e9"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r2/Cp_CONTRASTE_PROVISIONAL.csv": {
+      "bytes": 10504,
+      "sha256": "176ad4bcc95b08ddad633154a8db6a012696f798e1eda2fe647aa9031aee65bc",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r2/Cp_CONTRASTE_PROVISIONAL.csv"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/ENTRADAS.json": {
+      "bytes": 3674,
+      "sha256": "2ba51d701c725ac744f290b62aac5de633515f0bff2422718f9554e37b5c83e6",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/ENTRADAS.json"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/case.cfg": {
+      "bytes": 3961,
+      "sha256": "942f68f90d9512f7bde056a433014a923e4940423060febd12b675e05651b675",
+      "archived_copy": "ejecucion/snapshots/NASA-C02-2026-11-03-R2/ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/case.cfg"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/solution_flow.csv": {
+      "bytes": 18704254,
+      "sha256": "d3fdb1dd94ce3cbed7f6c3dac72325f9e35a615c949ad695c9ac6218615531fc"
+    },
+    "ejecucion/G4/RAE2822/su2_nasa_fina_r3_sonda/mesh_RAE2822_turb.su2": {
+      "bytes": 7534452,
+      "sha256": "d6247af7602ecf7eb76067985b948e62bb38cfa869d542c81c925401995c34e9"
+    }
+  },
+  "active_cases": [
+    "neutro_r8_relajacion",
+    "su2_nasa_fina_r3_sonda"
+  ],
+  "source_processes_must_be_rechecked": true,
+  "historical_solvers_resumed": false,
+  "global_goal_complete": false,
+  "physical_product_validated": false
+}

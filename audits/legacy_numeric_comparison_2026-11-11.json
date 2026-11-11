@@ -1,0 +1,136 @@
+{
+  "scope": "isolated historical output comparison; not physical validation",
+  "relative_tolerance": 1e-09,
+  "absolute_tolerance": 1e-10,
+  "files": {
+    "candidato_dinamica_CONDICIONAL.json": {
+      "numeric_compared": 263,
+      "numeric_outside_tolerance": 0,
+      "max_absolute_difference": {
+        "path": "/result/power_peak_upper_W",
+        "old": 19849.33282143845,
+        "new": 19849.332817809158,
+        "difference": 3.629291313700378e-06
+      },
+      "max_relative_difference": {
+        "path": "/model/J/1/2",
+        "old": -9.020562075079397e-17,
+        "new": 5.551115123125783e-17,
+        "difference": 0.0001457167719820518
+      },
+      "added_fields": [],
+      "removed_fields": [],
+      "other_differences": []
+    },
+    "cierre_masa_iterativo_CONDICIONAL.csv": {
+      "numeric_compared": 2098,
+      "numeric_outside_tolerance": 179,
+      "max_absolute_difference": {
+        "path": "/95/power_peak_upper_W",
+        "old": 1288972.9275498178,
+        "new": 1288972.7390812663,
+        "difference": 0.1884685514960438
+      },
+      "max_relative_difference": {
+        "path": "/7/cg_x_m",
+        "old": -2.2524993160372228e-17,
+        "new": 2.0477266529122248e-18,
+        "difference": 2.4572719813284452e-05
+      },
+      "added_fields": [],
+      "removed_fields": [],
+      "other_differences": []
+    },
+    "verificacion_cierre_masa.json": {
+      "numeric_compared": 126,
+      "numeric_outside_tolerance": 0,
+      "max_absolute_difference": {
+        "path": "/checks/15/max_actuator_ratio",
+        "old": 0.9735473940119499,
+        "new": 0.9735473940272126,
+        "difference": 1.5262680008731877e-11
+      },
+      "max_relative_difference": {
+        "path": "/checks/25/max_residual",
+        "old": 5.684341886080802e-14,
+        "new": 1.4210854715202004e-13,
+        "difference": 0.08526512829121202
+      },
+      "added_fields": [],
+      "removed_fields": [],
+      "other_differences": []
+    },
+    "dinamica_6DOF_CONDICIONAL.csv": {
+      "numeric_compared": 132,
+      "numeric_outside_tolerance": 0,
+      "max_absolute_difference": {
+        "path": "/9/max_unclipped_command_ratio",
+        "old": 0.9133801517145633,
+        "new": 0.9133801517316629,
+        "difference": 1.70995440029742e-11
+      },
+      "max_relative_difference": {
+        "path": "/9/max_unclipped_command_ratio",
+        "old": 0.9133801517145633,
+        "new": 0.9133801517316629,
+        "difference": 1.8721168804199923e-11
+      },
+      "added_fields": [
+        "/0/estimated_tau_s",
+        "/1/estimated_tau_s",
+        "/2/estimated_tau_s",
+        "/3/estimated_tau_s",
+        "/4/estimated_tau_s",
+        "/5/estimated_tau_s",
+        "/6/estimated_tau_s",
+        "/7/estimated_tau_s",
+        "/8/estimated_tau_s",
+        "/9/estimated_tau_s",
+        "/10/estimated_tau_s",
+        "/11/estimated_tau_s"
+      ],
+      "removed_fields": [],
+      "other_differences": []
+    },
+    "verificacion_dinamica.json": {
+      "numeric_compared": 12,
+      "numeric_outside_tolerance": 0,
+      "max_absolute_difference": {
+        "path": "/hover_test/max_unclipped_command_ratio",
+        "old": 0.3064270545647,
+        "new": 0.30642705457092484,
+        "difference": 6.224853965619559e-12
+      },
+      "max_relative_difference": {
+        "path": "/hover_test/attitude_max_error_deg",
+        "old": 8.653048703072471e-14,
+        "new": 1.3981625142547222e-13,
+        "difference": 0.05328576439474751
+      },
+      "added_fields": [
+        "/hover_test/estimated_tau_s"
+      ],
+      "removed_fields": [],
+      "other_differences": []
+    },
+    "estructura_preliminar_RESUMEN.json": {
+      "numeric_compared": 63,
+      "numeric_outside_tolerance": 2,
+      "max_absolute_difference": {
+        "path": "/checks/taper_refinement_frequency_rel",
+        "old": 2.9235359922274995e-05,
+        "new": 2.8796248097373578e-05,
+        "difference": 4.39111824901417e-07
+      },
+      "max_relative_difference": {
+        "path": "/checks/prismatic_frequency_rel",
+        "old": 2.447672513561372e-07,
+        "new": 4.6029623679277876e-07,
+        "difference": 0.4682397295671804
+      },
+      "added_fields": [],
+      "removed_fields": [],
+      "other_differences": []
+    }
+  }
+}

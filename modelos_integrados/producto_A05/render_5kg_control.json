@@ -1,0 +1,13 @@
+{
+  "source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_A05/5kg/A05_controles_15deg.step",
+  "source_sha256": "3ef52864df0ecd982608b00e4b7f1ff84a51c1ab040fbd042c89de2677a325b2",
+  "renderer": "Mitsuba3 scalar CPU path tracing from actual STEP",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "requested_samples_per_pixel": 64,
+  "samples_per_pixel": 64,
+  "view": "control",
+  "no_AI_image_generator": true
+}

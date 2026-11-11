@@ -1,0 +1,70 @@
+{
+  "scope": "Two-grid sensitivity with same polygon and conditions; not a grid-independence/GCI or experimental acceptance claim",
+  "coarse_case": "su2_nasa_r3_sonda",
+  "fine_case": "su2_nasa_fina_r1",
+  "cell_counts": [
+    23552,
+    97152
+  ],
+  "physical_conditions_identical": true,
+  "domain_area_m2": [
+    192.07940999050456,
+    192.07940999050305
+  ],
+  "maximum_refined_wall_distance_to_coarse_polygon_m": 1.0042422622646985e-17,
+  "same_polygon_verified": true,
+  "calculated_coefficients": {
+    "last_CL": {
+      "coarse": 0.6787504041,
+      "fine": 0.6787052334,
+      "difference": -4.5170699999985686e-05,
+      "relative_difference_to_coarse": -6.654979463309566e-05
+    },
+    "last_CD": {
+      "coarse": 0.01303965592,
+      "fine": 0.01259130015,
+      "difference": -0.0004483557700000005,
+      "relative_difference_to_coarse": -0.0343840184703279
+    }
+  },
+  "calculated_yPlus_ranges": {
+    "coarse": [
+      0.7498416346193524,
+      3.3081589549442514
+    ],
+    "fine": [
+      0.11742726448135625,
+      0.9762411379693521
+    ]
+  },
+  "Cp_difference_same103positions": {
+    "RMS": 0.010933759531832026,
+    "max_abs": 0.05483579467234806
+  },
+  "momentum_defect_coeff": {
+    "coarse": [
+      0.00016625367588578126,
+      -8.466850806598814e-05
+    ],
+    "fine": [
+      -2.860622073285607e-05,
+      -3.235323213734986e-05
+    ]
+  },
+  "caution": "Fine branch must pass a further full-state probe before treating this difference as settled discretization sensitivity; effective MG levels and initialization differ.",
+  "formal_Richardson_GCI_not_computed": true,
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "source_sha256": {
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/AUDITORIA_SU2.json": "c301380fd75cca44360070117c9d04eecf9d9d56faaef80d64c35ea97460b6ee",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/TRACCION_RECONSTRUIDA.json": "cbfa40003386f52b9b17f49265686d85ddad8d94b218a629ff2895d913939df0",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/ENTRADAS.json": "7e0713d918b0ceb21878b0db569b4bfbe05f0c39aa9ee877afb34c01ca4b4713",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/mesh_RAE2822_turb.su2": "3c0393264283e77a7c0e1a729e57c8c9a60f8c9cc8242f134e3200d1db524575",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_r3_sonda/Cp_CONTRASTE_PROVISIONAL.csv": "a5d67b0ff022d5358820683153af69f9c90fc78b7defda22afbbc2c35724f1eb",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r1/AUDITORIA_SU2.json": "aa0b671c095f595140e4c7188fd527680b23ed0170562b2018793298f8c74578",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r1/TRACCION_RECONSTRUIDA.json": "0b5a664a78eec412ea67fbc2c91155261e6ef41462df15af7200487b04f879af",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r1/ENTRADAS.json": "690e8b9f6289e22bbc4be1caef02066e3a19f58c04beedd209bf4a98f2fde8e7",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r1/mesh_RAE2822_turb.su2": "d6247af7602ecf7eb76067985b948e62bb38cfa869d542c81c925401995c34e9",
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G4/RAE2822/su2_nasa_fina_r1/Cp_CONTRASTE_PROVISIONAL.csv": "0f258d5e2e516df64421ae91576b03dd5547a74f733bb070bc3e68ac81f42640"
+  }
+}

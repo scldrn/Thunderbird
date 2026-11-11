@@ -1,0 +1,18 @@
+{
+  "inicio_utc": "2026-11-08T03:54:19.235668+00:00",
+  "estado": "completado",
+  "tareas": [
+    "corregir_bom_incertidumbre",
+    "corregir_fuente_nasa",
+    "corregir_cfd_inventario",
+    "corregir_ejes_cg"
+  ],
+  "trabajadores": 4,
+  "workspace_temporal": "/private/tmp/aero_20261108T035419Z_55aa97fb_2gsxg2ve",
+  "fin_utc": "2026-11-08T04:01:39.719247+00:00",
+  "recolectadas": 4,
+  "requieren_revision": [
+    "corregir_ejes_cg",
+    "corregir_bom_incertidumbre"
+  ]
+}

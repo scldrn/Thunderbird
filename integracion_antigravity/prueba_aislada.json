@@ -1,0 +1,9 @@
+{
+  "tareas": [
+    {
+      "id": "prueba_escritura",
+      "entradas": ["investigacion-aeronautica/integracion_antigravity/prueba_lectura.json"],
+      "instruccion": "Lee el archivo de entrada copiado. Crea salidas/prueba.py con un assert que compruebe 2+2=4 y que imprima PRUEBA_ESCRITURA_Y_PYTHON_OK; ejecútalo con python3 y entrega además salidas/resultado.txt con una frase que identifique la prueba. No realices ninguna otra operación."
+    }
+  ]
+}

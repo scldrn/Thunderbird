@@ -1,0 +1,25 @@
+{
+  "tarea": "conexion_b",
+  "inicio_utc": "2026-11-08T00:18:46.202212+00:00",
+  "huella_instruccion_sha256": "53dac6d4e54408a01447e894b5a4c5adb4fd5cdc6ed5e2cf2d6e7760ef3106ec",
+  "modo": "plan; herramientas de escritura, comandos, web y MCP denegadas",
+  "codigo_salida": 0,
+  "stderr": "",
+  "respuesta_cli": {
+    "conversation_id": "844a3e40-2004-4a88-b5d3-a33c55049286",
+    "status": "SUCCESS",
+    "response": "PRUEBA_B_OK\n",
+    "duration_seconds": 5.112019,
+    "num_turns": 1,
+    "usage": {
+      "input_tokens": 8597,
+      "output_tokens": 392,
+      "thinking_tokens": 385,
+      "cache_read_tokens": 0,
+      "total_tokens": 8989
+    }
+  },
+  "fin_utc": "2026-11-08T00:18:54.124012+00:00",
+  "duracion_real_s": 7.922,
+  "exito_tecnico": true
+}

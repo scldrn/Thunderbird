@@ -1,0 +1,12 @@
+{
+  "physical_validation_accepted": false,
+  "vehicle_simulation": false,
+  "source_URL": "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/raetaf04.html",
+  "source_sha256": {
+    "flow.vtu": "bbbd3bf4187d9be6529fc8c9ab53294435c8ae50a4cf4dc7e4d87c3c93c99fa8",
+    "history.csv": "03f1b04c30be9570039ab1e6329720d6be0f2a4da944f15fd89887abf8a8490c",
+    "AUDITORIA_SU2.json": "f821c39f88be56a481cb044e0d853de25d0fa26c021803b5e26a3b793d85e726",
+    "Cp_CONTRASTE_PROVISIONAL.csv": "e5a96794b8f25f166508cac3566684b7593089690de3311e3a4f9cf2749cf39c"
+  },
+  "renderer_sha256": "233b4e6ed5f3adb13f10d434157590e59706aa3c6c08ebfc9c3a90cd59221e6d"
+}

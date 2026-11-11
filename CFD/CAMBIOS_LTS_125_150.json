@@ -1,0 +1,44 @@
+{
+  "case": "avance_A_compresible_600kmh_LTS_diag",
+  "counter_kind": "local_pseudo_iterations",
+  "first_field": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/avance_A_compresible_600kmh_LTS_diag/campos_intermedios/125",
+  "second_field": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/avance_A_compresible_600kmh_LTS_diag/campos_intermedios/150",
+  "cells": 326013,
+  "changes": {
+    "U": {
+      "maximum_absolute_change": 32.45560190652608,
+      "cell_arithmetic_rms_change": 0.9869655795033045,
+      "normalizing_scale": 166.66666666666666,
+      "max_normalized_change": 0.19473361143915646
+    },
+    "p": {
+      "maximum_absolute_change": 4198.196339999995,
+      "cell_arithmetic_rms_change": 1086.1233858472954,
+      "normalizing_scale": 17013.88914061511,
+      "max_normalized_change": 0.24675112816964176
+    },
+    "T": {
+      "maximum_absolute_change": 5.025766799999985,
+      "cell_arithmetic_rms_change": 0.8733833626255755,
+      "normalizing_scale": 13.824122254043191,
+      "max_normalized_change": 0.3635505175404595
+    }
+  },
+  "field_sha256": {
+    "U": [
+      "2c662d85e3a1dc768d4025a4004ea4a080119aefa46ae6b48992c6e1f3423dd6",
+      "f15d3784695697f28d406ab6a715ce3319f827cd3b0474a992e6f592c658a285"
+    ],
+    "p": [
+      "0d7be2b3e5ef7635f6b249812545eed068df22f071e52888e3d56ba61aabdba5",
+      "6725d4aa6f1080d4fb76b98ca65ef7be92b2e31103e3cc865b8ac6147b0eb132"
+    ],
+    "T": [
+      "475a31b719194898a35a9d682c28c4a830f729587ec183a35aeba5bae32f455a",
+      "73d170c2f2387653e8efc175afd00f25ad69dd704e1488c6b17d9d5df2b48d99"
+    ]
+  },
+  "physical_drag_accepted": false,
+  "field_change_convergence_proven": false,
+  "note": "Pointwise same-mesh changes. RMS is cell-arithmetic, not volume-weighted. Needs repeated intervals and mesh/domain/scheme sensitivity."
+}

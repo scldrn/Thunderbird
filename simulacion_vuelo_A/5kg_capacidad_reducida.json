@@ -1,0 +1,23 @@
+{
+  "mass_assumed_kg": 5.0,
+  "inertia_assumed_kgm2": [
+    0.035311862035250004,
+    0.458989923025,
+    0.4754624390102499
+  ],
+  "dt_s": 0.005,
+  "capacity_factor": 0.8,
+  "max_speed_ms": 3.274596124753065,
+  "max_acceleration_ms2": 4.899956355270136,
+  "min_altitude_m": 1.9991424290477229,
+  "max_altitude_m": 3.5005287006915564,
+  "final_position_error_m": 0.0005104810685589318,
+  "max_attitude_deg": 7.069945578430292,
+  "max_fan_force_N": 16.359908655344622,
+  "max_force_rate_Ns": 50.00000000000016,
+  "max_force_angle_deg": 34.920309003753296,
+  "solver_unsuccessful_steps": 0,
+  "infeasible_allocation_steps": 0,
+  "final_speed_ms": 0.0003745783282226122,
+  "simulation_scope": "Conditional low-speed rigid-body ideal-vector-thrust model; not validated installed plant"
+}

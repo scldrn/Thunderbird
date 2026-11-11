@@ -1,0 +1,84 @@
+{
+  "status": "muestras_sin_interseccion_no_validado",
+  "chosen_case": {
+    "y_mm": -100,
+    "z_mm": 65,
+    "lift_max_mm": 40,
+    "pin_checks": [
+      {
+        "lift_mm": 0
+      },
+      {
+        "lift_mm": 10
+      },
+      {
+        "lift_mm": 20
+      },
+      {
+        "lift_mm": 30
+      },
+      {
+        "lift_mm": 40
+      }
+    ],
+    "door_checks": [
+      {
+        "lift_mm": 10.0,
+        "angle_deg": 0
+      },
+      {
+        "lift_mm": 20.0,
+        "angle_deg": 0
+      },
+      {
+        "lift_mm": 30.0,
+        "angle_deg": 0
+      },
+      {
+        "lift_mm": 40.0,
+        "angle_deg": 0
+      },
+      {
+        "lift_mm": 40.0,
+        "angle_deg": 22.0
+      },
+      {
+        "lift_mm": 40.0,
+        "angle_deg": 44.0
+      },
+      {
+        "lift_mm": 40.0,
+        "angle_deg": 66.0
+      },
+      {
+        "lift_mm": 40.0,
+        "angle_deg": 88.0
+      },
+      {
+        "lift_mm": 40.0,
+        "angle_deg": 110.0
+      }
+    ],
+    "pin_sampled_ok": true,
+    "door_sampled_ok": true
+  },
+  "target": {
+    "lift_mm": 40.0,
+    "angle_deg": 110.0
+  },
+  "scope": "CAD local del caso examinado; sin apoyos ni actuador",
+  "cerrado": {
+    "fcstd": "C06_cerrado.FCStd",
+    "step": "C06_cerrado.step",
+    "objects": 7,
+    "fcstd_sha256": "c4fcd029dbb3c11fd3d4446d0164a4b553de54af5808b7634fb26b50e4f8813c",
+    "step_sha256": "0678b125910897cba85b107a5a81135065733dfc3edf62b4d8fddf85da7d592f"
+  },
+  "evaluacion": {
+    "fcstd": "C06_evaluacion.FCStd",
+    "step": "C06_evaluacion.step",
+    "objects": 7,
+    "fcstd_sha256": "edfe0c45bf7d1d73e61343a8f6b2dbc8e89dbed9cd01dcbcc6aa00f3797ef0f4",
+    "step_sha256": "5442c65d3fa4a5108eeae4b0375dff05fe8e41e40ca79ce11d2a2620b4e8e359"
+  }
+}

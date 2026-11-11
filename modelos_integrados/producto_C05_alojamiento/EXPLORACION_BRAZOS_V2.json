@@ -1,0 +1,509 @@
+{
+  "scope": "Barras rectas candidatas en posicion cerrada, 1.5 mm radio; puntos de malla de tapa C03; no analisis de recorrido ni integracion mecanica",
+  "arms": [
+    {
+      "x_mm": -177.5,
+      "samples": [
+        {
+          "target_mm": [
+            -174.83262784956798,
+            -119.33166453786227,
+            72.58774894319235
+          ],
+          "length_mm": 9.083034116214387,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 2.2659185303997904
+            },
+            "junta": {
+              "interseccion_mm3": 0.6059635053868049
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.4020430038215848
+            },
+            "camisa": {
+              "interseccion_mm3": 0.03861190712899787
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 4.876873656233783
+        },
+        {
+          "target_mm": [
+            -176.84649656151814,
+            -117.97760632044056,
+            73.17777991597643
+          ],
+          "length_mm": 9.984160180048523,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 2.172399049777838
+            },
+            "junta": {
+              "interseccion_mm3": 0.5930629720839297
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 0.2807261260482319
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 6.673255461804254
+        },
+        {
+          "target_mm": [
+            -177.10557864346094,
+            -113.81090042363759,
+            75.32379461903612
+          ],
+          "length_mm": 14.5679001235847,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.9427482148547943
+            },
+            "junta": {
+              "interseccion_mm3": 0.29425604546867706
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 4.405271429499836
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 16.812516464285114
+        },
+        {
+          "target_mm": [
+            -176.56335639058358,
+            -109.85743946357854,
+            77.39489047596402
+          ],
+          "length_mm": 19.01735421062856,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.4056865900062029
+            },
+            "junta": {
+              "interseccion_mm3": 0.13411223997636207
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 7.120496172543441
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 23.597773144710224
+        },
+        {
+          "target_mm": [
+            -176.29198955331753,
+            -105.72555928929941,
+            79.53795603416006
+          ],
+          "length_mm": 23.658151661879355,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.17213216230962822
+            },
+            "junta": {
+              "interseccion_mm3": 0.06252039329377651
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 8.76964653532436
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 29.12404435925
+        },
+        {
+          "target_mm": [
+            -175.8040006354587,
+            -101.53128331414541,
+            81.72724847164812
+          ],
+          "length_mm": 28.396881391220678,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0593574797590045
+            },
+            "junta": {
+              "interseccion_mm3": 0.02622086483035554
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 9.809555717999196
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 34.09428421085897
+        },
+        {
+          "target_mm": [
+            -175.26028548783052,
+            -97.98038020780288,
+            83.59176393643963
+          ],
+          "length_mm": 32.428030213569656,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.014519954644948777
+            },
+            "junta": {
+              "interseccion_mm3": 0.010132816951318721
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 10.398809688454527
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 38.058921674790035
+        },
+        {
+          "target_mm": [
+            -174.87589419566194,
+            -93.41466114159176,
+            85.97270149782936
+          ],
+          "length_mm": 37.58373918727149,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 3.000333170412551e-05
+            },
+            "junta": {
+              "interseccion_mm3": 0.000841770802016828
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 10.967284079130884
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 42.8704104926979
+        },
+        {
+          "target_mm": [
+            -174.6776728581076,
+            -89.68306365019512,
+            87.91484279289803
+          ],
+          "length_mm": 41.788747954531615,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.0
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 11.323012233434147
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 46.69555440740864
+        }
+      ]
+    },
+    {
+      "x_mm": -145.5,
+      "samples": [
+        {
+          "target_mm": [
+            -147.94000239287143,
+            -120.18366733337007,
+            73.49606261699603
+          ],
+          "length_mm": 9.14007114857367,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 2.023130780327612
+            },
+            "junta": {
+              "interseccion_mm3": 0.5930709853072796
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.08401354430887055
+            },
+            "camisa": {
+              "interseccion_mm3": 0.0
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 5.044034204936018
+        },
+        {
+          "target_mm": [
+            -148.21808950212443,
+            -115.9043039387964,
+            75.71574616411249
+          ],
+          "length_mm": 13.524759563932037,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.00035716455323770975
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 6.46552624011931
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 13.147508649135467
+        },
+        {
+          "target_mm": [
+            -143.99394245082124,
+            -113.93821501989785,
+            76.92374253910715
+          ],
+          "length_mm": 15.548286741583237,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.0
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 8.387415130169803
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 14.40708558650757
+        },
+        {
+          "target_mm": [
+            -146.9449121529216,
+            -109.71344161349745,
+            79.00368370391585
+          ],
+          "length_mm": 20.104871832896396,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.0
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 13.136042102012256
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 17.144124270435114
+        },
+        {
+          "target_mm": [
+            -148.46267620215406,
+            -104.1212855367325,
+            81.85974487743556
+          ],
+          "length_mm": 26.42698869093975,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.0
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 15.444947409556692
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 20.933154324810417
+        },
+        {
+          "target_mm": [
+            -146.40902007893993,
+            -101.75060610381611,
+            83.18825815677258
+          ],
+          "length_mm": 28.967596642497718,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.0
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 16.331421112717443
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 22.40360478807179
+        },
+        {
+          "target_mm": [
+            -143.55667772214645,
+            -97.78125146022722,
+            85.38542556511295
+          ],
+          "length_mm": 33.531898496927745,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.0
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 17.685629316895515
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 25.015498576882706
+        },
+        {
+          "target_mm": [
+            -148.39461895264003,
+            -92.41956218982928,
+            87.99873396792889
+          ],
+          "length_mm": 39.50442612194445,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.0
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 17.023284582992336
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 29.01151822507744
+        },
+        {
+          "target_mm": [
+            -147.1301967556539,
+            -89.54047359983896,
+            90.68957502724948
+          ],
+          "length_mm": 43.30360866511425,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.0
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 16.89164756689784
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 53.59475140925989
+        },
+        {
+          "target_mm": [
+            -146.1028300072565,
+            -85.73033341803162,
+            92.73331574326961
+          ],
+          "length_mm": 47.58308264699392,
+          "pairs": {
+            "aro": {
+              "interseccion_mm3": 0.0
+            },
+            "junta": {
+              "interseccion_mm3": 0.0
+            },
+            "carroceria_recortada": {
+              "interseccion_mm3": 0.0
+            },
+            "camisa": {
+              "interseccion_mm3": 17.32517856953264
+            },
+            "rotor": {
+              "interseccion_mm3": 0.0
+            }
+          },
+          "door_intersection_mm3": 58.56096993987909
+        }
+      ]
+    }
+  ]
+}

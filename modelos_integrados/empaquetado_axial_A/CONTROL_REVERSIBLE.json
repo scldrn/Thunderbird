@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "half_pitch_mm": 65.0,
+      "mode": "cualquier_actitud_0p5g",
+      "capacity_sufficient_in_each_direction_N": 43.71920492849393,
+      "independent_wrench_error_N_or_Nm": 2.102618523736055e-09,
+      "vertices_checked": 1536,
+      "case": "b65_cualquier_actitud_0p5g"
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "mode": "horizontal_5g",
+      "capacity_sufficient_in_each_direction_N": 162.45043772458146,
+      "independent_wrench_error_N_or_Nm": 3.781138957492658e-09,
+      "vertices_checked": 1536,
+      "case": "b65_horizontal_5g"
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "mode": "cualquier_actitud_0p5g",
+      "capacity_sufficient_in_each_direction_N": 42.799922716055924,
+      "independent_wrench_error_N_or_Nm": 1.6512515799149696e-09,
+      "vertices_checked": 1536,
+      "case": "b76_cualquier_actitud_0p5g"
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "mode": "horizontal_5g",
+      "capacity_sufficient_in_each_direction_N": 159.3685763919752,
+      "independent_wrench_error_N_or_Nm": 3.2575826480751857e-09,
+      "vertices_checked": 1536,
+      "case": "b76_horizontal_5g"
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "mode": "cualquier_actitud_0p5g",
+      "capacity_sufficient_in_each_direction_N": 43.26708010205359,
+      "independent_wrench_error_N_or_Nm": 2.775880858507662e-09,
+      "vertices_checked": 1536,
+      "case": "b86_cualquier_actitud_0p5g"
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "mode": "horizontal_5g",
+      "capacity_sufficient_in_each_direction_N": 160.56927480737696,
+      "independent_wrench_error_N_or_Nm": 1.3874142723580007e-08,
+      "vertices_checked": 1536,
+      "case": "b86_horizontal_5g"
+    }
+  ],
+  "installed_performance_validated": false,
+  "scope": "Same ideal effective cones, per-sign CAD row-center lever assumptions and 5 kg/CG=0 assumptions. Required capacities are sufficient conservative bounds; they do not demonstrate these accelerations."
+}

@@ -1,0 +1,19 @@
+{
+  "case": "avance_A_compresible_600kmh_LTS_diag",
+  "counter_kind": "local_pseudo_iterations",
+  "completed_log_blocks": 113,
+  "last_completed_counter": 113.0,
+  "target_counter": 200,
+  "last_clock_s": 211.0,
+  "diagnostics": {
+    "counter": 113.0,
+    "max_U_m_s": 174.7567506,
+    "min_T_K": 282.1537795,
+    "min_p_Pa": 93615.1139
+  },
+  "physical_loads_accepted": false,
+  "live_process_confirmed_by_this_script": false,
+  "positive_finite_latest_diagnostics": true,
+  "Mach_upper_bound_from_same_block_separate_extrema": 0.5189745492087698,
+  "Mach_note": "Bound from separate Umax and Tmin; not measured pointwise Mach or critical Mach."
+}

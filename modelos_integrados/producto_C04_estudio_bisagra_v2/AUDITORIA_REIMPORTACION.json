@@ -1,0 +1,33 @@
+{
+  "scope": "Reapertura y reimportacion; validez de solidos y conteos. No prueba de equivalencia geometrica completa ni de mecanismo.",
+  "states": [
+    {
+      "estado": "cerrado",
+      "native_count": 14,
+      "step_count": 14,
+      "native_invalid": [],
+      "step_invalid": [],
+      "native_total_volume_mm3": 14505.43958189476,
+      "step_total_volume_mm3": 14505.314949109508
+    },
+    {
+      "estado": "elevado",
+      "native_count": 14,
+      "step_count": 14,
+      "native_invalid": [],
+      "step_invalid": [],
+      "native_total_volume_mm3": 14505.439581894758,
+      "step_total_volume_mm3": 14505.314949109506
+    },
+    {
+      "estado": "abierto",
+      "native_count": 14,
+      "step_count": 14,
+      "native_invalid": [],
+      "step_invalid": [],
+      "native_total_volume_mm3": 14505.439581894812,
+      "step_total_volume_mm3": 14505.314949109501
+    }
+  ],
+  "errors": []
+}

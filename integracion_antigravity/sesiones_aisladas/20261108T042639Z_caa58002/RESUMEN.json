@@ -1,0 +1,20 @@
+{
+  "inicio_utc": "2026-11-08T04:26:39.208511+00:00",
+  "estado": "completado",
+  "tareas": [
+    "salvaguarda_asignador",
+    "datos_ml_trazables",
+    "protocolo_banco_modulo",
+    "recuperar_disco_avance"
+  ],
+  "trabajadores": 4,
+  "workspace_temporal": "/private/tmp/aero_20261108T042639Z_caa58002_ue10g9kx",
+  "fin_utc": "2026-11-08T04:30:58.976365+00:00",
+  "recolectadas": 4,
+  "requieren_revision": [
+    "protocolo_banco_modulo",
+    "salvaguarda_asignador",
+    "recuperar_disco_avance",
+    "datos_ml_trazables"
+  ]
+}

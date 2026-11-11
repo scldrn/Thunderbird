@@ -1,0 +1,15 @@
+{
+  "paraview_version": "(6, 2)",
+  "case": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/ejecucion/G0/poiseuille_80_outer50_dt_half",
+  "time_s": 4.0,
+  "cells": 80,
+  "velocity_magnitude_range_m_s": [
+    0.2180529087781906,
+    15.38054084777832
+  ],
+  "reader": "OpenFOAMReader",
+  "read_test": "passed",
+  "screenshot": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/paraview/prueba_cfd.png",
+  "state": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/paraview/benchmark_poiseuille.pvsm",
+  "physical_vehicle_validation": false
+}

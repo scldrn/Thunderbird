@@ -1,0 +1,15 @@
+{
+  "inicio_utc": "2026-11-08T04:10:00.000000+00:00",
+  "estado": "parcial",
+  "tareas": [
+    "uiuc_estatico",
+    "uiuc_avance"
+  ],
+  "trabajadores": 2,
+  "workspace_temporal": "/private/tmp/aero_test_discrepancia",
+  "fin_utc": "2026-11-08T04:12:00.000000+00:00",
+  "recolectadas": 1,
+  "requieren_revision": [
+    "tarea_inexistente"
+  ]
+}

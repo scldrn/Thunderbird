@@ -1,0 +1,935 @@
+{
+  "scope": "radial stems, local C15 assembly, sampled translation and rotation; no functional mechanism",
+  "source_sha256": "2860f583542939c5fc87af4b292f46c19737448f2885dcabfe0931354ded3fee",
+  "code_sha256": "886365c415829720a1f4200cb6d85caddfaedf5faaf6c19d40dc28ffd6efda45",
+  "candidate_phi_deg": [
+    0,
+    45,
+    90,
+    135,
+    180,
+    225,
+    270,
+    315
+  ],
+  "lift_samples_mm": [
+    0,
+    5,
+    10,
+    15,
+    20
+  ],
+  "rotation_samples_deg": [
+    0,
+    15,
+    30,
+    45,
+    60
+  ],
+  "cases": [
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "phi_deg": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 0.12161064363044907
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187300441735,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "phi_deg": 45,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 0.21535998782130567
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851873000452946,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "phi_deg": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 45,
+        "leaf": 0,
+        "volume_mm3": 0.2153604745884222
+      },
+      "error": null,
+      "rotation_checks": 13,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785174394991654,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "phi_deg": 135,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785201970224687,
+      "passes": true
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "phi_deg": 180,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785187297725714,
+      "passes": true
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "phi_deg": 225,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 1.0046784657112557
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187298121532,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "phi_deg": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 30,
+        "leaf": 0,
+        "volume_mm3": 0.022993649567751503
+      },
+      "error": null,
+      "rotation_checks": 9,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187597909028,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "phi_deg": 315,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785201972149296,
+      "passes": true
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "phi_deg": 0,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785187300441735,
+      "passes": true
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "phi_deg": 45,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 0.9884215051467977
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851873000452946,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "phi_deg": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 30,
+        "leaf": 0,
+        "volume_mm3": 0.02140921136874485
+      },
+      "error": null,
+      "rotation_checks": 9,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785174394991654,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "phi_deg": 135,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785201970224687,
+      "passes": true
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "phi_deg": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 0.11486183598131515
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187297725714,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "phi_deg": 225,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 0,
+        "volume_mm3": 0.22696760915242972
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187298121532,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "phi_deg": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 45,
+        "leaf": 0,
+        "volume_mm3": 0.22696543912794254
+      },
+      "error": null,
+      "rotation_checks": 13,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187597909028,
+      "passes": false
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "phi_deg": 315,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785201972149296,
+      "passes": true
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "phi_deg": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 0.12814517122972144
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187299069137,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "phi_deg": 45,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 0.2055940870785462
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187299068382,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "phi_deg": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 45,
+        "leaf": 1,
+        "volume_mm3": 0.20559428948970498
+      },
+      "error": null,
+      "rotation_checks": 13,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851743949934824,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "phi_deg": 135,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785201971180038,
+      "passes": true
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "phi_deg": 180,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37851872990866114,
+      "passes": true
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "phi_deg": 225,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 1.0304231914737492
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187299074418,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "phi_deg": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 30,
+        "leaf": 1,
+        "volume_mm3": 0.02534331744940162
+      },
+      "error": null,
+      "rotation_checks": 9,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187597887529,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "phi_deg": 315,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37852019711724144,
+      "passes": true
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "phi_deg": 0,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785187299069137,
+      "passes": true
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "phi_deg": 45,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 1.0133887691008283
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187299068382,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "phi_deg": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 30,
+        "leaf": 1,
+        "volume_mm3": 0.02361206996285356
+      },
+      "error": null,
+      "rotation_checks": 9,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851743949934824,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "phi_deg": 135,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785201971180038,
+      "passes": true
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "phi_deg": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 0.12103801010365584
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851872990866114,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "phi_deg": 225,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 1,
+        "volume_mm3": 0.2169171410932945
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187299074418,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "phi_deg": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 45,
+        "leaf": 1,
+        "volume_mm3": 0.21691417824310547
+      },
+      "error": null,
+      "rotation_checks": 13,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187597887529,
+      "passes": false
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "phi_deg": 315,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37852019711724144,
+      "passes": true
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "phi_deg": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 2,
+        "volume_mm3": 0.13486189039855664
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187299158289,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "phi_deg": 45,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 2,
+        "volume_mm3": 0.19612681453164313
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187299074394,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "phi_deg": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 45,
+        "leaf": 2,
+        "volume_mm3": 0.19612677666109096
+      },
+      "error": null,
+      "rotation_checks": 13,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785174394900751,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "phi_deg": 135,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37852019710786267,
+      "passes": true
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "phi_deg": 180,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785187299008808,
+      "passes": true
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "phi_deg": 225,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 2,
+        "volume_mm3": 1.0564384051498832
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851872991048,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "phi_deg": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 30,
+        "leaf": 2,
+        "volume_mm3": 0.027823445704241383
+      },
+      "error": null,
+      "rotation_checks": 9,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851875979930905,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "phi_deg": 315,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37852019713079504,
+      "passes": true
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "phi_deg": 0,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785187299158289,
+      "passes": true
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "phi_deg": 45,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 2,
+        "volume_mm3": 1.0386344784884847
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187299074394,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "phi_deg": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 30,
+        "leaf": 2,
+        "volume_mm3": 0.025938116690982754
+      },
+      "error": null,
+      "rotation_checks": 9,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785174394900751,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "phi_deg": 135,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37852019710786267,
+      "passes": true
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "phi_deg": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 2,
+        "volume_mm3": 0.1273866292221981
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187299008808,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "phi_deg": 225,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 2,
+        "volume_mm3": 0.20716478489803655
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851872991048,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "phi_deg": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 45,
+        "leaf": 2,
+        "volume_mm3": 0.20716360496061587
+      },
+      "error": null,
+      "rotation_checks": 13,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851875979930905,
+      "passes": false
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "phi_deg": 315,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37852019713079504,
+      "passes": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "phi_deg": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 3,
+        "volume_mm3": 5.977991378258511
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851872992244084,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "phi_deg": 45,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 30,
+        "leaf": 3,
+        "volume_mm3": 0.38464301938766676
+      },
+      "error": null,
+      "rotation_checks": 9,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851872990690083,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "phi_deg": 90,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785174394837407,
+      "passes": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "phi_deg": 135,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785201970971575,
+      "passes": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "phi_deg": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 3,
+        "volume_mm3": 5.977991601295209
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187298942772,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "phi_deg": 225,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 15,
+        "leaf": 3,
+        "volume_mm3": 0.06476395609107645
+      },
+      "error": null,
+      "rotation_checks": 5,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851872990737934,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "phi_deg": 270,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 3,
+        "volume_mm3": 0.06476425708448827
+      },
+      "error": null,
+      "rotation_checks": 17,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851875980440386,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "phi_deg": 315,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37852019713905954,
+      "passes": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "phi_deg": 0,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 3,
+        "volume_mm3": 6.002446522740658
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851872992244084,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "phi_deg": 45,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 15,
+        "leaf": 3,
+        "volume_mm3": 0.06125523949685852
+      },
+      "error": null,
+      "rotation_checks": 5,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851872990690083,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "phi_deg": 90,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 60,
+        "leaf": 3,
+        "volume_mm3": 0.061255196830044024
+      },
+      "error": null,
+      "rotation_checks": 17,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785174394837407,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "phi_deg": 135,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.3785201970971575,
+      "passes": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "phi_deg": 180,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 0,
+        "leaf": 3,
+        "volume_mm3": 6.00244582497486
+      },
+      "error": null,
+      "rotation_checks": 1,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.3785187298942772,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "phi_deg": 225,
+      "first_collision": {
+        "phase": "rotation",
+        "angle_deg": 30,
+        "leaf": 3,
+        "volume_mm3": 0.39746043987162905
+      },
+      "error": null,
+      "rotation_checks": 9,
+      "lift_checks": 0,
+      "bearing_overlap_mm3": 0.37851872990737934,
+      "passes": false
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "phi_deg": 270,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37851875980440386,
+      "passes": true
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "phi_deg": 315,
+      "first_collision": null,
+      "error": null,
+      "rotation_checks": 20,
+      "lift_checks": 25,
+      "bearing_overlap_mm3": 0.37852019713905954,
+      "passes": true
+    }
+  ]
+}

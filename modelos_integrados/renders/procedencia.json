@@ -1,0 +1,17 @@
+{
+  "renderer": "Mitsuba 3.9.1 scalar_rgb CPU",
+  "resolution_px": [
+    2200,
+    1400
+  ],
+  "samples_per_pixel": 256,
+  "original_STEP_modified": false,
+  "display_only_additions": [
+    "palas esquem\u00e1ticas",
+    "ejes y bujes cil\u00edndricos ilustrativos"
+  ],
+  "source_STEP_sha256": {
+    "investigacion-aeronautica/modelos_integrados/salida/5kg/integracion_desplegada.step": "4c30b405ac89c40ce43e537b78a4c73455a2f38a23f7028d441e3a4c3c57f219",
+    "investigacion-aeronautica/modelos_integrados/salida/10kg/integracion_desplegada.step": "ffa5b5cd6000a258a8c7f595efdc8d6d2f731ad02d39e4370640cf8579a13c01"
+  }
+}

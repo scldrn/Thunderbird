@@ -1,0 +1,28 @@
+{
+  "title": "A review of recent information relating to the drag rise of airplanes",
+  "author": "J. W. Wetmore",
+  "collection": "NACA Conference on Aerodynamic Problems of Transonic Airplane Design (1947)",
+  "ntrs_id": "19790079920",
+  "url": "https://ntrs.nasa.gov/api/citations/19790079920/downloads/19790079920.pdf",
+  "parent_record": "https://ntrs.nasa.gov/citations/19790079919",
+  "sha256": "f2deb0be191fd3753a3e3f992f632d21b493513d702b4bfd7627ead9c398d444",
+  "pages": 18,
+  "reviewed_pdf_pages": [
+    5,
+    6,
+    10,
+    11,
+    16,
+    17
+  ],
+  "figures_visually_inspected": [
+    9,
+    10,
+    11,
+    12
+  ],
+  "fig9_method": "free-fall tests, includes stabilizing tails",
+  "fig11_method": "wing-flow surface pressures on body of fineness ratio 6; comparison with similar free-fall model",
+  "no_curve_digitization": true,
+  "no_current_vehicle_validation": true
+}

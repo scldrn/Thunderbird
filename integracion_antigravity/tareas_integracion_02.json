@@ -1,0 +1,50 @@
+{
+  "descripcion": "Paquetes de física condicional y auditorías adicionales",
+  "tareas": [
+    {
+      "id": "entregable_escalado",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/escalado_2_5_10/salidas/escalado_geometrico.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/escalado_2_5_10/salidas/test_escalado.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/escalado_2_5_10/salidas/INFORME_ESCALADO_2_5_10.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/escalado_2_5_10/salidas/TABLA_ESCALADO_D82.csv",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json",
+        "investigacion-aeronautica/ejecucion/G1/REFERENCIA_DISCO.csv"
+      ],
+      "instruccion": "Prepara un paquete reproducible autocontenido del escalado matemático adjunto, evitando rutas temporales: conserva las entradas necesarias en salidas/datos/ y usa rutas relativas a __file__. Verifica independientemente que para masa 2,5,10 kg y referencia de 82mm a 5kg, cuatro discos ideales abiertos, rho 1.225, el hover es aproximadamente 518, 1509 y 3388 W; prueba ecuaciones y escalado, genera tablas y README. Aclara que no es la potencia eléctrica instalada ni diseño aceptado de ninguna escala, y que D84 es otra hipótesis de referencia. No declares regla universal de límite para ventiladores entubados."
+    },
+    {
+      "id": "entregable_fuerza_inversa",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/reversibilidad_necesaria/salidas/verificar_condiciones.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/reversibilidad_necesaria/salidas/INFORME_REVERSIBILIDAD_DESCENDENTE.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/reversibilidad_necesaria/salidas/tabla_fuerza_descendente.csv",
+        "investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME-VERTICAL.md"
+      ],
+      "instruccion": "Prepara paquete corto, reproducible y probado sobre condición de fuerza descendente a actitud fija para aceleración descendente neta n*g, bajo gravedad y sin otras fuerzas. Verifica algebraicamente Frev_total >= max(0,m*g*(n-1)); si se reparte por igual entre cuatro módulos, por módulo es un cuarto. Incluye 2/5/10 kg y n=1.2,2,5; para 5kg y 2g debe ser 12.258 N por módulo. Distingue que con actitud variable u otras fuerzas la conclusión cambia, que fuerza necesaria no garantiza control dinámico ni diseño real. README y tests independientes, sin rutas temporales."
+    },
+    {
+      "id": "revision_reserva_control",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/margen_control_estatico/salidas/calcular_sensibilidad_reserva.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/margen_control_estatico/salidas/test_sensibilidad.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/margen_control_estatico/salidas/INFORME_SENSIBILIDAD_RESERVA.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T035114Z_cbb84ad9/margen_control_estatico/salidas/sensibilidad_reserva_control.csv",
+        "investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME.md",
+        "investigacion-aeronautica/ejecucion/G6/autoridad_C02/INFORME-VERTICAL.md"
+      ],
+      "instruccion": "Revisa independientemente los límites del análisis de reserva de fuerza estática. Verifica primero equilibrio vertical con sumas de momentos y geometría documentada; revisa críticamente cualquier columna de aceleración horizontal o márgenes de momento y rechaza lo no sustentado. Comprueba aritméticamente un caso: masa 5kg, xcg=.096m, xfan=±.16m, Fmax=20.58N, reserva 10%; fuerza necesaria por módulo de par posterior es 19.6133N, mayor que límite 18.522N, así que no hay equilibrio vertical en ese modelo. Escribe informe de auditoría y reproduce las pruebas en espacio de salidas, sin promover cifras no comprobadas."
+    },
+    {
+      "id": "auditoria_geometria_a07",
+      "entradas": [
+        "investigacion-aeronautica/modelos_integrados/DECISION-ARQUITECTURA.md",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json",
+        "investigacion-aeronautica/plan_maestro/PLAN-MAESTRO.md",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/LEEME.md",
+        "investigacion-aeronautica/modelos_integrados/producto_A07/crear_A07.py"
+      ],
+      "instruccion": "Audita por lectura la relación entre CAD conceptual A07 y candidata C02: qué geometrías/dimensiones aparecen realmente, qué es diferente o desconocido, pasos verificables para obtener áreas transversales del CAD y preparar un análisis aerodinámico futuro. Cita archivos/líneas concretos y no ejecutes ni reanudes solver CFD. No transfieras simetría circular del huso inicial al producto facetado actual. Entrega hoja de ruta específica y advertencias sin inventar geometría o capacidad."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "descripcion": "Corrección de texto no sustentado en código UIUC",
+  "tareas": [
+    {
+      "id": "corregir_codigo_uiuc_avance",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/test_procesar_uiuc_prop.py",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/uiuc_mi_3.2x2.2_20051_procesado.csv",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/datos/mi_3.2x2.2_geom.txt",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T040057Z_075131ca/entregable_uiuc_avance/salidas/datos/mi_3.2x2.2_0544rd_20051.txt"
+      ],
+      "instruccion": "Copia el paquete a salidas/ manteniendo estructura datos/ y corrige ÚNICAMENTE cadenas explicativas o docstrings sin fundamento: en procesar_uiuc_prop.py alrededor de líneas 341 y 500 hay afirmaciones sobre rotura aeroelástica y error típico de sensores ±1 a ±3% que no están respaldadas por las fuentes adjuntas; en test_procesar_uiuc_prop.py línea ~131 aparece la misma incertidumbre. Elimina esas afirmaciones, indica solo que la incertidumbre experimental específica no está establecida y que extrapolar fuera de datos es injustificado. No cambies fórmulas, límites numéricos ni test numéricos. Ejecuta los 11 tests, reconstruye CSV y comprueba que coincide byte a byte con la entrada. Entrega registro y una descripción breve de cambios. No invoques red ni git."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "descripcion": "Cuatro verificaciones cruzadas de posibles afirmaciones erróneas en revisiones previas.",
+  "tareas": [
+    {
+      "id": "corregir_bom_incertidumbre",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_bom/salidas/REVISION.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_bom/salidas/INFORME_AUDITORIA_BOM.md",
+        "investigacion-aeronautica/ejecucion/G3/C02/integracion_x160/BOM_GEOMETRICA_PARCIAL.csv",
+        "investigacion-aeronautica/ejecucion/G3/C02/integracion_x160/MASA_INERCIA_PARCIAL.json"
+      ],
+      "instruccion": "Revisa críticamente la auditoría BOM y su revisión. Ambas atribuyen masa física no nula a todos los 54 registros sin masa; determina si las fuentes realmente permiten afirmarlo y prepara una nota corregida en salidas/DICTAMEN.md con recuentos verificables y qué sigue desconocido. No ejecutes git ni elimines archivos."
+    },
+    {
+      "id": "corregir_fuente_nasa",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_respuesta/salidas/REVISION.md",
+        "investigacion-aeronautica/fuentes/uiuc_propdb/NOTA-NASA-EDF.md"
+      ],
+      "instruccion": "Compara la identificación del ventilador y motor NASA en la revisión de respuesta con la nota NASA suministrada. Señala cualquier discrepancia de marca, motor, unidad, ensayo o evidencia; produce salidas/DICTAMEN.md, indicando que la nota deriva del artículo NTRS pero no has leído el PDF completo. No inventes detalles ni modifiques entradas."
+    },
+    {
+      "id": "corregir_cfd_inventario",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/recuperar_cfd/salidas/CORRECCIONES.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_cfd/salidas/matriz_verificacion_detallada.csv",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/auditoria_cfd/salidas/matriz_verificacion_cfd.csv",
+        "investigacion-aeronautica/ejecucion/G2/flujo_C02_conducto/INFORME-FINA-800.md"
+      ],
+      "instruccion": "La revisión CFD previa afirmó que no existía matriz_verificacion_detallada.csv, pero en este encargo se adjunta una copia. Comprueba esa afirmación contra las entradas y evalúa si la revisión tenía suficiente información para afirmarla. Genera salidas/DICTAMEN.md con corrección y límites, sin lanzar CFD."
+    },
+    {
+      "id": "corregir_ejes_cg",
+      "entradas": [
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/cg_bidimensional/salidas/INFORME_EQUILIBRIO_CG.md",
+        "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T034228Z_e90078d2/revisar_cg/salidas/REVISION.md",
+        "investigacion-aeronautica/configuraciones/C02_CANDIDATA.json"
+      ],
+      "instruccion": "Contrasta la descripción de signos CAD y FLU del informe de CG con la matriz R_flight_from_CAD de la configuración. Identifica si CAD +x apunta a nariz/cola y CAD +y corresponde a derecha/izquierda cuando FLU +x es adelante y +y izquierda. Produce salidas/DICTAMEN.md y distingue error de documentación de posible efecto en magnitudes del modelo simétrico."
+    }
+  ]
+}

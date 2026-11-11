@@ -1,0 +1,47 @@
+{
+  "sha256": "5e6d951919ad7420f8cb22c4711c16e867f3ce5168b259d4c76ca9d656b35791",
+  "selected": [
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "phi_deg": 135
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "phi_deg": 0
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "phi_deg": 135
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "phi_deg": 0
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "phi_deg": 135
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "phi_deg": 0
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "phi_deg": 90
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "phi_deg": 135
+    }
+  ],
+  "object_count": 29,
+  "scope": "local closed pose, 8 sampled-pass radial stems, no structure, guides or actuator"
+}

@@ -1,0 +1,166 @@
+{
+  "scope": "Native benchmark field and force audit with provisional Cp comparison; not accepted physical validation",
+  "last_inner_iteration_index": 999,
+  "source_solver_convergence_message": false,
+  "convergence_message_does_not_cover_all_equations": true,
+  "actual_model": "SST-2003m; IDEAL_GAS/Sutherland/constantPr0.72/0.9",
+  "reconstructed_reference": {
+    "p_Pa": 108987.77275058624,
+    "rho_kg_m3": 1.4856980645128517,
+    "T_K": 255.55555555555554,
+    "U_m_s": 233.62276311273394,
+    "q_Pa": 40544.399656841015
+  },
+  "rho_range_kg_m3": [
+    0.7981185990856173,
+    1.911066693855666
+  ],
+  "pressure_range_Pa": [
+    63288.06420013243,
+    155006.3187208565
+  ],
+  "temperature_range_K": [
+    218.3768775736796,
+    282.6568371441837
+  ],
+  "maximum_local_Mach": 1.2136562620591893,
+  "CSV_VTU_coordinate_mapping_verified": true,
+  "retained_vs_recomputed_thermodynamics": {
+    "pressure_max_abs_Pa": 3.2376148737967014e-05,
+    "pressure_max_relative": 2.787375577555058e-10,
+    "temperature_max_abs_K": 7.395630063911085e-08
+  },
+  "exact_thermodynamic_identity_not_asserted_due_segregated_update": true,
+  "Cp_reference_reconstruction_verified": true,
+  "pressure_and_tangential_shear_polygon_integrals_evaluated": true,
+  "complete_solver_force_identity_verified": false,
+  "incomplete_reconstruction_minus_solver_coeff_force": [
+    -1.0057813530708892e-06,
+    9.718039954975666e-07
+  ],
+  "incomplete_reconstruction_limit": "SurfaceCf is tangential only; full normal viscous stress and solver dual-area weights remain to reconstruct.",
+  "force_coeff_pressure": [
+    -0.020395420790646535,
+    0.6785152223800195
+  ],
+  "force_coeff_viscous": [
+    0.006065635749293464,
+    0.00021016312397601023
+  ],
+  "last_CL": 0.6787504041,
+  "last_CD": 0.01303965592,
+  "last20_log10_residual_max": {
+    "rms[Rho]": -10.90807843,
+    "rms[RhoU]": -7.851725572,
+    "rms[RhoV]": -8.531403139,
+    "rms[RhoE]": -5.453529805,
+    "rms[k]": -4.730130319,
+    "rms[w]": -2.498701445
+  },
+  "adjacent20_force_coefficient_drift": {
+    "CD": 3.59999998561511e-11,
+    "CL": 1.5250000151567633e-09
+  },
+  "Cp_points": 103,
+  "Cp_RMS_error_provisional": 0.1221011428345661,
+  "Cp_max_abs_error_provisional": 0.9918670155494664,
+  "wall_reported_yPlus_range": [
+    0.7498416346193524,
+    3.3081589549442514
+  ],
+  "reference_field_changes": {
+    "Density": {
+      "max_abs": 1.6156606370554272e-06,
+      "arithmetic_RMS": 8.645560259493315e-08,
+      "relative_Linf_to_reference_Linf": 8.454234750339388e-07,
+      "relative_L2": 6.028269613886915e-08,
+      "max_change_node_ID": 11036,
+      "max_change_xy": [
+        0.15568803,
+        0.03538996224
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": 1.100387370465272,
+      "current_value_at_max_change": 1.100385754804635
+    },
+    "Momentum_x": {
+      "max_abs": 0.0012163222339154345,
+      "arithmetic_RMS": 6.658703560741208e-05,
+      "relative_Linf_to_reference_Linf": 3.258879914336017e-06,
+      "relative_L2": 2.2140659427434256e-07,
+      "max_change_node_ID": 20538,
+      "max_change_xy": [
+        0.3257266536,
+        0.0004115248056
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": 162.655726836568,
+      "current_value_at_max_change": 162.6569431588019
+    },
+    "Momentum_y": {
+      "max_abs": 0.0006325781293980981,
+      "arithmetic_RMS": 2.067706494961533e-05,
+      "relative_Linf_to_reference_Linf": 2.052970474354467e-06,
+      "relative_L2": 5.591168931580885e-07,
+      "max_change_node_ID": 4777,
+      "max_change_xy": [
+        0.0010372240368000001,
+        0.0023276780472
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": 120.9649992297936,
+      "current_value_at_max_change": 120.9643666516642
+    },
+    "Energy": {
+      "max_abs": 0.3083979837829247,
+      "arithmetic_RMS": 0.017692006478805884,
+      "relative_Linf_to_reference_Linf": 7.956195778311385e-07,
+      "relative_L2": 5.8987120887996085e-08,
+      "max_change_node_ID": 11036,
+      "max_change_xy": [
+        0.15568803,
+        0.03538996224
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": 240659.7265315402,
+      "current_value_at_max_change": 240659.4181335564
+    },
+    "Turb_Kin_Energy": {
+      "max_abs": 0.15135288455451246,
+      "arithmetic_RMS": 0.007500069547178379,
+      "relative_Linf_to_reference_Linf": 0.00019887037617278194,
+      "relative_L2": 4.566164141860755e-05,
+      "max_change_node_ID": 20320,
+      "max_change_xy": [
+        0.31965077040000006,
+        -0.0029402065656
+      ],
+      "max_change_is_airfoil_node": false,
+      "reference_value_at_max_change": 128.95291643264,
+      "current_value_at_max_change": 129.1042693171945
+    },
+    "Omega": {
+      "max_abs": 2361.878969192505,
+      "arithmetic_RMS": 24.80851979959374,
+      "relative_Linf_to_reference_Linf": 1.262851781429729e-06,
+      "relative_L2": 1.719997965241204e-07,
+      "max_change_node_ID": 10995,
+      "max_change_xy": [
+        0.15519440639999998,
+        0.018856537344
+      ],
+      "max_change_is_airfoil_node": true,
+      "reference_value_at_max_change": 1699995224.03222,
+      "current_value_at_max_change": 1699997585.911189
+    }
+  },
+  "remaining": "Verify full-state convergence including turbulence, mesh/wall resolution and NASA geometry/conditions alignment; compare sensitivities before validation.",
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "source_sha256": {
+    "restart_flow.csv": "545eb20dea895353175ff10b698b093a0f8f34962e614197c85b0a8eb7417e8f",
+    "flow.vtu": "f74e10d48c6e2a726e27ac2500bc6799e4c3d766ccc96134f4344225bb45c202",
+    "history.csv": "1dcdfeeb3b1b6cb16728acfa4675266ef076eb9f819869d5b77a9e0542b19393",
+    "case.cfg": "31ebadea97cce6a04a9f314da5f5dee272b19acb1b6829db7bc8181a5c1ccbdc"
+  }
+}

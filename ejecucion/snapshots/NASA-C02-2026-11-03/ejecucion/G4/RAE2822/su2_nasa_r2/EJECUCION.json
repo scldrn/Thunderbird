@@ -1,0 +1,26 @@
+{
+  "stage": "solver_exited",
+  "binary": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/build-native-r2/SU2_CFD/src/SU2_CFD",
+  "binary_sha256": "a12399dbec97a0cb6b86153bf978c74c2b2de66b43f4e4435c53cce7a8abe05f",
+  "iteration_limit": 4000,
+  "wall_time_limit_s": 900,
+  "counter_is_physical_time": false,
+  "physical_validation_accepted": false,
+  "started_UTC": "2026-11-03T23:21:23.130165+00:00",
+  "historical_solvers_resumed": false,
+  "native_pid": 37242,
+  "exit_code": 0,
+  "elapsed_wall_s": 376.35124312498374,
+  "finished_UTC": "2026-11-03T23:27:39.479268+00:00",
+  "output_sha256": {
+    "restart_flow.csv": "d936b7d1b5735c012f84dd282b73acd0ea49386871914530fd3a6b1f3b66baed",
+    "surface_flow.csv": "baf874b04a1e437c64ecb9c9cea6d9ffa43db19495990ac3b64bb1b373fc7ad9",
+    "case.cfg": "cc7db224e2ce692cd800a4c560e99560e21157c32bcb1970ffe9f6784ce2c512",
+    "history.csv": "92f023e86967ca097ef2b671f0ce3767dc99245dc6c3fbf9c4775c1c36e29818",
+    "ORIGINAL_turb_SST_RAE2822.cfg": "68a8dcdd171b3ae1cfc38d7a946bd682164d099169eee25ff576c2f1503b3da7",
+    "flow.vtu": "0f3c9ecaee251f173c26000084a98730065f319a6f87f97b50dfa4b95ac0bd97",
+    "log.SU2_CFD": "00eb4991ea5e9298c239284c87a7e3cb1c78b5db14dda4cfe621eea7e2e8bf24",
+    "solution_flow.csv": "09892507e9ab47059a0935d4dc32203f4ed9001b82c179567b3f2acc55c179fb",
+    "mesh_RAE2822_turb.su2": "3c0393264283e77a7c0e1a729e57c8c9a60f8c9cc8242f134e3200d1db524575"
+  }
+}

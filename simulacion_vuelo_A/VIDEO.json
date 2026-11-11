@@ -1,0 +1,10 @@
+{
+  "frames": 360,
+  "fps": 15,
+  "duration_seconds": 24.0,
+  "physical_duration_seconds": 24,
+  "geometry_source": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/producto_A07/5kg/A07_abierto.step",
+  "geometry_display": "Actual selected exterior STEP tessellation; covers omitted; no deployment animation or CFD",
+  "state_source": "5kg_nominal.npz",
+  "playback_rate": 1
+}

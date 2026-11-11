@@ -1,0 +1,25 @@
+{
+  "scope": "Input-data convention check, not own-solver validation",
+  "raw_experimental_second_column": "minus_Cp_plot_ordinate",
+  "physical_Cp_multiplier": -1,
+  "experimental_trace": "upper_TE_to_LE_then_lower_LE_to_TE",
+  "published_WIND_trace": "lower_TE_to_LE_then_upper_LE_to_TE",
+  "sign_evidence": "NASA cfpost.cp.com explicitly uses variables x; Cp scale -1",
+  "branch_evidence": "NASA documented grid index order plus independent interpolation against published cp.wind.gen",
+  "published_WIND_vs_experiment_raw_ordinate_RMS": {
+    "experimental_first_upper": 0.10682682210129264,
+    "experimental_first_lower": 1.0352615691436924
+  },
+  "original_raw_files_unchanged": true,
+  "own_CFD_used_to_choose_convention": false,
+  "source_URLs": [
+    "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/cfpost.cp.com",
+    "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/cp.exp.gen",
+    "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/cp.wind.gen"
+  ],
+  "source_sha256": {
+    "cfpost.cp.com": "c3428fe0bf128fd75f3ad715dc53ceafc0d27ddd2093d9278daaacc1eeee01a0",
+    "cp.exp.gen": "739bbec6bd8775240bcf571fc8356701cab4c773c4e3d3b21deea5a3f627f001",
+    "cp.wind.gen": "eb4371990d743e1fd66c97efde5f66d78109d72a771d23b967a2712d84f02d6c"
+  }
+}

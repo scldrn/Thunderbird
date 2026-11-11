@@ -1,0 +1,59 @@
+{
+  "angles_mechanical_deg": [
+    35,
+    -35
+  ],
+  "domain_radius_m": 0.336,
+  "lip_z_m": -0.065,
+  "top_z_m": 0.08,
+  "bottom_z_m": -0.569,
+  "bore_radius_m": 0.042,
+  "sleeve_outer_radius_m": 0.046,
+  "cells": 1263510,
+  "volume_m3": 0.23001404268700662,
+  "patches": {
+    "inlet": {
+      "surface_count": 1,
+      "area_m2": 0.005541769440932395
+    },
+    "farfield": {
+      "surface_count": 3,
+      "area_m2": 2.07283539920916
+    },
+    "walls": {
+      "surface_count": 3,
+      "area_m2": 0.08127928513367515
+    },
+    "vaneX0": {
+      "surface_count": 6,
+      "area_m2": 0.0018272378549816879
+    },
+    "vaneX1": {
+      "surface_count": 6,
+      "area_m2": 0.002720926129154776
+    },
+    "vaneX2": {
+      "surface_count": 6,
+      "area_m2": 0.0018272378549816879
+    },
+    "vaneY0": {
+      "surface_count": 6,
+      "area_m2": 0.0018272378549816885
+    },
+    "vaneY1": {
+      "surface_count": 6,
+      "area_m2": 0.0027209261291547774
+    },
+    "vaneY2": {
+      "surface_count": 6,
+      "area_m2": 0.0018272378549816885
+    }
+  },
+  "status": "Mesh only, no computed flow or accepted loads",
+  "limitations": [
+    "old channel geometry, not full selected CAD",
+    "no rotor/motor/shafts or body",
+    "no prism layers or demonstrated wall resolution",
+    "domain extent and mesh sensitivity unverified"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version_esquema": "1.0.0",
+  "id_contrato": "SINTETICO_RESERVA_NO_ASIGNADA_003",
+  "fecha": "2026-11-08",
+  "descripcion": "Reserva volumétrica interna sin asignación de masa ni inercia. Demuestra la preservación estricta de null (nunca sustituir null por cero).",
+  "unidades_canonicas": {
+    "masa": "kg",
+    "longitud": "m",
+    "inercia": "kg m^2",
+    "angulo": "rad"
+  },
+  "masa": {
+    "valor_kg": null,
+    "unidad": "kg",
+    "trazabilidad": {
+      "naturaleza": "no_asignado",
+      "fuente": "reserva_bahia_payload_sintetica_r0",
+      "metodo": null,
+      "fecha": "2026-11-08",
+      "incertidumbre": null,
+      "notas": "Reserva de carga útil sin componente seleccionado. No debe inferirse masa nula (0 kg) ni masa no nula; el valor es desconocido/no asignado."
+    }
+  },
+  "posicion_cg": {
+    "valor_m": null,
+    "unidad": "m",
+    "marco_referencia": "CAD",
+    "origen_referencia": "CAD_DATUM",
+    "trazabilidad": {
+      "naturaleza": "no_asignado",
+      "fuente": "reserva_bahia_payload_sintetica_r0",
+      "metodo": null,
+      "fecha": "2026-11-08",
+      "incertidumbre": null,
+      "notas": "Posición no asignada: no inferir [0,0,0]."
+    }
+  },
+  "tensor_inercia_cg": {
+    "valor_kg_m2": null,
+    "unidad": "kg m^2",
+    "marco_referencia": "CAD",
+    "respecto_al_cg": true,
+    "trazabilidad": {
+      "naturaleza": "no_asignado",
+      "fuente": "reserva_bahia_payload_sintetica_r0",
+      "metodo": null,
+      "fecha": "2026-11-08",
+      "incertidumbre": null,
+      "notas": "Tensor de inercia no asignado: no inferir matriz nula."
+    }
+  },
+  "notas_adicionales": "Ilustra el cumplimiento estricto del contrato: la ausencia de asignación se conserva como null y no se contamina con ceros artificiales."
+}

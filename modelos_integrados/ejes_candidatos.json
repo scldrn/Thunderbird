@@ -1,0 +1,101 @@
+{
+  "best": {
+    "seed": 29,
+    "angles_rad": [
+      1.0431733878764604,
+      2.334280683489393
+    ],
+    "score": 0.7042307244522606,
+    "converged": true,
+    "evaluations": 755,
+    "results": [
+      {
+        "target_mass_kg": 5,
+        "required_T_N": 37.88683826417052,
+        "required_T_per_weight": 0.7026603958026437,
+        "condition": 21.96601311482986
+      },
+      {
+        "target_mass_kg": 10,
+        "required_T_N": 73.79366499414883,
+        "required_T_per_weight": 0.7042307244522606,
+        "condition": 21.96494753142668
+      }
+    ]
+  },
+  "runs": [
+    {
+      "seed": 17,
+      "angles_rad": [
+        2.247465795833533,
+        -0.6875108647086886
+      ],
+      "score": 0.7139088915642068,
+      "converged": true,
+      "evaluations": 692,
+      "results": [
+        {
+          "target_mass_kg": 5,
+          "required_T_N": 38.20052388583912,
+          "required_T_per_weight": 0.7084781011899972,
+          "condition": 20.240996359603045
+        },
+        {
+          "target_mass_kg": 10,
+          "required_T_N": 74.80780339626388,
+          "required_T_per_weight": 0.7139088915642068,
+          "condition": 20.24001096983891
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "angles_rad": [
+        1.0431733878764604,
+        2.334280683489393
+      ],
+      "score": 0.7042307244522606,
+      "converged": true,
+      "evaluations": 755,
+      "results": [
+        {
+          "target_mass_kg": 5,
+          "required_T_N": 37.88683826417052,
+          "required_T_per_weight": 0.7026603958026437,
+          "condition": 21.96601311482986
+        },
+        {
+          "target_mass_kg": 10,
+          "required_T_N": 73.79366499414883,
+          "required_T_per_weight": 0.7042307244522606,
+          "condition": 21.96494753142668
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "angles_rad": [
+        1.043156482512937,
+        2.334320437746249
+      ],
+      "score": 0.704230759979764,
+      "converged": true,
+      "evaluations": 868,
+      "results": [
+        {
+          "target_mass_kg": 5,
+          "required_T_N": 37.886841408628655,
+          "required_T_per_weight": 0.702660454120685,
+          "condition": 21.973063270469144
+        },
+        {
+          "target_mass_kg": 10,
+          "required_T_N": 73.79366871694107,
+          "required_T_per_weight": 0.704230759979764,
+          "condition": 21.97199732165951
+        }
+      ]
+    }
+  ],
+  "scope": "Two-angle symmetric family, positions and provisional inertia frozen. No collision constraint in search; CAD check required."
+}

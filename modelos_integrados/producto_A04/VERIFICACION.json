@@ -1,0 +1,41 @@
+{
+  "source_layout_sha256": "d96d94fd5a9b9f177279da3a70c052faedcbdf02f6ccb3e5fbad0b4b62699fd1",
+  "checks": [
+    {
+      "check": "inner_volume_outside_outer_mm3",
+      "value": 0.0
+    },
+    {
+      "check": "shaft_duct_overlap_mm3",
+      "channel": 0,
+      "value": 0.0
+    },
+    {
+      "check": "shaft_duct_overlap_mm3",
+      "channel": 1,
+      "value": 0.0
+    },
+    {
+      "check": "shaft_duct_overlap_mm3",
+      "channel": 2,
+      "value": 0.0
+    },
+    {
+      "check": "shaft_duct_overlap_mm3",
+      "channel": 3,
+      "value": 0.0
+    }
+  ],
+  "parts": 188,
+  "shell_method": "Two lofts with 1 mm section-plane insets; not a constant normal-thickness offset or structurally validated laminate.",
+  "layout": "Research proposal: x +/-200, y +/-76 mm, central OD60 mm, 5kg reference",
+  "physical_performance_validated": false,
+  "remaining": [
+    "Cover opening/retraction kinematics",
+    "Rotor/motor and axial propulsion sizing",
+    "Actuator transmission, bearing/seal detail and tolerances",
+    "Full-assembly collision and tolerance audit",
+    "Structural sizing and mass/CG closure",
+    "Converged installed aerodynamics and flutter"
+  ]
+}

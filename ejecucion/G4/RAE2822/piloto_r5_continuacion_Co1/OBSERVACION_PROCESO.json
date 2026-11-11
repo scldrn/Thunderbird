@@ -1,0 +1,36 @@
+{
+  "observed_UTC": "2026-11-03T16:52:02.541831+00:00",
+  "container": "codex-aero-rae2822-r5",
+  "container_id": "a8051650e699a7b0ec4b52406c121b83e07344970de79832c8bc51028aa6a708",
+  "container_status": "exited",
+  "paused": false,
+  "foamRun_process_verified_live": false,
+  "observed_processes": [],
+  "snapshot_does_not_prove_future_liveness": true,
+  "physical_validation_accepted": false,
+  "runner_state_if_available": {
+    "container": "codex-aero-rae2822-r5",
+    "container_id": "a8051650e699a7b0ec4b52406c121b83e07344970de79832c8bc51028aa6a708",
+    "image_id": "sha256:4ea55efc8f3c56c542acc2d525b9477a73d6a55b8f4d41a7587431fb719f92fb",
+    "stage": "solver_exited",
+    "started_UTC": "2026-11-03T16:34:28.827211+00:00",
+    "iteration_target": 600,
+    "counter_is_physical_time": false,
+    "historical_solvers_resumed": false,
+    "physical_validation_accepted": false,
+    "preflight_exit_code": 0,
+    "preflight_models_constructed": true,
+    "exit_code": 0,
+    "elapsed_wall_s": 1046.20271362504,
+    "last_completed_counter": 600.0,
+    "target_reached": true,
+    "copied_output_directories": [
+      "postProcessing",
+      "580",
+      "600"
+    ],
+    "container_oom_killed": false,
+    "container_stopped_after_solver": true,
+    "finished_UTC": "2026-11-03T16:51:58.310370+00:00"
+  }
+}

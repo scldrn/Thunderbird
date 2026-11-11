@@ -1,0 +1,7 @@
+{
+  "scope": "Vertices de la malla derivada del mismo CAD, 316 piezas; verificacion discreta, no prueba de superficie continua",
+  "parts": 316,
+  "vertices": 821443,
+  "max_outside_mm": 0.0,
+  "failures": []
+}

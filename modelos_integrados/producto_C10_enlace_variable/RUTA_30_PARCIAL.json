@@ -1,0 +1,298 @@
+{
+  "scope": "Dos enlaces telescopicos mas cortos elegibles, colisiones completas en 8 poses; sin interfaz con tapa o guia, sin estructura o sellado",
+  "cases": [
+    {
+      "rail_y_mm": -130,
+      "rail_z_mm": 25,
+      "target_mm": [
+        -163.94506632953534,
+        -117.4004034033203,
+        74.18667903241956
+      ],
+      "length_mm": 52.92781928358761,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "pairs": 320,
+          "boolean_count": 6,
+          "collisions": [
+            {
+              "name": "modulo_C02_0_camisa_cuna_y_soportes",
+              "volume_mm3": 48.77708714381168,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "pairs": 320,
+          "boolean_count": 6,
+          "collisions": [
+            {
+              "name": "modulo_C02_0_camisa_cuna_y_soportes",
+              "volume_mm3": 9.922469558491441,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "pairs": 320,
+          "boolean_count": 6,
+          "collisions": [
+            {
+              "name": "aro_C02_0_superior",
+              "volume_mm3": 0.7540918007506547,
+              "distance_mm": 1.4210854715202004e-14
+            },
+            {
+              "name": "junta_C02_0_superior",
+              "volume_mm3": 0.5256343281566243,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "pairs": 320,
+          "boolean_count": 6,
+          "collisions": [
+            {
+              "name": "aro_C02_0_superior",
+              "volume_mm3": 2.585499840679159,
+              "distance_mm": 0.0
+            },
+            {
+              "name": "junta_C02_0_superior",
+              "volume_mm3": 0.6742003922631575,
+              "distance_mm": 0.0
+            },
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 1.681789254753964,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "pairs": 320,
+          "boolean_count": 8,
+          "collisions": [
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 9.138321370956852,
+              "distance_mm": 3.1776437161565096e-14
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "pairs": 320,
+          "boolean_count": 8,
+          "collisions": [
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 10.768924148825676,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "pairs": 320,
+          "boolean_count": 8,
+          "collisions": [
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 16.11793430028208,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -100,
+          "pairs": 320,
+          "boolean_count": 8,
+          "collisions": [
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 23.964873048200825,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        }
+      ]
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -161.67450250763957,
+        -32.74810530676984,
+        105.0506760215159
+      ],
+      "length_mm": 33.07861360876635,
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "pairs": 320,
+          "boolean_count": 4,
+          "collisions": [
+            {
+              "name": "modulo_C02_0_camisa_cuna_y_soportes",
+              "volume_mm3": 17.086705651606835,
+              "distance_mm": 1.4210854715202004e-14
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "pairs": 320,
+          "boolean_count": 4,
+          "collisions": [
+            {
+              "name": "aro_C02_0_superior",
+              "volume_mm3": 0.027924379235621324,
+              "distance_mm": 0.0
+            },
+            {
+              "name": "junta_C02_0_superior",
+              "volume_mm3": 0.2777091371961179,
+              "distance_mm": 0.0
+            },
+            {
+              "name": "modulo_C02_0_camisa_cuna_y_soportes",
+              "volume_mm3": 0.031730728887871006,
+              "distance_mm": 2.842170943040401e-14
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "pairs": 320,
+          "boolean_count": 4,
+          "collisions": [
+            {
+              "name": "aro_C02_0_superior",
+              "volume_mm3": 2.079059388427896,
+              "distance_mm": 0.0
+            },
+            {
+              "name": "junta_C02_0_superior",
+              "volume_mm3": 0.5958382638869125,
+              "distance_mm": 0.0
+            },
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 0.5556295621805216,
+              "distance_mm": 1.464821375527116e-14
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "pairs": 320,
+          "boolean_count": 4,
+          "collisions": [
+            {
+              "name": "aro_C02_0_superior",
+              "volume_mm3": 2.365235840948893,
+              "distance_mm": 0.0
+            },
+            {
+              "name": "junta_C02_0_superior",
+              "volume_mm3": 0.5440892898510659,
+              "distance_mm": 3.552713678800501e-15
+            },
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 2.574122091884486,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "pairs": 320,
+          "boolean_count": 4,
+          "collisions": [
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 7.608207256440151,
+              "distance_mm": 3.552713678800501e-15
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "pairs": 320,
+          "boolean_count": 4,
+          "collisions": [
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 8.921109439953039,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "pairs": 320,
+          "boolean_count": 4,
+          "collisions": [
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 10.636905869027288,
+              "distance_mm": 1.4210854715202004e-14
+            }
+          ],
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -100,
+          "pairs": 320,
+          "boolean_count": 4,
+          "collisions": [
+            {
+              "name": "carroceria_C02_superior004",
+              "volume_mm3": 12.481423182996616,
+              "distance_mm": 0.0
+            }
+          ],
+          "errors": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1323 @@
+{
+  "scope": "Enlace recto telescopico ideal: extremo de guia fijo, extremo tapa traslada. Ocho poses discretas con elevacion de 30 mm; se permite interseccion con camisa-cuna-soportes, no hay articulaciones ni sello.",
+  "allowed": "modulo_C02_0_camisa_cuna_y_soportes",
+  "cases": [
+    {
+      "rail_y_mm": -130,
+      "rail_z_mm": 25,
+      "target_mm": [
+        -163.94506632953534,
+        -117.4004034033203,
+        74.18667903241956
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 52.92781928358761,
+          "contact_mm3": 9.074799987822846,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 62.641374964871545,
+          "contact_mm3": 8.905112436490418,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 72.43514703809839,
+          "contact_mm3": 8.778625337328627,
+          "collision": {
+            "name": "aro_C02_0_superior",
+            "volume_mm3": 0.7540918007506547,
+            "distance_mm": 1.4210854715202004e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -130,
+      "rail_z_mm": 25,
+      "target_mm": [
+        -158.8389661081876,
+        -112.16581567036607,
+        77.17806061230687
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 57.153931316478854,
+          "contact_mm3": 9.377413326970386,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 66.6955744383571,
+          "contact_mm3": 9.18894749604891,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 76.35777406670496,
+          "contact_mm3": 9.043257059196199,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 86.09898796300273,
+          "contact_mm3": 8.9275707576685,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 89.40473718174924,
+          "contact_mm3": 9.029422903032982,
+          "collision": {
+            "name": "aro_C02_0_superior",
+            "volume_mm3": 1.7008386581585753,
+            "distance_mm": 0.0
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -130,
+      "rail_z_mm": 25,
+      "target_mm": [
+        -159.3363678974108,
+        -107.41662075983734,
+        79.6425651757458
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 61.12917515455652,
+          "contact_mm3": 9.607415041886881,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 70.47708126061697,
+          "contact_mm3": 9.406439692827384,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 79.98693455629639,
+          "contact_mm3": 9.247478595749424,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 89.60601158027326,
+          "contact_mm3": 9.118900449527244,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 92.9210188013394,
+          "contact_mm3": 9.201920521738032,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 102.54078801533262,
+          "contact_mm3": 9.502067776526328,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 10.517990865803574,
+            "distance_mm": 0.0
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -161.67450250763957,
+        -32.74810530676984,
+        105.0506760215159
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 33.07861360876635,
+          "contact_mm3": 7.290719697622847,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 42.8276100730047,
+          "contact_mm3": 7.191143329892769,
+          "collision": {
+            "name": "aro_C02_0_superior",
+            "volume_mm3": 0.027924379235621324,
+            "distance_mm": 0.0
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.43050326338852,
+        -38.094122068020845,
+        104.96483538815679
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 34.8803245910329,
+          "contact_mm3": 7.71300567304023,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 44.19493397286952,
+          "contact_mm3": 7.431705149185275,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 53.76590732072562,
+          "contact_mm3": 7.298772609449996,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 63.47361928909904,
+          "contact_mm3": 7.226120818607711,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 69.64267167750337,
+          "contact_mm3": 7.79222228918274,
+          "collision": {
+            "name": "aro_C02_0_superior",
+            "volume_mm3": 2.546492073349133,
+            "distance_mm": 3.552713678800501e-15
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -161.68068181689713,
+        -42.755694145015994,
+        105.04882041862572
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 36.94311054402315,
+          "contact_mm3": 8.19669339913262,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 45.84059058525941,
+          "contact_mm3": 7.722132222206951,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 55.131664675943014,
+          "contact_mm3": 7.491800363694022,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 64.64144155117573,
+          "contact_mm3": 7.363768539632385,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 70.06602890175262,
+          "contact_mm3": 7.843786345720808,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 83.19124571835981,
+          "contact_mm3": 8.91941341965343,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 9.099494105200938,
+            "distance_mm": 2.929642751054232e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -161.87771085350212,
+        -47.83173647162731,
+        105.04199448521243
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 39.78009291953542,
+          "contact_mm3": 8.733224297707013,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 48.13215051038678,
+          "contact_mm3": 0.0,
+          "collision": null,
+          "errors": [],
+          "error": "no se obtuvo contacto volumetrico con tapa"
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -158.71728089519524,
+        -52.708432784855425,
+        105.19264083755694
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 42.999977761462176,
+          "contact_mm3": 9.145698994639842,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 50.834936195223314,
+          "contact_mm3": 8.547780247069717,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 59.34722146662967,
+          "contact_mm3": 8.0858210180348,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 68.27636552115551,
+          "contact_mm3": 7.790761788362891,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 72.3805418525147,
+          "contact_mm3": 8.114381630869707,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 84.2452716951761,
+          "contact_mm3": 8.992799364991862,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 101.12188840499911,
+          "contact_mm3": 9.63803565176099,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 10.807272218678106,
+            "distance_mm": 1.4210854715202004e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -156.3421480317417,
+        -57.54053192791381,
+        105.3030988191625
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 46.61551184528983,
+          "contact_mm3": 9.552117556869964,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 53.92885396001386,
+          "contact_mm3": 8.747488654843933,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 62.0222279658436,
+          "contact_mm3": 8.243758701862449,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 70.62018526910975,
+          "contact_mm3": 7.93615325879891,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 73.76933347854104,
+          "contact_mm3": 8.147190256479044,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 84.72209275363575,
+          "contact_mm3": 8.980834295587426,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 100.9194219106046,
+          "contact_mm3": 9.645488327485658,
+          "collision": {
+            "name": "aro_C02_0_superior",
+            "volume_mm3": 0.00016832950696319996,
+            "distance_mm": 7.105427357601002e-15
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.93411692543583,
+        -64.37565114105661,
+        101.8223913112726
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 49.80543749847108,
+          "contact_mm3": 8.005951680442967,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 56.05374807213351,
+          "contact_mm3": 7.482940437959572,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 63.3046124436908,
+          "contact_mm3": 7.232161884965377,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 71.24379635098427,
+          "contact_mm3": 7.1167217385621075,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 76.9427059784231,
+          "contact_mm3": 7.5630554690637375,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 89.68189679540563,
+          "contact_mm3": 8.520856521874421,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 106.92769354137143,
+          "contact_mm3": 9.087047464824067,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 11.973109762703618,
+            "distance_mm": 3.8263897345803626e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.50809044332487,
+        -68.44688695097877,
+        99.70883338180317
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 52.10454202344721,
+          "contact_mm3": 8.324583743062107,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 57.71931262152693,
+          "contact_mm3": 7.714127431304193,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 64.44051942970617,
+          "contact_mm3": 7.366595261022874,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 71.94994735014157,
+          "contact_mm3": 7.189600412100196,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 77.45461984831559,
+          "contact_mm3": 7.616553444430365,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 89.99888737148933,
+          "contact_mm3": 8.531630125379015,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 107.09143019669257,
+          "contact_mm3": 9.068086370720863,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 12.41240916288214,
+            "distance_mm": 1.4210854715202004e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.2634790268078,
+        -72.76700590095805,
+        98.58623523478057
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 55.37272375147235,
+          "contact_mm3": 8.733870315270778,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 60.4839494677522,
+          "contact_mm3": 7.9416122512160685,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 66.74640569207068,
+          "contact_mm3": 7.51338798671952,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 73.85973667317336,
+          "contact_mm3": 7.2800976179026105,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 79.14917825925437,
+          "contact_mm3": 7.679695849592159,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 91.38774892242559,
+          "contact_mm3": 8.74587417837856,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 108.19954617962821,
+          "contact_mm3": 10.216538526863774,
+          "collision": {
+            "name": "aro_C02_0_superior",
+            "volume_mm3": 1.024640608708825,
+            "distance_mm": 3.1776437161565096e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.27693221653465,
+        -77.5124319419785,
+        94.97228780529414
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 58.27775824773219,
+          "contact_mm3": 8.82301344604525,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 62.55271942279778,
+          "contact_mm3": 8.313436388180895,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 68.07630124032333,
+          "contact_mm3": 7.795267118087624,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 74.56392589784429,
+          "contact_mm3": 7.4578867951073615,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 79.80983197857819,
+          "contact_mm3": 7.85643427318367,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 91.96230634749924,
+          "contact_mm3": 8.623807574275729,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 108.68675257119806,
+          "contact_mm3": 9.08259532864892,
+          "collision": {
+            "name": "aro_C02_0_superior",
+            "volume_mm3": 0.6382124933568638,
+            "distance_mm": 0.0
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -163.68932481922258,
+        -82.79477600361716,
+        92.18835055870348
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 62.4093258186093,
+          "contact_mm3": 9.02594081917796,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 65.97697755468732,
+          "contact_mm3": 8.593212563435129,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 70.82456442439019,
+          "contact_mm3": 8.107326244225632,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 76.70333111301734,
+          "contact_mm3": 7.676955217132367,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 81.93781283186469,
+          "contact_mm3": 8.06509909385066,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 93.92127153876497,
+          "contact_mm3": 8.71339517478704,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 110.43886020363959,
+          "contact_mm3": 9.124747499413079,
+          "collision": {
+            "name": "aro_C02_0_superior",
+            "volume_mm3": 0.3925594513650774,
+            "distance_mm": 0.0
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -156.24068621853033,
+        -94.21764137820084,
+        86.72122678853295
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 72.30363771169306,
+          "contact_mm3": 9.819835075698377,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 74.64314152944964,
+          "contact_mm3": 9.317481588286261,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 78.2328705155349,
+          "contact_mm3": 8.80315770664813,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 82.90658244425461,
+          "contact_mm3": 8.29184328226807,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 85.56380432780382,
+          "contact_mm3": 8.412744113321013,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 95.11253247904925,
+          "contact_mm3": 8.964444409976041,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 109.73568589649634,
+          "contact_mm3": 9.497803059616228,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -100,
+          "length_mm": 127.67423095652914,
+          "contact_mm3": 9.903079131102697,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 11.66808341697268,
+            "distance_mm": 2.0097183471152322e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -157.75797890052047,
+        -97.50282896350978,
+        84.92380523323949
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 75.21317351836169,
+          "contact_mm3": 9.925970294631714,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 77.22396480706482,
+          "contact_mm3": 9.446216807820873,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 80.46732432012269,
+          "contact_mm3": 8.955619102291427,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 84.7985331429495,
+          "contact_mm3": 8.461032462347355,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 87.8399442896495,
+          "contact_mm3": 8.594012886388139,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 97.55833286886158,
+          "contact_mm3": 9.086492604781439,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 112.20115210696382,
+          "contact_mm3": 9.570944879924722,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -100,
+          "length_mm": 130.09056511206515,
+          "contact_mm3": 9.951334882595251,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 11.883046535234724,
+            "distance_mm": 3.1776437161565096e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -161.58685295739434,
+        -103.77031030055862,
+        81.44578123341178
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 81.04952866945942,
+          "contact_mm3": 10.135648906996149,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 82.48443083933638,
+          "contact_mm3": 9.66499938086121,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 85.10631283001405,
+          "contact_mm3": 9.216957465807514,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 88.80768892712439,
+          "contact_mm3": 8.759709268521629,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 92.77399134519816,
+          "contact_mm3": 8.912195843034125,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 102.96662890583119,
+          "contact_mm3": 9.313743506036449,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 117.75233388782078,
+          "contact_mm3": 9.715992366083594,
+          "collision": {
+            "name": "aro_C02_0_superior",
+            "volume_mm3": 0.687186974861818,
+            "distance_mm": 0.0
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -159.34751470956465,
+        -107.51466118368882,
+        80.71847793529608
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 84.71514998601927,
+          "contact_mm3": 13.43138691450105,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 86.00098568419055,
+          "contact_mm3": 11.377000844099404,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 88.43225760456282,
+          "contact_mm3": 10.007023608141708,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 91.91609818785193,
+          "contact_mm3": 9.090768859973767,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 95.15192133716654,
+          "contact_mm3": 9.269539951986022,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 104.56537517254004,
+          "contact_mm3": 10.0484186353486,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 118.67061292271558,
+          "contact_mm3": 11.257054385637664,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -100,
+          "length_mm": 135.9940582833446,
+          "contact_mm3": 12.717523526641628,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 12.274651458066597,
+            "distance_mm": 0.0
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -159.4269595742914,
+        -112.513257946375,
+        76.96764207297839
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 89.53725096806285,
+          "contact_mm3": 10.390725464123742,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 90.32962780689833,
+          "contact_mm3": 9.86802466291693,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 92.2301279505064,
+          "contact_mm3": 9.487326283245046,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 95.17096560315517,
+          "contact_mm3": 9.095444569866938,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 98.31810219340336,
+          "contact_mm3": 9.168073383287028,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 107.46812214528835,
+          "contact_mm3": 9.44436988695443,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 121.2471080050499,
+          "contact_mm3": 9.757261123356033,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -100,
+          "length_mm": 138.2579199396593,
+          "contact_mm3": 10.064261649489563,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 12.647306583596846,
+            "distance_mm": 4.0194366942304644e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    },
+    {
+      "rail_y_mm": -25,
+      "rail_z_mm": 75,
+      "target_mm": [
+        -156.00870472233342,
+        -118.46603781255885,
+        74.02203969295371
+      ],
+      "poses": [
+        {
+          "lift_mm": 0,
+          "dx_mm": 0,
+          "length_mm": 95.55633099226564,
+          "contact_mm3": 10.655389376827868,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 10,
+          "dx_mm": 0,
+          "length_mm": 95.98525343155403,
+          "contact_mm3": 10.054824686856424,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 20,
+          "dx_mm": 0,
+          "length_mm": 97.4655364854381,
+          "contact_mm3": 9.67369168957163,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": 0,
+          "length_mm": 99.94952501320047,
+          "contact_mm3": 9.307179477737243,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -25,
+          "length_mm": 102.09767572940072,
+          "contact_mm3": 9.331241638511726,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -50,
+          "length_mm": 110.14333045798492,
+          "contact_mm3": 9.544472136634251,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -75,
+          "length_mm": 122.91490875264968,
+          "contact_mm3": 9.818702009378711,
+          "collision": null,
+          "errors": []
+        },
+        {
+          "lift_mm": 30,
+          "dx_mm": -100,
+          "length_mm": 139.0979591196684,
+          "contact_mm3": 10.114632287282593,
+          "collision": {
+            "name": "carroceria_C02_superior004",
+            "volume_mm3": 12.765997021770152,
+            "distance_mm": 2.842170943040401e-14
+          },
+          "errors": []
+        }
+      ],
+      "sampled_ok": false
+    }
+  ]
+}

@@ -1,0 +1,1683 @@
+{
+  "skin_reference": {
+    "area_m2": 0.8293266746709089,
+    "area_centroid_m": [
+      -0.004888816450308045,
+      1.571396010230055e-14,
+      0.0077101585264576535
+    ],
+    "inertia_per_unit_surface_mass_m2": [
+      [
+        0.011883286072655513,
+        -6.049246925634006e-16,
+        4.925242994047285e-06
+      ],
+      [
+        -6.049246925634006e-16,
+        0.10846475063225454,
+        -1.3997408197439146e-16
+      ],
+      [
+        4.925242994047285e-06,
+        -1.3997408197439146e-16,
+        0.11237222712030794
+      ]
+    ],
+    "warning": "Equivalent uniform closed-hull skin including door zones; not an actual open-hover skin/door assembly."
+  },
+  "station_material_scenarios": [
+    {
+      "half_pitch_mm": 65.0,
+      "material_mass_scenario_kg": 0.7612060086803298,
+      "material_CG_m": [
+        -0.016604598982831568,
+        -4.154130491209918e-13,
+        0.005495522081264837
+      ],
+      "material_inertia_kgm2": [
+        [
+          0.004791069662210015,
+          -2.1723341035078184e-13,
+          1.645340934121194e-05
+        ],
+        [
+          -2.1723341035078184e-13,
+          0.06432572762790477,
+          6.358840998242979e-14
+        ],
+        [
+          1.645340934121194e-05,
+          6.358840998242979e-14,
+          0.06659783053310653
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "material_mass_scenario_kg": 0.7935532985264924,
+      "material_CG_m": [
+        -0.005306260166390307,
+        -5.1738519234095935e-14,
+        0.005964623813123499
+      ],
+      "material_inertia_kgm2": [
+        [
+          0.006308117283575697,
+          2.7048526721369648e-14,
+          2.436669323805571e-05
+        ],
+        [
+          2.7048526721369648e-14,
+          0.033611581878737466,
+          4.484423747462161e-14
+        ],
+        [
+          2.436669323805571e-05,
+          4.484423747462161e-14,
+          0.03696654302277229
+        ]
+      ]
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "material_mass_scenario_kg": 0.804198459647155,
+      "material_CG_m": [
+        -0.0018395898818660953,
+        -1.0580785937922214e-12,
+        0.006258943059769436
+      ],
+      "material_inertia_kgm2": [
+        [
+          0.007650160222571289,
+          -1.1701492503906827e-14,
+          1.2435005751156638e-05
+        ],
+        [
+          -1.1701492503906827e-14,
+          0.010184173990935958,
+          2.810940160648777e-14
+        ],
+        [
+          1.2435005751156638e-05,
+          2.810940160648777e-14,
+          0.014687742654058951
+        ]
+      ]
+    }
+  ],
+  "assumptions": {
+    "total_mass_kg": 5,
+    "material_densities_duct_vane_shaft_kgm3": [
+      1600,
+      1600,
+      7850
+    ],
+    "fast_propulsor_assumed_mass_kg": 1,
+    "fast_propulsor_assumed_x_m": 0.4,
+    "fast_propulsor_assumed_axis_radii_of_gyration_m": [
+      0.025,
+      0.06,
+      0.06
+    ],
+    "remaining_equipment_assumed_axis_radius_of_gyration_m": 0.06,
+    "per_fan_useful_capacity_N": 21,
+    "per_fan_vertical_preload_N": 1,
+    "moment_reserves_per_axis_Nm": 0.5,
+    "not_included": [
+      "Real motor/rotor mass or spinning inertia",
+      "Motor/servo/flow lag",
+      "Exterior aerodynamics and rotor interaction",
+      "Reaction torque and gyroscopic loads",
+      "Geometric containment of generic remaining equipment and fast propulsor",
+      "Structural flexibility and aeroelasticity"
+    ]
+  },
+  "scenarios": [
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 2.640717187477634,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07658287101108648,
+        -6.199190466515958e-14,
+        0.0017304919384843822
+      ],
+      "inertia_kgm2": [
+        [
+          0.020539592356983216,
+          -2.4643216940359515e-13,
+          0.0007830099308293158
+        ],
+        [
+          -2.4643216940359515e-13,
+          0.26810829879808384,
+          6.468581895437653e-14
+        ],
+        [
+          0.0007830099308293158,
+          6.468581895437653e-14,
+          0.2727393971738273
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.26810829879808384,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.47205758253763713,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 6.566932997387198e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 2.640717187477634,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.14500392426391762,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -6.199190466515958e-14,
+        0.0017304919384843822
+      ],
+      "inertia_kgm2": [
+        [
+          0.020539592356983202,
+          -2.226955744796369e-13,
+          0.00012037972627594368
+        ],
+        [
+          -2.226955744796369e-13,
+          0.35295706359961215,
+          6.468581895437653e-14
+        ],
+        [
+          0.00012037972627594368,
+          6.468581895437653e-14,
+          0.3575881619753556
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.35295706359961215,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.391755087694944,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 3.0534650363733817e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response.",
+      "refinement_241_nodes": {
+        "sampled_feasible": true,
+        "quintic_30deg_minimum_sampled_duration_s": 0.391755087694944,
+        "maximum_sampled_duration_s": null,
+        "critical_normalized_time": 0.8,
+        "nodes": 241,
+        "max_LP_residual": 3.0534650363733817e-09,
+        "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+      }
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 2.2407171874776344,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07558287101108647,
+        -6.199207813750718e-14,
+        0.002290491938484383
+      ],
+      "inertia_kgm2": [
+        [
+          0.020797933602127706,
+          -2.4612473924437485e-13,
+          0.0010209895099679365
+        ],
+        [
+          -2.4612473924437485e-13,
+          0.3005624687533392,
+          6.451221933129402e-14
+        ],
+        [
+          0.0010209895099679365,
+          6.451221933129402e-14,
+          0.3068752258839381
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.3005624687533392,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.4977465735831844,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 2.4272956977711146e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 2.2407171874776344,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.16865776599002613,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -6.199207813750718e-14,
+        0.002290491938484383
+      ],
+      "inertia_kgm2": [
+        [
+          0.020797933602127693,
+          -2.2269556443309778e-13,
+          0.00015537972627594377
+        ],
+        [
+          -2.2269556443309778e-13,
+          0.3928645115639426,
+          6.451221933129402e-14
+        ],
+        [
+          0.00015537972627594377,
+          6.451221933129402e-14,
+          0.3991772686945416
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.3928645115639426,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.4136971597553671,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 6.43084518969772e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 1.6407171874776343,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07408287101108647,
+        -6.199207813750718e-14,
+        0.0031304919384843822
+      ],
+      "inertia_kgm2": [
+        [
+          0.02117956546984442,
+          -2.4565904525265304e-13,
+          0.0013674588786758662
+        ],
+        [
+          -2.4565904525265304e-13,
+          0.3492190936862222,
+          6.425186454297118e-14
+        ],
+        [
+          0.0013674588786758662,
+          6.425186454297118e-14,
+          0.35806021894910445
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.3492190936862222,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.5332355752348908,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 2.227871220839006e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 1.6407171874776343,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.22576368302991384,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -6.199207813750718e-14,
+        0.0031304919384843822
+      ],
+      "inertia_kgm2": [
+        [
+          0.02117956546984442,
+          -2.226964664893053e-13,
+          0.0002078797262759439
+        ],
+        [
+          -2.226964664893053e-13,
+          0.46028656161691317,
+          6.425186454297118e-14
+        ],
+        [
+          0.0002078797262759439,
+          6.425186454297118e-14,
+          0.46912768687979545
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.46028656161691317,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.4484229935204465,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 9.271730050386395e-10,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 1.9772558477409063,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0759341628687168,
+        -5.990676704703546e-14,
+        0.0027535703595936113
+      ],
+      "inertia_kgm2": [
+        [
+          0.026051735179348206,
+          -2.4579196090353094e-13,
+          0.0011941059484459355
+        ],
+        [
+          -2.4579196090353094e-13,
+          0.33820906177472443,
+          6.42241767805533e-14
+        ],
+        [
+          0.0011941059484459355,
+          6.42241767805533e-14,
+          0.3454161169890433
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.33820906177472443,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.5298799933888564,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 3.386957381223965e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 1.9772558477409063,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.19201906256965837,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -5.990676704703546e-14,
+        0.0027535703595936113
+      ],
+      "inertia_kgm2": [
+        [
+          0.026051735179348202,
+          -2.2304941498751275e-13,
+          0.00014865564766667347
+        ],
+        [
+          -2.2304941498751275e-13,
+          0.43994308108290237,
+          6.42241767805533e-14
+        ],
+        [
+          0.00014865564766667347,
+          6.42241767805533e-14,
+          0.44715013629722106
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.43994308108290237,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.43812383511729586,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 8.481713109631528e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 1.5772558477409069,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0749341628687168,
+        -5.990694051938306e-14,
+        0.0033135703595936123
+      ],
+      "inertia_kgm2": [
+        [
+          0.026304347185334476,
+          -2.4549349218522474e-13,
+          0.0014251537526803744
+        ],
+        [
+          -2.4549349218522474e-13,
+          0.3706510154093979,
+          6.40564118973504e-14
+        ],
+        [
+          0.0014251537526803744,
+          6.40564118973504e-14,
+          0.37954545861773037
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.3706510154093979,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.5524216066322568,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 2.574124202681105e-08,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 1.5772558477409069,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.23754599793066072,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -5.990694051938306e-14,
+        0.0033135703595936123
+      ],
+      "inertia_kgm2": [
+        [
+          0.026304347185334476,
+          -2.230493881564035e-13,
+          0.00018365564766667313
+        ],
+        [
+          -2.230493881564035e-13,
+          0.48772821172231473,
+          6.40564118973504e-14
+        ],
+        [
+          0.00018365564766667313,
+          6.40564118973504e-14,
+          0.4966226549306473
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.48772821172231473,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.46173884004524934,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 1.5933636632325943e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 0.9772558477409072,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0734341628687168,
+        -5.990694051938306e-14,
+        0.004153570359593612
+      ],
+      "inertia_kgm2": [
+        [
+          0.02667738519431388,
+          -2.450415354119576e-13,
+          0.0017612254590320326
+        ],
+        [
+          -2.450415354119576e-13,
+          0.41928931586140794,
+          6.380480180021053e-14
+        ],
+        [
+          0.0017612254590320326,
+          6.380480180021053e-14,
+          0.43072072106076115
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.41928931586140794,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.583952157913851,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 8.436167320269305e-10,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 65.0,
+      "axial_reserve_outer_mm": 38.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 0.9772558477409072,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.37571615989033136,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -5.990694051938306e-14,
+        0.004153570359593612
+      ],
+      "inertia_kgm2": [
+        [
+          0.026677385194313896,
+          -2.2305026419175886e-13,
+          0.00023615564766667294
+        ],
+        [
+          -2.2305026419175886e-13,
+          0.5842042056315313,
+          6.380480180021053e-14
+        ],
+        [
+          0.00023615564766667294,
+          6.380480180021053e-14,
+          0.5956356108308845
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.5842042056315313,
+      "sampled_feasible": false,
+      "reason": "Balancing requires the residual mass center outside the assumed x zone.",
+      "nodes": 0
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 2.608369897631471,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07876861506300245,
+        -6.960404475009341e-15,
+        0.0018404964329403004
+      ],
+      "inertia_kgm2": [
+        [
+          0.022253668646010534,
+          2.3879012229359594e-14,
+          0.0007913148608184619
+        ],
+        [
+          2.3879012229359594e-14,
+          0.22683315821551372,
+          4.492106192183757e-14
+        ],
+        [
+          0.0007913148608184619,
+          4.492106192183757e-14,
+          0.2328540359189825
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.22683315821551372,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.6882164755658231,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 7.943668833831907e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 2.608369897631471,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.15099203363473918,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -6.960404475009341e-15,
+        0.0018404964329403004
+      ],
+      "inertia_kgm2": [
+        [
+          0.02225366864601054,
+          2.662147144289257e-14,
+          6.644808556294333e-05
+        ],
+        [
+          2.662147144289257e-14,
+          0.31732279868500446,
+          4.492106192183757e-14
+        ],
+        [
+          6.644808556294333e-05,
+          4.492106192183757e-14,
+          0.3233436763884733
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.31732279868500446,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.44415750346950594,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 2.758501693733706e-08,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response.",
+      "refinement_241_nodes": {
+        "sampled_feasible": true,
+        "quintic_30deg_minimum_sampled_duration_s": 0.44415750346950594,
+        "maximum_sampled_duration_s": null,
+        "critical_normalized_time": 0.8,
+        "nodes": 241,
+        "max_LP_residual": 2.8185752398712793e-08,
+        "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+      }
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 2.2083698976314716,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07876861506300245,
+        -6.960404475009341e-15,
+        0.002400496432940301
+      ],
+      "inertia_kgm2": [
+        [
+          0.023131793865986065,
+          2.3878987550434863e-14,
+          0.0010118669829948684
+        ],
+        [
+          2.3878987550434863e-14,
+          0.2414008834354892,
+          4.490158224239906e-14
+        ],
+        [
+          0.0010118669829948684,
+          4.490158224239906e-14,
+          0.2497244359189825
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.2414008834354892,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.7132677149262429,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 9.833215131038742e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 2.2083698976314716,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.17834108123707818,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -6.960404475009341e-15,
+        0.002400496432940301
+      ],
+      "inertia_kgm2": [
+        [
+          0.023131793865986065,
+          2.662157986310982e-14,
+          6.644808556294354e-05
+        ],
+        [
+          2.662157986310982e-14,
+          0.3426617569196218,
+          4.490158224239906e-14
+        ],
+        [
+          6.644808556294354e-05,
+          4.490158224239906e-14,
+          0.35098530940311506
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.3426617569196218,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.46217021485542087,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 7.31249372165621e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 1.6083698976314715,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07876861506300245,
+        -6.960404475009341e-15,
+        0.0032404964329403006
+      ],
+      "inertia_kgm2": [
+        [
+          0.02444310169594937,
+          2.3879194477536578e-14,
+          0.0013426951662594787
+        ],
+        [
+          2.3879194477536578e-14,
+          0.2632465912654525,
+          4.487228258378721e-14
+        ],
+        [
+          0.0013426951662594787,
+          4.487228258378721e-14,
+          0.2750300359189825
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.2632465912654525,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.7500960905673023,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 9.367298048346129e-10,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 1.6083698976314715,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.24487095654736893,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -6.960404475009341e-15,
+        0.0032404964329403006
+      ],
+      "inertia_kgm2": [
+        [
+          0.024443101695949356,
+          2.662157986310982e-14,
+          6.644808556294365e-05
+        ],
+        [
+          2.662157986310982e-14,
+          0.39070979544211437,
+          4.487228258378721e-14
+        ],
+        [
+          6.644808556294365e-05,
+          4.487228258378721e-14,
+          0.4024932400956443
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.39070979544211437,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.494508068002561,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 8.00686450475041e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 1.944908557894744,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07811990692063278,
+        -4.875266856885219e-15,
+        0.0028635748540495297
+      ],
+      "inertia_kgm2": [
+        [
+          0.027764686036130495,
+          2.4365517126541967e-14,
+          0.0012132350122467431
+        ],
+        [
+          2.4365517126541967e-14,
+          0.29694697485954547,
+          4.474212139850829e-14
+        ],
+        [
+          0.0012132350122467431,
+          4.474212139850829e-14,
+          0.3055449348338346
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.29694697485954547,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.7863572976062505,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 4.31100488640368e-10,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 1.944908557894744,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.20083182472391728,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -4.875266856885219e-15,
+        0.0028635748540495297
+      ],
+      "inertia_kgm2": [
+        [
+          0.027764686036130477,
+          2.626938325209343e-14,
+          9.47240069536729e-05
+        ],
+        [
+          2.626938325209343e-14,
+          0.4059053914166534,
+          4.474212139850829e-14
+        ],
+        [
+          9.47240069536729e-05,
+          4.474212139850829e-14,
+          0.4145033513909425
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.4059053914166534,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.5035755501550341,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 8.824358133097121e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 1.5449085578947441,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07811990692063278,
+        -4.875266856885219e-15,
+        0.00342357485404953
+      ],
+      "inertia_kgm2": [
+        [
+          0.028637082016947826,
+          2.4365180113895187e-14,
+          0.0014319707516245144
+        ],
+        [
+          2.4365180113895187e-14,
+          0.31150897084036283,
+          4.472845196180298e-14
+        ],
+        [
+          0.0014319707516245144,
+          4.472845196180298e-14,
+          0.32241533483383455
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.31150897084036283,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.8091361347316207,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 3.1107560971577186e-10,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 1.5449085578947441,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.252830196717556,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -4.875266856885219e-15,
+        0.00342357485404953
+      ],
+      "inertia_kgm2": [
+        [
+          0.028637082016947812,
+          2.6269491672310677e-14,
+          9.47240069536729e-05
+        ],
+        [
+          2.6269491672310677e-14,
+          0.4407779272983082,
+          4.472845196180298e-14
+        ],
+        [
+          9.47240069536729e-05,
+          4.472845196180298e-14,
+          0.45168429129177995
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.4407779272983082,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.5254698299539974,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 9.011827728500066e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 0.9449085578947445,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07811990692063278,
+        -4.875266856885219e-15,
+        0.00426357485404953
+      ],
+      "inertia_kgm2": [
+        [
+          0.029939795988173805,
+          2.4364783015142267e-14,
+          0.001760074360691172
+        ],
+        [
+          2.4364783015142267e-14,
+          0.33334608481158884,
+          4.470795730424762e-14
+        ],
+        [
+          0.001760074360691172,
+          4.470795730424762e-14,
+          0.34772093483383465
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.33334608481158884,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.8429036697607809,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 2.1624817492238435e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 76.0,
+      "axial_reserve_outer_mm": 60.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 0.9449085578947445,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.41337284051423917,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -4.875266856885219e-15,
+        0.00426357485404953
+      ],
+      "inertia_kgm2": [
+        [
+          0.0299397959881738,
+          2.6269057991441683e-14,
+          9.47240069536729e-05
+        ],
+        [
+          2.6269057991441683e-14,
+          0.5253229232204802,
+          4.470795730424762e-14
+        ],
+        [
+          9.47240069536729e-05,
+          4.470795730424762e-14,
+          0.5396977732427258
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.5253229232204802,
+      "sampled_feasible": false,
+      "reason": "Balancing requires the residual mass center outside the assumed x zone.",
+      "nodes": 0
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 2.5977247365108087,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07931489604470236,
+        -1.6892997417583544e-13,
+        0.0019005335262027034
+      ],
+      "inertia_kgm2": [
+        [
+          0.02388353793155218,
+          -8.047042790999699e-14,
+          0.0007923631051414419
+        ],
+        [
+          -8.047042790999699e-14,
+          0.19691816447510482,
+          3.1725900137855444e-14
+        ],
+        [
+          0.0007923631051414419,
+          3.1725900137855444e-14,
+          0.2044095007710813
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.19691816447510482,
+      "sampled_feasible": false,
+      "reason": "Rest/inflection node cannot support the prescribed attitude and moment reserves.",
+      "failed_normalized_time": 0.0,
+      "nodes": 61
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 2.5977247365108087,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.15266224117193403,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -1.6892997417583544e-13,
+        0.0019005335262027034
+      ],
+      "inertia_kgm2": [
+        [
+          0.023883537931552193,
+          -1.3477426213441003e-14,
+          3.8660009840246496e-05
+        ],
+        [
+          -1.3477426213441003e-14,
+          0.2889143770905307,
+          3.1725900137855444e-14
+        ],
+        [
+          3.8660009840246496e-05,
+          3.1725900137855444e-14,
+          0.29640571338650723
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.2889143770905307,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.7147089309164176,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8,
+      "nodes": 61,
+      "max_LP_residual": 7.232699772430351e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response.",
+      "refinement_241_nodes": {
+        "sampled_feasible": true,
+        "quintic_30deg_minimum_sampled_duration_s": 0.7152592294305359,
+        "maximum_sampled_duration_s": null,
+        "critical_normalized_time": 0.8083333333333333,
+        "nodes": 241,
+        "max_LP_residual": 7.250847033901664e-09,
+        "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+      }
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 2.1977247365108092,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07931489604470236,
+        -1.6892980070348783e-13,
+        0.0024605335262027042
+      ],
+      "inertia_kgm2": [
+        [
+          0.025409326943805453,
+          -8.047049388567916e-14,
+          0.0010144448140666086
+        ],
+        [
+          -8.047049388567916e-14,
+          0.1994855534873581,
+          3.1252900863439684e-14
+        ],
+        [
+          0.0010144448140666086,
+          3.1252900863439684e-14,
+          0.2099279007710813
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.1994855534873581,
+      "sampled_feasible": false,
+      "reason": "Rest/inflection node cannot support the prescribed attitude and moment reserves.",
+      "failed_normalized_time": 0.0,
+      "nodes": 61
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 2.1977247365108092,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.1804477483623033,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -1.6892980070348783e-13,
+        0.0024605335262027042
+      ],
+      "inertia_kgm2": [
+        [
+          0.025409326943805443,
+          -1.3477425619208062e-14,
+          3.866000984024671e-05
+        ],
+        [
+          -1.3477425619208062e-14,
+          0.3025007891745513,
+          3.1252900863439684e-14
+        ],
+        [
+          3.866000984024671e-05,
+          3.1252900863439684e-14,
+          0.31294313645827454
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.3025007891745513,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.7341814204436439,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 8.473485024751426e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 1.5977247365108092,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.07931489604470236,
+        -1.6893014764818305e-13,
+        0.0033005335262027034
+      ],
+      "inertia_kgm2": [
+        [
+          0.027692130462185348,
+          -8.047033760957435e-14,
+          0.0013475673774543582
+        ],
+        [
+          -8.047033760957435e-14,
+          0.203330757005738,
+          3.054337183329117e-14
+        ],
+        [
+          0.0013475673774543582,
+          3.054337183329117e-14,
+          0.2182055007710813
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.203330757005738,
+      "sampled_feasible": false,
+      "reason": "Rest/inflection node cannot support the prescribed attitude and moment reserves.",
+      "failed_normalized_time": 0.0,
+      "nodes": 61
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.3,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 1.5977247365108092,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.2482120174777859,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -1.6893014764818305e-13,
+        0.0033005335262027034
+      ],
+      "inertia_kgm2": [
+        [
+          0.027692130462185348,
+          -1.3477643648108466e-14,
+          3.8660009840246496e-05
+        ],
+        [
+          -1.3477643648108466e-14,
+          0.3332195724951299,
+          3.054337183329117e-14
+        ],
+        [
+          3.8660009840246496e-05,
+          3.054337183329117e-14,
+          0.3480943162604732
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.3332195724951299,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.7751457446799752,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 4.554721044769394e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 1.9342633967740817,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0786661879023327,
+        -1.6684483655771132e-13,
+        0.0029236119473119325
+      ],
+      "inertia_kgm2": [
+        [
+          0.02939394109512631,
+          -7.94552121573825e-14,
+          0.0012168829652347024
+        ],
+        [
+          -7.94552121573825e-14,
+          0.26703491066179924,
+          3.0719052840917377e-14
+        ],
+        [
+          0.0012168829652347024,
+          3.0719052840917377e-14,
+          0.2771039434551419
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.26703491066179924,
+      "sampled_feasible": false,
+      "reason": "Rest/inflection node cannot support the prescribed attitude and moment reserves.",
+      "failed_normalized_time": 0.0,
+      "nodes": 61
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.05,
+      "remaining_equipment_mass_kg": 1.9342633967740817,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.2033492130222034,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -1.6684483655771132e-13,
+        0.0029236119473119325
+      ],
+      "inertia_kgm2": [
+        [
+          0.02939394109512633,
+          -1.3829251378143863e-14,
+          6.693593123097597e-05
+        ],
+        [
+          -1.3829251378143863e-14,
+          0.3779602932642055,
+          3.0719052840917377e-14
+        ],
+        [
+          6.693593123097597e-05,
+          3.0719052840917377e-14,
+          0.3880293260575482
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.3779602932642055,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.8233426923877534,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 6.810971342474659e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 1.5342633967740817,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0786661879023327,
+        -1.6684501003005893e-13,
+        0.0034836119473119326
+      ],
+      "inertia_kgm2": [
+        [
+          0.03091400086822136,
+          -7.945546408113679e-14,
+          0.0014371482913612338
+        ],
+        [
+          -7.945546408113679e-14,
+          0.26959657043489427,
+          3.02518930241696e-14
+        ],
+        [
+          0.0014371482913612338,
+          3.02518930241696e-14,
+          0.2826223434551419
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.26959657043489427,
+      "sampled_feasible": false,
+      "reason": "Rest/inflection node cannot support the prescribed attitude and moment reserves.",
+      "failed_normalized_time": 0.0,
+      "nodes": 61
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.15,
+      "remaining_equipment_mass_kg": 1.5342633967740817,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.25636467658595974,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -1.6684501003005893e-13,
+        0.0034836119473119326
+      ],
+      "inertia_kgm2": [
+        [
+          0.030914000868221353,
+          -1.382930674515006e-14,
+          6.693593123097597e-05
+        ],
+        [
+          -1.382930674515006e-14,
+          0.40137457512947916,
+          3.02518930241696e-14
+        ],
+        [
+          6.693593123097597e-05,
+          3.02518930241696e-14,
+          0.41440034814972676
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.40137457512947916,
+      "sampled_feasible": true,
+      "quintic_30deg_minimum_sampled_duration_s": 0.8518419097424262,
+      "maximum_sampled_duration_s": null,
+      "critical_normalized_time": 0.8166666666666667,
+      "nodes": 61,
+      "max_LP_residual": 1.3881873428545077e-09,
+      "scope": "Prescribed 0-to-30-degree pitch, fixed inertial position, instantaneous ideal forces, ray-cone approximation, sampled time. Not a globally time-optimal maneuver or hardware response."
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 0.9342633967740817,
+      "balancing_mode": "remaining_equipment_at_x0",
+      "remaining_equipment_x_m": 0.0,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0786661879023327,
+        -1.6684501003005893e-13,
+        0.0043236119473119335
+      ],
+      "inertia_kgm2": [
+        [
+          0.033188210527863936,
+          -7.945583182791203e-14,
+          0.0017675462805510312
+        ],
+        [
+          -7.945583182791203e-14,
+          0.2734331800945369,
+          2.95511208366521e-14
+        ],
+        [
+          0.0017675462805510312,
+          2.95511208366521e-14,
+          0.29089994345514186
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.2734331800945369,
+      "sampled_feasible": false,
+      "reason": "Rest/inflection node cannot support the prescribed attitude and moment reserves.",
+      "failed_normalized_time": 0.0,
+      "nodes": 61
+    },
+    {
+      "half_pitch_mm": 86.0,
+      "axial_reserve_outer_mm": 80.0,
+      "skin_thickness_assumed_mm": 0.8,
+      "extra_mass_per_station_assumed_kg": 0.3,
+      "remaining_equipment_mass_kg": 0.9342633967740817,
+      "balancing_mode": "x_CG_balanced",
+      "remaining_equipment_x_m": -0.42100647512232203,
+      "remaining_zone_m": [
+        -0.35,
+        0.05
+      ],
+      "CG_m": [
+        0.0,
+        -1.6684501003005893e-13,
+        0.0043236119473119335
+      ],
+      "inertia_kgm2": [
+        [
+          0.03318821052786393,
+          -1.3829089904715564e-14,
+          6.693593123097597e-05
+        ],
+        [
+          -1.3829089904715564e-14,
+          0.4699698980903191,
+          2.95511208366521e-14
+        ],
+        [
+          6.693593123097597e-05,
+          2.95511208366521e-14,
+          0.48743666145092424
+        ]
+      ],
+      "pitch_inertia_kgm2": 0.4699698980903191,
+      "sampled_feasible": false,
+      "reason": "Balancing requires the residual mass center outside the assumed x zone.",
+      "nodes": 0
+    }
+  ],
+  "actual_mass_closure_or_flight_validated": false
+}

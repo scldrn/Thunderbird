@@ -1,0 +1,8 @@
+{
+  "status": "REJECTED_CONFIGURATION_ERROR",
+  "reason": "rho solver missing in transient density equation",
+  "completed_timesteps": 0,
+  "solver_exit_code": 1,
+  "physical_loads_accepted": false,
+  "correction_case": "avance_A_compresible_600kmh_Euler_diag_v3"
+}

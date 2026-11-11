@@ -1,0 +1,108 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : checkMesh -allGeometry -allTopology
+Date   : Nov 03 2026
+Time   : 16:17:49
+Host   : "0de97b328638"
+PID    : 385
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+Enabling all (cell, face, edge, point) topology checks.
+
+Enabling all geometry checks.
+
+Time = 0s
+
+Mesh stats
+    points:           121180
+    internal points:  0
+    edges:            409702
+    internal edges:   59776
+    internal edges using one boundary point:   0
+    internal edges using two boundary points:  59776
+    faces:            402488
+    internal faces:   173742
+    cells:            113966
+    faces per cell:   5.05615709949
+    boundary patches: 4
+    point zones:      0
+    face zones:       0
+    cell zones:       1
+
+Overall number of cells of each type:
+    hexahedra:     6400
+    prisms:        107566
+    wedges:        0
+    pyramids:      0
+    tet wedges:    0
+    tetrahedra:    0
+    polyhedra:     0
+
+Checking topology...
+    Boundary definition OK.
+    Cell to face addressing OK.
+    Point usage OK.
+    Upper triangular ordering OK.
+    Face vertices OK.
+    Topological cell zip-up check OK.
+    Face-face connectivity OK.
+    Number of regions: 1 (OK).
+
+Checking patch topology for multiply connected surfaces...
+    Patch               Faces    Points   Surface topology                  
+    airfoil             304      608      ok (non-closed singly connected)  
+    farfield            441      884      ok (non-closed singly connected)  
+    outlet              69       140      ok (non-closed singly connected)  
+    frontAndBack        227932   121180   ok (non-closed singly connected)  
+
+Checking geometry...
+    Overall domain bounding box (-6.154192416 -8.241356136 -0.001524) (8.229609144 7.395594048 0.001524)
+    Patch bounding boxes
+        airfoil              (0 -0.018035235456 -0.001524) (0.3048 0.019159612176 0.001524)
+        farfield             (-6.154192416 -8.241356136 -0.001524) (8.229609144 7.395594048 0.001524)
+        outlet               (8.229609144 -8.241356136 -0.001524) (8.229609144 7.395526992 0.001524)
+        frontAndBack         (-6.154192416 -8.241356136 -0.001524) (8.229609144 7.395594048 0.001524)
+    Mesh has 2 geometric (non-empty/wedge) directions (1 1 0)
+    Mesh has 2 solution (non-empty) directions (1 1 0)
+    All edges aligned with or perpendicular to non-empty directions.
+ ***High aspect ratio cells found, Max aspect ratio: 1180.30938124, number of cells 1
+    Minimum face area = 4.56679656472e-12. Maximum face area = 0.0315086975656.  Face area magnitudes OK.
+    Min volume = 1.39195959295e-14. Max volume = 9.603851018e-05.  Total volume = 0.585458041651.  Cell volumes OK.
+    Mesh non-orthogonality Max: 63.7179886761 average: 2.16031030907
+    Non-orthogonality check OK.
+    Face pyramids OK.
+    Max skewness = 0.438767559119 OK.
+    Coupled point location match (average 0) OK.
+    Face tets OK.
+   *Edges too small, min/max edge length = 2.44633780483e-06 0.272846762546, number too small: 6822
+    All angles in faces OK.
+    Face flatness (1 = flat, 0 = butterfly) : min = 1  average = 1
+    All face flatness OK.
+    Cell determinant (wellposedness) : minimum: 6.14878524263e-05 average: 2.10159581878
+ ***Cells with small determinant (< 0.001) found, number of cells: 1310
+    Concave cell check OK.
+    Face interpolation weight : minimum: 0.000718772779036 average: 0.483233499229
+ ***Faces with small interpolation weight (< 0.05) found, number of faces: 37
+    Face volume ratio : minimum: 0.000536657064269 average: 0.939253423627
+ ***Faces with small volume ratio (< 0.01) found, number of faces: 18
+
+Failed 4 mesh checks.
+
+End
+

@@ -1,0 +1,25 @@
+{
+  "samples": 168,
+  "max_vane_volume_outside_body_mm3": 0.0,
+  "max_radial_extent_mm": 38.682676122835026,
+  "min_radial_clearance_to_42mm_bore_mm": 3.3173238771649736,
+  "row_vertical_separation_lower_bound_mm": 11.929841320011803,
+  "rotor_blade_plane_z_mm": 66,
+  "upper_row_max_z_mm": -3.9649206600059017,
+  "max_swept_box_outside_body_mm3": 0.0,
+  "assumed_angles_deg": [
+    -45,
+    45
+  ],
+  "excluded": [
+    "shaft radial containment and body clearance",
+    "bearings",
+    "servo envelopes",
+    "transmission/linkages",
+    "flow-path blockage by other components",
+    "vane structural/aerodynamic loads",
+    "flow deflection calibration",
+    "manufacturing tolerances",
+    "mass and torque budget"
+  ]
+}

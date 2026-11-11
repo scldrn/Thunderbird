@@ -1,0 +1,20 @@
+PLOP
+G
+
+LOAD /tmp/sd8020.dat
+PPAR
+N 320
+
+
+PANE
+OPER
+VISC 61400
+MACH 0
+ITER 200
+PACC
+/tmp/n320_00.txt
+
+ALFA -0.29
+PACC
+
+QUIT

@@ -1,0 +1,20 @@
+{
+  "completed_logged_steps": 1170,
+  "last_completed_physical_time_s": 0.001289473684,
+  "clock_time_s_last": 1171.0,
+  "target_physical_time_s": 0.0015,
+  "elapsed_flow_through_times": 0.3557168783448276,
+  "latest_deltaT_s": 1.09649123e-06,
+  "initial_to_latest_dt_ratio": 1.0,
+  "dt_collapsed_by_factor_1000": false,
+  "max_reported_Courant": 0.500056543,
+  "latest_reported_Courant": 0.498451152,
+  "max_abs_global_continuity_error_last_100_corrections": 4.99505511e-12,
+  "mean_loads_ready": false,
+  "note": "Progress audit only. Check the live exec handle and docker top/ps for running state. A collapsed timestep flags numerical pathology despite small continuity errors. Completion requires physical-time span, force statistics and sensitivity audits.",
+  "latest_reported_max_velocity_ms": 97.8580418,
+  "max_reported_velocity_ms": 98.9175931,
+  "latest_reported_min_k": 4.60498028,
+  "initial_field_physical_age_s": 0.001,
+  "source_age_plus_restart_time_s": 0.002289473684
+}

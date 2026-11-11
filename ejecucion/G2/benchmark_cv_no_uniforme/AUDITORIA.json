@@ -1,0 +1,304 @@
+{
+  "scope": "Manufactured nonuniform saved-field stress/CV verification, not physical rotor or vehicle validation",
+  "density_kg_m3": 1.225,
+  "kinematic_viscosity_m2_s": 0.1,
+  "domain_m": [
+    1,
+    1,
+    1
+  ],
+  "flow_solver_executed": false,
+  "counter_is_physical_time": false,
+  "pressure_and_viscous_partition_verified": true,
+  "expected_wall_stencil_order_verified": 1,
+  "discrete_parabola_offset_m_s": "6/(4*ny^2)",
+  "all_checks_passed": true,
+  "results": [
+    {
+      "ny": 8,
+      "cells": 64,
+      "checks_passed": true,
+      "states": [
+        {
+          "saved_index": 0,
+          "state": "Couette_a3",
+          "wall_viscous_force_per_wall_N": 0.36750000000000005,
+          "CV_defect_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            0.0,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": null,
+          "continuous_wall_force_relative_error": 0.0
+        },
+        {
+          "saved_index": 1,
+          "state": "Couette_a6",
+          "wall_viscous_force_per_wall_N": 0.7350000000000001,
+          "CV_defect_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            0.0,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": null,
+          "continuous_wall_force_relative_error": 0.0
+        },
+        {
+          "saved_index": 2,
+          "state": "Poiseuille_continuous",
+          "wall_viscous_force_per_wall_N": 0.6890625,
+          "CV_defect_N": [
+            -0.09187499999999993,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            -0.09187500000000001,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": 1.4700000000000002,
+          "continuous_wall_force_relative_error": 0.0625
+        },
+        {
+          "saved_index": 3,
+          "state": "Poiseuille_discrete",
+          "wall_viscous_force_per_wall_N": 0.7350000000000001,
+          "CV_defect_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            0.0,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": 1.4700000000000002,
+          "continuous_wall_force_relative_error": 0.0
+        }
+      ]
+    },
+    {
+      "ny": 16,
+      "cells": 128,
+      "checks_passed": true,
+      "states": [
+        {
+          "saved_index": 0,
+          "state": "Couette_a3",
+          "wall_viscous_force_per_wall_N": 0.36750000000000005,
+          "CV_defect_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            0.0,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": null,
+          "continuous_wall_force_relative_error": 0.0
+        },
+        {
+          "saved_index": 1,
+          "state": "Couette_a6",
+          "wall_viscous_force_per_wall_N": 0.7350000000000001,
+          "CV_defect_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            0.0,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": null,
+          "continuous_wall_force_relative_error": 0.0
+        },
+        {
+          "saved_index": 2,
+          "state": "Poiseuille_continuous",
+          "wall_viscous_force_per_wall_N": 0.7120312500000001,
+          "CV_defect_N": [
+            -0.045937499999999964,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            -0.045937500000000006,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": 1.4700000000000002,
+          "continuous_wall_force_relative_error": 0.03125
+        },
+        {
+          "saved_index": 3,
+          "state": "Poiseuille_discrete",
+          "wall_viscous_force_per_wall_N": 0.7350000000000001,
+          "CV_defect_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            0.0,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": 1.4700000000000002,
+          "continuous_wall_force_relative_error": 0.0
+        }
+      ]
+    },
+    {
+      "ny": 32,
+      "cells": 256,
+      "checks_passed": true,
+      "states": [
+        {
+          "saved_index": 0,
+          "state": "Couette_a3",
+          "wall_viscous_force_per_wall_N": 0.36750000000000005,
+          "CV_defect_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            0.0,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": null,
+          "continuous_wall_force_relative_error": 0.0
+        },
+        {
+          "saved_index": 1,
+          "state": "Couette_a6",
+          "wall_viscous_force_per_wall_N": 0.7350000000000001,
+          "CV_defect_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            0.0,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": null,
+          "continuous_wall_force_relative_error": 0.0
+        },
+        {
+          "saved_index": 2,
+          "state": "Poiseuille_continuous",
+          "wall_viscous_force_per_wall_N": 0.7235156250000001,
+          "CV_defect_N": [
+            -0.022968749999999982,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            -0.022968750000000003,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": 1.4700000000000002,
+          "continuous_wall_force_relative_error": 0.015625
+        },
+        {
+          "saved_index": 3,
+          "state": "Poiseuille_discrete",
+          "wall_viscous_force_per_wall_N": 0.7350000000000001,
+          "CV_defect_N": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "predicted_CV_defect_N": [
+            0.0,
+            0,
+            0
+          ],
+          "pressure_gradient_force_scale_N": 1.4700000000000002,
+          "continuous_wall_force_relative_error": 0.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Orthogonal mesh, laminar fluid, Gauss linear gradients and two-point walls only.",
+    "Imposed side profiles are manufactured mathematical boundaries, not a six-wall physical channel.",
+    "Does not validate limited pressure gradient, turbulence, corners, nonorthogonality or installed C02 loads."
+  ],
+  "input_sha256": {
+    "ny16/0/U": "2eaa25900fee4beb814da81f74ac2188d5f9219743f0f3cc6fb156095d667933",
+    "ny16/0/phi": "e7d31ebc92d857b696f961d9a53da4290aae5140d5a6ecf4dedc86f52bd6031b",
+    "ny16/0/p": "26c1ebf60674d58b297a355ea6da277b7e052fcfd27a8e43f0eed9da06f89caf",
+    "ny16/1/U": "20688b462c321ad560e0ac2fe8693fd59bf7aeec569db5a335e22a7977eb644d",
+    "ny16/1/phi": "c58fd6140f6bb3f88fc5d7cdbc0bea52d1296c11ebe7677561941db4f33333d6",
+    "ny16/1/p": "26c1ebf60674d58b297a355ea6da277b7e052fcfd27a8e43f0eed9da06f89caf",
+    "ny16/system/fvSchemes": "66477ad339c3dcdb536f9e450b4336ab7361be6055dbac03ec8d5236a567a519",
+    "ny16/system/fvSolution": "662b0395e50667095e488a06a9c8fa826a9d7e2a191d74d93109cf34c713687b",
+    "ny16/system/blockMeshDict": "59f8d0b2cbfc1b50ce982f26cc3ae12d7c3774bce2e86889e4d0156ba8f5ca29",
+    "ny16/system/controlDict": "6eb6cd6f83bdf7f614f85c18dea7044cadd019a33f5f0edbbbfd2762c7207f1c",
+    "ny16/constant/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+    "ny16/constant/physicalProperties": "d6d9cace34023d97b513158c9d75adbc0a05d240bdd4ad88f414ade47c8e4477",
+    "ny16/3/U": "7c3c69059a3f90212a7658d98fcb7da312fc5577c32d87c4b575f1cbf1b05fdc",
+    "ny16/3/phi": "53b654166f820afd6617cd6c41a7074042208ffc03153e2c2b8aef8a885f7f8d",
+    "ny16/3/p": "82a82297b10ad9e53545ede38a528c5e95c4770aadbeafe36e462b3132f09474",
+    "ny16/2/U": "703a89671923282f9915e0a3d6fc68321d64bf85a1e1df7387299be69c5c848a",
+    "ny16/2/phi": "4f895d1f5d0729a5ef7801d34fbd728b73bfbe272a9b599db563e06a0a0e1477",
+    "ny16/2/p": "82a82297b10ad9e53545ede38a528c5e95c4770aadbeafe36e462b3132f09474",
+    "ny32/0/U": "25d05435316b7b0b963f91b954fd889a3910b5a096f45e088ce5685457100a49",
+    "ny32/0/phi": "ad0b28c6f698f35b12e69ccde873deeb0d3a29d43daa016fd6ef8d479fca0977",
+    "ny32/0/p": "92f68a10d10fe6b661b56e9f2d4b3970875c60352634681c258c90850bed65d9",
+    "ny32/1/U": "278a3a9421d8f504bf4649f4b4da848a0cb408aea40c48f05b9a90bd447a4f37",
+    "ny32/1/phi": "4345f83cb2dd4034136364a4b0a49290f2b682126ea4f456ccfb4a44fb7e52ed",
+    "ny32/1/p": "92f68a10d10fe6b661b56e9f2d4b3970875c60352634681c258c90850bed65d9",
+    "ny32/system/fvSchemes": "66477ad339c3dcdb536f9e450b4336ab7361be6055dbac03ec8d5236a567a519",
+    "ny32/system/fvSolution": "662b0395e50667095e488a06a9c8fa826a9d7e2a191d74d93109cf34c713687b",
+    "ny32/system/blockMeshDict": "b14d97df7d1cffb735985852375c114bb80c357a2adc77d4064bbeb97980e198",
+    "ny32/system/controlDict": "6eb6cd6f83bdf7f614f85c18dea7044cadd019a33f5f0edbbbfd2762c7207f1c",
+    "ny32/constant/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+    "ny32/constant/physicalProperties": "d6d9cace34023d97b513158c9d75adbc0a05d240bdd4ad88f414ade47c8e4477",
+    "ny32/3/U": "0a4622bfc08015fe099a652b4ef9680829179d7f064e765c969d15873a43e1aa",
+    "ny32/3/phi": "f9ab868b694c3dedb00b55be9c7dfed143949734149d378198dc6313b8079921",
+    "ny32/3/p": "9828a5d4ea92f8e467c44fccdf073d033e81bdf835cbb1e1623259776c2a8270",
+    "ny32/2/U": "8da081413d4c0970a1727759ee3d312e95baa7d7d990e359d48cb28e0425fccd",
+    "ny32/2/phi": "63db60decc0604930b3444dadc250d03146a6246aa593e089c8b28add9fbeb18",
+    "ny32/2/p": "9828a5d4ea92f8e467c44fccdf073d033e81bdf835cbb1e1623259776c2a8270",
+    "ny8/0/U": "15a1c24c9401f8c7b471f6b3a788e73467cf8f32aa260120f1317300743f4a37",
+    "ny8/0/phi": "4ccf987eb3651a6c203185f866ba6b4963d8113c82aca7e77ee0ba4ffc1c3b77",
+    "ny8/0/p": "7a8c3afa28f5125c72b35491fa52d1416e46bdc898ba6ee0ddf6d7e48e217935",
+    "ny8/1/U": "c150471aca5d378ab3f7f1dc20e5866c685f296f8348594ec46eb55ddf64313e",
+    "ny8/1/phi": "aef1e5d30037f2e87dcfaac172b899269af6b6749a5fd38d52834a7dba6cad5d",
+    "ny8/1/p": "7a8c3afa28f5125c72b35491fa52d1416e46bdc898ba6ee0ddf6d7e48e217935",
+    "ny8/system/fvSchemes": "66477ad339c3dcdb536f9e450b4336ab7361be6055dbac03ec8d5236a567a519",
+    "ny8/system/fvSolution": "662b0395e50667095e488a06a9c8fa826a9d7e2a191d74d93109cf34c713687b",
+    "ny8/system/blockMeshDict": "a80cb391d0188d8205089338ae0cba9bf6de11dc1a9472deb9de013e47bfaac6",
+    "ny8/system/controlDict": "6eb6cd6f83bdf7f614f85c18dea7044cadd019a33f5f0edbbbfd2762c7207f1c",
+    "ny8/constant/momentumTransport": "fb83ae21ab74731caa4e6713864fa664645fb87d250a74c7d96dc54a489a7639",
+    "ny8/constant/physicalProperties": "d6d9cace34023d97b513158c9d75adbc0a05d240bdd4ad88f414ade47c8e4477",
+    "ny8/3/U": "f58dacce828f4d07d37c641e796b06f1c29cdb96fcce57100694fe93e418816b",
+    "ny8/3/phi": "a1429ee2480418983582d8ad9f8cf1d4fdf472b64f067cfe4a45e8da482e4908",
+    "ny8/3/p": "8220cdbdd689a9b5054a09cfbc10f33a6b4ee0308d7a9fbfe3a55a9fbf9113e0",
+    "ny8/2/U": "c804a2b8c32fd84e9fc57bdc9d59e56a3cb315e79ffb7c06234f0916903292ec",
+    "ny8/2/phi": "40d8640aefa1bfbf1021c868dfc5c326f85e825629f247b6c47055f3fdfbfeb6",
+    "ny8/2/p": "8220cdbdd689a9b5054a09cfbc10f33a6b4ee0308d7a9fbfe3a55a9fbf9113e0"
+  }
+}

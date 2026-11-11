@@ -1,0 +1,11 @@
+{
+  "dictionary_parse_passed": true,
+  "preflight_completed": true,
+  "loaded_p_Pa": 101325.0,
+  "loaded_T_K": 288.15,
+  "loaded_rho_kg_m3": 1.224999285,
+  "rho_positive": true,
+  "zero_uniform_pressure_force_verified": true,
+  "physical_loads_accepted": false,
+  "scope": "Input/model loading only. No convergence or solver validation against experiment."
+}

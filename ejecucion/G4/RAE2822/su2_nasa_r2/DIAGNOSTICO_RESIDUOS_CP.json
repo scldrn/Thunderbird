@@ -1,0 +1,133 @@
+{
+  "scope": "Residual location and complete-data diagnostic; not convergence/validation acceptance",
+  "residual_fields": {
+    "Residual_Density": {
+      "arithmetic_RMS_per_component": [
+        1.3226531131045537e-10
+      ],
+      "maximum_vector_magnitude": 2.332609105870631e-09,
+      "values_at_maximum": [
+        -2.332609105870631e-09
+      ],
+      "maximum_node_ID": 10995,
+      "xy_over_chord": [
+        0.509168,
+        0.06186528
+      ],
+      "maximum_is_wall_node": true,
+      "nearest_wall_vertex_distance_chords": 0.0
+    },
+    "Residual_Momentum": {
+      "arithmetic_RMS_per_component": [
+        1.0958141469946446e-07,
+        3.2661934918917606e-08,
+        0.0
+      ],
+      "maximum_vector_magnitude": 1.913513683307287e-06,
+      "values_at_maximum": [
+        -1.8741415743761536e-06,
+        3.86170914750313e-07,
+        0.0
+      ],
+      "maximum_node_ID": 20318,
+      "xy_over_chord": [
+        1.048699,
+        -0.009763754
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 0.04966813357850809
+    },
+    "Residual_Energy": {
+      "arithmetic_RMS_per_component": [
+        2.619872109415424e-05
+      ],
+      "maximum_vector_magnitude": 0.00045964145101606846,
+      "values_at_maximum": [
+        -0.00045964145101606846
+      ],
+      "maximum_node_ID": 10995,
+      "xy_over_chord": [
+        0.509168,
+        0.06186528
+      ],
+      "maximum_is_wall_node": true,
+      "nearest_wall_vertex_distance_chords": 0.0
+    },
+    "Residual_TKE": {
+      "arithmetic_RMS_per_component": [
+        0.00011614141593027591
+      ],
+      "maximum_vector_magnitude": 0.005496080779605015,
+      "values_at_maximum": [
+        0.005496080779605015
+      ],
+      "maximum_node_ID": 20310,
+      "xy_over_chord": [
+        1.048661,
+        -0.009946786
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 0.049667207216933455
+    },
+    "Residual_Omega": {
+      "arithmetic_RMS_per_component": [
+        0.01622736442762181
+      ],
+      "maximum_vector_magnitude": 0.6916815664172579,
+      "values_at_maximum": [
+        0.6916815664172579
+      ],
+      "maximum_node_ID": 20310,
+      "xy_over_chord": [
+        1.048661,
+        -0.009946786
+      ],
+      "maximum_is_wall_node": false,
+      "nearest_wall_vertex_distance_chords": 0.049667207216933455
+    }
+  },
+  "residual_export_not_assumed_identical_to_history_stage_or_normalization": true,
+  "Cp_regions": {
+    "all_103": {
+      "points": 103,
+      "own_RMS": 0.12210127091156377,
+      "published_WIND_SA_RMS": 0.10682682210129264
+    },
+    "leading_edge_x_lt_0p02": {
+      "points": 27,
+      "own_RMS": 0.1965443813873442,
+      "published_WIND_SA_RMS": 0.18987861433942396
+    },
+    "mid_chord_0p4_to_0p65": {
+      "points": 22,
+      "own_RMS": 0.14166638646558985,
+      "published_WIND_SA_RMS": 0.08781143678196186
+    },
+    "remaining_points": {
+      "points": 54,
+      "own_RMS": 0.03075302804138282,
+      "published_WIND_SA_RMS": 0.024471924722553048
+    }
+  },
+  "points_removed": 0,
+  "worst_own_Cp_point": {
+    "index": 52,
+    "x_over_c": 0.0002,
+    "branch": "upper",
+    "experimental": -0.4219,
+    "own": 0.5699671859000058,
+    "published_WIND_SA": 0.5339172634990897
+  },
+  "published_WIND_is_SA_not_SST": true,
+  "interpretation": "Similar error against the published computation is context, not an experimental acceptance test or proof of the cause.",
+  "experimental_Cp_error_reported_approximately": 0.0026,
+  "experimental_error_is_not_own_acceptance_tolerance": true,
+  "physical_validation_accepted": false,
+  "source_URL": "https://www.grc.nasa.gov/www/wind/valid/raetaf/raetaf04/raetaf04.html",
+  "source_sha256": {
+    "flow.vtu": "0f3c9ecaee251f173c26000084a98730065f319a6f87f97b50dfa4b95ac0bd97",
+    "Cp_CONTRASTE_PROVISIONAL.csv": "7865e41fcbc7382f3d858a5d19e6d25c7977d2fa2e90f77845746ae0074d0d84",
+    "cp.wind.gen": "eb4371990d743e1fd66c97efde5f66d78109d72a771d23b967a2712d84f02d6c",
+    "cp.exp.gen": "739bbec6bd8775240bcf571fc8356701cab4c773c4e3d3b21deea5a3f627f001"
+  }
+}

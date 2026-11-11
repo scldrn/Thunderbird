@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aero-investigacion.local/schemas/contrato_masa_cg_v1.json",
+  "title": "ContratoMasaCG",
+  "description": "Contrato versionado para magnitudes de masa, centro de gravedad (CG) y tensor de inercia respecto al CG, con trazabilidad epistémica (medido, supuesto, calculado, no asignado), unidades canónicas y especificación rigurosa de marcos de referencia y orígenes.",
+  "type": "object",
+  "required": [
+    "version_esquema",
+    "id_contrato",
+    "fecha",
+    "unidades_canonicas",
+    "masa",
+    "posicion_cg",
+    "tensor_inercia_cg"
+  ],
+  "properties": {
+    "version_esquema": {
+      "type": "string",
+      "enum": ["1.0.0"],
+      "description": "Versión semántica del esquema de contrato."
+    },
+    "id_contrato": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_\\-\\.]+$",
+      "description": "Identificador único y trazable de la instancia de contrato."
+    },
+    "fecha": {
+      "type": "string",
+      "description": "Fecha de emisión o registro del contrato (formato YYYY-MM-DD o ISO-8601)."
+    },
+    "descripcion": {
+      "type": "string",
+      "description": "Descripción del propósito y alcance del conjunto de magnitudes."
+    },
+    "unidades_canonicas": {
+      "type": "object",
+      "required": ["masa", "longitud", "inercia", "angulo"],
+      "properties": {
+        "masa": { "type": "string", "enum": ["kg"] },
+        "longitud": { "type": "string", "enum": ["m"] },
+        "inercia": { "type": "string", "enum": ["kg m^2", "kg*m^2"] },
+        "angulo": { "type": "string", "enum": ["rad", "deg"] }
+      },
+      "additionalProperties": false
+    },
+    "masa": {
+      "type": "object",
+      "required": ["valor_kg", "unidad", "trazabilidad"],
+      "properties": {
+        "valor_kg": {
+          "type": ["number", "null"],
+          "exclusiveMinimum": 0.0,
+          "description": "Valor escalar de masa en kilogramos. Si es null, representa una reserva no asignada o medición no disponible. NUNCA debe sustituirse por cero."
+        },
+        "unidad": { "type": "string", "enum": ["kg"] },
+        "trazabilidad": { "$ref": "#/$defs/MetadatosTrazabilidad" }
+      },
+      "additionalProperties": false
+    },
+    "posicion_cg": {
+      "type": "object",
+      "required": ["valor_m", "unidad", "marco_referencia", "origen_referencia", "trazabilidad"],
+      "properties": {
+        "valor_m": {
+          "type": ["array", "null"],
+          "items": { "type": "number" },
+          "minItems": 3,
+          "maxItems": 3,
+          "description": "Coordenadas [x, y, z] del CG en metros. Si es null, no está asignado. NUNCA sustituir por [0,0,0]."
+        },
+        "unidad": { "type": "string", "enum": ["m"] },
+        "marco_referencia": { "type": "string", "enum": ["CAD", "FLU"] },
+        "origen_referencia": {
+          "type": "string",
+          "description": "Identificador del origen contra el que se miden las coordenadas (ej. 'CAD_DATUM', 'ESTACION_FUSELAJE_0')."
+        },
+        "trazabilidad": { "$ref": "#/$defs/MetadatosTrazabilidad" }
+      },
+      "additionalProperties": false
+    },
+    "tensor_inercia_cg": {
+      "type": "object",
+      "required": ["valor_kg_m2", "unidad", "marco_referencia", "respecto_al_cg", "trazabilidad"],
+      "properties": {
+        "valor_kg_m2": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "array",
+            "items": { "type": "number" },
+            "minItems": 3,
+            "maxItems": 3
+          },
+          "minItems": 3,
+          "maxItems": 3,
+          "description": "Matriz 3x3 simétrica y semidefinida positiva respecto al CG en kg*m^2. Si es null, no está asignado."
+        },
+        "unidad": { "type": "string", "enum": ["kg m^2", "kg*m^2"] },
+        "marco_referencia": { "type": "string", "enum": ["CAD", "FLU"] },
+        "respecto_al_cg": {
+          "type": "boolean",
+          "const": true,
+          "description": "Debe ser true: el tensor se define siempre respecto al centro de gravedad del vehículo."
+        },
+        "trazabilidad": { "$ref": "#/$defs/MetadatosTrazabilidad" }
+      },
+      "additionalProperties": false
+    },
+    "notas_adicionales": {
+      "type": ["string", "null"],
+      "description": "Notas técnicas adicionales, advertencias físicas o trazabilidad de conversiones."
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "MetadatosTrazabilidad": {
+      "type": "object",
+      "required": ["naturaleza", "fuente"],
+      "properties": {
+        "naturaleza": {
+          "type": "string",
+          "enum": ["medido", "supuesto", "calculado", "no_asignado"],
+          "description": "Distingue si el valor procede de medición física en banco, suposición/presupuesto, cálculo computacional o reserva sin asignar."
+        },
+        "fuente": {
+          "type": "string",
+          "description": "Referencia documental, identificador de sensor o archivo de procedencia."
+        },
+        "metodo": {
+          "type": ["string", "null"],
+          "description": "Método de medición o cálculo (ej. péndulo trifilar, integración CAD, asignación presupuestaria)."
+        },
+        "fecha": {
+          "type": ["string", "null"],
+          "description": "Fecha de obtención del dato."
+        },
+        "incertidumbre": {
+          "type": ["string", "null"],
+          "description": "Incertidumbre declarada o banda de confianza (ej. '±0.02 kg', 'k=2')."
+        },
+        "notas": {
+          "type": ["string", "null"],
+          "description": "Observaciones sobre validez, condiciones ambientales o limitaciones."
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

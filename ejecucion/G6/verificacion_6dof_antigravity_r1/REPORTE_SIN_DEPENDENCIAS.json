@@ -1,0 +1,30 @@
+{
+  "entorno": {
+    "python_version": "3.9.6 (default, Aug 25 2026, 21:26:21) \n[Clang 21.0.0 (clang-2100.3.34.2)]",
+    "executable": "/Library/Developer/CommandLineTools/usr/bin/python3",
+    "simular_path": "/private/tmp/aero_20261108T041236Z_b586a83a_abiz4snh/tests_dinamica_6dof/salidas/simular.py",
+    "simular_exists": true
+  },
+  "dependencias": {
+    "numpy_disponible": false,
+    "scipy_disponible": false,
+    "faltantes": [
+      "numpy",
+      "scipy"
+    ]
+  },
+  "declaracion_formal": {
+    "ejecutado": false,
+    "motivo": "M\u00f3dulos faltantes: ['numpy', 'scipy']",
+    "afirmacion_exito": false,
+    "mensaje": "DECLARACI\u00d3N FORMAL: Dependencias requeridas no disponibles: ['numpy', 'scipy']. El integrador r\u00edgido original en 'simular.py' requiere numpy y scipy (scipy.spatial.transform.Rotation y operaciones matriciales numpy). Por consiguiente, las pruebas directas sobre 'simular.py' NO SE EJECUTARON. Se evita formalmente afirmar \u00e9xito en la ejecuci\u00f3n de estas pruebas en este entorno.",
+    "comando_recomendado": "python3 salidas/test_integrador_rigido.py"
+  },
+  "pruebas": {},
+  "resumen_ejecucion": {
+    "pruebas_ejecutadas": 0,
+    "pruebas_exitosas": 0,
+    "pruebas_omitidas": 3,
+    "estado_global": "NO_EJECUTADO"
+  }
+}

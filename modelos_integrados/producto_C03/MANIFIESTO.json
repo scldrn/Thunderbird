@@ -1,0 +1,119 @@
+{
+  "revision": "C03_concepto",
+  "units_cad": "mm",
+  "source_step": "ejecucion/G3/C02/integracion_x160/C02_integracion_x160_5kg_cerrado_CANDIDATA.step",
+  "source_sha256": "c587381e42e5eba78454f9bc263a9db51b75114875ab281eaa4fbb33666b439e",
+  "door_rules": "ejecucion/G3/C02/integracion_x160/REGLAS_TAPAS_CONCEPTUALES.json",
+  "architecture": "four internal fixed rotors, eight conceptual doors",
+  "validated_performance": false,
+  "manufacturing_release": false,
+  "ten_kg_is_geometric_scale_only": true,
+  "parts_per_variant": 316,
+  "mesh_tolerance_mm": 0.3,
+  "variants": [
+    {
+      "mass_target_kg": 5,
+      "state": "cerrado",
+      "scale_from_5kg": 1.0,
+      "native_file": "5kg/C03_5kg_cerrado.FCStd",
+      "native_sha256": "fe15cb8d9613e4c06e1e5d336ecae4153fac9e8a50ec3f065b7b65b7b6fa9e8d",
+      "step_file": "5kg/C03_5kg_cerrado.step",
+      "step_sha256": "fdd770e2f412b9dce047640555120331f554ea0981912d1e181a3e9aeb3555fd",
+      "records_created": 316,
+      "invalid_shapes": [],
+      "scale_volume_errors": [],
+      "door_center_displacements_mm": {},
+      "display_mesh": "5kg/C03_5kg_cerrado_mallas.json.gz",
+      "mesh_bounds_m": [
+        [
+          -0.68,
+          0.661
+        ],
+        [
+          -0.16089560380080106,
+          0.16089560380120702
+        ],
+        [
+          -0.1212688129734,
+          0.12126881297349
+        ]
+      ]
+    },
+    {
+      "mass_target_kg": 5,
+      "state": "abierto",
+      "scale_from_5kg": 1.0,
+      "native_file": "5kg/C03_5kg_abierto.FCStd",
+      "native_sha256": "5268cdbe45e73875ea25e4d88848c3eaf61c188099e2d5fe5c7a35104cc4281c",
+      "step_file": "5kg/C03_5kg_abierto.step",
+      "step_sha256": "76454c6dfca405c9a6d6b09b6940a1a96e125257f97341e7e3f4775b30fc3c01",
+      "records_created": 316,
+      "invalid_shapes": [],
+      "scale_volume_errors": [],
+      "door_center_displacements_mm": {
+        "compuerta_C02_0_superior": 90.0906078860686,
+        "compuerta_C02_0_inferior": 86.91026553571933,
+        "compuerta_C02_1_superior": 90.09061196194334,
+        "compuerta_C02_1_inferior": 86.91025893844599,
+        "compuerta_C02_2_superior": 94.91156160830093,
+        "compuerta_C02_2_inferior": 90.31703998007218,
+        "compuerta_C02_3_superior": 94.91159059687195,
+        "compuerta_C02_3_inferior": 90.31703044913351
+      },
+      "display_mesh": "5kg/C03_5kg_abierto_mallas.json.gz",
+      "mesh_bounds_m": [
+        [
+          -0.68,
+          0.661
+        ],
+        [
+          -0.20149478660066866,
+          0.20149463153546715
+        ],
+        [
+          -0.14519638508576393,
+          0.15341687652259503
+        ]
+      ]
+    },
+    {
+      "mass_target_kg": 10,
+      "state": "cerrado",
+      "scale_from_5kg": 1.2599210498948732,
+      "native_file": "10kg/C03_10kg_cerrado.FCStd",
+      "native_sha256": "3ead936b0554266fd22dbfd314cdb38c76ed0813eb928dc5c4620fc6922d4055",
+      "step_file": "10kg/C03_10kg_cerrado.step",
+      "step_sha256": "528bc10fee0756f450ca1efcaea70539213592807834e1211c45b819687d3f89",
+      "records_created": 316,
+      "invalid_shapes": [],
+      "scale_volume_errors": [],
+      "door_center_displacements_mm": {},
+      "display_mesh": null,
+      "mesh_bounds_m": null
+    },
+    {
+      "mass_target_kg": 10,
+      "state": "abierto",
+      "scale_from_5kg": 1.2599210498948732,
+      "native_file": "10kg/C03_10kg_abierto.FCStd",
+      "native_sha256": "f1cd177440490a1717f9fbd941645671fa50affb1ef56039c7e0d16e9f780479",
+      "step_file": "10kg/C03_10kg_abierto.step",
+      "step_sha256": "ce50eafef4ff35ac67de3ecfcd714799002737ffb94ea123abd7bcf2d4f16274",
+      "records_created": 316,
+      "invalid_shapes": [],
+      "scale_volume_errors": [],
+      "door_center_displacements_mm": {
+        "compuerta_C02_0_superior": 113.50705327348288,
+        "compuerta_C02_0_inferior": 109.50007300040572,
+        "compuerta_C02_1_superior": 113.50705840876327,
+        "compuerta_C02_1_inferior": 109.50006468836216,
+        "compuerta_C02_2_superior": 119.58107434869244,
+        "compuerta_C02_2_inferior": 113.79233983508978,
+        "compuerta_C02_3_superior": 119.58111087200328,
+        "compuerta_C02_3_inferior": 113.79232782685952
+      },
+      "display_mesh": null,
+      "mesh_bounds_m": null
+    }
+  ]
+}

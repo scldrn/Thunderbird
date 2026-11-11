@@ -1,0 +1,18 @@
+{
+  "tests_ejecutados": 7,
+  "tests_exitosos": true,
+  "errores": 0,
+  "fallos": 0,
+  "demostracion_potencia_finita_V0": {
+    "estado": "DEMOSTRADO",
+    "formula_cerrada": "P_static = T^(3/2) / sqrt(2 * rho * A)",
+    "observacion": "A diferencia del modelo previo donde P(0) = 0, el modelo de disco captura la potencia requerida para impartir cantidad de movimiento a la estela en reposo."
+  },
+  "convergencia_resumen": {
+    "orden_asintotico_trapecio_esperado": 2.0,
+    "orden_asintotico_trapecio_observado": 1.9999993640516982,
+    "orden_asintotico_simpson_esperado": 4.0,
+    "orden_asintotico_simpson_observado": -1.3785116232537298,
+    "error_relativo_simpson_N16384": 1.890449479197059e-15
+  }
+}

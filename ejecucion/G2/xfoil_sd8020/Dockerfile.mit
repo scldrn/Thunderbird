@@ -1,0 +1,11 @@
+FROM codex-aero-xfoil-fuentes-6.996:latest
+
+# MIT's 6.996 Makefile defaults to double precision and leaves CHK empty.
+# The compatibility flag permits legacy Fortran argument conventions.
+RUN cd /opt/xfoil-source/Xfoil/plotlib \
+    && make gfortranDP FFLAGS="-O2 -fdefault-real-8 -fallow-argument-mismatch" \
+    && cd ../bin \
+    && make xfoil BINDIR=/tmp INSTALLCMD=true \
+       FFLAGS="-O -g -fdefault-real-8 -fallow-argument-mismatch" \
+       FFLOPT="-O -g -fdefault-real-8 -fallow-argument-mismatch" \
+    && sha256sum xfoil > /opt/xfoil-source/XFOIL_BUILT_SHA256

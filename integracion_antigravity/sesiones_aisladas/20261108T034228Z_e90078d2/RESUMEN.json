@@ -1,0 +1,30 @@
+{
+  "inicio_utc": "2026-11-08T03:42:28.496356+00:00",
+  "estado": "completado",
+  "tareas": [
+    "revisar_uiuc_estatico",
+    "revisar_uiuc_avance",
+    "revisar_energia",
+    "revisar_cg",
+    "recuperar_jerk",
+    "revisar_termica",
+    "revisar_respuesta",
+    "revisar_bom",
+    "recuperar_plan",
+    "recuperar_cfd",
+    "revisar_estructura",
+    "revisar_polar"
+  ],
+  "trabajadores": 12,
+  "workspace_temporal": "/private/tmp/aero_20261108T034228Z_e90078d2_dhlokcs0",
+  "fin_utc": "2026-11-08T03:52:13.203765+00:00",
+  "recolectadas": 12,
+  "requieren_revision": [
+    "revisar_uiuc_estatico",
+    "revisar_energia",
+    "recuperar_jerk",
+    "revisar_cg",
+    "revisar_uiuc_avance",
+    "revisar_estructura"
+  ]
+}

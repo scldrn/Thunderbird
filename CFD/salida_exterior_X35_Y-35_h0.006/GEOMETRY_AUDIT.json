@@ -1,0 +1,16 @@
+{
+  "cells": 1263510,
+  "all_tetrahedra_positive": true,
+  "min_tetra_volume_m3": 1.2065013189064035e-10,
+  "analytic_volume_m3": 0.2300140426870065,
+  "occ_volume_m3": 0.23001404268700662,
+  "tetra_mesh_volume_m3": 0.2297117987395846,
+  "relative_polygonal_volume_error": 0.0013140238912855396,
+  "inlet_area_verified": true,
+  "flow_solved": false,
+  "loads_accepted": false,
+  "limitations": [
+    "not a non-orthogonality, skewness or wall-resolution check",
+    "no flow or domain-size sensitivity"
+  ]
+}

@@ -1,0 +1,850 @@
+{
+  "modelo": "A07_RESEARCH_BASE_2026-11-03_r1",
+  "fuente_codigo": "entradas/investigacion-aeronautica/modelos_integrados/producto_A07/crear_A07.py",
+  "escala_referencia_masa_kg": 5,
+  "longitud_total_fuselaje_mm": 1340,
+  "longitud_total_fuselaje_m": 1.34,
+  "estacion_nariz_x_mm": -680,
+  "estacion_cola_x_mm": 660,
+  "area_maxima_transversal_mm2": 48591.7,
+  "area_maxima_transversal_cm2": 485.92,
+  "estacion_area_maxima_x_mm": -140,
+  "volumen_trapezoidal_litros": 38.881,
+  "volumen_loft_bruto_cad_litros": 40.09,
+  "fuente_volumen_cad": "DECISION-ARQUITECTURA.md línea 37",
+  "observacion_simetria": "El cuerpo NO posee simetría circular (revolución). Presenta aplanamiento (W/H entre 1.12 y 1.81) y curvatura asimétrica en Z (Zcg positivo en todas las secciones debido a que la cota superior alcanza +1.0*h mientras la cota inferior solo alcanza -0.78*h).",
+  "estaciones": [
+    {
+      "estacion_x_mm": -680,
+      "semi_ancho_w_mm": 7,
+      "semi_alto_h_mm": 6,
+      "ancho_total_mm": 14.0,
+      "alto_total_mm": 10.68,
+      "relacion_aspecto_W_H": 1.311,
+      "area_exterior_mm2": 119.21,
+      "area_exterior_cm2": 1.19,
+      "area_exterior_m2": 0.000119,
+      "perimetro_exterior_mm": 39.85,
+      "centroide_exterior_y_mm": -0.0,
+      "centroide_exterior_z_mm": 0.549,
+      "diametro_equivalente_mm": 12.32,
+      "offset_recorte_d_mm": 2.0,
+      "area_interior_recorte_mm2": 52.62,
+      "area_interior_recorte_cm2": 0.53,
+      "perimetro_interior_recorte_mm": 26.74,
+      "centroide_interior_z_mm": 0.567,
+      "vertices_exterior_10": [
+        [
+          7.0,
+          0.0
+        ],
+        [
+          5.53,
+          4.02
+        ],
+        [
+          2.59,
+          6.0
+        ],
+        [
+          -2.59,
+          6.0
+        ],
+        [
+          -5.53,
+          4.02
+        ],
+        [
+          -7.0,
+          0.0
+        ],
+        [
+          -5.25,
+          -3.72
+        ],
+        [
+          -2.24,
+          -4.68
+        ],
+        [
+          2.24,
+          -4.68
+        ],
+        [
+          5.25,
+          -3.72
+        ]
+      ],
+      "vertices_interior_10": [
+        [
+          4.835,
+          0.097
+        ],
+        [
+          3.875,
+          2.724
+        ],
+        [
+          1.979,
+          4.0
+        ],
+        [
+          -1.979,
+          4.0
+        ],
+        [
+          -3.875,
+          2.724
+        ],
+        [
+          -4.835,
+          0.097
+        ],
+        [
+          -3.811,
+          -2.08
+        ],
+        [
+          -1.929,
+          -2.68
+        ],
+        [
+          1.929,
+          -2.68
+        ],
+        [
+          3.811,
+          -2.08
+        ]
+      ]
+    },
+    {
+      "estacion_x_mm": -580,
+      "semi_ancho_w_mm": 58,
+      "semi_alto_h_mm": 36,
+      "ancho_total_mm": 116.0,
+      "alto_total_mm": 64.08,
+      "relacion_aspecto_W_H": 1.81,
+      "area_exterior_mm2": 5926.37,
+      "area_exterior_cm2": 59.26,
+      "area_exterior_m2": 0.005926,
+      "perimetro_exterior_mm": 292.71,
+      "centroide_exterior_y_mm": 0.0,
+      "centroide_exterior_z_mm": 3.294,
+      "diametro_equivalente_mm": 86.87,
+      "offset_recorte_d_mm": 2.0,
+      "area_interior_recorte_mm2": 5354.23,
+      "area_interior_recorte_cm2": 53.54,
+      "perimetro_interior_recorte_mm": 279.43,
+      "centroide_interior_z_mm": 3.317,
+      "vertices_exterior_10": [
+        [
+          58.0,
+          0.0
+        ],
+        [
+          45.82,
+          24.12
+        ],
+        [
+          21.46,
+          36.0
+        ],
+        [
+          -21.46,
+          36.0
+        ],
+        [
+          -45.82,
+          24.12
+        ],
+        [
+          -58.0,
+          0.0
+        ],
+        [
+          -43.5,
+          -22.32
+        ],
+        [
+          -18.56,
+          -28.08
+        ],
+        [
+          18.56,
+          -28.08
+        ],
+        [
+          43.5,
+          -22.32
+        ]
+      ],
+      "vertices_interior_10": [
+        [
+          55.696,
+          0.125
+        ],
+        [
+          44.338,
+          22.617
+        ],
+        [
+          20.998,
+          34.0
+        ],
+        [
+          -20.998,
+          34.0
+        ],
+        [
+          -44.338,
+          22.617
+        ],
+        [
+          -55.696,
+          0.125
+        ],
+        [
+          -42.263,
+          -20.553
+        ],
+        [
+          -18.332,
+          -26.08
+        ],
+        [
+          18.332,
+          -26.08
+        ],
+        [
+          42.263,
+          -20.553
+        ]
+      ]
+    },
+    {
+      "estacion_x_mm": -400,
+      "semi_ancho_w_mm": 127,
+      "semi_alto_h_mm": 80,
+      "ancho_total_mm": 254.0,
+      "alto_total_mm": 142.4,
+      "relacion_aspecto_W_H": 1.784,
+      "area_exterior_mm2": 28837.13,
+      "area_exterior_cm2": 288.37,
+      "area_exterior_m2": 0.028837,
+      "perimetro_exterior_mm": 643.99,
+      "centroide_exterior_y_mm": 0.0,
+      "centroide_exterior_z_mm": 7.321,
+      "diametro_equivalente_mm": 191.62,
+      "offset_recorte_d_mm": 2.0,
+      "area_interior_recorte_mm2": 27562.41,
+      "area_interior_recorte_cm2": 275.62,
+      "perimetro_interior_recorte_mm": 630.72,
+      "centroide_interior_z_mm": 7.342,
+      "vertices_exterior_10": [
+        [
+          127.0,
+          0.0
+        ],
+        [
+          100.33,
+          53.6
+        ],
+        [
+          46.99,
+          80.0
+        ],
+        [
+          -46.99,
+          80.0
+        ],
+        [
+          -100.33,
+          53.6
+        ],
+        [
+          -127.0,
+          0.0
+        ],
+        [
+          -95.25,
+          -49.6
+        ],
+        [
+          -40.64,
+          -62.4
+        ],
+        [
+          40.64,
+          -62.4
+        ],
+        [
+          95.25,
+          -49.6
+        ]
+      ],
+      "vertices_interior_10": [
+        [
+          124.705,
+          0.124
+        ],
+        [
+          98.839,
+          52.106
+        ],
+        [
+          46.522,
+          78.0
+        ],
+        [
+          -46.522,
+          78.0
+        ],
+        [
+          -98.839,
+          52.106
+        ],
+        [
+          -124.705,
+          0.124
+        ],
+        [
+          -94.003,
+          -47.838
+        ],
+        [
+          -40.409,
+          -60.4
+        ],
+        [
+          40.409,
+          -60.4
+        ],
+        [
+          94.003,
+          -47.838
+        ]
+      ]
+    },
+    {
+      "estacion_x_mm": -140,
+      "semi_ancho_w_mm": 160,
+      "semi_alto_h_mm": 107,
+      "ancho_total_mm": 320.0,
+      "alto_total_mm": 190.46,
+      "relacion_aspecto_W_H": 1.68,
+      "area_exterior_mm2": 48591.7,
+      "area_exterior_cm2": 485.92,
+      "area_exterior_m2": 0.048592,
+      "perimetro_exterior_mm": 827.7,
+      "centroide_exterior_y_mm": 0.0,
+      "centroide_exterior_z_mm": 9.791,
+      "diametro_equivalente_mm": 248.73,
+      "offset_recorte_d_mm": 2.0,
+      "area_interior_recorte_mm2": 46949.52,
+      "area_interior_recorte_cm2": 469.5,
+      "perimetro_interior_recorte_mm": 814.47,
+      "centroide_interior_z_mm": 9.812,
+      "vertices_exterior_10": [
+        [
+          160.0,
+          0.0
+        ],
+        [
+          126.4,
+          71.69
+        ],
+        [
+          59.2,
+          107.0
+        ],
+        [
+          -59.2,
+          107.0
+        ],
+        [
+          -126.4,
+          71.69
+        ],
+        [
+          -160.0,
+          0.0
+        ],
+        [
+          -120.0,
+          -66.34
+        ],
+        [
+          -51.2,
+          -83.46
+        ],
+        [
+          51.2,
+          -83.46
+        ],
+        [
+          120.0,
+          -66.34
+        ]
+      ],
+      "vertices_interior_10": [
+        [
+          157.736,
+          0.118
+        ],
+        [
+          124.874,
+          70.232
+        ],
+        [
+          58.707,
+          105.0
+        ],
+        [
+          -58.707,
+          105.0
+        ],
+        [
+          -124.874,
+          70.232
+        ],
+        [
+          -157.736,
+          0.118
+        ],
+        [
+          -118.714,
+          -64.599
+        ],
+        [
+          -50.955,
+          -81.46
+        ],
+        [
+          50.955,
+          -81.46
+        ],
+        [
+          118.714,
+          -64.599
+        ]
+      ]
+    },
+    {
+      "estacion_x_mm": 160,
+      "semi_ancho_w_mm": 150,
+      "semi_alto_h_mm": 103,
+      "ancho_total_mm": 300.0,
+      "alto_total_mm": 183.34,
+      "relacion_aspecto_W_H": 1.636,
+      "area_exterior_mm2": 43851.74,
+      "area_exterior_cm2": 438.52,
+      "area_exterior_m2": 0.043852,
+      "perimetro_exterior_mm": 783.14,
+      "centroide_exterior_y_mm": 0.0,
+      "centroide_exterior_z_mm": 9.425,
+      "diametro_equivalente_mm": 236.29,
+      "offset_recorte_d_mm": 2.0,
+      "area_interior_recorte_mm2": 42298.65,
+      "area_interior_recorte_cm2": 422.99,
+      "perimetro_interior_recorte_mm": 769.94,
+      "centroide_interior_z_mm": 9.446,
+      "vertices_exterior_10": [
+        [
+          150.0,
+          0.0
+        ],
+        [
+          118.5,
+          69.01
+        ],
+        [
+          55.5,
+          103.0
+        ],
+        [
+          -55.5,
+          103.0
+        ],
+        [
+          -118.5,
+          69.01
+        ],
+        [
+          -150.0,
+          0.0
+        ],
+        [
+          -112.5,
+          -63.86
+        ],
+        [
+          -48.0,
+          -80.34
+        ],
+        [
+          48.0,
+          -80.34
+        ],
+        [
+          112.5,
+          -63.86
+        ]
+      ],
+      "vertices_interior_10": [
+        [
+          147.749,
+          0.116
+        ],
+        [
+          116.959,
+          67.569
+        ],
+        [
+          54.995,
+          101.0
+        ],
+        [
+          -54.995,
+          101.0
+        ],
+        [
+          -116.959,
+          67.569
+        ],
+        [
+          -147.749,
+          0.116
+        ],
+        [
+          -111.197,
+          -62.129
+        ],
+        [
+          -47.749,
+          -78.34
+        ],
+        [
+          47.749,
+          -78.34
+        ],
+        [
+          111.197,
+          -62.129
+        ]
+      ]
+    },
+    {
+      "estacion_x_mm": 400,
+      "semi_ancho_w_mm": 112,
+      "semi_alto_h_mm": 78,
+      "ancho_total_mm": 224.0,
+      "alto_total_mm": 138.84,
+      "relacion_aspecto_W_H": 1.613,
+      "area_exterior_mm2": 24795.39,
+      "area_exterior_cm2": 247.95,
+      "area_exterior_m2": 0.024795,
+      "perimetro_exterior_mm": 587.68,
+      "centroide_exterior_y_mm": 0.0,
+      "centroide_exterior_z_mm": 7.138,
+      "diametro_equivalente_mm": 177.68,
+      "offset_recorte_d_mm": 2.0,
+      "area_interior_recorte_mm2": 23633.22,
+      "area_interior_recorte_cm2": 236.33,
+      "perimetro_interior_recorte_mm": 574.49,
+      "centroide_interior_z_mm": 7.158,
+      "vertices_exterior_10": [
+        [
+          112.0,
+          0.0
+        ],
+        [
+          88.48,
+          52.26
+        ],
+        [
+          41.44,
+          78.0
+        ],
+        [
+          -41.44,
+          78.0
+        ],
+        [
+          -88.48,
+          52.26
+        ],
+        [
+          -112.0,
+          0.0
+        ],
+        [
+          -84.0,
+          -48.36
+        ],
+        [
+          -35.84,
+          -60.84
+        ],
+        [
+          35.84,
+          -60.84
+        ],
+        [
+          84.0,
+          -48.36
+        ]
+      ],
+      "vertices_interior_10": [
+        [
+          109.755,
+          0.114
+        ],
+        [
+          86.931,
+          50.827
+        ],
+        [
+          40.929,
+          76.0
+        ],
+        [
+          -40.929,
+          76.0
+        ],
+        [
+          -86.931,
+          50.827
+        ],
+        [
+          -109.755,
+          0.114
+        ],
+        [
+          -82.688,
+          -46.634
+        ],
+        [
+          -35.585,
+          -58.84
+        ],
+        [
+          35.585,
+          -58.84
+        ],
+        [
+          82.688,
+          -46.634
+        ]
+      ]
+    },
+    {
+      "estacion_x_mm": 570,
+      "semi_ancho_w_mm": 63,
+      "semi_alto_h_mm": 47,
+      "ancho_total_mm": 126.0,
+      "alto_total_mm": 83.66,
+      "relacion_aspecto_W_H": 1.506,
+      "area_exterior_mm2": 8404.21,
+      "area_exterior_cm2": 84.04,
+      "area_exterior_m2": 0.008404,
+      "perimetro_exterior_mm": 339.07,
+      "centroide_exterior_y_mm": 0.0,
+      "centroide_exterior_z_mm": 4.301,
+      "diametro_equivalente_mm": 103.44,
+      "offset_recorte_d_mm": 2.0,
+      "area_interior_recorte_mm2": 7739.22,
+      "area_interior_recorte_cm2": 77.39,
+      "perimetro_interior_recorte_mm": 325.91,
+      "centroide_interior_z_mm": 4.32,
+      "vertices_exterior_10": [
+        [
+          63.0,
+          0.0
+        ],
+        [
+          49.77,
+          31.49
+        ],
+        [
+          23.31,
+          47.0
+        ],
+        [
+          -23.31,
+          47.0
+        ],
+        [
+          -49.77,
+          31.49
+        ],
+        [
+          -63.0,
+          0.0
+        ],
+        [
+          -47.25,
+          -29.14
+        ],
+        [
+          -20.16,
+          -36.66
+        ],
+        [
+          20.16,
+          -36.66
+        ],
+        [
+          47.25,
+          -29.14
+        ]
+      ],
+      "vertices_interior_10": [
+        [
+          60.785,
+          0.108
+        ],
+        [
+          48.184,
+          30.101
+        ],
+        [
+          22.767,
+          45.0
+        ],
+        [
+          -22.767,
+          45.0
+        ],
+        [
+          -48.184,
+          30.101
+        ],
+        [
+          -60.785,
+          0.108
+        ],
+        [
+          -45.895,
+          -27.44
+        ],
+        [
+          -19.888,
+          -34.66
+        ],
+        [
+          19.888,
+          -34.66
+        ],
+        [
+          45.895,
+          -27.44
+        ]
+      ]
+    },
+    {
+      "estacion_x_mm": 660,
+      "semi_ancho_w_mm": 25,
+      "semi_alto_h_mm": 25,
+      "ancho_total_mm": 50.0,
+      "alto_total_mm": 44.5,
+      "relacion_aspecto_W_H": 1.124,
+      "area_exterior_mm2": 1773.94,
+      "area_exterior_cm2": 17.74,
+      "area_exterior_m2": 0.001774,
+      "perimetro_exterior_mm": 152.68,
+      "centroide_exterior_y_mm": 0.0,
+      "centroide_exterior_z_mm": 2.288,
+      "diametro_equivalente_mm": 47.53,
+      "offset_recorte_d_mm": 2.0,
+      "area_interior_recorte_mm2": 1481.66,
+      "area_interior_recorte_cm2": 14.82,
+      "perimetro_interior_recorte_mm": 139.6,
+      "centroide_interior_z_mm": 2.297,
+      "vertices_exterior_10": [
+        [
+          25.0,
+          0.0
+        ],
+        [
+          19.75,
+          16.75
+        ],
+        [
+          9.25,
+          25.0
+        ],
+        [
+          -9.25,
+          25.0
+        ],
+        [
+          -19.75,
+          16.75
+        ],
+        [
+          -25.0,
+          0.0
+        ],
+        [
+          -18.75,
+          -15.5
+        ],
+        [
+          -8.0,
+          -19.5
+        ],
+        [
+          8.0,
+          -19.5
+        ],
+        [
+          18.75,
+          -15.5
+        ]
+      ],
+      "vertices_interior_10": [
+        [
+          22.878,
+          0.084
+        ],
+        [
+          18.027,
+          15.56
+        ],
+        [
+          8.558,
+          23.0
+        ],
+        [
+          -8.558,
+          23.0
+        ],
+        [
+          -18.027,
+          15.56
+        ],
+        [
+          -22.878,
+          0.084
+        ],
+        [
+          -17.225,
+          -13.933
+        ],
+        [
+          -7.64,
+          -17.5
+        ],
+        [
+          7.64,
+          -17.5
+        ],
+        [
+          17.225,
+          -13.933
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "scope": "Immutable780/800 snapshots during active r8; not terminal convergence or physical loads",
+  "counters": [
+    780,
+    800
+  ],
+  "ranges_at800": {
+    "U": [
+      0.26603237083263936,
+      36.30958930983024
+    ],
+    "p": [
+      -878.155548139,
+      372.252868633
+    ],
+    "k": [
+      0.106522205955,
+      22.1456047182
+    ],
+    "omega": [
+      249.937845232,
+      923131.797264
+    ],
+    "nut": [
+      2.61874429333e-07,
+      0.00563422530451
+    ]
+  },
+  "field_changes": {
+    "U": {
+      "max_abs": 2.067099062226196,
+      "arithmetic_RMS": 0.021627531850935428
+    },
+    "p": {
+      "max_abs": 4.441326932999999,
+      "arithmetic_RMS": 0.0780232438483888
+    },
+    "k": {
+      "max_abs": 2.9423480105,
+      "arithmetic_RMS": 0.01220151435836189
+    },
+    "omega": {
+      "max_abs": 36156.96349600001,
+      "arithmetic_RMS": 171.7215498764958
+    },
+    "nut": {
+      "max_abs": 8.148524626100005e-05,
+      "arithmetic_RMS": 7.306620484278695e-07
+    }
+  },
+  "force_solids_N": [
+    [
+      -0.0002757157509695,
+      -0.00031738020148787,
+      -1.089413123307
+    ],
+    [
+      -0.00027860597713281,
+      -0.00029660161656838,
+      -1.0893834794024
+    ]
+  ],
+  "moment_solids_Nm": [
+    [
+      0.0001557398296870302,
+      -2.8523593962096996e-05,
+      3.2566234481278e-05
+    ],
+    [
+      0.000156359282585149,
+      -2.8797227221233e-05,
+      3.3389915569238e-05
+    ]
+  ],
+  "input_field_checks_finite_nonnegative_turbulence": true,
+  "source_solver_not_stopped": true,
+  "terminal_target_not_asserted": true,
+  "physical_loads_accepted": false,
+  "snapshot_record_sha256": "dddbf5bc7b7297997d5e4dd2ae6444daead532ed1f4369702062d33387da21b6"
+}

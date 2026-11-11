@@ -1,0 +1,10 @@
+FoamFile {version 2.0; format ascii; class dictionary; object fvSolution;}
+solvers {
+ p {solver GAMG; smoother DIC; tolerance 1e-9; relTol 0.01; maxIter 500;}
+ pFinal {$p; relTol 0;}
+ rho {solver diagonal;} rhoFinal {$rho;}
+ "(U|h|k|omega)" {solver PBiCGStab; preconditioner DILU; tolerance 1e-9; relTol 0.05; maxIter 500;}
+ "(U|h|k|omega)Final" {solver PBiCGStab; preconditioner DILU; tolerance 1e-9; relTol 0; maxIter 500;}
+}
+PIMPLE {transonic no; nOuterCorrectors 1; nCorrectors 1; nNonOrthogonalCorrectors 1;}
+relaxationFactors {fields {p 0.3; rho 0.01;} equations {U 0.7; h 0.7; k 0.7; omega 0.7;}}

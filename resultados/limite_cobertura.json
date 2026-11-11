@@ -1,0 +1,12 @@
+{
+  "arbitrary_coverage_threshold": 0.05,
+  "thrust_interval_N": [
+    -28.0,
+    38.0
+  ],
+  "forceball_N": 82.33146603169479,
+  "additional_accel_g": 0.6790946150152151,
+  "warning": "Coverage screen only; excludes reaction torque and NOT evidence of physical maximum",
+  "full_clamped_map_forceball_N": 96.89782732069732,
+  "full_clamped_map_additional_accel_g": 0.9761657104250141
+}

@@ -1,0 +1,5 @@
+{
+  "sampled_wrench_checks": 864,
+  "max_normalized_residual": 1.7763568394002505e-13,
+  "note": "Numerical spot checks supplement analytical conservative support bounds, not physical validation."
+}

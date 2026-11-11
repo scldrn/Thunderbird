@@ -1,0 +1,53 @@
+{
+  "geometry_scope": "Closed styling loft before ports and inserts. Not full installed product or validated cruise doors.",
+  "source_step": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/aerodinamica_A/envolvente_cerrada_referencia.step",
+  "source_sha256": "574f91d9e24d83d1326b62d119f7952ae49b0f78d822cae8ab136819b99f8e30",
+  "units": "metres",
+  "body_volume_m3": 0.04008790710269946,
+  "reference_area_m2": 0.04977474767647352,
+  "body_length_m": 1.3400000001999999,
+  "domain_bounds_m": [
+    -4.700000000699999,
+    -4.0200000006,
+    -4.0200000006,
+    7.3600000010999995,
+    4.0200000006,
+    4.0200000006
+  ],
+  "domain_distances_in_lengths": {
+    "upstream": 3,
+    "downstream": 5,
+    "side": 3
+  },
+  "analytic_fluid_volume_m3": 779.5376084419618,
+  "occ_fluid_volume_m3": 779.5376084419615,
+  "cells": 326013,
+  "minimum_target_size_m": 0.008,
+  "patches": {
+    "inlet": {
+      "surfaces": 1,
+      "area_m2": 64.64160001929599
+    },
+    "outlet": {
+      "surfaces": 1,
+      "area_m2": 64.64160001929599
+    },
+    "farfield": {
+      "surfaces": 4,
+      "area_m2": 387.84960011577584
+    },
+    "hull": {
+      "surfaces": 12,
+      "area_m2": 0.830423568166444
+    }
+  },
+  "flow_solved": false,
+  "drag_or_critical_Mach_validated": false,
+  "limitations": [
+    "No prism layers or wall resolution proof",
+    "No mesh/domain sensitivity",
+    "No propulsion, ports, lids or seams",
+    "No solver fields or Mach result yet",
+    "Not a claim of global optimum"
+  ]
+}

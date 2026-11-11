@@ -1,0 +1,129 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamPostProcess -solver fluid -time 0
+Date   : Nov 01 2026
+Time   : 18:43:19
+Host   : "aaa645b074f4"
+PID    : 7
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+forcesBase force_hull:
+    Not including porosity effects
+forces force_hull:
+    Not including porosity effects
+volFieldValue maxVelocityDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = maxMag
+
+volFieldValue minScalarsDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = min
+
+volFieldValue maxScalarsDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = max
+
+surfaceFieldValue mass_flux_inlet read:
+    number of faces = 342
+    area = 64.6416
+    operation = sum
+
+surfaceFieldValue mass_flux_outlet read:
+    number of faces = 344
+    area = 64.6416
+    operation = sum
+
+surfaceFieldValue mass_flux_farfield read:
+    number of faces = 2054
+    area = 387.8496
+    operation = sum
+
+surfaceFieldValue hull_pressure_min read:
+    number of faces = 31546
+    area = 0.8303997457
+    operation = min
+
+surfaceFieldValue hull_pressure_max read:
+    number of faces = 31546
+    area = 0.8303997457
+    operation = max
+
+Time = 0s
+Selecting solver fluid
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+No MRF models present
+
+Selecting thermophysical transport type laminar
+Selecting default laminar thermophysical transport model unityLewisFourier
+forces force_hull write:
+    sum of forces:
+        pressure : (0 0 0)
+        viscous  : (0.04763246418 2.131625533e-05 -0.0007558240189)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (0 0 0)
+        viscous  : (2.931973062e-06 -0.005061190474 -2.227406889e-05)
+        porous   : (0 0 0)
+
+volFieldValue maxVelocityDiagnostic write:
+    maxMag(all) of U = 166.6666667 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+
+volFieldValue minScalarsDiagnostic write:
+    min(all) of p = 101325 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    min(all) of T = 288.15 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    min(all) of rho = 1.224999285 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+
+volFieldValue maxScalarsDiagnostic write:
+    max(all) of p = 101325 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    max(all) of T = 288.15 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+    max(all) of rho = 1.224999285 at location (0.50177025 -0.15526375 0.007630507725) in cell 0
+
+surfaceFieldValue mass_flux_inlet write:
+    sum(inlet) of phi = -13197.6523
+
+surfaceFieldValue mass_flux_outlet write:
+    sum(outlet) of phi = 13197.6523
+
+surfaceFieldValue mass_flux_farfield write:
+    sum(farfield) of phi = 0
+
+surfaceFieldValue hull_pressure_min write:
+    min(hull) of p = 101325
+
+surfaceFieldValue hull_pressure_max write:
+    max(hull) of p = 101325
+
+
+End
+

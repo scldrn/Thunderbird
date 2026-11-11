@@ -1,0 +1,26 @@
+{
+  "inicio_utc": "2026-11-08T04:00:57.346555+00:00",
+  "estado": "completado",
+  "tareas": [
+    "entregable_uiuc_estatico",
+    "entregable_uiuc_avance",
+    "entregable_equilibrio_2d",
+    "entregable_potencia_sensibilidad",
+    "entregable_dinamica_actuador",
+    "auditoria_vuelo_seis_grados",
+    "integridad_masa_incertidumbre",
+    "auditoria_transicion_control"
+  ],
+  "trabajadores": 8,
+  "workspace_temporal": "/private/tmp/aero_20261108T040057Z_075131ca_9_f47he_",
+  "fin_utc": "2026-11-08T04:10:30.716330+00:00",
+  "recolectadas": 8,
+  "requieren_revision": [
+    "entregable_dinamica_actuador",
+    "auditoria_vuelo_seis_grados",
+    "entregable_equilibrio_2d",
+    "integridad_masa_incertidumbre",
+    "entregable_potencia_sensibilidad",
+    "auditoria_transicion_control"
+  ]
+}

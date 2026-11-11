@@ -1,0 +1,7 @@
+{
+  "mesh_ok": true,
+  "flow_started": false,
+  "physical_loads_accepted": false,
+  "container": "codex-aero-avance-mesh-v1",
+  "note": "Mesh quality gate only; no wall resolution, mesh/domain sensitivity or flow validation."
+}

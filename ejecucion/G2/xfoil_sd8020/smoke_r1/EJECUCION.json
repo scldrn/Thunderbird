@@ -1,0 +1,16 @@
+{
+  "scope": "Headless smoke test, not a validation or accepted polar",
+  "image_id": "sha256:13cbe27aaddde9b40c9250256c4c1eaa5c15a61c03f746169a4357a606479b01",
+  "source_geometry_sha256": "102c8b1d93c5b02ae547b27a50340ff326975e0c75ba13adfe737cc7812c3ea7",
+  "input_commands_sha256": "d6dc64de5fea297ed0051d549fc83a36d04d97a57fb0147897791836e5d03583",
+  "script_sha256": "dd91f5d574e16f4401bb53e29d9c209c4e00c7aefe0ace85f9d7b67e2ade847d",
+  "expected_package_version": "6.99.dfsg+1-3",
+  "physical_acceptance": false,
+  "created_UTC": "2026-11-05T01:36:12.682721+00:00",
+  "container_id": "967b1bc3e177d1ef63364939ed2ebf5bae471b421b94da90576f058b5eb00aef",
+  "binary_identification": "9d7db6a2dae0f4ed6101bfb84f71ec636c60dd974a0aea996dac0f38bf6e2684  /usr/bin/xfoil\naarch64",
+  "solver_exit_code": 136,
+  "polar_copy_exit_code": 1,
+  "smoke_execution_complete": false,
+  "stop_exit_code": 0
+}

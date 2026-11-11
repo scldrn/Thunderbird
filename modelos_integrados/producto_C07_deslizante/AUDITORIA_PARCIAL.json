@@ -1,0 +1,54 @@
+{
+  "scope": "reapertura, reimportacion, validez de formas, traslaciones y centros de rotor; no equivalencia global STEP ni viabilidad fisica",
+  "variants": [
+    {
+      "mass_target_kg": 5,
+      "native_count": 316,
+      "step_count": 316,
+      "native_invalid": [],
+      "step_invalid": [],
+      "door_center_errors_mm": {
+        "compuerta_C02_0_superior": 7.652779469160725e-14,
+        "compuerta_C02_0_inferior": 5.317214951750687e-14,
+        "compuerta_C02_1_superior": 1.3481600519334532e-13,
+        "compuerta_C02_1_inferior": 6.029155041345696e-14,
+        "compuerta_C02_2_superior": 1.8419372902394174e-13,
+        "compuerta_C02_2_inferior": 2.0396413581248855e-13,
+        "compuerta_C02_3_superior": 2.1738427649294117e-13,
+        "compuerta_C02_3_inferior": 6.961868572213853e-14
+      },
+      "rotor_center_motion_mm": {
+        "modulo_C02_0_rotor_copa": 0.0,
+        "modulo_C02_1_rotor_copa": 0.0,
+        "modulo_C02_2_rotor_copa": 0.0,
+        "modulo_C02_3_rotor_copa": 0.0
+      },
+      "errors": []
+    },
+    {
+      "mass_target_kg": 10,
+      "native_count": 316,
+      "step_count": 316,
+      "native_invalid": [],
+      "step_invalid": [],
+      "door_center_errors_mm": {
+        "compuerta_C02_0_superior": 1.2475034243720585e-13,
+        "compuerta_C02_0_inferior": 1.2515439318724856e-13,
+        "compuerta_C02_1_superior": 1.1766939537721438e-13,
+        "compuerta_C02_1_inferior": 7.72664178716253e-14,
+        "compuerta_C02_2_superior": 3.2251518339269194e-13,
+        "compuerta_C02_2_inferior": 1.0687705978178971e-13,
+        "compuerta_C02_3_superior": 1.1374233532693354e-13,
+        "compuerta_C02_3_inferior": 7.6610215603693e-14
+      },
+      "rotor_center_motion_mm": {
+        "modulo_C02_0_rotor_copa": 0.0,
+        "modulo_C02_1_rotor_copa": 0.0,
+        "modulo_C02_2_rotor_copa": 0.0,
+        "modulo_C02_3_rotor_copa": 0.0
+      },
+      "errors": []
+    }
+  ],
+  "errors": []
+}

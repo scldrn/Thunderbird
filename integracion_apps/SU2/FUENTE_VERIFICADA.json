@@ -1,0 +1,9 @@
+{
+  "archive_sha256": "e325f8df68d3df338d083de2ca15ac869266e6ee8bfbd377b01e9421520f6d67",
+  "URL": "https://api.github.com/repos/su2code/SU2/tarball/v8.6.0",
+  "source_dir": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3",
+  "archive_prefix": "su2code-SU2-7048fd3",
+  "paths_checked": true,
+  "architecture_target": "arm64",
+  "native_build_started": false
+}

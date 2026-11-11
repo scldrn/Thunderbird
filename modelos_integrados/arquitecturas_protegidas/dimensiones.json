@@ -1,0 +1,20 @@
+{
+  "units": "STEP mm",
+  "body_length_mm": 1400,
+  "body_diameter_mm": 420,
+  "internal": {
+    "rotors": 8,
+    "diameter_mm": 130
+  },
+  "retractable": {
+    "rotors": 4,
+    "diameter_mm": 160,
+    "stored_center_abs_y_mm": 90,
+    "deployed_center_abs_y_mm": 340
+  },
+  "external": {
+    "rotors": 4,
+    "diameter_mm": 180
+  },
+  "status": "Packaging concepts. No claim of six-axis controllability, thrust, aerodynamic drag, mass closure, thermal or structural validation. Retractable endpoint states do not verify continuous mechanism path."
+}

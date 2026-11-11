@@ -1,0 +1,62 @@
+{
+  "source_sha256": "5e6d951919ad7420f8cb22c4711c16e867f3ce5168b259d4c76ca9d656b35791",
+  "checks": [
+    {
+      "leaf": 0,
+      "bearing": 0,
+      "bearing_outside_cut_mm3": 0.0,
+      "leaf_inside_cut_mm3": 0.0,
+      "rotated_cutter_difference_mm3": 0.0
+    },
+    {
+      "leaf": 0,
+      "bearing": 1,
+      "bearing_outside_cut_mm3": 0.0,
+      "leaf_inside_cut_mm3": 0.0,
+      "rotated_cutter_difference_mm3": 0.0
+    },
+    {
+      "leaf": 1,
+      "bearing": 0,
+      "bearing_outside_cut_mm3": 0.0,
+      "leaf_inside_cut_mm3": 0.0,
+      "rotated_cutter_difference_mm3": 0.0
+    },
+    {
+      "leaf": 1,
+      "bearing": 1,
+      "bearing_outside_cut_mm3": 0.0,
+      "leaf_inside_cut_mm3": 0.0,
+      "rotated_cutter_difference_mm3": 0.0
+    },
+    {
+      "leaf": 2,
+      "bearing": 0,
+      "bearing_outside_cut_mm3": 0.0,
+      "leaf_inside_cut_mm3": 0.0,
+      "rotated_cutter_difference_mm3": 0.0
+    },
+    {
+      "leaf": 2,
+      "bearing": 1,
+      "bearing_outside_cut_mm3": 0.0,
+      "leaf_inside_cut_mm3": 0.0,
+      "rotated_cutter_difference_mm3": 0.0
+    },
+    {
+      "leaf": 3,
+      "bearing": 0,
+      "bearing_outside_cut_mm3": 0.0,
+      "leaf_inside_cut_mm3": 0.0,
+      "rotated_cutter_difference_mm3": 0.0
+    },
+    {
+      "leaf": 3,
+      "bearing": 1,
+      "bearing_outside_cut_mm3": 0.0,
+      "leaf_inside_cut_mm3": 0.0,
+      "rotated_cutter_difference_mm3": 0.0
+    }
+  ],
+  "scope": "nominal cylinders and own leaves only; no tolerances, other leaves, supports or motion dynamics"
+}

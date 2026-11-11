@@ -1,0 +1,23 @@
+{
+  "stage": "compiled_not_yet_flow_verified",
+  "source_dir": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3",
+  "version": "8.6.0",
+  "started_UTC": "2026-11-03T22:43:43.590764+00:00",
+  "architecture_target": "arm64",
+  "global_system_settings_changed": false,
+  "compiler_jobs": 2,
+  "flow_solver_executed": false,
+  "command": [
+    "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/ninja",
+    "-C",
+    "build-native-r2",
+    "-j2",
+    "SU2_CFD/src/SU2_CFD"
+  ],
+  "last_exit_code": 0,
+  "last_stage_wall_s": 354.9986507499707,
+  "binary": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/build-native-r2/SU2_CFD/src/SU2_CFD",
+  "binary_sha256": "a12399dbec97a0cb6b86153bf978c74c2b2de66b43f4e4435c53cce7a8abe05f",
+  "file_description": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/integracion_apps/SU2/source-v8.6.0/su2code-SU2-7048fd3/build-native-r2/SU2_CFD/src/SU2_CFD: Mach-O 64-bit executable arm64",
+  "finished_UTC": "2026-11-03T22:49:42.022249+00:00"
+}

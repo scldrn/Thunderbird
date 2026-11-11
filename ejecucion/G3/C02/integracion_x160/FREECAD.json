@@ -1,0 +1,19 @@
+{
+  "version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "source_SHA256": "c587381e42e5eba78454f9bc263a9db51b75114875ab281eaa4fbb33666b439e",
+  "output_SHA256": "740dcd2dc8939b724c0e80dc4e6b4c278b4041cbce43a316294e64999a8a8f83",
+  "document_objects": 349,
+  "shape_objects": 345,
+  "invalid_shapes": [],
+  "design_part_records_in_STEP": 316,
+  "note": "FreeCAD hierarchy counts differ from design part records; import/reopen test only, not parametric manufacturing or physical validation"
+}

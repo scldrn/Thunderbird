@@ -1,0 +1,169 @@
+{
+  "source_styling_script": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/modelos_integrados/diseno_industrial_v2.py",
+  "source_sha256": "fa291b01b573380a1540527673ebf766791fdc9c564c04dcd5439127c817ffa2",
+  "geometry_scope": "Raw closed styling loft before fan-port cuts, accents, nozzle and inserts. Reference with closed envelope, not an installed closed-door vehicle.",
+  "integration": "OCCT adaptive surface and volume integration, requested relative per-face tolerance 1e-10; numerical geometry, not manufacturing accuracy.",
+  "units": "SI unless field explicitly says mm",
+  "bounds_m": {
+    "x_min": -0.6800000001,
+    "x_max": 0.6600000000999999,
+    "length": 1.3400000001999999,
+    "width": 0.3220067589031264,
+    "height": 0.19411032572005502
+  },
+  "gross_enclosed_volume_m3": 0.040087907102712726,
+  "closed_surface_area_m2": 0.8304235802912462,
+  "CAD_default_vs_adaptive_volume_relative_difference": -2.220446049250313e-16,
+  "max_sampled_section_area_m2": 0.04977474767647352,
+  "max_section_x_m": -0.049999999408955206,
+  "max_equivalent_diameter_m": 0.2517442691917747,
+  "length_over_max_equivalent_diameter": 5.322861984116149,
+  "mean_density_if_5kg_over_gross_envelope_kgm3": 124.72589270347947,
+  "analytic_section_validation": [
+    {
+      "x_mm": -120,
+      "exact_area_mm2": 1413.7166941154064,
+      "CAD_area_mm2": 1413.7166929609268,
+      "relative_error": -8.166273213205955e-10
+    },
+    {
+      "x_mm": 0,
+      "exact_area_mm2": 3926.9908169872415,
+      "CAD_area_mm2": 3926.990817209531,
+      "relative_error": 5.6605609088933306e-11
+    },
+    {
+      "x_mm": 90,
+      "exact_area_mm2": 2513.2741228718346,
+      "CAD_area_mm2": 2513.2741229193225,
+      "relative_error": 1.889488565609554e-11
+    }
+  ],
+  "analytic_ellipsoid_volume_relative_error": 1.5361703020744244e-08,
+  "section_volume_checks": [
+    {
+      "intervals": 134,
+      "section_integrated_volume_mm3": 40087907.076992325,
+      "adaptive_CAD_volume_mm3": 40087907.10271273,
+      "relative_volume_error": 6.415999953546248e-10
+    },
+    {
+      "intervals": 268,
+      "section_integrated_volume_mm3": 40087907.08258505,
+      "adaptive_CAD_volume_mm3": 40087907.10271273,
+      "relative_volume_error": 5.020884819018079e-10
+    }
+  ],
+  "surface_mesh_checks": [
+    {
+      "triangles": 500,
+      "tolerance_mm": 1.0,
+      "surface_area_mm2": 829326.6746710375,
+      "signed_volume_mm3": 39981635.51384122,
+      "streamwise_tangent_projected_surface_area_mm2": 817974.0727334034,
+      "uniform_pressure_area_vector_mm2": [
+        -5.4569682106375694e-12,
+        -1.8189894035458565e-11,
+        7.776179700158536e-11
+      ],
+      "uniform_pressure_moment_vector_mm3": [
+        -6.281652531470172e-09,
+        1.6332108998540207e-08,
+        3.1877789297141135e-09
+      ],
+      "YZ_projected_convex_hull_area_mm2": 49779.43361978501,
+      "relative_surface_area_error": 0.001320898931872816,
+      "relative_volume_error": 0.002650963758203173
+    },
+    {
+      "triangles": 500,
+      "tolerance_mm": 0.5,
+      "surface_area_mm2": 829326.6746710375,
+      "signed_volume_mm3": 39981635.51384122,
+      "streamwise_tangent_projected_surface_area_mm2": 817974.0727334034,
+      "uniform_pressure_area_vector_mm2": [
+        -5.4569682106375694e-12,
+        -1.8189894035458565e-11,
+        7.776179700158536e-11
+      ],
+      "uniform_pressure_moment_vector_mm3": [
+        -6.281652531470172e-09,
+        1.6332108998540207e-08,
+        3.1877789297141135e-09
+      ],
+      "YZ_projected_convex_hull_area_mm2": 49779.43361978501,
+      "relative_surface_area_error": 0.001320898931872816,
+      "relative_volume_error": 0.002650963758203173
+    },
+    {
+      "triangles": 500,
+      "tolerance_mm": 0.25,
+      "surface_area_mm2": 829326.6746710375,
+      "signed_volume_mm3": 39981635.51384122,
+      "streamwise_tangent_projected_surface_area_mm2": 817974.0727334034,
+      "uniform_pressure_area_vector_mm2": [
+        -5.4569682106375694e-12,
+        -1.8189894035458565e-11,
+        7.776179700158536e-11
+      ],
+      "uniform_pressure_moment_vector_mm3": [
+        -6.281652531470172e-09,
+        1.6332108998540207e-08,
+        3.1877789297141135e-09
+      ],
+      "YZ_projected_convex_hull_area_mm2": 49779.43361978501,
+      "relative_surface_area_error": 0.001320898931872816,
+      "relative_volume_error": 0.002650963758203173
+    }
+  ],
+  "ports": [
+    {
+      "channel": 0,
+      "x_mm": -280.0,
+      "y_mm": -65.0,
+      "radius_mm": 42,
+      "planar_projected_area_each_end_m2": 0.005541769440932396,
+      "upper_removed_hull_surface_area_m2": 0.0060177556565568155,
+      "lower_removed_hull_surface_area_m2": 0.005683486656115692,
+      "removed_channel_envelope_volume_m3": 0.000889220364572366,
+      "external_patch_faces": 4
+    },
+    {
+      "channel": 1,
+      "x_mm": -280.0,
+      "y_mm": 65.0,
+      "radius_mm": 42,
+      "planar_projected_area_each_end_m2": 0.005541769440932396,
+      "upper_removed_hull_surface_area_m2": 0.006017755656612726,
+      "lower_removed_hull_surface_area_m2": 0.005683486656122156,
+      "removed_channel_envelope_volume_m3": 0.0008892203645738578,
+      "external_patch_faces": 4
+    },
+    {
+      "channel": 2,
+      "x_mm": 285.0,
+      "y_mm": -65.0,
+      "radius_mm": 42,
+      "planar_projected_area_each_end_m2": 0.005541769440932396,
+      "upper_removed_hull_surface_area_m2": 0.006164052430576818,
+      "lower_removed_hull_surface_area_m2": 0.005911387475183193,
+      "removed_channel_envelope_volume_m3": 0.0008222513729434448,
+      "external_patch_faces": 6
+    },
+    {
+      "channel": 3,
+      "x_mm": 285.0,
+      "y_mm": 65.0,
+      "radius_mm": 42,
+      "planar_projected_area_each_end_m2": 0.005541769440932396,
+      "upper_removed_hull_surface_area_m2": 0.006164052430580141,
+      "lower_removed_hull_surface_area_m2": 0.005911387475146601,
+      "removed_channel_envelope_volume_m3": 0.00082225137294257,
+      "external_patch_faces": 6
+    }
+  ],
+  "open_reference_volume_m3": 0.03666496362767578,
+  "open_reference_all_boundary_area_m2": 0.9420940959396471,
+  "open_area_warning": "Open-reference area includes inside passage walls. It is not an external wetted area for applying the closed-body skin-friction estimate.",
+  "actual_drag_or_critical_Mach_validated": false
+}

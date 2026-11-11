@@ -1,0 +1,482 @@
+{
+  "scope": "Tres posiciones discretas; pares de hardware contra aro y junta de C03. No verifica continuidad ni resto de piezas",
+  "states": [
+    {
+      "estado": "cerrado",
+      "pares": [
+        {
+          "elemento": "guia_fija",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 19.80953354115929,
+          "valida": true
+        },
+        {
+          "elemento": "guia_fija",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 20.659533534692933,
+          "valida": true
+        },
+        {
+          "elemento": "guia_fija001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 19.8095335505198,
+          "valida": true
+        },
+        {
+          "elemento": "guia_fija001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 20.659533558781277,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.116897879246615,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.983057598314343,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 6.1377683953529285,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 7.084614951109106,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 4.454979730289405,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 5.386507857239254,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.241133269381976,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 19.13472670716382,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 7.127264355833305,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 8.034951644138326,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 5.772931292347303,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 6.637283127232597,
+          "valida": true
+        },
+        {
+          "elemento": "pasador",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 2.248398060504968,
+          "valida": true
+        },
+        {
+          "elemento": "pasador",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 2.9335101259324037,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva",
+          "obstaculo": "aro",
+          "interseccion_mm3": 3.2889641081985364,
+          "distancia_mm": 0.0,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.7277131663084643,
+          "distancia_mm": 0.0,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 3.6111647575935395,
+          "distancia_mm": 0.0,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.9319620522287738,
+          "distancia_mm": 1.4210854715202004e-14,
+          "valida": true
+        }
+      ]
+    },
+    {
+      "estado": "elevado",
+      "pares": [
+        {
+          "elemento": "guia_fija",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 19.80953354115929,
+          "valida": true
+        },
+        {
+          "elemento": "guia_fija",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 20.659533534692933,
+          "valida": true
+        },
+        {
+          "elemento": "guia_fija001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 19.8095335505198,
+          "valida": true
+        },
+        {
+          "elemento": "guia_fija001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 20.659533558781277,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.159254863006264,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.98159980830592,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 6.075503029567035,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 6.73834058202599,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 4.178378438649699,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 4.684679170919243,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.109533545207533,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.959533545207535,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 5.62213892314055,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 6.461791141216875,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.2297810326062963,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.945954656195902,
+          "valida": true
+        },
+        {
+          "elemento": "pasador",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.705861093960725,
+          "valida": true
+        },
+        {
+          "elemento": "pasador",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.8218475623308916,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 4.317150539812262,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 4.449074414161913,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 2.8898920281556526,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.0059897432094007,
+          "valida": true
+        }
+      ]
+    },
+    {
+      "estado": "abierto",
+      "pares": [
+        {
+          "elemento": "guia_fija",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 19.80953354115929,
+          "valida": true
+        },
+        {
+          "elemento": "guia_fija",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 20.659533534692933,
+          "valida": true
+        },
+        {
+          "elemento": "guia_fija001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 19.8095335505198,
+          "valida": true
+        },
+        {
+          "elemento": "guia_fija001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 20.659533558781277,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.159254863006264,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.98159980830592,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 6.075503029567035,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 6.73834058202599,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 4.178378438649699,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 4.684679170919243,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.109533545207533,
+          "valida": true
+        },
+        {
+          "elemento": "patin_movil001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 18.959533545207535,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 5.62213892314055,
+          "valida": true
+        },
+        {
+          "elemento": "puente_reserva001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 6.461791141216875,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.2297810326062963,
+          "valida": true
+        },
+        {
+          "elemento": "cojinete_reserva001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.945954656195902,
+          "valida": true
+        },
+        {
+          "elemento": "pasador",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.705861093960725,
+          "valida": true
+        },
+        {
+          "elemento": "pasador",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.8218475623308916,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 5.034629205683787,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 5.459237432942323,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva001",
+          "obstaculo": "aro",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 3.689392853108745,
+          "valida": true
+        },
+        {
+          "elemento": "brazo_tapa_reserva001",
+          "obstaculo": "junta",
+          "interseccion_mm3": 0.0,
+          "distancia_mm": 4.192494938629701,
+          "valida": true
+        }
+      ]
+    }
+  ]
+}

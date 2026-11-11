@@ -1,0 +1,221 @@
+{
+  "case": "avance_A_compresible_600kmh_LTS_diag",
+  "source_post_processing": "/Users/sam/Documents/ChatGPT/New project/investigacion-aeronautica/CFD/avance_A_compresible_600kmh_LTS_diag/postProcessing",
+  "counter_kind": "local_pseudo_iterations",
+  "common_iterations": [
+    1.0,
+    200.0
+  ],
+  "iteration_count": 200,
+  "parsing": {
+    "force_hull": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "inlet": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "outlet": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    },
+    "farfield": {
+      "discarded_rows": 0,
+      "overwritten_duplicate_times": 0
+    }
+  },
+  "complete_blocks": [
+    {
+      "first_iteration": 1.0,
+      "last_iteration": 25.0,
+      "pressure_force_Cmean": [
+        1.1312761224617598,
+        0.0013607549992583309,
+        -0.05051972717210826
+      ],
+      "pressure_moment_Cmean": [
+        -7.173928571854198e-05,
+        -0.0953977213474015,
+        -0.0009188819369528957
+      ]
+    },
+    {
+      "first_iteration": 26.0,
+      "last_iteration": 50.0,
+      "pressure_force_Cmean": [
+        0.9892890453563765,
+        0.001129882144347643,
+        -0.03982744304363649
+      ],
+      "pressure_moment_Cmean": [
+        -0.0001363669611055408,
+        -0.0797898910355827,
+        -0.0003875238220389097
+      ]
+    },
+    {
+      "first_iteration": 51.0,
+      "last_iteration": 75.0,
+      "pressure_force_Cmean": [
+        0.8437214134337186,
+        0.0007442613503862796,
+        -0.028714839071529864
+      ],
+      "pressure_moment_Cmean": [
+        -0.00010257755061195772,
+        -0.06003680124326328,
+        -0.0008945676724393339
+      ]
+    },
+    {
+      "first_iteration": 76.0,
+      "last_iteration": 100.0,
+      "pressure_force_Cmean": [
+        0.6770344617557893,
+        0.004858612205773524,
+        -0.018842089004172037
+      ],
+      "pressure_moment_Cmean": [
+        -6.219240447294143e-05,
+        -0.03995599347106745,
+        -0.0020199646105451756
+      ]
+    },
+    {
+      "first_iteration": 101.0,
+      "last_iteration": 125.0,
+      "pressure_force_Cmean": [
+        0.515276250664554,
+        0.01095531479179802,
+        -0.009152661007791555
+      ],
+      "pressure_moment_Cmean": [
+        -3.2615735728133085e-05,
+        -0.021882801946541356,
+        -0.0026066761178130575
+      ]
+    },
+    {
+      "first_iteration": 126.0,
+      "last_iteration": 150.0,
+      "pressure_force_Cmean": [
+        0.36602581307712106,
+        0.017032684427596152,
+        0.0035944284198720527
+      ],
+      "pressure_moment_Cmean": [
+        -2.1058270766765777e-05,
+        -0.006784852931077846,
+        -0.002444569214678231
+      ]
+    },
+    {
+      "first_iteration": 151.0,
+      "last_iteration": 175.0,
+      "pressure_force_Cmean": [
+        0.23042127903031734,
+        0.02323320520889006,
+        0.016429711526105256
+      ],
+      "pressure_moment_Cmean": [
+        0.00010597919479422938,
+        0.004421597573685703,
+        -0.002544520054211048
+      ]
+    },
+    {
+      "first_iteration": 176.0,
+      "last_iteration": 200.0,
+      "pressure_force_Cmean": [
+        0.11094771686339776,
+        0.030818585546938868,
+        0.02881121058972815
+      ],
+      "pressure_moment_Cmean": [
+        0.000368606163986207,
+        0.012046709804213409,
+        -0.0034280587727474375
+      ]
+    }
+  ],
+  "screen_tail_iterations": [
+    176.0,
+    177.0,
+    178.0,
+    179.0,
+    180.0,
+    181.0,
+    182.0,
+    183.0,
+    184.0,
+    185.0,
+    186.0,
+    187.0,
+    188.0,
+    189.0,
+    190.0,
+    191.0,
+    192.0,
+    193.0,
+    194.0,
+    195.0,
+    196.0,
+    197.0,
+    198.0,
+    199.0,
+    200.0
+  ],
+  "last_block_first_outer_initial_residual_max": {
+    "p": 0.001650024254,
+    "Ux": 0.002156828134,
+    "Uy": 0.003108644783,
+    "Uz": 0.003330087874,
+    "h": 0.002436664363
+  },
+  "last_two_complete_block_force_Cmean_change_max": 0.11947356216691958,
+  "last_two_complete_block_moment_Cmean_change_max": 0.007625112230527705,
+  "last_complete_block_force_Cpeak_to_peak_max": 0.10594996251239433,
+  "last_complete_block_moment_Cpeak_to_peak_max": 0.005660502619075431,
+  "max_mass_imbalance_relative_domain_inlet": 0.0013095358860897653,
+  "last_complete_block_mass_imbalance_relative_body": 1.7006881705340637,
+  "body_mass_flow_reference_kg_s": 10.162344467635318,
+  "criteria": {
+    "scope": "Chosen numerical screening targets for the slip-wall pressure diagnostic; not a standard, physical uncertainty or product acceptance.",
+    "tail_iterations": 25,
+    "required_complete_blocks": 4,
+    "first_outer_initial_residual_max": {
+      "p": 1e-05,
+      "Ux": 1e-05,
+      "Uy": 1e-05,
+      "Uz": 1e-05,
+      "h": 1e-05
+    },
+    "force_coefficient_adjacent_block_mean_change_max": 0.0001,
+    "force_coefficient_last_block_peak_to_peak_max": 0.0002,
+    "moment_coefficient_adjacent_block_mean_change_max": 1e-05,
+    "moment_coefficient_last_block_peak_to_peak_max": 2e-05,
+    "mass_imbalance_relative_to_rho_U_body_area_max": 0.001,
+    "required_before_physical_acceptance": [
+      "field-change audit",
+      "mesh and domain sensitivity",
+      "scheme sensitivity",
+      "external validation",
+      "viscous and installed geometry closure"
+    ]
+  },
+  "screens": {
+    "enough_complete_blocks": true,
+    "first_outer_initial_residuals": false,
+    "force_mean_drift": false,
+    "moment_mean_drift": false,
+    "force_last_block_range": false,
+    "moment_last_block_range": false,
+    "mass_body_scale": false
+  },
+  "all_chosen_screens_passed": false,
+  "steady_convergence_proven": false,
+  "physical_drag_accepted": false,
+  "physical_time_statistics": false,
+  "note": "First-outer initial residuals are screened; tiny final linear residuals alone do not prove convergence. LTS counters are algorithmic. Field changes and sensitivities remain required."
+}

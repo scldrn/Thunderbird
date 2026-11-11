@@ -1,0 +1,118 @@
+{
+  "summary": [
+    {
+      "delta_deg": 0,
+      "acceleration_g": 0,
+      "solved": 5,
+      "cases": 7,
+      "largest_T_N": 14.181389423076922
+    },
+    {
+      "delta_deg": 0,
+      "acceleration_g": 0.5,
+      "solved": 10,
+      "cases": 182,
+      "largest_T_N": 20.31054567307692
+    },
+    {
+      "delta_deg": 0,
+      "acceleration_g": 1,
+      "solved": 6,
+      "cases": 182,
+      "largest_T_N": 26.439701923076925
+    },
+    {
+      "delta_deg": 15,
+      "acceleration_g": 0,
+      "solved": 7,
+      "cases": 7,
+      "largest_T_N": 14.181389423077873
+    },
+    {
+      "delta_deg": 15,
+      "acceleration_g": 0.5,
+      "solved": 38,
+      "cases": 182,
+      "largest_T_N": 23.142693454278714
+    },
+    {
+      "delta_deg": 15,
+      "acceleration_g": 1,
+      "solved": 8,
+      "cases": 182,
+      "largest_T_N": 26.439701923083888
+    },
+    {
+      "delta_deg": 30,
+      "acceleration_g": 0,
+      "solved": 7,
+      "cases": 7,
+      "largest_T_N": 14.181389423076963
+    },
+    {
+      "delta_deg": 30,
+      "acceleration_g": 0.5,
+      "solved": 174,
+      "cases": 182,
+      "largest_T_N": 23.03408606572662
+    },
+    {
+      "delta_deg": 30,
+      "acceleration_g": 1,
+      "solved": 64,
+      "cases": 182,
+      "largest_T_N": 33.48564921640259
+    },
+    {
+      "delta_deg": 45,
+      "acceleration_g": 0,
+      "solved": 7,
+      "cases": 7,
+      "largest_T_N": 14.181389423076924
+    },
+    {
+      "delta_deg": 45,
+      "acceleration_g": 0.5,
+      "solved": 182,
+      "cases": 182,
+      "largest_T_N": 22.712419841331673
+    },
+    {
+      "delta_deg": 45,
+      "acceleration_g": 1,
+      "solved": 78,
+      "cases": 182,
+      "largest_T_N": 33.09689371525585
+    }
+  ],
+  "position_m": [
+    [
+      -0.28,
+      -0.065,
+      0.058
+    ],
+    [
+      -0.28,
+      0.065,
+      0.058
+    ],
+    [
+      0.285,
+      -0.065,
+      0.058
+    ],
+    [
+      0.285,
+      0.065,
+      0.058
+    ]
+  ],
+  "mass_assumed_kg": 5.0,
+  "CG_assumed_m": [
+    0,
+    0,
+    0
+  ],
+  "phi_vertices": 32,
+  "note": "Sampled force and torque directions. Unidirectional ideal vector cone; calculated T is for inner polytope, not a measured motor capacity. Effective jet angle is not mechanical vane angle."
+}

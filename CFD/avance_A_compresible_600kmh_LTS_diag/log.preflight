@@ -1,0 +1,130 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  13
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 13-18870c24d21c
+Exec   : foamPostProcess -solver fluid -time 0
+Date   : Nov 01 2026
+Time   : 19:02:14
+Host   : "b328120b5d80"
+PID    : 195
+I/O    : uncollated
+Case   : //case
+nProcs : 1
+sigFpe : Floating point exception trapping - not supported on this platform
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Create mesh for time = 0
+
+forcesBase force_hull:
+    Not including porosity effects
+forces force_hull:
+    Not including porosity effects
+volFieldValue maxVelocityDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = maxMag
+
+volFieldValue minScalarsDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = min
+
+volFieldValue maxScalarsDiagnostic read:
+    number of cells = 326013
+    volume = 779.5376097
+    operation = max
+
+surfaceFieldValue mass_flux_inlet read:
+    number of faces = 342
+    area = 64.6416
+    operation = sum
+
+surfaceFieldValue mass_flux_outlet read:
+    number of faces = 344
+    area = 64.6416
+    operation = sum
+
+surfaceFieldValue mass_flux_farfield read:
+    number of faces = 2054
+    area = 387.8496
+    operation = sum
+
+surfaceFieldValue hull_pressure_min read:
+    number of faces = 31546
+    area = 0.8303997457
+    operation = min
+
+surfaceFieldValue hull_pressure_max read:
+    number of faces = 31546
+    area = 0.8303997457
+    operation = max
+
+Time = 0s
+Selecting solver fluid
+Selecting thermodynamics package 
+{
+    type            hePsiThermo;
+    mixture         pureMixture;
+    transport       const;
+    thermo          hConst;
+    equationOfState perfectGas;
+    specie          specie;
+    energy          sensibleEnthalpy;
+}
+
+Selecting turbulence model type laminar
+    Selecting laminar stress model Stokes
+No MRF models present
+
+Using LTS
+Selecting thermophysical transport type laminar
+Selecting default laminar thermophysical transport model unityLewisFourier
+forces force_hull write:
+    sum of forces:
+        pressure : (1030.778534 1.828328049 -47.51627955)
+        viscous  : (0.006750162722 1.222668166e-05 0.0002025337817)
+        porous   : (0 0 0)
+    sum of moments:
+        pressure : (-0.03498004552 -117.5091241 -1.334269772)
+        viscous  : (-3.301349129e-07 -0.0005328306168 1.015298849e-05)
+        porous   : (0 0 0)
+
+volFieldValue maxVelocityDiagnostic write:
+    maxMag(all) of U = 212.4606365 at location (0.6610145 -0.0123993 -0.0199546) in cell 236940
+
+volFieldValue minScalarsDiagnostic write:
+    min(all) of p = 63006.88678 at location (0.6615445 0.0044899125 -0.0175372) in cell 204040
+    min(all) of T = 269.1637847 at location (0.6610145 -0.0123993 -0.0199546) in cell 236940
+    min(all) of rho = 0.7890805635 at location (0.6615445 0.0044899125 -0.0175372) in cell 204040
+
+volFieldValue maxScalarsDiagnostic write:
+    max(all) of p = 123208.7533 at location (-0.68045525 -0.0002092425 -0.0021950475) in cell 259375
+    max(all) of T = 308.262986 at location (-0.680491 0.000420122 0.0004084445) in cell 217151
+    max(all) of rho = 1.411161834 at location (-0.68067175 -0.00276572 0.00208109775) in cell 11155
+
+surfaceFieldValue mass_flux_inlet write:
+    sum(inlet) of phi = -13197.6523
+
+surfaceFieldValue mass_flux_outlet write:
+    sum(outlet) of phi = 13197.6523
+
+surfaceFieldValue mass_flux_farfield write:
+    sum(farfield) of phi = -1.156283402e-12
+
+surfaceFieldValue hull_pressure_min write:
+    min(hull) of p = 63006.88678
+
+surfaceFieldValue hull_pressure_max write:
+    max(hull) of p = 123208.7533
+
+
+End
+

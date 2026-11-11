@@ -1,0 +1,287 @@
+{
+  "scope": "Transonic startup diagnostic and provisional Cp comparison, not accepted validation",
+  "iteration_start": 100,
+  "iteration_target": 600,
+  "counter_is_physical_time": false,
+  "final_fields": {
+    "U": {
+      "min": 0.2805558247143542,
+      "max": 385.1756163266634,
+      "sha256": "86af5b0b058f59feac1d29e7652354c735a058bbc7338b8388eea9ca8787966e"
+    },
+    "p": {
+      "min": 0.000331326577043,
+      "max": 157302.645276,
+      "sha256": "19ecc9f6f4aa689960cb03ac945e80d76d9c5bb1d62c111dcb52a9635299f53a"
+    },
+    "T": {
+      "min": 177.013958877,
+      "max": 282.867324743,
+      "sha256": "5f6a97198db6be79606e9c33b91e7da8adf7cbbcd9ca064c397113ab15bb93fd"
+    },
+    "rho": {
+      "min": 5.95453630123e-09,
+      "max": 1.9377157336,
+      "sha256": "77f9755702f6ca1b1548295ff6bae14b443f6265faca92fda400a96f4ac86865"
+    },
+    "k": {
+      "min": 1.51981970002e-05,
+      "max": 380.498580054,
+      "sha256": "239060401887b8f53f1acf456fc84536236219cb0233f409ccc7e213bd550ad9"
+    },
+    "omega": {
+      "min": 193.563982266,
+      "max": 499744437.372,
+      "sha256": "af06210cd418487b757091ab73e20bfb4cf26fc2676c0da2a11dfd410cf7c17e"
+    },
+    "nut": {
+      "min": 4.79784630139e-14,
+      "max": 0.000661780727285,
+      "sha256": "c338de3bd3fda40fb8309b4bd996d6a33c15d955cee10913b545cc50762483ef"
+    }
+  },
+  "maximum_local_Mach": 1.4110116025789399,
+  "perfect_gas_relative_defect_max": 5.981057628862607e-07,
+  "last_force_N": [
+    3.1445212779271,
+    9.161484651485125,
+    1.1852215403300003e-19
+  ],
+  "last_CL": 0.23966073711880823,
+  "last_CD": 0.09321773253867285,
+  "pressure_force_independently_reconstructed_verified": true,
+  "force_series_parsing": {
+    "discarded_rows": 0,
+    "overwritten_duplicate_times": 0
+  },
+  "last20_first_residual_max": {
+    "p": 9.37464560631e-10,
+    "Ux": 3.75564591715e-10,
+    "Uy": 5.69834319449e-10,
+    "h": 7.8076519862e-10,
+    "k": 4.08902668009e-12,
+    "omega": 1.59899563326e-12
+  },
+  "declared_screen_thresholds": {
+    "p": 1e-05,
+    "Ux": 1e-05,
+    "Uy": 1e-05,
+    "h": 1e-05,
+    "k": 1e-05,
+    "omega": 1e-05
+  },
+  "adjacent20_coefficient_drift": {
+    "CL": 0.00039296650432010805,
+    "CD": 1.3674439704999819e-05
+  },
+  "last20_outer_net_mass_relative_max": 27.48779735284061,
+  "comparison_counters": [
+    580,
+    600
+  ],
+  "field_changes": {
+    "U": {
+      "maximum": 50.92648976362612,
+      "cell_arithmetic_RMS": 2.45123233071405
+    },
+    "p": {
+      "maximum": 0.0,
+      "cell_arithmetic_RMS": 0.0
+    },
+    "T": {
+      "maximum": 0.0,
+      "cell_arithmetic_RMS": 0.0
+    },
+    "rho": {
+      "maximum": 0.0,
+      "cell_arithmetic_RMS": 0.0
+    },
+    "k": {
+      "maximum": 0.0,
+      "cell_arithmetic_RMS": 0.0
+    },
+    "omega": {
+      "maximum": 0.0,
+      "cell_arithmetic_RMS": 0.0
+    },
+    "nut": {
+      "maximum": 0.000168988277239,
+      "cell_arithmetic_RMS": 2.9974819365804876e-06
+    }
+  },
+  "yPlus_reported": [
+    {
+      "counter": 100.0,
+      "minimum": 0.0003974495327291,
+      "maximum": 0.01408427681612,
+      "reported_average": 0.007800181386015
+    },
+    {
+      "counter": 120.0,
+      "minimum": 0.0004952833652258,
+      "maximum": 0.04899116481071,
+      "reported_average": 0.02676818940028
+    },
+    {
+      "counter": 140.0,
+      "minimum": 0.0005714262759866,
+      "maximum": 0.06837909676277,
+      "reported_average": 0.03893777403668
+    },
+    {
+      "counter": 160.0,
+      "minimum": 0.0005725569563679,
+      "maximum": 0.06896034673207,
+      "reported_average": 0.04082512010367
+    },
+    {
+      "counter": 180.0,
+      "minimum": 0.0006909568708773,
+      "maximum": 0.0659716942034,
+      "reported_average": 0.04037211822915
+    },
+    {
+      "counter": 200.0,
+      "minimum": 0.0005445661833446,
+      "maximum": 0.06216807937927,
+      "reported_average": 0.03951850173312
+    },
+    {
+      "counter": 220.0,
+      "minimum": 0.0005476397077403,
+      "maximum": 0.0595837656979,
+      "reported_average": 0.03862701934677
+    },
+    {
+      "counter": 240.0,
+      "minimum": 0.0005612987764235,
+      "maximum": 0.05576888804507,
+      "reported_average": 0.03778183946255
+    },
+    {
+      "counter": 260.0,
+      "minimum": 0.0005775484326596,
+      "maximum": 0.05372438423159,
+      "reported_average": 0.03697527221817
+    },
+    {
+      "counter": 280.0,
+      "minimum": 0.0006249581346636,
+      "maximum": 0.05206071013404,
+      "reported_average": 0.03619608729412
+    },
+    {
+      "counter": 300.0,
+      "minimum": 0.0006818610385108,
+      "maximum": 0.05052512803954,
+      "reported_average": 0.03543003822104
+    },
+    {
+      "counter": 320.0,
+      "minimum": 0.0006915204230304,
+      "maximum": 0.04840895290974,
+      "reported_average": 0.03474633328678
+    },
+    {
+      "counter": 340.0,
+      "minimum": 0.0007030457887609,
+      "maximum": 0.0454710435748,
+      "reported_average": 0.03413750739252
+    },
+    {
+      "counter": 360.0,
+      "minimum": 0.0007242501032653,
+      "maximum": 0.04347243056386,
+      "reported_average": 0.03356460808597
+    },
+    {
+      "counter": 380.0,
+      "minimum": 0.000679376034117,
+      "maximum": 0.04150722739193,
+      "reported_average": 0.03302039659018
+    },
+    {
+      "counter": 400.0,
+      "minimum": 0.000625488426686,
+      "maximum": 0.04057710342706,
+      "reported_average": 0.03249393100094
+    },
+    {
+      "counter": 420.0,
+      "minimum": 0.0005782008855723,
+      "maximum": 0.04024286474974,
+      "reported_average": 0.03197274362358
+    },
+    {
+      "counter": 440.0,
+      "minimum": 0.00053644958053,
+      "maximum": 0.0397613246057,
+      "reported_average": 0.03143683684061
+    },
+    {
+      "counter": 460.0,
+      "minimum": 0.0004981474255556,
+      "maximum": 0.04186593325215,
+      "reported_average": 0.03085024991415
+    },
+    {
+      "counter": 480.0,
+      "minimum": 0.0004602020518173,
+      "maximum": 0.04765791296834,
+      "reported_average": 0.03017529639516
+    },
+    {
+      "counter": 500.0,
+      "minimum": 0.0004231025748585,
+      "maximum": 0.05203432469796,
+      "reported_average": 0.02939007492281
+    },
+    {
+      "counter": 520.0,
+      "minimum": 0.0003739461471358,
+      "maximum": 0.05356243902705,
+      "reported_average": 0.02858801478634
+    },
+    {
+      "counter": 540.0,
+      "minimum": 0.0003562364593149,
+      "maximum": 0.05393067278874,
+      "reported_average": 0.02814938503694
+    },
+    {
+      "counter": 560.0,
+      "minimum": 0.000355795910899,
+      "maximum": 0.05293514556073,
+      "reported_average": 0.02798505352002
+    },
+    {
+      "counter": 580.0,
+      "minimum": 0.0003555945989661,
+      "maximum": 0.0526523578878,
+      "reported_average": 0.02792109531519
+    },
+    {
+      "counter": 600.0,
+      "minimum": 0.0003555945989661,
+      "maximum": 0.0526523578878,
+      "reported_average": 0.02792109531519
+    }
+  ],
+  "Cp_points": 103,
+  "Cp_interpolation": "Full surface arc on actual NASA polygon; lower/upper trace joined at LE; no tap extrapolation",
+  "experimental_Cp_convention": "Raw NASA file stores -Cp, upper trace first; corrected to (p-pInf)/qInf with independently verified branch order",
+  "experimental_convention_sha256": "4f41646a64994a232bba5d4223ffaec85133b55b65539351db0740ef7b5380df",
+  "Cp_startup_RMS_error": 0.5686729453166137,
+  "Cp_startup_max_abs_error": 1.5041462035137456,
+  "diagnostic_screens": {
+    "first_residuals": true,
+    "adjacent20_force_coeff_drift": false,
+    "outer_net_mass_last20": false
+  },
+  "diagnostic_screens_all_pass": false,
+  "solver_CPU_s": 1045.770979,
+  "solver_wall_s": 1045.0,
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "pending": "Develop and converge fields; confirm budgets, wall treatment, turbulence/transition and mesh/scheme/domain sensitivity before accepting Cp or loads."
+}

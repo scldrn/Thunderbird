@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "speed_kmh": 600,
+      "max_speed_difference_ms": 2.842170943040401e-14,
+      "max_position_derivative_difference_ms": 6.964010392255259e-05,
+      "max_velocity_derivative_difference_ms2": 0.00016959738527917796,
+      "max_velocity_dot_acceleration": 1.3997691894473974e-12
+    },
+    {
+      "speed_kmh": 1000,
+      "max_speed_difference_ms": 5.684341886080802e-14,
+      "max_position_derivative_difference_ms": 6.912367852780806e-05,
+      "max_velocity_derivative_difference_ms2": 0.00015509742965948479,
+      "max_velocity_dot_acceleration": 2.2097879082139116e-12
+    }
+  ],
+  "scope": "Kinematic and reconstruction checks, not physical validation"
+}

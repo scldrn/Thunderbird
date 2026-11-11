@@ -1,0 +1,209 @@
+{
+  "contrato_version": "1.0.0",
+  "mapa_id": "MAP_FAN_C02_SINTETICO_001",
+  "descripcion": "EJEMPLO SINTÉTICO DEMOSTRATIVO: No contiene datos experimentales medidos ni mediciones de vuelo reales. Diseñado exclusivamente para verificación formal del contrato de datos de módulos de ventilador en arquitectura A.",
+  "unidades": {
+    "longitud": "m",
+    "fuerza": "N",
+    "momento": "N*m",
+    "velocidad": "m/s",
+    "densidad": "kg/m^3",
+    "potencia": "W",
+    "angulo": "deg",
+    "velocidad_rotacion": "rpm",
+    "presion": "Pa",
+    "temperatura": "K"
+  },
+  "marcos_referencia": {
+    "marco_primario": "MODULO_LOCAL",
+    "definiciones": {
+      "MODULO_LOCAL": {
+        "eje_x": "Longitudinal hacia proa relativa del módulo (paralelo a eje FLU X del vehículo)",
+        "eje_y": "Lateral hacia babor relativo del módulo (paralelo a eje FLU Y del vehículo)",
+        "eje_z": "Vertical hacia arriba a lo largo del conducto (empuje neto ascendente en +Z)",
+        "matriz_rotacion_a_FLU": [
+          [1.0, 0.0, 0.0],
+          [0.0, 1.0, 0.0],
+          [0.0, 0.0, 1.0]
+        ]
+      },
+      "CAD_VEHICULO": {
+        "eje_x": "CAD longitudinal, proa en -X",
+        "eje_y": "CAD lateral",
+        "eje_z": "Arriba"
+      },
+      "FLU_CUERPO": {
+        "eje_x": "Adelante hacia el morro",
+        "eje_y": "Izquierda",
+        "eje_z": "Arriba"
+      }
+    }
+  },
+  "punto_aplicacion": {
+    "marco_referencia": "MODULO_LOCAL",
+    "coordenadas_m": [0.0, 0.0, 0.0],
+    "descripcion": "Centro del plano del disco del rotor sobre la línea central del conducto"
+  },
+  "metadatos_origen": {
+    "categoria": "supuesto",
+    "es_sintetico": true,
+    "fuente_tipo": "sintetico_demostracion",
+    "instalacion_o_herramienta": "Generador_Sintetico_Pruebas_Contrato",
+    "codigo_o_metodo": "Modelo_Analitico_Idealizado_C02",
+    "referencia_caso": "CASO_SINTETICO_REF_001",
+    "fecha": "2026-11-08",
+    "nivel_resolucion": "N/A_Sintetico",
+    "notas": "Puntos sintéticos generados para verificar conformidad de formato, detección de datos faltantes e interpolación sin conversión a cero."
+  },
+  "geometria_referencia": {
+    "geometria_id": "C02_x160_5kg_MOD_FAN_01",
+    "modulo_id": "FAN_1",
+    "diametro_paso_nominal_m": 0.084,
+    "radio_pala_nominal_m": 0.041,
+    "escala_geom": 1.0,
+    "sentido_giro": "CCW",
+    "estados_compuertas_soportados": [
+      "abierto",
+      "cerrado",
+      "transicion"
+    ]
+  },
+  "dominio_validez": {
+    "densidad_kg_m3": [1.0, 1.3],
+    "velocidad_modulo_m_s": [0.0, 40.0],
+    "rpm": [0.0, 32000.0],
+    "deflexion_alabes_deg": [-35.0, 35.0],
+    "politica_extrapolacion": "RECHAZAR"
+  },
+  "muestras": [
+    {
+      "id_muestra": "SINT_0001_ESTACIONARIO_NOMINAL",
+      "flujo_local": {
+        "velocidad_vectorial_m_s": [0.0, 0.0, 0.0],
+        "densidad_kg_m3": 1.225,
+        "temperatura_K": 288.15,
+        "presion_estatica_Pa": 101325.0
+      },
+      "mando_estado": {
+        "rpm": 26000.0,
+        "mando_normalizado": 0.8125,
+        "deflexion_alabes_deg": [0.0, 0.0],
+        "estado_compuerta": "abierto"
+      },
+      "fuerza_vectorial_N": [0.0, 0.0, 12.25],
+      "momento_vectorial_Nm": [0.0, 0.0, -0.055],
+      "potencia_electrica_W": 310.5,
+      "potencia_mecanica_W": 248.4,
+      "incertidumbre": {
+        "fuerza_vectorial_N": [0.15, 0.15, 0.35],
+        "momento_vectorial_Nm": [0.005, 0.005, 0.008],
+        "potencia_electrica_W": 5.0,
+        "potencia_mecanica_W": 4.0,
+        "tipo_incertidumbre": "EXPANDIDA_K2",
+        "nivel_confianza_pct": 95.0,
+        "metodo_evaluacion": "Estimacion_sintetica_tolerancia_sensores"
+      },
+      "es_extrapolacion": false,
+      "marcas_datos_faltantes": {},
+      "notas": "Punto sintético en estacionario con potencias conocidas."
+    },
+    {
+      "id_muestra": "SINT_0002_AVANCE_POT_ELEC_NO_MEDIDA",
+      "flujo_local": {
+        "velocidad_vectorial_m_s": [12.0, 0.0, 0.0],
+        "densidad_kg_m3": 1.225,
+        "temperatura_K": 288.15,
+        "presion_estatica_Pa": 101325.0
+      },
+      "mando_estado": {
+        "rpm": 26000.0,
+        "mando_normalizado": 0.8125,
+        "deflexion_alabes_deg": [0.0, 0.0],
+        "estado_compuerta": "abierto"
+      },
+      "fuerza_vectorial_N": [-0.85, 0.0, 11.90],
+      "momento_vectorial_Nm": [0.0, 0.082, -0.056],
+      "potencia_electrica_W": null,
+      "potencia_mecanica_W": 254.2,
+      "incertidumbre": {
+        "fuerza_vectorial_N": [0.18, 0.15, 0.38],
+        "momento_vectorial_Nm": [0.006, 0.009, 0.008],
+        "potencia_electrica_W": null,
+        "potencia_mecanica_W": 4.5,
+        "tipo_incertidumbre": "EXPANDIDA_K2",
+        "nivel_confianza_pct": 95.0,
+        "metodo_evaluacion": "Estimacion_sintetica_tolerancia_sensores"
+      },
+      "es_extrapolacion": false,
+      "marcas_datos_faltantes": {
+        "potencia_electrica_W": "NO_MEDIDO"
+      },
+      "notas": "Punto sintético con flujo cruzado; potencia eléctrica ausente señalada con marca 'NO_MEDIDO' (no se convierte a cero)."
+    },
+    {
+      "id_muestra": "SINT_0003_VECTORIZADO_POTENCIAS_NO_DISPONIBLES",
+      "flujo_local": {
+        "velocidad_vectorial_m_s": [5.0, 0.0, 0.0],
+        "densidad_kg_m3": 1.225,
+        "temperatura_K": 288.15,
+        "presion_estatica_Pa": 101325.0
+      },
+      "mando_estado": {
+        "rpm": 28000.0,
+        "mando_normalizado": 0.875,
+        "deflexion_alabes_deg": [15.0, 0.0],
+        "estado_compuerta": "abierto"
+      },
+      "fuerza_vectorial_N": [3.15, 0.0, 13.80],
+      "momento_vectorial_Nm": [0.0, -0.045, -0.062],
+      "potencia_electrica_W": null,
+      "potencia_mecanica_W": null,
+      "incertidumbre": {
+        "fuerza_vectorial_N": [0.22, 0.16, 0.40],
+        "momento_vectorial_Nm": [0.008, 0.010, 0.009],
+        "potencia_electrica_W": null,
+        "potencia_mecanica_W": null,
+        "tipo_incertidumbre": "EXPANDIDA_K2",
+        "nivel_confianza_pct": 95.0,
+        "metodo_evaluacion": "Estimacion_sintetica_tolerancia_sensores"
+      },
+      "es_extrapolacion": false,
+      "marcas_datos_faltantes": {
+        "potencia_electrica_W": "NO_MEDIDO",
+        "potencia_mecanica_W": "NO_CALCULADO"
+      },
+      "notas": "Punto sintético vectorizado con álabe deflexionado 15 grados; ambas potencias señaladas como no disponibles."
+    },
+    {
+      "id_muestra": "SINT_0004_COMPUERTA_CERRADA_REPOSO",
+      "flujo_local": {
+        "velocidad_vectorial_m_s": [15.0, 0.0, 0.0],
+        "densidad_kg_m3": 1.225,
+        "temperatura_K": 288.15,
+        "presion_estatica_Pa": 101325.0
+      },
+      "mando_estado": {
+        "rpm": 0.0,
+        "mando_normalizado": 0.0,
+        "deflexion_alabes_deg": [0.0, 0.0],
+        "estado_compuerta": "cerrado"
+      },
+      "fuerza_vectorial_N": [-0.12, 0.0, 0.0],
+      "momento_vectorial_Nm": [0.0, 0.002, 0.0],
+      "potencia_electrica_W": 0.0,
+      "potencia_mecanica_W": 0.0,
+      "incertidumbre": {
+        "fuerza_vectorial_N": [0.02, 0.02, 0.02],
+        "momento_vectorial_Nm": [0.001, 0.001, 0.001],
+        "potencia_electrica_W": 0.0,
+        "potencia_mecanica_W": 0.0,
+        "tipo_incertidumbre": "EXPANDIDA_K2",
+        "nivel_confianza_pct": 95.0,
+        "metodo_evaluacion": "Estimacion_sintetica_motor_inactivo"
+      },
+      "es_extrapolacion": false,
+      "marcas_datos_faltantes": {},
+      "notas": "Rotor inactivo con compuerta cerrada: potencia conocida como 0.0 W (estado de reposo medido)."
+    }
+  ]
+}

@@ -1,0 +1,618 @@
+[
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -350,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -325,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -300,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -275,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -250,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -225,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -200,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -175,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -150,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -125,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": -100,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 100,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 125,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 150,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 175,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 200,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 225,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 250,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 275,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 300,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 325,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 65.0,
+    "x_mm": 350,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -350,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -325,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -300,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -275,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -250,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -225,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -200,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -175,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -150,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -125,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": -100,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 100,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 125,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 150,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 175,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 200,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 225,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 250,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 275,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 300,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 325,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 76.0,
+    "x_mm": 350,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -350,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -325,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -300,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -275,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -250,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -225,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -200,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -175,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -150,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -125,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": -100,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 100,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.0,
+    "conservative_packaging_pass": true
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 125,
+    "full_probe_boolean_checked": true,
+    "outside_envelope_volume_mm3": 0.001167740134187856,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 150,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 175,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 200,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 225,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 250,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 275,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 300,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 325,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 86.0,
+    "x_mm": 350,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -350,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -325,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -300,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -275,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -250,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -225,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -200,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -175,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -150,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -125,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": -100,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 100,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 125,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 150,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 175,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 200,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 225,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 250,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 275,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 300,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 325,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  },
+  {
+    "half_pitch_mm": 96.0,
+    "x_mm": 350,
+    "full_probe_boolean_checked": false,
+    "outside_envelope_volume_mm3": null,
+    "conservative_packaging_pass": false
+  }
+]

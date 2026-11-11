@@ -1,0 +1,62 @@
+{
+  "cases": [
+    {
+      "rotor_diameter_m": 0.25,
+      "effective_electric_efficiency": 0.65,
+      "motor_specific_thrust_Nkg": 111.60714285714286,
+      "motors_rotors_mass_kg": 4.775759949314855,
+      "other_system_mass_kg": 2.0,
+      "hover_mode_min": 0.5,
+      "battery_specific_power_Wkg": 4000.0,
+      "hover_W": 3976.779758643292,
+      "agility_sample_W": 11248.031738482423,
+      "battery_energy_kg": 0.1959960398594669,
+      "battery_power_kg": 2.8120079346206057,
+      "battery_required_kg": 2.8120079346206057,
+      "fuel_mass_available_kg": 0,
+      "mass_deficit_kg": 1.7427678839354601,
+      "full_throttle_fuel_budget_min": 0.0,
+      "status": "necessary_mass_screen_not_validated_aircraft"
+    },
+    {
+      "rotor_diameter_m": 0.25,
+      "effective_electric_efficiency": 0.65,
+      "motor_specific_thrust_Nkg": 111.60714285714286,
+      "motors_rotors_mass_kg": 4.775759949314855,
+      "other_system_mass_kg": 2.0,
+      "hover_mode_min": 2.0,
+      "battery_specific_power_Wkg": 4000.0,
+      "hover_W": 3976.779758643292,
+      "agility_sample_W": 11248.031738482423,
+      "battery_energy_kg": 0.7839841594378676,
+      "battery_power_kg": 2.8120079346206057,
+      "battery_required_kg": 2.8120079346206057,
+      "fuel_mass_available_kg": 0,
+      "mass_deficit_kg": 1.7427678839354601,
+      "full_throttle_fuel_budget_min": 0.0,
+      "status": "necessary_mass_screen_not_validated_aircraft"
+    },
+    {
+      "rotor_diameter_m": 0.25,
+      "effective_electric_efficiency": 0.65,
+      "motor_specific_thrust_Nkg": 111.60714285714286,
+      "motors_rotors_mass_kg": 4.775759949314855,
+      "other_system_mass_kg": 2.0,
+      "hover_mode_min": 5.0,
+      "battery_specific_power_Wkg": 4000.0,
+      "hover_W": 3976.779758643292,
+      "agility_sample_W": 11248.031738482423,
+      "battery_energy_kg": 1.9599603985946685,
+      "battery_power_kg": 2.8120079346206057,
+      "battery_required_kg": 2.8120079346206057,
+      "fuel_mass_available_kg": 0,
+      "mass_deficit_kg": 1.7427678839354601,
+      "full_throttle_fuel_budget_min": 0.0,
+      "status": "necessary_mass_screen_not_validated_aircraft"
+    }
+  ],
+  "allocation_max_residual": 7.105427357601002e-14,
+  "sampled_directions": 26,
+  "continuous_direction_power_bound": false,
+  "notes": "No time at 1000km/h can be deduced: missing installed engine thrust map and full drag. Module mass differs from inertia hypothesis; iterate mass distribution before physical conclusions."
+}

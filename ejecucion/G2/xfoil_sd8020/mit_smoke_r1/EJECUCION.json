@@ -1,0 +1,42 @@
+{
+  "scope": "MIT source smoke test; compiler compatibility flag and no FPE traps, not a physically accepted polar",
+  "image_id": "sha256:54f41a5d5e16486edb4c92ebce9bb9fc2ec8108dbd3fed9f9b917886c8b9bdf3",
+  "geometry_sha256": "102c8b1d93c5b02ae547b27a50340ff326975e0c75ba13adfe737cc7812c3ea7",
+  "source_sha256": "0feb71b58070d8514d830fcb0b609a10a11399d362493d7b9bbfb7343dff3f23",
+  "compiler_flags": "-O -g -fdefault-real-8 -fallow-argument-mismatch; CHK empty",
+  "packaged_fpe_traps_not_used": true,
+  "physical_acceptance": false,
+  "cases": {
+    "naca0012": {
+      "exit_code": 0,
+      "output_contains_CL": false,
+      "fpe_signal_reported": false,
+      "commands_sha256": "849c22cf28b38523d8cd31a45d5854da00cd3d9986e606d41a0c35fcc5017670"
+    },
+    "sd8020_original": {
+      "exit_code": 0,
+      "output_contains_CL": false,
+      "fpe_signal_reported": false,
+      "commands_sha256": "dfc6071934fb139cb8299f0c674623473afbfe91af6e127be76eed4504482f7b"
+    },
+    "sd8020_pane": {
+      "exit_code": 0,
+      "output_contains_CL": false,
+      "fpe_signal_reported": false,
+      "commands_sha256": "9f409850cb582f8f496be7f6d55a4a6698e426b76ad905e1e54e406ca1772b64"
+    },
+    "sd8020_viscoso": {
+      "exit_code": 0,
+      "output_contains_CL": true,
+      "fpe_signal_reported": false,
+      "commands_sha256": "d6dc64de5fea297ed0051d549fc83a36d04d97a57fb0147897791836e5d03583"
+    }
+  },
+  "started_UTC": "2026-11-05T01:44:15.121598+00:00",
+  "script_sha256": "c3255964ea2ca870e9de0bbb70c08b88378dc046c5044513c261412e8269a1ff",
+  "container_id": "7590f5a0cecb0638fd2d07a9ee56382099a37cfc0586f33d2b2f038914ae3d1d",
+  "binary_and_source_identification": "5befa0eedb448f88832b4a2e9f270857e288cdfdd9be946f0347d8d374f1a9dd  /opt/xfoil-source/Xfoil/bin/xfoil\nGNU Fortran (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0\n0feb71b58070d8514d830fcb0b609a10a11399d362493d7b9bbfb7343dff3f23  /opt/xfoil-source/xfoil6.996.tgz",
+  "viscous_polar_copied": true,
+  "polar_sha256": "3f306813259dc1bce0ce557dbc1bbf8e42387ef6533524037ee2436ab9fc05e9",
+  "stop_exit_code": 0
+}

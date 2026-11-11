@@ -1,0 +1,20 @@
+{
+  "revision": "C07_conceptual",
+  "archives": [
+    {
+      "target_mass_kg": 5,
+      "file": "C07_5kg_kit_CAD.zip",
+      "size_bytes": 51878090,
+      "sha256": "17bbc00af9dcde90796625ac2b62d1a5801aee403ce4a68f4c657781f6339e88",
+      "entries": 18
+    },
+    {
+      "target_mass_kg": 10,
+      "file": "C07_10kg_kit_CAD.zip",
+      "size_bytes": 52838467,
+      "sha256": "bfd49d982fffc405b90e3f970a18b755881bba929f93e05a97bb9dc42eb7f533",
+      "entries": 18
+    }
+  ],
+  "reproduction_requires_full_repository": true
+}

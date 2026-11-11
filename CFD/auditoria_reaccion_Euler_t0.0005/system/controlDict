@@ -1,0 +1,14 @@
+FoamFile
+{version 2.0; format ascii; class dictionary; object controlDict;}
+application foamRun; solver incompressibleFluid; startFrom startTime; startTime 0; stopAt endTime; endTime 0.0005; deltaT 1e-6; writeControl timeStep; writeInterval 1;
+functions {
+load_vaneX0 {type forces; libs ("libforces.so"); patches (vaneX0); rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+load_vaneX1 {type forces; libs ("libforces.so"); patches (vaneX1); rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+load_vaneX2 {type forces; libs ("libforces.so"); patches (vaneX2); rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+load_vaneY0 {type forces; libs ("libforces.so"); patches (vaneY0); rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+load_vaneY1 {type forces; libs ("libforces.so"); patches (vaneY1); rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+load_vaneY2 {type forces; libs ("libforces.so"); patches (vaneY2); rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+load_walls {type forces; libs ("libforces.so"); patches (walls); rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+load_vanes {type forces; libs ("libforces.so"); patches (vaneX0 vaneX1 vaneX2 vaneY0 vaneY1 vaneY2); rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+load_all_solid {type forces; libs ("libforces.so"); patches (vaneX0 vaneX1 vaneX2 vaneY0 vaneY1 vaneY2 walls); rho rhoInf; rhoInf 1.225; CofR (0 0 0); writeControl timeStep; writeInterval 1;}
+}

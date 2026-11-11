@@ -1,0 +1,37 @@
+{
+  "scope": "Official SU2 RAE2822 case operability/convergence pilot; not accepted physical validation",
+  "source_SU2_version": "8.6.0",
+  "source_config_sha256": "68a8dcdd171b3ae1cfc38d7a946bd682164d099169eee25ff576c2f1503b3da7",
+  "source_mesh_sha256": "60fc63b5cab8eb1aeb3a3fe661a0f0c6a210fadb907f031f02efdb054883f11f",
+  "iteration_limit": 600,
+  "counter_is_physical_time": false,
+  "declared_conditions": {
+    "Mach": 0.729,
+    "alpha_deg": 2.31,
+    "Reynolds": 6500000.0,
+    "chord": 1.0,
+    "T_freestream_K": 288.15,
+    "turbulence_intensity": 0.001,
+    "eddy_to_molecular_viscosity_ratio": 100.0
+  },
+  "numerics": "Official JST + implicit Euler + multigrid3 + FGMRES/LU_SGS + CFL100, unchanged from source case",
+  "changes_from_official": [
+    "iteration limit99999_to600",
+    "output interval250_to200",
+    "explicit restartASCII/surfaceCSV/ParaView output"
+  ],
+  "pending_defaults_confirmation": "Verify actual freestream pressure, gas and viscosity constants and SST variant in runtime output/source before comparing dimensional physics.",
+  "distinctions_from_NASA_OpenFOAM_case": [
+    "T288.15K and chord1 rather than255.5556K and0.3048m.",
+    "Freestream turbulent viscosity ratio100 rather than1; model settings and boundary treatment differ.",
+    "Official SU2 geometry differs from NASA polygon by up to0.001509chord in one-way vertex distance.",
+    "Native node-centred mesh/algorithm differs from the OpenFOAM cell-centred discretization."
+  ],
+  "physical_validation_accepted": false,
+  "vehicle_performance_accepted": false,
+  "inputs_sha256": {
+    "case.cfg": "e0c4b40774169e65c6aa134ce898167f53c24d8cef66a02f6c04774713b65535",
+    "ORIGINAL_turb_SST_RAE2822.cfg": "68a8dcdd171b3ae1cfc38d7a946bd682164d099169eee25ff576c2f1503b3da7",
+    "mesh_RAE2822_turb.su2": "60fc63b5cab8eb1aeb3a3fe661a0f0c6a210fadb907f031f02efdb054883f11f"
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "map_cases": 324,
+  "map_solved": 288,
+  "reference_points": [
+    {
+      "target_N": -39,
+      "rpm": 6000,
+      "solved": false
+    },
+    {
+      "target_N": -30,
+      "rpm": 6000,
+      "solved": true,
+      "pitch_deg": -10.151379788239693,
+      "shaft_W": 340.2325020465382,
+      "electrical_W_assumed": 400.2735318194567,
+      "shaft_torque_Nm": 0.5414968450122994,
+      "outside_span_fraction": 0.1333333333333333,
+      "outside_torque_fraction": 0.28421115504338695,
+      "Re_min": 54606.52348896567,
+      "Re_max": 295670.58695406147,
+      "Mach_tip": 0.4228416661307961,
+      "thrust_residual": 7.761968845443334e-11
+    },
+    {
+      "target_N": 0,
+      "rpm": 6000,
+      "solved": true,
+      "pitch_deg": -0.00812965760432783,
+      "shaft_W": 51.19272940085692,
+      "electrical_W_assumed": 60.22674047159638,
+      "shaft_torque_Nm": 0.0814757593451218,
+      "outside_span_fraction": 0.04166666666666663,
+      "outside_torque_fraction": 0.0016402627592567245,
+      "Re_min": 51642.61896311988,
+      "Re_max": 295137.56737423013,
+      "Mach_tip": 0.42207938913348614,
+      "thrust_residual": 2.7755575615628914e-17
+    },
+    {
+      "target_N": 30,
+      "rpm": 6000,
+      "solved": true,
+      "pitch_deg": 10.28049622533571,
+      "shaft_W": 351.6392634891418,
+      "electrical_W_assumed": 413.69325116369623,
+      "shaft_torque_Nm": 0.5596512696949035,
+      "outside_span_fraction": 0.033333333333333326,
+      "outside_torque_fraction": 0.0021206765935995035,
+      "Re_min": 54606.52348896567,
+      "Re_max": 295670.58695406147,
+      "Mach_tip": 0.4228416661307961,
+      "thrust_residual": 3.552713678800501e-15
+    },
+    {
+      "target_N": 39,
+      "rpm": 6000,
+      "solved": true,
+      "pitch_deg": 12.8772441103005,
+      "shaft_W": 520.3125493136639,
+      "electrical_W_assumed": 612.1324109572516,
+      "shaft_torque_Nm": 0.8281031417601517,
+      "outside_span_fraction": 0.05833333333333335,
+      "outside_torque_fraction": 0.0852558020104189,
+      "Re_min": 55464.81859526138,
+      "Re_max": 295830.3055537304,
+      "Mach_tip": 0.42307008140703933,
+      "thrust_residual": 5.254463530945941e-11
+    }
+  ],
+  "allocation_samples": 546,
+  "allocation_summary": [
+    {
+      "level": 1.0,
+      "infeasible_samples": 0,
+      "max_sample_power_W": 1203.0660248258607,
+      "min_sample_power_W": 932.6552931638467,
+      "worst": {
+        "level": 1.0,
+        "direction": 12,
+        "torque_case": 2,
+        "feasible": true,
+        "power_W": 1203.0660248258607,
+        "optimizer_success": true,
+        "max_rotor_outside_torque_fraction": 0.004162208988695928,
+        "thrusts": [
+          17.94407600960403,
+          17.944073419446898,
+          -18.242451598568984,
+          -18.242449008411853,
+          -5.298378106598811,
+          -5.298375516441663,
+          5.00000251763384,
+          4.9999999274766935
+        ]
+      },
+      "optimizer_failures": 0
+    },
+    {
+      "level": 1.5,
+      "infeasible_samples": 0,
+      "max_sample_power_W": 1798.6347215192418,
+      "min_sample_power_W": 1319.2967057815863,
+      "worst": {
+        "level": 1.5,
+        "direction": 12,
+        "torque_case": 2,
+        "feasible": true,
+        "power_W": 1798.6347215192418,
+        "optimizer_success": true,
+        "max_rotor_outside_torque_fraction": 0.00449511739795691,
+        "thrusts": [
+          25.986026161420753,
+          25.86371769481147,
+          -26.5410207084973,
+          -26.418712241888013,
+          -8.999959594257083,
+          -8.87765112764778,
+          8.444965047180528,
+          8.322656580571225
+        ]
+      },
+      "optimizer_failures": 0
+    },
+    {
+      "level": 2.0,
+      "infeasible_samples": 0,
+      "max_sample_power_W": 2528.2848970996206,
+      "min_sample_power_W": 1799.6007119914614,
+      "worst": {
+        "level": 2.0,
+        "direction": 12,
+        "torque_case": 2,
+        "feasible": true,
+        "power_W": 2528.2848970996206,
+        "optimizer_success": true,
+        "max_rotor_outside_torque_fraction": 0.9767794745332035,
+        "thrusts": [
+          31.6363632102017,
+          31.999908643891153,
+          -36.623043144710486,
+          -36.98658857839995,
+          -14.484994408200222,
+          -14.848539841889686,
+          9.498314473691432,
+          9.861859907380898
+        ]
+      },
+      "optimizer_failures": 0
+    }
+  ],
+  "refinement_checks": [
+    {
+      "thrust": -30,
+      "relative_power_difference": 6.332107944651e-07
+    },
+    {
+      "thrust": 0,
+      "relative_power_difference": 6.320470461895766e-06
+    },
+    {
+      "thrust": 30,
+      "relative_power_difference": 9.828169427184008e-07
+    },
+    {
+      "thrust": 39,
+      "relative_power_difference": 3.6966375061009416e-07
+    }
+  ],
+  "voltage_necessary_conditions": [
+    {
+      "voltage": 32,
+      "nominal_no_load_rpm": 5440,
+      "can_reach_6000_even_unloaded": false
+    },
+    {
+      "voltage": 34,
+      "nominal_no_load_rpm": 5780,
+      "can_reach_6000_even_unloaded": false
+    },
+    {
+      "voltage": 36,
+      "nominal_no_load_rpm": 6120,
+      "can_reach_6000_even_unloaded": true
+    },
+    {
+      "voltage": 38,
+      "nominal_no_load_rpm": 6460,
+      "can_reach_6000_even_unloaded": true
+    },
+    {
+      "voltage": 40,
+      "nominal_no_load_rpm": 6800,
+      "can_reach_6000_even_unloaded": true
+    },
+    {
+      "voltage": 42,
+      "nominal_no_load_rpm": 7140,
+      "can_reach_6000_even_unloaded": true
+    },
+    {
+      "voltage": 44,
+      "nominal_no_load_rpm": 7480,
+      "can_reach_6000_even_unloaded": true
+    },
+    {
+      "voltage": 46.94,
+      "nominal_no_load_rpm": 7979.799999999999,
+      "can_reach_6000_even_unloaded": true
+    },
+    {
+      "voltage": 50.4,
+      "nominal_no_load_rpm": 8568.0,
+      "can_reach_6000_even_unloaded": true
+    }
+  ],
+  "rotor_momentum": {
+    "blade_only_J_kgm2": 0.0006300196000000001,
+    "angular_momentum_Nms": 0.3958529893955161,
+    "gyroscopic_torque_at_body_2rads_Nm": 0.7917059787910322
+  },
+  "servo_sensitivity": {
+    "thrust_endpoints_N": [
+      -30,
+      30
+    ],
+    "required_Nm": 0.2279275451137885,
+    "sweep_deg": 20.431876013575405,
+    "kinematic_time_s": 0.047674377365009284,
+    "linear_torque_speed_assumption_time_s": 0.07538941743531614
+  },
+  "limitations": [
+    "not validated negative thrust",
+    "endpoint clamping",
+    "low-speed 2D polar at rotor Mach up to .46",
+    "constant85percent efficiency",
+    "no measured motor map",
+    "no profile Cm data",
+    "rotor reaction and gyro NOT included in allocation",
+    "fixed mass and CG",
+    "no structural sizing approval"
+  ]
+}

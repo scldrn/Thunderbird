@@ -1,0 +1,19 @@
+{
+  "inicio_utc": "2026-11-08T04:11:07.825002+00:00",
+  "estado": "completado",
+  "tareas": [
+    "cinematica_compuertas",
+    "cargas_compuertas",
+    "fallos_compuerta",
+    "perfil_mecanismo_tiempo"
+  ],
+  "trabajadores": 4,
+  "workspace_temporal": "/private/tmp/aero_20261108T041107Z_69dce893_nlp2uwyf",
+  "fin_utc": "2026-11-08T04:20:45.893494+00:00",
+  "recolectadas": 4,
+  "requieren_revision": [
+    "cargas_compuertas",
+    "perfil_mecanismo_tiempo",
+    "fallos_compuerta"
+  ]
+}

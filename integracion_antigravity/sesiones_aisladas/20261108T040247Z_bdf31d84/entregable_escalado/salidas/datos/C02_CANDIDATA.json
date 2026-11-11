@@ -1,0 +1,142 @@
+{
+  "architecture": "A_internal_fans",
+  "canonical_units": {
+    "length": "m",
+    "mass": "kg",
+    "time": "s",
+    "force": "N",
+    "torque": "N m",
+    "temperature": "K"
+  },
+  "cad_units": "mm",
+  "cad_to_SI_length_factor": 0.001,
+  "coordinate_frame": {
+    "x": "CAD longitudinal, nose at negative x",
+    "y": "CAD lateral",
+    "z": "up"
+  },
+  "flight_body_frame": {
+    "name": "FLU",
+    "x": "forward towards nose",
+    "y": "left",
+    "z": "up",
+    "R_flight_from_CAD": [
+      [
+        -1,
+        0,
+        0
+      ],
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "rule": "Transform vectors, CG and inertia consistently; apply CAD-to-FLU before flight attitude in visualization"
+  },
+  "operating_reference": {
+    "rho_kg_m3": 1.225,
+    "p_Pa": 101325,
+    "T_K": 288.15,
+    "mu_Pa_s": 1.7894e-05,
+    "g_m_s2": 9.80665,
+    "gamma": 1.4,
+    "R_J_kg_K": 287.05287,
+    "scope": "Reference atmosphere for comparable calculations, not entire operating envelope"
+  },
+  "id": "C02_COMPACTA_x160_5kg_2026-11-03_r2",
+  "date": "2026-11-03",
+  "parent_baseline_id": "A07_RESEARCH_BASE_2026-11-03_r1",
+  "scope": "Separate packaging/kinematics candidate, not a replacement canonical reference or validated vehicle",
+  "mass_targets_kg": [
+    2,
+    5,
+    10
+  ],
+  "integration_reference_mass_target_kg": 5,
+  "mass_targets_are_actual_masses": false,
+  "variants": {
+    "2": "pending_own_configuration",
+    "5": "partial_CAD_candidate",
+    "10": "pending_own_configuration"
+  },
+  "geometry": {
+    "5": {
+      "states": {
+        "cerrado": {
+          "path": "ejecucion/G3/C02/integracion_x160/C02_integracion_x160_5kg_cerrado_CANDIDATA.step",
+          "sha256": "c587381e42e5eba78454f9bc263a9db51b75114875ab281eaa4fbb33666b439e"
+        },
+        "corte": {
+          "path": "ejecucion/G3/C02/integracion_x160/C02_integracion_x160_5kg_corte_CANDIDATA.step",
+          "sha256": "d982b0342190f94439bba9d874ce690efafc705d70aa30cb8288cd8fae89cc1d"
+        }
+      },
+      "nominal_part_records": 316,
+      "scale_from_5kg": 1.0
+    }
+  },
+  "fan_reference": {
+    "count": 4,
+    "centres_xy_m": [
+      [
+        -0.16,
+        -0.076
+      ],
+      [
+        -0.16,
+        0.076
+      ],
+      [
+        0.16,
+        -0.076
+      ],
+      [
+        0.16,
+        0.076
+      ]
+    ],
+    "centres_frame": "CAD datum, not physical CG frame",
+    "axes": [
+      0,
+      0,
+      1
+    ],
+    "nominal_bore_diameter_m": 0.084,
+    "BEM_nominal_radius_m": 0.041,
+    "full_rotation_conservative_enclosing_radius_m": 0.0415,
+    "spins_viewed_from_plus_Z": [
+      "CCW",
+      "CW",
+      "CW",
+      "CCW"
+    ],
+    "installed_map_available": false
+  },
+  "actual_mass_kg": null,
+  "actual_CG_m": null,
+  "actual_inertia_kgm2": null,
+  "rotor_motor_servo_and_cooling_qualified": false,
+  "door_motion": "conceptual lift10mm/rotate110deg, 61 discrete nodes checked",
+  "actuator_kinematics": {
+    "vane_mechanical_range_deg": [
+      -45,
+      45
+    ],
+    "crank_radius_m": 0.006,
+    "effective_jet_cone_deg": null,
+    "servo_response_s": null
+  },
+  "reports": {
+    "geometry": "ejecucion/G3/C02/INFORME-C02.md",
+    "interfaces": "ejecucion/G3/C02/integracion_x160/AUDITORIA_INTERFACES.json",
+    "doors": "ejecucion/G3/C02/integracion_x160/AUDITORIA_TAPAS.json",
+    "partial_mass": "ejecucion/G3/C02/integracion_x160/MASA_INERCIA_PARCIAL.json"
+  },
+  "predictive_flight_plant_accepted": false
+}

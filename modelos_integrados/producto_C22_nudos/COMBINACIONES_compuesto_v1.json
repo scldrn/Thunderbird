@@ -1,0 +1,213 @@
+{
+  "source_sha256": "5e6d951919ad7420f8cb22c4711c16e867f3ce5168b259d4c76ca9d656b35791",
+  "node_source_sha256": "399c89a25f6c8281d43ef29245038b789860e6abeec770e81f67a893a9f0932e",
+  "scope": "row 0 only, selected C17 stems, 1.5mm sampled nodes, closed pair check, local poses only",
+  "routes": [
+    {
+      "edge": 0,
+      "rail_x_mm": -215.0,
+      "collisions": [],
+      "errors": [],
+      "passes": true
+    },
+    {
+      "edge": 0,
+      "rail_x_mm": -105.0,
+      "collisions": [],
+      "errors": [],
+      "passes": true
+    },
+    {
+      "edge": 1,
+      "rail_x_mm": -215.0,
+      "collisions": [],
+      "errors": [],
+      "passes": true
+    },
+    {
+      "edge": 1,
+      "rail_x_mm": -105.0,
+      "collisions": [],
+      "errors": [],
+      "passes": true
+    },
+    {
+      "edge": 2,
+      "rail_x_mm": -215.0,
+      "collisions": [],
+      "errors": [],
+      "passes": true
+    },
+    {
+      "edge": 2,
+      "rail_x_mm": -105.0,
+      "collisions": [],
+      "errors": [],
+      "passes": true
+    }
+  ],
+  "pairs": [
+    {
+      "edge_a": 0,
+      "edge_b": 1,
+      "rail_a": -215.0,
+      "rail_b": -215.0,
+      "overlap_outside_node_mm3": 0.2617993875885407,
+      "error": null
+    },
+    {
+      "edge_a": 0,
+      "edge_b": 1,
+      "rail_a": -215.0,
+      "rail_b": -105.0,
+      "overlap_outside_node_mm3": null,
+      "error": "ValueError('Null TopoDS_Shape object')"
+    },
+    {
+      "edge_a": 0,
+      "edge_b": 1,
+      "rail_a": -105.0,
+      "rail_b": -215.0,
+      "overlap_outside_node_mm3": null,
+      "error": "ValueError('Null TopoDS_Shape object')"
+    },
+    {
+      "edge_a": 0,
+      "edge_b": 1,
+      "rail_a": -105.0,
+      "rail_b": -105.0,
+      "overlap_outside_node_mm3": 0.26179938758853916,
+      "error": null
+    },
+    {
+      "edge_a": 1,
+      "edge_b": 2,
+      "rail_a": -215.0,
+      "rail_b": -215.0,
+      "overlap_outside_node_mm3": null,
+      "error": "ValueError('Null TopoDS_Shape object')"
+    },
+    {
+      "edge_a": 1,
+      "edge_b": 2,
+      "rail_a": -215.0,
+      "rail_b": -105.0,
+      "overlap_outside_node_mm3": null,
+      "error": "ValueError('Null TopoDS_Shape object')"
+    },
+    {
+      "edge_a": 1,
+      "edge_b": 2,
+      "rail_a": -105.0,
+      "rail_b": -215.0,
+      "overlap_outside_node_mm3": null,
+      "error": "ValueError('Null TopoDS_Shape object')"
+    },
+    {
+      "edge_a": 1,
+      "edge_b": 2,
+      "rail_a": -105.0,
+      "rail_b": -105.0,
+      "overlap_outside_node_mm3": null,
+      "error": "ValueError('Null TopoDS_Shape object')"
+    },
+    {
+      "edge_a": 0,
+      "edge_b": 2,
+      "rail_a": -215.0,
+      "rail_b": -215.0,
+      "overlap_outside_node_mm3": 0.0,
+      "error": null
+    },
+    {
+      "edge_a": 0,
+      "edge_b": 2,
+      "rail_a": -215.0,
+      "rail_b": -105.0,
+      "overlap_outside_node_mm3": 0.0,
+      "error": null
+    },
+    {
+      "edge_a": 0,
+      "edge_b": 2,
+      "rail_a": -105.0,
+      "rail_b": -215.0,
+      "overlap_outside_node_mm3": 0.0,
+      "error": null
+    },
+    {
+      "edge_a": 0,
+      "edge_b": 2,
+      "rail_a": -105.0,
+      "rail_b": -105.0,
+      "overlap_outside_node_mm3": 0.0,
+      "error": null
+    }
+  ],
+  "combinations": [
+    {
+      "rails": [
+        -215.0,
+        -215.0,
+        -215.0
+      ],
+      "passes": false
+    },
+    {
+      "rails": [
+        -215.0,
+        -215.0,
+        -105.0
+      ],
+      "passes": false
+    },
+    {
+      "rails": [
+        -215.0,
+        -105.0,
+        -215.0
+      ],
+      "passes": false
+    },
+    {
+      "rails": [
+        -215.0,
+        -105.0,
+        -105.0
+      ],
+      "passes": false
+    },
+    {
+      "rails": [
+        -105.0,
+        -215.0,
+        -215.0
+      ],
+      "passes": false
+    },
+    {
+      "rails": [
+        -105.0,
+        -215.0,
+        -105.0
+      ],
+      "passes": false
+    },
+    {
+      "rails": [
+        -105.0,
+        -105.0,
+        -215.0
+      ],
+      "passes": false
+    },
+    {
+      "rails": [
+        -105.0,
+        -105.0,
+        -105.0
+      ],
+      "passes": false
+    }
+  ]
+}

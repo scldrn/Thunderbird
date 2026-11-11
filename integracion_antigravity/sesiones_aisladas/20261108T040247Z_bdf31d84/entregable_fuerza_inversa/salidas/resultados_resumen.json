@@ -1,0 +1,165 @@
+{
+  "metadatos": {
+    "formula_fuerza_total": "Frev_total >= max(0.0, m * g * (n - 1.0))",
+    "formula_fuerza_modulo": "Frev_modulo = Frev_total / 4",
+    "g0_estandar_ms2": 9.80665,
+    "g_didactica_ms2": 9.81,
+    "num_modulos": 4,
+    "masas_evaluadas_kg": [
+      2.0,
+      5.0,
+      10.0
+    ],
+    "factores_n_evaluados": [
+      1.2,
+      2.0,
+      5.0
+    ]
+  },
+  "caso_testigo_5kg_2g": {
+    "m_kg": 5.0,
+    "n": 2.0,
+    "f_rev_total_N": 49.033249999999995,
+    "f_rev_modulo_exacta_N": 12.258312499999999,
+    "f_rev_modulo_3dec_N": 12.258,
+    "verificacion_esperado_12_258": true
+  },
+  "sensibilidad_cg_excentrico": {
+    "f_total_N": 49.033249999999995,
+    "r_simetrico_N": 12.258312499999999,
+    "factor_amplificacion": 1.25,
+    "r_critico_N": 15.322890625,
+    "x_cg_m": 0.04,
+    "y_cg_m": 0.0,
+    "dx_m": 0.16,
+    "dy_m": 0.076
+  },
+  "tabla_escenarios": [
+    {
+      "m_kg": 2.0,
+      "n": 1.2,
+      "n_minus_1": 0.2,
+      "a_desc_ms2": 11.76798,
+      "peso_W_N": 19.6133,
+      "f_rev_total_N": 3.92266,
+      "f_rev_total_kgf": 0.4,
+      "f_rev_modulo_N": 0.980665,
+      "f_rev_modulo_redondeado_3dec": 0.981,
+      "f_rev_modulo_kgf": 0.1,
+      "f_rev_modulo_g981_N": 0.981,
+      "ratio_f_mod_sobre_w_cuartos": 0.2
+    },
+    {
+      "m_kg": 2.0,
+      "n": 2.0,
+      "n_minus_1": 1.0,
+      "a_desc_ms2": 19.6133,
+      "peso_W_N": 19.6133,
+      "f_rev_total_N": 19.6133,
+      "f_rev_total_kgf": 2.0,
+      "f_rev_modulo_N": 4.903325,
+      "f_rev_modulo_redondeado_3dec": 4.903,
+      "f_rev_modulo_kgf": 0.5,
+      "f_rev_modulo_g981_N": 4.905,
+      "ratio_f_mod_sobre_w_cuartos": 1.0
+    },
+    {
+      "m_kg": 2.0,
+      "n": 5.0,
+      "n_minus_1": 4.0,
+      "a_desc_ms2": 49.03325,
+      "peso_W_N": 19.6133,
+      "f_rev_total_N": 78.4532,
+      "f_rev_total_kgf": 8.0,
+      "f_rev_modulo_N": 19.6133,
+      "f_rev_modulo_redondeado_3dec": 19.613,
+      "f_rev_modulo_kgf": 2.0,
+      "f_rev_modulo_g981_N": 19.62,
+      "ratio_f_mod_sobre_w_cuartos": 4.0
+    },
+    {
+      "m_kg": 5.0,
+      "n": 1.2,
+      "n_minus_1": 0.2,
+      "a_desc_ms2": 11.76798,
+      "peso_W_N": 49.03325,
+      "f_rev_total_N": 9.80665,
+      "f_rev_total_kgf": 1.0,
+      "f_rev_modulo_N": 2.451662,
+      "f_rev_modulo_redondeado_3dec": 2.452,
+      "f_rev_modulo_kgf": 0.25,
+      "f_rev_modulo_g981_N": 2.4525,
+      "ratio_f_mod_sobre_w_cuartos": 0.2
+    },
+    {
+      "m_kg": 5.0,
+      "n": 2.0,
+      "n_minus_1": 1.0,
+      "a_desc_ms2": 19.6133,
+      "peso_W_N": 49.03325,
+      "f_rev_total_N": 49.03325,
+      "f_rev_total_kgf": 5.0,
+      "f_rev_modulo_N": 12.258312,
+      "f_rev_modulo_redondeado_3dec": 12.258,
+      "f_rev_modulo_kgf": 1.25,
+      "f_rev_modulo_g981_N": 12.2625,
+      "ratio_f_mod_sobre_w_cuartos": 1.0
+    },
+    {
+      "m_kg": 5.0,
+      "n": 5.0,
+      "n_minus_1": 4.0,
+      "a_desc_ms2": 49.03325,
+      "peso_W_N": 49.03325,
+      "f_rev_total_N": 196.133,
+      "f_rev_total_kgf": 20.0,
+      "f_rev_modulo_N": 49.03325,
+      "f_rev_modulo_redondeado_3dec": 49.033,
+      "f_rev_modulo_kgf": 5.0,
+      "f_rev_modulo_g981_N": 49.05,
+      "ratio_f_mod_sobre_w_cuartos": 4.0
+    },
+    {
+      "m_kg": 10.0,
+      "n": 1.2,
+      "n_minus_1": 0.2,
+      "a_desc_ms2": 11.76798,
+      "peso_W_N": 98.0665,
+      "f_rev_total_N": 19.6133,
+      "f_rev_total_kgf": 2.0,
+      "f_rev_modulo_N": 4.903325,
+      "f_rev_modulo_redondeado_3dec": 4.903,
+      "f_rev_modulo_kgf": 0.5,
+      "f_rev_modulo_g981_N": 4.905,
+      "ratio_f_mod_sobre_w_cuartos": 0.2
+    },
+    {
+      "m_kg": 10.0,
+      "n": 2.0,
+      "n_minus_1": 1.0,
+      "a_desc_ms2": 19.6133,
+      "peso_W_N": 98.0665,
+      "f_rev_total_N": 98.0665,
+      "f_rev_total_kgf": 10.0,
+      "f_rev_modulo_N": 24.516625,
+      "f_rev_modulo_redondeado_3dec": 24.517,
+      "f_rev_modulo_kgf": 2.5,
+      "f_rev_modulo_g981_N": 24.525,
+      "ratio_f_mod_sobre_w_cuartos": 1.0
+    },
+    {
+      "m_kg": 10.0,
+      "n": 5.0,
+      "n_minus_1": 4.0,
+      "a_desc_ms2": 49.03325,
+      "peso_W_N": 98.0665,
+      "f_rev_total_N": 392.266,
+      "f_rev_total_kgf": 40.0,
+      "f_rev_modulo_N": 98.0665,
+      "f_rev_modulo_redondeado_3dec": 98.066,
+      "f_rev_modulo_kgf": 10.0,
+      "f_rev_modulo_g981_N": 98.1,
+      "ratio_f_mod_sobre_w_cuartos": 4.0
+    }
+  ]
+}

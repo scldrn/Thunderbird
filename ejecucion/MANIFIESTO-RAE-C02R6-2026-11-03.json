@@ -1,0 +1,359 @@
+{
+  "created_UTC": "2026-11-03T16:43:26.488500+00:00",
+  "scope": "Historical provenance snapshot for RAE mesh/startup, input-convention correction, CV operator and C02r6 audit; not full project acceptance",
+  "active_job_outputs_excluded": true,
+  "global_goal_complete": false,
+  "physical_validation_accepted": false,
+  "files": [
+    {
+      "path": "ESTADO-VERIFICACION-GLOBAL.md",
+      "bytes": 44541,
+      "sha256": "e9a55f54f6a2d0b52b5f6f405c11ef37781783473992bea1e6cb762fb437e967"
+    },
+    {
+      "path": "ejecucion/CONTINUACION-2026-11-03-RAE-R6.json",
+      "bytes": 1026,
+      "sha256": "7ab3c15717af2b98eee8912840895071fdc8b5c737d5b51a0ccd225dec4a48ca"
+    },
+    {
+      "path": "ejecucion/ESTADO-TAREAS.csv",
+      "bytes": 12322,
+      "sha256": "a45a1e4a338e3447bf180585978ea10af89fd558f9c910a77e05dc5a1c4cf6ce"
+    },
+    {
+      "path": "ejecucion/ESTIMACION-AVANCE-2026-11-03.json",
+      "bytes": 968,
+      "sha256": "e17968e7d5558271bc21d9328110fc26f169ed74d6f7ecc737fdfc710f43769a"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_cv_uniforme/AUDITORIA.json",
+      "bytes": 2863,
+      "sha256": "e091df19b2e9f809d4d8254b2e5ca09a53bc0eab6daf38c6bb6566abec91f42c"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_cv_uniforme/CONTENEDOR.json",
+      "bytes": 191,
+      "sha256": "d5be663a8d3f543130f24b9a7075c6cff9fca98e6e7dc6110719d41c52f01428"
+    },
+    {
+      "path": "ejecucion/G2/benchmark_cv_uniforme/INFORME.md",
+      "bytes": 2128,
+      "sha256": "8fc2dfa342d28506d9bbdfef8b83778d3d7a36674c63b7d7440ce9bd96348afa"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/ESTADO_ACTUAL.json",
+      "bytes": 1313,
+      "sha256": "dfead0e908ed2d17d9d0b896b2f322d1974ece97dd43a6b31a95de1a7e8a3035"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/INFORME-R6-TERMINADO.md",
+      "bytes": 3718,
+      "sha256": "0576ce223967542d37e7d0c63722c8eecc67c9f1a4695a84d626a6aa5533c40e"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_estacionario_guardado.py",
+      "bytes": 6487,
+      "sha256": "fddedf57f3fadf0ed26502e5d3ee3fca73c06d39684aa20ab0ccfef961eea278"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/balance_r6_280_300/BALANCE.json",
+      "bytes": 2359,
+      "sha256": "89fb95939ab0997bed48e4246a413981d78fea1bb0827bdbde509b9f729964cf"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/localizar_picos.py",
+      "bytes": 5032,
+      "sha256": "b102acf9404f647f54a9b6fb5c3845129d05391970e9967f88ec6c8a3c3beb12"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r6_presion_estricta/AUDITORIA_ARRANQUE.json",
+      "bytes": 10036,
+      "sha256": "fab92a654b8d31c732dc24a4330a8f785437a052e2b0f0bbaed0e4470851e2eb"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r6_presion_estricta/EJECUCION.json",
+      "bytes": 664,
+      "sha256": "87daec33ff70bc8d2e9698c864e5f572e6c2e4afec06d2101d29cb631440c7a1"
+    },
+    {
+      "path": "ejecucion/G2/flujo_C02_conducto/neutro_r6_presion_estricta/LOCALIZACION_PICOS_300.json",
+      "bytes": 10959,
+      "sha256": "7e52498e88492934f92ce5589ff94b8cb16ebab5ca1540f46593b58a455bd5c1"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/AUDITORIA_MALLAS.json",
+      "bytes": 2596,
+      "sha256": "d5856026849f207d8f120e6d638c62b15851955e9b72e16e0b6f711b4084f55a"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/COMPARACION-MALLAS.png",
+      "bytes": 1472686,
+      "sha256": "e6cfebc7c048cab78cccd8746727c520f54d36d92c2ceefcc847ea9d58a7a415"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/CONVENCION_CP_VERIFICADA.json",
+      "bytes": 1276,
+      "sha256": "4f41646a64994a232bba5d4223ffaec85133b55b65539351db0740ef7b5380df"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/INFORME.md",
+      "bytes": 7482,
+      "sha256": "91690c313f370087dae52ab61eea5f3be15de5dbe92561b4b612265ef595b0df"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/auditar_mallas.py",
+      "bytes": 2418,
+      "sha256": "0578d3f608864daa680ec286d6477f1ba10d2f425625f2b6fbc3e8b9a144c6f5"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/auditar_piloto.py",
+      "bytes": 10604,
+      "sha256": "82c89b588531f99ff823d7a6d8612afff3be22566a5083e42ebf71417e79ee76"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/convertir_malla.py",
+      "bytes": 4593,
+      "sha256": "cbcaaf4c5e3d599bc8c0c0c1bf805f67bfbe4cd6ff787f4376f036982374dd4d"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/ejecutar_piloto.py",
+      "bytes": 4964,
+      "sha256": "f0697f8cf9ec7a0e48f3ee5f2beb40bfc2d9c30ec2a6e77c45e7455fa95823df"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/graficar_cp.py",
+      "bytes": 1278,
+      "sha256": "b58da1be9908f7191cee94284c99f331fcb61e20c5baf993fd12ed32514eeb3d"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/observar_piloto.py",
+      "bytes": 1870,
+      "sha256": "c58062d95d78da914f42fa328fa3eba44be71e793a9c9c69bf594ba49fac6677"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r1/CONTENEDOR.json",
+      "bytes": 244,
+      "sha256": "0c976880e673731dccabfd372204a2af8692680b0a7d558f823ea1ed9181c0a9"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r1/Cp_experimental.csv",
+      "bytes": 5201,
+      "sha256": "e72d13df52992b266642efb1d5ea0693afe08be9c3bdbbffef38c4a74193d064"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r1/DIAGNOSTICO_NO_ORTOGONALIDAD.json",
+      "bytes": 11567,
+      "sha256": "2d072b797fab20254760acc1d935d63c9536dd7ebf4091e715ae5a27f16db2c8"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r1/ENTRADAS.json",
+      "bytes": 3187,
+      "sha256": "7076d3669bfa317b62dc671ed400f8773de425d3ccac5f4c63128967b770f529"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r1/MALLA.json",
+      "bytes": 1888,
+      "sha256": "22fa2b7210adc4e56135a6855945dd72a6416b4b1d7bea8be2c9989e9d11fe8d"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r1/MALLA_OPENFOAM.json",
+      "bytes": 826,
+      "sha256": "0df382fa5e0a002e6f741f89342d7dd4de55b93157f7bca2545af64e526127f3"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r2_hibrido/CONTENEDOR.json",
+      "bytes": 244,
+      "sha256": "f22b7af88896e862a6080e818c7a749cbc393072689f7bd53730a4f4f358dae2"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r2_hibrido/Cp_experimental.csv",
+      "bytes": 5201,
+      "sha256": "e72d13df52992b266642efb1d5ea0693afe08be9c3bdbbffef38c4a74193d064"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r2_hibrido/ENTRADAS.json",
+      "bytes": 3330,
+      "sha256": "314877c34a7459e65be889c1b3588204bca4b4c644f64c641ca5b4a7397826cb"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r2_hibrido/MALLA.json",
+      "bytes": 1266,
+      "sha256": "e813898dc274f766fb81ae74bef4669e14c2d65a743f9f6156ee5afd9182e7d3"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r2_hibrido/MALLA_OPENFOAM.json",
+      "bytes": 827,
+      "sha256": "79aea5d701b87da39e7471a9ff7c5384ae3434633368a0fea24fc4549e391021"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r3_hibrido_cap/CONTENEDOR.json",
+      "bytes": 244,
+      "sha256": "1dc0bd39af48a2192eb06c8c087671931661a5fe6f2f570ef0874efcb0c02897"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r3_hibrido_cap/Cp_experimental.csv",
+      "bytes": 5201,
+      "sha256": "e72d13df52992b266642efb1d5ea0693afe08be9c3bdbbffef38c4a74193d064"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r3_hibrido_cap/ENTRADAS.json",
+      "bytes": 3330,
+      "sha256": "314877c34a7459e65be889c1b3588204bca4b4c644f64c641ca5b4a7397826cb"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r3_hibrido_cap/MALLA.json",
+      "bytes": 1296,
+      "sha256": "9f36559850f0b11a104d8569169e05c8b658af954033098e0cd3fff1bed14512"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r3_hibrido_cap/MALLA_OPENFOAM.json",
+      "bytes": 827,
+      "sha256": "009ad076668eec9f0dd4491a051d8a7c7cef9746b20e28bda12d92774e1719f7"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/AUDITORIA_PILOTO.json",
+      "bytes": 4959,
+      "sha256": "0629d40554767ecc37017777b6058eff05a50f75eebfd6d6e10db038038b6667"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/AUDITORIA_PILOTO_r1_CONVENCION_INVALIDA.json",
+      "bytes": 4644,
+      "sha256": "b4169e587f28d54555108ddb4a80b330961dff47bde25099585422407b4f36df"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/CONTENEDOR.json",
+      "bytes": 243,
+      "sha256": "ff27d41d80b78f7ce29ff80032e26a25923b7b8894f4db21a1ad879a695762de"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/Cp_ARRANQUE_NO_VALIDADO.png",
+      "bytes": 114295,
+      "sha256": "fba170c6079669710e67513fd3ef662cab2366ce494ceeb075679eeaaea04215"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/Cp_ARRANQUE_NO_VALIDADO_r1_CONVENCION_INVALIDA.png",
+      "bytes": 115179,
+      "sha256": "1b4be6765a4e481c85919db84cd67fc0c376dc225ab5a735c13ce4893321c208"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/Cp_CONTRASTE_ARRANQUE.csv",
+      "bytes": 13053,
+      "sha256": "53e5dfd26566142818378d4d3480305d1a601b14929a93e1cc4893a7d228af9b"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/Cp_CONTRASTE_ARRANQUE_r1_CONVENCION_INVALIDA.csv",
+      "bytes": 13061,
+      "sha256": "3950c49694d0367f0abba1bcaa5c6f9c1b4f01a095117367500bd73f98ba04d0"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/Cp_experimental.csv",
+      "bytes": 5201,
+      "sha256": "e72d13df52992b266642efb1d5ea0693afe08be9c3bdbbffef38c4a74193d064"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/EJECUCION.json",
+      "bytes": 838,
+      "sha256": "1f22ce4d75336823d7dc3274af417ba3575249a27581f885b31797c1b2d7d6d5"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/ENTRADAS.json",
+      "bytes": 3330,
+      "sha256": "314877c34a7459e65be889c1b3588204bca4b4c644f64c641ca5b4a7397826cb"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/MALLA.json",
+      "bytes": 1350,
+      "sha256": "3a648eec0bf5f939499a6252d7947f155d458ecae6ea04ca498443ebdb8360e2"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/MALLA_OPENFOAM.json",
+      "bytes": 826,
+      "sha256": "d76a4b87845839506a0c78240d1dc9b5bfec94efff400f44ff8ca5be3cfec4fc"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r4_hibrido_resuelto/OBSERVACION_PROCESO.json",
+      "bytes": 804,
+      "sha256": "ec094a65c6f4bdaace86e3493dda78b49c26701d3b3ab857b7a81dfb3535b064"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r5_continuacion_Co1/DERIVACION.json",
+      "bytes": 1599,
+      "sha256": "fe9ab18f39d2b197a0fffc2820e77fe8fb9214084b234dd0e4681ffbe199c061"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r5_continuacion_Co1/ENTRADAS.json",
+      "bytes": 5354,
+      "sha256": "8f2fba0cdb1144ad36da9abaf10adfe4fdc86671fdaec7fd151201717a1c6945"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r5_continuacion_Co1/MALLA.json",
+      "bytes": 1350,
+      "sha256": "3a648eec0bf5f939499a6252d7947f155d458ecae6ea04ca498443ebdb8360e2"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/piloto_r5_continuacion_Co1/MALLA_OPENFOAM.json",
+      "bytes": 826,
+      "sha256": "d76a4b87845839506a0c78240d1dc9b5bfec94efff400f44ff8ca5be3cfec4fc"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/preparar_caso.py",
+      "bytes": 9471,
+      "sha256": "c72f988692e4d84b9eb54a9ddb7250b4751bec23b44ec676b0504f31e0653018"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/preparar_continuacion.py",
+      "bytes": 3615,
+      "sha256": "228582e1a76d1c5f877ca0cbc8ddc2af6df092034b3dccfdbb57350d268baf4f"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/preparar_malla.py",
+      "bytes": 6276,
+      "sha256": "2cce1086eb2993064694d684e978fbd097bd5f2ed1f129f1e159a8f9b39f9b34"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/preparar_malla_hibrida.py",
+      "bytes": 10074,
+      "sha256": "92b4fef26cf8db0b2210665601f8fa454335649243ab3ca095e872fb50933e25"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/verificar_convencion_cp.py",
+      "bytes": 2669,
+      "sha256": "677fdf4bc282ee43accf65c6eb256a7fde08d2b20499e5a3587eeb5cf6563eb3"
+    },
+    {
+      "path": "ejecucion/G4/RAE2822/visualizar_mallas.py",
+      "bytes": 1922,
+      "sha256": "23734daf99e6fbd558f14175e4ad9d68467b92e6a24e7cc344244f4e1245cff1"
+    },
+    {
+      "path": "fuentes/benchmark_RAE2822/cfpost.cp.com",
+      "bytes": 362,
+      "sha256": "c3428fe0bf128fd75f3ad715dc53ceafc0d27ddd2093d9278daaacc1eeee01a0"
+    },
+    {
+      "path": "fuentes/benchmark_RAE2822/cp.exp.gen",
+      "bytes": 7665,
+      "sha256": "739bbec6bd8775240bcf571fc8356701cab4c773c4e3d3b21deea5a3f627f001"
+    },
+    {
+      "path": "fuentes/benchmark_RAE2822/cp.wind.gen",
+      "bytes": 9240,
+      "sha256": "eb4371990d743e1fd66c97efde5f66d78109d72a771d23b967a2712d84f02d6c"
+    },
+    {
+      "path": "fuentes/benchmark_RAE2822/geom.txt",
+      "bytes": 1914,
+      "sha256": "0bef162c8778247a4746f02a1b487f33083a1ae80fdc82ea58afc259c87da736"
+    },
+    {
+      "path": "fuentes/benchmark_RAE2822/raetaf.x.fmt",
+      "bytes": 681185,
+      "sha256": "2318157ce20050a3f7c1a5dc208cbfd3d821108b618afb2e43fd4792ee4238ed"
+    },
+    {
+      "path": "fuentes/benchmark_RAE2822/run.sst.dat",
+      "bytes": 538,
+      "sha256": "d0a917efadbf893a00ccb4e9b7e0463be26dbe9777996d5c99bed707920d1737"
+    }
+  ]
+}

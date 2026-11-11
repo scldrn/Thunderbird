@@ -1,0 +1,120 @@
+{
+  "status": "inputs_recovered_and_parsed_no_solver_run",
+  "primary_catalog": "https://tmbwg.github.io/turbmodels/onerawingnumerics_val.html",
+  "catalog_migration_authority": "https://www.nasa.gov/nasa-turbulence-modeling-resource/",
+  "source_urls": {
+    "AileM6_with_sharp_TE.stp": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_grids/AileM6_with_sharp_TE.stp",
+    "case_2308.dat": "https://tmbwg.github.io/turbmodels/Onerawingnumerics_val/case_2308.dat"
+  },
+  "sha256": {
+    "AileM6_with_sharp_TE.stp": "0ed2862f3952d04b747b0f90e47062d059ff98b2e48933a323d1c6b66771a7bf",
+    "case_2308.dat": "020c5fcc58060737024eb87d9404f56bc563f3f6f15e337675c47477fa91f0d0"
+  },
+  "sections": [
+    {
+      "section": 1,
+      "eta": 0.2,
+      "taps": 34,
+      "original_header": "ZONE T=\",Run= 308, Mach= 0.8395, Alpha=  3.06, Re= 11.72x10**6, Section 1\", I=  34, F=POINT",
+      "Cp_range": [
+        -1.0692,
+        0.80147
+      ]
+    },
+    {
+      "section": 2,
+      "eta": 0.44,
+      "taps": 34,
+      "original_header": "ZONE T=\",Run= 308, Mach= 0.8395, Alpha=  3.06, Re= 11.72x10**6, Section 2\", I=  34, F=POINT",
+      "Cp_range": [
+        -1.1275,
+        0.78053
+      ]
+    },
+    {
+      "section": 3,
+      "eta": 0.65,
+      "taps": 34,
+      "original_header": "ZONE T=\",Run= 308, Mach= 0.8395, Alpha=  3.06, Re= 11.72x10**6, Section 3\", I=  34, F=POINT",
+      "Cp_range": [
+        -1.1814,
+        0.75249
+      ]
+    },
+    {
+      "section": 4,
+      "eta": 0.8,
+      "taps": 34,
+      "original_header": "ZONE T=\",Run= 308, Mach= 0.8395, Alpha=  3.06, Re= 11.72x10**6, Section 4\", I=  34, F=POINT",
+      "Cp_range": [
+        -1.2058,
+        0.75242
+      ]
+    },
+    {
+      "section": 5,
+      "eta": 0.9,
+      "taps": 45,
+      "original_header": "ZONE T=\",Run= 308, Mach= 0.8395, Alpha=  3.06, Re= 11.72x10**6, Section 5\", I=  45, F=POINT",
+      "Cp_range": [
+        -1.194,
+        0.72573
+      ]
+    },
+    {
+      "section": 6,
+      "eta": 0.96,
+      "taps": 45,
+      "original_header": "ZONE T=\",Run= 308, Mach= 0.8395, Alpha=  3.06, Re= 11.72x10**6, Section 6\", I=  45, F=POINT",
+      "Cp_range": [
+        -1.2271,
+        0.69042
+      ]
+    },
+    {
+      "section": 7,
+      "eta": 0.99,
+      "taps": 45,
+      "original_header": "ZONE T=\",Run= 308, Mach= 0.8395, Alpha=  3.06, Re= 11.72x10**6, Section 7\", I=  45, F=POINT",
+      "Cp_range": [
+        -1.2913,
+        0.63624
+      ]
+    }
+  ],
+  "pressure_taps": 271,
+  "CAD": {
+    "valid": true,
+    "units": "mm",
+    "solids": 1,
+    "faces": 11,
+    "bbox_mm": {
+      "x": [
+        -1.0000000784145698e-07,
+        1146.570404444566
+      ],
+      "y": [
+        -1.0000026563196087e-07,
+        1218.4813088712144
+      ],
+      "z": [
+        -39.43236880144951,
+        39.43236387984512
+      ]
+    }
+  },
+  "proposed_TMR_case": {
+    "Mach": 0.84,
+    "alpha_deg": 3.06,
+    "Re_root_sharp": 14600000.0,
+    "T_K": 300
+  },
+  "must_preserve": [
+    "Original data header Mach=.8395, Re_MAC=11.72e6; TMR exercise uses .84 and sharp-root Reynolds 14.6e6. Do not mix definitions.",
+    "Downloaded geometry has sharp trailing edge; original experiment has finite trailing edge. Declare this geometry discrepancy.",
+    "Sixth span station is eta=.96 in current TMR interpretation; not .95.",
+    "Available comparison is experimental Cp, not measured total lift/drag/moments.",
+    "This wing is a solver benchmark; no direct transfer to A07 or its critical Mach/drag.",
+    "Mesh, wall treatment, turbulence model and convergence/cost pilot remain pending."
+  ]
+}

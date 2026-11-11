@@ -1,0 +1,108 @@
+{
+  "name": "base_2kg_cono_40deg",
+  "mass_assumed_kg": 2.0,
+  "scale": 0.7368062997280773,
+  "CG_assumed_m": [
+    0,
+    0,
+    0
+  ],
+  "positions_m": [
+    [
+      -0.20630576392386166,
+      -0.047892409482325024,
+      0.04273476538422848
+    ],
+    [
+      -0.20630576392386166,
+      0.047892409482325024,
+      0.04273476538422848
+    ],
+    [
+      0.209989795422502,
+      -0.047892409482325024,
+      0.04273476538422848
+    ],
+    [
+      0.209989795422502,
+      0.047892409482325024,
+      0.04273476538422848
+    ]
+  ],
+  "lateral_force_lever_z_fx_m": [
+    -0.029472251989123094,
+    -0.029472251989123094,
+    -0.029472251989123094,
+    -0.029472251989123094
+  ],
+  "lateral_force_lever_z_fy_m": [
+    -0.008841675596736927,
+    -0.008841675596736927,
+    -0.008841675596736927,
+    -0.008841675596736927
+  ],
+  "lateral_lever_model": "Hypothetical constant lever arms; real vane/duct free couples and centers of pressure are unknown.",
+  "attitude_scope": "Upright body; three-axis acceleration about hover",
+  "additional_acceleration_bound_g": 0.5,
+  "force_ball_center_N": [
+    0.0,
+    0.0,
+    19.6133
+  ],
+  "force_ball_radius_N": 9.80665,
+  "torque_component_bound_Nm": 0.10857670466379626,
+  "preload_signed_vertical_force_N": 0.4,
+  "effective_cone_half_angle_deg": 40.0,
+  "inverse_capacity_ratio": 1.0,
+  "fixed_sign_pattern": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "positive_force_capacity_sufficient_N": 8.028609473847565,
+  "negative_force_capacity_sufficient_N": null,
+  "force_vertices": 192,
+  "joint_vertices_checked": 1536,
+  "force_outer_polytope_max_radius_factor": 1.0494174288145504,
+  "max_wrench_equilibrium_residual_N_or_Nm_per_m": 3.391527059193322e-09,
+  "max_convex_combination_residual_N_or_Nm": 2.6911450845545914e-10,
+  "worst_vertex_wrench_N_Nm": [
+    -2.0929525545186425,
+    2.315036031550857,
+    29.419950000009806,
+    -0.10857670466379626,
+    -0.10857670466379626,
+    -0.10857670466379626
+  ],
+  "worst_vertex_force_vectors_N": [
+    [
+      0.0,
+      0.0,
+      8.028609393563817
+    ],
+    [
+      -1.7743707580046222,
+      1.6693600796124108,
+      6.402552354879407
+    ],
+    [
+      0.0,
+      0.0,
+      8.028609393557211
+    ],
+    [
+      -0.31858179651090945,
+      0.6456759519371277,
+      6.960178857994606
+    ]
+  ],
+  "max_force_cancellation_fraction_in_saved_allocations": 0.06639775094209033,
+  "moment_error_bound_for_example_8mm_independent_lateral_lever_errors_Nm": [
+    0.07845320000101787,
+    0.07845320000684265
+  ],
+  "elapsed_calculation_s": 5.015149500017287,
+  "coverage": "Continuous force ball times torque box sufficient in declared ideal fixed-sign convex model; conservative capacity, not exact optimum.",
+  "hardware_validated": false
+}

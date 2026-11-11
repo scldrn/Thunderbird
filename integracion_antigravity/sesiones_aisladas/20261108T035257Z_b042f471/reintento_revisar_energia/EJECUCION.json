@@ -1,0 +1,30 @@
+{
+  "tarea": "reintento_revisar_energia",
+  "inicio_utc": "2026-11-08T03:52:57.098719+00:00",
+  "workspace_temporal": "/private/tmp/aero_20261108T035257Z_b042f471_ottqcod9/reintento_revisar_energia",
+  "entradas_sha256": {
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/sensibilidad_ley_arrastre.py": "0ad484f856c3c6ce4b994a276679ec6c0a720426c5c76be6efbc15a81deeacb1",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/test_sensibilidad.py": "a9a010d6a83eb652b7867702683005a82587911aef06eb39cae61fea96444f07",
+    "investigacion-aeronautica/integracion_antigravity/sesiones_aisladas/20261108T032826Z_13ced8ae/energia_ley_arrastre/salidas/REPORTE_SENSIBILIDAD_ARRASTRE.md": "f0ece77916341bc4740bfc449f3bb228d7b35df7282f34a533e92506e9f1050c",
+    "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/calcular_r2.py": "73d70339ce0ce124d239c22a4cde8282b85f77becb0d163c138301066cd3b67a",
+    "investigacion-aeronautica/ejecucion/G1/potencia_simultanea_c02/INFORME.md": "d7b724afd7b48b7058a1d1969afa4b869f14629d709d72e30f3170f03ee1627a"
+  },
+  "instruccion_sha256": "e024baee32d4cb498d296940487af73b7e06984bb0e17bcd4bbf220ec92185aa",
+  "errores_locales": [
+    "[Errno 1] Operation not permitted"
+  ],
+  "entradas_modificadas": [],
+  "fin_utc": "2026-11-08T04:01:16.460836+00:00",
+  "duracion_real_s": 499.367,
+  "exito_tecnico": false,
+  "requiere_revision": true,
+  "entregables_sha256": {
+    "test_sensibilidad.py": "66bcc53254d3e6fab460e95156fc6700334fd07887ba97c68eae30bc3fae59b0",
+    "sensibilidad_ley_arrastre.py": "0ad484f856c3c6ce4b994a276679ec6c0a720426c5c76be6efbc15a81deeacb1",
+    "REVISION.md": "f63941c44e48043708946c53a48357a31304bf600a0a6391a00c3adb92ba9a87",
+    "REPORTE_SENSIBILIDAD_ARRASTRE.md": "add1f92aa77a54a2b1940bf0875f7c4c8363c19243d04fb4f3e3fcfe5bc4588e",
+    "tabla_sensibilidad_completa.csv": "115766ca1e4eafb0aecc0a9ad63cafb1923399807f3365658f36acfd3f03356e",
+    "tabla_comparacion_casos.csv": "c0208fe8d1b02577b60e3e162df1cda2dfc2aa7fc8ae3ceeb8a948852fd981c2",
+    "resultados_sensibilidad.json": "d884942c62d379c21e05016fc4716dc585437edd30c79e084e535f04950ba75d"
+  }
+}

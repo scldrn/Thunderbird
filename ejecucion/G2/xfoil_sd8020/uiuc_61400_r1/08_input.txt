@@ -1,0 +1,16 @@
+PLOP
+G
+
+LOAD /tmp/sd8020.dat
+PANE
+OPER
+VISC 61400
+MACH 0
+ITER 200
+PACC
+/tmp/uiuc_08.txt
+
+ALFA 5.89
+PACC
+
+QUIT

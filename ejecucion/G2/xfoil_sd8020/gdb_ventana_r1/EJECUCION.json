@@ -1,0 +1,14 @@
+{
+  "scope": "Debugger inspection of first headless failure; not a scientific validation",
+  "image_id": "sha256:41c3413d7d962c8b6e1d09072539e99561ecbc2413a3365d65ba3298e300e0e3",
+  "input_sha256": "849c22cf28b38523d8cd31a45d5854da00cd3d9986e606d41a0c35fcc5017670",
+  "script_sha256": "10395edf13f971aa71454950349d31d88dca0b77e963cd491fa8ae2bed1f7107",
+  "created_UTC": "2026-11-05T02:25:16.356993+00:00",
+  "physical_acceptance": false,
+  "container_id": "7faf11e2f2a9f525c054a89ea7442189e56bbb1106007c8d594d830f4cb64eae",
+  "gdb_exit_code": 0,
+  "signal_observed": true,
+  "ptrace_denied": true,
+  "log_sha256": "954ff4af09cea1bbb5e5cc2035a63156a54e761f45f6dd135eebb93637e20be1",
+  "stop_exit_code": 0
+}

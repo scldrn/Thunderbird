@@ -1,0 +1,215 @@
+{
+  "scope": "isolated execution, not physical validation",
+  "results": [
+    {
+      "script": "ala_anular.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "auditoria_masa_consolidada.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "calcular.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "cargas_pala_buje.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "cierre_masa.py",
+      "status": "passed",
+      "changed_existing": [
+        "candidato_dinamica_CONDICIONAL.json",
+        "cierre_masa_iterativo_CONDICIONAL.csv",
+        "verificacion_cierre_masa.json"
+      ],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "comparacion_integrada.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "comparar_candidatos.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "componentes_5kg.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "contraste_nasa_presiones.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "control.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "dibujar_estado_actual.py",
+      "status": "passed",
+      "changed_existing": [
+        "dibujo_estado_actual_5_y_10kg.svg"
+      ],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "dibujar_palas.py",
+      "status": "passed",
+      "changed_existing": [
+        "comparacion_detallada_palas.pdf",
+        "comparacion_detallada_palas.svg"
+      ],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "dinamica.py",
+      "status": "passed",
+      "changed_existing": [
+        "dinamica_6DOF_CONDICIONAL.csv",
+        "verificacion_dinamica.json"
+      ],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "energia_control.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "espacio_rotores.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "estructura_preliminar.py",
+      "status": "passed",
+      "changed_existing": [
+        "estructura_preliminar_RESUMEN.json"
+      ],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "evaluacion_rotor_completo.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "familia.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "limite_cobertura.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "modulo_reversible.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "optimizar_potencia_5kg.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "pala_referencia.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "polar_experimental.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "reaccion_rotores.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "robustez.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "tomas_y_empuje.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "transicion_sustentacion.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    },
+    {
+      "script": "trimado_superficies.py",
+      "status": "passed",
+      "changed_existing": [],
+      "new_outputs": [],
+      "error": null
+    }
+  ]
+}

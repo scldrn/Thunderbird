@@ -1,0 +1,194 @@
+{
+  "requirements": [
+    {
+      "acceleration_g": 0.5,
+      "negative_positive_ratio": 1.0,
+      "required_positive_N": 29.68422678004104,
+      "required_negative_N": 29.68422678004104
+    },
+    {
+      "acceleration_g": 0.5,
+      "negative_positive_ratio": 0.8,
+      "required_positive_N": 32.982474200045594,
+      "required_negative_N": 26.385979360036476
+    },
+    {
+      "acceleration_g": 0.5,
+      "negative_positive_ratio": 0.6,
+      "required_positive_N": 37.1052834750513,
+      "required_negative_N": 22.26317008503078
+    },
+    {
+      "acceleration_g": 1.0,
+      "negative_positive_ratio": 1.0,
+      "required_positive_N": 38.94127010230191,
+      "required_negative_N": 38.94127010230191
+    },
+    {
+      "acceleration_g": 1.0,
+      "negative_positive_ratio": 0.8,
+      "required_positive_N": 43.26807789144656,
+      "required_negative_N": 34.61446231315725
+    },
+    {
+      "acceleration_g": 1.0,
+      "negative_positive_ratio": 0.6,
+      "required_positive_N": 48.67658762787738,
+      "required_negative_N": 29.20595257672643
+    }
+  ],
+  "battery_sensitivity": [
+    {
+      "acceleration_g": 0.5,
+      "parallel": 1,
+      "Voc_cell": 3.4,
+      "cell_A": 45.88725057022645,
+      "pack_V": 33.75171831241322,
+      "ohmic_heat_W": 323.42626788783326,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 20.787876949201923
+    },
+    {
+      "acceleration_g": 0.5,
+      "parallel": 1,
+      "Voc_cell": 3.7,
+      "cell_A": 40.57875575988641,
+      "pack_V": 38.16710311528145,
+      "ohmic_heat_W": 252.92320036155107,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 26.58255727185541
+    },
+    {
+      "acceleration_g": 0.5,
+      "parallel": 1,
+      "Voc_cell": 4.1,
+      "cell_A": 35.38901373085419,
+      "pack_V": 43.76424749094079,
+      "ohmic_heat_W": 192.3659201806213,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 34.95081380672327
+    },
+    {
+      "acceleration_g": 0.5,
+      "parallel": 2,
+      "Voc_cell": 3.4,
+      "cell_A": 20.57356035631317,
+      "pack_V": 37.6399011292703,
+      "ohmic_heat_W": 130.02896969774926,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 25.853259756730463
+    },
+    {
+      "acceleration_g": 0.5,
+      "parallel": 2,
+      "Voc_cell": 3.7,
+      "cell_A": 18.643595153896538,
+      "pack_V": 41.53634378436149,
+      "ohmic_heat_W": 106.77769428860758,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 31.482911781272747
+    },
+    {
+      "acceleration_g": 0.5,
+      "parallel": 2,
+      "Voc_cell": 4.1,
+      "cell_A": 16.599836593452125,
+      "pack_V": 46.65026509924574,
+      "ohmic_heat_W": 84.65036541828472,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 39.71244203004713
+    },
+    {
+      "acceleration_g": 1,
+      "parallel": 1,
+      "Voc_cell": 3.4,
+      "cell_A": 85.27676721606412,
+      "pack_V": 27.70148855561255,
+      "ohmic_heat_W": 1116.99871131998,
+      "within_60A": false,
+      "voltage_squared_thrust_sensitivity_N": 14.003112415259157
+    },
+    {
+      "acceleration_g": 1,
+      "parallel": 1,
+      "Voc_cell": 3.7,
+      "cell_A": 70.30343875907589,
+      "pack_V": 33.601391806605946,
+      "ohmic_heat_W": 759.1792898075342,
+      "within_60A": false,
+      "voltage_squared_thrust_sensitivity_N": 20.603115406742315
+    },
+    {
+      "acceleration_g": 1,
+      "parallel": 1,
+      "Voc_cell": 4.1,
+      "cell_A": 58.81272455748216,
+      "pack_V": 40.16636550797074,
+      "ohmic_heat_W": 531.2926571326872,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 29.44038151539318
+    },
+    {
+      "acceleration_g": 1,
+      "parallel": 2,
+      "Voc_cell": 3.4,
+      "cell_A": 33.065805699998876,
+      "pack_V": 35.721092244480175,
+      "ohmic_heat_W": 335.876354024472,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 23.28454851747865
+    },
+    {
+      "acceleration_g": 1,
+      "parallel": 2,
+      "Voc_cell": 3.7,
+      "cell_A": 29.642063850517772,
+      "pack_V": 39.846978992560466,
+      "ohmic_heat_W": 269.9218788305426,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 28.97404721336618
+    },
+    {
+      "acceleration_g": 1,
+      "parallel": 2,
+      "Voc_cell": 4.1,
+      "cell_A": 26.140328253401613,
+      "pack_V": 45.18484558027751,
+      "ohmic_heat_W": 209.9149090392842,
+      "within_60A": true,
+      "voltage_squared_thrust_sensitivity_N": 37.256664126191446
+    }
+  ],
+  "budget_assumptions_kg": {
+    "engine": 1.08,
+    "motors": 1.024,
+    "fuel": 0.156,
+    "skin": 0.35,
+    "arms_locks": 0.25,
+    "avionics_wiring": 0.2,
+    "engine_installation": 0.15,
+    "contingency": 0.25
+  },
+  "module_budget": [
+    {
+      "parallel": 1,
+      "pack_kg": 0.9797999999999998,
+      "fixed_budget_kg": 3.4600000000000004,
+      "remaining_for_8_ESC_prop_hub_servo_kg": 0.5601999999999998,
+      "per_module_g": 70.02499999999998
+    },
+    {
+      "parallel": 2,
+      "pack_kg": 1.9595999999999996,
+      "fixed_budget_kg": 3.4600000000000004,
+      "remaining_for_8_ESC_prop_hub_servo_kg": -0.4196,
+      "per_module_g": -52.449999999999996
+    }
+  ],
+  "notes": [
+    "1Nm torque ball",
+    "power is sampled old model, not worst-case guarantee",
+    "R constant at nominal datasheet condition; no SOC or thermal dynamics",
+    "V squared thrust is hypothetical fixed-pitch rpm scaling; not a VP map"
+  ]
+}
